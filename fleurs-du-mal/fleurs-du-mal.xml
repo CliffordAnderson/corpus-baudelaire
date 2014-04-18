@@ -10,6 +10,7 @@
             <author>Charles Baudelaire</author>
 			<respStmt>
 			<resp>Encoded by</resp>
+			<name xml:id="CB">Chris Benda</name>
 			<name xml:id="RVR">Ramona V. Romero</name>
 			</respStmt>
          </titleStmt>
