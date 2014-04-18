@@ -8,19 +8,13 @@
          <titleStmt>
             <title>Les Fleurs du Mal</title>
             <author>Charles Baudelaire</author>
-<<<<<<< HEAD
             <respStmt>
                <resp>Encoded by</resp>
-               <name xml:id="RVR">Ramona V. Romero</name>
                <name xml:id="CBA">Clifford B. Anderson</name>
+               <name xml:id="CB">Chris Benda</name>
+               <name xml:id="RVR">Ramona V. Romero</name>
+               <name xml:id="EW">Ed Warga</name>
             </respStmt>
-=======
-			<respStmt>
-			<resp>Encoded by</resp>   
-			<name xml:id="RVR">Ramona V. Romero</name>
-			<name xml:id="EW">Ed Warga</name>
-			</respStmt>
->>>>>>> pr/5
          </titleStmt>
          <publicationStmt>
             <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
