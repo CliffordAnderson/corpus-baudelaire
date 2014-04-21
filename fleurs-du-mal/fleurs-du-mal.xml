@@ -8,7 +8,6 @@
          <titleStmt>
             <title>Les Fleurs du Mal</title>
             <author>Charles Baudelaire</author>
-<<<<<<< HEAD
             <respStmt>
                <resp>Encoded by</resp>
                <name xml:id="CBA">Clifford B. Anderson</name>
@@ -17,13 +16,6 @@
                <name xml:id="RVR">Ramona V. Romero</name>
                <name xml:id="EW">Ed Warga</name>
             </respStmt>
-=======
-			<respStmt>
-			<resp>Encoded by</resp>   
-			<name xml:id="RVR">Ramona V. Romero</name>
-			<name xml:id="EW">Ed Warga</name>
-			</respStmt>
->>>>>>> pr/5
          </titleStmt>
          <publicationStmt>
             <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
@@ -295,38 +287,38 @@
                l'archer; Exilé sur le sol au milieu des huées, Ses ailes de géant l'empêchent de
                marcher. </p>
             <p/>
-			<lg type="poem">
-            <head>ELEVATION</head>
-            <lg type="stanza" n="1">
-				<l n="1">Au-dessus des étangs, au-dessus des vallées,</l>
-				<l n="2">Des montagnes, des bois, des nuages,des mers,</l>
-				<1 n="3">Par delà le soleil, par delà les éthers,</l>
-				<l n="4">Par delà les confins des sphèresétoilées, </l>
-		   </lg>
-		   <lg type="stanza" n="2">
-				<l n="5">Mon esprit, tu te meus avec agilité,</l>
-				<l n="6">Et, comme un bon nageur qui se pâme dans l'onde,</l>
-				<l n="7">Tu sillonnes gaîment l'immensité profonde</l>
-				<l n="8">Avec une indicible et mâle volupté.</l>
-		   </lg>
-		   <lg type="stanza" n="3">
-				<l n="9">Envole-toi bien loin de ces miasmes morbides,</l>
-				<l n="10">Va te purifier dans l'air supérieur,</l>
-				<l n="11">Et bois, comme une pure et divine liqueur,</l>
-				<l n="12">Le feu clair qui remplit les espaces limpides.</l>
-		   </lg>
-		   <lg type="stanza" n="4">
-				<l n="13">Derrière les ennuis et les vastes chagrins</l>
-				<l n="14">Qui chargent de leur poids l'existence brumeuse,</l>
-				<l n="15">Heureux celui qui peut d'une aile vigoureuse,</l>
-				<l n="16">S'élancer vers les champs lumineux et sereins!</l>
-		   </lg>
-		   <lg type="stanza" n="5">
-				<l n="17">Celui dont les pensers, comme des alouettes,</l>
-				<l n="18">Vers les cieux le matin prennent un libre essor,</l>
-				<l n="19">--Qui plane sur la vie et comprend sans effort</l>
-				<l n="20">Le langage des fleurs et des choses muettes!</l>
-		   </lg>
+            <lg type="poem">
+               <head>ELEVATION</head>
+               <lg type="stanza" n="1">
+                  <l n="1">Au-dessus des étangs, au-dessus des vallées,</l>
+                  <l n="2">Des montagnes, des bois, des nuages,des mers,</l>
+                  <l n="3">Par delà le soleil, par delà les éthers,</l>
+                  <l n="4">Par delà les confins des sphèresétoilées, </l>
+               </lg>
+               <lg type="stanza" n="2">
+                  <l n="5">Mon esprit, tu te meus avec agilité,</l>
+                  <l n="6">Et, comme un bon nageur qui se pâme dans l'onde,</l>
+                  <l n="7">Tu sillonnes gaîment l'immensité profonde</l>
+                  <l n="8">Avec une indicible et mâle volupté.</l>
+               </lg>
+               <lg type="stanza" n="3">
+                  <l n="9">Envole-toi bien loin de ces miasmes morbides,</l>
+                  <l n="10">Va te purifier dans l'air supérieur,</l>
+                  <l n="11">Et bois, comme une pure et divine liqueur,</l>
+                  <l n="12">Le feu clair qui remplit les espaces limpides.</l>
+               </lg>
+               <lg type="stanza" n="4">
+                  <l n="13">Derrière les ennuis et les vastes chagrins</l>
+                  <l n="14">Qui chargent de leur poids l'existence brumeuse,</l>
+                  <l n="15">Heureux celui qui peut d'une aile vigoureuse,</l>
+                  <l n="16">S'élancer vers les champs lumineux et sereins!</l>
+               </lg>
+               <lg type="stanza" n="5">
+                  <l n="17">Celui dont les pensers, comme des alouettes,</l>
+                  <l n="18">Vers les cieux le matin prennent un libre essor,</l>
+                  <l n="19">--Qui plane sur la vie et comprend sans effort</l>
+                  <l n="20">Le langage des fleurs et des choses muettes!</l>
+               </lg>
             </lg>
             <p> LES PHARES </p>
             <p/>
