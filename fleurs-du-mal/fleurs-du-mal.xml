@@ -291,8 +291,8 @@
             <lg type="poem">
                <head>ELEVATION</head>
                <lg type="stanza" n="1">
-                  <l n="1">Au-dessus des étangs, au-dessus des vallées,</l>
-                  <l n="2">Des montagnes, des bois, des nuages,des mers,</l>
+                  <l n="1">Au-dessus des étangs, au-dessus des <rhyme label="a">vallées</rhyme>,</l>
+                  <l n="2">Des montagnes, des bois, des nuages,des <rhyme label="b">mers</rhyme>,</l>
                   <l n="3">Par delà le soleil, par delà les éthers,</l>
                   <l n="4">Par delà les confins des sphèresétoilées, </l>
                </lg>
