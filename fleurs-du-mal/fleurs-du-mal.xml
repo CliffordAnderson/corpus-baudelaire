@@ -288,37 +288,37 @@
                marcher. </p>
             <p/>
 			<div>
-            <lg type="poem">
+            <lg type="poem" rhyme="abbacddceffeghhgijji">
                <head>ELEVATION</head>
-               <lg type="stanza" n="1">
+               <lg type="stanza" n="1" rhyme="abba">
                   <l n="1">Au-dessus des étangs, au-dessus des <rhyme label="a">vallées</rhyme>,</l>
                   <l n="2">Des montagnes, des bois, des nuages,des <rhyme label="b">mers</rhyme>,</l>
-                  <l n="3">Par delà le soleil, par delà les éthers,</l>
-                  <l n="4">Par delà les confins des sphèresétoilées, </l>
+                  <l n="3">Par delà le soleil, par delà les <rhyme label="b">éthers</rhyme>,</l>
+                  <l n="4">Par delà les confins des sphères <rhyme label="a">étoilées</rhyme>, </l>
                </lg>
-               <lg type="stanza" n="2">
-                  <l n="5">Mon esprit, tu te meus avec agilité,</l>
-                  <l n="6">Et, comme un bon nageur qui se pâme dans l'onde,</l>
-                  <l n="7">Tu sillonnes gaîment l'immensité profonde</l>
-                  <l n="8">Avec une indicible et mâle volupté.</l>
+               <lg type="stanza" n="2" rhyme="cddc">
+                  <l n="5">Mon esprit, tu te meus avec <rhyme label="c">agilité</rhyme>,</l>
+                  <l n="6">Et, comme un bon nageur qui se pâme dans <rhyme label="d">l'onde</rhyme>,</l>
+                  <l n="7">Tu sillonnes gaîment l'immensité <rhyme label="d">profonde</rhyme></l>
+                  <l n="8">Avec une indicible et mâle <rhyme label="c">volupté</rhyme>.</l>
                </lg>
-               <lg type="stanza" n="3">
-                  <l n="9">Envole-toi bien loin de ces miasmes morbides,</l>
-                  <l n="10">Va te purifier dans l'air supérieur,</l>
-                  <l n="11">Et bois, comme une pure et divine liqueur,</l>
-                  <l n="12">Le feu clair qui remplit les espaces limpides.</l>
+               <lg type="stanza" n="3" rhyme="effe">
+                  <l n="9">Envole-toi bien loin de ces miasmes <rhyme label="e">morbides</rhyme>,</l>
+                  <l n="10">Va te purifier dans l'air <rhyme label="f">supérieur</rhyme>,</l>
+                  <l n="11">Et bois, comme une pure et divine <rhyme label="f">liqueur</rhyme>,</l>
+                  <l n="12">Le feu clair qui remplit les espaces <rhyme label="e">limpides</rhyme>.</l>
                </lg>
-               <lg type="stanza" n="4">
-                  <l n="13">Derrière les ennuis et les vastes chagrins</l>
-                  <l n="14">Qui chargent de leur poids l'existence brumeuse,</l>
-                  <l n="15">Heureux celui qui peut d'une aile vigoureuse,</l>
-                  <l n="16">S'élancer vers les champs lumineux et sereins!</l>
+               <lg type="stanza" n="4" rhyme="ghhg">
+                  <l n="13">Derrière les ennuis et les vastes <rhyme label="g">chagrins</rhyme></l>
+                  <l n="14">Qui chargent de leur poids l'existence <rhyme label="h">brumeuse</rhyme>,</l>
+                  <l n="15">Heureux celui qui peut d'une aile <rhyme label="h">vigoureuse</rhyme>,</l>
+                  <l n="16">S'élancer vers les champs lumineux et <rhyme label="g">sereins!</rhyme></l>
                </lg>
-               <lg type="stanza" n="5">
-                  <l n="17">Celui dont les pensers, comme des alouettes,</l>
-                  <l n="18">Vers les cieux le matin prennent un libre essor,</l>
-                  <l n="19">--Qui plane sur la vie et comprend sans effort</l>
-                  <l n="20">Le langage des fleurs et des choses muettes!</l>
+               <lg type="stanza" n="5" rhyme="ijji">
+                  <l n="17">Celui dont les pensers, comme des <rhyme label="i">alouettes</rhyme>,</l>
+                  <l n="18">Vers les cieux le matin prennent un libre <rhyme label="j">essor</rhyme>,</l>
+                  <l n="19">--Qui plane sur la vie et comprend sans <rhyme label="j">effort</rhyme></l>
+                  <l n="20">Le langage des fleurs et des choses <rhyme label="i">muettes</rhyme>!</l>
                </lg>
             </lg>
 			</div>
