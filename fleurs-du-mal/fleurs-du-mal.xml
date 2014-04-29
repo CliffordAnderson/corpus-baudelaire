@@ -12,6 +12,7 @@
                <resp>Encoded by</resp>
                <name xml:id="CBA">Clifford B. Anderson</name>
                <name xml:id="CB">Chris Benda</name>
+			   <name xml:id="ZB">Zora Breeding</name>
                <name xml:id="TFH">Todd F. Hughes</name>
                <name xml:id="RVR">Ramona V. Romero</name>
                <name xml:id="EW">Ed Warga</name>
@@ -212,66 +213,128 @@
                son houka. Tu le connais, lecteur, ce monstre délicat, --Hypocrite lecteur,--mon
                semblable,--mon frère! </p>
             <p/>
-            <p> SPLEEN ET IDÉAL </p>
-            <p> BENEDICTION </p>
-            <p/>
-            <p> Lorsque, par un décret des puissances suprêmes, Le Poète apparaît en ce monde
-               ennuyé, Sa mère épouvantée et pleine de blasphèmes Crispe ses poings vers Dieu, qui
-               la prend en pitié: </p>
-            <p> « Ah! que n'ai-je mis bas tout un noeud de vipères, Plutôt que de nourrir cette
-               dérision! Maudite soit la nuit aux plaisirs éphémères Où mon ventre a conçu mon
-               expiation! </p>
-            <p> « Puisque tu m'as choisie entre toutes les femmes Pour être le dégoût de mon triste
-               mari, Et que je ne puis pas rejeter dans les flammes, Comme un billet d'amour, ce
-               monstre rabougri, </p>
-            <p> « Je ferai rejaillir la haine qui m'accable Sur l'instrument maudit de tes
-               méchancetés, Et je tordrai si bien cet arbre misérable, Qu'il ne pourra poussa ses
-               boutons empestés! » </p>
-            <p> Elle ravale ainsi l'écume de sa haine, Et, ne comprenant pas les desseins éternels,
-               Elle-même prépare au fond de la Géhenne Les bûchers consacrés aux crimes maternels. </p>
-            <p> Pourtant, sous la tutelle invisible d'un Ange, L'Enfant déshérité s'enivre de
-               soleil, Et dans tout ce qu'il boit et dans tout ce qu'il mange Retrouve l'ambroisie
-               et le nectar vermeil. </p>
-            <p> Il joue avec le vent, cause avec le nuage Et s'enivre en chantant du chemin de la
-               croix; Et l'Esprit qui le suit dans son pèlerinage Pleure de le voir gai comme un
-               oiseau des bois. </p>
-            <p> Tous ceux qu'il veut aimer l'observent avec crainte, Ou bien, s'enhardissant de sa
-               tranquillité, Cherchent à qui saura lui tirer une plainte, Et font sur lui l'essai de
-               leur férocité. </p>
-            <p> Dans le pain et le vin destinés à sa bouche Ils mêlent de la cendre avec d'impurs
-               crachats; Avec hypocrisie ils jettent ce qu'il touche, Et s'accusent d'avoir mis
-               leurs pieds dans ses pas. </p>
-            <p> Sa femme va criant sur les places publiques: « Puisqu'il me trouve assez belle pour
-               m'adorer, Je ferai le métier des idoles antiques, Et comme elles je veux me faire
-               redorer; </p>
-            <p> « Et je me soûlerai de nard, d'encens, de myrrhe, De génuflexions, de viandes et de
-               vins, Pour savoir si je puis dans un coeur qui m'admire Usurper en riant les hommages
-               divins! </p>
-            <p> « Et, quand je m'ennuîrai de ces farces impies, Je poserai sur lui ma frêle et forte
-               main; Et mes ongles, pareils aux ongles des harpies, Sauront jusqu'à son coeur se
-               frayer un chemin. </p>
-            <p> « Comme un tout jeune oiseau qui tremble et qui palpite, J'arracherai ce coeur tout
-               rouge de son sein, Et, pour rassasier ma bête favorite, Je le lui jetterai par terre
-               avec dédain! » </p>
-            <p> Vers le Ciel, où son oeil voit un trône splendide, Le Poète serein lève ses bras
-               pieux, Et les vastes éclairs de son esprit lucide Lui dérobent l'aspect des peuples
-               furieux: </p>
-            <p> « Soyez béni, mon Dieu, qui donnez la souffrance Comme un divin remède à nos
-               impuretés, Et comme la meilleure et la plus pure essence Qui prépare les forts aux
-               saintes voluptés! </p>
-            <p> « Je sais que vous gardez une place au Poète Dans les rangs bienheureux des saintes
-               Légions, Et que vous l'invitez à l'éternelle fête Des Trônes, des Vertus, des
-               Dominations. </p>
-            <p> « Je sais que la douleur est la noblesse unique Où ne mordront jamais la terre et
-               les enfers, Et qu'il faut pour tresser ma couronne mystique Imposer tous les temps et
-               tous les univers. </p>
-            <p> « Mais les bijoux perdus de l'antique Palmyre, Les métaux inconnus, les perles de la
-               mer, Par votre main montés, ne pourraient pas suffire A ce beau diadème éblouissant
-               et clair; </p>
-            <p> « Car il ne sera fait que de pure lumière, Puisée au foyer saint des rayons
-               primitifs, Et dont les yeux mortels, dans leur splendeur entière, Ne sont que des
-               miroirs obscurcis et plaintifs! » </p>
-            <p/>
+        <div>
+          <lg type="poem" n="2">
+				<head>
+					<title type="main">SPLEEN ET IDÉAL </title>
+					<title type="sub"> BENEDICTION</title>
+				</head>
+            <lg type="quatrain" n="1" rhyme="abab">
+				<l n="1" rhyme="a">Lorsque, par un décret des puissances suprêmes,</l>
+				<l n="2" rhyme="b">Le Poète apparaît en ce monde ennuyé,</l> 
+				<l n="3" rhyme="a">Sa mère épouvantée et pleine de blasphèmes</l>
+				<l n="4" rhyme="b">Crispe ses poings vers Dieu, qui la prend en pitié:</l>
+			</lg>
+			<lg type="quatrain" n="2" rhyme="abab">
+				<l n="1" rhyme="a">« Ah! que n'ai-je mis bas tout un noeud de vipères,</l>
+				<l n="2" rhyme="b">Plutôt que de nourrir cette dérision!</l>
+				<l n="3" rhyme="a">Maudite soit la nuit aux plaisirs éphémères</l>
+				<l n="4" rhyme="b">Où mon ventre a conçu mon expiation! </l>
+			</lg>
+            <lg type="quatrain" n="3" rhyme="abab">
+				<l n="1" rhyme="a">« Puisque tu m'as choisie entre toutes les femmes</l>
+				<l n="2" rhyme="b">Pour être le dégoût de mon triste mari,</l>
+				<l n="3" rhyme="a">Et que je ne puis pas rejeter dans les flammes,</l>
+				<l n="4" rhyme="b">Comme un billet d'amour, ce monstre rabougri,</l> 
+			</lg>
+            <lg type="quatrain" n="4" rhyme="abab">
+				<l n="1">« Je ferai rejaillir la haine qui m'accable</l>
+				<l n="2">Sur l'instrument maudit de tes méchancetés,</l>
+				<l n="3">Et je tordrai si bien cet arbre misérable,</l>
+				<l n="4">Qu'il ne pourra poussa ses boutons empestés! » </l>
+			</lg>
+            <lg type="quatrain" n="5" rhyme="abab">
+				<l n="1">Elle ravale ainsi l'écume de sa haine,</l>
+				<l n="2">Et, ne comprenant pas les desseins éternels,</l>
+				<l n="3">Elle-même prépare au fond de la Géhenne</l>
+				<l n="4">Les bûchers consacrés aux crimes maternels. </l>
+			</lg>
+			<lg type="quatrain" n="6" rhyme="abab">
+				<l n="1">Pourtant, sous la tutelle invisible d'un Ange,</l>
+				<l n="2">L'Enfant déshérité s'enivre de soleil,</l>
+				<l n="3">Et dans tout ce qu'il boit et dans tout ce qu'il mange</l>
+				<l n="4">Retrouve l'ambroisie et le nectar vermeil.</l> 
+			</lg>
+            <lg type="quatrain" n="7" rhyme="abab">
+				<l n="1">Il joue avec le vent, cause avec le nuage</l>
+				<l n="2">Et s'enivre en chantant du chemin de la croix;</l> 
+				<l n="3">Et l'Esprit qui le suit dans son pèlerinage</l>
+				<l n="4">Pleure de le voir gai comme un oiseau des bois. </l>
+			</lg>
+			<lg type="quatrain" n="8" rhyme="abab">
+				<l n="1">Tous ceux qu'il veut aimer l'observent avec crainte,</l>
+				<l n="2">Ou bien, s'enhardissant de sa tranquillité,</l>
+				<l n="3">Cherchent à qui saura lui tirer une plainte,</l>
+				<l n="4">Et font sur lui l'essai de leur férocité. </l>
+			</lg>
+			<lg type="quatrain" n="9" rhyme="abab">
+				<l n="1">Dans le pain et le vin destinés à sa bouche</l>
+				<l n="2">Ils mêlent de la cendre avec d'impurs crachats;</l>
+				<l n="3">Avec hypocrisie ils jettent ce qu'il touche,</l>
+				<l n="4">Et s'accusent d'avoir mis leurs pieds dans ses pas. </l>
+			</lg>
+			<lg type="quatrain" n="10" rhyme="abab">
+				<l n="1">Sa femme va criant sur les places publiques:</l>
+				<l n="2">« Puisqu'il me trouve assez belle pour m'adorer,</l>
+				<l n="3">Je ferai le métier des idoles antiques,</l>
+				<l n="4">Et comme elles je veux me faire redorer; </l>
+			</lg>
+			<lg type="quatrain" n="11" rhyme="abab">
+				<l n="1">« Et je me soûlerai de nard, d'encens, de myrrhe,</l>
+				<l n="2">De génuflexions, de viandes et de vins,</l>
+				<l n="3">Pour savoir si je puis dans un coeur qui m'admire</l>
+				<l n="4">Usurper en riant les hommages divins! </l>
+			</lg>
+			<lg type="quatrain" n="12" rhyme="abab">
+				<l n="1">« Et, quand je m'ennuîrai de ces farces impies,</l>
+				<l n="2">Je poserai sur lui ma frêle et forte main;</l>
+				<l n="3">Et mes ongles, pareils aux ongles des harpies,</l>
+				<l n="4">Sauront jusqu'à son coeur se frayer un chemin. </l>
+				</lg>
+			<lg type="quatrain" n="13" rhyme="abab">
+				<l n="1">« Comme un tout jeune oiseau qui tremble et qui palpite,</l>
+				<l n="2">J'arracherai ce coeur tout rouge de son sein,</l>
+				<l n="3">Et, pour rassasier ma bête favorite,</l>
+				<l n="4">Je le lui jetterai par terre avec dédain! » </l>
+			</lg>
+			<lg type="quatrain" n="14" rhyme="abab">
+				<l n="1">Vers le Ciel, où son oeil voit un trône splendide,</l>
+				<l n="2">Le Poète serein lève ses bras pieux,</l>
+				<l n="3">Et les vastes éclairs de son esprit lucide</l>
+				<l n="4">Lui dérobent l'aspect des peuples furieux: </l>
+			</lg>
+			<lg type="quatrain" n="15" rhyme="abab">
+				<l n="1">« Soyez béni, mon Dieu, qui donnez la souffrance</l>
+				<l n="2">Comme un divin remède à nos impuretés,</l>
+				<l n="3">Et comme la meilleure et la plus pure essence</l>
+				<l n="4">Qui prépare les forts aux saintes voluptés! </l>
+			</lg>
+			<lg type="quatrain" n="16" rhyme="abab">
+				<l n="1">« Je sais que vous gardez une place au Poète</l>
+				<l n="2">Dans les rangs bienheureux des saintes Légions,</l>
+				<l n="3">Et que vous l'invitez à l'éternelle fête</l>
+				<l n="4">Des Trônes, des Vertus, des Dominations. </l>
+			</lg>
+			<lg type="quatrain" n="17" rhyme="abab">
+				<l n="1">« Je sais que la douleur est la noblesse unique</l>
+				<l n="2">Où ne mordront jamais la terre et les enfers,</l>
+				<l n="3">Et qu'il faut pour tresser ma couronne mystique <l>
+				<l n="4">Imposer tous les temps et tous les univers. </l>
+			</lg>
+			<lg type="quatrain" n="18" rhyme="abab">
+				<l n="1">« Mais les bijoux perdus de l'antique Palmyre,</l>
+				<l n="2">Les métaux inconnus, les perles de la mer,</l>
+				<l n="3">Par votre main montés, ne pourraient pas suffire</l>
+				<l n="4">A ce beau diadème éblouissant et clair; </l>
+			</lg>
+			<lg type="quatrain" n="19" rhyme="abab">
+				<l n="1">« Car il ne sera fait que de pure lumière,</l>
+				<l n="2">Puisée au foyer saint des rayons primitifs,</l>
+				<l n="3">Et dont les yeux mortels, dans leur splendeur entière,</l>
+				<l n="4">Ne sont que des miroirs obscurcis et plaintifs! » </l>
+			</lg>
+		  </lg>
+		</div>
             <p> L'ALBATROS </p>
             <p/>
             <p> Souvent, pour s'amuser, les hommes d'équipage Prennent des albatros, vastes oiseaux
