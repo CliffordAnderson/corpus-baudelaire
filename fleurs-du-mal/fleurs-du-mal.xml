@@ -3291,18 +3291,33 @@
             </div>
             
             <p/>
-            <p> LA MUSE VENALE </p>
-            <p/>
-            <p> O Muse de mon coeur, amante des palais, Auras-tu, quand Janvier lâchera ses Borées,
-               Durant les noirs ennuis des neigeuses soirées, Un tison pour chauffer tes deux pieds
-               violets? </p>
-            <p> Ranimeras-tu donc tes épaules marbrées Aux nocturnes rayons qui percent les volets?
-               Sentant ta bourse à sec autant que ton palais, Récolteras-tu l'or des voûtes azurées? </p>
-            <p> Il te faut, pour gagner ton pain de chaque soir, Comme un enfant de choeur, jouer de
-               l'encensoir, Chantes des _Te Deum_ auxquels tu ne crois guère, </p>
-            <p> Ou, saltimbanque à jeun, étaler les appas Et ton rire trempé de pleurs qu'on ne voit
-               pas, Pour faire épanouir la rate du vulgaire. </p>
-            <p/>
+            <lg type="sonnet" xml:id="xx">
+               <head>
+                  <title type="main">La Muse vénale</title>
+               </head>
+               <lg type="quatrain" rhyme="aaaa">
+                  <l n="1" rhyme="a">Ô Muse de mon coeur, amante des palais,</l>
+                  <l n="2" rhyme="a">Auras-tu, quand Janvier lâchera ses Borées,</l> 
+                  <l n="3" rhyme="a">Durante les noirs ennuis des neigeuses soirées,</l> 
+                  <l n="4" rhyme="a">Un tison pur chauffer tes deux pieds violets?</l>
+               </lg>
+               <lg type="quatrain" rhyme="aaaa">
+                  <l n="1" rhyme="a">Ranimeras-tu donc tes épaules marbrées</l>
+                  <l n="2" rhyme="a" enjamb="yes">Aux nocturnes rayons qui percent les volets?</l>
+                  <l n="3" rhyme="a">Sentant ta bourse à sec autant que ton palais</l>
+                  <l n="4" rhyme="a" enjamb="yes">Récolteras-tu l'or des voutes azurées?</l>
+               </lg>
+               <lg type="tercet" rhyme="bbc">
+                  <l n="1" rhyme="b">Il te faut, pour gagner ton pain de chaque soir,</l>
+                  <l n="1" rhyme="b">Comme un enfant de choeur, jouer de l'escensoir,</l>
+                  <l n="1" rhyme="c">Chanter des Te Deum auxquels tu ne coir guère,</l>
+               </lg>
+               <lg type="tercet" rhyme="ddc">
+                  <l n="1" rhyme="d">Ou, saltimbanque à Jeun, étaler tes appas</l>
+                  <l n="2" rhyme="d" enjamb="yes">Et ton rire trempé de pleurs qu'on ne voit pas,</l>
+                  <l n="3" rhyme="c">Pour faire épanouir la rate du vulgaire.</l>
+               </lg>
+            </lg>
             <p> L'ENNEMI </p>
             <p/>
             <p> Ma jeunesse ne fut qu'un ténébreux orage, Traversé ça et là par de brillants
