@@ -280,20 +280,33 @@
                primitifs, Et dont les yeux mortels, dans leur splendeur entière, Ne sont que des
                miroirs obscurcis et plaintifs! » </p>
             <p/>
-            <p> L'ALBATROS </p>
-            <p/>
-            <p> Souvent, pour s'amuser, les hommes d'équipage Prennent des albatros, vastes oiseaux
-               des mers, Qui suivent, indolents compagnons de voyage, Le navire glissant sur les
-               gouffres amers. </p>
-            <p> A peine les ont-ils déposés sur les planches, Que ces rois de l'azur, maladroits et
-               honteux, Laissent piteusement leurs grandes ailes blanches Comme des avirons traîner
-               à côté d'eux. </p>
-            <p> Ce voyageur ailé, comme il est gauche et veule! Lui, naguère si beau, qu'il est
-               comique et laid! L'un agace son bec avec un brûle-gueule, L'autre mime, en boitant,
-               l'infirme qui volait! </p>
-            <p> Le Poète est semblable au prince des nuées Qui hante la tempête et se rit de
-               l'archer; Exilé sur le sol au milieu des huées, Ses ailes de géant l'empêchent de
-               marcher. </p>
+            <div type="poem" n="2" rhyme="ababcdcdefefghgh">
+              <head>L'ALBATROS</head>
+              <lg type="stanza" n="1" rhyme="abab">
+                 <l n="1">Souvent, pour s'amuser, les hommes <rhyme label="a">d'équipage</rhyme></l>
+                 <l n="2">Prennent des albatros, vastes oiseaux des <rhyme label="b">mers</rhyme>,</l>
+                 <l n="3">Qui suivent, indolents compagnons <rhyme label="a">de voyage</rhyme>,</l>
+                 <l n="4">Le navire glissant sur les gouffres <rhyme label="b">amers</rhyme>.</l>
+              </lg>
+              <lg type="stanza" n="2" rhyme="cdcd">
+                 <l n="5">A peine les ont-ils déposés sur les <rhyme label="c">planches</rhyme>,</l>
+                 <l n="6">Que ces rois de l'azur, maladroits et <rhyme label="d">honteux</rhyme>,</l>
+                 <l n="7">Laissent piteusement leurs grandes ailes <rhyme label="c">blanches</rhyme></l>
+                 <l n="8">Comme des avirons traîner à côté <rhyme label="d">d'eux</rhyme>.</l>
+              </lg>
+              <lg type="stanza" n="3" rhyme="efef">
+                 <l n="9">Ce voyageur ailé, comme il est gauche et <rhyme label="e">veule</rhyme>!</l>
+                 <l n="10">Lui, naguère si beau, qu'il est comique et <rhyme label="f">laid</rhyme>!</l>
+                 <l n="11">L'un agace son bec avec un brûle-<rhyme label="e">gueule</rhyme>,</l>
+                 <l n="12">L'autre mime, en boitant, l'infirme qui <rhyme label="f">volait</rhyme>!</l>
+              </lg>
+              <lg type="stanza" n="4" rhyme="ghgh">
+                 <l n="13">Le Poète est semblable au prince des <rhyme label="g">nuées</rhyme></l>
+                 <l n="14">Qui hante la tempête et se rit de <rhyme label="h">l'archer</rhyme>;</l>
+                 <l n="15">Exilé sur le sol au milieu des <rhyme label="g">huées</rhyme>,</l>
+                 <l n="16">Ses ailes de géant l'empêchent de <rhyme label="h">marcher</rhyme>.</l>
+              </lg>
+            </div>
             <p/>
             <p> ELEVATION </p>
             <p/>
