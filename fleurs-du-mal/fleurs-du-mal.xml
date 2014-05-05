@@ -702,19 +702,31 @@
                      <p/>
                   </div>
                   <div>
-                     <p> LA BEAUTE </p>
-                     <p/>
-                     <p> Je suis belle, ô mortels! comme un rêve de pierre, Et mon sein, où chacun
-                        s'est meurtri tour à tour, Est fait pour inspirer au poète un amour Eternel
-                        et muet ainsi que la matière. </p>
-                     <p> Je trône dans l'azur comme un sphinx incompris; J'unis un coeur de neige à
-                        la blancheur des cygnes; Je hais le mouvement qui déplace les lignes, Et
-                        jamais je ne pleure et jamais je ne ris. </p>
-                     <p> Les poètes, devant mes grandes attitudes. Que j'ai l'air d'emprunter aux
-                        plus fiers monuments, Consumeront leurs jours en d'austères études; </p>
-                     <p> Car j'ai, pour fasciner ces dociles amants, De purs miroirs qui font toutes
-                        choses plus belles: Mes yeux, mes larges yeux aux clartés éternelles! </p>
-                     <p/>
+					<lg type="sonnet">
+                     <head>LA BEAUTE</head>
+						<lg type="stanza" n="1">
+							<l n="1">Je suis belle, ô mortels! comme un rêve de pierre,</l>
+							<l n="2">Et mon sein, où chacun s'est meurtri tour à tour,</l>
+							<l n="3">Est fait pour inspirer au poète un amour</l> 
+							<l n="4">Eternel et muet ainsi que la matière.</l>
+						</lg>
+						<lg type="stanza" n="2">
+							<l n="5">Je trône dans l'azur comme un sphinx incompris;</l>
+							<l n="6">J'unis un coeur de neige à la blancheur des cygnes;</l> 
+							<l n="7">Je hais le mouvement qui déplace les lignes,</l> 
+							<l n="8">Et jamais je ne pleure et jamais je ne ris.</l>
+						</lg>
+						<lg type="stanza" n="3">
+						<l n="9">Les poètes, devant mes grandes attitudes.</l>
+						<l n="10">Que j'ai l'air d'emprunter aux plus fiers monuments,</l> 
+						<l n="11">Consumeront leurs jours en d'austères études;</l>
+						</lg>
+						<lg type="stanza" n="4">
+						<l n="12">Car j'ai, pour fasciner ces dociles amants,</l> 
+						<l n="13">De purs miroirs qui font toutes choses plus belles:</l> 
+						<l n="14">Mes yeux, mes larges yeux aux clartés éternelles!</l>
+                     </lg>
+					 </lg>
                   </div>
                   <div>
                      <p> L'IDEAL </p>
