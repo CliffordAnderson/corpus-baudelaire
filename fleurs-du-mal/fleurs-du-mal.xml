@@ -643,21 +643,53 @@
                      <p/>
                   </div>
                   <div>
-                     <p> L'HOMME ET LA MER </p>
-                     <p/>
-                     <p> Homme libre, toujours tu chériras la mer! La mer est ton miroir; tu
-                        contemples ton âme Dans le déroulement infini de sa lame, Et ton esprit
-                        n'est pas un gouffre moins amer. </p>
-                     <p> Tu te plais à plonger au sein de ton image; Tu l'embrasses des yeux et des
-                        bras, et ton coeur Se distrait quelquefois de sa propre rumeur Au bruit de
-                        cette plainte indomptable et sauvage. </p>
-                     <p> Vous êtes tous les deux ténébreux et discrets, Homme, nul n'a sondé le fond
-                        de tes abîmes; O mer, nul ne connaît tes richesses intimes, Tant vous êtes
-                        jaloux de garder vos secrets! </p>
-                     <p> Et cependant voilà des siècles innombrables Que vous vous combattez sans
-                        pitié ni remord, Tellement vous aimez le carnage et la mort, O lutteurs
-                        éternels, ô frères implacables! </p>
-                     <p/>
+                     <lg type="poem" n="9" rhyme="abbacddceffeghhg">
+                        <head>
+                           <title>L'HOMME ET LA MER </title>
+                        </head>
+                        <lg type="quatrain" n="1" rhyme="abba">
+                           <l n="1">Homme libre, toujours tu chériras la <rhyme label="a"
+                                 >mer!</rhyme></l>
+                           <l n="2">La mer est ton miroir; tu contemples ton <rhyme label="b"
+                                 >âme</rhyme></l>
+                           <l n="3">Dans le déroulement infini de sa <rhyme label="b"
+                              >ame,</rhyme></l>
+                           <l n="4">Et ton esprit n'est pas un gouffre moins <rhyme label="a"
+                                 >mer.</rhyme>
+                           </l>
+                        </lg>
+                        <lg type="quatrain" n="2" rhyme="cddc">
+                           <l n="5">Tu te plais à plonger au sein de ton <rhyme label="c"
+                                 >image</rhyme>;</l>
+                           <l n="6">Tu l'embrasses des yeux et des bras, et ton <rhyme label="d"
+                                 >coeur</rhyme></l>
+                           <l n="7">Se distrait quelquefois de sa propre <rhyme label="d"
+                                 >rumeur</rhyme></l>
+                           <l n="8">Au bruit de cette plainte indomptable et <rhyme label="c"
+                                 >sauvage.</rhyme>
+                           </l>
+                        </lg>
+                        <lg type="quatrain" n="3" rhyme="effe">
+                           <l n="9">Vous êtes tous les deux ténébreux et <rhyme label="e"
+                                 >discrets</rhyme>,</l>
+                           <l n="10">Homme, nul n'a sondé le fond de tes <rhyme label="f"
+                                 >abîmes</rhyme>;</l>
+                           <l n="11">O mer, nul ne connaît tes richesses <rhyme label="f"
+                                 >intimes</rhyme>,</l>
+                           <l n="12">Tant vous êtes jaloux de garder vos <rhyme label="e"
+                                 >secrets</rhyme>! </l>
+                        </lg>
+                        <lg type="quatrain" n="4" rhyme="ghhg">
+                           <l n="13">Et cependant voilà des siècles <rhyme label="g"
+                                 >innombrables</rhyme></l>
+                           <l n="14">Que vous vous combattez sans pitié ni <rhyme label="h"
+                                 >remord</rhyme>,</l>
+                           <l n="15">Tellement vous aimez le carnage et la <rhyme label="h"
+                                 >mort</rhyme>,</l>
+                           <l n="16">O lutteurs éternels, ô frères <rhyme label="g"
+                                 >implacables</rhyme>! </l>
+                        </lg>
+                     </lg>
                   </div>
                   <div>
                      <p> DON JUAN AUX ENFERS </p>
