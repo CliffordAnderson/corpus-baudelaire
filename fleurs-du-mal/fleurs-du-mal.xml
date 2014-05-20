@@ -702,29 +702,29 @@
                      <p/>
                   </div>
                   <div>
-					<lg type="sonnet">
+					<lg type="sonnet" rhyme="abbacddcefefgg">
                      <head>LA BEAUTE</head>
-						<lg type="stanza" n="1">
-							<l n="1">Je suis belle, ô mortels! comme un rêve de pierre,</l>
-							<l n="2">Et mon sein, où chacun s'est meurtri tour à tour,</l>
-							<l n="3">Est fait pour inspirer au poète un amour</l> 
-							<l n="4">Eternel et muet ainsi que la matière.</l>
+						<lg type="quatrain" n="1" rhyme="abba">
+						   <l n="1">Je suis belle, ô mortels! comme un rêve de <rhyme label="a">pierre</rhyme>,</l>
+							<l n="2">Et mon sein, où chacun s'est meurtri tour à <rhyme label="b">tour</rhyme>,</l>
+							<l n="3">Est fait pour inspirer au poète un <rhyme label="b">amour</rhyme></l> 
+						   <l n="4">Eternel et muet ainsi que la <rhyme label="a">matière</rhyme>.</l>
 						</lg>
-						<lg type="stanza" n="2">
-							<l n="5">Je trône dans l'azur comme un sphinx incompris;</l>
-							<l n="6">J'unis un coeur de neige à la blancheur des cygnes;</l> 
-							<l n="7">Je hais le mouvement qui déplace les lignes,</l> 
-							<l n="8">Et jamais je ne pleure et jamais je ne ris.</l>
+						<lg type="quatrain" n="2" rhyme="cddc">
+							<l n="5">Je trône dans l'azur comme un sphinx <rhyme label="c">incompris</rhyme>;</l>
+							<l n="6">J'unis un coeur de neige à la blancheur des <rhyme label="d">cygnes</rhyme>;</l> 
+							<l n="7">Je hais le mouvement qui déplace les <rhyme label="d">lignes</rhyme>,</l> 
+							<l n="8">Et jamais je ne pleure et jamais je ne <rhyme label="c">ris</rhyme>.</l>
 						</lg>
-						<lg type="stanza" n="3">
-						<l n="9">Les poètes, devant mes grandes attitudes.</l>
-						<l n="10">Que j'ai l'air d'emprunter aux plus fiers monuments,</l> 
-						<l n="11">Consumeront leurs jours en d'austères études;</l>
+						<lg type="tercet" n="3" rhyme="efe">
+						<l n="9">Les poètes, devant mes grandes <rhyme label="e">attitudes</rhyme>.</l>
+						<l n="10">Que j'ai l'air d'emprunter aux plus fiers <rhyme label="f">monuments</rhyme>,</l> 
+						   <l n="11">Consumeront leurs jours en d'austères <rhyme label="e">études</rhyme>;</l>
 						</lg>
-						<lg type="stanza" n="4">
-						<l n="12">Car j'ai, pour fasciner ces dociles amants,</l> 
-						<l n="13">De purs miroirs qui font toutes choses plus belles:</l> 
-						<l n="14">Mes yeux, mes larges yeux aux clartés éternelles!</l>
+						<lg type="tercet" n="4" rhyme="fgg">
+						<l n="12">Car j'ai, pour fasciner ces dociles <rhyme label="f">amants</rhyme>,</l> 
+						<l n="13">De purs miroirs qui font toutes choses plus <rhyme label="g">belles</rhyme>:</l> 
+						   <l n="14">Mes yeux, mes larges yeux aux clartés <rhyme label="g">éternelles</rhyme>!</l>
                      </lg>
 					 </lg>
                   </div>
