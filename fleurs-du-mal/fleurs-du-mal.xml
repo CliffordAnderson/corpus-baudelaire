@@ -218,125 +218,200 @@
                      <title type="main">SPLEEN ET IDÉAL</title>
                   </head>
                   <div>
-                     <lg type="poem" n="2">
+                     <lg type="poem" n="1"
+                        rhyme="ababcdcdefefghghijijklklmnmnopopqrqrststuvuvwxwxyzyz|aa|bb|aa|bb|cc|dd|cc|dd|ee|ff|ee|ff|gg|hh|gg|hh|ii|jj|ii|jj|kk|ll|kk|ll">
                         <head>
-                           <title type="sub">BENEDICTION</title>
+                           <title>BENEDICTION</title>
                         </head>
                         <lg type="quatrain" n="1" rhyme="abab">
-                           <l n="1" rhyme="a">Lorsque, par un décret des puissances suprêmes,</l>
-                           <l n="2" rhyme="b">Le Poète apparaît en ce monde ennuyé,</l>
-                           <l n="3" rhyme="a">Sa mère épouvantée et pleine de blasphèmes</l>
-                           <l n="4" rhyme="b">Crispe ses poings vers Dieu, qui la prend en
-                              pitié:</l>
+                           <l n="1">Lorsque, par un décret des puissances <rhyme label="a"
+                                 >suprêmes</rhyme>,</l>
+                           <l n="2">Le Poète apparaît en ce monde <rhyme label="b"
+                              >ennuyé</rhyme>,</l>
+                           <l n="3">Sa mère épouvantée et pleine de <rhyme label="a"
+                                 >blasphèmes</rhyme></l>
+                           <l n="4">Crispe ses poings vers Dieu, qui la prend en <rhyme label="a"
+                                 >pitié</rhyme>:</l>
                         </lg>
-                        <lg type="quatrain" n="2" rhyme="abab">
-                           <l n="1" rhyme="a">« Ah! que n'ai-je mis bas tout un noeud de
-                              vipères,</l>
-                           <l n="2" rhyme="b">Plutôt que de nourrir cette dérision!</l>
-                           <l n="3" rhyme="a">Maudite soit la nuit aux plaisirs éphémères</l>
-                           <l n="4" rhyme="b">Où mon ventre a conçu mon expiation! </l>
+                        <lg type="quatrain" n="2" rhyme="cdcd">
+                           <l n="5">« Ah! que n'ai-je mis bas tout un noeud de <rhyme label="c"
+                                 >vipères</rhyme>,</l>
+                           <l n="6">Plutôt que de nourrir cette <rhyme label="d"
+                              >dérision</rhyme>!</l>
+                           <l n="7">Maudite soit la nuit aux plaisirs <rhyme label="c"
+                                 >éphémères</rhyme></l>
+                           <l n="8">Où mon ventre a conçu mon <rhyme label="d">expiation</rhyme>!
+                           </l>
                         </lg>
-                        <lg type="quatrain" n="3" rhyme="abab">
-                           <l n="1" rhyme="a">« Puisque tu m'as choisie entre toutes les femmes</l>
-                           <l n="2" rhyme="b">Pour être le dégoût de mon triste mari,</l>
-                           <l n="3" rhyme="a">Et que je ne puis pas rejeter dans les flammes,</l>
-                           <l n="4" rhyme="b">Comme un billet d'amour, ce monstre rabougri,</l>
+                        <lg type="quatrain" n="3" rhyme="efef">
+                           <l n="9">« Puisque tu m'as choisie entre toutes les <rhyme label="e"
+                                 >femmes</rhyme></l>
+                           <l n="10">Pour être le dégoût de mon triste <rhyme label="f"
+                              >mari</rhyme>,</l>
+                           <l n="11">Et que je ne puis pas rejeter dans les <rhyme label="e"
+                                 >flammes</rhyme>,</l>
+                           <l n="12">Comme un billet d'amour, ce monstre <rhyme label="f"
+                                 >rabougri</rhyme>,</l>
                         </lg>
-                        <lg type="quatrain" n="4" rhyme="abab">
-                           <l n="1">« Je ferai rejaillir la haine qui m'accable</l>
-                           <l n="2">Sur l'instrument maudit de tes méchancetés,</l>
-                           <l n="3">Et je tordrai si bien cet arbre misérable,</l>
-                           <l n="4">Qu'il ne pourra poussa ses boutons empestés! » </l>
+                        <lg type="quatrain" n="4" rhyme="ghgh">
+                           <l n="13">« Je ferai rejaillir la haine qui <rhyme label="g"
+                                 >m'accable</rhyme></l>
+                           <l n="14">Sur l'instrument maudit de tes <rhyme label="h"
+                                 >méchancetés</rhyme>,</l>
+                           <l n="15">Et je tordrai si bien cet arbre <rhyme label="g"
+                                 >misérable</rhyme>,</l>
+                           <l n="16">Qu'il ne pourra poussa ses boutons <rhyme label="h"
+                                 >empestés</rhyme>! » </l>
                         </lg>
-                        <lg type="quatrain" n="5" rhyme="abab">
-                           <l n="1">Elle ravale ainsi l'écume de sa haine,</l>
-                           <l n="2">Et, ne comprenant pas les desseins éternels,</l>
-                           <l n="3">Elle-même prépare au fond de la Géhenne</l>
-                           <l n="4">Les bûchers consacrés aux crimes maternels. </l>
+                        <lg type="quatrain" n="5" rhyme="ijij">
+                           <l n="17">Elle ravale ainsi l'écume de sa <rhyme label="i"
+                              >haine</rhyme>,</l>
+                           <l n="18">Et, ne comprenant pas les desseins <rhyme label="j"
+                                 >éternels</rhyme>,</l>
+                           <l n="19">Elle-même prépare au fond de la <rhyme label="i"
+                                 >Géhenne</rhyme></l>
+                           <l n="20">Les bûchers consacrés aux crimes <rhyme label="j"
+                                 >maternels</rhyme>. </l>
                         </lg>
-                        <lg type="quatrain" n="6" rhyme="abab">
-                           <l n="1">Pourtant, sous la tutelle invisible d'un Ange,</l>
-                           <l n="2">L'Enfant déshérité s'enivre de soleil,</l>
-                           <l n="3">Et dans tout ce qu'il boit et dans tout ce qu'il mange</l>
-                           <l n="4">Retrouve l'ambroisie et le nectar vermeil.</l>
+                        <lg type="quatrain" n="6" rhyme="klkl">
+                           <l n="21">Pourtant, sous la tutelle invisible d'un <rhyme label="k"
+                                 >Ange</rhyme>,</l>
+                           <l n="22">L'Enfant déshérité s'enivre de <rhyme label="l"
+                              >soleil</rhyme>,</l>
+                           <l n="23">Et dans tout ce qu'il boit et dans tout ce qu'il <rhyme
+                                 label="k">mange</rhyme></l>
+                           <l n="24">Retrouve l'ambroisie et le nectar <rhyme label="l"
+                                 >vermeil</rhyme>.</l>
                         </lg>
-                        <lg type="quatrain" n="7" rhyme="abab">
-                           <l n="1">Il joue avec le vent, cause avec le nuage</l>
-                           <l n="2">Et s'enivre en chantant du chemin de la croix;</l>
-                           <l n="3">Et l'Esprit qui le suit dans son pèlerinage</l>
-                           <l n="4">Pleure de le voir gai comme un oiseau des bois. </l>
+                        <lg type="quatrain" n="7" rhyme="mnmn">
+                           <l n="25">Il joue avec le vent, cause avec le <rhyme label="m"
+                                 >nuage</rhyme></l>
+                           <l n="26">Et s'enivre en chantant du chemin de la <rhyme label="n"
+                                 >croix</rhyme>;</l>
+                           <l n="27">Et l'Esprit qui le suit dans son <rhyme label="m"
+                                 >pèlerinage</rhyme></l>
+                           <l n="28">Pleure de le voir gai comme un oiseau des <rhyme label="n"
+                                 >bois</rhyme>. </l>
                         </lg>
-                        <lg type="quatrain" n="8" rhyme="abab">
-                           <l n="1">Tous ceux qu'il veut aimer l'observent avec crainte,</l>
-                           <l n="2">Ou bien, s'enhardissant de sa tranquillité,</l>
-                           <l n="3">Cherchent à qui saura lui tirer une plainte,</l>
-                           <l n="4">Et font sur lui l'essai de leur férocité. </l>
+                        <lg type="quatrain" n="8" rhyme="opop">
+                           <l n="29">Tous ceux qu'il veut aimer l'observent avec <rhyme label="o"
+                                 >crainte</rhyme>,</l>
+                           <l n="30">Ou bien, s'enhardissant de sa <rhyme label="p"
+                                 >tranquillité</rhyme>,</l>
+                           <l n="31">Cherchent à qui saura lui tirer une <rhyme label="o"
+                                 >plainte</rhyme>,</l>
+                           <l n="32">Et font sur lui l'essai de leur <rhyme label="p"
+                                 >férocité</rhyme>. </l>
                         </lg>
-                        <lg type="quatrain" n="9" rhyme="abab">
-                           <l n="1">Dans le pain et le vin destinés à sa bouche</l>
-                           <l n="2">Ils mêlent de la cendre avec d'impurs crachats;</l>
-                           <l n="3">Avec hypocrisie ils jettent ce qu'il touche,</l>
-                           <l n="4">Et s'accusent d'avoir mis leurs pieds dans ses pas. </l>
+                        <lg type="quatrain" n="9" rhyme="qrqr">
+                           <l n="33">Dans le pain et le vin destinés à sa <rhyme label="q"
+                                 >bouche</rhyme></l>
+                           <l n="34">Ils mêlent de la cendre avec d'impurs <rhyme label="r"
+                                 >crachats</rhyme>;</l>
+                           <l n="35">Avec hypocrisie ils jettent ce qu'il <rhyme label="q"
+                                 >touche</rhyme>,</l>
+                           <l n="36">Et s'accusent d'avoir mis leurs pieds dans <rhyme label="r">ses
+                                 pas</rhyme>. </l>
                         </lg>
-                        <lg type="quatrain" n="10" rhyme="abab">
-                           <l n="1">Sa femme va criant sur les places publiques:</l>
-                           <l n="2">« Puisqu'il me trouve assez belle pour m'adorer,</l>
-                           <l n="3">Je ferai le métier des idoles antiques,</l>
-                           <l n="4">Et comme elles je veux me faire redorer; </l>
+                        <lg type="quatrain" n="10" rhyme="stst">
+                           <l n="37">Sa femme va criant sur les places <rhyme label="s"
+                                 >publiques</rhyme>:</l>
+                           <l n="38">« Puisqu'il me trouve assez belle pour <rhyme label="t"
+                                 >m'adorer</rhyme>,</l>
+                           <l n="39">Je ferai le métier des idoles <rhyme label="s"
+                              >antiques</rhyme>,</l>
+                           <l n="40">Et comme elles je veux me faire <rhyme label="t"
+                                 >redorer</rhyme>; </l>
                         </lg>
-                        <lg type="quatrain" n="11" rhyme="abab">
-                           <l n="1">« Et je me soûlerai de nard, d'encens, de myrrhe,</l>
-                           <l n="2">De génuflexions, de viandes et de vins,</l>
-                           <l n="3">Pour savoir si je puis dans un coeur qui m'admire</l>
-                           <l n="4">Usurper en riant les hommages divins! </l>
+                        <lg type="quatrain" n="11" rhyme="uvuv">
+                           <l n="41">« Et je me soûlerai de nard, d'encens, de <rhyme label="u"
+                                 >myrrhe</rhyme>,</l>
+                           <l n="42">De génuflexions, de viandes et de <rhyme label="v"
+                              >vins</rhyme>,</l>
+                           <l n="43">Pour savoir si je puis dans un coeur qui <rhyme label="u"
+                                 >m'admire</rhyme></l>
+                           <l n="44">Usurper en riant les hommages <rhyme label="v">divins</rhyme>!
+                           </l>
                         </lg>
-                        <lg type="quatrain" n="12" rhyme="abab">
-                           <l n="1">« Et, quand je m'ennuîrai de ces farces impies,</l>
-                           <l n="2">Je poserai sur lui ma frêle et forte main;</l>
-                           <l n="3">Et mes ongles, pareils aux ongles des harpies,</l>
-                           <l n="4">Sauront jusqu'à son coeur se frayer un chemin. </l>
+                        <lg type="quatrain" n="12" rhyme="wxwx">
+                           <l n="45">« Et, quand je m'ennuîrai de ces farces <rhyme label="w"
+                                 >impies</rhyme>,</l>
+                           <l n="46">Je poserai sur lui ma frêle et forte <rhyme label="x"
+                                 >main</rhyme>;</l>
+                           <l n="47">Et mes ongles, pareils aux ongles des <rhyme label="w"
+                                 >harpies</rhyme>,</l>
+                           <l n="48">Sauront jusqu'à son coeur se frayer un <rhyme label="x"
+                                 >chemin</rhyme>. </l>
                         </lg>
-                        <lg type="quatrain" n="13" rhyme="abab">
-                           <l n="1">« Comme un tout jeune oiseau qui tremble et qui palpite,</l>
-                           <l n="2">J'arracherai ce coeur tout rouge de son sein,</l>
-                           <l n="3">Et, pour rassasier ma bête favorite,</l>
-                           <l n="4">Je le lui jetterai par terre avec dédain! » </l>
+                        <lg type="quatrain" n="13" rhyme="yzyz">
+                           <l n="49">« Comme un tout jeune oiseau qui tremble et qui <rhyme
+                                 label="y">palpite</rhyme>,</l>
+                           <l n="50">J'arracherai ce coeur tout rouge de son <rhyme label="z"
+                                 >sein</rhyme>,</l>
+                           <l n="51">Et, pour rassasier ma bête <rhyme label="y"
+                              >favorite</rhyme>,</l>
+                           <l n="52">Je le lui jetterai par terre avec <rhyme label="z"
+                                 >dédain</rhyme>! » </l>
                         </lg>
-                        <lg type="quatrain" n="14" rhyme="abab">
-                           <l n="1">Vers le Ciel, où son oeil voit un trône splendide,</l>
-                           <l n="2">Le Poète serein lève ses bras pieux,</l>
-                           <l n="3">Et les vastes éclairs de son esprit lucide</l>
-                           <l n="4">Lui dérobent l'aspect des peuples furieux: </l>
+                        <lg type="quatrain" n="14" rhyme="aa|bb|aa|bb">
+                           <l n="53">Vers le Ciel, où son oeil voit un trône <rhyme label="aa"
+                                 >splendide</rhyme>,</l>
+                           <l n="54">Le Poète serein lève ses bras <rhyme label="bb"
+                              >pieux</rhyme>,</l>
+                           <l n="55">Et les vastes éclairs de son esprit <rhyme label="aa"
+                                 >lucide</rhyme></l>
+                           <l n="56">Lui dérobent l'aspect des peuples <rhyme label="bb"
+                                 >furieux</rhyme>: </l>
                         </lg>
-                        <lg type="quatrain" n="15" rhyme="abab">
-                           <l n="1">« Soyez béni, mon Dieu, qui donnez la souffrance</l>
-                           <l n="2">Comme un divin remède à nos impuretés,</l>
-                           <l n="3">Et comme la meilleure et la plus pure essence</l>
-                           <l n="4">Qui prépare les forts aux saintes voluptés! </l>
+                        <lg type="quatrain" n="15" rhyme="cc|dd|cc|dd">
+                           <l n="57">« Soyez béni, mon Dieu, qui donnez la <rhyme label="cc"
+                                 >souffrance</rhyme></l>
+                           <l n="58">Comme un divin remède à nos <rhyme label="dd"
+                              >impuretés</rhyme>,</l>
+                           <l n="59">Et comme la meilleure et la plus pure <rhyme label="cc"
+                                 >essence</rhyme></l>
+                           <l n="60">Qui prépare les forts aux saintes <rhyme label="dd"
+                                 >voluptés</rhyme>! </l>
                         </lg>
-                        <lg type="quatrain" n="16" rhyme="abab">
-                           <l n="1">« Je sais que vous gardez une place au Poète</l>
-                           <l n="2">Dans les rangs bienheureux des saintes Légions,</l>
-                           <l n="3">Et que vous l'invitez à l'éternelle fête</l>
-                           <l n="4">Des Trônes, des Vertus, des Dominations. </l>
+                        <lg type="quatrain" n="16" rhyme="ee|ff|ee|ff">
+                           <l n="61">« Je sais que vous gardez une place au <rhyme label="ee"
+                                 >Poète</rhyme></l>
+                           <l n="62">Dans les rangs bienheureux des saintes <rhyme label="ff"
+                                 >Légions</rhyme>,</l>
+                           <l n="63">Et que vous l'invitez à l'éternelle <rhyme label="ee"
+                                 >fête</rhyme></l>
+                           <l n="64">Des Trônes, des Vertus, des <rhyme label="ff"
+                                 >Dominations</rhyme>. </l>
                         </lg>
-                        <lg type="quatrain" n="17" rhyme="abab">
-                           <l n="1">« Je sais que la douleur est la noblesse unique</l>
-                           <l n="2">Où ne mordront jamais la terre et les enfers,</l>
-                           <l n="3">Et qu'il faut pour tresser ma couronne mystique</l>
-                           <l n="4">Imposer tous les temps et tous les univers. </l>
+                        <lg type="quatrain" n="17" rhyme="gg|hh|gg|hh">
+                           <l n="65">« Je sais que la douleur est la noblesse <rhyme label="gg"
+                                 >unique</rhyme></l>
+                           <l n="66">Où ne mordront jamais la terre et les <rhyme label="hh"
+                                 >enfers</rhyme>,</l>
+                           <l n="67">Et qu'il faut pour tresser ma couronne <rhyme label="gg"
+                                 >mystique</rhyme></l>
+                           <l n="68">Imposer tous les temps et tous les <rhyme label="hh"
+                                 >univers</rhyme>. </l>
                         </lg>
-                        <lg type="quatrain" n="18" rhyme="abab">
-                           <l n="1">« Mais les bijoux perdus de l'antique Palmyre,</l>
-                           <l n="2">Les métaux inconnus, les perles de la mer,</l>
-                           <l n="3">Par votre main montés, ne pourraient pas suffire</l>
-                           <l n="4">A ce beau diadème éblouissant et clair; </l>
+                        <lg type="quatrain" n="18" rhyme="ii|jj|ii|jj">
+                           <l n="69">« Mais les bijoux perdus de l'antique <rhyme label="ii"
+                                 >Palmyre</rhyme>,</l>
+                           <l n="70">Les métaux inconnus, les perles de la <rhyme label="jj"
+                                 >mer</rhyme>,</l>
+                           <l n="71">Par votre main montés, ne pourraient pas <rhyme label="ii"
+                                 >suffire</rhyme></l>
+                           <l n="72">A ce beau diadème éblouissant et <rhyme label="jj"
+                                 >clair</rhyme>; </l>
                         </lg>
-                        <lg type="quatrain" n="19" rhyme="abab">
-                           <l n="1">« Car il ne sera fait que de pure lumière,</l>
-                           <l n="2">Puisée au foyer saint des rayons primitifs,</l>
-                           <l n="3">Et dont les yeux mortels, dans leur splendeur entière,</l>
-                           <l n="4">Ne sont que des miroirs obscurcis et plaintifs! » </l>
+                        <lg type="quatrain" n="19" rhyme="kk|ll|kk|ll">
+                           <l n="73">« Car il ne sera fait que de pure <rhyme label="kk"
+                                 >lumière</rhyme>,</l>
+                           <l n="74">Puisée au foyer saint des rayons <rhyme label="ll"
+                                 >primitifs</rhyme>,</l>
+                           <l n="75">Et dont les yeux mortels, dans leur splendeur <rhyme label="kk"
+                                 >entière</rhyme>,</l>
+                           <l n="76">Ne sont que des miroirs obscurcis et <rhyme label="ll"
+                                 >plaintifs</rhyme>! » </l>
                         </lg>
                      </lg>
                   </div>
