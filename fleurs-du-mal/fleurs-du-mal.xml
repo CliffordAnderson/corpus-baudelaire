@@ -850,19 +850,36 @@
                      </lg>
                   </div>
                   <div>
-                     <p> L'IDEAL </p>
-                     <p/>
-                     <p> Ce ne seront jamais ces beautés de vignettes, Produits avariés, nés d'un
-                        siècle vaurien, Ces pieds à brodequins, ces doigts à castagnettes, Qui
-                        sauront satisfaire un coeur comme le mien. </p>
-                     <p> Je laisse, à Gavarni, poète des chloroses, Soa troupeau gazouillant de
-                        beautés d'hôpital, Car je ne puis trouver parmi ces pâles roses Une fleur
-                        qui ressemble à mon rouge idéal. </p>
-                     <p> Ce qu'il faut à ce coeur profond comme un abîme, C'est vous, Lady Macbeth,
-                        âme puissante au crime, Rêve d'Eschyle éclos au climat des autans; </p>
-                     <p> Ou bien toi, grand Nuit, fille de Michel-Ange, Qui tors paisiblement dans
-                        une pose étrange Tes appas façonnés aux bouches des Titans! </p>
-                     <p/>
+                     <lg type="poem">
+                        <head>L'IDEAL</head>
+
+                        <lg type="stanza">
+                           <l>Ce ne seront jamais ces beautés de vignettes,</l>
+                           <l>Produits avariés, nés d'un siècle vaurien,</l>
+                           <l>Ces pieds à brodequins, ces doigts à castagnettes,</l>
+                           <l>Qui sauront satisfaire un coeur comme le mien.</l>
+                        </lg>
+
+                        <lg type="stanza">
+                           <l>Je laisse, à Gavarni, poète des chloroses,</l>
+                           <l>Soa troupeau gazouillant de beautés d'hôpital,</l>
+                           <l>Car je ne puis trouver parmi ces pâles roses</l>
+                           <l>Une fleur qui ressemble à mon rouge idéal.</l>
+                        </lg>
+
+                        <lg type="stanza">
+                           <l>Ce qu'il faut à ce coeur profond comme un abîme,</l>
+                           <l>C'est vous, Lady Macbeth, âme puissante au crime,</l>
+                           <l>Rêve d'Eschyle éclos au climat des autans;</l>
+                        </lg>
+
+                        <lg type="stanza">
+                           <l>Ou bien toi, grand Nuit, fille de Michel-Ange, </l>
+                           <l>Qui tors paisiblement dans une pose étrange </l>
+                           <l>Tes appas façonnés aux bouches des Titans!</l>
+                        </lg>
+
+                     </lg>
                   </div>
                   <div>
                      <p> LE MASQUE </p>
