@@ -852,33 +852,28 @@
                   <div>
                      <lg type="poem">
                         <head>L'IDEAL</head>
-
-                        <lg type="stanza">
-                           <l>Ce ne seront jamais ces beautés de vignettes,</l>
-                           <l>Produits avariés, nés d'un siècle vaurien,</l>
-                           <l>Ces pieds à brodequins, ces doigts à castagnettes,</l>
-                           <l>Qui sauront satisfaire un coeur comme le mien.</l>
+                        <lg type="quatrain" rhyme="abab">
+                           <l n="1">Ce ne seront jamais ces beautés de <rhyme label="a">vignettes</rhyme>,</l>
+                           <l n="2">Produits avariés, nés d'un siècle <rhyme label="b">vaurien</rhyme>,</l>
+                           <l n="3">Ces pieds à brodequins, ces doigts à <rhyme label="a">castagnettes</rhyme>,</l>
+                           <l n="4">Qui sauront satisfaire un coeur comme <rhyme label="b">le mien</rhyme>.</l>
                         </lg>
-
-                        <lg type="stanza">
-                           <l>Je laisse, à Gavarni, poète des chloroses,</l>
-                           <l>Soa troupeau gazouillant de beautés d'hôpital,</l>
-                           <l>Car je ne puis trouver parmi ces pâles roses</l>
-                           <l>Une fleur qui ressemble à mon rouge idéal.</l>
+                        <lg type="quatrain" rhyme="cdcd">
+                           <l n="5">Je laisse, à Gavarni, poète des <rhyme label="c">chloroses</rhyme>,</l>
+                           <l n="6">Soa troupeau gazouillant de beautés <rhyme label="d">d'hôpital</rhyme>,</l>
+                           <l n="7">Car je ne puis trouver parmi ces pâles <rhyme label="c">roses</rhyme></l>
+                           <l n="8">Une fleur qui ressemble à mon rouge <rhyme label="d">idéal</rhyme>.</l>
                         </lg>
-
-                        <lg type="stanza">
-                           <l>Ce qu'il faut à ce coeur profond comme un abîme,</l>
-                           <l>C'est vous, Lady Macbeth, âme puissante au crime,</l>
-                           <l>Rêve d'Eschyle éclos au climat des autans;</l>
+                        <lg type="tercet" rhyme="eef">
+                           <l n="9">Ce qu'il faut à ce coeur profond comme un <rhyme label="e">abîme</rhyme>,</l>
+                           <l n="10">C'est vous, Lady Macbeth, âme puissante au <rhyme label="e">crime</rhyme>,</l>
+                           <l n="11">Rêve d'Eschyle éclos au climat des <rhyme label="f">autans</rhyme>;</l>
                         </lg>
-
-                        <lg type="stanza">
-                           <l>Ou bien toi, grand Nuit, fille de Michel-Ange, </l>
-                           <l>Qui tors paisiblement dans une pose étrange </l>
-                           <l>Tes appas façonnés aux bouches des Titans!</l>
+                        <lg type="tercet" rhyme="ggf">
+                           <l n="12">Ou bien toi, grand Nuit, fille de <rhyme label="g">Michel-Ange</rhyme>, </l>
+                           <l n="13">Qui tors paisiblement dans une pose <rhyme label="g">étrange</rhyme> </l>
+                           <l n="14">Tes appas façonnés aux bouches des <rhyme label="f">Titans</rhyme>!</l>
                         </lg>
-
                      </lg>
                   </div>
                   <div>
