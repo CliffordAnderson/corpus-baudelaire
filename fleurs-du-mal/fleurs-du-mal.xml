@@ -767,24 +767,39 @@
                      </lg>
                   </div>
                   <div>
-                     <p> DON JUAN AUX ENFERS </p>
-                     <p/>
-                     <p> Quand don Juan descendit vers l'onde souterraine, Et lorsqu'il eut donné
-                        son obole à Charon, Un sombre mendiant, l'oeil fier comme Antisthène, D'un
-                        bras vengeur et fort saisit chaque aviron. </p>
-                     <p> Montrant leurs seins pendants et leurs robes ouvertes, Des femmes se
-                        tordaient sous le noir firmament, Et, comme un grand troupeau de victimes
-                        offertes, Derrière lui traînaient un long mugissement. </p>
-                     <p> Sganarelle en riant lui réclamait ses gages, Tandis que don Luis avec un
-                        doigt tremblant Montrait à tous les morts errant sur les rivages Le fils
-                        audacieux qui railla son front blanc. </p>
-                     <p> Frissonnant sous son deuil, la chaste et maigre Elvire, Près de l'époux
-                        perfide et qui fui son amant Semblait lui réclamer un suprême sourire Où
-                        brillât la douceur de son premier serment. </p>
-                     <p> Tout droit dans son armure, un grand homme de pierre Se tenait à la barre
-                        et coupait le flot noir; Mais le calme héros, courbé sur sa rapière,
-                        Regardait le sillage et ne daignait rien voir. </p>
-                     <p/>
+                     <lg type="poem" rhyme="ababcdcdefefghghijij">
+                        <head> DON JUAN AUX ENFERS </head>
+                        <lg type="quatrain" n="1">
+                           <l n="1">Quand don Juan descendit vers l'onde souterraine,</l> 
+                           <l n="2">Et lorsqu'il eut donné son obole à Charon, </l> 
+                           <l n="3">Un sombre mendiant, l'oeil fier comme Antisthène, </l> 
+                           <l n="4">D'unbras vengeur et fort saisit chaque aviron.</l> 
+                        </lg>
+                        <lg type="quatrain" n="2">                    
+                           <l n="5">Montrant leurs seins pendants et leurs robes ouvertes, </l> 
+                           <l n="6">Des femmes setordaient sous le noir firmament,</l> 
+                           <l n="7">Et, comme un grand troupeau de victimes offertes,</l> 
+                           <l n="8">Derrière lui traînaient un long mugissement.</l>
+                        </lg>
+                        <lg type="quatrain" n="3"> 
+                           <l n="9">Sganarelle en riant lui réclamait ses gages,</l>                     
+                           <l n="10">Tandis que don Luis avec un doigt tremblant</l>  
+                           <l n="11">Montrait à tous les morts errant sur les rivages</l>  
+                           <l n="12">Le fils audacieux qui railla son front blanc.</l> 
+                        </lg>
+                        <lg type="quatrain" n="4">						
+                           <l n="13">Frissonnant sous son deuil, la chaste et maigre Elvire,</l>  
+                           <l n="14">Près de l'époux perfide et qui fui son amant</l>  
+                           <l n="15">Semblait lui réclamer un suprême sourire </l> 
+                           <l n="16">Où brillât la douceur de son premier serment.</l> 
+                        </lg>
+                        <lg type="quatrain" n="5">						
+                           <l n="17">Tout droit dans son armure, un grand homme de pierre</l> 
+                           <l n="18">Se tenait à la barre et coupait le flot noir;</l> 
+                           <l n="19">Mais le calme héros, courbé sur sa rapière,</l> 
+                           <l n="20">Regardait le sillage et ne daignait rien voir.</l> 
+                        </lg>
+                     </lg>
                   </div>
                   <div>
                      <p> CHATIMENT DE L'ORGUEIL </p>
