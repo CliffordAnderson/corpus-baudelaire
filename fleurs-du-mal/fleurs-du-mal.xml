@@ -974,6 +974,10 @@
                         perle et le saphir, Afin qu'à mon, désir tu ne sois jamais sourde! N'es-tu
                         pas l'oasis où je rêve, et la gourde Où je hume à longs traits le vin du
                         souvenir? </p>
+                  </div>
+                  <div>
+                     <head>Je t'adore à l'égal de la voûte nocturne</head>
+                     <!--Untitled poem. Used first line as head-->
                      <p> Je t'adore à l'égal de la voûte nocturne, O vase de tristesse, ô grande
                         taciturne, Et t'aime d'autant plus, belle, que tu me fuis, Et que tu me
                         parais, ornement de mes nuits, Plus ironiquement accumuler les lieues Qui
@@ -981,6 +985,10 @@
                      <p> Je m'avance à l'attaque, et je grimpe aux assauts, Comme après un cadavre
                         un choeur de vermisseaux, Et je chéris, ô bête implacable et cruelle,
                         Jusqu'à cette froideur par où tu m'es plus belle! </p>
+                  </div>
+                  <div>
+                     <head>Tu mettrais l'univers entier dans ta ruelle</head>
+                     <!--Untitled poem. Used first line as head.-->
                      <p> Tu mettrais l'univers entier dans ta ruelle, Femme impure! L'ennui rend ton
                         âme cruelle. Pour exercer tes dents à ce jeu singulier, Il te faut chaque
                         jour un coeur au râtelier. Tes yeux, illuminés ainsi que des boutiques Ou
@@ -1008,6 +1016,10 @@
                         fois, </p>
                      <p> Hélas! et je ne puis, Mégère libertine, Pour briser ton courage et te
                         mettre aux abois, Dans l'enfer de ton lit devenir Proserpine! </p>
+                  </div>
+                  <div>
+                     <head>Avec ses vêtements ondoyants et nacrés</head>
+                     <!--Untitled poem. Used first line as head-->
                      <p> Avec ses vêtements ondoyants et nacrés, Même quand elle marche, on croirait
                         qu'elle danse, Comme ces longs serpents que les jongleurs sacrés Au bout de
                         leurs bâtons agitent en cadence. </p>
@@ -1076,59 +1088,120 @@
                      <p> Alors, ô ma beauté, dites à la vermine Qui vous mangera de baisers, Que
                         j'ai gardé la forme et l'essence divine De mes amours décomposés! </p>
                   </div>
-                  <div>
-                     <p> DE PROFUNDIS CLAMAVI </p>
-                     <p/>
-                     <p> J'implore ta pitié. Toi, l'unique que j'aime, Du fond du gouffre obscur où
-                        mon coeur est tombé. C'est un univers morne à l'horizon plombé, Où nagent
-                        dans la nuit l'horreur et le blasphème; </p>
-                     <p> Un soleil sans chaleur plane au-dessus six mois, Et les six autres mois la
-                        nuit couvre la terre; C'est un pays plus nu que la terre polaire; Ni bêtes,
-                        ni ruisseaux, ni verdure, ni bois! </p>
-                     <p> Or il n'est d'horreur au monde qui surpasse La froide cruauté de ce soleil
-                        de glace Et cette immense nuit semblable au vieux Chaos; </p>
-                     <p> Je jalouse le sort des plus vils animaux Qui peuvent se plonger dans un
-                        sommeil stupide, Tant l'écheveau du temps lentement se dévide! </p>
+                  <div type="poem" subtype="sonnet">
+                     <head><title>DE PROFUNDIS CLAMAVI</title></head>
+                     <lg type="stanza" subtype="quatrain" n="1">
+                        <l n="1">J'implore ta pitié. Toi, l'unique que j'aime,</l>
+                        <l n="2">Du fond du gouffre obscur où mon coeur est tombé.</l>
+                        <l n="3">C'est un univers morne à l'horizon plombé,</l>
+                        <l n="4">Où nagent dans la nuit l'horreur et le blasphème;</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="2">
+                        <l n="5">Un soleil sans chaleur plane au-dessus six mois,</l>
+                        <l n="6">Et les six autres mois la nuit couvre la terre;</l>
+                        <l n="7">C'est un pays plus nu que la terre polaire;</l>
+                        <l n="8">--Ni bêtes, ni ruisseaux, ni verdure, ni bois!</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="3">
+                        <l n="9">Or il n'est d'horreur au monde qui surpasse</l>
+                        <l n="10">La froide cruauté de ce soleil de glace</l>
+                        <l n="11">Et cette immense nuit semblable au vieux Chaos;</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="4">
+                        <l n="12">Je jalouse le sort des plus vils animaux</l>
+                        <l n="13">Qui peuvent se plonger dans un sommeil stupide,</l>
+                        <l n="14">Tant l'écheveau du temps lentement se dévide!</l>
+                     </lg>
                   </div>
-                  <div>
-                     <p> LE VAMPIRE </p>
-                     <p/>
-                     <p> Toi qui, comme un coup de couteau. Dans mon coeur plaintif est entrée; Toi
-                        qui, forte comme un troupeau De démons, vins, folle et parée, </p>
-                     <p> De mon esprit humilié Faire ton lit et ton domaine. --Infâme à qui je suis
-                        lié Comme le forçat à la chaîne, </p>
-                     <p> Comme au jeu le joueur têtu, Comme à la bouteille l'ivrogne, Comme aux
-                        vermines la charogne, --Maudite, maudite sois-tu! </p>
-                     <p> J'ai prié le glaive rapide De conquérir ma liberté, Et j'ai dit au poison
-                        perfide De secourir ma lâcheté. </p>
-                     <p> Hélas! le poison et le glaive M'ont pris en dédain et m'ont dit: « Tu n'es
-                        pas digne qu'on t'enlève A ton esclavage maudit, </p>
-                     <p> Imbécile!--de son empire Si nos efforts te délivraient, Tes baisers
-                        ressusciteraient Le cadavre de ton vampire! » </p>
-                     <p> Une nuit que j'étais près d'une affreuse Juive, Comme au long d'un cadavre
-                        un cadavre étendu, Je me pris à songer près de ce corps vendu A la triste
-                        beauté dont mon désir se prive. </p>
-                     <p> Je me représentai sa majesté native, Son regard de vigueur et de grâces
-                        armé, Ses cheveux qui lui font un casque parfumé, Et dont le souvenir pour
-                        l'amour me ravive. </p>
-                     <p> Car j'eusse avec ferveur baisé ton noble corps, Et depuis tes pieds frais
-                        jusqu'à tes noires tresses Déroulé le trésor des profondes caresses, </p>
-                     <p> Si, quelque soir, d'un pleur obtenu sans effort Tu pouvais seulement, ô
-                        reine des cruelles, Obscurcir la splendeur de tes froides prunelles. </p>
+                  <div type="poem">
+                     <head><title>LE VAMPIRE</title></head>
+                     <lg type="stanza" subtype="quatrain" n="1">
+                        <l n="1">Toi qui, comme un coup de couteau.</l>
+                        <l n="2">Dans mon coeur plaintif est entrée;</l>
+                        <l n="3">Toi qui, forte comme un troupeau</l>
+                        <l n="4">De démons, vins, folle et parée,</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="2">
+                        <l n="5">De mon esprit humilié</l>
+                        <l n="6">Faire ton lit et ton domaine.</l>
+                        <l n="7">--Infâme à qui je suis lié</l>
+                        <l n="8">Comme le forçat à la chaîne,</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="3">
+                        <l n="9">Comme au jeu le joueur têtu,</l>
+                        <l n="10">Comme à la bouteille l'ivrogne,</l>
+                        <l n="11">Comme aux vermines la charogne,</l>
+                        <l n="12">--Maudite, maudite sois-tu!</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="4">
+                        <l n="13">J'ai prié le glaive rapide</l>
+                        <l n="14">De conquérir ma liberté,</l>
+                        <l n="15">Et j'ai dit au poison perfide</l>
+                        <l n="16">De secourir ma lâcheté.</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="5">
+                        <l n="17">Hélas! le poison et le glaive</l>
+                        <l n="18">M'ont pris en dédain et m'ont dit:</l>
+                        <l n="19">«Tu n'es pas digne qu'on t'enlève</l>
+                        <l n="20">A ton esclavage maudit,</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="6">
+                        <l n="21">Imbécile!--de son empire</l>
+                        <l n="22">Si nos efforts te délivraient,</l>
+                        <l n="23">Tes baisers ressusciteraient</l>
+                        <l n="24">Le cadavre de ton vampire!»</l>
+                     </lg>
                   </div>
-                  <div>
-                     <p> REMORDS POSTHUME </p>
-                     <p/>
-                     <p> Lorsque tu dormiras, ma belle ténébreuse, Au fond d'un monument construit
-                        en marbre noir, Et lorsque tu n'auras pour alcôve et manoir Qu'un caveau
-                        pluvieux et qu'une fosse creuse; </p>
-                     <p> Quand la pierre, opprimant ta poitrine peureuse Et tes flancs qu'assouplit
-                        un charmant nonchaloir, Empêchera ton coeur de battre et de vouloir, Et tes
-                        pieds de courir leur course aventureuse, </p>
-                     <p> Le tombeau, confident de mon rêve infini, --Car le tombeau toujours
-                        comprendra le poète,-- Durant ces longues nuits d'où le somme est banni, </p>
-                     <p> Te dira: « Que vous sert, courtisane imparfaite, De n'avoir pas connu ce
-                        que pleurent les morts? » --Et le ver rongera ta peau comme un remords. </p>
+                  <div type="poem" subtype="sonnet">
+                     <head><title>Une nuit que j'étais près d'une affreuse Juive</title></head>
+                     <!--Untitled poem. Used first line as head-->
+                     <lg type="stanza" subtype="quatrain" n="1">
+                        <l n="1">Une nuit que j'étais près d'une affreuse Juive,</l>
+                        <l n="2">Comme au long d'un cadavre un cadavre étendu,</l>
+                        <l n="3">Je me pris à songer près de ce corps vendu</l>
+                        <l n="4">A la triste beauté dont mon désir se prive.</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="2">
+                        <l n="5">Je me représentai sa majesté native,</l>
+                        <l n="6">Son regard de vigueur et de grâces armé,</l>
+                        <l n="7">Ses cheveux qui lui font un casque parfumé,</l>
+                        <l n="8">Et dont le souvenir pour l'amour me ravive.</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="3">
+                        <l n="9">Car j'eusse avec ferveur baisé ton noble corps,</l>
+                        <l n="10">Et depuis tes pieds frais jusqu'à tes noires tresses</l>
+                        <l n="11">Déroulé le trésor des profondes caresses,</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="4">
+                        <l n="12">Si, quelque soir, d'un pleur obtenu sans effort</l>
+                        <l n="13">Tu pouvais seulement, ô reine des cruelles,</l>
+                        <l n="14">Obscurcir la splendeur de tes froides prunelles.</l>
+                     </lg>
+                  </div>
+                  <div type="poem" subtype="sonnet">
+                     <head><title>REMORDS POSTHUME</title></head>
+                     <lg type="stanza" subtype="quatrain" n="1">
+                        <l n="1">Lorsque tu dormiras, ma belle ténébreuse,</l>
+                        <l n="2">Au fond d'un monument construit en marbre noir,</l>
+                        <l n="3">Et lorsque tu n'auras pour alcôve et manoir</l>
+                        <l n="4">Qu'un caveau pluvieux et qu'une fosse creuse;</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="2">
+                        <l n="5">Quand la pierre, opprimant ta poitrine peureuse</l>
+                        <l n="6">Et tes flancs qu'assouplit un charmant nonchaloir,</l>
+                        <l n="7">Empêchera ton coeur de battre et de vouloir,</l>
+                        <l n="8">Et tes pieds de courir leur course aventureuse,</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="3">
+                        <l n="9">Le tombeau, confident de mon rêve infini,</l>
+                        <l n="10">--Car le tombeau toujours comprendra le poète,--</l>
+                        <l n="11">Durant ces longues nuits d'où le somme est banni,</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="4">
+                        <l n="12">Te dira: «Que vous sert, courtisane imparfaite,</l>
+                        <l n="13">De n'avoir pas connu ce que pleurent les morts?»</l>
+                        <l n="14">--Et le ver rongera ta peau comme un remords.</l>
+                     </lg>
                   </div>
                   <div>
                      <p> LE CHAT </p>
@@ -1240,6 +1313,10 @@
                         vieillard, Chaque jour frotte avec son aile rude... </p>
                      <p> Noir assassin de la Vie et de l'Art, Tu ne tueras jamais dans ma mémoire
                         Celle qui fut mon plaisir et ma gloire! </p>
+                  </div>
+                  <div>
+                     <head>Je te donne ces vers afin que, si mon nom</head>
+                     <!--Untitled poem. Used first line as head.-->
                      <p> Je te donne ces vers afin que, si mon nom Aborde heureusement aux époques
                         lointaines Et fait rêver un soir les cervelles humaines, Vaisseau favorisé
                         par un grand aquilon, </p>
@@ -2614,12 +2691,20 @@
                   <p> Mais ne suffit-il pas que tu sois l'apparence, Pour réjouir un coeur qui fuit
                      la vérité? Qu'importe ta bêtise ou ton indifférence? Masque ou décor, salut!
                      J'adore ta beauté. </p>
+               </div>
+               <div>
+                  <head>Je n'ai pas oublié, voisine de la ville</head>
+                  <!--Untitled Poem. Used first line as head-->
                   <p> Je n'ai pas oublié, voisine de la ville, Notre blanche maison, petite mais
                      tranquille, Sa Pomone de plâtre et sa vieille Vénus Dans un bosquet chétif
                      cachant leurs membres nus; Et le soleil, le soir, ruisselant et superbe, Qui,
                      derrière la vitre où se brisait sa gerbe, Semblait, grand oeil ouvert dans le
                      ciel curieux, Contempler nos dîners longs et silencieux, Répandant largement
                      ses beaux reflets de cierge Sur la nappe frugale et les rideaux de serge. </p>
+               </div>
+               <div>
+                  <head>La servante au grand coeur dont vous étiez jalouse</head>
+                  <!--Untitled Poem. Used first line as head-->
                   <p> La servante au grand coeur dont vous étiez jalouse, Et qui dort son sommeil
                      sous une humble pelouse, Nous devrions pourtant lui porter quelques fleurs. Les
                      morts, les pauvres morts ont de grandes douleurs, Et quand Octobre souffle,
