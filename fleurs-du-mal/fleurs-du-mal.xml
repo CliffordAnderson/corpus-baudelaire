@@ -891,93 +891,168 @@
 
                   </div>
                   <div>
-                     <p> LE MASQUE </p>
-                     <p> STATUE ALLÉGORIQUE DANS LE GOUT DE LA RENAISSANCE </p>
-                     <p> A ERNEST CHRISTOPHE STATUAIRE </p>
-                     <p/>
-                     <p> Contemplons ce trésor de grâces florentines; Dans l'ondulation de ce corps
-                        musculeux L'Elégance et la Force abondent, soeurs divines. Cette femme,
-                        morceau vraiment miraculeux, Divinement robuste, adorablement mince, Est
-                        faite pour trôner sur des lits somptueux, Et charmer les loisirs d'un
-                        pontife ou d'un prince. </p>
-                     <p> --Aussi, vois ce souris fin et voluptueux Où la Fatuité promène son extase;
-                        Ce long regard sournois, langoureux et moqueur; Ce visage mignard, tout
-                        encadré de gaze, Dont chaque trait nous dit avec un air vainqueur: « La
-                        Volupté m'appelle et l'Amour me couronne! » A cet être doué de tant de
-                        majesté Vois quel charme excitant la gentillesse donne! Approchons, et
-                        tournons autour de sa beauté. </p>
-                     <p> O blasphème de l'art! ô surprise fatale! La femme au corps divin,
-                        promettant le bonheur, Par le haut se termine en monstre bicéphale! </p>
-                     <p> Mais non! Ce n'est qu'un masque, un décor suborneur, Ce visage éclairé
-                        d'une exquise grimace, Et, regarde, voici, crispée atrocement, La véritable
-                        tête, et la sincère face Renversée à l'abri de la face qui ment. --Pauvre
-                        grande beauté! le magnifique fleuve De tes pleurs aboutit dans mon coeur
-                        soucieux; Ton mensonge m'enivre, et mon âme s'abreuve Aux flots que la
-                        Douleur fait jaillir de tes yeux! </p>
-                     <p> --Mais pourquoi pleure-t-elle? Elle, beauté parfaite Qui mettrait à ses
-                        pieds le genre humain vaincu, Quel mal mystérieux ronge son flanc d'athlète? </p>
-                     <p> --Elle pleure, insensé, parce qu'elle a vécu! Et parce qu'elle vit! Mais ce
-                        qu'elle déplore Surtout, ce qui la fait frémir jusqu'aux genoux, C'est que
-                        demain, hélas! il faudra vivre encore! Demain, après-demain et
-                        toujours!--comme nous! </p>
+                     <lg type="poem" n="14">
+                        <head>
+                           <title>LE MASQUE </title>
+                           <title type="sub">STATUE ALLÉGORIQUE DANS LE GOUT DE LA RENAISSANCE </title>
+                           <title type="sub">A ERNEST CHRISTOPHE STATUAIRE</title>
+                        </head>
+                        <lg type="stanza" n="1">
+                           <l n="1">Contemplons ce trésor de grâces florentines;</l>
+                           <l n="2">Dans l'ondulation de ce corps musculeux</l>
+                           <l n="3">L'Elégance et la Force abondent, soeurs divines.</l>
+                           <l n="4">Cette femme, morceau vraiment miraculeux,</l>
+                           <l n="5">Divinement robuste, adorablement mince,</l>
+                           <l n="6">Est faite pour trôner sur des lits somptueux,</l>
+                           <l n="7">Et charmer les loisirs d'un pontife ou d'un prince.</l>
+                        </lg>
+                        <lg type="stanza" n="2">
+                           <l n="8">--Aussi, vois ce souris fin et voluptueux</l>
+                           <l n="9">Où la Fatuité promène son extase;</l>
+                           <l n="10">Ce long regard sournois, langoureux et moqueur;</l>
+                           <l n="11">Ce visage mignard, tout encadré de gaze,</l>
+                           <l n="12">Dont chaque trait nous dit avec un air vainqueur:</l>
+                           <l n="13">« La Volupté m'appelle et l'Amour me couronne! »</l>
+                           <l n="14">A cet être doué de tant de majesté</l>
+                           <l n="15">Vois quel charme excitant la gentillesse donne!</l>
+                           <l n="16">Approchons, et tournons autour de sa beauté. </l>
+                        </lg>
+                        <lg type="stanza" n="3">
+                           <l n="17">O blasphème de l'art! ô surprise fatale!</l>
+                           <l n="18">La femme au corps divin, promettant le bonheur,</l>
+                           <l n="19">Par le haut se termine en monstre bicéphale! </l>
+                        </lg>
+                        <lg type="stanza" n="4">
+                           <l n="20">Mais non! Ce n'est qu'un masque, un décor suborneur,</l>
+                           <l n="21">Ce visage éclairé d'une exquise grimace,</l>
+                           <l n="22">Et, regarde, voici, crispée atrocement,</l>
+                           <l n="23">La véritable tête, et la sincère face</l>
+                           <l n="24">Renversée à l'abri de la face qui ment.</l>
+                           <l n="25">--Pauvre grande beauté! le magnifique fleuve</l>
+                           <l n="26">De tes pleurs aboutit dans mon coeur soucieux;</l>
+                           <l n="27">Ton mensonge m'enivre, et mon âme s'abreuve</l>
+                           <l n="28">Aux flots que la Douleur fait jaillir de tes yeux! </l>
+                        </lg>
+                        <lg type="stanza" n="5">
+                           <l n="29">--Mais pourquoi pleure-t-elle? Elle, beauté parfaite</l>
+                           <l n="30">Qui mettrait à ses pieds le genre humain vaincu,</l>
+                           <l n="31">Quel mal mystérieux ronge son flanc d'athlète? </l>
+                        </lg>
+                        <lg type="stanza" n="6">
+                           <l n="32">--Elle pleure, insensé, parce qu'elle a vécu!</l>
+                           <l n="33">Et parce qu'elle vit! Mais ce qu'elle déplore</l>
+                           <l n="34">Surtout, ce qui la fait frémir jusqu'aux genoux,</l>
+                           <l n="35">C'est que demain, hélas! il faudra vivre encore!</l>
+                           <l n="36">Demain, après-demain et toujours!--comme nous! </l>
+                        </lg>
+                     </lg>
                   </div>
                   <div>
-                     <p> HYMNE A LA BEAUTE </p>
-                     <p/>
-                     <p> Viens-tu du ciel profond ou sors-tu de l'abîme, O Beauté? Ton regard,
-                        infernal et divin, Verse confusément le bienfait et le crime, Et l'on peut
-                        pour cela te comparer au vin. Tu contiens dans ton oeil le couchant et
-                        l'aurore; </p>
-                     <p> Tu répands des parfums comme un soir orageux; Tes baisers sont un filtre et
-                        ta bouche une amphore Qui font le héros lâche et l'enfant courageux. Sors-tu
-                        du gouffre noir ou descends-tu des astres? </p>
-                     <p> Le Destin charmé suit tes jupons comme un chien; Tu sèmes au hasard la joie
-                        et les désastres, Et tu gouvernes tout et ne réponds de rien. </p>
-                     <p> Tu marches sur des morts. Beauté, dont tu te moques; De tes bijoux
-                        l'Horreur n'est pas le moins charmant, Et le Meurtre, parmi tes plus chères
-                        breloques, Sur ton ventre orgueilleux danse amoureusement. </p>
-                     <p> L'éphémère ébloui vole vers toi, chandelle, Crépite, flambe et dit:
-                        Bénissons ce flambeau! L'amoureux pantelant incliné sur sa belle A l'air
-                        d'un moribond caressant son tombeau. </p>
-                     <p> Que tu viennes du ciel ou de l'enfer, qu'importe, O Beauté! monstre énorme,
-                        effrayant, ingénu! Si ton oeil, ton souris, ton pied, m'ouvrent la porte
-                        D'un infini que j'aime et n'ai jamais connu? </p>
-                     <p> De Satan ou de Dieu, qu'importe? Ange ou Sirène, Qu'importé, si tu
-                        rends,--fée aux yeux de velours, Rythme, parfum, lueur, ô mon unique
-                        reine!-- L'univers moins hideux et les instants moins lourds? </p>
+                     <lg type="poem" n="15">
+                        <head>
+                           <title>HYMNE A LA BEAUTE </title>
+                        </head>
+                        <lg type="quatrain" n="1">
+                           <l n="1">Viens-tu du ciel profond ou sors-tu de l'abîme,</l>
+                           <l n="2">O Beauté? Ton regard, infernal et divin,</l>
+                           <l n="3">Verse confusément le bienfait et le crime,</l>
+                           <l n="4">Et l'on peut pour cela te comparer au vin.</l>
+                        </lg>
+                        <lg type="quatrain" n="2">
+                           <l n="5">Tu contiens dans ton oeil le couchant et l'aurore; </l>
+                           <l n="6">Tu répands des parfums comme un soir orageux;</l>
+                           <l n="7">Tes baisers sont un filtre et ta bouche une amphore</l>
+                           <l n="8">Qui font le héros lâche et l'enfant courageux.</l>
+                        </lg>
+                        <lg type="quatrain" n="3">
+                           <l n="9">Sors-tu du gouffre noir ou descends-tu des astres? </l>
+                           <l n="10">Le Destin charmé suit tes jupons comme un chien;</l>
+                           <l n="11">Tu sèmes au hasard la joie et les désastres,</l>
+                           <l n="12">Et tu gouvernes tout et ne réponds de rien. </l>
+                        </lg>
+                        <lg type="quatrain" n="4">
+                           <l n="13">Tu marches sur des morts. Beauté, dont tu te moques;</l>
+                           <l n="14">De tes bijoux l'Horreur n'est pas le moins charmant,</l>
+                           <l n="15">Et le Meurtre, parmi tes plus chères breloques,</l>
+                           <l n="16">Sur ton ventre orgueilleux danse amoureusement. </l>
+                        </lg>
+                        <lg type="quatrain" n="5">
+                           <l n="17">L'éphémère ébloui vole vers toi, chandelle,</l>
+                           <l n="18">Crépite, flambe et dit: Bénissons ce flambeau!</l>
+                           <l n="19">L'amoureux pantelant incliné sur sa belle</l>
+                           <l n="20">A l'air d'un moribond caressant son tombeau. </l>
+                        </lg>
+                        <lg type="quatrain" n="6">
+                           <l n="21">Que tu viennes du ciel ou de l'enfer, qu'importe,</l>
+                           <l n="22">O Beauté! monstre énorme, effrayant, ingénu!</l>
+                           <l n="23">Si ton oeil, ton souris, ton pied, m'ouvrent la porte</l>
+                           <l n="24">D'un infini que j'aime et n'ai jamais connu? </l>
+                        </lg>
+                        <lg type="quatrain" n="6">
+                           <l n="25">De Satan ou de Dieu, qu'importe? Ange ou Sirène,</l>
+                           <l n="26">Qu'importé, si tu rends,--fée aux yeux de velours,</l>
+                           <l n="27">Rythme, parfum, lueur, ô mon unique reine!--</l>
+                           <l n="28">L'univers moins hideux et les instants moins lourds? </l>
+                        </lg>
+                     </lg>
                   </div>
                   <div>
-                     <p> LA CHEVELURE </p>
-                     <p/>
-                     <p> O toison, moutonnant jusque sur l'encolure! O boucles! O parfum chargé de
-                        nonchaloir! Extase! Pour peupler ce soir l'alcôve obscure Des souvenirs
-                        dormant dans cette chevelure, Je la veux agiter dans l'air comme un
-                        mouchoir. </p>
-                     <p> La langoureuse Asie et la brûlante Afrique, Tout un monde lointain, absent,
-                        presque défunt, Vit dans tes profondeurs, forêt aromatique! Comme d'autres
-                        esprits voguent sur la musique, Le mien, ô mon amour! nage sur ton parfum. </p>
-                     <p> J'irai là-bas où l'arbre et l'homme, pleins de sève, Se pâment longuement
-                        sous l'ardeur des climats; Fortes tresses, soyez la houle qui m'enlève! Tu
-                        contiens, mer d'ébène, un éblouissant rêve De voiles, de rameurs, de flammes
-                        et de mâts: </p>
-                     <p> Un port retentissant où mon âme peut boire A grands flots le parfum, le son
-                        et la couleur; Où les vaisseaux, glissant dans l'or et dans la moire,
-                        Ouvrent leurs vastes bras pour embrasser la gloire D'un ciel pur où frémit
-                        l'éternelle chaleur. </p>
-                     <p> Je plongerai ma tête amoureuse d'ivresse Dans ce noir océan où l'autre est
-                        enfermé; Et mon esprit subtil que le roulis caresse Saura vous retrouver, ô
-                        féconde paresse, Infinis bercements du loisir embaumé! </p>
-                     <p> Cheveux bleus, pavillon de ténèbres tendues, Vous me rendez l'azur du ciel
-                        immense et rond; Sur les bords duvetés de vos mèches tordues Je m'enivre
-                        ardemment des senteurs confondues De l'huile de coco, du musc et du goudron. </p>
-                     <p> Longtemps! toujours! ma main dans ta crinière lourde Sèmera le rubis, la
-                        perle et le saphir, Afin qu'à mon, désir tu ne sois jamais sourde! N'es-tu
-                        pas l'oasis où je rêve, et la gourde Où je hume à longs traits le vin du
-                        souvenir? </p>
+                     <lg type="poem" n="16">
+                        <head>
+                           <title>LA CHEVELURE </title>
+                        </head>
+                        <lg type="cinquain" n="1">
+                           <l n="1">O toison, moutonnant jusque sur l'encolure!</l>
+                           <l n="2">O boucles! O parfum chargé de nonchaloir! </l>
+                           <l n="3">Extase! Pour peupler ce soir l'alcôve obscure</l>
+                           <l n="4">Des souvenirs dormant dans cette chevelure,</l>
+                           <l n="5">Je la veux agiter dans l'air comme un mouchoir. </l>
+                        </lg>
+                        <lg type="cinquain" n="2">
+                           <l n="6">La langoureuse Asie et la brûlante Afrique,</l>
+                           <l n="7">Tout un monde lointain, absent, presque défunt,</l>
+                           <l n="8">Vit dans tes profondeurs, forêt aromatique!</l>
+                           <l n="9">Comme d'autres esprits voguent sur la musique,</l>
+                           <l n="10">Le mien, ô mon amour! nage sur ton parfum. </l>
+                        </lg>
+                        <lg type="cinquain" n="3">
+                           <l n="11">J'irai là-bas où l'arbre et l'homme, pleins de sève,</l>
+                           <l n="12">Se pâment longuement sous l'ardeur des climats;</l>
+                           <l n="13">Fortes tresses, soyez la houle qui m'enlève!</l>
+                           <l n="14">Tu contiens, mer d'ébène, un éblouissant rêve</l>
+                           <l n="15">De voiles, de rameurs, de flammes et de mâts:</l>
+                        </lg>
+                        <lg type="cinquain" n="4">
+                           <l n="16">Un port retentissant où mon âme peut boire</l>
+                           <l n="17">A grands flots le parfum, le son et la couleur;</l>
+                           <l n="18">Où les vaisseaux, glissant dans l'or et dans la moire,</l>
+                           <l n="19">Ouvrent leurs vastes bras pour embrasser la gloire</l>
+                           <l n="20">D'un ciel pur où frémit léternelle chaleur. </l>
+                        </lg>
+                        <lg type="cinquain" n="5">
+                           <l n="21">Je plongerai ma tête amoureuse d'ivresse</l>
+                           <l n="22">Dans ce noir océan où l'autre est enfermé;</l>
+                           <l n="23">Et mon esprit subtil que le roulis caresse</l>
+                           <l n="24">Saura vous retrouver, féconde paresse,</l>
+                           <l n="25">Infinis bercements du loisir embaumé! </l>
+                        </lg>
+                        <lg type="cinquain" n="6">
+                           <l n="26">Cheveux bleus, pavillon de ténèbres tendues,</l>
+                           <l n="27">Vous me rendez l'azur du ciel immense et rond;</l>
+                           <l n="28">Sur les bords duvetés de vos mèches tordues</l>
+                           <l n="29">Je m'enivre ardemment des senteurs confondues</l>
+                           <l n="30">De l'huile de coco, du musc et du goudron. </l>
+                        </lg>
+                        <lg type="cinquain" n="7">
+                           <l n="31">Longtemps! toujours! ma main dans ta crinière lourde</l>
+                           <l n="32">Sèmera le rubis, la perle et le saphir,</l>
+                           <l n="33">Afin qu'à mon, désir tu ne sois jamais sourde!</l>
+                           <l n="34">N'es-tu pas l'oasis où je rêve, et la gourde</l>
+                           <l n="35">Où je hume à longs traits le vin du souvenir? </l>
+                        </lg>
+                     </lg>
                   </div>
                   <div>
-                     <head>Je t'adore à l'égal de la voûte nocturne</head>
-                     <!--Untitled poem. Used first line as head-->
                      <p> Je t'adore à l'égal de la voûte nocturne, O vase de tristesse, ô grande
                         taciturne, Et t'aime d'autant plus, belle, que tu me fuis, Et que tu me
                         parais, ornement de mes nuits, Plus ironiquement accumuler les lieues Qui
