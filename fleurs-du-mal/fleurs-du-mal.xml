@@ -789,26 +789,46 @@
                      </lg>
                   </div>
                   <div type="poem" n="11">
-                     <p> CHATIMENT DE L'ORGUEIL </p>
-                     <p/>
-                     <p> En ces temps merveilleux où la Théologie Fleurit avec le plus de sève et
-                        d'énergie, On raconte qu'un jour un docteur des plus grands --Après avoir
-                        forcé les coeurs indifférents, Les avoir remués dans leurs profondeurs
-                        noires; Après avoir franchi vers les célestes gloires Des chemins singuliers
-                        à lui-même inconnus, Où les purs Esprits seuls peut-être étaient venus,
-                        --Comme un homme monté trop haut, pris de panique, S'écria, transporté d'un
-                        orgueil satanique: « Jésus, petit Jésus! je t'ai poussé bien haut! Mais, si
-                        j'avais voulu t'attaquer au défaut De l'armure, ta honte égalerait ta
-                        gloire, Et tu ne serais plus qu'un foetus dérisoire! » </p>
-                     <p> Immédiatement sa raison s'en alla. L'éclat de ce soleil d'un crêpe se
-                        voila; Tout le chaos roula dans cette intelligence, Temple autrefois vivant,
-                        plein d'ordre et d'opulence. Sous les plafonds duquel tant de pompe avait
-                        lui. Le silence et la nuit s'installèrent en lui, Comme dans un caveau dont
-                        la clef est perdue. Dès lors il fut semblable aux bêtes de la rue, Et, quand
-                        il s'en allait sans rien voir, à travers Les champs, sans distinguer les
-                        étés des hivers, Sale, inutile et laid comme une chose usée, Il faisait des
-                        enfants la joie et la risée. </p>
-                     <p/>
+                     <!-- Is there a type of poem that has 14 then 12 verses? -->
+                     <head>
+                        <title type="main">Châtiment de l'Orgueil</title>
+                     </head>
+                     <lg type="quatrain" rhyme="aabbccddeeffcc">
+                        <!-- This is obviously NOT a quatrain, but what is a 14 verse estrofa? -->
+                        <!-- I also think that there is a cesura in this -->
+                        <l n="1" rhyme="a">En ces temps merveilleux où la Théologie</l>
+                        <l n="2" rhyme="a" enjamb="yes">Fleurit avec le plus de sève et d'énergie,</l>
+                        <l n="3" rhyme="b">On raconte qu'un jour un docteur des plus grands</l>
+                        <l n="4" rhyme="b" enjamb="yes">--Après avoir forcé les coeurs indifférents,</l>
+                        <l n="5" rhyme="c" enjamb="yes">Les avoir remués dans leurs profondeurs noires;</l>
+                        <l n="6" rhyme="c">Après avoir franchi vers les célestes gloires</l>
+                        <l n="7" rhyme="d" enjamb="yes">Des chemins singuliers à lui-même inconnus,</l>
+                        <l n="8" rhyme="d" enjamb="yes">Où les purs Esprits seuls peut-être étaient
+                           venus,</l>
+                        <l n="9" rhyme="e" enjamb="yes">--Comme un homme monté trop haut, pris de
+                           panique,</l>
+                        <l n="10" rhyme="e" enjamb="yes">S'écria, transporté d'un orgueil satanique:</l>
+                        <l n="11" rhyme="f" enjamb="yes">«Jésus, petit Jésus! je t'ai poussé bien haut!</l>
+                        <l n="12" rhyme="f">Mais, si j'avais voulu t'attaquer au défaut</l>
+                        <l n="13" rhyme="c" enjamb="yes">De l'armure, ta honte égalerait ta gloire,</l>
+                        <l n="14" rhyme="c" enjamb="yes">Et tu ne serais plus qu'un foetus dérisoire!»</l>
+                     </lg>
+                     <lg type="alexandrine" rhyme="aabbccddeeff">
+                        <!-- I also think that there is a cesura in this -->
+                        <l n="1" rhyme="a" enjamb="yes">Immédiatement sa raison s'en alla.</l>
+                        <l n="2" rhyme="a">L'éclat de ce soleil d'un crêpe se voila</l>
+                        <l n="3" rhyme="b" enjamb="yes">Tout le chaos roula dans cette intelligence,</l>
+                        <l n="4" rhyme="b" enjamb="yes">Temple autrefois vivant, plein d'ordre et
+                           d'opulence.</l>
+                        <l n="5" rhyme="c" enjamb="yes">Sous les plafonds duquel tant de pompe avait lui.</l>
+                        <l n="6" rhyme="c" enjamb="yes">Le silence et la nuit s'installèrent en lui,</l>
+                        <l n="7" rhyme="d" enjamb="yes">Comme dans un caveau dont la clef est perdue.</l>
+                        <l n="8" rhyme="d" enjamb="yes">Dès lors il fut semblable aux bêtes de la rue,</l>
+                        <l n="9" rhyme="e">Et, quand il s'en allait sans rien voir, à travers</l>
+                        <l n="10" rhyme="e" enjamb="yes">Les champs, sans distinguer les étés des hivers,</l>
+                        <l n="11" rhyme="f" enjamb="yes">Sale, inutile et laid comme une chose usée,</l>
+                        <l n="12" rhyme="f" enjamb="yes">Il faisait des enfants la joie et la risée.</l>
+                     </lg>
                   </div>
                   <div type="poem" subtype="sonnet" n="12" rhyme="abbacddcefefgg">
                      <head><title>LA BEAUTE</title></head>
@@ -922,7 +942,7 @@
                         toujours!--comme nous! </p>
                   </div>
                   <div>
-                   <p> HYMNE A LA BEAUTE </p>
+                     <p> HYMNE A LA BEAUTE </p>
                      <p/>
                      <p> Viens-tu du ciel profond ou sors-tu de l'abîme, O Beauté? Ton regard,
                         infernal et divin, Verse confusément le bienfait et le crime, Et l'on peut
@@ -1079,8 +1099,8 @@
                         parmi les ossements. </p>
                      <p> Alors, ô ma beauté, dites à la vermine Qui vous mangera de baisers, Que
                         j'ai gardé la forme et l'essence divine De mes amours décomposés! </p>
-                     </div>
-                    <div>
+                  </div>
+                  <div>
                      <p> DE PROFUNDIS CLAMAVI </p>
                      <p/>
                      <p> J'implore ta pitié. Toi, l'unique que j'aime, Du fond du gouffre obscur où
@@ -1093,8 +1113,8 @@
                         de glace Et cette immense nuit semblable au vieux Chaos; </p>
                      <p> Je jalouse le sort des plus vils animaux Qui peuvent se plonger dans un
                         sommeil stupide, Tant l'écheveau du temps lentement se dévide! </p>
-                     </div>
-                     <div>
+                  </div>
+                  <div>
                      <p> LE VAMPIRE </p>
                      <p/>
                      <p> Toi qui, comme un coup de couteau. Dans mon coeur plaintif est entrée; Toi
@@ -1119,8 +1139,8 @@
                         jusqu'à tes noires tresses Déroulé le trésor des profondes caresses, </p>
                      <p> Si, quelque soir, d'un pleur obtenu sans effort Tu pouvais seulement, ô
                         reine des cruelles, Obscurcir la splendeur de tes froides prunelles. </p>
-                    </div>
-                     <div>
+                  </div>
+                  <div>
                      <p> REMORDS POSTHUME </p>
                      <p/>
                      <p> Lorsque tu dormiras, ma belle ténébreuse, Au fond d'un monument construit
@@ -1133,60 +1153,107 @@
                         comprendra le poète,-- Durant ces longues nuits d'où le somme est banni, </p>
                      <p> Te dira: « Que vous sert, courtisane imparfaite, De n'avoir pas connu ce
                         que pleurent les morts? » --Et le ver rongera ta peau comme un remords. </p>
-                     </div>
-                     <div>
-                     <p> LE CHAT </p>
-                     <p/>
-                     <p> Viens, mon beau chat, sur mon coeur amoureux: Retiens les griffes de ta
-                        patte, Et laisse-moi plonger dans tes beaux yeux, Mêlés de métal et d'agate. </p>
-                     <p> Lorsque mes doigts caressent à loisir Ta tête et ton dos élastique, Et que
-                        ma main s'enivre du plaisir De palper ton corps électrique, </p>
-                     <p> Je vois ma femme en esprit; son regard, Comme le tien, aimable bête,
-                        Profond et froid, coupe et fend comme un dard. </p>
-                     <p> Et, des pieds jusques à la tête, Un air subtil, un dangereux parfum Nagent
-                        autour de son corps brun. </p>
-                     </div>
-                     <div>
-                     <p> LE BALCON </p>
-                     <p/>
-                     <p> Mère des souvenirs, maîtresse des maîtresses, O toi, tous mes plaisirs, ô
-                        toi, tous mes devoirs! Tu te rappelleras la beauté des caresses, La douceur
-                        du foyer et le charme des soirs, Mère des souvenirs, maîtresse des
-                        maîtresses! </p>
-                     <p> Les soirs illuminés par l'ardeur du charbon, Et les soirs au balcon, voilés
-                        de vapeurs roses; Que ton sein m'était doux! que ton coeur m'était bon! Nous
-                        avons dit souvent d'impérissables choses Les soirs illuminés par l'ardeur du
-                        charbon. </p>
-                     <p> Que les soleils sont beaux dans les chaudes soirées! Que l'espace est
-                        profond! que le coeur est puissant! En me penchant vers toi, reine des
-                        adorées, Je croyais respirer le parfum de ton sang. Que les soleils sont
-                        beaux dans les chaudes soirées! </p>
-                     <p> La nuit s'épaississait ainsi qu'une cloison, Et mes yeux dans le noir
-                        devinaient tes prunelles Et je buvais ton souffle, ô douceur, ô poison! Et
-                        tes pieds s'endormaient dans mes mains fraternelles, La nuit s'épaississait
-                        ainsi qu'une cloison. </p>
-                     <p> Je sais l'art d'évoquer les minutes heureuses, Et revis mon passé blotti
-                        dans tes genoux. Car à quoi bon chercher tes beautés langoureuses Ailleurs
-                        qu'en ton cher corps et qu'en ton coeur si doux? Je sais l'art d'évoquer les
-                        minutes heureuses! </p>
-                     <p> Ces serments, ces parfums, ces baisers infinis, Renaîtront-ils d'un gouffre
-                        interdit à nos sondes, Comme montent au ciel les soleils rajeunis Après
-                        s'être lacés au fond des mers profondes! --O serments! ô parfums! ô baisers
-                        infinis! </p>
                   </div>
-                  <div>
-                     <p> LE POSSEDE </p>
-                     <p/>
-                     <p> Le soleil s'est couvert d'un crêpe. Comme lui, O Lune de ma vie!
-                        emmitoufle-toi d'ombre; Dors ou fume à ton gré; sois muette, sois sombre, Et
-                        plonge tout entière au gouffre de l'Ennui; </p>
-                     <p> Je t'aime ainsi! Pourtant, si tu veux aujourd'hui, Comme un astre éclipsé
-                        qui sort de la pénombre, Te pavaner aux lieux que la Folie encombre, C'est
-                        bien! Charmant poignard, jaillis de ton étui! </p>
-                     <p> Allume ta prunelle à la flamme des lustres! Allume le désir dans les
-                        regards des rustres! Tout de toi m'est plaisir, morbide ou pétulant; </p>
-                     <p> Sois ce que tu voudras, nuit noire, rouge aurore; Il n'est pas une fibre en
-                        tout mon corps tremblant Qui ne crie: _O mon cher Belzébuth, je t'adore!_ </p>
+                  <div type="sonnet">
+                     <head>
+                        <title type="main">Le Chat</title>
+                     </head>
+                     <lg type="stanza" subtype="quatrain">
+                        <l n="1">Viens, mon beau chat, sur mon coeur amoureux:</l>
+                        <l n="2">Retiens les griffes de ta patte,</l>
+                        <l n="3">Et laisse-moi plonger dans tes beaux yeux,</l>
+                        <l n="4">Mêlés de métal et d'agate.</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain">
+                        <l n="5">Lorsque mes doigts caressent à loisir</l>
+                        <l n="6">Ta tête et ton dos élastique,</l>
+                        <l n="7">Et que ma main s'enivre du plaisir</l>
+                        <l n="8">De palper ton corps électrique,</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet">
+                        <l n="9">Je vois ma fenne en esprit. Son regard,</l>
+                        <l n="10">Comme le tien, aimable bête</l>
+                        <l n="11">Profond et froid, coupe et fend comme un dard,</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet">
+                        <l n="12" rhyme="d">Et ,des pieds jusques à la t^ete,</l>
+                        <l n="13">Un air subtil, un dangereux parfum</l>
+                        <l n="14">Nagent autour de son corps brun.</l>
+                     </lg>
+                  </div>
+                  <div type="poem">
+                     <head>
+                        <title>Le Balcon</title>
+                     </head>
+                     <lg type="stanza" subtype="cinquain">
+                        <l n="1">Mère des souvenirs, maîtresse des maîtresses,</l>
+                        <l n="2">O toi, tous mes plaisirs, ô toi, tous mes devoirs!,</l>
+                        <l n="3">Tu te rappelleras la beauté des caresses,</l>
+                        <l n="4">La douceur du foyer et le charme des soirs,</l>
+                        <l n="5">Mère des souvenirs, maîtresse des maîtresses!</l>
+                     </lg>
+                     <lg type="stanza" subtype="cinquain">
+                        <l n="6">Les soirs iluminés par l'ardeur du charbon,</l>
+                        <l n="7">Et les soirs au balcon, voilés de vapeurs roses;</l>
+                        <l n="8">Que ton sein m'était doux! que ton coeur m'était bon!</l>
+                        <l n="9">Nous avons dit souvent d'imperissables choses</l>
+                        <l n="10">Les soirs illuminés par l'ardeur du charbon.</l>
+                     </lg>
+                     <lg type="stanza" subtype="cinquain">
+                        <l n="11">Que les soleils son beaux dans les chaudes soirées!</l>
+                        <l n="12">Que l'espace est profond! que le coeur est puissant!</l>
+                        <l n="13">En me penchant vers toi, reine des adorées,</l>
+                        <l n="14">Je croyais respirer le parfum de ton sang.</l>
+                        <l n="15">Que les soleils sont beaux dans les chaudes soirées!</l>
+                     </lg>
+                     <lg type="stanza" subtype="cinquain">
+                        <l n="16">La nuit s'épaississait ainsi qu'une cloison,</l>
+                        <l n="17">Et mes yeux dans le noir devinaient tes prunelles</l>
+                        <l n="18">Et je buvais ton souffle, ô douceur, ô poison!,</l>
+                        <l n="19">Et tes pieds s'endormaient dans mes mains fraternelles,</l>
+                        <l n="20">La nuit s'épaississait ainsi qu'une cloison.</l>
+                     </lg>
+                     <lg type="stanza" subtype="cinquain">
+                        <l n="21">Je sais l'art dévoquer les minutes huereuses,</l>
+                        <l n="22">Et revis mon pausé blotti dans tes genoux.</l>
+                        <l n="23">Car à quoi bon chercher tes beautés langoureuses</l>
+                        <l n="24">Ailleurs qu'en ton cher corps et qu'en ton coeur si doux?</l>
+                        <l n="25">Je sais l'art d'évoquer les minutes heureuses!</l>
+                     </lg>
+                     <lg type="stanza" subtype="cinquain">
+                        <l n="26">Ces serments, ces parfums, ces baisers infinis,</l>
+                        <l n="27">Rena^itront-ils d'un gouffre interdit à nos sondes,</l>
+                        <l n="28">Comme montent au ciel les soleils rajeunis</l>
+                        <l n="29">Après s'être lacés au fond des mers profondes!</l>
+                        <l n="30">---Ô serments! ô parfums! ô baisers infinis!</l>
+                     </lg>
+                  </div>
+                  <div type="sonnet">
+                     <head>
+                        <title type="main">Le Possédé</title>
+                     </head>
+                     <lg type="stanza" subtype="quatrain">
+                        <l n="1">Le soleil s'est couvert d'un crêpe. Comme lui,</l>
+                        <l n="2">Ô Lune de ma vie! emmitoufle-toi d'ombre</l>
+                        <l n="3">Dors ou fume à ton gré; sois muette, sois sombre,</l>
+                        <l n="4">Et plonge tout enti`ere au gouffre d l'Ennui;</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain">
+                        <l n="5">Je t'aime ainsi! Pourtant, si tu veux aujourd'hui,</l>
+                        <l n="6">Comme un astre éclipsé que sort de la pénombre,</l>
+                        <l n="7">Te pavaner aux lieux que la Folie encombre</l>
+                        <l n="8">C'est bien! Charmant poignard, jaillis de ton étui!</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet">
+                        <l n="9">Allume ta prunelle à la flamme des lustres!</l>
+                        <l n="10">Allume le désir dans les regards des rustres!</l>
+                        <l n="11">Tout de toi m'est plaisir, morbide ou pétulant;</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet">
+                        <l n="12">Sois ce que tu voudras, nuit noire, rouge aurore;</l>
+                        <l n="13">Il n'est pas une fibre en tout mon corps tremblant</l>
+                        <l n="14">Qui ne crie: Ô mon cher Belzébuth, je t'adore!</l>
+                     </lg>
                   </div>
                   <div>
                      <p> UN FANTOME </p>
@@ -1257,7 +1324,7 @@
                         moi, ne répond; --O toi qui, comme une ombre à la trace éphémère, </p>
                      <p> Foules d'un pied léger et d'un regard serein Les stupides mortels qui t'ont
                         jugée amère, Statue aux yeux de jais, grand ange au front d'airain! </p>
-                     </div>
+                  </div>
                   <div>
                      <p> SEMPER EADEM </p>
                      <p/>
@@ -1526,34 +1593,74 @@
                         défaillante aux rives de la mort! </p>
                      <p/>
                   </div>
-                  <div>
-                     <p> LE CHAT </p>
-                     <p> I </p>
-                     <p/>
-                     <p> Dans ma cervelle se promène Ainsi qu'en son appartement, Un beau chat,
-                        fort, doux et charmant, Quand il miaule, on l'entend à peine, </p>
-                     <p> Tant son timbre est tendre et discret; Mais que sa voix s'apaise ou gronde,
-                        Elle est toujours riche et profonde. C'est là son charme et son secret. </p>
-                     <p> Cette voix, qui perle et qui filtre Dans mon fond le plus ténébreux, Me
-                        remplit comme un vers nombreux Et me réjouit comme un philtre. </p>
-                     <p> Elle endort les plus cruels maux Et contient toutes les extases; Pour dire
-                        les plus longues phrases, Elle n'a pas besoin de mots. </p>
-                     <p> Non, il n'est pas d'archet qui morde Sur mon coeur, parfait instrument, Et
-                        fasse plus royalement Chanter sa plus vibrante corde </p>
-                     <p> Que ta voix, chat mystérieux, Chat séraphique, chat étrange, En qui tout
-                        est, comme un ange, Aussi subtil qu'harmonieux. </p>
-                     <p/>
-                     <p> II </p>
-                     <p/>
-                     <p> De sa fourrure blonde et brune Sort un parfum si doux, qu'un soir J'en fus
-                        embaumé, pour l'avoir Caressée une fois, rien qu'une. </p>
-                     <p> C'est l'esprit familier du lieu; Il juge, il préside, il inspire Toutes
-                        choses dans son empire; Peut-être est-il fée, est-il dieu? </p>
-                     <p> Quand mes yeux, vers ce chat que j'aime Tirés comme par un aimant, Se
-                        retournent docilement, Et que je regarde en moi-même, </p>
-                     <p> Je vois avec étonnement Le feu de ses prunelles pâles, Clairs fanaux,
-                        vivantes opales, Qui me contemplent fixement. </p>
-                     <p/>
+                  <div type="poem">
+                     <head>
+                        <title type="main">Le Chat</title>
+                     </head>
+                     <div type="I">
+                        <lg type="stanza" subtype="quatrain">
+                           <l n="1">Dans ma cervelle se promène,</l>
+                           <l n="2">Ainsi qu'en son appartement,</l>
+                           <l n="3">Un beau chat, fort, doux et charmant.</l>
+                           <l n="4">Quand il miaule, on l'entend à peine,</l>
+                        </lg>
+                        <lg type="stanza" subtype="quatrain">
+                           <l n="5">Tant son timbre est tendre et discret;</l>
+                           <l n="6">Mais que sa voix s'apaise ou gronde,</l>
+                           <l n="7">Elle est toujours riche et profonde.</l>
+                           <l n="8">C'est là son charme et son secret.</l>
+                        </lg>
+                        <lg type="stanza" subtype="quatrain">
+                           <l n="9">Cette voix, qui perle et qui filtre</l>
+                           <l n="10">Dans mon fonds le plus ténébreux,</l>
+                           <l n="11">Me remplit comme un vers nombreux</l>
+                           <l n="12" rhyme="d">Et ,e réjouit comme un philtre.</l>
+                        </lg>
+                        <lg type="stanza" subtype="quatrain">
+                           <l n="13">Elle endort les plus cruels maux</l>
+                           <l n="14">Et contient tous les extases;</l>
+                           <l n="15">Pour dire les plus longues phrases</l>
+                           <l n="16">Elle n'a pas besoin de mots.</l>
+                        </lg>
+                        <lg type="stanza" subtype="quatrain">
+                           <l n="17">Non, il n'est pas d'archet qui morde</l>
+                           <l n="18">Sur mon coeur, parfait instument,</l>
+                           <l n="19">Et fasse plus royalement</l>
+                           <l n="20">Chanter sa plus vibrante corde,</l>
+                        </lg>
+                        <lg type="stanza" subtype="quatrain">
+                           <l n="21">que ta voix, chat mystérieux,</l>
+                           <l n="22">Chat sérafique, chat étrange,</l>
+                           <l n="23">En qui tout est, comme en un ange,</l>
+                           <l n="24">Aussi subtil qu'harmonieux</l>
+                        </lg>
+                     </div>
+                     <div type="II">
+                        <lg type="stanza" subtype="quatrain">
+                           <l n="1">De sa fourrure blonde et brune,</l>
+                           <l n="2">Sort un parfum si doux, qu'un soir</l>
+                           <l n="3">J'en fus embaumé, pour l'avoir</l>
+                           <l n="4">Caressée une fois, rien qu'une.</l>
+                        </lg>
+                        <lg type="stanza" subtype="quatrain">
+                           <l n="5">C'est l'esprit familier du lieu;</l>
+                           <l n="6">Il juge, il préside, il inspire</l>
+                           <l n="7">Toutes choses dans son empire;</l>
+                           <l n="8">peut-etre est-il fée, est-il-dieu?</l>
+                        </lg>
+                        <lg type="stanza" subtype="quatrain">
+                           <l n="9">Quand mes yeux, cers ce chat que j'aime</l>
+                           <l n="10">Tirés comme par un aimant,</l>
+                           <l n="11">Se retournent docilement</l>
+                           <l n="12">Et que je regarde en moi meme</l>
+                        </lg>
+                        <lg type="stanza" subtype="quatrain">
+                           <l n="13">Je vois avec étonnement</l>
+                           <l n="14">Le feu de ses paunelles pales</l>
+                           <l n="15">Clairs fanaux, vivantes opales</l>
+                           <l n="16">Qui me contemplent fixement.</l>
+                        </lg>
+                     </div>
                   </div>
                   <div>
                      <p> LE BEAU NAVIRE </p>
@@ -1729,48 +1836,80 @@
                         coeur des poètes, Que vos grands yeux rendraient plus soumis que vos noirs. </p>
                      <p/>
                   </div>
-                  <div>
-                     <p> LE REVENANT </p>
-                     <p/>
-                     <p> Comme les anges à l'oeil fauve, Je reviendrai dans ton alcôve Et vers toi
-                        glisserai sans bruit Avec les ombres de la nuit; </p>
-                     <p> Et je te donnerai, ma brune, Des baisers froids comme la lune Et des
-                        caresses de serpent Autour d'une fosse rampant. </p>
-                     <p> Quand viendra le matin livide, Tu trouveras ma place vide, Où jusqu'au soir
-                        il fera froid. </p>
-                     <p> Comme d'autres par la tendresse, Sur ta vie et sur ta jeunesse, Moi, je
-                        veux régner par l'effroi! </p>
-                     <p/>
+                  <div type="poem">
+                     <head><title>LE REVENANT</title></head>
+                     <lg type="stanza" subtype="quatrain">
+                        <l n="1">Comme les anges à l'oeil fauve,</l>
+                        <l n="2">Je reviendrai dans ton alcôve</l>
+                        <l n="3">Et vers toi glisserai sans bruit</l>
+                        <l n="4">Avec les ombres de la nuit;</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain">
+                        <l n="5">Et je te donnerai, ma brune,</l>
+                        <l n="6">Des baisers froids comme la lune</l>
+                        <l n="7">Et des caresses de serpent</l>
+                        <l n="8">Autour d'une fosse rampant.</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet">
+                        <l n="9">Quand viendra le matin livide,</l>
+                        <l n="10">Tu trouveras ma place vide,</l>
+                        <l n="11">Où jusqu'au soir il fera froid.</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet">
+                        <l n="12">Comme d'autres par la tendresse,</l>
+                        <l n="13">Sur ta vie et sur ta jeunesse,</l>
+                        <l n="14">Moi, je veux régner par l'effroi!</l>
+                     </lg>
                   </div>
-                  <div>
-                     <p> SONNET D'AUTOMNE </p>
-                     <p/>
-                     <p> Ils me disent, tes yeux, clairs comme le cristal: « Pour toi, bizarre
-                        amant, quel est donc mon mérite? » --Sois charmante et tais-toi! Mon coeur,
-                        que tout irrite, Excepté la candeur de l'antique animal, </p>
-                     <p> Ne veut pas te montrer son secret infernal, Berceuse dont la main aux longs
-                        sommeils m'invite, Ni sa noire légende avec la flamme écrite. Je hais la
-                        passion et l'esprit me fait mal! </p>
-                     <p> Aimons-nous doucement. L'Amour dans sa guérite, Ténébreux, embusqué, bande
-                        son arc fatal. Je connais les engins de son vieil arsenal: </p>
-                     <p> Crime, horreur et folie!--O pâle marguerite! Comme moi n'es-tu pas un
-                        soleil automnal, O ma si blanche, ô ma si froide Marguerite? </p>
-                     <p/>
+                  <div type="poem">
+                     <head><title>SONNET D'AUTOMNE</title></head>
+                     <lg type="stanza" subtype="quatrain">
+                        <l n="1">Ils me disent, tes yeux, clairs comme le cristal:</l>
+                        <l n="2"> « Pour toi, bizarre amant, quel est donc mon mérite? »</l>
+                        <l n="3">--Sois charmante et tais-toi! Mon coeur, que tout irrite,</l>
+                        <l n="4">Excepté la candeur de l'antique animal,</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain">
+                        <l n="5">Ne veut pas te montrer son secret infernal,</l>
+                        <l n="6">Berceuse dont la main aux longs sommeils m'invite,</l>
+                        <l n="7">Ni sa noire légende avec la flamme écrite.</l>
+                        <l n="8">Je hais la passion et l'esprit me fait mal!</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet">
+                        <l n="9">Aimons-nous doucement. L'Amour dans sa guérite,</l>
+                        <l n="10">Ténébreux, embusqué, bande son arc fatal.</l>
+                        <l n="11"> Je connais les engins de son vieil arsenal:</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet">
+                        <l n="12">Crime, horreur et folie!--O pâle marguerite!</l>
+                        <l n="13">Comme moi n'es-tu pas un soleil automnal,</l>
+                        <l n="14">O ma si blanche, ô ma si froide Marguerite? </l>
+                     </lg>
                   </div>
-                  <div>
-                     <p> TRISTESSE DE LA LUNE </p>
-                     <p/>
-                     <p> Ce soir, la lune rêve avec plus de paresse; Ainsi qu'une beauté, sur de
-                        nombreux coussins, Qui d'une main distraite et légère caresse, Avant de
-                        s'endormir, le contour de ses seins, </p>
-                     <p> Sur le dos satiné des molles avalanches, Mourante, elle se livre aux
-                        longues pâmoisons, Et promène ses yeux sur les visions blanches Qui montent
-                        dans l'azur comme des floraisons. </p>
-                     <p> Quand parfois sur ce globe, en sa langueur oisive, Elle laisse filer une
-                        larme furtive, Un poète pieux, ennemi du sommeil, </p>
-                     <p> Dans le creux de sa main prend cette larme pâle, Aux reflets irisés comme
-                        un fragment d'opale, Et la met dans son coeur loin des yeux du soleil. </p>
-                     <p/>
+                  <div type="poem">
+                     <head><title>TRISTESSE DE LA LUNE</title></head>
+                     <lg type="stanza" subtype="quatrain">
+                        <l n="1">Ce soir, la lune rêve avec plus de paresse;</l>
+                        <l n="2">Ainsi qu'une beauté, sur de nombreux coussins,</l>
+                        <l n="3">Qui d'une main distraite et légère caresse,</l>
+                        <l n="4">Avant de s'endormir, le contour de ses seins,</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain">
+                        <l n="5">Sur le dos satiné des molles avalanches,</l>
+                        <l n="6">Mourante, elle se livre aux longues pâmoisons,</l>
+                        <l n="7">Et promène ses yeux sur les visions blanches</l>
+                        <l n="8">Qui montent dans l'azur comme des floraisons.</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet">
+                        <l n="9">Quand parfois sur ce globe, en sa langueur oisive,</l>
+                        <l n="10">Elle laisse filer une larme furtive,</l>
+                        <l n="11">Un poète pieux, ennemi du sommeil,</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet">
+                        <l n="12">Dans le creux de sa main prend cette larme pâle,</l>
+                        <l n="13">Aux reflets irisés comme un fragment d'opale,</l>
+                        <l n="14">Et la met dans son coeur loin des yeux du soleil.</l>
+                     </lg>
                   </div>
                   <div>
                      <p> LES CHATS </p>
@@ -2308,11 +2447,13 @@
                         dira: Meurs, vieux lâche! il est trop tard! » </p>
                      <p/>
                   </div>
-                  </div>
                </div>
+            </div>
+            <div>
+               <head>
+                  <title type="main">TABLEAUX PARISIENS</title>
+               </head>
                <div>
-                <head> <title type="main">TABLEAUX PARISIENS</title> </head>
-                  <div>
                   <p> LE SOLEIL </p>
                   <p/>
                   <p> Le long du vieux faubourg, où pendant aux masures Les persiennes, abri des
@@ -2329,8 +2470,8 @@
                      sort des choses les plus viles, Et s'introduit en roi, sans bruit et sans
                      valets, Dans tous les hôpitaux et dans tous les palais. </p>
                   <p/>
-                  </div>
-                  <div>
+               </div>
+               <div>
                   <p> LA LUNE OFFENSEE </p>
                   <p/>
                   <p> O Lune qu'adoraient discrètement nos pères, Du haut des pays bleus où, radieux
@@ -2344,8 +2485,8 @@
                   <p> « --Je vois ta mère, enfant de ce siècle appauvri, Qui vers son miroir penche
                      un lourd amas d'années, Et plâtre artistement le sein qui t'a nourri! » </p>
                   <p/>
-                  </div>
-                  <div>
+               </div>
+               <div>
                   <p> A UNE MENDIANTE ROUSSE </p>
                   <p/>
                   <p> Blanche fille aux cheveux roux, Dont ta robe par ses trous Laisse voir la
@@ -2376,8 +2517,8 @@
                      pardon! Te faire don; </p>
                   <p> Va donc, sans autre ornement, Parfum, perles, diamant, Que ta maigre nudité, O
                      ma beauté! </p>
-                  </div>
-                  <div>
+               </div>
+               <div>
                   <p> LE CYGNE </p>
                   <p> A VICTOR HUGO </p>
                   <p> I </p>
@@ -2424,8 +2565,8 @@
                   <p> Ainsi dans la forêt où mon esprit s'exile Un vieux Souvenir sonne à plein
                      souffle du cor! Je pense aux matelots oubliés dans une île, Aux captifs, aux
                      vaincus!... à bien d'autres encor! </p>
-                 </div>
-                 <div>
+               </div>
+               <div>
                   <p> LES SEPT VIEILLARDS </p>
                   <p> A VICTOR HUGO </p>
                   <p/>
@@ -2469,8 +2610,8 @@
                      ses efforts, Et mon âme dansait, dansait, vieille gabarre Sans mâts, sur une
                      mer monstrueuse et sans bords! </p>
                   <p/>
-                  </div>
-                  <div>
+               </div>
+               <div>
                   <p> LES PETITES VIEILLES </p>
                   <p> A VICTOR HUGO </p>
                   <p> I </p>
@@ -2548,8 +2689,8 @@
                      solennel adieu! Où serez-vous demain, Eves octogénaires, Sur qui pèse la griffe
                      effroyable de Dieu? </p>
                   <p/>
-                  </div>
-                  <div>
+               </div>
+               <div>
                   <p> A UNE PASSANTE </p>
                   <p/>
                   <p> La rue assourdissante autour de moi hurlait. Longue, mince, en grand deuil,
@@ -2563,8 +2704,8 @@
                   <p> Ailleurs, bien loin d'ici! trop tard! _jamais_ peut-être! Car j'ignore où tu
                      fuis, tu ne sais où je vais, O toi que j'eusse aimée, ô toi qui le savais! </p>
                   <p/>
-                  </div>
-                 <div>
+               </div>
+               <div>
                   <p> LE CREPUSCULE DU SOIR </p>
                   <p/>
                   <p> Voici le soir charmant, ami du criminel; Il vient comme un complice, à pas de
@@ -2594,8 +2735,8 @@
                   <p> Encore la plupart n'ont-ils jamais connu La douceur du foyer et n'ont jamais
                      vécu! </p>
                   <p/>
-                  </div>
-                  <div>
+               </div>
+               <div>
                   <p> LE JEU </p>
                   <p/>
                   <p> Dans des fauteuils fanés des courtisanes vieilles, Pâles, le sourcil peint,
@@ -2617,8 +2758,8 @@
                      l'abîme béant, Et qui, soûl de son sang, préférerait en somme La douleur à la
                      mort et l'enfer au néant! </p>
                   <p/>
-                  </div>
-                 <div>
+               </div>
+               <div>
                   <p> DANSE MACABRE </p>
                   <p> A ERNEST CHRISTOPHE </p>
                   <p/>
@@ -2668,8 +2809,8 @@
                      Humanité, Et souvent, comme toi, se parfumant de myrrhe, Mêle son ironie à ton
                      insanité! » </p>
                   <p/>
-                  </div>
-                  <div>
+               </div>
+               <div>
                   <p> L'AMOUR DU MENSONGE </p>
                   <p/>
                   <p> Quand je te vois passer, ô ma chère indolente, Au chant des instruments qui se
@@ -2690,20 +2831,20 @@
                   <p> Mais ne suffit-il pas que tu sois l'apparence, Pour réjouir un coeur qui fuit
                      la vérité? Qu'importe ta bêtise ou ton indifférence? Masque ou décor, salut!
                      J'adore ta beauté. </p>
-                  </div>
-                  <div>
-                     <head>CII</head>
-                     <!--Another untitled poem.  Titled CII in my translation-->
+               </div>
+               <div>
+                  <head>CII</head>
+                  <!--Another untitled poem.  Titled CII in my translation-->
                   <p> Je n'ai pas oublié, voisine de la ville, Notre blanche maison, petite mais
                      tranquille, Sa Pomone de plâtre et sa vieille Vénus Dans un bosquet chétif
                      cachant leurs membres nus; Et le soleil, le soir, ruisselant et superbe, Qui,
                      derrière la vitre où se brisait sa gerbe, Semblait, grand oeil ouvert dans le
                      ciel curieux, Contempler nos dîners longs et silencieux, Répandant largement
                      ses beaux reflets de cierge Sur la nappe frugale et les rideaux de serge. </p>
-                  </div>
-                  <div>
-                     <head>CIII</head>
-                     <!--Another Untitled poem. Titled CIII in my translation-->
+               </div>
+               <div>
+                  <head>CIII</head>
+                  <!--Another Untitled poem. Titled CIII in my translation-->
                   <p> La servante au grand coeur dont vous étiez jalouse, Et qui dort son sommeil
                      sous une humble pelouse, Nous devrions pourtant lui porter quelques fleurs. Les
                      morts, les pauvres morts ont de grandes douleurs, Et quand Octobre souffle,
@@ -2719,8 +2860,8 @@
                      Couver l'enfant grandi de son oeil maternel, Que pourrais-je répondre à cette
                      âme pieuse Voyant tomber des pleurs de sa paupière creuse? </p>
                   <p/>
-                  </div>
-                  <div>
+               </div>
+               <div>
                   <p> BRUMES ET PLUIES </p>
                   <p/>
                   <p> O fins d'automne, hivers, printemps trempés de boue, Endormeuses saisons! je
@@ -2734,8 +2875,8 @@
                   <p> Que l'aspect permanent de vos pâles ténèbres, --Si ce n'est par un soir sans
                      lune, deux à deux, D'endormir la douleur sur un lit hasardeux. </p>
                   <p/>
-                  </div>
-              </div>
+               </div>
+            </div>
             <div>
                <head><title type="main">LE VIN</title></head>
                <div>
@@ -3080,7 +3221,7 @@
                   <p> Père adoptif de ceux qu'en sa noire colère Du Paradis terrestre a chassés Dieu
                      le Père, O Satan, prends pitié de ma longue misère! </p>
                   <p/>
-                   <p> PRIÈRE </p>
+                  <p> PRIÈRE </p>
                   <p/>
                   <p> Gloire et louange à toi, Satan, dans les hauteurs Du Ciel, où tu régnas, et
                      dans les profondeurs De l'Enfer où, vaincu, tu rêves en silence! Fais que mon
@@ -3507,12 +3648,12 @@
                      cri d'une girouette Ou d'une enseigne, au bout d'une tringle de fer, Que
                      balance le vent pendant les nuits d'hiver. </p>
                   <p/>
-                                 <p> End of the Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire
+                  <p> End of the Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire
                   </p>
                </div>
-               </div>
             </div>
-          <div>
+         </div>
+         <div>
             <p> *** END OF THIS PROJECT GUTENBERG EBOOK LES FLEURS DU MAL *** </p>
             <p> ***** This file should be named 6099-8.txt or 6099-8.zip ***** This and all
                associated files of various formats will be found in:
