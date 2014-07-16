@@ -797,37 +797,53 @@
                         <!-- This is obviously NOT a quatrain, but what is a 14 verse estrofa? -->
                         <!-- I also think that there is a cesura in this -->
                         <l n="1" rhyme="a">En ces temps merveilleux où la Théologie</l>
-                        <l n="2" rhyme="a" enjamb="yes">Fleurit avec le plus de sève et d'énergie,</l>
+                        <l n="2" rhyme="a" enjamb="yes">Fleurit avec le plus de sève et
+                           d'énergie,</l>
                         <l n="3" rhyme="b">On raconte qu'un jour un docteur des plus grands</l>
-                        <l n="4" rhyme="b" enjamb="yes">--Après avoir forcé les coeurs indifférents,</l>
-                        <l n="5" rhyme="c" enjamb="yes">Les avoir remués dans leurs profondeurs noires;</l>
+                        <l n="4" rhyme="b" enjamb="yes">--Après avoir forcé les coeurs
+                           indifférents,</l>
+                        <l n="5" rhyme="c" enjamb="yes">Les avoir remués dans leurs profondeurs
+                           noires;</l>
                         <l n="6" rhyme="c">Après avoir franchi vers les célestes gloires</l>
-                        <l n="7" rhyme="d" enjamb="yes">Des chemins singuliers à lui-même inconnus,</l>
+                        <l n="7" rhyme="d" enjamb="yes">Des chemins singuliers à lui-même
+                           inconnus,</l>
                         <l n="8" rhyme="d" enjamb="yes">Où les purs Esprits seuls peut-être étaient
                            venus,</l>
                         <l n="9" rhyme="e" enjamb="yes">--Comme un homme monté trop haut, pris de
                            panique,</l>
-                        <l n="10" rhyme="e" enjamb="yes">S'écria, transporté d'un orgueil satanique:</l>
-                        <l n="11" rhyme="f" enjamb="yes">«Jésus, petit Jésus! je t'ai poussé bien haut!</l>
+                        <l n="10" rhyme="e" enjamb="yes">S'écria, transporté d'un orgueil
+                           satanique:</l>
+                        <l n="11" rhyme="f" enjamb="yes">«Jésus, petit Jésus! je t'ai poussé bien
+                           haut!</l>
                         <l n="12" rhyme="f">Mais, si j'avais voulu t'attaquer au défaut</l>
-                        <l n="13" rhyme="c" enjamb="yes">De l'armure, ta honte égalerait ta gloire,</l>
-                        <l n="14" rhyme="c" enjamb="yes">Et tu ne serais plus qu'un foetus dérisoire!»</l>
+                        <l n="13" rhyme="c" enjamb="yes">De l'armure, ta honte égalerait ta
+                           gloire,</l>
+                        <l n="14" rhyme="c" enjamb="yes">Et tu ne serais plus qu'un foetus
+                           dérisoire!»</l>
                      </lg>
                      <lg type="alexandrine" rhyme="aabbccddeeff">
                         <!-- I also think that there is a cesura in this -->
                         <l n="1" rhyme="a" enjamb="yes">Immédiatement sa raison s'en alla.</l>
                         <l n="2" rhyme="a">L'éclat de ce soleil d'un crêpe se voila</l>
-                        <l n="3" rhyme="b" enjamb="yes">Tout le chaos roula dans cette intelligence,</l>
+                        <l n="3" rhyme="b" enjamb="yes">Tout le chaos roula dans cette
+                           intelligence,</l>
                         <l n="4" rhyme="b" enjamb="yes">Temple autrefois vivant, plein d'ordre et
                            d'opulence.</l>
-                        <l n="5" rhyme="c" enjamb="yes">Sous les plafonds duquel tant de pompe avait lui.</l>
-                        <l n="6" rhyme="c" enjamb="yes">Le silence et la nuit s'installèrent en lui,</l>
-                        <l n="7" rhyme="d" enjamb="yes">Comme dans un caveau dont la clef est perdue.</l>
-                        <l n="8" rhyme="d" enjamb="yes">Dès lors il fut semblable aux bêtes de la rue,</l>
+                        <l n="5" rhyme="c" enjamb="yes">Sous les plafonds duquel tant de pompe avait
+                           lui.</l>
+                        <l n="6" rhyme="c" enjamb="yes">Le silence et la nuit s'installèrent en
+                           lui,</l>
+                        <l n="7" rhyme="d" enjamb="yes">Comme dans un caveau dont la clef est
+                           perdue.</l>
+                        <l n="8" rhyme="d" enjamb="yes">Dès lors il fut semblable aux bêtes de la
+                           rue,</l>
                         <l n="9" rhyme="e">Et, quand il s'en allait sans rien voir, à travers</l>
-                        <l n="10" rhyme="e" enjamb="yes">Les champs, sans distinguer les étés des hivers,</l>
-                        <l n="11" rhyme="f" enjamb="yes">Sale, inutile et laid comme une chose usée,</l>
-                        <l n="12" rhyme="f" enjamb="yes">Il faisait des enfants la joie et la risée.</l>
+                        <l n="10" rhyme="e" enjamb="yes">Les champs, sans distinguer les étés des
+                           hivers,</l>
+                        <l n="11" rhyme="f" enjamb="yes">Sale, inutile et laid comme une chose
+                           usée,</l>
+                        <l n="12" rhyme="f" enjamb="yes">Il faisait des enfants la joie et la
+                           risée.</l>
                      </lg>
                   </div>
                   <div type="poem" subtype="sonnet" n="12" rhyme="abbacddcefefgg">
@@ -1100,59 +1116,120 @@
                      <p> Alors, ô ma beauté, dites à la vermine Qui vous mangera de baisers, Que
                         j'ai gardé la forme et l'essence divine De mes amours décomposés! </p>
                   </div>
-                  <div>
-                     <p> DE PROFUNDIS CLAMAVI </p>
-                     <p/>
-                     <p> J'implore ta pitié. Toi, l'unique que j'aime, Du fond du gouffre obscur où
-                        mon coeur est tombé. C'est un univers morne à l'horizon plombé, Où nagent
-                        dans la nuit l'horreur et le blasphème; </p>
-                     <p> Un soleil sans chaleur plane au-dessus six mois, Et les six autres mois la
-                        nuit couvre la terre; C'est un pays plus nu que la terre polaire; Ni bêtes,
-                        ni ruisseaux, ni verdure, ni bois! </p>
-                     <p> Or il n'est d'horreur au monde qui surpasse La froide cruauté de ce soleil
-                        de glace Et cette immense nuit semblable au vieux Chaos; </p>
-                     <p> Je jalouse le sort des plus vils animaux Qui peuvent se plonger dans un
-                        sommeil stupide, Tant l'écheveau du temps lentement se dévide! </p>
+                  <div type="poem" subtype="sonnet">
+                     <head><title>DE PROFUNDIS CLAMAVI</title></head>
+                     <lg type="stanza" subtype="quatrain" n="1">
+                        <l n="1">J'implore ta pitié. Toi, l'unique que j'aime,</l>
+                        <l n="2">Du fond du gouffre obscur où mon coeur est tombé.</l>
+                        <l n="3">C'est un univers morne à l'horizon plombé,</l>
+                        <l n="4">Où nagent dans la nuit l'horreur et le blasphème;</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="2">
+                        <l n="5">Un soleil sans chaleur plane au-dessus six mois,</l>
+                        <l n="6">Et les six autres mois la nuit couvre la terre;</l>
+                        <l n="7">C'est un pays plus nu que la terre polaire;</l>
+                        <l n="8">--Ni bêtes, ni ruisseaux, ni verdure, ni bois!</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="3">
+                        <l n="9">Or il n'est d'horreur au monde qui surpasse</l>
+                        <l n="10">La froide cruauté de ce soleil de glace</l>
+                        <l n="11">Et cette immense nuit semblable au vieux Chaos;</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="4">
+                        <l n="12">Je jalouse le sort des plus vils animaux</l>
+                        <l n="13">Qui peuvent se plonger dans un sommeil stupide,</l>
+                        <l n="14">Tant l'écheveau du temps lentement se dévide!</l>
+                     </lg>
                   </div>
-                  <div>
-                     <p> LE VAMPIRE </p>
-                     <p/>
-                     <p> Toi qui, comme un coup de couteau. Dans mon coeur plaintif est entrée; Toi
-                        qui, forte comme un troupeau De démons, vins, folle et parée, </p>
-                     <p> De mon esprit humilié Faire ton lit et ton domaine. --Infâme à qui je suis
-                        lié Comme le forçat à la chaîne, </p>
-                     <p> Comme au jeu le joueur têtu, Comme à la bouteille l'ivrogne, Comme aux
-                        vermines la charogne, --Maudite, maudite sois-tu! </p>
-                     <p> J'ai prié le glaive rapide De conquérir ma liberté, Et j'ai dit au poison
-                        perfide De secourir ma lâcheté. </p>
-                     <p> Hélas! le poison et le glaive M'ont pris en dédain et m'ont dit: « Tu n'es
-                        pas digne qu'on t'enlève A ton esclavage maudit, </p>
-                     <p> Imbécile!--de son empire Si nos efforts te délivraient, Tes baisers
-                        ressusciteraient Le cadavre de ton vampire! » </p>
-                     <p> Une nuit que j'étais près d'une affreuse Juive, Comme au long d'un cadavre
-                        un cadavre étendu, Je me pris à songer près de ce corps vendu A la triste
-                        beauté dont mon désir se prive. </p>
-                     <p> Je me représentai sa majesté native, Son regard de vigueur et de grâces
-                        armé, Ses cheveux qui lui font un casque parfumé, Et dont le souvenir pour
-                        l'amour me ravive. </p>
-                     <p> Car j'eusse avec ferveur baisé ton noble corps, Et depuis tes pieds frais
-                        jusqu'à tes noires tresses Déroulé le trésor des profondes caresses, </p>
-                     <p> Si, quelque soir, d'un pleur obtenu sans effort Tu pouvais seulement, ô
-                        reine des cruelles, Obscurcir la splendeur de tes froides prunelles. </p>
+                  <div type="poem">
+                     <head><title>LE VAMPIRE</title></head>
+                     <lg type="stanza" subtype="quatrain" n="1">
+                        <l n="1">Toi qui, comme un coup de couteau.</l>
+                        <l n="2">Dans mon coeur plaintif est entrée;</l>
+                        <l n="3">Toi qui, forte comme un troupeau</l>
+                        <l n="4">De démons, vins, folle et parée,</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="2">
+                        <l n="5">De mon esprit humilié</l>
+                        <l n="6">Faire ton lit et ton domaine.</l>
+                        <l n="7">--Infâme à qui je suis lié</l>
+                        <l n="8">Comme le forçat à la chaîne,</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="3">
+                        <l n="9">Comme au jeu le joueur têtu,</l>
+                        <l n="10">Comme à la bouteille l'ivrogne,</l>
+                        <l n="11">Comme aux vermines la charogne,</l>
+                        <l n="12">--Maudite, maudite sois-tu!</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="4">
+                        <l n="13">J'ai prié le glaive rapide</l>
+                        <l n="14">De conquérir ma liberté,</l>
+                        <l n="15">Et j'ai dit au poison perfide</l>
+                        <l n="16">De secourir ma lâcheté.</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="5">
+                        <l n="17">Hélas! le poison et le glaive</l>
+                        <l n="18">M'ont pris en dédain et m'ont dit:</l>
+                        <l n="19">«Tu n'es pas digne qu'on t'enlève</l>
+                        <l n="20">A ton esclavage maudit,</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="6">
+                        <l n="21">Imbécile!--de son empire</l>
+                        <l n="22">Si nos efforts te délivraient,</l>
+                        <l n="23">Tes baisers ressusciteraient</l>
+                        <l n="24">Le cadavre de ton vampire!»</l>
+                     </lg>
                   </div>
-                  <div>
-                     <p> REMORDS POSTHUME </p>
-                     <p/>
-                     <p> Lorsque tu dormiras, ma belle ténébreuse, Au fond d'un monument construit
-                        en marbre noir, Et lorsque tu n'auras pour alcôve et manoir Qu'un caveau
-                        pluvieux et qu'une fosse creuse; </p>
-                     <p> Quand la pierre, opprimant ta poitrine peureuse Et tes flancs qu'assouplit
-                        un charmant nonchaloir, Empêchera ton coeur de battre et de vouloir, Et tes
-                        pieds de courir leur course aventureuse, </p>
-                     <p> Le tombeau, confident de mon rêve infini, --Car le tombeau toujours
-                        comprendra le poète,-- Durant ces longues nuits d'où le somme est banni, </p>
-                     <p> Te dira: « Que vous sert, courtisane imparfaite, De n'avoir pas connu ce
-                        que pleurent les morts? » --Et le ver rongera ta peau comme un remords. </p>
+                  <div type="poem" subtype="sonnet">
+                     <head><title>Une nuit que j'étais près d'une affreuse Juive</title></head>
+                     <!--Untitled poem. Used first line as head. This was incorrectly labeled in the Gutenberg text. Poem was appended as additional stanza to Le Vampire-->
+                     <lg type="stanza" subtype="quatrain" n="1">
+                        <l n="1">Une nuit que j'étais près d'une affreuse Juive,</l>
+                        <l n="2">Comme au long d'un cadavre un cadavre étendu,</l>
+                        <l n="3">Je me pris à songer près de ce corps vendu</l>
+                        <l n="4">A la triste beauté dont mon désir se prive.</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="2">
+                        <l n="5">Je me représentai sa majesté native,</l>
+                        <l n="6">Son regard de vigueur et de grâces armé,</l>
+                        <l n="7">Ses cheveux qui lui font un casque parfumé,</l>
+                        <l n="8">Et dont le souvenir pour l'amour me ravive.</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="3">
+                        <l n="9">Car j'eusse avec ferveur baisé ton noble corps,</l>
+                        <l n="10">Et depuis tes pieds frais jusqu'à tes noires tresses</l>
+                        <l n="11">Déroulé le trésor des profondes caresses,</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="4">
+                        <l n="12">Si, quelque soir, d'un pleur obtenu sans effort</l>
+                        <l n="13">Tu pouvais seulement, ô reine des cruelles,</l>
+                        <l n="14">Obscurcir la splendeur de tes froides prunelles.</l>
+                     </lg>
+                  </div>
+                  <div type="poem" subtype="sonnet">
+                     <head><title>REMORDS POSTHUME</title></head>
+                     <lg type="stanza" subtype="quatrain" n="1">
+                        <l n="1">Lorsque tu dormiras, ma belle ténébreuse,</l>
+                        <l n="2">Au fond d'un monument construit en marbre noir,</l>
+                        <l n="3">Et lorsque tu n'auras pour alcôve et manoir</l>
+                        <l n="4">Qu'un caveau pluvieux et qu'une fosse creuse;</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="2">
+                        <l n="5">Quand la pierre, opprimant ta poitrine peureuse</l>
+                        <l n="6">Et tes flancs qu'assouplit un charmant nonchaloir,</l>
+                        <l n="7">Empêchera ton coeur de battre et de vouloir,</l>
+                        <l n="8">Et tes pieds de courir leur course aventureuse,</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="3">
+                        <l n="9">Le tombeau, confident de mon rêve infini,</l>
+                        <l n="10">--Car le tombeau toujours comprendra le poète,--</l>
+                        <l n="11">Durant ces longues nuits d'où le somme est banni,</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="4">
+                        <l n="12">Te dira: «Que vous sert, courtisane imparfaite,</l>
+                        <l n="13">De n'avoir pas connu ce que pleurent les morts?»</l>
+                        <l n="14">--Et le ver rongera ta peau comme un remords.</l>
+                     </lg>
                   </div>
                   <div type="sonnet">
                      <head>
@@ -1781,60 +1858,177 @@
                         l'arrière-saison le rayon jaune et doux! </p>
                      <p/>
                   </div>
-                  <div>
-                     <p> CHANSON D'APRES-MIDI </p>
-                     <p/>
-                     <p> Quoique tes sourcils méchants Te donnent un air étrange Qui n'est pas celui
-                        d'un ange, Sorcière aux yeux alléchants, </p>
-                     <p> Je t'adore, ô ma frivole, Ma terrible passion! Avec la dévotion Du prêtre
-                        pour son idole. </p>
-                     <p> Le désert et la forêt Embaument tes tresses rudes, Ta tête a les attitudes
-                        De l'énigme et du secret. </p>
-                     <p> Sur ta chair le parfum rôde Comme autour d'un encensoir; Tu charmes comme
-                        le soir, Nymphe ténébreuse et chaude. </p>
-                     <p> Ah! les philtres les plus forts Ne valent pas ta paresse, Et tu connais la
-                        caresse Qui fait revivre les morts! </p>
-                     <p> Tes hanches sont amoureuses De ton dos et de tes seins, Et tu ravis les
-                        coussins Par tes poses langoureuses. </p>
-                     <p> Quelquefois pour apaiser Ta rage mystérieuse, Tu prodigues, sérieuse, La
-                        morsure et le baiser; </p>
-                     <p> Tu me déchires, ma brune, Avec un rire moqueur, Et puis tu mets sur mon
-                        coeur Ton oeil doux comme la lune. </p>
-                     <p> Sous tes souliers de satin, Sous tes charmants pieds de soie, Moi, je mets
-                        ma grande joie, Mon génie et mon destin, </p>
-                     <p> Mon âme par toi guérie, Par toi, lumière et couleur! Explosion de chaleur
-                        Dans ma noire Sibérie! </p>
-                     <p/>
+                  <div type="poem">
+                     <head><title>CHANSON D'APRES-MIDI</title></head>
+                     <lg type="stanza" subtype="quatrain" n="1">
+                        <l n="1">Quoique tes sourcils méchants</l>
+                        <l n="2">Te donnent un air étrange</l>
+                        <l n="3">Qui n'est pas celui d'un ange,</l>
+                        <l n="4">Sorcière aux yeux alléchants,</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="2">
+                        <l n="5">Je t'adore, ô ma frivole,</l>
+                        <l n="6">Ma terrible passion!</l>
+                        <l n="7">Avec la dévotion</l>
+                        <l n="8">Du prêtre pour son idole.</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="3">
+                        <l n="9">Le désert et la forêt</l>
+                        <l n="10">Embaument tes tresses rudes,</l>
+                        <l n="11">Ta tête a les attitudes</l>
+                        <l n="12">De l'énigme et du secret.</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="4">
+                        <l n="13">Sur ta chair le parfum rôde</l>
+                        <l n="14">Comme autour d'un encensoir;</l>
+                        <l n="15">Tu charmes comme le soir,</l>
+                        <l n="16">Nymphe ténébreuse et chaude.</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="5">
+                        <l n="17">Ah! les philtres les plus forts</l>
+                        <l n="18">Ne valent pas ta paresse,</l>
+                        <l n="19">Et tu connais la caresse</l>
+                        <l n="20">Qui fait revivre les morts!</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="6">
+                        <l n="21">Tes hanches sont amoureuses</l>
+                        <l n="22">De ton dos et de tes seins,</l>
+                        <l n="23">Et tu ravis les coussins</l>
+                        <l n="24">Par tes poses langoureuses.</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="7">
+                        <l n="25">Quelquefois pour apaiser</l>
+                        <l n="26">Ta rage mystérieuse,</l>
+                        <l n="27">Tu prodigues, sérieuse,</l>
+                        <l n="28">La morsure et le baiser;</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="8">
+                        <l n="29">Tu me déchires, ma brune,</l>
+                        <l n="30">Avec un rire moqueur,</l>
+                        <l n="31">Et puis tu mets sur mon coeur</l>
+                        <l n="32">Ton oeil doux comme la lune.</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="9">
+                        <l n="33">Sous tes souliers de satin,</l>
+                        <l n="34">Sous tes charmants pieds de soie,</l>
+                        <l n="35">Moi, je mets ma grande joie,</l>
+                        <l n="36">Mon génie et mon destin,</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="10">
+                        <l n="37">Mon âme par toi guérie,</l>
+                        <l n="38">Par toi, lumière et couleur!</l>
+                        <l n="39">Explosion de chaleur</l>
+                        <l n="40">Dans ma noire Sibérie!</l>
+                     </lg>
                   </div>
-                  <div>
-                     <p> SISINA </p>
-                     <p/>
-                     <p> Imaginez Diane en galant équipage, Parcourant les forêts ou battant les
-                        halliers, Cheveux et gorge au vent, s'enivrant de tapage, Superbe et défiant
-                        les meilleurs cavaliers! </p>
-                     <p> Avez-vous vu Théroigne, amante du carnage, Excitant à l'assaut un peuple
-                        sans souliers, La joue et l'oeil en feu, jouant son personnage, Et montant,
-                        sabre au poing, les royaux escaliers? </p>
-                     <p> Telle la Sisina! Mais la douce guerrière A l'âme charitable autant que
-                        meurtrière, Son courage, affolé de poudre et de tambours, </p>
-                     <p> Devant les suppliants sait mettre bas les armes, Et son coeur, ravagé par
-                        la flamme, a toujours, Pour qui s'en montre digne, un réservoir de larmes. </p>
-                     <p/>
+                  <div type="poem">
+                     <head><title>SISINA</title></head>
+                     <lg type="stanza" subtype="quatrain" n="1">
+                        <l n="1">Imaginez Diane en galant équipage,</l>
+                        <l n="2">Parcourant les forêts ou battant les halliers,</l>
+                        <l n="3">Cheveux et gorge au vent, s'enivrant de tapage,</l>
+                        <l n="4">Superbe et défiant les meilleurs cavaliers!</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="2">
+                        <l n="5">Avez-vous vu Théroigne, amante du carnage,</l>
+                        <l n="6">Excitant à l'assaut un peuple sans souliers,</l>
+                        <l n="7">La joue et l'oeil en feu, jouant son personnage,</l>
+                        <l n="8">Et montant, sabre au poing, les royaux escaliers?</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="3">
+                        <l n="9">Telle la Sisina! Mais la douce guerrière</l>
+                        <l n="10">A l'âme charitable autant que meurtrière,</l>
+                        <l n="11">Son courage, affolé de poudre et de tambours,</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="4">
+                        <l n="12">Devant les suppliants sait mettre bas les armes,</l>
+                        <l n="13">Et son coeur, ravagé par la flamme, a toujours,</l>
+                        <l n="14">Pour qui s'en montre digne, un réservoir de larmes.</l>
+                     </lg>
                   </div>
-                  <div>
-                     <p> A UNE DAME CREOLE </p>
-                     <p/>
-                     <p> Au pays parfumé que le soleil caresse, J'ai connu sous un dais d'arbres
-                        tout empourprés Et de palmiers, d'où pleut sur les yeux la paresse, Une dame
-                        créole aux charmes ignorés. </p>
-                     <p> Son teint est pâle et chaud; la brune enchanteresse A dans le col des airs
-                        noblement maniérés; Grande et svelte en marchant comme une chasseresse, Son
-                        sourire est tranquille et ses yeux assurés. </p>
-                     <p> Si vous alliez, Madame, au vrai pays de gloire, Sur les bords de la Seine
-                        ou de la verte Loire, Belle digne d'orner les antiques manoirs, </p>
-                     <p> Vous feriez, à l'abri des ombreuses retraites, Germer mille sonnets dans le
-                        coeur des poètes, Que vos grands yeux rendraient plus soumis que vos noirs. </p>
-                     <p/>
+                  <div type="poem">
+                     <!--Missing poem, Franciscae Meae Laudes. Published in the first edition of 1857-->
+                     <head><title>FRANCISCAE MEAE LAUDES</title></head>
+                     <lg type="stanza" subtype="tercet" n="1">
+                        <l n="1">Novis te cantabo chordis,</l>
+                        <l n="2">O novelletum quod ludis</l>
+                        <l n="3">In solitudine cordis.</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="2">
+                        <l n="4">Esto sertis implicata,</l>
+                        <l n="5">O femina delicata</l>
+                        <l n="6">Per quam solvuntur peccata!</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="3">
+                        <l n="7">Sicut beneficum Lethe,</l>
+                        <l n="8">Hauriam oscula de te,</l>
+                        <l n="9">Quae imbuta es magnete.</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="4">
+                        <l n="10">Quum vitiorum tempestas</l>
+                        <l n="11">Turbabat omnes semitas,</l>
+                        <l n="12">Apparuisti, Deitas,</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="5">
+                        <l n="13">Velut stella salutaris</l>
+                        <l n="14">In naufragiis amaris...</l>
+                        <l n="15">Suspendam cor tuis aris!</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="6">
+                        <l n="16">Piscina plena virtutis,</l>
+                        <l n="17">Fons aeternae juventutis</l>
+                        <l n="18">Labris vocem redde mutis!</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="7">
+                        <l n="19">Quod erat spurcum, cremasti;</l>
+                        <l n="20">Quod rudius, exaequasti;</l>
+                        <l n="21">Quod debile, confirmasti.</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="8">
+                        <l n="22">In fame mea taberna</l>
+                        <l n="23">In nocte mea lucerna,</l>
+                        <l n="24">Recte me semper guberna.</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="9">
+                        <l n="25">Adde nunc vires viribus,</l>
+                        <l n="26">Dulce balneum suavibus</l>
+                        <l n="27">Unguentatum odoribus!</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="10">
+                        <l n="28">Meos circa lumbos mica,</l>
+                        <l n="29">O castitatis lorica,</l>
+                        <l n="30">Aqua tincta seraphica;</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="11">
+                        <l n="31">Patera gemmis corusca,</l>
+                        <l n="32">Panis salsus, mollis esca,</l>
+                        <l n="33">Divinum vinum, Francisca!</l>
+                     </lg>
+                  </div>
+                  <div type="poem">
+                     <head><title>A UNE DAME CREOLE</title></head>
+                     <lg type="stanza" subtype="quatrain" n="1">
+                        <l n="1">Au pays parfumé que le soleil caresse,</l>
+                        <l n="2">J'ai connu sous un dais d'arbres tout empourprés</l>
+                        <l n="3">Et de palmiers, d'où pleut sur les yeux la paresse,</l>
+                        <l n="4">Une dame créole aux charmes ignorés.</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="2">
+                        <l n="5">Son teint est pâle et chaud; la brune enchanteresse</l>
+                        <l n="6">A dans le col des airs noblement maniérés;</l>
+                        <l n="7">Grande et svelte en marchant comme une chasseresse,</l>
+                        <l n="8">Son sourire est tranquille et ses yeux assurés.</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="3">
+                        <l n="9">Si vous alliez, Madame, au vrai pays de gloire,</l>
+                        <l n="10">Sur les bords de la Seine ou de la verte Loire,</l>
+                        <l n="11">Belle digne d'orner les antiques manoirs,</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="4">
+                        <l n="12">Vous feriez, à l'abri des ombreuses retraites,</l>
+                        <l n="13">Germer mille sonnets dans le coeur des poètes,</l>
+                        <l n="14">Que vos grands yeux rendraient plus soumis que vos noirs.</l>
+                     </lg>
                   </div>
                   <div type="poem">
                      <head><title>LE REVENANT</title></head>
