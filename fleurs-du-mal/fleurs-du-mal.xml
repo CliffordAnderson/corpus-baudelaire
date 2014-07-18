@@ -712,45 +712,30 @@
                         <title>L'HOMME ET LA MER </title>
                      </head>
                      <lg type="quatrain" n="1" rhyme="abba">
-                        <l n="1">Homme libre, toujours tu chériras la <rhyme label="a"
-                           >mer!</rhyme></l>
-                        <l n="2">La mer est ton miroir; tu contemples ton <rhyme label="b"
-                              >âme</rhyme></l>
+                        <l n="1">Homme libre, toujours tu chériras la <rhyme label="a">mer!</rhyme></l>
+                        <l n="2">La mer est ton miroir; tu contemples ton <rhyme label="b">âme</rhyme></l>
                         <l n="3">Dans le déroulement infini de sa <rhyme label="b">ame,</rhyme></l>
-                        <l n="4">Et ton esprit n'est pas un gouffre moins <rhyme label="a"
-                              >mer.</rhyme>
+                        <l n="4">Et ton esprit n'est pas un gouffre moins <rhyme label="a">mer.</rhyme>
                         </l>
                      </lg>
                      <lg type="quatrain" n="2" rhyme="cddc">
-                        <l n="5">Tu te plais à plonger au sein de ton <rhyme label="c"
-                           >image</rhyme>;</l>
-                        <l n="6">Tu l'embrasses des yeux et des bras, et ton <rhyme label="d"
-                              >coeur</rhyme></l>
-                        <l n="7">Se distrait quelquefois de sa propre <rhyme label="d"
-                              >rumeur</rhyme></l>
-                        <l n="8">Au bruit de cette plainte indomptable et <rhyme label="c"
-                              >sauvage.</rhyme>
+                        <l n="5">Tu te plais à plonger au sein de ton <rhyme label="c">image</rhyme>;</l>
+                        <l n="6">Tu l'embrasses des yeux et des bras, et ton <rhyme label="d">coeur</rhyme></l>
+                        <l n="7">Se distrait quelquefois de sa propre <rhyme label="d">rumeur</rhyme></l>
+                        <l n="8">Au bruit de cette plainte indomptable et <rhyme label="c">sauvage.</rhyme>
                         </l>
                      </lg>
                      <lg type="quatrain" n="3" rhyme="effe">
-                        <l n="9">Vous êtes tous les deux ténébreux et <rhyme label="e"
-                              >discrets</rhyme>,</l>
-                        <l n="10">Homme, nul n'a sondé le fond de tes <rhyme label="f"
-                              >abîmes</rhyme>;</l>
-                        <l n="11">O mer, nul ne connaît tes richesses <rhyme label="f"
-                              >intimes</rhyme>,</l>
-                        <l n="12">Tant vous êtes jaloux de garder vos <rhyme label="e"
-                              >secrets</rhyme>! </l>
+                        <l n="9">Vous êtes tous les deux ténébreux et <rhyme label="e">discrets</rhyme>,</l>
+                        <l n="10">Homme, nul n'a sondé le fond de tes <rhyme label="f">abîmes</rhyme>;</l>
+                        <l n="11">O mer, nul ne connaît tes richesses <rhyme label="f">intimes</rhyme>,</l>
+                        <l n="12">Tant vous êtes jaloux de garder vos <rhyme label="e">secrets</rhyme>! </l>
                      </lg>
                      <lg type="quatrain" n="4" rhyme="ghhg">
-                        <l n="13">Et cependant voilà des siècles <rhyme label="g"
-                              >innombrables</rhyme></l>
-                        <l n="14">Que vous vous combattez sans pitié ni <rhyme label="h"
-                              >remord</rhyme>,</l>
-                        <l n="15">Tellement vous aimez le carnage et la <rhyme label="h"
-                              >mort</rhyme>,</l>
-                        <l n="16">O lutteurs éternels, ô frères <rhyme label="g"
-                           >implacables</rhyme>! </l>
+                        <l n="13">Et cependant voilà des siècles <rhyme label="g">innombrables</rhyme></l>
+                        <l n="14">Que vous vous combattez sans pitié ni <rhyme label="h">remord</rhyme>,</l>
+                        <l n="15">Tellement vous aimez le carnage et la <rhyme label="h">mort</rhyme>,</l>
+                        <l n="16">O lutteurs éternels, ô frères <rhyme label="g">implacables</rhyme>! </l>
                      </lg>
                   </div>
                   <div type="poem" n="10" rhyme="ababcdcdefefghghijij">
@@ -803,10 +788,8 @@
                         <l n="5" rhyme="c" enjamb="yes">Les avoir remués dans leurs profondeurs noires;</l>
                         <l n="6" rhyme="c">Après avoir franchi vers les célestes gloires</l>
                         <l n="7" rhyme="d" enjamb="yes">Des chemins singuliers à lui-même inconnus,</l>
-                        <l n="8" rhyme="d" enjamb="yes">Où les purs Esprits seuls peut-être étaient
-                           venus,</l>
-                        <l n="9" rhyme="e" enjamb="yes">--Comme un homme monté trop haut, pris de
-                           panique,</l>
+                        <l n="8" rhyme="d" enjamb="yes">Où les purs Esprits seuls peut-être étaient venus,</l>
+                        <l n="9" rhyme="e" enjamb="yes">--Comme un homme monté trop haut, pris de panique,</l>
                         <l n="10" rhyme="e" enjamb="yes">S'écria, transporté d'un orgueil satanique:</l>
                         <l n="11" rhyme="f" enjamb="yes">«Jésus, petit Jésus! je t'ai poussé bien haut!</l>
                         <l n="12" rhyme="f">Mais, si j'avais voulu t'attaquer au défaut</l>
@@ -818,8 +801,7 @@
                         <l n="1" rhyme="a" enjamb="yes">Immédiatement sa raison s'en alla.</l>
                         <l n="2" rhyme="a">L'éclat de ce soleil d'un crêpe se voila</l>
                         <l n="3" rhyme="b" enjamb="yes">Tout le chaos roula dans cette intelligence,</l>
-                        <l n="4" rhyme="b" enjamb="yes">Temple autrefois vivant, plein d'ordre et
-                           d'opulence.</l>
+                        <l n="4" rhyme="b" enjamb="yes">Temple autrefois vivant, plein d'ordre et d'opulence.</l>
                         <l n="5" rhyme="c" enjamb="yes">Sous les plafonds duquel tant de pompe avait lui.</l>
                         <l n="6" rhyme="c" enjamb="yes">Le silence et la nuit s'installèrent en lui,</l>
                         <l n="7" rhyme="d" enjamb="yes">Comme dans un caveau dont la clef est perdue.</l>
@@ -827,86 +809,60 @@
                         <l n="9" rhyme="e">Et, quand il s'en allait sans rien voir, à travers</l>
                         <l n="10" rhyme="e" enjamb="yes">Les champs, sans distinguer les étés des hivers,</l>
                         <l n="11" rhyme="f" enjamb="yes">Sale, inutile et laid comme une chose usée,</l>
-                        <l n="12" rhyme="f" enjamb="yes">Il faisait des enfants la joie et la risée.</l>
+                        <l n="12" rhyme="f" enjamb="yes">Il faisait des enfants la joie et la
+                           risée.</l>
                      </lg>
                   </div>
                   <div type="poem" subtype="sonnet" n="12" rhyme="abbacddcefefgg">
                      <head><title>LA BEAUTE</title></head>
                      <lg type="quatrain" n="1" rhyme="abba">
-                        <l n="1">Je suis belle, ô mortels! comme un rêve de <rhyme label="a"
-                              >pierre</rhyme>,</l>
-                        <l n="2">Et mon sein, où chacun s'est meurtri tour à <rhyme label="b"
-                              >tour</rhyme>,</l>
-                        <l n="3">Est fait pour inspirer au poète un <rhyme label="b"
-                           >amour</rhyme></l>
+                        <l n="1">Je suis belle, ô mortels! comme un rêve de <rhyme label="a">pierre</rhyme>,</l>
+                        <l n="2">Et mon sein, où chacun s'est meurtri tour à <rhyme label="b">tour</rhyme>,</l>
+                        <l n="3">Est fait pour inspirer au poète un <rhyme label="b">amour</rhyme></l>
                         <l n="4">Eternel et muet ainsi que la <rhyme label="a">matière</rhyme>.</l>
                      </lg>
                      <lg type="quatrain" n="2" rhyme="cddc">
-                        <l n="5">Je trône dans l'azur comme un sphinx <rhyme label="c"
-                              >incompris</rhyme>;</l>
-                        <l n="6">J'unis un coeur de neige à la blancheur des <rhyme label="d"
-                              >cygnes</rhyme>;</l>
-                        <l n="7">Je hais le mouvement qui déplace les <rhyme label="d"
-                              >lignes</rhyme>,</l>
-                        <l n="8">Et jamais je ne pleure et jamais je ne <rhyme label="c"
-                           >ris</rhyme>.</l>
+                        <l n="5">Je trône dans l'azur comme un sphinx <rhyme label="c">incompris</rhyme>;</l>
+                        <l n="6">J'unis un coeur de neige à la blancheur des <rhyme label="d">cygnes</rhyme>;</l>
+                        <l n="7">Je hais le mouvement qui déplace les <rhyme label="d">lignes</rhyme>,</l>
+                        <l n="8">Et jamais je ne pleure et jamais je ne <rhyme label="c">ris</rhyme>.</l>
                      </lg>
                      <lg type="tercet" n="3" rhyme="efe">
-                        <l n="9">Les poètes, devant mes grandes <rhyme label="e"
-                           >attitudes</rhyme>.</l>
-                        <l n="10">Que j'ai l'air d'emprunter aux plus fiers <rhyme label="f"
-                              >monuments</rhyme>,</l>
-                        <l n="11">Consumeront leurs jours en d'austères <rhyme label="e"
-                              >études</rhyme>;</l>
+                        <l n="9">Les poètes, devant mes grandes <rhyme label="e">attitudes</rhyme>.</l>
+                        <l n="10">Que j'ai l'air d'emprunter aux plus fiers <rhyme label="f">monuments</rhyme>,</l>
+                        <l n="11">Consumeront leurs jours en d'austères <rhyme label="e">études</rhyme>;</l>
                      </lg>
                      <lg type="tercet" n="4" rhyme="fgg">
-                        <l n="12">Car j'ai, pour fasciner ces dociles <rhyme label="f"
-                              >amants</rhyme>,</l>
-                        <l n="13">De purs miroirs qui font toutes choses plus <rhyme label="g"
-                              >belles</rhyme>:</l>
-                        <l n="14">Mes yeux, mes larges yeux aux clartés <rhyme label="g"
-                              >éternelles</rhyme>!</l>
+                        <l n="12">Car j'ai, pour fasciner ces dociles <rhyme label="f">amants</rhyme>,</l>
+                        <l n="13">De purs miroirs qui font toutes choses plus <rhyme label="g">belles</rhyme>:</l>
+                        <l n="14">Mes yeux, mes larges yeux aux clartés <rhyme label="g">éternelles</rhyme>!</l>
                      </lg>
 
                   </div>
                   <div type="poem" n="13">
                      <head><title>L'IDEAL</title></head>
                      <lg type="quatrain" rhyme="abab">
-                        <l n="1">Ce ne seront jamais ces beautés de <rhyme label="a"
-                              >vignettes</rhyme>,</l>
-                        <l n="2">Produits avariés, nés d'un siècle <rhyme label="b"
-                           >vaurien</rhyme>,</l>
-                        <l n="3">Ces pieds à brodequins, ces doigts à <rhyme label="a"
-                              >castagnettes</rhyme>,</l>
-                        <l n="4">Qui sauront satisfaire un coeur comme <rhyme label="b">le
-                              mien</rhyme>.</l>
+                        <l n="1">Ce ne seront jamais ces beautés de <rhyme label="a">vignettes</rhyme>,</l>
+                        <l n="2">Produits avariés, nés d'un siècle <rhyme label="b">vaurien</rhyme>,</l>
+                        <l n="3">Ces pieds à brodequins, ces doigts à <rhyme label="a">castagnettes</rhyme>,</l>
+                        <l n="4">Qui sauront satisfaire un coeur comme <rhyme label="b">le mien</rhyme>.</l>
                      </lg>
                      <lg type="quatrain" rhyme="cdcd">
-                        <l n="5">Je laisse, à Gavarni, poète des <rhyme label="c"
-                           >chloroses</rhyme>,</l>
-                        <l n="6">Soa troupeau gazouillant de beautés <rhyme label="d"
-                              >d'hôpital</rhyme>,</l>
-                        <l n="7">Car je ne puis trouver parmi ces pâles <rhyme label="c"
-                              >roses</rhyme></l>
-                        <l n="8">Une fleur qui ressemble à mon rouge <rhyme label="d"
-                           >idéal</rhyme>.</l>
+                        <l n="5">Je laisse, à Gavarni, poète des <rhyme label="c">chloroses</rhyme>,</l>
+                        <l n="6">Soa troupeau gazouillant de beautés <rhyme label="d">d'hôpital</rhyme>,</l>
+                        <l n="7">Car je ne puis trouver parmi ces pâles <rhyme label="c">roses</rhyme></l>
+                        <l n="8">Une fleur qui ressemble à mon rouge <rhyme label="d">idéal</rhyme>.</l>
                      </lg>
                      <lg type="tercet" rhyme="eef">
-                        <l n="9">Ce qu'il faut à ce coeur profond comme un <rhyme label="e"
-                              >abîme</rhyme>,</l>
-                        <l n="10">C'est vous, Lady Macbeth, âme puissante au <rhyme label="e"
-                              >crime</rhyme>,</l>
-                        <l n="11">Rêve d'Eschyle éclos au climat des <rhyme label="f"
-                           >autans</rhyme>;</l>
+                        <l n="9">Ce qu'il faut à ce coeur profond comme un <rhyme label="e">abîme</rhyme>,</l>
+                        <l n="10">C'est vous, Lady Macbeth, âme puissante au <rhyme label="e">crime</rhyme>,</l>
+                        <l n="11">Rêve d'Eschyle éclos au climat des <rhyme label="f">autans</rhyme>;</l>
                      </lg>
                      <lg type="tercet" rhyme="ggf">
-                        <l n="12">Ou bien toi, grand Nuit, fille de <rhyme label="g"
-                              >Michel-Ange</rhyme>, </l>
-                        <l n="13">Qui tors paisiblement dans une pose <rhyme label="g"
-                              >étrange</rhyme>
+                        <l n="12">Ou bien toi, grand Nuit, fille de <rhyme label="g">Michel-Ange</rhyme>, </l>
+                        <l n="13">Qui tors paisiblement dans une pose <rhyme label="g">étrange</rhyme>
                         </l>
-                        <l n="14">Tes appas façonnés aux bouches des <rhyme label="f"
-                           >Titans</rhyme>!</l>
+                        <l n="14">Tes appas façonnés aux bouches des <rhyme label="f">Titans</rhyme>!</l>
                      </lg>
 
                   </div>
@@ -1758,89 +1714,162 @@
                         majestueuse enfant. </p>
                      <p/>
                   </div>
-                  <div>
-                     <p> L'IRREPARABLE </p>
-                     <p> I </p>
-                     <p/>
-                     <p> Pouvons-nous étouffer le vieux, le long Remords, Qui vit, s'agite et se
-                        tortille, Et se nourrit de nous comme le ver des morts, Comme du chêne la
-                        chenille? Pouvons-nous étouffer l'implacable Remords? </p>
-                     <p> Dans quel philtre, dans quel vin, dans quelle tisane Noierons-nous ce vieil
-                        ennemi, Destructeur et gourmand comme la courtisane, Patient comme la
-                        fourmi? Dans quel philtre?--dans quel vin?--dans quelle tisane? </p>
-                     <p> Dis-le, belle sorcière, oh! dis, si tu le sais, A cet esprit comblé
-                        d'angoisse Et pareil au mourant qu'écrasent les blessés, Que le sabot du
-                        cheval froisse, Dis-le, belle sorcière, oh! dis, si tu le sais, </p>
-                     <p> A cet agonisant que le loup déjà flaire Et que surveille le corbeau, A ce
-                        soldat brisé, s'il faut qu'il désespère D'avoir sa croix et son tombeau; Ce
-                        pauvre agonisant que le loup déjà flaire! </p>
-                     <p> Peut-on illuminer un ciel bourbeux et noir? Peut-on déchirer des ténèbres
-                        Plus denses que la poix, sans matin et sans soir, Sans astres, sans éclairs
-                        funèbres? Peut-on illuminer un ciel bourbeux et noir? </p>
-                     <p> L'Espérance qui brille aux carreaux de l'Auberge Est souillée, est morte à
-                        jamais! Sans lune et sans rayons trouver où l'on héberge Les martyrs d'un
-                        chemin mauvais! Le Diable a tout éteint aux carreaux de l'Auberge! </p>
-                     <p> Adorable sorcière, aimes-tu les damnés! Dis, connais-tu l'irrémissible?
-                        Connais-tu le Remords, aux traits empoisonnés, A qui notre coeur sert de
-                        cible? Adorable sorcière, aimes-tu les damnés? </p>
-                     <p> L'irréparable ronge avec sa dent maudite Notre âme, piteux monument, Et
-                        souvent il attaque, ainsi que le termite, Par la base le bâtiment.
-                        L'irréparable ronge avec sa dent maudite! </p>
-                     <p/>
-                     <p> II </p>
-                     <p/>
-                     <p> J'ai vu parfois, au fond d'un théâtre banal Qu'enflammait l'orchestre
-                        sonore, Une fée allumer dans un ciel infernal Une miraculeuse aurore; J'ai
-                        vu parfois au fond d'un théâtre banal </p>
-                     <p> Un être qui n'était que lumière, or et gaze, Terrasser l'énorme Satan Mais
-                        mon coeur, que jamais ne visite l'extase Est un théâtre où l'on attend
-                        Toujours, toujours en vain, l'Etre aux ailes de gaze! </p>
-                     <p/>
+                  <div type="poem" subtype="unknown">
+                     <head>
+                        <title>L'Irréparable</title>
+                     </head>
+                     <div type="I">
+                        <lg type="stanza" n="1" subtype="cinquain">
+                           <l n="1">Pouvons-nous étouffer le vieux, le long Remords,</l>
+                           <l n="2">Que vit, s'agite et se tortille,</l>
+                           <l n="3">Et se nourrit de nous comme le ver des morts,</l>
+                           <l n="4">Comme du chêne la chenille?</l>
+                           <l n="5">Pouvons-nous étouffer l'implacable Remords?></l>
+                        </lg>
+                        <lg type="stanza" n="2" subtype="cinquain">
+                           <l n="6">Dans quel philtre, dans quel vin, dans quelle tisane</l>
+                           <l n="7">Noierons-nous ce vieil ennemi,</l>
+                           <l n="8">Destructeur et gourmand comme la courtisane,</l>
+                           <l n="9">Patient comme la fourmi?</l>
+                           <l n="10">Dans quel philtre? — dans quel vin? — dans quelle tisane?</l>
+                        </lg>
+                        <lg type="stanza" n="3" subtype="cinquain">
+                           <l n="11">Dis-le, belle sorcière, oh! dis, si tu le sais,</l>
+                           <l n="12">À cet esprit comblé d'angoisse</l>
+                           <l n="13">Et pareil au mourant qu'écrasent les blessés,</l>
+                           <l n="14">Que le sabot du cheval froisse,</l>
+                           <l n="15">Dis-le, belle sorcière, oh! dis, si tu le sais,</l>
+                        </lg>
+                        <lg type="stanza" n="4" subtype="cinquain">
+                           <l n="16">À cet agonisant que le loup déjà flaire</l>
+                           <l n="17">Et que surveille le corbeau,</l>
+                           <l n="18">À ce soldat brisé, s'il faut qu'il désespère</l>
+                           <l n="19">D'avoir sa croix et son tombeau;</l>
+                           <l n="20">Ce pauvre agonisant que déjà le loup flaire!</l>
+                        </lg>
+                        <lg type="stanza" n="5" subtype="cinquain">
+                           <l n="21">Peut-on illuminer un ciel bourbeux et noir?</l>
+                           <l n="22">Peut-on déchirer des ténèbres</l>
+                           <l n="23">Plus denses que la poix, sans matin et sans soir,</l>
+                           <l n="24">Sans astres, sans éclairs funèbres?</l>
+                           <l n="25">Peut-on illuminer un ciel bourbeux et noir?</l>
+                        </lg>
+                        <lg type="stanza" n="6" subtype="cinquain">
+                           <l n="26">L'Espérance qui brille aux carreaux de l'Auberge</l>
+                           <l n="27">Est soufflée, est morte à jamais!</l>
+                           <l n="28">Sans lune et sans rayons, trouver où l'on héberge</l>
+                           <l n="29">Les martyrs d'un chemin mauvais!</l>
+                           <l n="30">Le Diable a tout éteint aux carreaux de l'Auberge!</l>
+                        </lg>
+                        <lg type="stanza" n="7" subtype="cinquain">
+                           <l n="31">Adorable sorcière, aimes-tu les damnés?</l>
+                           <l n="32">Dis, connais-tu l'irrémissible?</l>
+                           <l n="33">Connais-tu le Remords, aux traits empoisonnés,</l>
+                           <l n="34">À qui notre coeur sert de cible?</l>
+                           <l n="35">Adorable sorcière, aimes-tu les damnés?</l>
+                        </lg>
+                        <lg type="stanza" n="8" subtype="cinquain">
+                           <l n="36">L'Irréparable ronge avec sa dent maudite</l>
+                           <l n="37">Notre âme, piteux monument,</l>
+                           <l n="38">Et souvent il attaque, ainsi que le termite,</l>
+                           <l n="39">Par la base le bâtiment.</l>
+                           <l n="40">L'Irréparable ronge avec sa dent maudite!</l>
+                        </lg>
+                     </div>
+                     <div type="II">
+                        <lg type="stanza" n="9" subtype="cinquain">
+                           <l n="41">J'ai vu parfois, au fond d'un théâtre banal</l>
+                           <l n="42">Qu'enflammait l'orchestre sonore,</l>
+                           <l n="43">Une fée allumer dans un ciel infernal</l>
+                           <l n="44">Une miraculeuse aurore;</l>
+                           <l n="45">J'ai vu parfois au fond d'un théâtre banal</l>
+                        </lg>
+                        <lg type="stanza" n="10" subtype="cinquain">
+                           <l n="46">Un être, qui n'était que lumière, or et gaze,</l>
+                           <l n="47">Terrasser l'énorme Satan</l>
+                           <l n="48">Mais mon coeur, que jamais ne visite l'extase,</l>
+                           <l n="49">Est un théâtre où l'on attend</l>
+                           <l n="50">Toujours. toujours en vain, l'Etre aux ailes de gaze!</l>
+                        </lg>
+                     </div>
                   </div>
-                  <div>
-                     <p> CAUSERIE </p>
-                     <p/>
-                     <p> Vous êtes un beau ciel d'automne, clair et rose! Mais la tristesse en moi
-                        monte comme la mer, Et laisse, en refluant, sur ma lèvre morose Le souvenir
-                        cuisant de son limon amer. </p>
-                     <p> --Ta main se glisse en vain sur mon sein qui se pâme; Ce qu'elle cherche,
-                        amie, est un lieu saccagé Par la griffe et la dent féroce de la femme. Ne
-                        cherchez plus mon coeur; les bêtes l'ont mangé. </p>
-                     <p> Mon coeur est un palais flétri par la cohue; On s'y soûle, on s'y tue, on
-                        s'y prend aux cheveux. --Un parfum nage autour de votre gorge nue!... </p>
-                     <p> O Beauté, dur fléau des âmes! tu le veux! Avec tes yeux de feu, brillants
-                        comme des fêtes! Calcine ces lambeaux qu'ont épargnés les bêtes! </p>
-                     <p/>
+                  <div type="poem" subtype="sonnet">
+                     <head>
+                        <title>Causerie</title>
+                     </head>
+                     <lg type="stanza" n="1" subtype="quartrain">
+                        <l n="1">Vous êtes un beau ciel d'automne, clair et rose!</l>
+                        <l n="2">Mais la tristesse en moi monte comme la mer,</l>
+                        <l n="3">Et laisse, en refluant, sur ma lèvre morose</l>
+                        <l n="4">Le souvenir cuisant de son limon amer.</l>
+                     </lg>
+                     <lg type="stanza" n="2" subtype="quartrain">
+                        <l n="6">—-Ta main se glisse en vain sur mon sein qui se pâme;</l>
+                        <l n="7">Ce qu'elle cherche, amie, est un lieu saccagé</l>
+                        <l n="8">Par la griffe et la dent féroce de la femme.</l>
+                        <l n="9">Ne cherchez plus mon coeur; les bêtes l'ont mangé.</l>
+                     </lg>
+                     <lg type="stanza" n="3" subtype="tercet">
+                        <l n="10">Mon coeur est un palais flétri par la cohue;</l>
+                        <l n="11">On s'y soûle, on s'y tue, on s'y prend aux cheveux.</l>
+                        <l n="12">—-Un parfum nage autour de votre gorge nue!...</l>
+                     </lg>
+                     <lg type="stanza" n="4" subtype="tercet">
+                        <l n="13">O Beauté, dur fléau des âmes! tu le veux!</l>
+                        <l n="14">Avec tes yeux de feu, brillants comme des fêtes!</l>
+                        <l n="15">Calcine ces lambeaux qu'ont épargnés les bêtes!</l>
+                     </lg>
                   </div>
-                  <div>
-                     <p> CHANT D'AUTOMNE </p>
-                     <p> I </p>
-                     <p/>
-                     <p> Bientôt nous plongerons dans les froides ténèbres; Adieu, vive clarté de
-                        nos étés trop courts! J'entends déjà tomber avec des chocs funèbres Le bois
-                        retentissant sur le pavé des cours. </p>
-                     <p> Tout l'hiver va rentrer dans mon être: colère, Haine, frissons, horreur,
-                        labeur dur et forcé, Et, comme le soleil dans son enfer polaire. Mon coeur
-                        ne sera plus qu'un bloc rouge et glacé. </p>
-                     <p> J'écoute en frémissant chaque bûche qui tombe; L'échafaud qu'on bâtit n'a
-                        pas d'écho plus sourd. Mon esprit est pareil à la tour qui succombe Sous les
-                        coups du bélier infatigable et lourd. </p>
-                     <p> Il me semble, bercé par ce choc monotone, Qu'on cloue en grande hâte un
-                        cercueil quelque part... Pour qui?--C'était hier l'été; voici l'automne! Ce
-                        bruit mystérieux sonne comme un départ. </p>
-                     <p/>
-                     <p> II </p>
-                     <p/>
-                     <p> J'aime de vos longs yeux la lumière verdâtre, Douce beauté, mais tout
-                        aujourd'hui m'est amer, Et rien, ni votre amour, ni le boudoir, ni l'âtre,
-                        Ne me vaut le soleil rayonnant sur la mer. </p>
-                     <p> Et pourtant aimez-moi, tendre coeur! soyez mère Même pour un ingrat, même
-                        pour un méchant; Amante ou soeur, soyez la douceur éphémère D'un glorieux
-                        automne ou d'un soleil couchant. </p>
-                     <p> Courte tâche! La tombe attend; elle est avide! Ah! laissez-moi, mon front
-                        posé sur vos genoux, Goûter, en regrettant l'été blanc et torride, De
-                        l'arrière-saison le rayon jaune et doux! </p>
-                     <p/>
+                  <div type="poem" subtype="unknown">
+                     <head>
+                        <title>CHANT D'AUTOMNE</title>
+                     </head>
+                     <div type="I">
+                        <lg type="stanza" n="1" subtype="quatrain">
+                           <l n="1">Bientôt nous plongerons dans les froides ténèbres;</l>
+                           <l n="2">Adieu, vive clarté de nos étés trop courts!</l>
+                           <l n="3">J'entends déjà tomber avec des chocs funèbres</l>
+                           <l n="4">Le bois retentissant sur le pavé des cours.</l>
+                        </lg>
+                        <lg type="stanza" n="2" subtype="quatrain">
+                           <l n="5">Tout l'hiver va rentrer dans mon être: colère,</l>
+                           <l n="6">Haine, frissons, horreur, labeur dur et forcé,</l>
+                           <l n="7">Et, comme le soleil dans son enfer polaire.</l>
+                           <l n="8">Mon coeur ne sera plus qu'un bloc rouge et glacé.</l>
+                        </lg>
+                        <lg type="stanza" n="3" subtype="quatrain">
+                           <l n="9">J'écoute en frémissant chaque bûche qui tombe;</l>
+                           <l n="10">L'échafaud qu'on bâtit n'a pas d'écho plus sourd.</l>
+                           <l n="11">Mon esprit est pareil à la tour qui succombe</l>
+                           <l n="12">Sous les coups du bélier infatigable et lourd.</l>
+                        </lg>
+                        <lg type="stanza" n="4" subtype="quatrain">
+                           <l n="13">II me semble, bercé par ce choc monotone,</l>
+                           <l n="14">Qu'on cloue en grande hâte un cercueil quelque part...</l>
+                           <l n="15">Pour qui?--C'était hier l'été; voici l'automne!</l>
+                           <l n="16">Ce bruit mystérieux sonne comme un départ.</l>
+                        </lg>
+                     </div>
+                     <div type="II">
+                        <lg type="stanza" n="5" subtype="quatrain">
+                           <l n="17">J'aime de vos longs yeux la lumière verdâtre,</l>
+                           <l n="18">Douce beauté, mais tout aujourd'hui m'est amer,</l>
+                           <l n="19">Et rien, ni votre amour, ni le boudoir, ni l'âtre,</l>
+                           <l n="20">Ne me vaut le soleil rayonnant sur la mer.</l>
+                        </lg>
+                        <lg type="stanza" n="6" subtype="quatrain">
+                           <l n="21">Et pourtant aimez-moi, tendre coeur! soyez mère</l>
+                           <l n="22">Même pour un ingrat, même pour un méchant;</l>
+                           <l n="23"> Amante ou soeur, soyez la douceur éphémère</l>
+                           <l n="24">D'un glorieux automne ou d'un soleil couchant.</l>
+                        </lg>
+                        <lg type="stanza" n="7" subtype="quatrain">
+                           <l n="25">Courte tâche! La tombe attend; elle est avide!</l>
+                           <l n="26">Ah! laissez-moi, mon front posé sur vos genoux,</l>
+                           <l n="27">Goûter, en regrettant l'été blanc et torride,</l>
+                           <l n="28">De l'arrière-saison le rayon jaune et doux!</l>
+                        </lg>
+                     </div>
                   </div>
                   <div type="poem">
                      <head><title>CHANSON D'APRES-MIDI</title></head>
