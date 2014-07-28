@@ -2605,20 +2605,32 @@
                         ma joie et ma santé, Salut en immortalité! </p>
                      <p/>
                   </div>
-                  <div>
-                     <p> LE REBELLE </p>
-                     <p/>
-                     <p> Un Ange furieux fond du ciel comme un aigle, Du mécréant saisit à plein
-                        poing les cheveux, Et dit, le secouant: « Ta connaîtras la règle! (Car je
-                        suis ton bon Ange, entends-tu?) Je le veux! </p>
-                     <p> Sache qu'il faut aimer, sans faire la grimace, Le pauvre, le méchant, le
-                        tortu, l'hébété, Pour que tu puisses faire à Jésus, quand il passe, Un tapis
-                        triomphal avec ta charité. </p>
-                     <p> Tel est l'Amour! Avant que ton coeur ne se blase, A la gloire de Dieu
-                        rallume ton extase; C'est la Volupté vraie aux durables appas! » </p>
-                     <p> Et l'Ange, châtiant autant, ma foi! qu'il aime, De ses poings de géant
-                        torture l'anathème; Mais le damné répond toujours; « Je ne veux pas! » </p>
-                     <p/>
+                  <div type="poem" subtype="sonnet" n="" rhyme="abbacddceefggf">
+                     <head>
+                        <title>LE REBELLE</title>
+                     </head>
+                     <lg type="quatrain" n="1" rhyme="abab">
+                        <l n="1">Un Ange furieux fond du ciel comme un <rhyme label="a">aigle</rhyme>,</l> 
+                        <l n="2">Du mécréant saisit à plein poing les <rhyme label="b">cheveux</rhyme>,</l> 
+                        <l n="3">Et dit, le secouant: « Ta connaîtras la <rhyme label="a">règle</rhyme>!</l>  
+                        <l n="4">(Car je suis ton bon Ange, entends-tu?) Je le <rhyme label="b">veux</rhyme>!</l> 
+                     </lg>
+                     <lg type="quatrain" n="2" rhyme="cdcd">
+                        <l n="5">Sache qu'il faut aimer, sans faire la <rhyme label="c">grimace</rhyme>,</l>  
+                        <l n="6">Le pauvre, le méchant, le tortu, <rhyme label="d">l'hébété</rhyme>,</l> 
+                        <l n="7">Pour que tu puisses faire à Jésus, quand il <rhyme label="c">passe</rhyme>,</l>  
+                        <l n="8">Un tapis triomphal avec ta <rhyme label="d">charité</rhyme>.</l> 
+                     </lg>
+                     <lg type="tercet" n="3" rhyme="eef">
+                        <l n="9">Tel est l'Amour! Avant que ton coeur ne se <rhyme label="e">blase</rhyme>,</l>  
+                        <l n="10">A la gloire de Dieu rallume ton <rhyme label="e">extase</rhyme>;</l> 
+                        <l n="10">C'est la Volupté vraie aux durables <rhyme label="f">appas</rhyme>! »</l> 
+                     </lg>
+                     <lg type="tercet" n="4" rhyme="ggf">
+                        <l n="12">Et l'Ange, châtiant autant, ma foi! qu'il <rhyme label="g">aime</rhyme>,</l>  
+                        <l n="13">De ses poings de géant torture <rhyme label="g">l'anathème</rhyme>;</l> 
+                        <l n="14">Mais le damné répond toujours; « Je ne veux <rhyme label="f">pas</rhyme>! »</l> 
+                     </lg>
                   </div>
                   <div>
                      <p> LE JET D'EAU </p>
