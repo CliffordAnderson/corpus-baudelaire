@@ -677,20 +677,32 @@
                         <l n="14">Du sang que nous perdons croît et se fortifie!</l>
                      </lg>
                   </div>
-                  <div type="poem" n="7">
-                     <p> LA VIE ANTERIEURE </p>
-                     <p/>
-                     <p> J'ai longtemps habité sous de vastes portiques Que les soleils marins
-                        teignaient de mille feux, Et que leurs grands piliers, droits et majestueux,
-                        Rendaient pareils, le soir, aux grottes basaltiques. </p>
-                     <p> Les houles, en roulant les images des cieux, Mêlaient d'une façon
-                        solennelle et mystique Les tout-puissants accords de leur riche musique Aux
-                        couleurs du couchant reflété par mes yeux. </p>
-                     <p> C'est là que j'ai vécu dans les voluptés calmes, Au milieu de l'azur, des
-                        vagues, des splendeurs Et des esclaves nus, tout imprégnés d'odeurs, </p>
-                     <p> Qui me rafraîchissaient le front avec des palmes, Et dont l'unique soin
-                        était d'approfondir Le secret douloureux qui me faisait languir. </p>
-                     <p/>
+                  <div type="poem" subtype="sonnet" n="7" rhyme="abbacddceffegg">
+                     <head>
+                        <title>LA VIE ANTERIEURE</title>
+                     </head>
+                     <lg type="quatrain" n="1" rhyme="abba">
+                        <l n="1">J'ai longtemps habité sous de vastes <rhyme label="a">portiques</rhyme></l>
+                        <l n="2">Que les soleils marins teignaient de mille <rhyme label="b">feux</rhyme>,</l> 
+                        <l n="3">Et que leurs grands piliers, droits et <rhyme label="b">majestueux</rhyme>,</l>
+                        <l n="4">Rendaient pareils, le soir, aux grottes <rhyme label="a">basaltiques</rhyme>.</l>
+                     </lg>
+                     <lg type="quatrain" n="2" rhyme="cddc">
+                        <l n="5">Les houles, en roulant les images des <rhyme label="c">cieux</rhyme>,</l>
+                        <l n="6">Mêlaient d'une façon solennelle et <rhyme label="d">mystique</rhyme></l>
+                        <l n="7">Les tout-puissants accords de leur riche <rhyme label="d">musique</rhyme></l>
+                        <l n="8">Aux couleurs du couchant reflété par mes <rhyme label="c">yeux</rhyme>.</l>
+                     </lg>
+                     <lg type="tercet" n="3" rhyme="eff">
+                        <l n="9">C'est là que j'ai vécu dans les voluptés <rhyme label="e">calmes</rhyme>,</l>
+                        <l n="10">Au milieu de l'azur, des vagues, des <rhyme label="f">splendeurs</rhyme></l>
+                        <l n="11">Et des esclaves nus, tout imprégnés <rhyme label="f">d'odeurs</rhyme>,</l>
+                     </lg>
+                     <lg type="tercet" n="4" rhyme="egg">
+                        <l n="12">Qui me rafraîchissaient le front avec des <rhyme label="e">palmes</rhyme>,</l>
+                        <l n="13">Et dont l'unique soin était <rhyme label="g">d'approfondir</rhyme></l>
+                        <l n="14">Le secret douloureux qui me faisait <rhyme label="g">languir</rhyme>.</l>
+                     </lg>
                   </div>
                   <div type="poem" n="8">
                      <p> BOHEMIENS EN VOYAGE </p>
