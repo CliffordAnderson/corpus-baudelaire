@@ -704,20 +704,32 @@
                         <l n="14">Le secret douloureux qui me faisait <rhyme label="g">languir</rhyme>.</l>
                      </lg>
                   </div>
-                  <div type="poem" n="8">
-                     <p> BOHEMIENS EN VOYAGE </p>
-                     <p/>
-                     <p> La tribu prophétique aux prunelles ardentes Hier s'est mise en route,
-                        emportant ses petits Sur son dos, ou livrant à leurs fiers appétits Le
-                        trésor toujours prêt des mamelles pendantes. </p>
-                     <p> Les hommes vont à pied sous leurs armes luisantes Le long des chariots où
-                        les leurs sont blottis, Promenant sur le ciel des yeux appesantis Par le
-                        morne regret des chimères absentes. </p>
-                     <p> Du fond de son réduit sablonneux, le grillon, Les regardant passer,
-                        redouble sa chanson; Cybèle, qui les aime, augmente ses verdures, </p>
-                     <p> Fait couler le rocher et fleurir le désert Devant ces voyageurs, pour
-                        lesquels est ouvert L'empire familier des ténèbres futures. </p>
-                     <p/>
+                  <div type="poem" subtype="sonnet" n="8" rhyme="abbacddceefggf">
+                     <head>
+                        <title>BOHEMIENS EN VOYAGE</title>
+                     </head>
+                     <lg type="quatrain" n="1" rhyme="abba">
+                        <l n="1">La tribu prophétique aux prunelles <rhyme label="a">ardentes</rhyme></l>
+                        <l n="2">Hier s'est mise en route, emportant ses <rhyme label="b">petits</rhyme></l>
+                        <l n="3">Sur son dos, ou livrant à leurs fiers <rhyme label="b">appétits</rhyme></l>
+                        <l n="4">Le trésor toujours prêt des mamelles <rhyme label="a">pendantes</rhyme>.</l>
+                     </lg>
+                     <lg type="quatrain" n="2" rhyme="cddc">
+                        <l n="5">Les hommes vont à pied sous leurs armes <rhyme label="c">luisantes</rhyme></l>
+                        <l n="6">Le long des chariots où les leurs sont <rhyme label="d">blottis</rhyme>,</l>
+                        <l n="7">Promenant sur le ciel des yeux <rhyme label="d">appesantis</rhyme></l>
+                        <l n="8">Par le morne regret des chimères <rhyme label="c">absentes</rhyme>.</l>
+                     </lg>
+                     <lg type="tercet" n="3" rhyme="eef">
+                        <l n="9">Du fond de son réduit sablonneux, le <rhyme label="e">grillon</rhyme>,</l> 
+                        <l n="10">Les regardant passer, redouble sa <rhyme label="e">chanson</rhyme>;</l>
+                        <l n="11">Cybèle, qui les aime, augmente ses <rhyme label="f">verdures</rhyme>,</l>
+                     </lg>
+                     <lg type="tercet" n="4" rhyme="ggf">
+                        <l n="12">Fait couler le rocher et fleurir le <rhyme label="g">désert</rhyme></l>
+                        <l n="13">Devant ces voyageurs, pour lesquels est <rhyme label="g">ouvert</rhyme></l>
+                        <l n="14">L'empire familier des ténèbres <rhyme label="f">futures</rhyme>.</l>
+                     </lg>
                   </div>
                   <div type="poem" n="9" rhyme="abbacddceffeghhg">
                      <head>
