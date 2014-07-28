@@ -677,35 +677,59 @@
                         <l n="14">Du sang que nous perdons croît et se fortifie!</l>
                      </lg>
                   </div>
-                  <div type="poem" n="7">
-                     <p> LA VIE ANTERIEURE </p>
-                     <p/>
-                     <p> J'ai longtemps habité sous de vastes portiques Que les soleils marins
-                        teignaient de mille feux, Et que leurs grands piliers, droits et majestueux,
-                        Rendaient pareils, le soir, aux grottes basaltiques. </p>
-                     <p> Les houles, en roulant les images des cieux, Mêlaient d'une façon
-                        solennelle et mystique Les tout-puissants accords de leur riche musique Aux
-                        couleurs du couchant reflété par mes yeux. </p>
-                     <p> C'est là que j'ai vécu dans les voluptés calmes, Au milieu de l'azur, des
-                        vagues, des splendeurs Et des esclaves nus, tout imprégnés d'odeurs, </p>
-                     <p> Qui me rafraîchissaient le front avec des palmes, Et dont l'unique soin
-                        était d'approfondir Le secret douloureux qui me faisait languir. </p>
-                     <p/>
+                  <div type="poem" subtype="sonnet" n="7" rhyme="abbacddceffegg">
+                     <head>
+                        <title>LA VIE ANTERIEURE</title>
+                     </head>
+                     <lg type="quatrain" n="1" rhyme="abba">
+                        <l n="1">J'ai longtemps habité sous de vastes <rhyme label="a">portiques</rhyme></l>
+                        <l n="2">Que les soleils marins teignaient de mille <rhyme label="b">feux</rhyme>,</l> 
+                        <l n="3">Et que leurs grands piliers, droits et <rhyme label="b">majestueux</rhyme>,</l>
+                        <l n="4">Rendaient pareils, le soir, aux grottes <rhyme label="a">basaltiques</rhyme>.</l>
+                     </lg>
+                     <lg type="quatrain" n="2" rhyme="cddc">
+                        <l n="5">Les houles, en roulant les images des <rhyme label="c">cieux</rhyme>,</l>
+                        <l n="6">Mêlaient d'une façon solennelle et <rhyme label="d">mystique</rhyme></l>
+                        <l n="7">Les tout-puissants accords de leur riche <rhyme label="d">musique</rhyme></l>
+                        <l n="8">Aux couleurs du couchant reflété par mes <rhyme label="c">yeux</rhyme>.</l>
+                     </lg>
+                     <lg type="tercet" n="3" rhyme="eff">
+                        <l n="9">C'est là que j'ai vécu dans les voluptés <rhyme label="e">calmes</rhyme>,</l>
+                        <l n="10">Au milieu de l'azur, des vagues, des <rhyme label="f">splendeurs</rhyme></l>
+                        <l n="11">Et des esclaves nus, tout imprégnés <rhyme label="f">d'odeurs</rhyme>,</l>
+                     </lg>
+                     <lg type="tercet" n="4" rhyme="egg">
+                        <l n="12">Qui me rafraîchissaient le front avec des <rhyme label="e">palmes</rhyme>,</l>
+                        <l n="13">Et dont l'unique soin était <rhyme label="g">d'approfondir</rhyme></l>
+                        <l n="14">Le secret douloureux qui me faisait <rhyme label="g">languir</rhyme>.</l>
+                     </lg>
                   </div>
-                  <div type="poem" n="8">
-                     <p> BOHEMIENS EN VOYAGE </p>
-                     <p/>
-                     <p> La tribu prophétique aux prunelles ardentes Hier s'est mise en route,
-                        emportant ses petits Sur son dos, ou livrant à leurs fiers appétits Le
-                        trésor toujours prêt des mamelles pendantes. </p>
-                     <p> Les hommes vont à pied sous leurs armes luisantes Le long des chariots où
-                        les leurs sont blottis, Promenant sur le ciel des yeux appesantis Par le
-                        morne regret des chimères absentes. </p>
-                     <p> Du fond de son réduit sablonneux, le grillon, Les regardant passer,
-                        redouble sa chanson; Cybèle, qui les aime, augmente ses verdures, </p>
-                     <p> Fait couler le rocher et fleurir le désert Devant ces voyageurs, pour
-                        lesquels est ouvert L'empire familier des ténèbres futures. </p>
-                     <p/>
+                  <div type="poem" subtype="sonnet" n="8" rhyme="abbacddceefggf">
+                     <head>
+                        <title>BOHEMIENS EN VOYAGE</title>
+                     </head>
+                     <lg type="quatrain" n="1" rhyme="abba">
+                        <l n="1">La tribu prophétique aux prunelles <rhyme label="a">ardentes</rhyme></l>
+                        <l n="2">Hier s'est mise en route, emportant ses <rhyme label="b">petits</rhyme></l>
+                        <l n="3">Sur son dos, ou livrant à leurs fiers <rhyme label="b">appétits</rhyme></l>
+                        <l n="4">Le trésor toujours prêt des mamelles <rhyme label="a">pendantes</rhyme>.</l>
+                     </lg>
+                     <lg type="quatrain" n="2" rhyme="cddc">
+                        <l n="5">Les hommes vont à pied sous leurs armes <rhyme label="c">luisantes</rhyme></l>
+                        <l n="6">Le long des chariots où les leurs sont <rhyme label="d">blottis</rhyme>,</l>
+                        <l n="7">Promenant sur le ciel des yeux <rhyme label="d">appesantis</rhyme></l>
+                        <l n="8">Par le morne regret des chimères <rhyme label="c">absentes</rhyme>.</l>
+                     </lg>
+                     <lg type="tercet" n="3" rhyme="eef">
+                        <l n="9">Du fond de son réduit sablonneux, le <rhyme label="e">grillon</rhyme>,</l> 
+                        <l n="10">Les regardant passer, redouble sa <rhyme label="e">chanson</rhyme>;</l>
+                        <l n="11">Cybèle, qui les aime, augmente ses <rhyme label="f">verdures</rhyme>,</l>
+                     </lg>
+                     <lg type="tercet" n="4" rhyme="ggf">
+                        <l n="12">Fait couler le rocher et fleurir le <rhyme label="g">désert</rhyme></l>
+                        <l n="13">Devant ces voyageurs, pour lesquels est <rhyme label="g">ouvert</rhyme></l>
+                        <l n="14">L'empire familier des ténèbres <rhyme label="f">futures</rhyme>.</l>
+                     </lg>
                   </div>
                   <div type="poem" n="9" rhyme="abbacddceffeghhg">
                      <head>
@@ -926,36 +950,61 @@
                      </lg>
 
                   </div>
-                  <div>
-                     <p> LE MASQUE </p>
-                     <p> STATUE ALLÉGORIQUE DANS LE GOUT DE LA RENAISSANCE </p>
-                     <p> A ERNEST CHRISTOPHE STATUAIRE </p>
-                     <p/>
-                     <p> Contemplons ce trésor de grâces florentines; Dans l'ondulation de ce corps
-                        musculeux L'Elégance et la Force abondent, soeurs divines. Cette femme,
-                        morceau vraiment miraculeux, Divinement robuste, adorablement mince, Est
-                        faite pour trôner sur des lits somptueux, Et charmer les loisirs d'un
-                        pontife ou d'un prince. </p>
-                     <p> --Aussi, vois ce souris fin et voluptueux Où la Fatuité promène son extase;
-                        Ce long regard sournois, langoureux et moqueur; Ce visage mignard, tout
-                        encadré de gaze, Dont chaque trait nous dit avec un air vainqueur: « La
-                        Volupté m'appelle et l'Amour me couronne! » A cet être doué de tant de
-                        majesté Vois quel charme excitant la gentillesse donne! Approchons, et
-                        tournons autour de sa beauté. </p>
-                     <p> O blasphème de l'art! ô surprise fatale! La femme au corps divin,
-                        promettant le bonheur, Par le haut se termine en monstre bicéphale! </p>
-                     <p> Mais non! Ce n'est qu'un masque, un décor suborneur, Ce visage éclairé
-                        d'une exquise grimace, Et, regarde, voici, crispée atrocement, La véritable
-                        tête, et la sincère face Renversée à l'abri de la face qui ment. --Pauvre
-                        grande beauté! le magnifique fleuve De tes pleurs aboutit dans mon coeur
-                        soucieux; Ton mensonge m'enivre, et mon âme s'abreuve Aux flots que la
-                        Douleur fait jaillir de tes yeux! </p>
-                     <p> --Mais pourquoi pleure-t-elle? Elle, beauté parfaite Qui mettrait à ses
-                        pieds le genre humain vaincu, Quel mal mystérieux ronge son flanc d'athlète? </p>
-                     <p> --Elle pleure, insensé, parce qu'elle a vécu! Et parce qu'elle vit! Mais ce
-                        qu'elle déplore Surtout, ce qui la fait frémir jusqu'aux genoux, C'est que
-                        demain, hélas! il faudra vivre encore! Demain, après-demain et
-                        toujours!--comme nous! </p>
+                  <div type="poem">
+                     <head>
+                        <title type="main">LE MASQUE </title>
+                        <title type="sub">STATUE ALLÉGORIQUE DANS LE GOUT DE LA RENAISSANCE </title>
+                        <title type="sub">A ERNEST CHRISTOPHE STATUAIRE </title>
+                     </head>
+                     <lg type="stanza" n="1">
+                        <l n="1">Contemplons ce trésor de grâces florentines;</l>
+                        <l n="2">Dans l'ondulation de ce corps musculeux</l>
+                        <l n="3">L'Elégance et la Force abondent, soeurs divines.</l>
+                        <l n="4">Cette femme, morceau vraiment miraculeux,</l>
+                        <l n="5">Divinement robuste, adorablement mince,</l>
+                        <l n="6">Est faite pour trôner sur des lits somptueux,</l>
+                        <l n="7">Et charmer les loisirs d'un pontife ou d'un prince.</l>
+                     </lg>
+                     <lg type="stanza" n="2">
+                        <l n="8">--Aussi, vois ce souris fin et voluptueux</l>
+                        <l n="9">Où la Fatuité promène son extase;</l>
+                        <l n="10">Ce long regard sournois, langoureux et moqueur;</l>
+                        <l n="11">Ce visage mignard, tout encadré de gaze,</l>
+                        <l n="12">Dont chaque trait nous dit avec un air vainqueur:</l>
+                        <l n="13">« La Volupté m'appelle et l'Amour me couronne! »</l>
+                        <l n="14">A cet être doué de tant de majesté</l>
+                        <l n="15">Vois quel charme excitant la gentillesse donne!</l>
+                        <l n="16">Approchons, et tournons autour de sa beauté. </l>
+                     </lg>
+                     <lg type="stanza" n="3">
+                        <l n="17">O blasphème de l'art! ô surprise fatale!</l>
+                        <l n="18">La femme au corps divin, promettant le bonheur,</l>
+                        <l n="19">Par le haut se termine en monstre bicéphale! </l>
+                     </lg>
+                     <lg type="stanza" n="4">
+                        <l n="20">Mais non! Ce n'est qu'un masque, un décor suborneur,</l>
+                        <l n="21">Ce visage éclairé d'une exquise grimace,</l>
+                        <l n="22">Et, regarde, voici, crispée atrocement,</l>
+                        <l n="23">La véritable tête, et la sincère face</l>
+                        <l n="24">Renversée à l'abri de la face qui ment.</l>
+                        <l n="25">--Pauvre grande beauté! le magnifique fleuve</l>
+                        <l n="26">De tes pleurs aboutit dans mon coeur soucieux;</l>
+                        <l n="27">Ton mensonge m'enivre, et mon âme s'abreuve</l>
+                        <l n="28">Aux flots que la Douleur fait jaillir de tes yeux! </l>
+                     </lg>
+                     <lg type="stanza" n="5">
+                        <l n="29">--Mais pourquoi pleure-t-elle? Elle, beauté parfaite</l>
+                        <l n="30">Qui mettrait à ses pieds le genre humain vaincu,</l>
+                        <l n="31">Quel mal mystérieux ronge son flanc d'athlète? </l>
+                     </lg>
+                     <lg type="stanza" n="6">
+                        <l n="32">--Elle pleure, insensé, parce qu'elle a vécu!</l>
+                        <l n="33">Et parce qu'elle vit! Mais ce qu'elle déplore</l>
+                        <l n="34">Surtout, ce qui la fait frémir jusqu'aux genoux,</l>
+                        <l n="35">C'est que demain, hélas! il faudra vivre encore!</l>
+                        <l n="36">Demain, après-demain et toujours!--comme nous! </l>
+                     </lg>
+                     
                   </div>
                   <div>
                      <p> HYMNE A LA BEAUTE </p>
@@ -2556,20 +2605,32 @@
                         ma joie et ma santé, Salut en immortalité! </p>
                      <p/>
                   </div>
-                  <div>
-                     <p> LE REBELLE </p>
-                     <p/>
-                     <p> Un Ange furieux fond du ciel comme un aigle, Du mécréant saisit à plein
-                        poing les cheveux, Et dit, le secouant: « Ta connaîtras la règle! (Car je
-                        suis ton bon Ange, entends-tu?) Je le veux! </p>
-                     <p> Sache qu'il faut aimer, sans faire la grimace, Le pauvre, le méchant, le
-                        tortu, l'hébété, Pour que tu puisses faire à Jésus, quand il passe, Un tapis
-                        triomphal avec ta charité. </p>
-                     <p> Tel est l'Amour! Avant que ton coeur ne se blase, A la gloire de Dieu
-                        rallume ton extase; C'est la Volupté vraie aux durables appas! » </p>
-                     <p> Et l'Ange, châtiant autant, ma foi! qu'il aime, De ses poings de géant
-                        torture l'anathème; Mais le damné répond toujours; « Je ne veux pas! » </p>
-                     <p/>
+                  <div type="poem" subtype="sonnet" n="" rhyme="abbacddceefggf">
+                     <head>
+                        <title>LE REBELLE</title>
+                     </head>
+                     <lg type="quatrain" n="1" rhyme="abab">
+                        <l n="1">Un Ange furieux fond du ciel comme un <rhyme label="a">aigle</rhyme>,</l> 
+                        <l n="2">Du mécréant saisit à plein poing les <rhyme label="b">cheveux</rhyme>,</l> 
+                        <l n="3">Et dit, le secouant: « Ta connaîtras la <rhyme label="a">règle</rhyme>!</l>  
+                        <l n="4">(Car je suis ton bon Ange, entends-tu?) Je le <rhyme label="b">veux</rhyme>!</l> 
+                     </lg>
+                     <lg type="quatrain" n="2" rhyme="cdcd">
+                        <l n="5">Sache qu'il faut aimer, sans faire la <rhyme label="c">grimace</rhyme>,</l>  
+                        <l n="6">Le pauvre, le méchant, le tortu, <rhyme label="d">l'hébété</rhyme>,</l> 
+                        <l n="7">Pour que tu puisses faire à Jésus, quand il <rhyme label="c">passe</rhyme>,</l>  
+                        <l n="8">Un tapis triomphal avec ta <rhyme label="d">charité</rhyme>.</l> 
+                     </lg>
+                     <lg type="tercet" n="3" rhyme="eef">
+                        <l n="9">Tel est l'Amour! Avant que ton coeur ne se <rhyme label="e">blase</rhyme>,</l>  
+                        <l n="10">A la gloire de Dieu rallume ton <rhyme label="e">extase</rhyme>;</l> 
+                        <l n="10">C'est la Volupté vraie aux durables <rhyme label="f">appas</rhyme>! »</l> 
+                     </lg>
+                     <lg type="tercet" n="4" rhyme="ggf">
+                        <l n="12">Et l'Ange, châtiant autant, ma foi! qu'il <rhyme label="g">aime</rhyme>,</l>  
+                        <l n="13">De ses poings de géant torture <rhyme label="g">l'anathème</rhyme>;</l> 
+                        <l n="14">Mais le damné répond toujours; « Je ne veux <rhyme label="f">pas</rhyme>! »</l> 
+                     </lg>
                   </div>
                   <div>
                      <p> LE JET D'EAU </p>
