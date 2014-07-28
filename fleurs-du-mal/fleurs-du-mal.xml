@@ -677,35 +677,59 @@
                         <l n="14">Du sang que nous perdons croît et se fortifie!</l>
                      </lg>
                   </div>
-                  <div type="poem" n="7">
-                     <p> LA VIE ANTERIEURE </p>
-                     <p/>
-                     <p> J'ai longtemps habité sous de vastes portiques Que les soleils marins
-                        teignaient de mille feux, Et que leurs grands piliers, droits et majestueux,
-                        Rendaient pareils, le soir, aux grottes basaltiques. </p>
-                     <p> Les houles, en roulant les images des cieux, Mêlaient d'une façon
-                        solennelle et mystique Les tout-puissants accords de leur riche musique Aux
-                        couleurs du couchant reflété par mes yeux. </p>
-                     <p> C'est là que j'ai vécu dans les voluptés calmes, Au milieu de l'azur, des
-                        vagues, des splendeurs Et des esclaves nus, tout imprégnés d'odeurs, </p>
-                     <p> Qui me rafraîchissaient le front avec des palmes, Et dont l'unique soin
-                        était d'approfondir Le secret douloureux qui me faisait languir. </p>
-                     <p/>
+                  <div type="poem" subtype="sonnet" n="7" rhyme="abbacddceffegg">
+                     <head>
+                        <title>LA VIE ANTERIEURE</title>
+                     </head>
+                     <lg type="quatrain" n="1" rhyme="abba">
+                        <l n="1">J'ai longtemps habité sous de vastes <rhyme label="a">portiques</rhyme></l>
+                        <l n="2">Que les soleils marins teignaient de mille <rhyme label="b">feux</rhyme>,</l> 
+                        <l n="3">Et que leurs grands piliers, droits et <rhyme label="b">majestueux</rhyme>,</l>
+                        <l n="4">Rendaient pareils, le soir, aux grottes <rhyme label="a">basaltiques</rhyme>.</l>
+                     </lg>
+                     <lg type="quatrain" n="2" rhyme="cddc">
+                        <l n="5">Les houles, en roulant les images des <rhyme label="c">cieux</rhyme>,</l>
+                        <l n="6">Mêlaient d'une façon solennelle et <rhyme label="d">mystique</rhyme></l>
+                        <l n="7">Les tout-puissants accords de leur riche <rhyme label="d">musique</rhyme></l>
+                        <l n="8">Aux couleurs du couchant reflété par mes <rhyme label="c">yeux</rhyme>.</l>
+                     </lg>
+                     <lg type="tercet" n="3" rhyme="eff">
+                        <l n="9">C'est là que j'ai vécu dans les voluptés <rhyme label="e">calmes</rhyme>,</l>
+                        <l n="10">Au milieu de l'azur, des vagues, des <rhyme label="f">splendeurs</rhyme></l>
+                        <l n="11">Et des esclaves nus, tout imprégnés <rhyme label="f">d'odeurs</rhyme>,</l>
+                     </lg>
+                     <lg type="tercet" n="4" rhyme="egg">
+                        <l n="12">Qui me rafraîchissaient le front avec des <rhyme label="e">palmes</rhyme>,</l>
+                        <l n="13">Et dont l'unique soin était <rhyme label="g">d'approfondir</rhyme></l>
+                        <l n="14">Le secret douloureux qui me faisait <rhyme label="g">languir</rhyme>.</l>
+                     </lg>
                   </div>
-                  <div type="poem" n="8">
-                     <p> BOHEMIENS EN VOYAGE </p>
-                     <p/>
-                     <p> La tribu prophétique aux prunelles ardentes Hier s'est mise en route,
-                        emportant ses petits Sur son dos, ou livrant à leurs fiers appétits Le
-                        trésor toujours prêt des mamelles pendantes. </p>
-                     <p> Les hommes vont à pied sous leurs armes luisantes Le long des chariots où
-                        les leurs sont blottis, Promenant sur le ciel des yeux appesantis Par le
-                        morne regret des chimères absentes. </p>
-                     <p> Du fond de son réduit sablonneux, le grillon, Les regardant passer,
-                        redouble sa chanson; Cybèle, qui les aime, augmente ses verdures, </p>
-                     <p> Fait couler le rocher et fleurir le désert Devant ces voyageurs, pour
-                        lesquels est ouvert L'empire familier des ténèbres futures. </p>
-                     <p/>
+                  <div type="poem" subtype="sonnet" n="8" rhyme="abbacddceefggf">
+                     <head>
+                        <title>BOHEMIENS EN VOYAGE</title>
+                     </head>
+                     <lg type="quatrain" n="1" rhyme="abba">
+                        <l n="1">La tribu prophétique aux prunelles <rhyme label="a">ardentes</rhyme></l>
+                        <l n="2">Hier s'est mise en route, emportant ses <rhyme label="b">petits</rhyme></l>
+                        <l n="3">Sur son dos, ou livrant à leurs fiers <rhyme label="b">appétits</rhyme></l>
+                        <l n="4">Le trésor toujours prêt des mamelles <rhyme label="a">pendantes</rhyme>.</l>
+                     </lg>
+                     <lg type="quatrain" n="2" rhyme="cddc">
+                        <l n="5">Les hommes vont à pied sous leurs armes <rhyme label="c">luisantes</rhyme></l>
+                        <l n="6">Le long des chariots où les leurs sont <rhyme label="d">blottis</rhyme>,</l>
+                        <l n="7">Promenant sur le ciel des yeux <rhyme label="d">appesantis</rhyme></l>
+                        <l n="8">Par le morne regret des chimères <rhyme label="c">absentes</rhyme>.</l>
+                     </lg>
+                     <lg type="tercet" n="3" rhyme="eef">
+                        <l n="9">Du fond de son réduit sablonneux, le <rhyme label="e">grillon</rhyme>,</l> 
+                        <l n="10">Les regardant passer, redouble sa <rhyme label="e">chanson</rhyme>;</l>
+                        <l n="11">Cybèle, qui les aime, augmente ses <rhyme label="f">verdures</rhyme>,</l>
+                     </lg>
+                     <lg type="tercet" n="4" rhyme="ggf">
+                        <l n="12">Fait couler le rocher et fleurir le <rhyme label="g">désert</rhyme></l>
+                        <l n="13">Devant ces voyageurs, pour lesquels est <rhyme label="g">ouvert</rhyme></l>
+                        <l n="14">L'empire familier des ténèbres <rhyme label="f">futures</rhyme>.</l>
+                     </lg>
                   </div>
                   <div type="poem" n="9" rhyme="abbacddceffeghhg">
                      <head>
@@ -2581,20 +2605,32 @@
                         ma joie et ma santé, Salut en immortalité! </p>
                      <p/>
                   </div>
-                  <div>
-                     <p> LE REBELLE </p>
-                     <p/>
-                     <p> Un Ange furieux fond du ciel comme un aigle, Du mécréant saisit à plein
-                        poing les cheveux, Et dit, le secouant: « Ta connaîtras la règle! (Car je
-                        suis ton bon Ange, entends-tu?) Je le veux! </p>
-                     <p> Sache qu'il faut aimer, sans faire la grimace, Le pauvre, le méchant, le
-                        tortu, l'hébété, Pour que tu puisses faire à Jésus, quand il passe, Un tapis
-                        triomphal avec ta charité. </p>
-                     <p> Tel est l'Amour! Avant que ton coeur ne se blase, A la gloire de Dieu
-                        rallume ton extase; C'est la Volupté vraie aux durables appas! » </p>
-                     <p> Et l'Ange, châtiant autant, ma foi! qu'il aime, De ses poings de géant
-                        torture l'anathème; Mais le damné répond toujours; « Je ne veux pas! » </p>
-                     <p/>
+                  <div type="poem" subtype="sonnet" n="" rhyme="abbacddceefggf">
+                     <head>
+                        <title>LE REBELLE</title>
+                     </head>
+                     <lg type="quatrain" n="1" rhyme="abab">
+                        <l n="1">Un Ange furieux fond du ciel comme un <rhyme label="a">aigle</rhyme>,</l> 
+                        <l n="2">Du mécréant saisit à plein poing les <rhyme label="b">cheveux</rhyme>,</l> 
+                        <l n="3">Et dit, le secouant: « Ta connaîtras la <rhyme label="a">règle</rhyme>!</l>  
+                        <l n="4">(Car je suis ton bon Ange, entends-tu?) Je le <rhyme label="b">veux</rhyme>!</l> 
+                     </lg>
+                     <lg type="quatrain" n="2" rhyme="cdcd">
+                        <l n="5">Sache qu'il faut aimer, sans faire la <rhyme label="c">grimace</rhyme>,</l>  
+                        <l n="6">Le pauvre, le méchant, le tortu, <rhyme label="d">l'hébété</rhyme>,</l> 
+                        <l n="7">Pour que tu puisses faire à Jésus, quand il <rhyme label="c">passe</rhyme>,</l>  
+                        <l n="8">Un tapis triomphal avec ta <rhyme label="d">charité</rhyme>.</l> 
+                     </lg>
+                     <lg type="tercet" n="3" rhyme="eef">
+                        <l n="9">Tel est l'Amour! Avant que ton coeur ne se <rhyme label="e">blase</rhyme>,</l>  
+                        <l n="10">A la gloire de Dieu rallume ton <rhyme label="e">extase</rhyme>;</l> 
+                        <l n="10">C'est la Volupté vraie aux durables <rhyme label="f">appas</rhyme>! »</l> 
+                     </lg>
+                     <lg type="tercet" n="4" rhyme="ggf">
+                        <l n="12">Et l'Ange, châtiant autant, ma foi! qu'il <rhyme label="g">aime</rhyme>,</l>  
+                        <l n="13">De ses poings de géant torture <rhyme label="g">l'anathème</rhyme>;</l> 
+                        <l n="14">Mais le damné répond toujours; « Je ne veux <rhyme label="f">pas</rhyme>! »</l> 
+                     </lg>
                   </div>
                   <div>
                      <p> LE JET D'EAU </p>
