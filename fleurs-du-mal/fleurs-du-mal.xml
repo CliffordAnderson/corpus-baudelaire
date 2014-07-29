@@ -2632,43 +2632,91 @@
                         <l n="14">Mais le damné répond toujours; « Je ne veux <rhyme label="f">pas</rhyme>! »</l> 
                      </lg>
                   </div>
-                  <div>
-                     <p> LE JET D'EAU </p>
-                     <p/>
-                     <p> Tes beaux yeux sont las, pauvre amante! Reste longtemps sans les rouvrir,
-                        Dans cette pose nonchalante Où t'a surprise le plaisir. Dans la cour le jet
-                        d'eau qui jase Et ne se tait ni nuit ni jour, Entretient doucement l'extase
-                        Où ce soir m'a plongé l'amour. </p>
-                     <p> La gerbe épanouie En mille fleurs, Où Phoebé réjouie Met ses couleurs,
-                        Tombe comme une pluie De larges pleurs. </p>
-                     <p> Ainsi ton âme qu'incendie L'éclair brûlant des voluptés S'élance, rapide et
-                        hardie, Vers les vastes cieux enchantés. Puis, elle s'épanche, mourante, En
-                        un flot de triste langueur, Qui par une invisible pente Descend jusqu'au
-                        fond de mon coeur. </p>
-                     <p> La gerbe épanouie En mille fleurs, Où Phoebé réjouie Met ses couleurs,
-                        Tombe comme une pluie De larges pleurs. </p>
-                     <p> 0 toi, que la nuit rend si belle, Qu'il m'est doux, penché vers tes seins,
-                        D'écouter la plainte éternelle Qui sanglote dans les bassins! Lune, eau
-                        sonore, nuit bénie, Arbres qui frissonnez autour, Votre pure mélancolie Est
-                        le miroir de mon amour. </p>
-                     <p> La gerbe épanouie En mille fleurs, Où Phoebé réjouie Met ses couleurs,
-                        Tombe comme une pluie De larges pleurs. </p>
-                     <p/>
+                  <div type="poem" n="" rhyme="">
+                     <head>
+                        <title>LE JET D'EAU</title>
+                     </head>
+                     <lg type="octet" n="1" rhyme="ababcdcd">
+                        <l n="1">Tes beaux yeux sont las, pauvre <rhyme label="a">amante</rhyme>!</l> 
+                        <l n="2">Reste longtemps sans les <rhyme label="b">rouvrir</rhyme>,</l> 
+                        <l n="3">Dans cette pose <rhyme label="a">nonchalante</rhyme></l> 
+                        <l n="4">Où t'a surprise le <rhyme label="b">plaisir</rhyme>.</l>  
+                        <l n="5">Dans la cour le jet d'eau qui <rhyme label="c">jase</rhyme></l> 
+                        <l n="6">Et ne se tait ni nuit ni <rhyme label="d">jour</rhyme>,</l> 
+                        <l n="7">Entretient doucement <rhyme label="c">l'extase</rhyme></l> 
+                        <l n="8">Où ce soir m'a plongé <rhyme label="d">l'amour</rhyme>.</l> 
+                     </lg>
+                     <lg type="refrain" n="2" rhyme="efefef">
+                        <l n="9">La gerbe <rhyme label="e">épanouie</rhyme></l>
+                        <l n="10">En mille <rhyme label="f">fleurs</rhyme>,</l> 
+                        <l n="11">Où Phoebé <rhyme label="e">réjouie</rhyme></l> 
+                        <l n="12">Met ses <rhyme label="f">couleurs</rhyme>,</l>
+                        <l n="13">Tombe comme une <rhyme label="e">pluie</rhyme></l> 
+                        <l n="14">De larges <rhyme label="f">pleurs</rhyme>.</l>
+                     </lg>
+                     <lg type="octet" n="3" rhyme="ghghijij">
+                        <l n="15">Ainsi ton âme <rhyme label="g">qu'incendie</rhyme></l> 
+                        <l n="16">L'éclair brûlant des <rhyme label="h">voluptés</rhyme></l> 
+                        <l n="17">S'élance, rapide et <rhyme label="g">hardie</rhyme>,</l> 
+                        <l n="18">Vers les vastes cieux <rhyme label="h">enchantés</rhyme>.</l>  
+                        <l n="19">Puis, elle s'épanche, <rhyme label="i">mourante</rhyme>,</l>  
+                        <l n="20">En un flot de triste <rhyme label="j">langueur</rhyme>,</l> 
+                        <l n="21">Qui par une invisible <rhyme label="i">pente</rhyme></l>  
+                        <l n="22">Descend jusqu'au fond de mon <rhyme label="j">coeur</rhyme>.</l> 
+                     </lg>
+                     <lg type="refrain" n="4" rhyme="efefef">
+                        <l n="23">La gerbe <rhyme label="e">épanouie</rhyme></l>  
+                        <l n="24">En mille <rhyme label="f">fleurs</rhyme>,</l>  
+                        <l n="25">Où Phoebé <rhyme label="e">réjouie</rhyme></l>  
+                        <l n="26">Met ses <rhyme label="f">couleurs</rhyme>,</l> 
+                        <l n="27">Tombe comme une <rhyme label="e">pluie</rhyme></l>  
+                        <l n="28">De larges <rhyme label="f">pleurs</rhyme>.</l>
+                     </lg>
+                     <lg type="octet" n="5" rhyme="klklmnmn">
+                        <l n="29">0 toi, que la nuit rend si <rhyme label="k">belle</rhyme>,</l>  
+                        <l n="30">Qu'il m'est doux, penché vers tes <rhyme label="l">seins</rhyme>,</l> 
+                        <l n="31">D'écouter la plainte <rhyme label="k">éternelle</rhyme></l>  
+                        <l n="32">Qui sanglote dans les <rhyme label="l">bassins</rhyme>!</l>  
+                        <l n="33">Lune, eau sonore, nuit <rhyme label="m">bénie</rhyme>,</l> 
+                        <l n="34">Arbres qui frissonnez <rhyme label="n">autour</rhyme>,</l>  
+                        <l n="35">Votre pure <rhyme label="m">mélancolie</rhyme></l>  
+                        <l n="36">Est le miroir de mon <rhyme label="n">amour</rhyme>.</l> 
+                     </lg>
+                     <lg type="refrain" n="6" rhyme="efefef">
+                        <l n="37">La gerbe <rhyme label="e">épanouie</rhyme></l>  
+                        <l n="38">En mille <rhyme label="f">fleurs</rhyme>,</l>  
+                        <l n="39">Où Phoebé <rhyme label="e">réjouie</rhyme></l>  
+                        <l n="40">Met ses <rhyme label="f">couleurs</rhyme>,</l> 
+                        <l n="41">Tombe comme une <rhyme label="e">pluie</rhyme></l>  
+                        <l n="42">De larges <rhyme label="f">pleurs</rhyme>.</l> 
+                     </lg>
                   </div>
-                  <div>
-                     <p> LE COUCHER DU SOLEIL ROMANTIQUE </p>
-                     <p/>
-                     <p> Que le Soleil est beau quand tout frais il se lève, Comme une explosion
-                        nous lançant son bonjour! --Bienheureux celui-là qui peut avec amour Saluer
-                        son coucher plus glorieux qu'un rêve! </p>
-                     <p> Je me souviens!... J'ai vu tout, fleur, source, sillon, Se pâmer sous son
-                        oeil comme un coeur qui palpite,.. --Courons vers l'horizon, il est tard,
-                        courons vite, Pour attraper au moins un oblique rayon! </p>
-                     <p> Mais je poursuis en vain le Dieu qui se retire; L'irrésistible Nuit établit
-                        son empire, Noire, humide, funeste et pleine de frissons; </p>
-                     <p> Une odeur de tombeau dans les ténèbres nage, Et mon pied peureux froisse,
-                        au bord du marécage, Des crapauds imprévus et de froids limaçons. </p>
-                     <p/>
+                  <div type="poem" subtype="sonnet" n="" rhyme="abbacddceefggf">
+                     <head>
+                        <title>LE COUCHER DU SOLEIL ROMANTIQUE</title>
+                     </head>
+                     <lg type="quatrain" n="1" rhyme="abab">
+                        <l n="1">Que le Soleil est beau quand tout frais il se <rhyme label="a">lève</rhyme>,</l> 
+                        <l n="2">Comme une explosion nous lançant son <rhyme label="b">bonjour</rhyme>!</l> 
+                        <l n="3">--Bienheureux celui-là qui peut avec <rhyme label="b">amour</rhyme></l>  
+                        <l n="4">Saluer son coucher plus glorieux qu'un <rhyme label="a">rêve</rhyme>!</l> 
+                     </lg>
+                     <lg type="quatrain" n="2" rhyme="cdcd">
+                        <l n="5">Je me souviens!... J'ai vu tout, fleur, source, <rhyme label="c">sillon</rhyme>,</l>  
+                        <l n="6">Se pâmer sous son oeil comme un coeur qui <rhyme label="d">palpite</rhyme>,..</l> 
+                        <l n="7">--Courons vers l'horizon, il est tard, courons <rhyme label="d">vite</rhyme>,</l> 
+                        <l n="8">Pour attraper au moins un oblique <rhyme label="c">rayon</rhyme>!</l> 
+                     </lg>
+                     <lg type="tercet" n="3" rhyme="eef">
+                        <l n="9">Mais je poursuis en vain le Dieu qui se <rhyme label="e">retire</rhyme>;</l>  
+                        <l n="10">L'irrésistible Nuit établit son <rhyme label="e">empire</rhyme>,</l> 
+                        <l n="11">Noire, humide, funeste et pleine de <rhyme label="f">frissons</rhyme>;</l> 
+                     </lg>
+                     <lg type="tercet" n="4" rhyme="ggf">
+                        <l n="12">Une odeur de tombeau dans les ténèbres <rhyme label="g">nage</rhyme>,</l>  
+                        <l n="13">Et mon pied peureux froisse, au bord du <rhyme label="g">marécage</rhyme>,</l> 
+                        <l n="14">Des crapauds imprévus et de froids <rhyme label="e">limaçons</rhyme>.</l> 
+                     </lg>
                   </div>
                   <div>
                      <p> LE GOUFFRE </p>
