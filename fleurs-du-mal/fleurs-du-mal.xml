@@ -2503,21 +2503,42 @@
                         un grand tas de morts, Et qui meurt, sans bouger, dans d'immenses efforts. </p>
                      <p/>
                   </div>
-                  <div>
-                     <p> SPLEEN </p>
-                     <p/>
-                     <p> Pluviôse, irrité contre la vie entière, De son urne à grands flots vers un
-                        froid ténébreux Aux pâles habitants du voisin cimetière Et la mortalité sur
-                        les faubourgs brumeux. </p>
-                     <p> Mon chat sur le carreau cherchant une litière Agite sans repos son corps
-                        maigre et galeux; L'âme d'un vieux poète erre dans la gouttière Avec la
-                        triste voix d'un fantôme frileux. </p>
-                     <p> Le bourdon se lamente, et la bûche enfumée Accompagne en fausset la pendule
-                        enrhumée, Cependant qu'en un jeu plein de sales parfums, </p>
-                     <p> Héritage fatal d'une vieille hydropique, Le beau valet de coeur et la dame
-                        de pique Causent sinistrement de leurs amours défunts. J'ai plus de
-                        souvenirs que si j'avais mille ans. </p>
-                     <p> Un gros meuble à tiroirs encombré de bilans, De vers, de billets doux, de
+                  <div type="sonnet">
+                     <head>
+                        <title>SPLEEN</title>
+                     </head>
+                     <lg type="stanza" subtype="quatrain" n="1">
+                        <l n="1">Pluviôse, irrité contre la vie entière,</l>
+                        <l n="2">De son urne à grands flots vers un
+                           froid ténébreux</l>
+                        <l n="3">Aux pâles habitants du voisin cimetière</l>
+                        <l n="4">Et la mortalité sur les faubourgs brumeux. </l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="2">
+                        <l n="5">Mon chat sur le carreau cherchant une litière</l>
+                        <l n="6">Agite sans repos son corps maigre et galeux;</l>
+                        <l n="7">L'âme d'un vieux poète erre dans la gouttière</l>
+                        <l n="8">Avec la triste voix d'un fantôme frileux.</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="3">
+                        <l n="9">Le bourdon se lamente, et la bûche enfumée</l>
+                        <l n="10">Accompagne en fausset la pendule enrhumée</l>
+                        <l n="11">Cependant qu'en un jeu plein de sales parfums,</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="4">
+                        <l n="12">Héritage fatal d'une vieille hydropique,</l>
+                        <l n="13">Le beau valet de coeur et la dame de pique</l>
+                        <l n="14">Causent sinistrement de leurs amours défunts.</l>
+                     </lg>
+                  </div>
+                  
+                  <div type="poem">
+                     <head>
+                        <title>SPLEEN</title>
+                     </head>
+                     <!-- Todd's going to finish this up later. -->
+                     <p>J'ai plus de souvenirs que si j'avais mille ans.
+                      Un gros meuble à tiroirs encombré de bilans, De vers, de billets doux, de
                         procès, de romances, Avec de lourds cheveux roulés dans des quittances,
                         Cache moins de secrets que mon triste cerveau. C'est une pyramide, un
                         immense caveau, Qui contient plus de morts que la fosse commune. --Je suis
@@ -2533,64 +2554,125 @@
                         d'un Saharah brumeux! Un vieux sphinx ignoré du monde insoucieux, Oublié sur
                         la carte, et dont l'humeur farouche Ne chante qu'aux rayons du soleil qui se
                         couche. </p>
-                     <p> Je suis comme le roi d'un pays pluvieux, Riche, mais impuissant, jeune et
-                        pourtant très vieux, Qui, de ses précepteurs méprisant les courbettes,
-                        S'ennuie avec ses chiens comme avec d'autres bêtes. Rien ne peut l'égayer,
-                        ni gibier, ni faucon, Ni son peuple mourant en face du balcon, Du bouffon
-                        favori la grotesque ballade Ne distrait plus le front de ce cruel malade;
-                        Son lit fleurdelisé se transforme en tombeau, Et les dames d'atour, pour qui
-                        tout prince est beau, Ne savent plus trouver d'impudique toilette Pour tirer
-                        un souris de ce jeune squelette. Le savant qui lui fait de l'or n'a jamais
-                        pu De son être extirper l'élément corrompu, Et dans ces bains de sang qui
-                        des Romains nous viennent Et dont sur leurs vieux jours les puissants se
-                        souviennent, Il n'a su réchauffer ce cadavre hébété Où coule au lieu de sang
-                        l'eau verte du Léthé. </p>
-                     <p> Quand le ciel bas et lourd pèse comme un couvercle Sur l'esprit gémissant
-                        en proie aux longs ennuis, Et que de l'horizon embrassant tout le cercle Il
-                        nous verse un jour noir plus triste que les nuits; </p>
-                     <p> Quand la terre est changée en un cachot humide, Où l'Espérance, comme une
-                        chauve-souris, S'en va battant les murs de son aile timide Et se cognant la
-                        tête à des plafonds pourris; </p>
-                     <p> Quand la pluie étalant ses immenses traînées D'une vaste prison imite les
-                        barreaux, Et qu'un peuple muet d'infâmes araignées Vient tendre ses filets
-                        au fond de nos cerveaux, </p>
-                     <p> Des cloches tout à coup sautent avec furie Et lancent vers le ciel un
-                        affreux hurlement, Ainsi que des esprits errants et sans patrie Qui se
-                        mettent à geindre opiniâtrement. </p>
-                     <p> --Et de longs corbillards, sans tambours ni musique, Défilent lentement
-                        dans mon âme; l'Espoir, Vaincu, pleure, et l'Angoisse atroce, despotique,
-                        Sur mon crâne incliné plante son drapeau noir. </p>
-                     <p/>
                   </div>
-                  <div>
-                     <p> LE GOUT DU NEANT </p>
-                     <p/>
-                     <p> Morne esprit, autrefois amoureux de la lutte, L'Espoir, dont l'éperon
-                        attisait ton ardeur, Ne veut plus t'enfourcher! Couche-toi sans pudeur,
-                        Vieux cheval dont le pied à chaque obstacle butte. </p>
-                     <p> Résigne-toi, mon coeur; dors ton sommeil de brute. </p>
-                     <p> Esprit vaincu, fourbu! Pour toi, vieux maraudeur, L'amour n'a plus de goût,
-                        non plus que la dispute; Adieu donc, chants du cuivre et soupirs de la
-                        flûte! Plaisirs, ne tentez plus un coeur sombre et boudeur! </p>
-                     <p> Le Printemps adorable a perdu son odeur! </p>
-                     <p> Et le Temps m'engloutit minute par minute, Comme la neige immense un corps
-                        pris de roideur; Et je n'y cherche plus l'abri d'une cahute! Je contemple
-                        d'en haut le globe en sa rondeur, </p>
-                     <p> Avalanche, veux-tu m'emporter dans ta chute? </p>
-                     <p/>
+                  <div type="poem">
+                     <head>
+                        <title>SPLEEN</title>
+                     </head>
+                     <lg type="stanza" n="1">
+                        <l n="1">Je suis comme le roi d'un pays pluvieux,</l>
+                        <l n="2">Riche, mais impuissant, jeune et pourtant très vieux,</l>
+                        <l n="3">AQui, de ses précepteurs méprisant les courbettes,</l>
+                        <l n="4">S'ennuie avec ses chiens comme avec d'autres bêtes. </l>
+                        <l n="5">Rien ne peut l'égayer, ni gibier, ni faucon,</l>
+                        <l n="6">Ni son peuple mourant en face du balcon.</l>
+                        <l n="7">Du bouffon favori la grotesque ballade</l>
+                        <l n="8">Ne distrait plus le front de ce cruel malade;</l>
+                        <l n="9">Son lit fleurdelisé se transforme en tombeau,</l>
+                        <l n="10">Et les dames d'atour, pour qui tout prince est beau,</l>
+                        <l n="11">Ne savent plus trouver d'impudique toilette</l>
+                        <l n="12">Pour tirer un souris de ce jeune squelette.</l>
+                        <l n="13">Le savant qui lui fait de l'or n'a jamais pu</l>
+                        <l n="14">De son être extirper l'élément corrompu,</l>
+                        <l n="15">Et dans ces bains de sang qui des Romains nous viennent,</l>
+                        <l n="16">Et dont sur leurs vieux jours les puissants se souviennent,</l>
+                        <l n="17">II n'a su réchauffer ce cadavre hébété</l>
+                        <l n="18">Où coule au lieu de sang l'eau verte du Léthé</l>
+                     </lg>
                   </div>
-                  <div>
-                     <p> ALCHIMIE DE LA DOULEUR </p>
-                     <p/>
-                     <p> L'un t'éclaire avec son ardeur L'autre en toi met son deuil. Naturel Ce qui
-                        dit à l'un: Sépulture! Dit à l'autre: Vie et splendeur! </p>
-                     <p> Hermès inconnu qui m'assistes Et qui toujours m'intimidas, Tu me rends
-                        l'égal de Midas, Le plus triste des alchimistes; </p>
-                     <p> Par toi je change l'or en fer Et le paradis en enfer; Dans le suaire des
-                        nuages </p>
-                     <p> Je découvre un cadavre cher. Et sur les célestes rivages Je bâtis de grands
-                        sarcophages. </p>
-                     <p/>
+                  <div type="poem">
+                     <head>
+                        <title>SPLEEN</title>
+                     </head>
+                     <lg type="stanza" subtype="quatrain" n="1">
+                        <l n="1">Quand le ciel bas et lourd pèse comme un couvercle</l>
+                        <l n="2">Sur l'esprit gémissant en proie aux longs ennuis,</l>
+                        <l n="3">Et que de l'horizon embrassant tout le cercle</l>
+                        <l n="4">II nous verse un jour noir plus triste que les nuits; </l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="2">
+                        <l n="5">Quand la terre est changée en un cachot humide,</l>
+                        <l n="6">Où l'Espérance, comme une chauve-souris,</l>
+                        <l n="7">S'en va battant les murs de son aile timide</l>
+                        <l n="8">Et se cognant la tête à des plafonds pourris;</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="3">
+                        <l n="9">Quand la pluie étalant ses immenses traînées</l>
+                           <l n="10">D'une vaste prison imite les barreaux,</l>
+                           <l n="11">Et qu'un peuple muet d'infâmes araignées,</l>
+                           <l n="12">Vient tendre ses filets au fond de nos cerveaux,</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="4">
+                        <l n="13">Des cloches tout à coup sautent avec furie</l>
+                        <l n="14">Et lancent vers le ciel un affreux hurlement,</l>
+                        <l n="15">Ainsi que des esprits errants et sans patrie</l>
+                        <l n="16">Qui se mettent à geindre opiniâtrement.</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="5">
+                        <l n="17">— Et de longs corbillards, sans tambours ni musique,</l>
+                        <l n="18">Défilent lentement dans mon âme; l'Espoir,</l>
+                        <l n="19">Vaincu, pleure, et l'Angoisse atroce, despotique,</l>
+                        <l n="20">Sur mon crâne incliné plante son drapeau noir.</l>
+                     </lg>
+                  </div> 
+                  <div type="poem">
+                     <head>
+                        <title>Le Gout du Neant</title>
+                     </head>
+                     <lg type="stanza" subtype="quatrain" n="1">
+                        <l n="1">Morne esprit, autrefois amoureux de la lutte,</l>
+                        <l n="2">L'Espoir, dont l'éperon attisait ton ardeur,</l>
+                        <l n="3">Ne veut plus t'enfourcher! Couche-toi sans pudeur,</l>
+                        <l n="4">Vieux cheval dont le pied à chaque obstacle butte.</l>
+                     </lg>
+                     <lg type="stanza" n="2">
+                        <l n="5">Résigne-toi, mon coeur; dors ton sommeil de brute.</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="3">
+                        <l n="6">Esprit vaincu, fourbu! Pour toi, vieux maraudeur,</l>
+                        <l n="7">L'amour n'a plus de goût, non plus que la dispute;</l>
+                        <l n="8">Adieu donc, chants du cuivre et soupirs de la flûte!</l>
+                        <l n="9">Plaisirs, ne tentez plus un coeur sombre et boudeur!</l>
+                     </lg>
+                     <lg type="stanza" n="4">
+                        <l n="10">Le Printemps adorable a perdu son odeur!</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="5">
+                        <l n="11">Et le Temps m'engloutit minute par minute,</l>
+                        <l n="12">Comme la neige immense un corps pris de roideur;</l>
+                        <l n="13">— Je contemple d'en haut le globe en sa rondeur</l>
+                        <l n="14">et je n'y cherche plus l'abri d'une cahute.</l>
+                     </lg>
+                     <lg type="stanza" n="6">
+                        <l n="16">Avalanche, veux-tu m'emporter dans ta chute?</l>
+                     </lg>
+                  </div>
+                  <div type="sonnet">
+                     <head>
+                        <title>Alchimie de la douleur</title>
+                     </head>
+                     <lg type="stanza" subtype="quatrain" n="1">
+                        <l n="1">L'un t'éclaire avec son ardeur,</l>
+                        <l n="2">L'autre en toi met son deuil, Nature!</l>
+                        <l n="3">Ce qui dit à l'un: Sépulture!</l>
+                        <l n="4">Dit à l'autre: Vie et splendeur!</l>
+                     </lg>
+                     <lg type="stanza" subtype="quatrain" n="2">
+                        <l n="5">Hermès inconnu qui m'assistes</l>
+                        <l n="6">Et qui toujours m'intimidas,</l>
+                        <l n="7">Tu me rends l'égal de Midas,</l>
+                        <l n="8">Le plus triste des alchimistes;</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="3">
+                        <l n="9">Par toi je change l'or en fer</l>
+                        <l n="10">Et le paradis en enfer;</l>
+                        <l n="11">Dans le suaire des nuages</l>
+                     </lg>
+                     <lg type="stanza" subtype="tercet" n="4">
+                        <l n="12">Je découvre un cadavre cher,</l>
+                        <l n="13">Et sur les célestes rivages</l>
+                        <l n="14">Je bâtis de grands sarcophages.</l>
+                     </lg>
                   </div>
                   <div type="sonnet">
                      <head>
