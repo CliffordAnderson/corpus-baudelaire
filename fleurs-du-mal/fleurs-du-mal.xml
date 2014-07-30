@@ -1077,7 +1077,7 @@
                         <l n="10">Le mien, ô mon amour! nage sur ton parfum. </l>
                      </lg>
                      <lg type="cinquain" n="3">
-                        <l n="11">J'irai là-bas où l'arbre et l'homme, pleins de sève,</l>
+                        <l n="11">J'ira là-bas où l'arbre et l'homme, pleins de sève,</l>
                         <l n="12">Se pâment longuement sous l'ardeur des climats;</l>
                         <l n="13">Fortes tresses, soyez la houle qui m'enlève!</l>
                         <l n="14">Tu contiens, mer d'ébène, un éblouissant rêve</l>
@@ -1158,20 +1158,32 @@
                         <l n="18">O fangeuse grandeur, sublime ignominie! </l>
                      </lg>
                   </div>
-                  <div>
-                     <p> SED NON SATIATA </p>
-                     <p/>
-                     <p> Bizarre déité, brune comme les nuits, Au parfum mélangé de musc et de
-                        havane, OEuvre de quelque obi, le Faust de la savane, Sorcière au flanc
-                        d'ébène, enfant des noirs minuits, </p>
-                     <p> Je préfère au constance, à l'opium, au nuits, L'élixir de ta bouche où
-                        l'amour se pavane; Quand vers toi mes désirs partent en caravane, Tes yeux
-                        sont la citerne où boivent mes ennuis. </p>
-                     <p> Par ces deux grands yeux noirs, soupiraux de ton âme, O démon sans pitié,
-                        verse-moi moins de flamme; Je ne suis pas le Styx pour t'embrasser neuf
-                        fois, </p>
-                     <p> Hélas! et je ne puis, Mégère libertine, Pour briser ton courage et te
-                        mettre aux abois, Dans l'enfer de ton lit devenir Proserpine! </p>
+                  <div type="poem" subtype="sonnet" n="" rhyme="abbaabbaccdede">
+                     <head>
+                        <title>SED NON SATIATA</title>
+                     </head>
+                     <lg n="1" type="quatrain" rhyme="abba">
+                        <l n="1">Bizarre déité, brune comme les <rhyme label="a">nuits</rhyme>,</l>
+                        <l n="2">Au parfum mélangé de musc et de <rhyme label="b">havane</rhyme>,</l>
+                        <l n="3">OEuvre de quelque obi, le Faust de la <rhyme label="b">savane</rhyme>,</l> 
+                        <l n="4">Sorcière au flanc d'ébène, enfant des noirs <rhyme label="a">minuits</rhyme>,</l>
+                     </lg>
+                     <lg n="2" type="quatrain" rhyme="abba">
+                        <l n="5">Je préfère au constance, à l'opium, au <rhyme label="a">nuits</rhyme>,</l> 
+                        <l n="6">L'élixir de ta bouche où l'amour se <rhyme label="b">pavane</rhyme>;</l>
+                        <l n="7">Quand vers toi mes désirs partent en <rhyme label="b">caravane</rhyme>,</l> 
+                        <l n="8">Tes yeux sont la citerne où boivent mes <rhyme label="a">ennuis</rhyme>.</l>
+                     </lg>
+                     <lg n="3" type="tercet" rhyme="ccd">       
+                        <l n="9">Par ces deux grands yeux noirs, soupiraux de ton <rhyme label="c">âme</rhyme>,</l> 
+                        <l n="10">O démon sans pitié, verse-moi moins de <rhyme label="c">flamme</rhyme>;</l>
+                        <l n="11">Je ne suis pas le Styx pour t'embrasser neuf <rhyme label="d">fois</rhyme>,</l>
+                     </lg>
+                     <lg n="4" type="tercet" rhyme="ede">
+                        <l n="12">Hélas! et je ne puis, Mégère <rhyme label="e">libertine</rhyme>,</l> 
+                        <l n="13">Pour briser ton courage et te mettre aux <rhyme label="d">abois</rhyme>,</l>
+                        <l n="14">Dans l'enfer de ton lit devenir <rhyme label="e">Proserpine</rhyme>!</l>
+                     </lg>
                   </div>
                   <div>
                      <p>XXVIII</p>
