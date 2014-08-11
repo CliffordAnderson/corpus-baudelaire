@@ -3514,37 +3514,78 @@
                      <l>Et plâtre artistement le sein qui t'a nourri! » </l>
                   </lg>
                </div>
-               <div>
-                  <p> A UNE MENDIANTE ROUSSE </p>
-                  <p/>
-                  <p> Blanche fille aux cheveux roux, Dont ta robe par ses trous Laisse voir la
-                     pauvreté Et la beauté, </p>
-                  <p> Pour moi, poète chétif, Ton jeune corps maladif Plein de taches de rousseur A
-                     sa douceur. </p>
-                  <p> Tu portes plus galamment Qu'une reine de roman Ses cothurnes de velours Tes
-                     sabots lourds. </p>
-                  <p> Au lieu d'un haillon trop court, Qu'un superbe habit de cour Traîne à plis
-                     bruyants et longs Sur tes talons; </p>
-                  <p> Et place de bas troués, Que pour les yeux des roués Sur ta jambe un poignard
-                     d'or Reluise encor; </p>
-                  <p> Que des noeuds mal attachés Dévoilent pour nos péchés Tes deux beaux seins,
-                     radieux Comme des yeux; </p>
-                  <p> Que pour te déshabiller Tes bras se fassent prier Et chassent à coups mutins
-                     Les doigts lutins; </p>
-                  <p> --Perles de la plus belle eau, Sonnets de maître Belleau Par tes galants mis
-                     aux fers Sans cesse offerts, </p>
-                  <p> Valetaille de rimeurs Te dédiant leurs primeurs Et contemplant ton soulier
-                     Sous l'escalier, </p>
-                  <p> Maint page épris du hasard, Maint seigneur et maint Ronsard Epieraient pour le
-                     déduit Ton frais réduit! </p>
-                  <p> Tu compterais dans tes lits Plus de baisers que de lys Et rangerais sous tes
-                     lois Plus d'un Valois! </p>
-                  <p> --Cependant tu vas gueusant Quelque vieux débris gisant Au seuil de quelque
-                     Véfour De carrefour; </p>
-                  <p> Tu vas lorgnant en dessous Des bijoux de vingt-neuf sous Dont je ne puis, oh!
-                     pardon! Te faire don; </p>
-                  <p> Va donc, sans autre ornement, Parfum, perles, diamant, Que ta maigre nudité, O
-                     ma beauté! </p>
+               <div type="poem">
+                  <head> <title>A UNE MENDIANTE ROUSSE</title> </head>
+                  
+                  <lg> <l n="1">Ma blanchette aux cheveux roux,</l> 
+                     <l n="2">Dont ta robe par ses trous</l> 
+                     <l n="3">Laisse voir la pauvreté</l> 
+                     <l n="4">Et la beauté,</l> </lg>
+                                    
+                  <lg> <l n="5">Pour moi, poète chétif,</l> 
+                     <l n="6">Ton jeune corps maladif</l> 
+                     <l n="7">Plein de taches de rousseur</l> 
+                     <l n="8">A sa douceur;</l> </lg>
+                  
+                  <lg> <l n="9">Tu portes plus galamment</l> 
+                     <l n="10">Qu'une reine de roman</l> 
+                     <l n="11">Ses cothurnes de velours</l> 
+                     <l n="12">Tes sabots lourds.</l> </lg>
+                  
+                  <lg> <l n="13">Au lieu d'un haillon trop court,</l> 
+                     <l n="14">Qu'un superbe habit de cour</l> 
+                     <l n="15">Traîne à plis bruyants et longs</l> 
+                     <l n="16">Sur tes talons;</l></lg>
+                  
+                  <lg> <l n="17">En place de bas troués,</l> 
+                     <l n="18">Que pour les yeux des roués</l> 
+                     <l n="19">Sur ta jambe un poignard d'or</l> 
+                     <l n="20">Reluise encor;</l> </lg>
+                  
+                  <lg> <l n="21">Que des noeuds mal attachés</l> 
+                     <l n="22">Dévoilent pour nos péchés</l> 
+                     <l n="23">Ton sein plus blanc que du lait</l>
+                     <l n="24">Tout nouveiet;</l> </lg>
+        
+                  <lg> <l n="25">Que pour te déshabiller</l> 
+                     <l n="26">Tes bras se fassent prier</l> 
+                     <l n="27">Et chassent à coups mutins</l>
+                     <l n="28">Les doigts lutins;</l> </lg>
+                  
+                  <lg> <l n="29">--Perles de la plus belle eau,</l> 
+                     <l n="30">Sonnets de maître Belleau</l> 
+                     <l n="31">Par tes galants mis aux fers</l> 
+                     <l n="32">Sans cesse offerts,</l> </lg>
+                  
+                  <lg> <l n="33">Valetaille de rimeurs</l> 
+                     <l n="34">Te dédiant leurs primeurs</l> 
+                     <l n="35">Et reluquant ton soulier</l>
+                     <l n="36">Sous l'escalier,</l> </lg>
+                  
+                  <lg> <l n="37">Maint page ami du hasard,</l> 
+                     <l n="38">Maint seigneur et maint Ronsard</l> 
+                     <l n="39">Epieraient pour le déduit</l> 
+                     <l n="40">Ton frais réduit.</l> </lg>
+                  
+                  <lg> <l n="41">Tu compterais dans tes lits</l> 
+                     <l n="42">Plus de baisers que de lis</l> 
+                     <l n="43">Et rangerais sous tes lois</l> 
+                     <l n="44">Plus d'un Valois!</l> </lg>
+                  
+                  <lg><l n="45"> --Cependant tu vas gueusant</l> 
+                     <l n="46">Quelque vieux débris gisant</l> 
+                     <l n="47">Au seuil de quelque Véfour</l> 
+                     <l n="48">De carrefour;</l> </lg>
+                  
+                  <lg> <l n="49">Tu vas lorgnant en dessous</l> 
+                     <l n="50">Des bijoux de vingt-neuf sous</l> 
+                     <l n="51">Dont je ne puis, oh! pardon!</l> 
+                     <l n="52">Te faire don;</l> </lg>
+                  
+                  <lg> <l n="53">Va donc, sans autre ornement,</l> 
+                     <l n="54">Parfum, perles, diamant,</l> 
+                     <l n="55">Que ta maigre nudité,</l> 
+                    <l n="56"> O ma beauté!</l> </lg>
                </div>
                <div>
                   <p> LE CYGNE </p>
