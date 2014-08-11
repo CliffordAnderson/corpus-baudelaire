@@ -3332,67 +3332,110 @@
                         gloire uniques, --La conscience dans le Mal! </p>
                      <p/>
                   </div>
-                  <div>
-                     <p> L'HORLOGE </p>
-                     <p/>
-                     <p> Horloge dieu sinistre, effrayant, impassible, Dont le doigt nous menace et
-                        nous dit: _Souviens-toi!_ Les bivrantes Douleurs dans ton coeur plein
-                        d'effroi Se planteront bientôt comme dans une cible; </p>
-                     <p> Le Plaisir vaporeux fuira vers l'horizon Ainsi qu'une sylphide au fond de
-                        la coulisse; Chaque instant te dévore un morceau du délice A chaque homme
-                        accordé pour toute sa saison. </p>
-                     <p> Trois mille six cents fois par heure, la Seconde Chuchote:
-                        _Souviens-toi!_--Rapide, avec sa voix D'insecte, Maintenant dit: Je sais
-                        Autrefois, Et j'ai pompé ta vie avec ma trompe immonde! </p>
-                     <p> _Remember! Souviens-toi!_ prodigue! _Esto memor!_ (Mon gosier de métal
-                        parle toutes les langues.) Les minutes, mortel folâtre, sont des gangues
-                        Qu'il ne faut pas lâcher sans en extraire l'or! </p>
-                     <p> _Souviens-toi_ que le Temps est un joueur avide Qui gagne sans tricher, à
-                        tout coup! c'est la loi. Le jour décroît; la nuit augmente, _souviens-toi!_
-                        Le gouffre a toujours soif; la clepsydre se vide. </p>
-                     <p> Tantôt sonnera l'heure où le divin Hasard, Où l'auguste Vertu, ton épouse
-                        encor vierge, Où le Repentir même (oh! la dernière auberge!), Où tout te
-                        dira: Meurs, vieux lâche! il est trop tard! » </p>
-                     <p/>
-                  </div>
+                  <div type="poem">
+                  <head>
+                     <title> L'HORLOGE </title>
+                  </head>
+                  <lg type="stanza" subtype="quatrain" n="1">
+                     <l>Horloge dieu sinistre, effrayant, impassible,</l>
+                     <l>Dont le doigt nous menace et nous dit: _Souviens-toi!_</l>
+                     <l>Les bivrantes Douleurs dans ton coeur plein d'effroi</l>
+                     <l>Se planteront bientôt comme dans une cible; </l>
+                  </lg>
+                  <lg type="stanza" subtype="quatrain" n="2">
+                     <l>Le Plaisir vaporeux fuira vers l'horizon</l>
+                     <l>Ainsi qu'une sylphide au fond de la coulisse;</l>
+                     <l>Chaque instant te dévore un morceau du délice</l>
+                     <l>A chaque homme accordé pour toute sa saison. </l>
+                  </lg>
+                  <lg type="stanza" subtype="quatrain" n="3">
+                     <l>Trois mille six cents fois par heure, la Seconde</l>
+                     <l>Chuchote: _Souviens-toi!_--Rapide, avec sa voix</l>
+                     <l>D'insecte, Maintenant dit: Je sais Autrefois,</l>
+                     <l>Et j'ai pompé ta vie avec ma trompe immonde! </l>
+                  </lg>
+                  <lg type="stanza" subtype="quatrain" n="4">
+                     <l>_Remember! Souviens-toi!_ prodigue! _Esto memor!_</l>
+                     <l>(Mon gosier de métal parle toutes les langues.)</l>
+                     <l>Les minutes, mortel folâtre, sont des gangues</l>
+                     <l>Qu'il ne faut pas lâcher sans en extraire l'or! </l>
+                  </lg>
+                  <lg type="stanza" subtype="quatrain" n="5">
+                     <l>_Souviens-toi_ que le Temps est un joueur avide</l>
+                     <l>Qui gagne sans tricher, à out coup! c'est la loi.</l>
+                     <l>Le jour décroît; la nuit augmente, _souviens-toi!_</l>
+                     <l>Le gouffre a toujours soif; la clepsydre se vide. </l>
+                  </lg>
+                  <lg type="stanza" subtype="quatrain" n="6">
+                     <l>Tantôt sonnera l'heure où le divin Hasard,</l>
+                     <l>Où l'auguste Vertu, ton épouse encor vierge,</l>
+                     <l>Où le Repentir même (oh! la dernière auberge!),</l>
+                     <l>Où tout te dira: Meurs, vieux lâche! il est trop tard! » </l>
+                  </lg>
+               </div>
                </div>
             </div>
             <div>
                <head>
                   <title type="main">TABLEAUX PARISIENS</title>
                </head>
-               <div>
-                  <p> LE SOLEIL </p>
-                  <p/>
-                  <p> Le long du vieux faubourg, où pendant aux masures Les persiennes, abri des
-                     secrètes luxures, Quand le soleil cruel frappe à traits redoublés Sur la ville
-                     et les champs, sur les toits et les blés. Je vais m'exercer seul à ma fantasque
-                     escrime, Flairant dans tous les coins les hasards de la rime. Trébuchant sur
-                     les mots comme sur les pavés, Heurtant parfois des vers depuis longtemps rêvés. </p>
-                  <p> Ce père nourricier, ennemi des chloroses, Eveille dans les champs les vers
-                     comme les roses; Il fait s'évaporer les soucis vers le ciel, Et remplit les
-                     cerveaux et les ruches de miel. C'est lui qui rajeunit les porteurs de
-                     béquilles Et les rend gais et doux comme des jeunes filles, Et commande aux
-                     moissons de croître et de mûrir Dans le coeur immortel qui toujours veut
-                     fleurir! Quand, ainsi qu'un poète, il descend dans les villes, Il ennoblit le
-                     sort des choses les plus viles, Et s'introduit en roi, sans bruit et sans
-                     valets, Dans tous les hôpitaux et dans tous les palais. </p>
-                  <p/>
+               <div type="poem">
+                  <head>
+                     <title> LE SOLEIL </title>
+                  </head>
+                  <lg type="stanza" subtype="octave" n="1">
+                     <l>Le long du vieux faubourg, où pendant aux masures</l>
+                     <l>Les persiennes, abri des secrètes luxures,</l>
+                     <l>Quand le soleil cruel frappe à traits redoublés</l>
+                     <l>Sur la ville et les champs, sur les toits et les blés.</l>
+                     <l>Je vais m'exercer seul à ma fantasque escrime,</l>
+                     <l>Flairant dans tous les coins les hasards de la rime.</l>
+                     <l>Trébuchant sur les mots comme sur les pavés,</l>
+                     <l>Heurtant parfois des vers depuis longtemps rêvés. </l>
+                  </lg>
+                  <lg type="stanza" subtype="octave" n="2">
+                     <l>Ce père nourricier, ennemi des chloroses,</l>
+                     <l>Eveille dans les champs les vers comme les roses;</l>
+                     <l>Il fait s'évaporer les soucis vers le ciel,</l>
+                     <l>Et remplit les cerveaux et les ruches de miel.</l>
+                     <l>C'est lui qui rajeunit les porteurs de béquilles</l>
+                     <l>Et les rend gais et doux comme des jeunes filles,</l>
+                     <l>Et commande aux moissons de croître et de mûrir</l>
+                     <l>Dans le coeur immortel qui toujours veut fleurir!</l>
+                  </lg>
+                  <lg type="stanza" subtype="quatrain" n="3">
+                     <l>Quand, ainsi qu'un poète, il descend dans les villes,</l>
+                     <l>Il ennoblit le sort des choses les plus viles,</l>
+                     <l>Et s'introduit en roi, sans bruit et sans valets,</l>
+                     <l>Dans tous les hôpitaux et dans tous les palais. </l>
+                  </lg>
                </div>
-               <div>
-                  <p> LA LUNE OFFENSEE </p>
-                  <p/>
-                  <p> O Lune qu'adoraient discrètement nos pères, Du haut des pays bleus où, radieux
-                     sérail, Les astres vont te suivre en pimpant attirail, Ma vieille Cynthia,
-                     lampe de nos repaires, </p>
-                  <p> Vois-tu les amoureux sur leurs grabats prospères, De leur bouche en dormant
-                     montrer le frais émail? Le poète buter du front sur son travail? Où sous les
-                     gazons secs s'accoupler les vipères? </p>
-                  <p> Sous ton domino jaune, et d'un pied clandestin, Vas-tu, comme jadis, du soir
-                     jusqu'au matin, Baiser d'Endymion les grâces surannées? </p>
-                  <p> « --Je vois ta mère, enfant de ce siècle appauvri, Qui vers son miroir penche
-                     un lourd amas d'années, Et plâtre artistement le sein qui t'a nourri! » </p>
-                  <p/>
+               <div type="sonnet">
+                  <head>
+                     <title>LA LUNE OFFENSEE</title>
+                  </head>
+                  <lg type="stanza" subtype="quatrain" n="1">
+                     <l>O Lune qu'adoraient discrètement nos pères,</l>
+                     <l>Du haut des pays bleus où, radieux sérail,</l>
+                     <l>Les astres vont te suivre en pimpant attirail,</l>
+                     <l>Ma vieille Cynthia, lampe de nos repaires, </l>
+                  </lg>
+                  <lg type="stanza" subtype="quatrain" n="2">
+                     <l>Vois-tu les amoureux sur leurs grabats prospères,</l>
+                     <l>De leur bouche en dormant montrer le frais émail?</l>
+                     <l>Le poète buter du front sur son travail?</l>
+                     <l>Où sous les gazons secs s'accoupler les vipères? </l>
+                  </lg>
+                  <lg type="stanza" subtype="tercet" n="3">
+                     <l>Sous ton domino jaune, et d'un pied clandestin,</l>
+                     <l>Vas-tu, comme jadis, du soir jusqu'au matin,</l>
+                     <l>Baiser d'Endymion les grâces surannées? </l>
+                  </lg>
+                  <lg type="stanza" subtype="tercet" n="4">
+                     <l> « --Je vois ta mère, enfant de ce siècle appauvri,</l>
+                     <l>Qui vers son miroir penche un lourd amas d'années,</l>
+                     <l>Et plâtre artistement le sein qui t'a nourri! » </l>
+                  </lg>
                </div>
                <div>
                   <p> A UNE MENDIANTE ROUSSE </p>
