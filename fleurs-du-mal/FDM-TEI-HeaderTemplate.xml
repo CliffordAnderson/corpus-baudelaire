@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>{insert poem title here}</title>
+            <author>Charles Baudelaire</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <name xml:id="III">{Insert Name Here and update xml ID}</name>               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Poem excerpted Les Fleurs du Mal by Charles Baudelaire.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+                <witness xml:id="U1857">
+                    1857 Unexpurgated
+                </witness>
+               <witness xml:id="E1857">
+                  1857 Expurgated
+               </witness>
+               <witness xml:id="FDM1861">
+                  1861 2nd edition censored
+               </witness>
+               <witness xml:id="LE1866">
+                  1866 Les Epaves xml:id="1866"
+               </witness>
+               <witness xml:id="FDM1868">
+                  1868 3rd edition - posthumous xml:id="1868"
+               </witness>
+            </listWit>
+            <!-- create witList in sourceDesc with the different editions and their bib data
+                     1. 1857 Unexpurgated xml:id="U1857"
+                     2. 1857 Expurgated xml:id="E1857"
+                     3. 1861 2nd edition censored xml:id="FDM1861"
+                     4. 1866 Les Epaves xml:id="1866"
+                     5. 1868 3rd edition - posthumous xml:id="1868"
+            -->
+            <!--
+            <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+               for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+               You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+               License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+               Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+               Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+               encoding: ISO-8859-1 </p>
+            <p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+               Online Distributed Proofreading Team.</p>
+               -->
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+  </text>
+</TEI>
