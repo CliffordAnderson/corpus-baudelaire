@@ -2594,7 +2594,6 @@
                         <l n="14">Causent sinistrement de leurs amours défunts.</l>
                      </lg>
                   </div>
-
                   <div type="poem">
                      <head>
                         <title>SPLEEN</title>
@@ -3518,98 +3517,84 @@
                   <head>
                      <title>A UNE MENDIANTE ROUSSE</title>
                   </head>
-
                   <lg type="stanza" subtype="quatrain" n="1">
                      <l n="1">Ma blanchette aux cheveux roux,</l>
                      <l n="2">Dont ta robe par ses trous</l>
                      <l n="3">Laisse voir la pauvreté</l>
                      <l n="4">Et la beauté,</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="2">
                      <l n="5">Pour moi, poète chétif,</l>
                      <l n="6">Ton jeune corps maladif</l>
                      <l n="7">Plein de taches de rousseur</l>
                      <l n="8">A sa douceur;</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="3">
                      <l n="9">Tu portes plus galamment</l>
                      <l n="10">Qu'une reine de roman</l>
                      <l n="11">Ses cothurnes de velours</l>
                      <l n="12">Tes sabots lourds.</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="4">
                      <l n="13">Au lieu d'un haillon trop court,</l>
                      <l n="14">Qu'un superbe habit de cour</l>
                      <l n="15">Traîne à plis bruyants et longs</l>
                      <l n="16">Sur tes talons;</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="5">
                      <l n="17">En place de bas troués,</l>
                      <l n="18">Que pour les yeux des roués</l>
                      <l n="19">Sur ta jambe un poignard d'or</l>
                      <l n="20">Reluise encor;</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="6">
                      <l n="21">Que des noeuds mal attachés</l>
                      <l n="22">Dévoilent pour nos péchés</l>
                      <l n="23">Ton sein plus blanc que du lait</l>
                      <l n="24">Tout nouveiet;</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="7">
                      <l n="25">Que pour te déshabiller</l>
                      <l n="26">Tes bras se fassent prier</l>
                      <l n="27">Et chassent à coups mutins</l>
                      <l n="28">Les doigts lutins;</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="8">
                      <l n="29">--Perles de la plus belle eau,</l>
                      <l n="30">Sonnets de maître Belleau</l>
                      <l n="31">Par tes galants mis aux fers</l>
                      <l n="32">Sans cesse offerts,</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="9">
                      <l n="33">Valetaille de rimeurs</l>
                      <l n="34">Te dédiant leurs primeurs</l>
                      <l n="35">Et reluquant ton soulier</l>
                      <l n="36">Sous l'escalier,</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="10">
                      <l n="37">Maint page ami du hasard,</l>
                      <l n="38">Maint seigneur et maint Ronsard</l>
                      <l n="39">Epieraient pour le déduit</l>
                      <l n="40">Ton frais réduit.</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="11">
                      <l n="41">Tu compterais dans tes lits</l>
                      <l n="42">Plus de baisers que de lis</l>
                      <l n="43">Et rangerais sous tes lois</l>
                      <l n="44">Plus d'un Valois!</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="12">
                      <l n="45"> --Cependant tu vas gueusant</l>
                      <l n="46">Quelque vieux débris gisant</l>
                      <l n="47">Au seuil de quelque Véfour</l>
                      <l n="48">De carrefour;</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="13">
                      <l n="49">Tu vas lorgnant en dessous</l>
                      <l n="50">Des bijoux de vingt-neuf sous</l>
                      <l n="51">Dont je ne puis, oh! pardon!</l>
                      <l n="52">Te faire don;</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="14">
                      <l n="53">Va donc, sans autre ornement,</l>
                      <l n="54">Parfum, perles, diamant,</l>
@@ -3617,54 +3602,46 @@
                      <l n="56"> O ma beauté!</l>
                   </lg>
                </div>
-
                <div type="poem">
                   <head><title> LE CYGNE </title> A VICTOR HUGO</head>
                   <div>
                      <head>I</head>
-
                      <lg type="stanza" subtype="quatrain" n="1">
                         <l n="1">Andromaque, je pense à vous! Ce petit fleuve,</l>
                         <l n="2">Pauvre et triste miroir où jadis resplendit</l>
                         <l n="3">L'immense majesté de vos douleurs de veuve,</l>
                         <l n="4">Ce Simoïs menteur qui par vos pleurs grandit,</l>
                      </lg>
-
                      <lg type="stanza" subtype="quatrain" n="2">
                         <l n="5">A fécondé soudain ma mémoire fertile,</l>
                         <l n="6">Comme je traversais le nouveau Carrousel.</l>
                         <l n="7">Le vieux Paris n'est plus (la forme d'une ville</l>
                         <l n="8">Change plus vite, hélas! que le coeur d'un mortel);</l>
                      </lg>
-
                      <lg type="stanza" subtype="quatrain" n="3">
                         <l n="9">Je ne vois qu'en esprit tout ce camp de baraques,</l>
                         <l n="10">Ces tas de chapiteaux ébauchés et de fûts,</l>
                         <l n="11">Les herbes, les gros blocs verdis par l'eau des flasques</l>
                         <l n="12">Et, brillant aux carreaux, le bric-à-brac confus.</l>
                      </lg>
-
                      <lg type="stanza" subtype="quatrain" n="4">
                         <l n="13">Là s'étalait jadis une ménagerie;</l>
                         <l n="14">Là je vis, un matin, à l'heure où sous les cieux</l>
                         <l n="15">Clairs et froids le Travail s'éveille, où la voirie</l>
                         <l n="16">Pousse un sombre ouragan dans l'air silencieux,</l>
                      </lg>
-
                      <lg type="stanza" subtype="quatrain" n="5">
                         <l n="17">Un cygne qui s'était évadé de sa cage,</l>
                         <l n="18">Et, de ses pieds palmés frottant le pavé sec,</l>
                         <l n="19">Sur le sol raboteux traînait son grand plumage.</l>
                         <l n="20">Près d'un ruisseau sans eau la bête ouvrant le bec,</l>
                      </lg>
-
                      <lg type="stanza" subtype="quatrain" n="6">
                         <l n="21">Baignait nerveusement ses ailes dans la poudre,</l>
                         <l n="22">Et disait, le coeur plein de son beau lac natal:</l>
                         <l n="23">« Eau, quand donc pleuvras-tu? quand tonneras-tu,</l>
                         <l n="24">Je vois ce malheureux, mythe étrange et fatal, foudre?</l>
                      </lg>
-
                      <lg type="stanza" subtype="quatrain" n="7">
                         <l n="25">Vers le ciel quelquefois, comme l'homme d'Ovide,</l>
                         <l n="26">Vers le ciel ironique et cruellement bleu,</l>
@@ -3674,42 +3651,36 @@
                   </div>
                   <div>
                      <head> II </head>
-
                      <lg type="stanza" subtype="quatrain" n="8">
                         <l n="29">Paris change, mais rien dans ma mélancolie</l>
                         <l n="30">N'a bougé! palais neufs, échafaudages, blocs,</l>
                         <l n="31">Vieux faubourgs, tout pour moi devient allégorie,</l>
                         <l n="32">Et mes chers souvenirs sont plus lourds que des rocs.</l>
                      </lg>
-
                      <lg type="stanza" subtype="quatrain" n="9">
                         <l n="33">Aussi devant ce Louvre une image m'opprime:</l>
                         <l n="34">Je pense à mon grand cygne, avec ses gestes fous,</l>
                         <l n="35">Comme les exilés, ridicule et sublime,</l>
                         <l n="36">Et rongé d'un désir sans trêve! et puis à vous,</l>
                      </lg>
-
                      <lg type="stanza" subtype="quatrain" n="10">
                         <l n="37">Andromaque, des bras d'un grand époux tombée,</l>
                         <l n="38">Vil bétail, sous la main du superbe Pyrrhus,</l>
                         <l n="39">Auprès d'un tombeau vide en extase courbée;</l>
                         <l n="40">Veuve d'Hector, hélas! et femme d'Hélénus!</l>
                      </lg>
-
                      <lg type="stanza" subtype="quatrain" n="11">
                         <l n="41">Je pense à la négresse, amaigrie et phtisique,</l>
                         <l n="42">Piétinant dans la boue, et cherchant, l'oeil hagard,</l>
                         <l n="43">Les cocotiers absents de la superbe Afrique</l>
                         <l n="44">Derrière la muraille immense du brouillard;</l>
                      </lg>
-
                      <lg type="stanza" subtype="quatrain" n="12">
                         <l n="45">A quiconque a perdu ce qui ne se retrouve</l>
                         <l n="46">Jamais! jamais! à ceux qui s'abreuvent de pleurs</l>
                         <l n="47">Et tettent la Douleur comme une bonne louve!</l>
                         <l n="48">Aux maigres orphelins séchant comme des fleurs!</l>
                      </lg>
-
                      <lg type="stanza" subtype="quatrain" n="13">
                         <l n="49">Ainsi dans la forêt où mon esprit s'exile</l>
                         <l n="50">Un vieux Souvenir sonne à plein souffle du cor!</l>
@@ -3720,91 +3691,78 @@
                </div>
                <div type="poem">
                   <head><title> LES SEPT VIEILLARDS </title> A VICTOR HUGO</head>
-
                   <lg type="stanza" subtype="quatrain" n="1">
                      <l n="1">Fourmillante cité, cité pleine de rêves,</l>
                      <l n="2">Où le spectre en plein jour raccroche le passant!</l>
                      <l n="3">Les mystères partout coulent comme des sèves</l>
                      <l n="4">Dans les canaux étroits du colosse puissant.</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="2">
                      <l n="5">Un matin, cependant que dans la triste rue</l>
                      <l n="6">Les maisons, dont la brume allongeait la hauteur,</l>
                      <l n="7">Simulaient les deux quais d'une rivière accrue,</l>
                      <l n="8">Et que, décor semblable à l'âme de l'acteur,</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="3">
                      <l n="9">Un brouillard sale et jaune inondait tout l'espace,</l>
                      <l n="10">Je suivais, roidissant mes nerfs comme un héros</l>
                      <l n="11">Et discutant avec mon âme déjà lasse,</l>
                      <l n="12">Le faubourg secoué par les lourds tombereaux.</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="4">
                      <l n="13">Tout à coup, un vieillard dont les guenilles jaunes</l>
                      <l n="14">Imitaient la couleur de ce ciel pluvieux,</l>
                      <l n="15">Et dont l'aspect aurait fait pleuvoir les aumônes,</l>
                      <l n="16">Sans la méchanceté qui luisait dans ses yeux,</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="5">
                      <l n="17">M'apparut. On eût dit sa prunelle trempée</l>
                      <l n="18">Dans le fiel; son regard aiguisait les frimas,</l>
                      <l n="19">Et sa barbe à longs poils, roide comme une épée,</l>
                      <l n="20">Se projetait, pareille à celle de Judas.</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="6">
                      <l n="21">Il n'était pas voûté, mais cassé, son échine</l>
                      <l n="22">Faisant avec sa jambe un parfait angle droit,</l>
                      <l n="23">Si bien que son bâton, parachevant sa mine,</l>
                      <l n="24">Lui donnait la tournure et le pas maladroit</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="7">
                      <l n="25">D'un quadrupède infirme ou d'un juif à trois pattes.</l>
                      <l n="26">Dans la neige et la boue il allait s'empêtrant,</l>
                      <l n="27">Comme s'il écrasait des morts sous ses savates,</l>
                      <l n="28">Hostile à l'univers plutôt qu'indifférent.</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="8">
                      <l n="29">Son pareil le suivait: barbe, oeil, dos, bâton, loques,</l>
                      <l n="30">Nul trait ne distinguait, du même enfer venu,</l>
                      <l n="31">Ce jumeau centenaire, et ces spectres baroques</l>
                      <l n="32">Marchaient du même pas vers un but inconnu.</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="9">
                      <l n="33">A quel complot infâme étais-je donc en butte,</l>
                      <l n="34">Ou quel méchant hasard ainsi m'humiliait?</l>
                      <l n="35">Car je comptai sept fois, de minute en minute,</l>
                      <l n="36">Ce sinistre vieillard qui se multipliait!</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="10">
                      <l n="37">Que celui-là qui rit de mon inquiétude,</l>
                      <l n="38">Et qui n'est pas saisi d'un frisson fraternel</l>
                      <l n="39">Songe bien que malgré tant de décrépitude</l>
                      <l n="40">Ces sept monstres hideux avaient l'air éternel!</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="11">
                      <l n="41">Aurais-je, sans mourir, contemplé le huitième,</l>
                      <l n="42">Sosie inexorable, ironique et fatal,</l>
                      <l n="43">Dégoûtant Phénix, fils et père de lui-même?</l>
                      <l n="44">--Mais je tournai le dos au cortège infernal.</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="12">
                      <l n="45">Exaspéré comme un ivrogne qui voit double,</l>
                      <l n="46">Je rentrai, je fermai ma porte, épouvanté,</l>
                      <l n="47">Malade et morfondu, l'esprit fiévreux et trouble,</l>
                      <l n="48">Blessé par le mystère et par l'absurdité!</l>
                   </lg>
-
                   <lg type="stanza" subtype="quatrain" n="13">
                      <l n="49">Vainement ma raison voulait prendre la barre;</l>
                      <l n="50">La tempête en jouant déroutait ses efforts,</l>
@@ -3812,130 +3770,228 @@
                      <l n="52">Sans mâts, sur une mer monstrueuse et sans bords!</l>
                   </lg>
                </div>
-               <div>
-                  <p> LES PETITES VIEILLES </p>
-                  <p> A VICTOR HUGO </p>
-                  <p> I </p>
-                  <p/>
-                  <p> Dans les plis sinueux des vieilles capitales, Où tout, même l'horreur, tourne
-                     aux enchantements, Je guette, obéissant à mes humeurs fatales, Des êtres
-                     singuliers, décrépits et charmants. </p>
-                  <p> Ces monstres disloqués furent jadis des femmes, Eponine ou Laïs!--Monstres
-                     brisés, bossus Ou tordus, aimons-les! ce sont encor des âmes. Sous des jupons
-                     troués et sous de froids tissus </p>
-                  <p> Ils rampent, flagellés par les bises iniques, Frémissant au fracas roulant des
-                     omnibus, Et serrant sur leur flanc, ainsi que des reliques, Un petit sac brodé
-                     de fleurs ou de rébus; </p>
-                  <p> Ils trottent, tout pareils à des marionnettes; Se traînent, comme font les
-                     animaux blessés, Ou dansent, sans vouloir danser, pauvres sonnettes Où se pend
-                     un Démon sans pitié! Tout cassés </p>
-                  <p> Qu'ils sont, ils ont des yeux perçants comme une vrille, Luisants comme ces
-                     trous où l'eau dort dans la nuit; Ils ont les yeux divins de la petite fille
-                     Qui s'étonne et qui rit à tout ce qui reluit. </p>
-                  <p> --Avez-vous observé que maints cercueils de vieilles Sont presque aussi petits
-                     que celui d'un enfant? La Mort savante met dans ces bières pareilles Un symbole
-                     d'un goût bizarre et captivant, </p>
-                  <p> Et lorsque j'entrevois un fantôme débile Traversant de Paris le fourmillant
-                     tableau, Il me semble toujours que cet être fragile S'en va tout doucement vers
-                     un nouveau berceau; </p>
-                  <p> A moins que, méditant sur la géométrie, Je ne cherche, à l'aspect de ces
-                     membres discords, Combien de fois il faut que l'ouvrier varie La forme de la
-                     boîte où l'on met tous ces corps. </p>
-                  <p> --Ces yeux sont des puits faits d'un million de larmes, Des creusets qu'un
-                     métal refroidi pailleta... Ces yeux mystérieux ont d'invincibles charmes Pour
-                     celui que l'austère Infortune allaita! </p>
-                  <p/>
-                  <p> II </p>
-                  <p/>
-                  <p> De l'ancien Frascati Vestale énamourée; Prêtresse de Thalie, hélas! dont le
-                     souffleur Défunt, seul, sait le nom; célèbre évaporée Que Tivoli jadis ombragea
-                     dans sa fleur, </p>
-                  <p> Toutes m'enivrent! mais parmi ces êtres frêles Il en est qui, faisant de la
-                     douleur un miel, Ont dit au Dévouement qui leur prêtait ses ailes: «
-                     Hippogriffe puissant, mène-moi jusqu'au ciel! » </p>
-                  <p> L'une, par sa patrie au malheur exercée, L'autre, que son époux surchargea de
-                     douleurs, L'autre, par son enfant Madone transpercée, Toutes auraient pu faire
-                     un fleuve avec leurs pleurs! </p>
-                  <p/>
-                  <p> III </p>
-                  <p/>
-                  <p> Ah! que j'en ai suivi, de ces petites vieilles! Une, entre autres, à l'heure
-                     où le soleil tombant Ensanglante le ciel de blessures vermeilles, Pensive,
-                     s'asseyait à l'écart sur un banc, </p>
-                  <p> Pour entendre un de ces concerts, riches de cuivre, Dont les soldats parfois
-                     inondent nos jardins, Et qui, dans ces soirs dor où l'on se sent revivre,
-                     Versent quelque héroïsme au coeur des citadins. </p>
-                  <p> Celle-là droite encor, fière et sentant la règle, Humait avidement ce chant
-                     vif et guerrier; Son oeil parfois s'ouvrait comme l'oeil d'un vieil aigle; Son
-                     front de marbre avait l'air fait pour le laurier! </p>
-                  <p/>
-                  <p> IV </p>
-                  <p/>
-                  <p> Telles vous cheminez, stoïques et sans plaintes, A travers le chaos des
-                     vivantes cités, Mères au coeur saignant, courtisanes ou saintes, Dont autrefois
-                     les noms par tous étaient cités. </p>
-                  <p> Vous qui fûtes la grâce ou qui fûtes la gloire, Nul ne vous reconnaît! un
-                     ivrogne incivil Vous insulte en passant d'un amour dérisoire; Sur vos talons
-                     gambade un enfant lâche et vil. </p>
-                  <p> Honteuses d'exister, ombres ratatinées, Peureuses, le dos bas, vous côtoyer
-                     les murs, Et nul ne vous salue, étranges destinées! Débris d'humanité pour
-                     l'éternité mûrs! </p>
-                  <p> Mais moi, moi qui de loin tendrement vous surveille, L'oeil inquiet, fixé sur
-                     vos pas incertains, Tout comme si j'étais votre père, ô merveille! Je goûte à
-                     votre insu des plaisirs clandestins: </p>
-                  <p> Je vois s'épanouir vos passions novices; Sombres ou lumineux, je vis vos jours
-                     perdus; Mon coeur multiplié jouit de tous vos vices! Mon âme resplendit de
-                     toutes vos vertus! </p>
-                  <p> Ruines! ma famille! ô cerveaux congénères! Je vous fais chaque soir un
-                     solennel adieu! Où serez-vous demain, Eves octogénaires, Sur qui pèse la griffe
-                     effroyable de Dieu? </p>
-                  <p/>
+               <div type="poem">
+                  <head><title>LES PETITES VIEILLES</title> A VICTOR HUGO</head>
+                  <div>
+                     <head>I</head>
+                     <lg>
+                        <l n="1">Dans les plis sinueux des vieilles capitales,</l>
+                        <l n="2">Où tout, même l'horreur, tourne aux enchantements,</l>
+                        <l n="3">Je guette, obéissant à mes humeurs fatales,</l>
+                        <l n="4">Des êtres singuliers, décrépits et charmants.</l>
+                     </lg>
+                     <lg>
+                        <l n="5">Ces monstres disloqués furent jadis des femmes,</l>
+                        <l n="6">Eponine ou Laïs!--Monstres brisés, bossus</l>
+                        <l n="7">Ou tordus, aimons-les! ce sont encor des âmes.</l>
+                        <l n="8">Sous des jupons troués et sous de froids tissus</l>
+                     </lg>
+                     <lg>
+                        <l n="9">Ils rampent, flagellés par les bises iniques,</l>
+                        <l n="10">Frémissant au fracas roulant des omnibus,</l>
+                        <l n="11"> Et serrant sur leur flanc, ainsi que des reliques,</l>
+                        <l n="12">Un petit sac brodé de fleurs ou de rébus;</l>
+                     </lg>
+                     <lg>
+                        <l n="13">Ils trottent, tout pareils à des marionnettes;</l>
+                        <l n="14">Se traînent, comme font les animaux blessés,</l>
+                        <l n="15">Ou dansent, sans vouloir danser, pauvres sonnettes</l>
+                        <l n="16">Où se pend un Démon sans pitié! Tout cassés</l>
+                     </lg>
+                     <lg>
+                        <l n="17">Qu'ils sont, ils ont des yeux perçants comme une vrille,</l>
+                        <l n="18">Luisants comme ces trous où l'eau dort dans la nuit;</l>
+                        <l n="19">Ils ont les yeux divins de la petite fille</l>
+                        <l n="20">Qui s'étonne et qui rit à tout ce qui reluit.</l>
+                     </lg>
+                     <lg>
+                        <l n="21">--Avez-vous observé que maints cercueils de vieilles</l>
+                        <l n="22">Sont presque aussi petits que celui d'un enfant?</l>
+                        <l n="23">La Mort savante met dans ces bières pareilles</l>
+                        <l n="24">Un symbole d'un goût bizarre et captivant,</l>
+                     </lg>
+                     <lg>
+                        <l n="25">Et lorsque j'entrevois un fantôme débile</l>
+                        <l n="26"> Traversant de Paris le fourmillant tableau,</l>
+                        <l n="27">Il me semble toujours que cet être fragile</l>
+                        <l n="28">S'en va tout doucement vers un nouveau berceau;</l>
+                     </lg>
+                     <lg>
+                        <l n="29">A moins que, méditant sur la géométrie,</l>
+                        <l n="30">Je ne cherche, à l'aspect de ces membres discords,</l>
+                        <l n="31">Combien de fois il faut que l'ouvrier varie</l>
+                        <l n="32">La forme de la boîte où l'on met tous ces corps.</l>
+                     </lg>
+                     <lg>
+                        <l n="33">--Ces yeux sont des puits faits d'un million de larmes,</l>
+                        <l n="34">Des creusets qu'un métal refroidi pailleta...</l>
+                        <l n="35">Ces yeux mystérieux ont d'invincibles charmes</l>
+                        <l n="36">Pour celui que l'austère !<foreign>Infortune
+                           allaita</foreign>!</l>
+                     </lg>
+                  </div>
+                  <div>
+                     <head>II</head>
+                     <lg>
+                        <l n="1">De l'ancien Frascati Vestale énamourée;</l>
+                        <l n="2">Prêtresse de Thalie, hélas! dont le souffleur</l>
+                        <l n="3">Défunt, seul, sait le nom; célèbre évaporée</l>
+                        <l n="4">Que Tivoli jadis ombragea dans sa fleur,</l>
+                     </lg>
+                     <lg>
+                        <l n="5">Toutes m'enivrent! mais parmi ces êtres frêles</l>
+                        <l n="6">Il en est qui, faisant de la douleur un miel,</l>
+                        <l n="7">Ont dit au Dévouement qui leur prêtait ses ailes:</l>
+                        <l n="8">« Hippogriffe puissant, mène-moi jusqu'au ciel! »</l>
+                     </lg>
+                     <lg>
+                        <l n="9">L'une, par sa patrie au malheur exercée,</l>
+                        <l n="10">L'autre, que son époux surchargea de douleurs,</l>
+                        <l n="11">L'autre, par son enfant Madone transpercée,</l>
+                        <l n="12">Toutes auraient pu faire un fleuve avec leurs pleurs!</l>
+                     </lg>
+                  </div>
+                  <div>
+                     <head>III</head>
+                     <lg>
+                        <l n="1">Ah! que j'en ai suivi, de ces petites vieilles!</l>
+                        <l n="2">Une, entre autres, à l'heure où le soleil tombant</l>
+                        <l n="3">Ensanglante le ciel de blessures vermeilles,</l>
+                        <l n="4">Pensive, s'asseyait à l'écart sur un banc,</l>
+                     </lg>
+                     <lg>
+                        <l n="5">Pour entendre un de ces concerts, riches de cuivre,</l>
+                        <l n="6">Dont les soldats parfois inondent nos jardins,</l>
+                        <l n="7">Et qui, dans ces soirs dor où l'on se sent revivre,</l>
+                        <l n="8">Versent quelque héroïsme au coeur des citadins.</l>
+                     </lg>
+                     <lg>
+                        <l n="9">Celle-là droite encor, fière et sentant la règle,</l>
+                        <l n="10">Humait avidement ce chant vif et guerrier;</l>
+                        <l n="11">Son oeil parfois s'ouvrait comme l'oeil d'un vieil aigle;</l>
+                        <l n="12">Son front de marbre avait l'air fait pour le laurier!</l>
+                     </lg>
+                  </div>
+                  <div>
+                     <head>IV</head>
+                     <lg>
+                        <l n="1">Telles vous cheminez, stoïques et sans plaintes,</l>
+                        <l n="2">A travers le chaos des vivantes cités,</l>
+                        <l n="3">Mères au coeur saignant, courtisanes ou saintes,</l>
+                        <l n="4">Dont autrefois les noms par tous étaient cités.</l>
+                     </lg>
+                     <lg>
+                        <l n="5">Vous qui fûtes la grâce ou qui fûtes la gloire,</l>
+                        <l n="6">Nul ne vous reconnaît! un ivrogne incivil</l>
+                        <l n="7">Vous insulte en passant d'un amour dérisoire;</l>
+                        <l n="8">Sur vos talons gambade un enfant lâche et vil.</l>
+                     </lg>
+                     <lg>
+                        <l n="9">Honteuses d'exister, ombres ratatinées,</l>
+                        <l n="10">Peureuses, le dos bas, vous côtoyer les murs,</l>
+                        <l n="11">Et nul ne vous salue, étranges destinées!</l>
+                        <l n="12">Débris d'humanité pour l'éternité mûrs!</l>
+                     </lg>
+                     <lg>
+                        <l n="13">Mais moi, moi qui de loin tendrement vous surveille,</l>
+                        <l n="14">L'oeil inquiet, fixé sur vos pas incertains,</l>
+                        <l n="15">Tout comme si j'étais votre père, ô merveille!</l>
+                        <l n="16">Je goûte à votre insu des plaisirs clandestins:</l>
+                     </lg>
+                     <lg>
+                        <l n="17">Je vois s'épanouir vos passions novices;</l>
+                        <l n="18">Sombres ou lumineux, je vis vos jours perdus;</l>
+                        <l n="19"> Mon coeur multiplié jouit de tous vos vices!</l>
+                        <l n="20">Mon âme resplendit de toutes vos vertus!</l>
+                     </lg>
+                     <lg>
+                        <l n="21">Ruines! ma famille! ô cerveaux congénères!</l>
+                        <l n="22">Je vous fais chaque soir un solennel adieu!</l>
+                        <l n="23">Où serez-vous demain, Eves octogénaires,</l>
+                        <l n="24">Sur qui pèse la griffe effroyable de Dieu?</l>
+                     </lg>
+                  </div>
                </div>
-               <div>
-                  <p> A UNE PASSANTE </p>
-                  <p/>
-                  <p> La rue assourdissante autour de moi hurlait. Longue, mince, en grand deuil,
-                     douleur majestueuse, Une femme passa, d'une main fastueuse Soulevant, balançant
-                     le feston et l'ourlet; </p>
-                  <p> Agile et noble, avec sa jambe de statue. Moi, je buvais, crispé comme un
-                     extravagant, Dans son oeil, ciel livide où germe l'ouragan, La douceur qui
-                     fascine et le plaisir qui tue. </p>
-                  <p> Un éclair... puis la nuit!--Fugitive beauté Dont le regard m'a fait
-                     soudainement renaître, Ne te verrai-je plus que dans l'éternité? </p>
-                  <p> Ailleurs, bien loin d'ici! trop tard! _jamais_ peut-être! Car j'ignore où tu
-                     fuis, tu ne sais où je vais, O toi que j'eusse aimée, ô toi qui le savais! </p>
-                  <p/>
+               <div type="poem">
+                  <head><title>A UNE PASSANTE</title></head>
+                  <lg>
+                     <l>La rue assourdissante autour de moi hurlait.</l>
+                     <l>Longue, mince, en grand deuil, douleur majestueuse,</l>
+                     <l>Une femme passa, d'une main fastueuse</l>
+                     <l>Soulevant, balançant le feston et l'ourlet;</l>
+                  </lg>
+                  <lg>
+                     <l>Agile et noble, avec sa jambe de statue.</l>
+                     <l>Moi, je buvais, crispé comme un extravagant,</l>
+                     <l>Dans son oeil, ciel livide où germe l'ouragan,</l>
+                     <l>La douceur qui fascine et le plaisir qui tue.</l>
+                  </lg>
+                  <lg>
+                     <l>Un éclair... puis la nuit!--Fugitive beauté</l>
+                     <l>Dont le regard m'a fait soudainement renaître,</l>
+                     <l>Ne te verrai-je plus que dans l'éternité?</l>
+                  </lg>
+                  <lg>
+                     <l>Ailleurs, bien loin d'ici! trop tard! <emph rend="italics">jamais</emph>
+                        peut-être!</l>
+                     <l>Car j'ignore où tu fuis, tu ne sais où je vais,</l>
+                     <l>O toi que j'eusse aimée, ô toi qui le savais!</l>
+                  </lg>
                </div>
-               <div>
-                  <p> LE CREPUSCULE DU SOIR </p>
-                  <p/>
-                  <p> Voici le soir charmant, ami du criminel; Il vient comme un complice, à pas de
-                     loup; le ciel Se ferme lentement comme une grande alcôve, Et l'homme impatient
-                     se change en bête fauve. </p>
-                  <p> O soir, aimable soir, désiré par celui Dont les bras, sans mentir, peuvent
-                     dire: Aujourd'hui Nous avons travaillé!--C'est le soir qui soulage Les esprits
-                     que dévore une douleur sauvage, Le savant obstiné dont le front s'alourdit, Et
-                     l'ouvrier courbé qui regagne son lit. </p>
-                  <p> Cependant des démons malsains dans l'atmosphère S'éveillent lourdement, comme
-                     des gens d'affaire, Et cognent en volant les volets et l'auvent. A travers les
-                     lueurs que tourmente le vent La Prostitution s'allume dans les rues; Comme une
-                     fourmilière elle ouvre ses issues; </p>
-                  <p> Partout elle se fraye un occulte chemin, Ainsi que l'ennemi qui tente un coup
-                     de main; Elle remue au sein de la cité de fange Comme un ver qui dérobe à
-                     l'Homme ce qu'il mange. On entend ça et là les cuisines siffler, Les théâtres
-                     glapir, les orchestres ronfler; Les tables d'hôte, dont le jeu fait les
-                     délices, S'emplissent de catins et d'escrocs, leurs complices, Et les voleurs,
-                     qui n'ont ni trêve ni merci, Vont bientôt commencer leur travail, eux aussi, Et
-                     forcer doucement les portes et les caisses Pour vivre quelques jours et vêtir
-                     leurs maîtresses. </p>
-                  <p> Recueille-toi, mon âme, en ce grave moment, Et ferme ton oreille à ce
-                     rugissement. C'est l'heure où les douleurs des malades s'aigrissent! La sombre
-                     Nuit les prend à la gorge; ils finissent Leur destinée et vont vers le gouffre
-                     commun; L'hôpital se remplit de leurs soupirs.--Plus d'un Ne viendra plus
-                     chercher la soupe parfumée, Au coin du feu, le soir, auprès d'une âme aimée. </p>
-                  <p> Encore la plupart n'ont-ils jamais connu La douceur du foyer et n'ont jamais
-                     vécu! </p>
-                  <p/>
+               <div type="poem">
+                  <head>
+                     <title>LE CREPUSCULE DU SOIR</title>
+                  </head>
+                  <lg>
+                     <l>Voici le soir charmant, ami du criminel;</l>
+                     <l>Il vient comme un complice, à pas de loup; le ciel</l>
+                     <l>Se ferme lentement comme une grande alcôve,</l>
+                     <l>Et l'homme impatient se change en bête fauve.</l>
+                  </lg>
+                  <lg>
+                     <l>O soir, aimable soir, désiré par celui</l>
+                     <l>Dont les bras, sans mentir, peuvent dire: Aujourd'hui</l>
+                     <l>Nous avons travaillé!--C'est le soir qui soulage</l>
+                     <l>Les esprits que dévore une douleur sauvage,</l>
+                     <l>Le savant obstiné dont le front s'alourdit,</l>
+                     <l>Et l'ouvrier courbé qui regagne son lit.</l>
+                  </lg>
+                  <lg>
+                     <l>Cependant des démons malsains dans l'atmosphère</l>
+                     <l>S'éveillent lourdement, comme des gens d'affaire,</l>
+                     <l>Et cognent en volant les volets et l'auvent.</l>
+                     <l>A travers les lueurs que tourmente le vent</l>
+                     <l>La Prostitution s'allume dans les rues;</l>
+                     <l>Comme une fourmilière elle ouvre ses issues;</l>
+                  </lg>
+                  <lg>
+                     <l>Partout elle se fraye un occulte chemin,</l>
+                     <l>Ainsi que l'ennemi qui tente un coup de main;</l>
+                     <l>Elle remue au sein de la cité de fange</l>
+                     <l>Comme un ver qui dérobe à l'Homme ce qu'il mange.</l>
+                     <l>On entend ça et là les cuisines siffler,</l>
+                     <l>Les théâtres glapir, les orchestres ronfler;</l>
+                     <l>Les tables d'hôte, dont le jeu fait les délices,</l>
+                     <l>S'emplissent de catins et d'escrocs, leurs complices,</l>
+                     <l>Et les voleurs, qui n'ont ni trêve ni merci,</l>
+                     <l>Vont bientôt commencer leur travail, eux aussi,</l>
+                     <l>Et forcer doucement les portes et les caisses</l>
+                     <l>Pour vivre quelques jours et vêtir leurs maîtresses.</l>
+                  </lg>
+                  <lg>
+                     <l>Recueille-toi, mon âme, en ce grave moment,</l>
+                     <l>Et ferme ton oreille à ce rugissement.</l>
+                     <l>C'est l'heure où les douleurs des malades s'aigrissent!</l>
+                     <l>La sombre Nuit les prend à la gorge; ils finissent</l>
+                     <l>Leur destinée et vont vers le gouffre commun;</l>
+                     <l>L'hôpital se remplit de leurs soupirs.--Plus d'un</l>
+                     <l>Ne viendra plus chercher la soupe parfumée,</l>
+                     <l>Au coin du feu, le soir, auprès d'une âme aimée.</l>
+                  </lg>
+                  <lg>
+                     <l>Encore la plupart n'ont-ils jamais connu</l>
+                     <l>La douceur du foyer et n'ont jamais vécu!</l>
+                  </lg>
                </div>
                <div>
                   <p> LE JEU </p>
