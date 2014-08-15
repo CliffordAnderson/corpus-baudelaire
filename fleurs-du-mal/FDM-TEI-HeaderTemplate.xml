@@ -11,28 +11,111 @@
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <name xml:id="III">{Insert Name Here and update xml ID}</name>               
+               <name xml:id="III">{Insert Name Here and update xml ID}</name>
             </respStmt>
+            <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
-            <p>Poem excerpted Les Fleurs du Mal by Charles Baudelaire.</p>
+            <idno>FDM-</idno>
+            <!--insert id no in above element account to established format-->
+            <publisher>Jean and Alexander Heard Library</publisher>
+            <pubPlace>Nashville</pubPlace>
+            <address>
+               <addrLine>Jean and Alexander Heard Library</addrLine>
+               <addrLine>419 21st Avenue South</addrLine>
+               <addrLine>Nashville, TN 37203</addrLine>
+               <addrLine>USA</addrLine>
+            </address>
+            <date>2014</date>
          </publicationStmt>
          <sourceDesc>
             <listWit>
-                <witness xml:id="U1857">
-                    1857 Unexpurgated
-                </witness>
+               <witness xml:id="U1857">
+                  <desc>1857 Unexpurgated</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Fleurs du Mal</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Poulet-Malassis et De Broise</publisher>
+                           <date>1857</date>
+                           <note>Original edition with condemned pieces</note>
+                        </imprint>
+                        <extent>248 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
                <witness xml:id="E1857">
-                  1857 Expurgated
+                  <desc>1857 Expurgated</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Fleurs du Mal</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Poulet-Malassis et De Broise</publisher>
+                           <date>1857</date>
+                           <note>Original edition with condemned pieces removed</note>
+                        </imprint>
+                        <extent>248 p.</extent>
+                     </monogr>
+                  </biblStruct>
                </witness>
                <witness xml:id="FDM1861">
-                  1861 2nd edition censored
+                  <desc>1861 2nd edition censored</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Fleurs du Mal</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Poulet-Malassis et De Broise</publisher>
+                           <date>1861</date>
+                           <note>2nd edition augmented by 35 new poems and ornamented with a
+                              portrait of the author drawn and engraved by Felix Bracquemond</note>
+                        </imprint>
+                        <extent> 319 p.</extent>
+                     </monogr>
+                  </biblStruct>
                </witness>
                <witness xml:id="LE1866">
-                  1866 Les Epaves xml:id="1866"
+                  <desc>1866 Les Epaves xml:id="1866"</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Épaves</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Amsterdam</pubPlace>
+                           <publisher>À L'Enseigne du Coq</publisher>
+                           <date>1866</date>
+                           <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                              this is a false imprint, the book actually being published in Brussels
+                              by Poulet-Malassis.</note>
+                           <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                              9-55</note>
+                           <note>With a frontispeice etching by Félicien Rops</note>
+                        </imprint>
+                        <extent>163 p.</extent>
+                     </monogr>
+                  </biblStruct>
                </witness>
                <witness xml:id="FDM1868">
-                  1868 3rd edition - posthumous xml:id="1868"
+                  <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Oeuvres Complètes de Charles Baudelaire</title>
+                        <author>Charles Baudelaire</author>
+                        <editor>Théophile Gautier</editor>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Michel Lévy Frères</publisher>
+                           <date>1868-1873</date>
+                           <note>Volume 1 contains Les Fleurs du Mal</note>
+                        </imprint>
+                        <extent>7 volumes</extent>
+                     </monogr>
+                  </biblStruct>
                </witness>
             </listWit>
             <!-- create witList in sourceDesc with the different editions and their bib data
@@ -56,9 +139,9 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-  <text>
+   <text>
       <body>
          <p>Some text here.</p>
       </body>
-  </text>
+   </text>
 </TEI>
