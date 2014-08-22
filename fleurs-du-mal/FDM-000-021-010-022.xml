@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hymne à la Beauté</title>
+            <author>Charles Baudelaire</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <name xml:id="ZB">Zora Breeding</name>               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!--Poem excerpted Les Fleurs du Mal by Charles Baudelaire. -->
+            <publisher>Jean and Alexander Heard Library</publisher>
+            <pubPlace>Nashville</pubPlace>
+            <address>
+               <addrLine>Jean and Alexander Heard Library</addrLine>
+               <addrLine>419 21st Avenue South</addrLine>
+               <addrLine>Nashville, TN 37203</addrLine>
+               <addrLine>USA</addrLine>
+            </address>
+            <date>2014</date>
+            <idno>FDM-000-021-010-022</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+                <witness xml:id="U1857">
+                    1857 Unexpurgated
+                </witness>
+               <witness xml:id="E1857">
+                  1857 Expurgated
+               </witness>
+               <witness xml:id="FDM1861">
+                  1861 2nd edition censored
+               </witness>
+               <witness xml:id="LE1866">
+                  1866 Les Epaves xml:id="1866"
+               </witness>
+               <witness xml:id="FDM1868">
+                  1868 3rd edition - posthumous xml:id="1868"
+               </witness>
+            </listWit>
+            <!-- create witList in sourceDesc with the different editions and their bib data
+                     1. 1857 Unexpurgated xml:id="U1857"
+                     2. 1857 Expurgated xml:id="E1857"
+                     3. 1861 2nd edition censored xml:id="FDM1861"
+                     4. 1866 Les Epaves xml:id="1866"
+                     5. 1868 3rd edition - posthumous xml:id="1868"
+            -->
+            <!--
+            <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+               for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+               You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+               License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+               Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+               Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+               encoding: ISO-8859-1 </p>
+            <p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+               Online Distributed Proofreading Team.</p>
+               -->
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div type="poem">
+            <head>
+               <title>HYMNE A LA BEAUTE </title>
+            </head>
+            <lg type="quatrain" n="1">
+               <l n="1">Viens-tu du ciel profond ou sors-tu de l'abîme,</l>
+               <l n="2">O Beauté? Ton regard, infernal et divin,</l>
+               <l n="3">Verse confusément le bienfait et le crime,</l>
+               <l n="4">Et l'on peut pour cela te comparer au vin.</l>
+            </lg>
+            <lg type="quatrain" n="2">
+               <l n="5">Tu contiens dans ton oeil le couchant et l'aurore; </l>
+               <l n="6">Tu répands des parfums comme un soir orageux;</l>
+               <l n="7">Tes baisers sont un filtre et ta bouche une amphore</l>
+               <l n="8">Qui font le héros lâche et l'enfant courageux.</l>
+            </lg>
+            <lg type="quatrain" n="3">
+               <l n="9">Sors-tu du gouffre noir ou descends-tu des astres? </l>
+               <l n="10">Le Destin charmé suit tes jupons comme un chien;</l>
+               <l n="11">Tu sèmes au hasard la joie et les désastres,</l>
+               <l n="12">Et tu gouvernes tout et ne réponds de rien. </l>
+            </lg>
+            <lg type="quatrain" n="4">
+               <l n="13">Tu marches sur des morts. Beauté, dont tu te moques;</l>
+               <l n="14">De tes bijoux l'Horreur n'est pas le moins charmant,</l>
+               <l n="15">Et le Meurtre, parmi tes plus chères breloques,</l>
+               <l n="16">Sur ton ventre orgueilleux danse amoureusement. </l>
+            </lg>
+            <lg type="quatrain" n="5">
+               <l n="17">L'éphémère ébloui vole vers toi, chandelle,</l>
+               <l n="18">Crépite, flambe et dit: Bénissons ce flambeau!</l>
+               <l n="19">L'amoureux pantelant incliné sur sa belle</l>
+               <l n="20">A l'air d'un moribond caressant son tombeau. </l>
+            </lg>
+            <lg type="quatrain" n="6">
+               <l n="21">Que tu viennes du ciel ou de l'enfer, qu'importe,</l>
+               <l n="22">O Beauté! monstre énorme, effrayant, ingénu!</l>
+               <l n="23">Si ton oeil, ton souris, ton pied, m'ouvrent la porte</l>
+               <l n="24">D'un infini que j'aime et n'ai jamais connu? </l>
+            </lg>
+            <lg type="quatrain" n="6">
+               <l n="25">De Satan ou de Dieu, qu'importe? Ange ou Sirène,</l>
+               <l n="26">Qu'importé, si tu rends,--fée aux yeux de velours,</l>
+               <l n="27">Rythme, parfum, lueur, ô mon unique reine!--</l>
+               <l n="28">L'univers moins hideux et les instants moins lourds? </l>
+            </lg>
+         </div>
+      </body>
+  </text>
+</TEI>
