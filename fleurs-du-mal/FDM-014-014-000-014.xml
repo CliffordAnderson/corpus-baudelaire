@@ -7,16 +7,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>{insert poem title here}</title>
+            <title rend="L'Homme et la mer">Homme et la mer</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <name xml:id="III">{Insert Name Here and update xml ID}</name>
+               <name xml:id="ZB">Zora Breeding</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
-            <idno>FDM-</idno>
+            <idno>FDM-014-014-000-014</idno>
             <!--insert id no in above element account to established format-->
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
@@ -141,7 +141,37 @@
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <div type="poem">
+            <head>
+               <title>L'HOMME ET LA MER </title>
+            </head>
+            <lg type="quatrain" n="1">
+               <l n="1">Homme libre, toujours tu chériras la mer!</l>
+               <l n="2">La mer est ton miroir; tu contemples ton âme</l>
+               <l n="3">Dans le déroulement infini de sa ame,</l>
+               <l n="4">Et ton esprit n'est pas un gouffre moins mer.
+               </l>
+            </lg>
+            <lg type="quatrain" n="2">
+               <l n="5">Tu te plais à plonger au sein de ton image;</l>
+               <l n="6">Tu l'embrasses des yeux et des bras, et ton coeur</l>
+               <l n="7">Se distrait quelquefois de sa propre rumeur</l>
+               <l n="8">Au bruit de cette plainte indomptable et sauvage.
+               </l>
+            </lg>
+            <lg type="quatrain" n="3">
+               <l n="9">Vous êtes tous les deux ténébreux et discrets,</l>
+               <l n="10">Homme, nul n'a sondé le fond de tes abîmes;</l>
+               <l n="11">O mer, nul ne connaît tes richesses intimes,</l>
+               <l n="12">Tant vous êtes jaloux de garder vos secrets!</l>
+            </lg>
+            <lg type="quatrain" n="4">
+               <l n="13">Et cependant voilà des siècles innombrables</l>
+               <l n="14">Que vous vous combattez sans pitié ni remord,</l>
+               <l n="15">Tellement vous aimez le carnage et la mort,</l>
+               <l n="16">O lutteurs éternels, ô frères implacables!</l>
+            </lg>
+         </div>
       </body>
    </text>
 </TEI>

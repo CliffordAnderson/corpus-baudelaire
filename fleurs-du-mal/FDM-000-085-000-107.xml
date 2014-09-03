@@ -7,16 +7,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>{insert poem title here}</title>
+            <title rend="L'Horloge">Horloge</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <name xml:id="III">{Insert Name Here and update xml ID}</name>
+               <name xml:id="ZB">Zora Breeding</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
-            <idno>FDM-</idno>
+            <idno>FDM-000-085-000-107</idno>
             <!--insert id no in above element account to established format-->
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
@@ -141,7 +141,47 @@
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <div type="poem">
+            <head>
+               <title> L'HORLOGE </title>
+            </head>
+            <lg type="stanza" subtype="quatrain" n="1">
+               <l>Horloge dieu sinistre, effrayant, impassible,</l>
+               <l>Dont le doigt nous menace et nous dit: _Souviens-toi!_</l>
+               <l>Les bivrantes Douleurs dans ton coeur plein d'effroi</l>
+               <l>Se planteront bientôt comme dans une cible; </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="2">
+               <l>Le Plaisir vaporeux fuira vers l'horizon</l>
+               <l>Ainsi qu'une sylphide au fond de la coulisse;</l>
+               <l>Chaque instant te dévore un morceau du délice</l>
+               <l>A chaque homme accordé pour toute sa saison. </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="3">
+               <l>Trois mille six cents fois par heure, la Seconde</l>
+               <l>Chuchote: _Souviens-toi!_--Rapide, avec sa voix</l>
+               <l>D'insecte, Maintenant dit: Je sais Autrefois,</l>
+               <l>Et j'ai pompé ta vie avec ma trompe immonde! </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="4">
+               <l>_Remember! Souviens-toi!_ prodigue! _Esto memor!_</l>
+               <l>(Mon gosier de métal parle toutes les langues.)</l>
+               <l>Les minutes, mortel folâtre, sont des gangues</l>
+               <l>Qu'il ne faut pas lâcher sans en extraire l'or! </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="5">
+               <l>_Souviens-toi_ que le Temps est un joueur avide</l>
+               <l>Qui gagne sans tricher, à out coup! c'est la loi.</l>
+               <l>Le jour décroît; la nuit augmente, _souviens-toi!_</l>
+               <l>Le gouffre a toujours soif; la clepsydre se vide. </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="6">
+               <l>Tantôt sonnera l'heure où le divin Hasard,</l>
+               <l>Où l'auguste Vertu, ton épouse encor vierge,</l>
+               <l>Où le Repentir même (oh! la dernière auberge!),</l>
+               <l>Où tout te dira: Meurs, vieux lâche! il est trop tard! » </l>
+            </lg>
+         </div>
       </body>
    </text>
 </TEI>

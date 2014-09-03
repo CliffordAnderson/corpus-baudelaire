@@ -7,16 +7,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>{insert poem title here}</title>
+            <title rend="Le Couvercle">Couvercle</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <name xml:id="III">{Insert Name Here and update xml ID}</name>
+               <name xml:id="ZB">Zora Breeding</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
-            <idno>FDM-</idno>
+            <idno>FDM-000-000-000-087</idno>
             <!--insert id no in above element account to established format-->
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
@@ -141,7 +141,33 @@
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <div type="sonnet">
+            <head>
+               <title>LE COUVERCLE </title>
+            </head>
+            <lg type="stanza" subtype="quatrain" n="1">
+               <l n="1">En quelque lieu qu'il aille, ou sur mer ou sur terre,</l>
+               <l n="2">Sous un climat de flamme ou sous un soleil blanc,</l>
+               <l n="3">Serviteur de Jésus, courtisan de Cythère,</l>
+               <l n="4">Mendiant ténébreux ou Crésus rutilant, </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="2">
+               <l n="5"> Citadin, campagnard, vagabond, sédentaire,</l>
+               <l n="6">Que son petit cerveau soit actif ou soit lent,</l>
+               <l n="7">Partout l'homme subit la terreur du mystère,</l>
+               <l n="8">Et ne regarde en haut qu'avec un oeil tremblant. </l>
+            </lg>
+            <lg type="stanza" subtype="tercet" n="3">
+               <l n="9">En haut, le Ciel! ce mur de caveau qui l'étouffe,</l>
+               <l n="10">Plafond illuminé pour un opéra bouffe</l>
+               <l n="11">Où chaque histrion foule un sol ensanglanté, </l>
+            </lg>
+            <lg type="stanza" subtype="tercet" n="4">
+               <l n="12"> Terreur du libertin, espoir du fol ermite;</l>
+               <l n="13">Le Ciel! couvercle noir de la grande marmite</l>
+               <l n="14">Où bout l'imperceptible et vaste Humanité. </l>
+            </lg>
+         </div>
       </body>
    </text>
 </TEI>

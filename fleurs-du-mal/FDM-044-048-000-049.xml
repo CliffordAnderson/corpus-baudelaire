@@ -7,16 +7,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>{insert poem title here}</title>
+            <title rend="Le Flacon">Flacon</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <name xml:id="III">{Insert Name Here and update xml ID}</name>
+               <name xml:id="ZB">Zora Breeding</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
-            <idno>FDM-</idno>
+            <idno>FDM-044-048-000-049</idno>
             <!--insert id no in above element account to established format-->
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
@@ -141,7 +141,53 @@
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <div type="poem">
+            <head>
+               <title>LE FLACON </title>
+            </head>
+            <lg type="stanza" subtype="quatrain" n="1">
+               <l n="1">Il est de forts parfums pour qui toute matière</l>
+               <l n="2">Est poreuse. On dirait qu'ils pénètrent le verre.</l>
+               <l n="3">En ouvrant un coffret venu de l'orient</l>
+               <l n="4">Dont la serrure grince et rechigne en criant, </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="2">
+               <l n="5">Ou dans une maison déserte quelque armoire</l>
+               <l n="6">Pleine de l'âcre odeur des temps, poudreuse et noire,</l>
+               <l n="7">Parfois on trouve un vieux flacon qui se souvient,</l>
+               <l n="8">D'où jaillit toute vive une âme qui revient. </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="3">
+               <l n="9">Mille pensers dormaient, chrysalides funèbres,</l>
+               <l n="10">Frémissant doucement dans tes lourdes ténèbres,</l>
+               <l n="11">Qui dégagent leur aile et prennent leur essor,</l>
+               <l n="12">Teintés d'azur, glacés de rose, lamés d'or. </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="4">
+               <l n="13">Voilà le souvenir enivrant qui voltige</l>
+               <l n="14">Dans l'air troublé; les yeux se ferment; le Vertige</l>
+               <l n="15">Saisit l'âme vaincue et la pousse à deux mains</l>
+               <l n="16">Vers un gouffre obscurci de miasmes humains; </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="5">
+               <l n="17">Il la terrasse au bord d'un gouffre séculaire,</l>
+               <l n="18">Où, Lazare odorant déchirant son suaire,</l>
+               <l n="19">Se meut dans son réveil le cadavre spectral</l>
+               <l n="20">D'un vieil amour ranci, charmant et sépulcral. </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="6">
+               <l n="21">Ainsi, quand je serai perdu dans la mémoire</l>
+               <l n="22">Des hommes, dans le coin d'une sinistre armoire;</l>
+               <l n="23">Quand on m'aura jeté, vieux flacon désolé,</l>
+               <l n="24">Décrépit, poudreux, sale, abject, visqueux, fêlé, </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="7">
+               <l n="25">Je serai ton cercueil, aimable pestilence!</l>
+               <l n="26">Le témoin de ta force et de ta virulence,</l>
+               <l n="27">Cher poison préparé par les anges! liqueur</l>
+               <l n="28">Qui me ronge, ô la vie et la mort de mon coeur! </l>
+            </lg>
+         </div>
       </body>
    </text>
 </TEI>

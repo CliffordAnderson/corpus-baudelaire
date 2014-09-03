@@ -7,16 +7,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>{insert poem title here}</title>
+            <title rend="Le Poison">Poison</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <name xml:id="III">{Insert Name Here and update xml ID}</name>
+               <name xml:id="ZB">Zora Breeding</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
-            <idno>FDM-</idno>
+            <idno>FDM-045-049-000-050</idno>
             <!--insert id no in above element account to established format-->
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
@@ -141,7 +141,39 @@
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <div type="poem">
+            <head>
+               <title>LE POISON </title>
+            </head>
+            <lg type="stanza" subtype="quintain" n="1">
+               <l n="1">Le vin sait revêtir le plus sordide bouge</l>
+               <l n="2">D'un luxe miraculeux,</l>
+               <l n="3">Et fait surgir plus d'un portique fabuleux</l>
+               <l n="4">Dans l'or de sa vapeur rouge,</l>
+               <l n="5">Comme un soleil couchant dans un ciel nébuleux. </l>
+            </lg>
+            <lg type="stanza" subtype="quintain" n="2">
+               <l n="6">L'opium agrandit ce qui n'a pas de bornes,</l>
+               <l n="7">Allonge l'illimité,</l>
+               <l n="8">Approfondit le temps, creuse la volupté,</l>
+               <l n="9">Et de plaisirs noirs et mornes</l>
+               <l n="10">Remplit l'âme au delà de sa capacité. </l>
+            </lg>
+            <lg type="stanza" subtype="quintain" n="3">
+               <l n="11">Tout cela ne vaut pas le poison qui découle</l>
+               <l n="12">De tes yeux, de tes yeux verts,</l>
+               <l n="13">Lacs où mon âme tremble et se voit à l'envers...</l>
+               <l n="14">Mes songes viennent en foule</l>
+               <l n="15">Pour se désaltérer à ces gouffres amers. </l>
+            </lg>
+            <lg type="stanza" subtype="quintain" n="4">
+               <l n="16">Tout cela ne vaut pas le terrible prodige</l>
+               <l n="17">De ta salive qui mord,</l>
+               <l n="18">Qui plonge dans l'oubli mon âme sans remord,</l>
+               <l n="19">Et, charriant le vertige,</l>
+               <l n="20">La roule défaillante aux rives de la mort! </l>
+            </lg>
+         </div>
       </body>
    </text>
 </TEI>

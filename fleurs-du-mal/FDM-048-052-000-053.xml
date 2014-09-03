@@ -7,16 +7,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>{insert poem title here}</title>
+            <title rend="Le Beau Navire">Beau Navire</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <name xml:id="III">{Insert Name Here and update xml ID}</name>
+               <name xml:id="ZB">Zora Breeding</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
-            <idno>FDM-</idno>
+            <idno>FDM-048-052-000-053</idno>
             <!--insert id no in above element account to established format-->
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
@@ -141,7 +141,71 @@
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <div type="poem">
+            <head>
+               <title>LE BEAU NAVIRE</title>
+            </head>
+            <lg type="stanza" subtype="quatrain" n="1">
+               <l n="1">Je veux te raconter, ô molle enchanteresse,</l>
+               <l n="2">Les diverses beautés qui parent ta jeunesse;</l>
+               <l n="3">Je veux te peindre ta beauté</l>
+               <l n="4">Où l'enfance s'allie à la maturité. </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="2">
+               <l n="5">Quand tu vas balayant l'air de ta jupe large,</l>
+               <l n="6">Tu fais l'effet d'un beau vaisseau qui prend le large,</l>
+               <l n="7">Chargé de toile, et va roulant</l>
+               <l n="8">Suivant un rythme doux, et paresseux, et lent. </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="3">
+               <l n="9">Sur ton cou large et rond, sur tes épaules grasses,</l>
+               <l n="10">Ta tête se pavane avec d'étranges grâces;</l>
+               <l n="11">D'un air placide et triomphant</l>
+               <l n="12">Tu passes ton chemin, majestueuse enfant. </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="4">
+               <l n="13">Je veux te raconter, ô molle enchanteresse,</l>
+               <l n="14">Les diverses beautés qui parent ta jeunesse;</l>
+               <l n="15">Je veux te peindre ta beauté</l>
+               <l n="16">Où l'enfance s'allie à la maturité. </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="5">
+               <l n="17">Ta gorge qui s'avance et qui pousse la moire,</l>
+               <l n="18">Ta gorge triomphante est une belle armoire</l>
+               <l n="19">Dont les panneaux bombés et clairs</l>
+               <l n="20">Comme les boucliers accrochent des éclairs; </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="6">
+               <l n="21">Boucliers provoquants, armés de pointes roses!</l>
+               <l n="22">Armoire à doux secrets, pleine de bonnes choses,</l>
+               <l n="23">De vins, de parfums, de liqueurs</l>
+               <l n="24">Qui feraient délirer les cerveaux et les coeurs! </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="7">
+               <l n="25">Quand tu vas balayant l'air de ta jupe large,</l>
+               <l n="26">Tu fais l'effet d'un beau vaisseau qui prend le large,</l>
+               <l n="27">Chargé de toile, et va roulant</l>
+               <l n="28">Suivant un rythme doux, et paresseux, et lent. </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="8">
+               <l n="29">Tes nobles jambes sons les volants qu'elles chassent,</l>
+               <l n="30">Tourmentent les désirs obscurs et les agacent</l>
+               <l n="31">Comme deux sorcières qui font</l>
+               <l n="32">Tourner un philtre noir dans un vase profond. </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="9">
+               <l n="33">Tes bras qui se joueraient des précoces hercules</l>
+               <l n="34">Sont des boas luisants les solides émules,</l>
+               <l n="35">Faits pour serrer obstinément,</l>
+               <l n="36">Comme pour l'imprimer dans ton coeur, ton amant. </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="10">
+               <l n="37">Sur ton cou large et rond, sur tes épaules grasses,</l>
+               <l n="38">Ta tête se pavane avec d'étranches grâces;</l>
+               <l n="39">D'un air placide et triomphant</l>
+               <l n="40">Tu passes ton chemin, majestueuse enfant. </l>
+            </lg>
+         </div>
       </body>
    </text>
 </TEI>

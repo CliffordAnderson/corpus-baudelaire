@@ -7,16 +7,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>{insert poem title here}</title>
+            <title rend="Le Chevelure">Chevelure</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <name xml:id="III">{Insert Name Here and update xml ID}</name>
+               <name xml:id="ZB">Zora Breeding</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
-            <idno>FDM-</idno>
+            <idno>FDM-000-023-000-024</idno>
             <!--insert id no in above element account to established format-->
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
@@ -141,7 +141,60 @@
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <div type="poem">
+            <head>
+               <title>LA CHEVELURE </title>
+            </head>
+            <lg type="cinquain" n="1">
+               <l n="1">O toison, moutonnant jusque sur l'encolure!</l>
+               <l n="2">O boucles! O parfum chargé de nonchaloir! </l>
+               <l n="3">Extase! Pour peupler ce soir l'alcôve obscure</l>
+               <l n="4">Des souvenirs dormant dans cette chevelure,</l>
+               <l n="5">Je la veux agiter dans l'air comme un mouchoir. </l>
+            </lg>
+            <lg type="cinquain" n="2">
+               <l n="6">La langoureuse Asie et la brûlante Afrique,</l>
+               <l n="7">Tout un monde lointain, absent, presque défunt,</l>
+               <l n="8">Vit dans tes profondeurs, forêt aromatique!</l>
+               <l n="9">Comme d'autres esprits voguent sur la musique,</l>
+               <l n="10">Le mien, ô mon amour! nage sur ton parfum. </l>
+            </lg>
+            <lg type="cinquain" n="3">
+               <l n="11">J'ira là-bas où l'arbre et l'homme, pleins de sève,</l>
+               <l n="12">Se pâment longuement sous l'ardeur des climats;</l>
+               <l n="13">Fortes tresses, soyez la houle qui m'enlève!</l>
+               <l n="14">Tu contiens, mer d'ébène, un éblouissant rêve</l>
+               <l n="15">De voiles, de rameurs, de flammes et de mâts:</l>
+            </lg>
+            <lg type="cinquain" n="4">
+               <l n="16">Un port retentissant où mon âme peut boire</l>
+               <l n="17">A grands flots le parfum, le son et la couleur;</l>
+               <l n="18">Où les vaisseaux, glissant dans l'or et dans la moire,</l>
+               <l n="19">Ouvrent leurs vastes bras pour embrasser la gloire</l>
+               <l n="20">D'un ciel pur où frémit léternelle chaleur. </l>
+            </lg>
+            <lg type="cinquain" n="5">
+               <l n="21">Je plongerai ma tête amoureuse d'ivresse</l>
+               <l n="22">Dans ce noir océan où l'autre est enfermé;</l>
+               <l n="23">Et mon esprit subtil que le roulis caresse</l>
+               <l n="24">Saura vous retrouver, féconde paresse,</l>
+               <l n="25">Infinis bercements du loisir embaumé! </l>
+            </lg>
+            <lg type="cinquain" n="6">
+               <l n="26">Cheveux bleus, pavillon de ténèbres tendues,</l>
+               <l n="27">Vous me rendez l'azur du ciel immense et rond;</l>
+               <l n="28">Sur les bords duvetés de vos mèches tordues</l>
+               <l n="29">Je m'enivre ardemment des senteurs confondues</l>
+               <l n="30">De l'huile de coco, du musc et du goudron. </l>
+            </lg>
+            <lg type="cinquain" n="7">
+               <l n="31">Longtemps! toujours! ma main dans ta crinière lourde</l>
+               <l n="32">Sèmera le rubis, la perle et le saphir,</l>
+               <l n="33">Afin qu'à mon, désir tu ne sois jamais sourde!</l>
+               <l n="34">N'es-tu pas l'oasis où je rêve, et la gourde</l>
+               <l n="35">Où je hume à longs traits le vin du souvenir? </l>
+            </lg>
+         </div> 
       </body>
    </text>
 </TEI>

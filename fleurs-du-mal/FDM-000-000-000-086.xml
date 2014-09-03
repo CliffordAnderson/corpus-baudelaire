@@ -7,16 +7,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>{insert poem title here}</title>
+            <title rend="La Prière d'un païen">Prière d'un païen</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <name xml:id="III">{Insert Name Here and update xml ID}</name>
+               <name xml:id="ZB">Zora Breeding</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
-            <idno>FDM-</idno>
+            <idno>FDM-000-000-000-086</idno>
             <!--insert id no in above element account to established format-->
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
@@ -141,7 +141,33 @@
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <div type="sonnet">
+            <head>
+               <title>LA PRIERE D'UN PAÏEN</title>
+            </head>
+            <lg type="stanza" subtype="quatrain" n="1">
+               <l n="1">Ah! ne ralentis pas tes flammes;</l>
+               <l n="2">Réchauffe mon coeur engourdi,</l>
+               <l n="3">Volupté, torture des âmes!</l>
+               <l n="4">_Diva! supplicem exaudi!_ </l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="2">
+               <l n="5">Déesse dans l'air répandue,</l>
+               <l n="6">Flamme dans notre souterrain!</l>
+               <l n="7">Exauce une âme morfondue,</l>
+               <l n="8">Qui te consacre un chant d'airain. </l>
+            </lg>
+            <lg type="stanza" subtype="tercet" n="3">
+               <l n="9">Volupté, sois toujours ma reine!</l>
+               <l n="10">Prends le masque d'une sirène</l>
+               <l n="11">Faîte de chair et de velours. </l>
+            </lg>
+            <lg type="stanza" subtype="tercet" n="4">
+               <l n="12">Ou verse-moi tes sommeils lourds</l>
+               <l n="13">Dans le vin informe et mystique,</l>
+               <l n="14">Volupté, fantôme élastique! </l>
+            </lg>
+         </div>
       </body>
    </text>
 </TEI>

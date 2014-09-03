@@ -7,16 +7,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>{insert poem title here}</title>
+            <title>Tu mettrais l'univers entier dans ta ruelle</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <name xml:id="III">{Insert Name Here and update xml ID}</name>
+               <name xml:id="ZB">Zora Breeding</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
-            <idno>FDM-</idno>
+            <idno>FDM-023-025-000-026</idno>
             <!--insert id no in above element account to established format-->
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
@@ -141,7 +141,34 @@
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
-      </body>
+         <div type="poem">
+            <head>Tu mettrais l'univers entier dans ta ruelle</head>
+            <!--untitled poem. Used first line as head-->
+            <lg type="stanza" n="1">
+               <l n="1">Tu mettrais l'univers entier dans ta ruelle,</l>
+               <l n="2">Femme impure! L'ennui rend ton âme cruelle.</l>
+               <l n="3">Pour exercer tes dents à ce jeu singulier,</l>
+               <l n="4">Il te faut chaque jour un coeur au râtelier.</l>
+               <l n="5">Tes yeux, illuminés ainsi que des boutiques</l>
+               <l n="6">Ou des ifs flamboyants dans les fêtes publiques,</l>
+               <l n="7">Usent insolemment d'un pouvoir emprunté,</l>
+               <l n="8">Sans connaître jamais la loi de leur beauté. </l>
+            </lg>
+            <lg type="stanza" n="2">
+               <l n="9">Machine aveugle et sourde en cruauté féconde!</l>
+               <l n="10">Salutaire instrument, buveur du sang du monde,</l>
+               <l n="11">Comment n'as-tu pas honte, et comment n'as-tu pas</l>
+               <l n="12">Devant tous les miroirs vu pâlir tes appas?</l>
+               <l n="13">La grandeur de ce mal où tu te crois savante</l>
+               <l n="14">Ne t'a donc jamais fait reculer d'épouvante,</l>
+               <l n="15">Quand la nature, grande en ses desseins cachés,</l>
+               <l n="16">De toi se sert, ô femme, ô reine des péchés,</l>
+               <l n="17">--De toi, vil animal,--pour pétrir un génie? </l>
+            </lg>
+            <lg type="stanza" n="3">
+               <l n="18">O fangeuse grandeur, sublime ignominie! </l>
+            </lg>
+         </div>
+       </body>
    </text>
 </TEI>
