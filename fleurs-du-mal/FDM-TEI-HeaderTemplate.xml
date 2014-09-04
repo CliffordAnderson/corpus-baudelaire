@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
             <title>{insert poem title here}</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
+               <!--In the line below, Insert your initials as the XML id and your name between the tags-->
                <name xml:id="III">{Insert Name Here and update xml ID}</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
+            <!--Below, insert the number of the poem, according to the established protocol-->
             <idno>FDM-</idno>
-            <!--insert id no in above element account to established format-->
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
             <address>
@@ -118,24 +119,24 @@
                   </biblStruct>
                </witness>
             </listWit>
-            <!-- create witList in sourceDesc with the different editions and their bib data
-                     1. 1857 Unexpurgated xml:id="U1857"
-                     2. 1857 Expurgated xml:id="E1857"
-                     3. 1861 2nd edition censored xml:id="FDM1861"
-                     4. 1866 Les Epaves xml:id="1866"
-                     5. 1868 3rd edition - posthumous xml:id="1868"
-            -->
-            <!--
-            <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
-               for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
-               You may copy it, give it away or re-use it under the terms of the Project Gutenberg
-               License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
-               Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
-               Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
-               encoding: ISO-8859-1 </p>
-            <p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
-               Online Distributed Proofreading Team.</p>
-               -->
+<!-- create witList in sourceDesc with the different editions and their bib data
+1. 1857 Unexpurgated xml:id="U1857"
+2. 1857 Expurgated xml:id="E1857"
+3. 1861 2nd edition censored xml:id="FDM1861"
+4. 1866 Les Epaves xml:id="1866"
+5. 1868 3rd edition - posthumous xml:id="1868"
+-->
+<!--
+<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+encoding: ISO-8859-1 </p>
+<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+Online Distributed Proofreading Team.</p>
+-->
          </sourceDesc>
       </fileDesc>
    </teiHeader>
