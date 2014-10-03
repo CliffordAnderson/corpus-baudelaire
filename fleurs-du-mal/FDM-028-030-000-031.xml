@@ -7,18 +7,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-            <title>Abel et Caïn</title>
+            <title>De Profundis Clamavi</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
                <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-               <name xml:id="ZB">Zora Breeding</name>
+               <name xml:id="RVR">Ramona V. Romero</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
             <!--Below, insert the number of the poem, according to the established protocol-->
-            <idno>FDM-091-119-000-144</idno>
+            <idno>FDM-028-030-000-031</idno>
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
             <address>
@@ -142,76 +142,31 @@ Online Distributed Proofreading Team.</p>
    </teiHeader>
    <text>
       <body>
-         <div type="poem">
-            <head>
-               <title>Abel et Caïn</title>
-            </head>
-            
-            <lg type="couplet" n="1">
-               <l n="1">Race d'Abel, dors, bois et mange;</l>
-               <l n="2">Dieu te sourit complaisamment.</l>
+         <div type="poem" subtype="sonnet">
+            <head><title>DE PROFUNDIS CLAMAVI</title></head>
+            <lg type="stanza" subtype="quatrain" n="1">
+               <l n="1">J'implore ta pitié. Toi, l'unique que j'aime,</l>
+               <l n="2">Du fond du gouffre obscur où mon coeur est tombé.</l>
+               <l n="3">C'est un univers morne à l'horizon plombé,</l>
+               <l n="4">Où nagent dans la nuit l'horreur et le blasphème;</l>
             </lg>
-            <lg type="couplet" n="2">
-               <l n="3">Race de Caïn, dans la fange</l>
-               <l n="4">Rampe et meurs misérablement.</l>
+            <lg type="stanza" subtype="quatrain" n="2">
+               <l n="5">Un soleil sans chaleur plane au-dessus six mois,</l>
+               <l n="6">Et les six autres mois la nuit couvre la terre;</l>
+               <l n="7">C'est un pays plus nu que la terre polaire;</l>
+               <l n="8">--Ni bêtes, ni ruisseaux, ni verdure, ni bois!</l>
             </lg>
-            <lg type="couplet" n="3">
-               <l n="5">Race d'Abel, ton sacrifice</l>   
-               <l n="6">Flatte le nez du Séraphin!</l>
+            <lg type="stanza" subtype="tercet" n="3">
+               <l n="9">Or il n'est d'horreur au monde qui surpasse</l>
+               <l n="10">La froide cruauté de ce soleil de glace</l>
+               <l n="11">Et cette immense nuit semblable au vieux Chaos;</l>
             </lg>
-            <lg type="couplet" n="4">
-               <l n="7">Race de Caïn, ton supplice</l>
-               <l n="8">Aura-t-il jamais une fin?</l>
-            </lg>
-            <lg type="couplet" n="5">
-               <l n="9">Race d'Abel, vois tes semailles</l>
-               <l n="10">Et ton bétail venir à bien;</l>
-            </lg>
-            <lg type="couplet" n="6">
-               <l n="11">Race de Caïn, tes entrailles</l>
-               <l n="12">Hurlent la faim comme un vieux chien.</l>
-            </lg>
-            <lg type="couplet" n="7">
-               <l n="13">Race d'Abel, chauffe ton ventre</l>
-               <l n="14">À ton foyer patriarcal;</l>
-            </lg>
-            <lg type="couplet" n="8">
-               <l n="15">Race de Caïn, dans ton antre</l>  
-               <l n="16">Tremble de froid, pauvre chacal!</l>
-            </lg>
-            <lg type="couplet" n="9">
-               <l n="17">Race d'Abel, aime et pullule!</l>
-               <l n="18">Ton or fait aussi des petits.</l>
-            </lg>
-            <lg type="couplet" n="10">
-               <l n="19">Race de Caïn, coeur qui brûle,</l>
-               <l n="20">Prends garde à ces grands appétits.</l>
-            </lg>
-            <lg type="couplet" n="11">
-               <l n="21">Race d'Abel, tu croîs et broutes</l>
-               <l n="22">Comme les punaises des bois!</l>
-            </lg>
-            <lg type="couplet" n="12">
-               <l n="23">Race de Caïn, sur les routes</l>
-               <l n="24">Traîne ta famille aux abois.</l>
-            </lg>
-            <lg type="couplet" n="13">
-               <l n="25">Ah! race d'Abel, ta charogne</l>
-               <l n="26">Engraissera le sol fumant!</l>
-            </lg>
-            <lg type="couplet" n="14">
-               <l n="27">Race de Caïn, ta besogne</l>
-               <l n="28">N'est pas faite suffisamment;</l>
-            </lg>
-            <lg type="couplet" n="15">
-               <l n="29">Race d'Abel, voici ta honte:</l>
-               <l n="30">Le fer est vaincu par l'épieu!</l>
-            </lg>
-            <lg type="couplet" n="16">
-               <l n="31">Race de Caïn, au ciel monte,</l>
-               <l n="32">Et sur la terre jette Dieu!</l>
+            <lg type="stanza" subtype="tercet" n="4">
+               <l n="12">Je jalouse le sort des plus vils animaux</l>
+               <l n="13">Qui peuvent se plonger dans un sommeil stupide,</l>
+               <l n="14">Tant l'écheveau du temps lentement se dévide!</l>
             </lg>
          </div>
-       </body>
+      </body>
    </text>
 </TEI>
