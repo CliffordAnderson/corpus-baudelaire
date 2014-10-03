@@ -119,7 +119,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </biblStruct>
                </witness>
             </listWit>
-<!-- create witList in sourceDesc with the different editions and their bib data
+<!-- These comments are insane.  create witList in sourceDesc with the different editions and their bib data
 1. 1857 Unexpurgated xml:id="U1857"
 2. 1857 Expurgated xml:id="E1857"
 3. 1861 2nd edition censored xml:id="FDM1861"
