@@ -16,8 +16,6 @@
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
-            <idno>FDM-000-023-000-024</idno>
-            <!--insert id no in above element account to established format-->
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
             <address>
@@ -27,6 +25,8 @@
                <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
+            <idno>FDM-000-023-000-024</idno>
+            <!--insert id no in above element account to established format-->
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -194,7 +194,7 @@
                <l n="34">N'es-tu pas l'oasis où je rêve, et la gourde</l>
                <l n="35">Où je hume à longs traits le vin du souvenir? </l>
             </lg>
-         </div> 
+         </div>
       </body>
    </text>
 </TEI>
