@@ -18,8 +18,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </titleStmt>
          <publicationStmt>
             <publisher>Jean and Alexander Heard Library</publisher>
-            <!--Below, insert the number of the poem, according to the established protocol-->
-            <idno>FDM-</idno>
             <pubPlace>Nashville</pubPlace>
             <address>
                <addrLine>Jean and Alexander Heard Library</addrLine>
@@ -28,6 +26,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
+            <!--Below, insert the number of the poem, according to the established protocol-->
+            <idno>FDM-</idno>
          </publicationStmt>
          <sourceDesc>
             <listWit>
