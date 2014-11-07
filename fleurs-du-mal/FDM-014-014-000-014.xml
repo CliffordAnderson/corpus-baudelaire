@@ -16,8 +16,6 @@
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
-            <idno>FDM-014-014-000-014</idno>
-            <!--insert id no in above element account to established format-->
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
             <address>
@@ -27,6 +25,8 @@
                <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
+            <idno>FDM-014-014-000-014</idno>
+            <!--insert id no in above element account to established format-->
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -149,15 +149,13 @@
                <l n="1">Homme libre, toujours tu chériras la mer!</l>
                <l n="2">La mer est ton miroir; tu contemples ton âme</l>
                <l n="3">Dans le déroulement infini de sa ame,</l>
-               <l n="4">Et ton esprit n'est pas un gouffre moins mer.
-               </l>
+               <l n="4">Et ton esprit n'est pas un gouffre moins mer. </l>
             </lg>
             <lg type="quatrain" n="2">
                <l n="5">Tu te plais à plonger au sein de ton image;</l>
                <l n="6">Tu l'embrasses des yeux et des bras, et ton coeur</l>
                <l n="7">Se distrait quelquefois de sa propre rumeur</l>
-               <l n="8">Au bruit de cette plainte indomptable et sauvage.
-               </l>
+               <l n="8">Au bruit de cette plainte indomptable et sauvage. </l>
             </lg>
             <lg type="quatrain" n="3">
                <l n="9">Vous êtes tous les deux ténébreux et discrets,</l>
