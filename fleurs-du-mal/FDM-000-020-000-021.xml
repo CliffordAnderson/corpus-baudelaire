@@ -11,30 +11,29 @@
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <name xml:id="ZB">Zora Breeding</name>               
+               <name xml:id="ZB">Zora Breeding</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
+            <publisher>Jean and Alexander Heard Library</publisher>
+            <pubPlace>Nashville</pubPlace>
+            <address>
+               <addrLine>Jean and Alexander Heard Library</addrLine>
+               <addrLine>419 21st Avenue South</addrLine>
+               <addrLine>Nashville, TN 37203</addrLine>
+               <addrLine>USA</addrLine>
+            </address>
+            <date>2014</date>
             <!--Poem excerpted Les Fleurs du Mal by Charles Baudelaire. -->
             <idno>FDM-000-020-000-021</idno>
          </publicationStmt>
          <sourceDesc>
             <listWit>
-                <witness xml:id="U1857">
-                    1857 Unexpurgated
-                </witness>
-               <witness xml:id="E1857">
-                  1857 Expurgated
-               </witness>
-               <witness xml:id="FDM1861">
-                  1861 2nd edition censored
-               </witness>
-               <witness xml:id="LE1866">
-                  1866 Les Epaves xml:id="1866"
-               </witness>
-               <witness xml:id="FDM1868">
-                  1868 3rd edition - posthumous xml:id="1868"
-               </witness>
+               <witness xml:id="U1857"> 1857 Unexpurgated </witness>
+               <witness xml:id="E1857"> 1857 Expurgated </witness>
+               <witness xml:id="FDM1861"> 1861 2nd edition censored </witness>
+               <witness xml:id="LE1866"> 1866 Les Epaves xml:id="1866" </witness>
+               <witness xml:id="FDM1868"> 1868 3rd edition - posthumous xml:id="1868" </witness>
             </listWit>
             <!-- create witList in sourceDesc with the different editions and their bib data
                      1. 1857 Unexpurgated xml:id="U1857"
@@ -57,7 +56,7 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-  <text>
+   <text>
       <body>
          <div type="poem">
             <head>
@@ -115,5 +114,5 @@
             </lg>
          </div>
       </body>
-  </text>
+   </text>
 </TEI>

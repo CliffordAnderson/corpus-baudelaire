@@ -16,8 +16,6 @@
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
-            <idno>FDM-001-001-000-001</idno>
-            <!--insert id no in above element account to established format-->
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
             <address>
@@ -27,6 +25,8 @@
                <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
+            <idno>FDM-001-001-000-001</idno>
+            <!--insert id no in above element account to established format-->
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -191,8 +191,7 @@
                <l n="29">Tous ceux qu'il veut aimer l'observent avec crainte,</l>
                <l n="30">Ou bien, s'enhardissant de sa tranquillité,</l>
                <l n="31">Cherchent à qui saura lui tirer une plainte,</l>
-               <l n="32">Et font sur lui l'essai de leur férocité.
-               </l>
+               <l n="32">Et font sur lui l'essai de leur férocité. </l>
             </lg>
             <lg type="quatrain" n="9">
                <l n="33">Dans le pain et le vin destinés à sa bouche</l>
@@ -204,15 +203,13 @@
                <l n="37">Sa femme va criant sur les places publiques:</l>
                <l n="38">« Puisqu'il me trouve assez belle pour m'adorer,</l>
                <l n="39">Je ferai le métier des idoles antiques,</l>
-               <l n="40">Et comme elles je veux me faire redorer;
-               </l>
+               <l n="40">Et comme elles je veux me faire redorer; </l>
             </lg>
             <lg type="quatrain" n="11">
                <l n="41">« Et je me soûlerai de nard, d'encens, de myrrhe,</l>
                <l n="42">De génuflexions, de viandes et de vins,</l>
                <l n="43">Pour savoir si je puis dans un coeur qui m'admire</l>
-               <l n="44">Usurper en riant les hommages divins!
-               </l>
+               <l n="44">Usurper en riant les hommages divins! </l>
             </lg>
             <lg type="quatrain" n="12">
                <l n="45">« Et, quand je m'ennuîrai de ces farces impies,</l>

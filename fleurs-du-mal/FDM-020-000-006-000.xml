@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title rend="Le Soleil">Soleil</title>
+            <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
+            <title rend="Les Bijoux">Bijoux</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <name xml:id="ZB">Zora Breeding</name>
+               <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+               <name xml:id="RVR">Ramona V. ROmero</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
@@ -25,8 +26,8 @@
                <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
-            <idno>FDM-002-087-000-109</idno>
-            <!--insert id no in above element account to established format-->
+            <!--Below, insert the number of the poem, according to the established protocol-->
+            <idno>FDM-020-000-006-000</idno>
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -119,23 +120,23 @@
                </witness>
             </listWit>
             <!-- create witList in sourceDesc with the different editions and their bib data
-                     1. 1857 Unexpurgated xml:id="U1857"
-                     2. 1857 Expurgated xml:id="E1857"
-                     3. 1861 2nd edition censored xml:id="FDM1861"
-                     4. 1866 Les Epaves xml:id="1866"
-                     5. 1868 3rd edition - posthumous xml:id="1868"
-            -->
+1. 1857 Unexpurgated xml:id="U1857"
+2. 1857 Expurgated xml:id="E1857"
+3. 1861 2nd edition censored xml:id="FDM1861"
+4. 1866 Les Epaves xml:id="1866"
+5. 1868 3rd edition - posthumous xml:id="1868"
+-->
             <!--
-            <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
-               for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
-               You may copy it, give it away or re-use it under the terms of the Project Gutenberg
-               License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
-               Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
-               Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
-               encoding: ISO-8859-1 </p>
-            <p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
-               Online Distributed Proofreading Team.</p>
-               -->
+<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+encoding: ISO-8859-1 </p>
+<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+Online Distributed Proofreading Team.</p>
+-->
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -143,33 +144,55 @@
       <body>
          <div type="poem">
             <head>
-               <title>LE SOLEIL</title>
+               <title>Les Bijoux</title>
             </head>
-            <lg type="stanza" subtype="octave" n="1">
-               <l>Le long du vieux faubourg, où pendant aux masures</l>
-               <l>Les persiennes, abri des secrètes luxures,</l>
-               <l>Quand le soleil cruel frappe à traits redoublés</l>
-               <l>Sur la ville et les champs, sur les toits et les blés.</l>
-               <l>Je vais m'exercer seul à ma fantasque escrime,</l>
-               <l>Flairant dans tous les coins les hasards de la rime.</l>
-               <l>Trébuchant sur les mots comme sur les pavés,</l>
-               <l>Heurtant parfois des vers depuis longtemps rêvés. </l>
+            <lg type="stanza" subtype="quatrain" n="1">
+               <l n="1">La très chère était nue, et, connaissant mon coeur, </l>
+               <l n="2">Elle n'avait gardé que ses bijoux sonores,</l>
+               <l n="3">Dont le riche attirail lui donnait l'air vainqueur </l>
+               <l n="4">Qu'ont dans leurs jours heureux les esclaves des Mores.</l>
             </lg>
-            <lg type="stanza" subtype="octave" n="2">
-               <l>Ce père nourricier, ennemi des chloroses,</l>
-               <l>Eveille dans les champs les vers comme les roses;</l>
-               <l>Il fait s'évaporer les soucis vers le ciel,</l>
-               <l>Et remplit les cerveaux et les ruches de miel.</l>
-               <l>C'est lui qui rajeunit les porteurs de béquilles</l>
-               <l>Et les rend gais et doux comme des jeunes filles,</l>
-               <l>Et commande aux moissons de croître et de mûrir</l>
-               <l>Dans le coeur immortel qui toujours veut fleurir!</l>
+            <lg type="stanza" subtype="quatrain" n="2">
+               <l n="5">Quand il jette en dansant son bruit vif et moqueur,</l>
+               <l n="6">Ce monde rayonnant de métal et de pierre</l>
+               <l n="7">Me ravit en extase, et j'aime à la fureur</l>
+               <l n="8">Les choses où le son se mêle à la lumière.</l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="3">
-               <l>Quand, ainsi qu'un poète, il descend dans les villes,</l>
-               <l>Il ennoblit le sort des choses les plus viles,</l>
-               <l>Et s'introduit en roi, sans bruit et sans valets,</l>
-               <l>Dans tous les hôpitaux et dans tous les palais. </l>
+               <l n="9">Elle était donc couchée et se laissait aimer,</l>
+               <l n="10">Et du haut du divan elle souriait d'aise</l>
+               <l n="11">À mon amour profond et doux comme la mer,</l>
+               <l n="12">Qui vers elle montait comme vers sa falaise.</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="4">
+               <l n="13">Les yeux fixés sur moi, comme un tigre dompté,</l>
+               <l n="14">D'un air vague et rêveur elle essayait des poses,</l>
+               <l n="15">Et la candeur unie à la lubricité</l>
+               <l n="16">Donnait un charme neuf à ses métamorphoses;</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="5">
+               <l n="17">Et son bras et sa jambe, et sa cuisse et ses reins,</l>
+               <l n="18">Polis comme de l'huile, onduleux comme un cygne,</l>
+               <l n="19">Passaient devant mes yeux clairvoyants et sereins;</l>
+               <l n="20">Et son ventre et ses seins, ces grappes de ma vigne,</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="6">
+               <l n="21">S'avançaient, plus câlins que les Anges du mal,</l>
+               <l n="22">Pour troubler le repos où mon âme était mise,</l>
+               <l n="23">Et pour la déranger du rocher de cristal</l>
+               <l n="24">Où, calme et solitaire, elle s'était assise.</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="7">
+               <l n="25">Je croyais voir unis par un nouveau dessin</l>
+               <l n="26">Les hanches de l'Antiope au buste d'un imberbe,</l>
+               <l n="27">Tant sa taille faisait ressortir son bassin.</l>
+               <l n="28">Sur ce teint fauve et brun, le fard était superbe!</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="8">
+               <l n="29">— Et la lampe s'étant résignée à mourir,</l>
+               <l n="30">Comme le foyer seul illuminait la chambre</l>
+               <l n="31">Chaque fois qu'il poussait un flamboyant soupir,</l>
+               <l n="32">Il inondait de sang cette peau couleur d'ambre!</l>
             </lg>
          </div>
       </body>
