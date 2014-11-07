@@ -16,8 +16,6 @@
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
-            <idno>FDM-023-025-000-026</idno>
-            <!--insert id no in above element account to established format-->
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
             <address>
@@ -27,6 +25,8 @@
                <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
+            <idno>FDM-023-025-000-026</idno>
+            <!--insert id no in above element account to established format-->
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -169,6 +169,6 @@
                <l n="18">O fangeuse grandeur, sublime ignominie! </l>
             </lg>
          </div>
-       </body>
+      </body>
    </text>
 </TEI>

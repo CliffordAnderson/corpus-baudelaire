@@ -16,8 +16,6 @@
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
-            <idno>FDM-000-000-000-087</idno>
-            <!--insert id no in above element account to established format-->
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
             <address>
@@ -27,6 +25,8 @@
                <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
+            <idno>FDM-000-000-000-087</idno>
+            <!--insert id no in above element according to established format-->
          </publicationStmt>
          <sourceDesc>
             <listWit>

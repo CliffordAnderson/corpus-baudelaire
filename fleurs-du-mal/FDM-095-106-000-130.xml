@@ -1,0 +1,185 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title rend="Le Vin de l'assassin">Vin de l'assassin</title>
+                <author>Charles Baudelaire</author>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="RKB">Raquelle K. Bostow</name>
+                </respStmt>
+                <sponsor>Jean and Alexander Heard Library</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jean and Alexander Heard Library</publisher>
+                <pubPlace>Nashville</pubPlace>
+                <address>
+                    <addrLine>Jean and Alexander Heard Library</addrLine>
+                    <addrLine>419 21st Avenue South</addrLine>
+                    <addrLine>Nashville, TN 37203</addrLine>
+                    <addrLine>USA</addrLine>
+                </address>
+                <date>2014</date>
+                <idno>FDM-095-106-000-130</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="U1857">
+                        <desc>1857 Unexpurgated</desc>
+                        <biblStruct>
+                            <monogr>
+                                <title>Les Fleurs du Mal</title>
+                                <author>Charles Baudelaire</author>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Poulet-Malassis et De Broise</publisher>
+                                    <date>1857</date>
+                                    <note>Original edition with condemned pieces</note>
+                                </imprint>
+                                <extent>248 p.</extent>
+                            </monogr>
+                        </biblStruct>
+                    </witness>
+                    <witness xml:id="E1857">
+                        <desc>1857 Expurgated</desc>
+                        <biblStruct>
+                            <monogr>
+                                <title>Les Fleurs du Mal</title>
+                                <author>Charles Baudelaire</author>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Poulet-Malassis et De Broise</publisher>
+                                    <date>1857</date>
+                                    <note>Original edition with condemned pieces removed</note>
+                                </imprint>
+                                <extent>248 p.</extent>
+                            </monogr>
+                        </biblStruct>
+                    </witness>
+                    <witness xml:id="FDM1861">
+                        <desc>1861 2nd edition censored</desc>
+                        <biblStruct>
+                            <monogr>
+                                <title>Les Fleurs du Mal</title>
+                                <author>Charles Baudelaire</author>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Poulet-Malassis et De Broise</publisher>
+                                    <date>1861</date>
+                                    <note>2nd edition augmented by 35 new poems and ornamented with
+                                        a portrait of the author drawn and engraved by Felix
+                                        Bracquemond</note>
+                                </imprint>
+                                <extent> 319 p.</extent>
+                            </monogr>
+                        </biblStruct>
+                    </witness>
+                    <witness xml:id="FDM1868">
+                        <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+                        <biblStruct>
+                            <monogr>
+                                <title>Oeuvres Complètes de Charles Baudelaire</title>
+                                <author>Charles Baudelaire</author>
+                                <editor>Théophile Gautier</editor>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Michel Lévy Frères</publisher>
+                                    <date>1868-1873</date>
+                                    <note>Volume 1 contains Les Fleurs du Mal</note>
+                                </imprint>
+                                <extent>7 volumes</extent>
+                            </monogr>
+                        </biblStruct>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head>
+                <title>Le Vin de l'Assassin</title>
+            </head>
+
+            <lg type="stanza" subtype="quatrain" n="1">
+                <l n="1">Ma femme est morte, je suis libre!</l>
+                <l n="2">Je puis donc boire tout mon soûl.</l>
+                <l n="3">Lorsque je rentrais sans un sou,</l>
+                <l n="4">Ses cris me déchiraient la fibre.</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="2">
+                <l n="1">Autant qu'un roi je suis heureux;</l>
+                <l n="2">L'air est pur, le ciel admirable...</l>
+                <l n="3">Nous avions un été semblable</l>
+                <l n="4">Lorsque j'en devins amoureux!</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="3">
+                <l n="1">L'horrible soif qui me déchire</l>
+                <l n="2">Aurait besoin pour s'assouvir</l>
+                <l n="3">D'autant de vin qu'en peut tenir</l>
+                <l n="4">Son tombeau; — ce n'est pas peu dire:</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="4">
+                <l n="1">Je l'ai jetée au fond d'un puits,</l>
+                <l n="2">Et j'ai même poussé sur elle</l>
+                <l n="3">Tous les pavés de la margelle.</l>
+                <l n="4">— Je l'oublierai si je le puis!</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="5">
+                <l n="1">Au nom des serments de tendresse,</l>
+                <l n="2">Dont rien ne peut nous délier,</l>
+                <l n="3">Et pour nous réconcilier</l>
+                <l n="4">Comme au beau temps de notre ivresse,</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="6">
+                <l n="1">J'implorai d'elle un rendez-vous,</l>
+                <l n="2">Le soir, sur une route obscure.</l>
+                <l n="3">Elle y vint — folle créature!</l>
+                <l n="4">Nous sommes tous plus ou moins fous!</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="7">
+                <l n="1">Elle était encore jolie,</l>
+                <l n="2">Quoique bien fatiguée! et moi,</l>
+                <l n="3">Je l'aimais trop! voilà pourquoi</l>
+                <l n="4">Je lui dis: Sors de cette vie!</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="8">
+                <l n="1">Nul ne peut me comprendre. Un seul</l>
+                <l n="2">Parmi ces ivrognes stupides</l>
+                <l n="3">Songea-t-il dans ses nuits morbides</l>
+                <l n="4">À faire du vin un linceul?</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="9">
+                <l n="1">Cette crapule invulnérable</l>
+                <l n="2">Comme les machines de fer</l>
+                <l n="3">Jamais, ni l'été ni l'hiver,</l>
+                <l n="4">N'a connu l'amour véritable,</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="10">
+                <l n="1">Avec ses noirs enchantements,</l>
+                <l n="2">Son cortège infernal d'alarmes,</l>
+                <l n="3">Ses fioles de poison, ses larmes,</l>
+                <l n="4">Ses bruits de chaîne et d'ossements!</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="11">
+                <l n="1">— Me voilà libre et solitaire!</l>
+                <l n="2">Je serai ce soir ivre mort;</l>
+                <l n="3">Alors, sans peur et sans remords,</l>
+                <l n="4">Je me coucherai sur la terre,</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="12">
+                <l n="1">Et je dormirai comme un chien!</l>
+                <l n="2">Le chariot aux lourdes roues</l>
+                <l n="3">Chargé de pierres et de boues,</l>
+                <l n="4">Le wagon enragé peut bien</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="13">
+                <l n="1">Ecraser ma tête coupable</l>
+                <l n="2">Ou me couper par le milieu,</l>
+                <l n="3">Je m'en moque comme de Dieu,</l>
+                <l n="4">Du Diable ou de la Sainte Table!</l>
+            </lg>
+        </body>
+    </text>
+</TEI>
