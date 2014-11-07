@@ -23,7 +23,6 @@ and include the title with the article in a rend attribute. -->
 <!-- Insert identification number. See the Editions Table 
 (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) 
 to derive the numerical ID Code. -->
-<idno>FDM-099-122-000-147</idno>
 <!--insert id no in above element account to established format-->
 <publisher>Jean and Alexander Heard Library</publisher>
 <pubPlace>Nashville</pubPlace>
@@ -34,6 +33,8 @@ to derive the numerical ID Code. -->
 <addrLine>USA</addrLine>
 </address>
 <date>2014</date>
+<idno>FDM-099-122-000-147</idno>
+
 </publicationStmt>
 <sourceDesc>
 <listWit>
@@ -180,7 +181,7 @@ Add head and title element -->
 </head>
 
 <!-- Add lg element with type, subtype, and n attributes 
-Add l elemnts with n attributes -->
+Add l elements with n attributes -->
 
 <lg type="stanza" subtype="quatrain" n="1">
  <l n="1">C'est la Mort qui console, hélas! et qui fait vivre;</l>
