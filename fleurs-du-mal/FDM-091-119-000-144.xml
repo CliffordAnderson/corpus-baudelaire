@@ -7,27 +7,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-            <title rend="Le Lethe">Lethe</title>
+            <title>Abel et Caïn</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
                <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-               <name xml:id="EW">Ed Warga</name>
+               <name xml:id="ZB">Zora Breeding</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
+            <!--Below, insert the number of the poem, according to the established protocol-->
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
             <address>
                <addrLine>Jean and Alexander Heard Library</addrLine>
                <addrLine>419 21st Avenue South</addrLine>
-               <addrLine>Nashville, TN 37203</addrLine>
-               <addrLine>USA</addrLine>
+              <addrLine>Nashville, TN 37203</addrLine>
+              <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
-            <!--Below, insert the number of the poem, according to the established protocol-->
-            <idno>FDM-030-000-004-000</idno>
+            <idno>FDM-091-119-000-144</idno>
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -120,22 +120,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </witness>
             </listWit>
             <!-- create witList in sourceDesc with the different editions and their bib data
-1. 1857 Unexpurgated xml:id="U1857"
-2. 1857 Expurgated xml:id="E1857"
-3. 1861 2nd edition censored xml:id="FDM1861"
-4. 1866 Les Epaves xml:id="1866"
-5. 1868 3rd edition - posthumous xml:id="1868"
+-1. 1857 Unexpurgated xml:id="U1857"
+-2. 1857 Expurgated xml:id="E1857"
+-3. 1861 2nd edition censored xml:id="FDM1861"
+-4. 1866 Les Epaves xml:id="1866"
+-5. 1868 3rd edition - posthumous xml:id="1868"
 -->
             <!--
-<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
-for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
-You may copy it, give it away or re-use it under the terms of the Project Gutenberg
-License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
-Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
-Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
-encoding: ISO-8859-1 </p>
-<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
-Online Distributed Proofreading Team.</p>
+-<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+-for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+-You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+-License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+-Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+-Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+-encoding: ISO-8859-1 </p>
+-<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+-Online Distributed Proofreading Team.</p>
 -->
          </sourceDesc>
       </fileDesc>
@@ -143,43 +143,72 @@ Online Distributed Proofreading Team.</p>
    <text>
       <body>
          <div type="poem">
-            <head><title>LE LETHE</title></head>
-
-            <lg type="stanza" subtype="quatrain">
-               <l n="1">Viens sur mon coeur, âme cruelle et sourde,</l>
-               <l n="2">Tigre adoré, monstre aux airs indolents;</l>
-               <l n="3">Je veux longtemps plonger mes doigts tremblants</l>
-               <l n="4">Dans l'épaisseur de ta crinière lourde;</l>
+            <head>
+               <title>Abel et Caïn</title>
+            </head>
+            <lg type="couplet" n="1">
+               <l n="1">Race d'Abel, dors, bois et mange;</l>
+               <l n="2">Dieu te sourit complaisamment.</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="5">Dans tes jupons remplis de ton parfum</l>
-               <l n="6">Ensevelir ma tête endolorie,</l>
-               <l n="7">Et respirer, comme une fleur flétrie,</l>
-               <l n="8">Le doux relent de mon amour défunt.</l>
+            <lg type="couplet" n="2">
+               <l n="3">Race de Caïn, dans la fange</l>
+               <l n="4">Rampe et meurs misérablement.</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="9">Je veux dormir! dormir plutôt que vivre!</l>
-               <l n="10">Dans un sommeil, douteux comme la mort,</l>
-               <l n="11">J'étalerai mes baisers sans remord</l>
-               <l n="12">Sur ton beau corps poli comme le cuivre. </l>
+            <lg type="couplet" n="3">
+               <l n="5">Race d'Abel, ton sacrifice</l>
+               <l n="6">Flatte le nez du Séraphin!</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="13">Pour engloutir mes sanglots apaisés</l>
-               <l n="14">Rien ne me vaut l'abîme de ta couche;</l>
-               <l n="15">L'oubli puissant habite sur ta bouche,</l>
-               <l n="16">Et le Léthé coule dans tes baisers.</l>
+            <lg type="couplet" n="4">
+               <l n="7">Race de Caïn, ton supplice</l>
+               <l n="8">Aura-t-il jamais une fin?</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="17">A mon destin, désormais mon délice,</l>
-               <l n="18">J'obéirai comme un prédestiné;</l>
-               <l n="19">Martyr docile, innocent condamné,</l>
-               <l n="20">Dont la ferveur attise le supplice,</l>
+            <lg type="couplet" n="5">
+               <l n="9">Race d'Abel, vois tes semailles</l>
+               <l n="10">Et ton bétail venir à bien;</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="21">Je sucerai, pour noyer ma rancoeur,</l>
-               <l n="22">Le népenthès et la bonne ciguë</l>
-               <l n="23">Aux bouts charmants de cette gorge aiguë</l>
-               <l n="24">Qui n'a jamais emprisonné de coeur.</l>
+            <lg type="couplet" n="6">
+               <l n="11">Race de Caïn, tes entrailles</l>
+               <l n="12">Hurlent la faim comme un vieux chien.</l>
+            </lg>
+            <lg type="couplet" n="7">
+               <l n="13">Race d'Abel, chauffe ton ventre</l>
+               <l n="14">À ton foyer patriarcal;</l>
+            </lg>
+            <lg type="couplet" n="8">
+               <l n="15">Race de Caïn, dans ton antre</l>
+               <l n="16">Tremble de froid, pauvre chacal!</l>
+            </lg>
+            <lg type="couplet" n="9">
+               <l n="17">Race d'Abel, aime et pullule!</l>
+               <l n="18">Ton or fait aussi des petits.</l>
+            </lg>
+            <lg type="couplet" n="10">
+               <l n="19">Race de Caïn, coeur qui brûle,</l>
+               <l n="20">Prends garde à ces grands appétits.</l>
+            </lg>
+            <lg type="couplet" n="11">
+               <l n="21">Race d'Abel, tu croîs et broutes</l>
+               <l n="22">Comme les punaises des bois!</l>
+            </lg>
+            <lg type="couplet" n="12">
+               <l n="23">Race de Caïn, sur les routes</l>
+               <l n="24">Traîne ta famille aux abois.</l>
+            </lg>
+            <lg type="couplet" n="13">
+               <l n="25">Ah! race d'Abel, ta charogne</l>
+               <l n="26">Engraissera le sol fumant!</l>
+            </lg>
+            <lg type="couplet" n="14">
+               <l n="27">Race de Caïn, ta besogne</l>
+               <l n="28">N'est pas faite suffisamment;</l>
+            </lg>
+            <lg type="couplet" n="15">
+               <l n="29">Race d'Abel, voici ta honte:</l>
+               <l n="30">Le fer est vaincu par l'épieu!</l>
+            </lg>
+            <lg type="couplet" n="16">
+               <l n="31">Race de Caïn, au ciel monte,</l>
+               <l n="32">Et sur la terre jette Dieu!</l>
             </lg>
          </div>
       </body>
