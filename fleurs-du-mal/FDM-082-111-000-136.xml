@@ -6,13 +6,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-            <title rend="Le Lethe">Lethe</title>
+            <title>Femmes damnées</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-               <name xml:id="EW">Ed Warga</name>
+               <name xml:id="RP">Rebecca Panter</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
@@ -26,8 +24,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
-            <!--Below, insert the number of the poem, according to the established protocol-->
-            <idno>FDM-030-000-004-000</idno>
+            <idno>FDM-082-111-000-136</idno>
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -143,43 +140,50 @@ Online Distributed Proofreading Team.</p>
    <text>
       <body>
          <div type="poem">
-            <head><title>LE LETHE</title></head>
-
-            <lg type="stanza" subtype="quatrain">
-               <l n="1">Viens sur mon coeur, âme cruelle et sourde,</l>
-               <l n="2">Tigre adoré, monstre aux airs indolents;</l>
-               <l n="3">Je veux longtemps plonger mes doigts tremblants</l>
-               <l n="4">Dans l'épaisseur de ta crinière lourde;</l>
+            <head>
+               <title>FEMMES DAMNÉES</title>
+            </head>
+            <lg type="stanza" subtype="quatrain" n="1">
+               <l n="1">Comme un bétail pensif sur le sable couchées,</l>
+               <l n="2">Elles tournent leurs yeux vers l'horizon des mers,</l>
+               <l n="3">Et leurs pieds se cherchant et leurs mains rapprochées</l>
+               <l n="4">Ont de douces langueurs et des frissons amers.</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="5">Dans tes jupons remplis de ton parfum</l>
-               <l n="6">Ensevelir ma tête endolorie,</l>
-               <l n="7">Et respirer, comme une fleur flétrie,</l>
-               <l n="8">Le doux relent de mon amour défunt.</l>
+            <lg type="stanza" subtype="quatrain" n="2">
+               <l n="5">Les unes, coeurs épris des longues confidences,</l>
+               <l n="6">Dans le fond des bosquets où jasent les ruisseaux,</l>
+               <l n="7">Vont épelant l'amour des craintives enfances</l>
+               <l n="8">Et creusent le bois vert des jeunes arbrisseaux;</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="9">Je veux dormir! dormir plutôt que vivre!</l>
-               <l n="10">Dans un sommeil, douteux comme la mort,</l>
-               <l n="11">J'étalerai mes baisers sans remord</l>
-               <l n="12">Sur ton beau corps poli comme le cuivre. </l>
+            <lg type="stanza" subtype="quatrain" n="3">
+               <l n="9">D'autres, comme des soeurs, marchent lentes et graves</l>
+               <l n="10">À travers les rochers pleins d'apparitions,</l>
+               <l n="11">Où saint Antoine a vu surgir comme des laves</l>
+               <l n="12">Les seins nus et pourprés de ses tentations;</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="13">Pour engloutir mes sanglots apaisés</l>
-               <l n="14">Rien ne me vaut l'abîme de ta couche;</l>
-               <l n="15">L'oubli puissant habite sur ta bouche,</l>
-               <l n="16">Et le Léthé coule dans tes baisers.</l>
+            <lg type="stanza" subtype="quatrain" n="4">
+               <l n="13">II en est, aux lueurs des résines croulantes,</l>
+               <l n="14">Qui dans le creux muet des vieux antres païens</l>
+               <l n="15">T'appellent au secours de leurs fièvres hurlantes,</l>
+               <l n="16">Ô Bacchus, endormeur des remords anciens!</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="17">A mon destin, désormais mon délice,</l>
-               <l n="18">J'obéirai comme un prédestiné;</l>
-               <l n="19">Martyr docile, innocent condamné,</l>
-               <l n="20">Dont la ferveur attise le supplice,</l>
+            <lg type="stanza" subtype="quatrain" n="5">
+               <l n="17">Et d'autres, dont la gorge aime les scapulaires,</l>
+               <l n="18">Qui, recélant un fouet sous leurs longs vêtements,</l>
+               <l n="19">Mêlent, dans le bois sombre et les nuits solitaires,</l>
+               <l n="20">L'écume du plaisir aux larmes des tourments.</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="21">Je sucerai, pour noyer ma rancoeur,</l>
-               <l n="22">Le népenthès et la bonne ciguë</l>
-               <l n="23">Aux bouts charmants de cette gorge aiguë</l>
-               <l n="24">Qui n'a jamais emprisonné de coeur.</l>
+            <lg type="stanza" subtype="quatrain" n="6">
+               <l n="21">Ô vierges, ô démons, ô monstres, ô martyres,</l>
+               <l n="22">De la réalité grands esprits contempteurs,</l>
+               <l n="23">Chercheuses d'infini, dévotes et satyres,</l>
+               <l n="24">Tantôt pleines de cris, tantôt pleines de pleurs,</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="7">
+               <l n="25">Vous que dans votre enfer mon âme a poursuivies,</l>
+               <l n="26">Pauvres soeurs, je vous aime autant que je vous plains,</l>
+               <l n="27">Pour vos mornes douleurs, vos soifs inassouvies,</l>
+               <l n="28">Et les urnes d'amour dont vos grands coeurs sont pleins</l>
             </lg>
          </div>
       </body>

@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-            <title rend="Le Lethe">Lethe</title>
+            <title rend="Les Litanies de Satan">Litanies de Satan</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
                <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-               <name xml:id="EW">Ed Warga</name>
+               <name xml:id="ZB">Zora Breeding</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
+            <!--Below, insert the number of the poem, according to the established protocol-->
             <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
             <address>
@@ -24,10 +25,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <addrLine>419 21st Avenue South</addrLine>
                <addrLine>Nashville, TN 37203</addrLine>
                <addrLine>USA</addrLine>
-            </address>
+           </address>
             <date>2014</date>
-            <!--Below, insert the number of the poem, according to the established protocol-->
-            <idno>FDM-030-000-004-000</idno>
+            <idno>FDM-092-120-000-145</idno>
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -124,7 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 2. 1857 Expurgated xml:id="E1857"
 3. 1861 2nd edition censored xml:id="FDM1861"
 4. 1866 Les Epaves xml:id="1866"
-5. 1868 3rd edition - posthumous xml:id="1868"
+5. 1868 3rd edition - posthumous xml:id="1868" 
 -->
             <!--
 <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
@@ -143,43 +143,124 @@ Online Distributed Proofreading Team.</p>
    <text>
       <body>
          <div type="poem">
-            <head><title>LE LETHE</title></head>
-
-            <lg type="stanza" subtype="quatrain">
-               <l n="1">Viens sur mon coeur, âme cruelle et sourde,</l>
-               <l n="2">Tigre adoré, monstre aux airs indolents;</l>
-               <l n="3">Je veux longtemps plonger mes doigts tremblants</l>
-               <l n="4">Dans l'épaisseur de ta crinière lourde;</l>
+            <head>
+               <title>Les Litanies de Satan</title>
+            </head>
+            <lg type="couplet" n="1">
+               <l n="1">Ô toi, le plus savant et le plus beau des Anges,</l>
+               <l n="2">Dieu trahi par le sort et privé de louanges,</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="5">Dans tes jupons remplis de ton parfum</l>
-               <l n="6">Ensevelir ma tête endolorie,</l>
-               <l n="7">Et respirer, comme une fleur flétrie,</l>
-               <l n="8">Le doux relent de mon amour défunt.</l>
+            <lg type="refrain">
+               <l n="3">Ô Satan, prends pitié de ma longue misère!</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="9">Je veux dormir! dormir plutôt que vivre!</l>
-               <l n="10">Dans un sommeil, douteux comme la mort,</l>
-               <l n="11">J'étalerai mes baisers sans remord</l>
-               <l n="12">Sur ton beau corps poli comme le cuivre. </l>
+            <lg type="couplet">
+               <l n="4">Ô Prince de l'exil, à qui l'on a fait tort</l>
+               <l n="5">Et qui, vaincu, toujours te redresses plus fort,</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="13">Pour engloutir mes sanglots apaisés</l>
-               <l n="14">Rien ne me vaut l'abîme de ta couche;</l>
-               <l n="15">L'oubli puissant habite sur ta bouche,</l>
-               <l n="16">Et le Léthé coule dans tes baisers.</l>
+            <lg type="refrain">
+               <l n="6">Ô Satan, prends pitié de ma longue misère!</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="17">A mon destin, désormais mon délice,</l>
-               <l n="18">J'obéirai comme un prédestiné;</l>
-               <l n="19">Martyr docile, innocent condamné,</l>
-               <l n="20">Dont la ferveur attise le supplice,</l>
+            <lg type="couplet">
+               <l n="7">Toi qui sais tout, grand roi des choses souterraines,</l>
+               <l n="8">Guérisseur familier des angoisses humaines,</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="21">Je sucerai, pour noyer ma rancoeur,</l>
-               <l n="22">Le népenthès et la bonne ciguë</l>
-               <l n="23">Aux bouts charmants de cette gorge aiguë</l>
-               <l n="24">Qui n'a jamais emprisonné de coeur.</l>
+            <lg type="refrain">
+               <l n="9">Ô Satan, prends pitié de ma longue misère!</l>
+            </lg>
+            <lg type="couplet">
+               <l n="10">Toi qui, même aux lépreux, aux parias maudits,</l>
+               <l n="11">Enseignes par l'amour le goût du Paradis,</l>
+            </lg>
+            <lg type="refrain">
+               <l n="12">Ô Satan, prends pitié de ma longue misère!</l>
+            </lg>
+            <lg type="couplet">
+               <l n="13">Ô toi qui de la Mort, ta vieille et forte amante,</l>
+               <l n="14">Engendras l'Espérance, — une folle charmante!</l>
+            </lg>
+            <lg type="refrain">
+               <l n="15">Ô Satan, prends pitié de ma longue misère!</l>
+            </lg>
+            <lg type="couplet">
+               <l n="16">Toi qui fais au proscrit ce regard calme et haut</l>
+               <l n="17">Qui damne tout un peuple autour d'un échafaud.</l>
+            </lg>
+            <lg type="refrain">
+               <l n="18">Ô Satan, prends pitié de ma longue misère!</l>
+            </lg>
+            <lg type="couplet">
+               <l n="19">Toi qui sais en quels coins des terres envieuses</l>
+               <l n="20">Le Dieu jaloux cacha les pierres précieuses,</l>
+            </lg>
+            <lg type="refrain">
+               <l n="21">Ô Satan, prends pitié de ma longue misère!</l>
+            </lg>
+            <lg type="couplet">
+               <l n="22">Toi dont l'oeil clair connaît les profonds arsenaux</l>
+               <l n="23">Où dort enseveli le peuple des métaux,</l>
+            </lg>
+            <lg type="refrain">
+               <l n="24">Ô Satan, prends pitié de ma longue misère!</l>
+            </lg>
+            <lg type="couplet">
+               <l n="25">>Toi dont la large main cache les précipices</l>
+               <l n="26">Au somnambule errant au bord des édifices,</l>
+            </lg>
+            <lg type="refrain">
+               <l n="27">Ô Satan, prends pitié de ma longue misère!</l>
+            </lg>
+            <lg type="couplet">
+               <l n="28">Toi qui, magiquement, assouplis les vieux os</l>
+               <l n="29">De l'ivrogne attardé foulé par les chevaux,</l>
+            </lg>
+            <lg type="refrain">
+               <l n="30">Ô Satan, prends pitié de ma longue misère!</l>
+            </lg>
+            <lg type="couplet">
+               <l n="31">Toi qui, pour consoler l'homme frêle qui souffre,</l>
+               <l n="32">Nous appris à mêler le salpêtre et le soufre,</l>
+            </lg>
+            <lg type="refrain">
+               <l n="33">Ô Satan, prends pitié de ma longue misère!</l>
+            </lg>
+            <lg type="couplet">
+               <l n="34">Toi qui poses ta marque, ô complice subtil,</l>
+               <l n="35">Sur le front du Crésus impitoyable et vil,</l>
+            </lg>
+            <lg type="refrain">
+               <l n="36">Ô Satan, prends pitié de ma longue misère!</l>
+            </lg>
+            <lg type="couplet">
+               <l n="37">Toi qui mets dans les yeux et dans le coeur des filles</l>
+               <l n="38">Le culte de la plaie et l'amour des guenilles,</l>
+            </lg>
+            <lg type="refrain">
+               <l n="39">Ô Satan, prends pitié de ma longue misère!</l>
+            </lg>
+            <lg type="couplet">
+               <l n="40">Bâton des exilés, lampe des inventeurs,</l>
+               <l n="41">Confesseur des pendus et des conspirateurs,</l>
+            </lg>
+            <lg type="refrain">
+               <l n="42">Ô Satan, prends pitié de ma longue misère!</l>
+            </lg>
+            <lg type="couplet">
+               <l n="43">Père adoptif de ceux qu'en sa noire colère</l>
+               <l n="44">Du paradis terrestre a chassés Dieu le Père,</l>
+            </lg>
+            <lg type="refrain">
+               <l n="45">Ô Satan, prends pitié de ma longue misère!</l>
+            </lg>
+            <lg>
+               <l n="46">Prière</l>
+            </lg>
+            <lg type="sestet">
+               <l n="47">Gloire et louange à toi, Satan, dans les hauteurs</l>
+               <l n="48">Du Ciel, où tu régnas, et dans les profondeurs</l>
+               <l n="49">De l'Enfer, où, vaincu, tu rêves en silence!</l>
+               <l n="50">Fais que mon âme un jour, sous l'Arbre de Science,</l>
+               <l n="51">Près de toi se repose, à l'heure où sur ton front</l>
+               <l n="52">Comme un Temple nouveau ses rameaux s'épandront!</l>
             </lg>
          </div>
       </body>

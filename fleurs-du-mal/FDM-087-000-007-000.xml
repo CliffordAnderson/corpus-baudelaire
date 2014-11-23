@@ -7,12 +7,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-            <title rend="Le Lethe">Lethe</title>
+            <title rend="Les Métamorphoses du Vampire">Métamorphoses du Vampire</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
                <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-               <name xml:id="EW">Ed Warga</name>
+               <name xml:id="RVR">Ramona V. Romero</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </address>
             <date>2014</date>
             <!--Below, insert the number of the poem, according to the established protocol-->
-            <idno>FDM-030-000-004-000</idno>
+            <idno>FDM-087-000-007-000</idno>
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -143,43 +143,40 @@ Online Distributed Proofreading Team.</p>
    <text>
       <body>
          <div type="poem">
-            <head><title>LE LETHE</title></head>
-
-            <lg type="stanza" subtype="quatrain">
-               <l n="1">Viens sur mon coeur, âme cruelle et sourde,</l>
-               <l n="2">Tigre adoré, monstre aux airs indolents;</l>
-               <l n="3">Je veux longtemps plonger mes doigts tremblants</l>
-               <l n="4">Dans l'épaisseur de ta crinière lourde;</l>
+            <head>
+               <title>Les Métamorphoses du Vampire</title>
+            </head>
+            <lg type="stanza" n="1">
+               <l n="1">La femme cependant, de sa bouche de fraise,</l>
+               <l n="2">En se tordant ainsi qu'un serpent sur la braise,</l> 
+               <l n="3">Et pétrissant ses seins sur le fer de son busc,</l> 
+               <l n="4">Laissait couler ces mots tout imprégnés de musc:</l>
+               <l n="5">— «Moi, j'ai la lèvre humide, et je sais la science</l> 
+               <l n="6">De perdre au fond d'un lit l'antique conscience.</l> 
+               <l n="7">Je sèche tous les pleurs sur mes seins triomphants,</l> 
+               <l n="8">Et fais rire les vieux du rire des enfants.</l> 
+               <l n="9">Je remplace, pour qui me voit nue et sans voiles,</l> 
+               <l n="10">La lune, le soleil, le ciel et les étoiles!</l> 
+               <l n="11">Je suis, mon cher savant, si docte aux voluptés,</l> 
+               <l n="12">Lorsque j'étouffe un homme en mes bras redoutés,</l> 
+               <l n="13">Ou lorsque j'abandonne aux morsures mon buste,</l> 
+               <l n="14">Timide et libertine, et fragile et robuste,</l> 
+               <l n="15">Que sur ces matelas qui se pâment d'émoi,</l> 
+               <l n="16">Les anges impuissants se damneraient pour moi!»</l> 
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="5">Dans tes jupons remplis de ton parfum</l>
-               <l n="6">Ensevelir ma tête endolorie,</l>
-               <l n="7">Et respirer, comme une fleur flétrie,</l>
-               <l n="8">Le doux relent de mon amour défunt.</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="9">Je veux dormir! dormir plutôt que vivre!</l>
-               <l n="10">Dans un sommeil, douteux comme la mort,</l>
-               <l n="11">J'étalerai mes baisers sans remord</l>
-               <l n="12">Sur ton beau corps poli comme le cuivre. </l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="13">Pour engloutir mes sanglots apaisés</l>
-               <l n="14">Rien ne me vaut l'abîme de ta couche;</l>
-               <l n="15">L'oubli puissant habite sur ta bouche,</l>
-               <l n="16">Et le Léthé coule dans tes baisers.</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="17">A mon destin, désormais mon délice,</l>
-               <l n="18">J'obéirai comme un prédestiné;</l>
-               <l n="19">Martyr docile, innocent condamné,</l>
-               <l n="20">Dont la ferveur attise le supplice,</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="21">Je sucerai, pour noyer ma rancoeur,</l>
-               <l n="22">Le népenthès et la bonne ciguë</l>
-               <l n="23">Aux bouts charmants de cette gorge aiguë</l>
-               <l n="24">Qui n'a jamais emprisonné de coeur.</l>
+            <lg type="stanza" n="2">
+               <l n="17">Quand elle eut de mes os sucé toute la moelle,</l> 
+               <l n="18">Et que languissamment je me tournai vers elle</l> 
+               <l n="19">Pour lui rendre un baiser d'amour, je ne vis plus</l> 
+               <l n="20">Qu'une outre aux flancs gluants, toute pleine de pus!</l> 
+               <l n="21">Je fermai les deux yeux, dans ma froide épouvante,</l> 
+               <l n="22">Et quand je les rouvris à la clarté vivante,</l> 
+               <l n="23">À mes côtés, au lieu du mannequin puissant</l> 
+               <l n="24">Qui semblait avoir fait provision de sang,</l> 
+               <l n="25">Tremblaient confusément des débris de squelette,</l> 
+               <l n="26">Qui d'eux-mêmes rendaient le cri d'une girouette</l> 
+               <l n="27">Ou d'une enseigne, au bout d'une tringle de fer,</l> 
+               <l n="28">Que balance le vent pendant les nuits d'hiver.</l>
             </lg>
          </div>
       </body>
