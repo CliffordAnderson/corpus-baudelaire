@@ -7,5 +7,5 @@ let $doc := fn:doc("C:\GitHub\corpus-baudelaire\fleurs-du-mal\fleurs-du-mal.xml"
 or in github repository at url=https://raw.githubusercontent.com/HeardLibrary/corpus-baudelaire/master/fleurs-du-mal/fleurs-du-mal.xml
 :)
 return
-$doc/tei:TEI/tei:text/tei:body//tei:div[@type]/tei:head
+$doc/tei:TEI/tei:text/tei:body//tei:div[@type][tei:head/tei:title[not(@type="sub")]]
 
