@@ -140,33 +140,51 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>LE SOLEIL</title>
+          <title>LE CRÉPUSCULE DU SOIR</title>
         </head>
-        <lg type="stanza" subtype="octave" n="1">
-          <l>Le long du vieux faubourg, où pendant aux masures</l>
-          <l>Les persiennes, abri des secrètes luxures,</l>
-          <l>Quand le soleil cruel frappe à traits redoublés</l>
-          <l>Sur la ville et les champs, sur les toits et les blés.</l>
-          <l>Je vais m'exercer seul à ma fantasque escrime,</l>
-          <l>Flairant dans tous les coins les hasards de la rime.</l>
-          <l>Trébuchant sur les mots comme sur les pavés,</l>
-          <l>Heurtant parfois des vers depuis longtemps rêvés.</l>
+        <lg type="quatrain" n="1">
+          <l n="1">Voice le soir charmant, ami du criminel;</l>
+          <l n="2">Il vient comme un complice, à pas de loup: le ciel</l>
+          <l n="3">Se ferme lentement comme une grande alcôve,</l>
+          <l n="4">Et l'homme impatient se change en bête fauve.</l>
         </lg>
-        <lg type="stanza" subtype="octave" n="2">
-          <l>Ce père nourricier, ennemi des chloroses,</l>
-          <l>Eveille dans les champs les vers comme les roses;</l>
-          <l>Il fait s'évaporer les soucis vers le ciel,</l>
-          <l>Et remplit les cerveaux et les ruches de miel.</l>
-          <l>C'est lui qui rajeunit les porteurs de béquilles</l>
-          <l>Et les rend gais et doux comme des jeunes filles,</l>
-          <l>Et commande aux moissons de croître et de mûrir</l>
-          <l>Dans le coeur immortel qui toujours veut fleurir!</l>
+        <lg type="stanza" n="2">
+          <l n="5">O soir, aimable soir, désiree par celui</l>
+          <l n="6">Dont le bras, sans mentir, peuvent dire:  Aujourd'hui</l>
+          <l n="7">Nous avons travaillé! -C'est le soir que soulage</l>
+          <l n="8">Les esprits que dévore une doleur sauvage,</l>
+          <l n="9">Le savant obstiné dont le front s'alourdit,</l>
+          <l n="10">Et l'ouvrier courbé que regagne son lit.</l>
+          <l n="11">Cependant des démons malsains dans l'atmosphère</l>
+          <l n="12">S'éveillent lourdement, comme des gens d'affaire,.</l>
+          <l n="13">Et cognent en colant les volets et l'auvent.</l>
+          <l n="14">À travers les leurs que tourmente le vent</l>
+          <l n="15">La Prostutition s'allume dans les rues;</l>
+          <l n="16">Comme une fourmilière elle ouvre ses issues;</l>
+          <l n="17">Partout elle se fraye un occulte chemin,</l>
+          <l n="18">Partout elle se fraye un occulte chemin,</l>
+          <l n="18">Elle remue au sein de la cité de fange</l>
+          <l n="19">Comme un ver qui dérobe à l'Homme ce qu'il mange.</l>
+          <l n="20">On entend çà et là les cuisines siffler,</l>
+          <l n="21">Les théatres glapir, les orchestres ronfler;</l>
+          <l n="22">Les tables d'hôte, dont le jeu fait les délices,</l>
+          <l n="23">S'emplissent de catins et d'escrocs, leurs complices,</l>
+          <l n="24">Et les voleurs, qui n'ont ni trêve ni merci</l>
+          <l n="25">Vont bientôt commencer leur travail, eux aussi,</l>
+          <l n="26">Et forcer doucement les portes et les caisses</l>
+          <l n="27">Pour vivre quelques jours et vêtir leurs maîtresses.</l>
+          <l n="28">Recueille-toi, mon âme, en ce grave moment,</l>
+          <l n="29">Et ferme ton oreille à ce rugissement.</l>
+          <l n="30">C'est l'heure où les douleurs des malades s'aigrissent!</l>
+          <l n="31">La sombre Nuit les prend a la gorge; ils finissent</l>
+          <l n="32">Leur destinée et vont vers le gouffre commun;</l>
+          <l n="33">L'hôpital se remplit de leurs soupirs. -Plus d'un</l>
+          <l n="34">Ne viendra plus chercher la soupe parfumée,</l>
+          <l n="35">Au coin du feu le soir, auprès d'une ame aimée</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="3">
-          <l>Quand, ainsi qu'un poète, il descend dans les villes,</l>
-          <l>Il ennoblit le sort des choses les plus viles,</l>
-          <l>Et s'introduit en roi, sans bruit et sans valets,</l>
-          <l>Dans tous les hôpitaux et dans tous les palais.</l>
+        <lg type="couplet" n="3">
+          <l n="34">Encore la plupart n'ont-ils jamais connu</l>
+          <l n="35">La douceur du foyer et n'ont jamais vécu!</l>
         </lg>
       </div>
     </body>

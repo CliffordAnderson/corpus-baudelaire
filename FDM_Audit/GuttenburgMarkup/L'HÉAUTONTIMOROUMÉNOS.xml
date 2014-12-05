@@ -140,33 +140,50 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>LE SOLEIL</title>
+          <title>L'HÉAUTONTIMOROUMÉNOS</title>
         </head>
-        <lg type="stanza" subtype="octave" n="1">
-          <l>Le long du vieux faubourg, où pendant aux masures</l>
-          <l>Les persiennes, abri des secrètes luxures,</l>
-          <l>Quand le soleil cruel frappe à traits redoublés</l>
-          <l>Sur la ville et les champs, sur les toits et les blés.</l>
-          <l>Je vais m'exercer seul à ma fantasque escrime,</l>
-          <l>Flairant dans tous les coins les hasards de la rime.</l>
-          <l>Trébuchant sur les mots comme sur les pavés,</l>
-          <l>Heurtant parfois des vers depuis longtemps rêvés.</l>
+        <head type="dedication">À J. G. F.</head>
+        <lg type="stanza" subtype="quatrain" n="1">
+          <l>Je te frapperai sans colère</l>
+          <l>Et sans haine,--comme un boucher,</l>
+          <l>Comme Moïse le rocher!</l>
+          <l>Et je ferai de ta paupière,</l>
         </lg>
-        <lg type="stanza" subtype="octave" n="2">
-          <l>Ce père nourricier, ennemi des chloroses,</l>
-          <l>Eveille dans les champs les vers comme les roses;</l>
-          <l>Il fait s'évaporer les soucis vers le ciel,</l>
-          <l>Et remplit les cerveaux et les ruches de miel.</l>
-          <l>C'est lui qui rajeunit les porteurs de béquilles</l>
-          <l>Et les rend gais et doux comme des jeunes filles,</l>
-          <l>Et commande aux moissons de croître et de mûrir</l>
-          <l>Dans le coeur immortel qui toujours veut fleurir!</l>
+        <lg type="stanza" subtype="quatrain" n="2">
+          <l>Pour abreuver mon Saharah,</l>
+          <l>Jaillir les eaux de la souffrance,</l>
+          <l>Mon désir gonflé d'espérance</l>
+          <l>Sur tes pleurs salés nagera</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="3">
-          <l>Quand, ainsi qu'un poète, il descend dans les villes,</l>
-          <l>Il ennoblit le sort des choses les plus viles,</l>
-          <l>Et s'introduit en roi, sans bruit et sans valets,</l>
-          <l>Dans tous les hôpitaux et dans tous les palais.</l>
+          <l>Comme un vaisseau qui prend le large,</l>
+          <l>Et dans mon coeur qu'ils soûleront</l>
+          <l>Tes chers sanglots retentiront</l>
+          <l>Comme un tambour qui bat la charge!</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="4">
+          <l>Ne suis-je pas un faux accord</l>
+          <l>Dans la divine symphonie,</l>
+          <l>Grâce à la vorace Ironie</l>
+          <l>Qui me secoue et qui me mord?</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="5">
+          <l>Elle est dans ma voix, la criarde!</l>
+          <l>C'est tout mon sang, ce poison noir!</l>
+          <l>Je suis le sinistre miroir</l>
+          <l>Où la mégère se regarde.</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="6">
+          <l>Je suis la plaie et le couteau!</l>
+          <l>Je suis le soufflet et la joue!</l>
+          <l>Je suis les membres et la roue,</l>
+          <l>Et la victime et le bourreau!</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="7">
+          <l>Je suis de mon coeur le vampire,</l>
+          <l>--Un de ces grands abandonnés</l>
+          <l>Au rire éternel condamnés,</l>
+          <l>Et qui ne peuvent plus sourire!</l>
         </lg>
       </div>
     </body>

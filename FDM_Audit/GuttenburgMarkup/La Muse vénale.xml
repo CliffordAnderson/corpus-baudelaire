@@ -138,35 +138,33 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="sonnet" n="5">
         <head>
-          <title>LE SOLEIL</title>
+          <title type="main">La Muse vénale</title>
         </head>
-        <lg type="stanza" subtype="octave" n="1">
-          <l>Le long du vieux faubourg, où pendant aux masures</l>
-          <l>Les persiennes, abri des secrètes luxures,</l>
-          <l>Quand le soleil cruel frappe à traits redoublés</l>
-          <l>Sur la ville et les champs, sur les toits et les blés.</l>
-          <l>Je vais m'exercer seul à ma fantasque escrime,</l>
-          <l>Flairant dans tous les coins les hasards de la rime.</l>
-          <l>Trébuchant sur les mots comme sur les pavés,</l>
-          <l>Heurtant parfois des vers depuis longtemps rêvés.</l>
+        <lg type="quatrain" rhyme="aaaa">
+          <l n="1" rhyme="a">Ô Muse de mon coeur, amante des palais,</l>
+          <l n="2" rhyme="a">Auras-tu, quand Janvier lâchera ses Borées,</l>
+          <l n="3" rhyme="a">Durante les noirs ennuis des neigeuses soirées,</l>
+          <l n="4" rhyme="a">Un tison pur chauffer tes deux pieds violets?</l>
         </lg>
-        <lg type="stanza" subtype="octave" n="2">
-          <l>Ce père nourricier, ennemi des chloroses,</l>
-          <l>Eveille dans les champs les vers comme les roses;</l>
-          <l>Il fait s'évaporer les soucis vers le ciel,</l>
-          <l>Et remplit les cerveaux et les ruches de miel.</l>
-          <l>C'est lui qui rajeunit les porteurs de béquilles</l>
-          <l>Et les rend gais et doux comme des jeunes filles,</l>
-          <l>Et commande aux moissons de croître et de mûrir</l>
-          <l>Dans le coeur immortel qui toujours veut fleurir!</l>
+        <lg type="quatrain" rhyme="aaaa">
+          <l n="5" rhyme="a">Ranimeras-tu donc tes épaules marbrées</l>
+          <l n="6" rhyme="a" enjamb="yes">Aux nocturnes rayons qui percent les
+                        volets?</l>
+          <l n="7" rhyme="a">Sentant ta bourse à sec autant que ton palais</l>
+          <l n="8" rhyme="a" enjamb="yes">Récolteras-tu l'or des voutes azurées?</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="3">
-          <l>Quand, ainsi qu'un poète, il descend dans les villes,</l>
-          <l>Il ennoblit le sort des choses les plus viles,</l>
-          <l>Et s'introduit en roi, sans bruit et sans valets,</l>
-          <l>Dans tous les hôpitaux et dans tous les palais.</l>
+        <lg type="tercet" rhyme="bbc">
+          <l n="9" rhyme="b">Il te faut, pour gagner ton pain de chaque soir,</l>
+          <l n="10" rhyme="b">Comme un enfant de choeur, jouer de l'escensoir,</l>
+          <l n="11" rhyme="c">Chanter des Te Deum auxquels tu ne coir guère,</l>
+        </lg>
+        <lg type="tercet" rhyme="ddc">
+          <l n="12" rhyme="d">Ou, saltimbanque à Jeun, étaler tes appas</l>
+          <l n="13" rhyme="d" enjamb="yes">Et ton rire trempé de pleurs qu'on ne voit
+                        pas,</l>
+          <l n="14" rhyme="c">Pour faire épanouir la rate du vulgaire.</l>
         </lg>
       </div>
     </body>

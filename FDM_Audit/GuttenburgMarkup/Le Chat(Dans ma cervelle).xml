@@ -140,34 +140,72 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>LE SOLEIL</title>
+          <title type="main">Le Chat(Dans ma cervelle)</title>
         </head>
-        <lg type="stanza" subtype="octave" n="1">
-          <l>Le long du vieux faubourg, où pendant aux masures</l>
-          <l>Les persiennes, abri des secrètes luxures,</l>
-          <l>Quand le soleil cruel frappe à traits redoublés</l>
-          <l>Sur la ville et les champs, sur les toits et les blés.</l>
-          <l>Je vais m'exercer seul à ma fantasque escrime,</l>
-          <l>Flairant dans tous les coins les hasards de la rime.</l>
-          <l>Trébuchant sur les mots comme sur les pavés,</l>
-          <l>Heurtant parfois des vers depuis longtemps rêvés.</l>
-        </lg>
-        <lg type="stanza" subtype="octave" n="2">
-          <l>Ce père nourricier, ennemi des chloroses,</l>
-          <l>Eveille dans les champs les vers comme les roses;</l>
-          <l>Il fait s'évaporer les soucis vers le ciel,</l>
-          <l>Et remplit les cerveaux et les ruches de miel.</l>
-          <l>C'est lui qui rajeunit les porteurs de béquilles</l>
-          <l>Et les rend gais et doux comme des jeunes filles,</l>
-          <l>Et commande aux moissons de croître et de mûrir</l>
-          <l>Dans le coeur immortel qui toujours veut fleurir!</l>
-        </lg>
-        <lg type="stanza" subtype="quatrain" n="3">
-          <l>Quand, ainsi qu'un poète, il descend dans les villes,</l>
-          <l>Il ennoblit le sort des choses les plus viles,</l>
-          <l>Et s'introduit en roi, sans bruit et sans valets,</l>
-          <l>Dans tous les hôpitaux et dans tous les palais.</l>
-        </lg>
+        <div type="I">
+          <lg type="stanza" subtype="quatrain">
+            <l n="1">Dans ma cervelle se promène,</l>
+            <l n="2">Ainsi qu'en son appartement,</l>
+            <l n="3">Un beau chat, fort, doux et charmant.</l>
+            <l n="4">Quand il miaule, on l'entend à peine,</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l n="5">Tant son timbre est tendre et discret;</l>
+            <l n="6">Mais que sa voix s'apaise ou gronde,</l>
+            <l n="7">Elle est toujours riche et profonde.</l>
+            <l n="8">C'est là son charme et son secret.</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l n="9">Cette voix, qui perle et qui filtre</l>
+            <l n="10">Dans mon fonds le plus ténébreux,</l>
+            <l n="11">Me remplit comme un vers nombreux</l>
+            <l n="12" rhyme="d">Et ,e réjouit comme un philtre.</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l n="13">Elle endort les plus cruels maux</l>
+            <l n="14">Et contient tous les extases;</l>
+            <l n="15">Pour dire les plus longues phrases</l>
+            <l n="16">Elle n'a pas besoin de mots.</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l n="17">Non, il n'est pas d'archet qui morde</l>
+            <l n="18">Sur mon coeur, parfait instument,</l>
+            <l n="19">Et fasse plus royalement</l>
+            <l n="20">Chanter sa plus vibrante corde,</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l n="21">que ta voix, chat mystérieux,</l>
+            <l n="22">Chat sérafique, chat étrange,</l>
+            <l n="23">En qui tout est, comme en un ange,</l>
+            <l n="24">Aussi subtil qu'harmonieux</l>
+          </lg>
+        </div>
+        <div type="II">
+          <lg type="stanza" subtype="quatrain">
+            <l n="1">De sa fourrure blonde et brune,</l>
+            <l n="2">Sort un parfum si doux, qu'un soir</l>
+            <l n="3">J'en fus embaumé, pour l'avoir</l>
+            <l n="4">Caressée une fois, rien qu'une.</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l n="5">C'est l'esprit familier du lieu;</l>
+            <l n="6">Il juge, il préside, il inspire</l>
+            <l n="7">Toutes choses dans son empire;</l>
+            <l n="8">peut-etre est-il fée, est-il-dieu?</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l n="9">Quand mes yeux, cers ce chat que j'aime</l>
+            <l n="10">Tirés comme par un aimant,</l>
+            <l n="11">Se retournent docilement</l>
+            <l n="12">Et que je regarde en moi meme</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l n="13">Je vois avec étonnement</l>
+            <l n="14">Le feu de ses paunelles pales</l>
+            <l n="15">Clairs fanaux, vivantes opales</l>
+            <l n="16">Qui me contemplent fixement.</l>
+          </lg>
+        </div>
       </div>
     </body>
   </text>

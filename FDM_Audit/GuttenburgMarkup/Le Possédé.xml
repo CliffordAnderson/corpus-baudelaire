@@ -138,35 +138,31 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="sonnet">
         <head>
-          <title>LE SOLEIL</title>
+          <title type="main">Le Possédé</title>
         </head>
-        <lg type="stanza" subtype="octave" n="1">
-          <l>Le long du vieux faubourg, où pendant aux masures</l>
-          <l>Les persiennes, abri des secrètes luxures,</l>
-          <l>Quand le soleil cruel frappe à traits redoublés</l>
-          <l>Sur la ville et les champs, sur les toits et les blés.</l>
-          <l>Je vais m'exercer seul à ma fantasque escrime,</l>
-          <l>Flairant dans tous les coins les hasards de la rime.</l>
-          <l>Trébuchant sur les mots comme sur les pavés,</l>
-          <l>Heurtant parfois des vers depuis longtemps rêvés.</l>
+        <lg type="stanza" subtype="quatrain">
+          <l n="1">Le soleil s'est couvert d'un crêpe. Comme lui,</l>
+          <l n="2">Ô Lune de ma vie! emmitoufle-toi d'ombre</l>
+          <l n="3">Dors ou fume à ton gré; sois muette, sois sombre,</l>
+          <l n="4">Et plonge tout enti`ere au gouffre d l'Ennui;</l>
         </lg>
-        <lg type="stanza" subtype="octave" n="2">
-          <l>Ce père nourricier, ennemi des chloroses,</l>
-          <l>Eveille dans les champs les vers comme les roses;</l>
-          <l>Il fait s'évaporer les soucis vers le ciel,</l>
-          <l>Et remplit les cerveaux et les ruches de miel.</l>
-          <l>C'est lui qui rajeunit les porteurs de béquilles</l>
-          <l>Et les rend gais et doux comme des jeunes filles,</l>
-          <l>Et commande aux moissons de croître et de mûrir</l>
-          <l>Dans le coeur immortel qui toujours veut fleurir!</l>
+        <lg type="stanza" subtype="quatrain">
+          <l n="5">Je t'aime ainsi! Pourtant, si tu veux aujourd'hui,</l>
+          <l n="6">Comme un astre éclipsé que sort de la pénombre,</l>
+          <l n="7">Te pavaner aux lieux que la Folie encombre</l>
+          <l n="8">C'est bien! Charmant poignard, jaillis de ton étui!</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="3">
-          <l>Quand, ainsi qu'un poète, il descend dans les villes,</l>
-          <l>Il ennoblit le sort des choses les plus viles,</l>
-          <l>Et s'introduit en roi, sans bruit et sans valets,</l>
-          <l>Dans tous les hôpitaux et dans tous les palais.</l>
+        <lg type="stanza" subtype="tercet">
+          <l n="9">Allume ta prunelle à la flamme des lustres!</l>
+          <l n="10">Allume le désir dans les regards des rustres!</l>
+          <l n="11">Tout de toi m'est plaisir, morbide ou pétulant;</l>
+        </lg>
+        <lg type="stanza" subtype="tercet">
+          <l n="12">Sois ce que tu voudras, nuit noire, rouge aurore;</l>
+          <l n="13">Il n'est pas une fibre en tout mon corps tremblant</l>
+          <l n="14">Qui ne crie: Ô mon cher Belzébuth, je t'adore!</l>
         </lg>
       </div>
     </body>

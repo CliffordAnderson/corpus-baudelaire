@@ -138,35 +138,59 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" n="11">
+        <!-- Is there a type of poem that has 14 then 12 verses? -->
         <head>
-          <title>LE SOLEIL</title>
+          <title type="main">Châtiment de l'Orgueil</title>
         </head>
-        <lg type="stanza" subtype="octave" n="1">
-          <l>Le long du vieux faubourg, où pendant aux masures</l>
-          <l>Les persiennes, abri des secrètes luxures,</l>
-          <l>Quand le soleil cruel frappe à traits redoublés</l>
-          <l>Sur la ville et les champs, sur les toits et les blés.</l>
-          <l>Je vais m'exercer seul à ma fantasque escrime,</l>
-          <l>Flairant dans tous les coins les hasards de la rime.</l>
-          <l>Trébuchant sur les mots comme sur les pavés,</l>
-          <l>Heurtant parfois des vers depuis longtemps rêvés.</l>
+        <lg type="quatrain" rhyme="aabbccddeeffcc">
+          <!-- This is obviously NOT a quatrain, but what is a 14 verse estrofa? -->
+          <!-- I also think that there is a cesura in this -->
+          <l n="1" rhyme="a">En ces temps merveilleux où la Théologie</l>
+          <l n="2" rhyme="a" enjamb="yes">Fleurit avec le plus de sève et d'énergie,</l>
+          <l n="3" rhyme="b">On raconte qu'un jour un docteur des plus grands</l>
+          <l n="4" rhyme="b" enjamb="yes">--Après avoir forcé les coeurs
+                        indifférents,</l>
+          <l n="5" rhyme="c" enjamb="yes">Les avoir remués dans leurs profondeurs
+                        noires;</l>
+          <l n="6" rhyme="c">Après avoir franchi vers les célestes gloires</l>
+          <l n="7" rhyme="d" enjamb="yes">Des chemins singuliers à lui-même inconnus,</l>
+          <l n="8" rhyme="d" enjamb="yes">Où les purs Esprits seuls peut-être étaient
+                        venus,</l>
+          <l n="9" rhyme="e" enjamb="yes">--Comme un homme monté trop haut, pris de
+                        panique,</l>
+          <l n="10" rhyme="e" enjamb="yes">S'écria, transporté d'un orgueil
+                        satanique:</l>
+          <l n="11" rhyme="f" enjamb="yes">«Jésus, petit Jésus! je t'ai poussé bien
+                        haut!</l>
+          <l n="12" rhyme="f">Mais, si j'avais voulu t'attaquer au défaut</l>
+          <l n="13" rhyme="c" enjamb="yes">De l'armure, ta honte égalerait ta gloire,</l>
+          <l n="14" rhyme="c" enjamb="yes">Et tu ne serais plus qu'un foetus
+                        dérisoire!»</l>
         </lg>
-        <lg type="stanza" subtype="octave" n="2">
-          <l>Ce père nourricier, ennemi des chloroses,</l>
-          <l>Eveille dans les champs les vers comme les roses;</l>
-          <l>Il fait s'évaporer les soucis vers le ciel,</l>
-          <l>Et remplit les cerveaux et les ruches de miel.</l>
-          <l>C'est lui qui rajeunit les porteurs de béquilles</l>
-          <l>Et les rend gais et doux comme des jeunes filles,</l>
-          <l>Et commande aux moissons de croître et de mûrir</l>
-          <l>Dans le coeur immortel qui toujours veut fleurir!</l>
-        </lg>
-        <lg type="stanza" subtype="quatrain" n="3">
-          <l>Quand, ainsi qu'un poète, il descend dans les villes,</l>
-          <l>Il ennoblit le sort des choses les plus viles,</l>
-          <l>Et s'introduit en roi, sans bruit et sans valets,</l>
-          <l>Dans tous les hôpitaux et dans tous les palais.</l>
+        <lg type="alexandrine" rhyme="aabbccddeeff">
+          <!-- I also think that there is a cesura in this -->
+          <l n="1" rhyme="a" enjamb="yes">Immédiatement sa raison s'en alla.</l>
+          <l n="2" rhyme="a">L'éclat de ce soleil d'un crêpe se voila</l>
+          <l n="3" rhyme="b" enjamb="yes">Tout le chaos roula dans cette
+                        intelligence,</l>
+          <l n="4" rhyme="b" enjamb="yes">Temple autrefois vivant, plein d'ordre et
+                        d'opulence.</l>
+          <l n="5" rhyme="c" enjamb="yes">Sous les plafonds duquel tant de pompe avait
+                        lui.</l>
+          <l n="6" rhyme="c" enjamb="yes">Le silence et la nuit s'installèrent en
+                        lui,</l>
+          <l n="7" rhyme="d" enjamb="yes">Comme dans un caveau dont la clef est
+                        perdue.</l>
+          <l n="8" rhyme="d" enjamb="yes">Dès lors il fut semblable aux bêtes de la
+                        rue,</l>
+          <l n="9" rhyme="e">Et, quand il s'en allait sans rien voir, à travers</l>
+          <l n="10" rhyme="e" enjamb="yes">Les champs, sans distinguer les étés des
+                        hivers,</l>
+          <l n="11" rhyme="f" enjamb="yes">Sale, inutile et laid comme une chose
+                        usée,</l>
+          <l n="12" rhyme="f" enjamb="yes">Il faisait des enfants la joie et la
+                        risée.</l>
         </lg>
       </div>
     </body>

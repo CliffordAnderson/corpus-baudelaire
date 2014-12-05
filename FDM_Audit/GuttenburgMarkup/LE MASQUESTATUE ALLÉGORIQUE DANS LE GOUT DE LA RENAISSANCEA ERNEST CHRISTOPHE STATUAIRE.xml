@@ -140,33 +140,57 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>LE SOLEIL</title>
+          <title type="main">LE MASQUE</title>
+          <title type="sub">STATUE ALLÉGORIQUE DANS LE GOUT DE LA RENAISSANCE</title>
+          <title type="sub">A ERNEST CHRISTOPHE STATUAIRE</title>
         </head>
-        <lg type="stanza" subtype="octave" n="1">
-          <l>Le long du vieux faubourg, où pendant aux masures</l>
-          <l>Les persiennes, abri des secrètes luxures,</l>
-          <l>Quand le soleil cruel frappe à traits redoublés</l>
-          <l>Sur la ville et les champs, sur les toits et les blés.</l>
-          <l>Je vais m'exercer seul à ma fantasque escrime,</l>
-          <l>Flairant dans tous les coins les hasards de la rime.</l>
-          <l>Trébuchant sur les mots comme sur les pavés,</l>
-          <l>Heurtant parfois des vers depuis longtemps rêvés.</l>
+        <lg type="stanza" n="1">
+          <l n="1">Contemplons ce trésor de grâces florentines;</l>
+          <l n="2">Dans l'ondulation de ce corps musculeux</l>
+          <l n="3">L'Elégance et la Force abondent, soeurs divines.</l>
+          <l n="4">Cette femme, morceau vraiment miraculeux,</l>
+          <l n="5">Divinement robuste, adorablement mince,</l>
+          <l n="6">Est faite pour trôner sur des lits somptueux,</l>
+          <l n="7">Et charmer les loisirs d'un pontife ou d'un prince.</l>
         </lg>
-        <lg type="stanza" subtype="octave" n="2">
-          <l>Ce père nourricier, ennemi des chloroses,</l>
-          <l>Eveille dans les champs les vers comme les roses;</l>
-          <l>Il fait s'évaporer les soucis vers le ciel,</l>
-          <l>Et remplit les cerveaux et les ruches de miel.</l>
-          <l>C'est lui qui rajeunit les porteurs de béquilles</l>
-          <l>Et les rend gais et doux comme des jeunes filles,</l>
-          <l>Et commande aux moissons de croître et de mûrir</l>
-          <l>Dans le coeur immortel qui toujours veut fleurir!</l>
+        <lg type="stanza" n="2">
+          <l n="8">--Aussi, vois ce souris fin et voluptueux</l>
+          <l n="9">Où la Fatuité promène son extase;</l>
+          <l n="10">Ce long regard sournois, langoureux et moqueur;</l>
+          <l n="11">Ce visage mignard, tout encadré de gaze,</l>
+          <l n="12">Dont chaque trait nous dit avec un air vainqueur:</l>
+          <l n="13">« La Volupté m'appelle et l'Amour me couronne! »</l>
+          <l n="14">A cet être doué de tant de majesté</l>
+          <l n="15">Vois quel charme excitant la gentillesse donne!</l>
+          <l n="16">Approchons, et tournons autour de sa beauté.</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="3">
-          <l>Quand, ainsi qu'un poète, il descend dans les villes,</l>
-          <l>Il ennoblit le sort des choses les plus viles,</l>
-          <l>Et s'introduit en roi, sans bruit et sans valets,</l>
-          <l>Dans tous les hôpitaux et dans tous les palais.</l>
+        <lg type="stanza" n="3">
+          <l n="17">O blasphème de l'art! ô surprise fatale!</l>
+          <l n="18">La femme au corps divin, promettant le bonheur,</l>
+          <l n="19">Par le haut se termine en monstre bicéphale!</l>
+        </lg>
+        <lg type="stanza" n="4">
+          <l n="20">Mais non! Ce n'est qu'un masque, un décor suborneur,</l>
+          <l n="21">Ce visage éclairé d'une exquise grimace,</l>
+          <l n="22">Et, regarde, voici, crispée atrocement,</l>
+          <l n="23">La véritable tête, et la sincère face</l>
+          <l n="24">Renversée à l'abri de la face qui ment.</l>
+          <l n="25">--Pauvre grande beauté! le magnifique fleuve</l>
+          <l n="26">De tes pleurs aboutit dans mon coeur soucieux;</l>
+          <l n="27">Ton mensonge m'enivre, et mon âme s'abreuve</l>
+          <l n="28">Aux flots que la Douleur fait jaillir de tes yeux!</l>
+        </lg>
+        <lg type="stanza" n="5">
+          <l n="29">--Mais pourquoi pleure-t-elle? Elle, beauté parfaite</l>
+          <l n="30">Qui mettrait à ses pieds le genre humain vaincu,</l>
+          <l n="31">Quel mal mystérieux ronge son flanc d'athlète?</l>
+        </lg>
+        <lg type="stanza" n="6">
+          <l n="32">--Elle pleure, insensé, parce qu'elle a vécu!</l>
+          <l n="33">Et parce qu'elle vit! Mais ce qu'elle déplore</l>
+          <l n="34">Surtout, ce qui la fait frémir jusqu'aux genoux,</l>
+          <l n="35">C'est que demain, hélas! il faudra vivre encore!</l>
+          <l n="36">Demain, après-demain et toujours!--comme nous!</l>
         </lg>
       </div>
     </body>

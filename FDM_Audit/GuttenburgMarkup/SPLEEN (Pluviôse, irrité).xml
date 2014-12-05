@@ -138,35 +138,31 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="sonnet">
         <head>
-          <title>LE SOLEIL</title>
+          <title>SPLEEN (Pluviôse, irrité)</title>
         </head>
-        <lg type="stanza" subtype="octave" n="1">
-          <l>Le long du vieux faubourg, où pendant aux masures</l>
-          <l>Les persiennes, abri des secrètes luxures,</l>
-          <l>Quand le soleil cruel frappe à traits redoublés</l>
-          <l>Sur la ville et les champs, sur les toits et les blés.</l>
-          <l>Je vais m'exercer seul à ma fantasque escrime,</l>
-          <l>Flairant dans tous les coins les hasards de la rime.</l>
-          <l>Trébuchant sur les mots comme sur les pavés,</l>
-          <l>Heurtant parfois des vers depuis longtemps rêvés.</l>
+        <lg type="stanza" subtype="quatrain" n="1">
+          <l n="1">Pluviôse, irrité contre la vie entière,</l>
+          <l n="2">De son urne à grands flots vers un froid ténébreux</l>
+          <l n="3">Aux pâles habitants du voisin cimetière</l>
+          <l n="4">Et la mortalité sur les faubourgs brumeux.</l>
         </lg>
-        <lg type="stanza" subtype="octave" n="2">
-          <l>Ce père nourricier, ennemi des chloroses,</l>
-          <l>Eveille dans les champs les vers comme les roses;</l>
-          <l>Il fait s'évaporer les soucis vers le ciel,</l>
-          <l>Et remplit les cerveaux et les ruches de miel.</l>
-          <l>C'est lui qui rajeunit les porteurs de béquilles</l>
-          <l>Et les rend gais et doux comme des jeunes filles,</l>
-          <l>Et commande aux moissons de croître et de mûrir</l>
-          <l>Dans le coeur immortel qui toujours veut fleurir!</l>
+        <lg type="stanza" subtype="quatrain" n="2">
+          <l n="5">Mon chat sur le carreau cherchant une litière</l>
+          <l n="6">Agite sans repos son corps maigre et galeux;</l>
+          <l n="7">L'âme d'un vieux poète erre dans la gouttière</l>
+          <l n="8">Avec la triste voix d'un fantôme frileux.</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="3">
-          <l>Quand, ainsi qu'un poète, il descend dans les villes,</l>
-          <l>Il ennoblit le sort des choses les plus viles,</l>
-          <l>Et s'introduit en roi, sans bruit et sans valets,</l>
-          <l>Dans tous les hôpitaux et dans tous les palais.</l>
+        <lg type="stanza" subtype="tercet" n="3">
+          <l n="9">Le bourdon se lamente, et la bûche enfumée</l>
+          <l n="10">Accompagne en fausset la pendule enrhumée</l>
+          <l n="11">Cependant qu'en un jeu plein de sales parfums,</l>
+        </lg>
+        <lg type="stanza" subtype="tercet" n="4">
+          <l n="12">Héritage fatal d'une vieille hydropique,</l>
+          <l n="13">Le beau valet de coeur et la dame de pique</l>
+          <l n="14">Causent sinistrement de leurs amours défunts.</l>
         </lg>
       </div>
     </body>

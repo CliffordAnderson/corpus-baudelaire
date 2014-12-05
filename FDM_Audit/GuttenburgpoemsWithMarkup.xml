@@ -281,37 +281,6 @@ Online Distributed Proofreading Team.</p>
     <l n="76">Ne sont que des miroirs obscurcis et<rhyme label="ll">plaintifs</rhyme>! »</l>
   </lg>
 </div>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="poem" n="2" rhyme="ababcdcdefefghgh">
-  <head>L'ALBATROS</head>
-  <lg type="stanza" n="1" rhyme="abab">
-    <l n="1">Souvent, pour s'amuser, les hommes<rhyme label="a">d'équipage</rhyme>
-    </l>
-    <l n="2">Prennent des albatros, vastes oiseaux des<rhyme label="b">mers</rhyme>,</l>
-    <l n="3">Qui suivent, indolents compagnons<rhyme label="a">de
-                        voyage</rhyme>,</l>
-    <l n="4">Le navire glissant sur les gouffres<rhyme label="b">amers</rhyme>.</l>
-  </lg>
-  <lg type="stanza" n="2" rhyme="cdcd">
-    <l n="5">A peine les ont-ils déposés sur les<rhyme label="c">planches</rhyme>,</l>
-    <l n="6">Que ces rois de l'azur, maladroits et<rhyme label="d">honteux</rhyme>,</l>
-    <l n="7">Laissent piteusement leurs grandes ailes<rhyme label="c">blanches</rhyme>
-    </l>
-    <l n="8">Comme des avirons traîner à côté<rhyme label="d">d'eux</rhyme>.</l>
-  </lg>
-  <lg type="stanza" n="3" rhyme="efef">
-    <l n="9">Ce voyageur ailé, comme il est gauche et<rhyme label="e">veule</rhyme>!</l>
-    <l n="10">Lui, naguère si beau, qu'il est comique et<rhyme label="f">laid</rhyme>!</l>
-    <l n="11">L'un agace son bec avec un brûle-<rhyme label="e">gueule</rhyme>,</l>
-    <l n="12">L'autre mime, en boitant, l'infirme qui<rhyme label="f">volait</rhyme>!</l>
-  </lg>
-  <lg type="stanza" n="4" rhyme="ghgh">
-    <l n="13">Le Poète est semblable au prince des<rhyme label="g">nuées</rhyme>
-    </l>
-    <l n="14">Qui hante la tempête et se rit de<rhyme label="h">l'archer</rhyme>;</l>
-    <l n="15">Exilé sur le sol au milieu des<rhyme label="g">huées</rhyme>,</l>
-    <l n="16">Ses ailes de géant l'empêchent de<rhyme label="h">marcher</rhyme>.</l>
-  </lg>
-</div>
 <div xmlns="http://www.tei-c.org/ns/1.0" type="poem" n="3" rhyme="abbacddceffeghhgijji">
   <head>
     <title>ELEVATION</title>
@@ -897,52 +866,6 @@ Online Distributed Proofreading Team.</p>
     <l n="35">Où je hume à longs traits le vin du souvenir?</l>
   </lg>
 </div>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
-  <head>Je t'adore à l'égal de la voûte nocturne</head>
-  <!--untitled poem. Used first line as head-->
-  <lg type="stanza" n="1">
-    <l n="1">Je t'adore à l'égal de la voûte nocturne,</l>
-    <l n="2">O vase de tristesse, ô grande taciturne,</l>
-    <l n="3">Et t'aime d'autant plus, belle, que tu me fuis,</l>
-    <l n="4">Et que tu me parais, ornement de mes nuits,</l>
-    <l n="5">Plus ironiquement accumuler les lieues</l>
-    <l n="6">Qui séparent mes bras des immensités bleues.</l>
-  </lg>
-  <lg type="stanza" n="2">
-    <l n="7">Je m'avance à l'attaque, et je grimpe aux assauts,</l>
-    <l n="8">Comme après un cadavre un choeur de vermisseaux,</l>
-    <l n="9">Et je chéris, ô bête implacable et cruelle,</l>
-    <l n="10">Jusqu'à cette froideur par où tu m'es plus belle!</l>
-  </lg>
-</div>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
-  <head>Tu mettrais l'univers entier dans ta ruelle</head>
-  <!--untitled poem. Used first line as head-->
-  <lg type="stanza" n="1">
-    <l n="1">Tu mettrais l'univers entier dans ta ruelle,</l>
-    <l n="2">Femme impure! L'ennui rend ton âme cruelle.</l>
-    <l n="3">Pour exercer tes dents à ce jeu singulier,</l>
-    <l n="4">Il te faut chaque jour un coeur au râtelier.</l>
-    <l n="5">Tes yeux, illuminés ainsi que des boutiques</l>
-    <l n="6">Ou des ifs flamboyants dans les fêtes publiques,</l>
-    <l n="7">Usent insolemment d'un pouvoir emprunté,</l>
-    <l n="8">Sans connaître jamais la loi de leur beauté.</l>
-  </lg>
-  <lg type="stanza" n="2">
-    <l n="9">Machine aveugle et sourde en cruauté féconde!</l>
-    <l n="10">Salutaire instrument, buveur du sang du monde,</l>
-    <l n="11">Comment n'as-tu pas honte, et comment n'as-tu pas</l>
-    <l n="12">Devant tous les miroirs vu pâlir tes appas?</l>
-    <l n="13">La grandeur de ce mal où tu te crois savante</l>
-    <l n="14">Ne t'a donc jamais fait reculer d'épouvante,</l>
-    <l n="15">Quand la nature, grande en ses desseins cachés,</l>
-    <l n="16">De toi se sert, ô femme, ô reine des péchés,</l>
-    <l n="17">--De toi, vil animal,--pour pétrir un génie?</l>
-  </lg>
-  <lg type="stanza" n="3">
-    <l n="18">O fangeuse grandeur, sublime ignominie!</l>
-  </lg>
-</div>
 <div xmlns="http://www.tei-c.org/ns/1.0" type="poem" subtype="sonnet" n="" rhyme="abbaabbaccdede">
   <head>
     <title>SED NON SATIATA</title>
@@ -1095,7 +1018,7 @@ Online Distributed Proofreading Team.</p>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0" type="sonnet">
   <head>
-    <title type="main">Le Chat</title>
+    <title type="main">Le Chat (Viens, mon beau chat)</title>
   </head>
   <lg type="stanza" subtype="quatrain">
     <l n="1">Viens, mon beau chat, sur mon coeur amoureux:</l>
@@ -1545,7 +1468,7 @@ Online Distributed Proofreading Team.</p>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
   <head>
-    <title type="main">Le Chat</title>
+    <title type="main">Le Chat(Dans ma cervelle)</title>
   </head>
   <div type="I">
     <lg type="stanza" subtype="quatrain">
@@ -1611,70 +1534,6 @@ Online Distributed Proofreading Team.</p>
       <l n="16">Qui me contemplent fixement.</l>
     </lg>
   </div>
-</div>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="I">
-  <lg type="stanza" subtype="quatrain">
-    <l n="1">Dans ma cervelle se promène,</l>
-    <l n="2">Ainsi qu'en son appartement,</l>
-    <l n="3">Un beau chat, fort, doux et charmant.</l>
-    <l n="4">Quand il miaule, on l'entend à peine,</l>
-  </lg>
-  <lg type="stanza" subtype="quatrain">
-    <l n="5">Tant son timbre est tendre et discret;</l>
-    <l n="6">Mais que sa voix s'apaise ou gronde,</l>
-    <l n="7">Elle est toujours riche et profonde.</l>
-    <l n="8">C'est là son charme et son secret.</l>
-  </lg>
-  <lg type="stanza" subtype="quatrain">
-    <l n="9">Cette voix, qui perle et qui filtre</l>
-    <l n="10">Dans mon fonds le plus ténébreux,</l>
-    <l n="11">Me remplit comme un vers nombreux</l>
-    <l n="12" rhyme="d">Et ,e réjouit comme un philtre.</l>
-  </lg>
-  <lg type="stanza" subtype="quatrain">
-    <l n="13">Elle endort les plus cruels maux</l>
-    <l n="14">Et contient tous les extases;</l>
-    <l n="15">Pour dire les plus longues phrases</l>
-    <l n="16">Elle n'a pas besoin de mots.</l>
-  </lg>
-  <lg type="stanza" subtype="quatrain">
-    <l n="17">Non, il n'est pas d'archet qui morde</l>
-    <l n="18">Sur mon coeur, parfait instument,</l>
-    <l n="19">Et fasse plus royalement</l>
-    <l n="20">Chanter sa plus vibrante corde,</l>
-  </lg>
-  <lg type="stanza" subtype="quatrain">
-    <l n="21">que ta voix, chat mystérieux,</l>
-    <l n="22">Chat sérafique, chat étrange,</l>
-    <l n="23">En qui tout est, comme en un ange,</l>
-    <l n="24">Aussi subtil qu'harmonieux</l>
-  </lg>
-</div>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="II">
-  <lg type="stanza" subtype="quatrain">
-    <l n="1">De sa fourrure blonde et brune,</l>
-    <l n="2">Sort un parfum si doux, qu'un soir</l>
-    <l n="3">J'en fus embaumé, pour l'avoir</l>
-    <l n="4">Caressée une fois, rien qu'une.</l>
-  </lg>
-  <lg type="stanza" subtype="quatrain">
-    <l n="5">C'est l'esprit familier du lieu;</l>
-    <l n="6">Il juge, il préside, il inspire</l>
-    <l n="7">Toutes choses dans son empire;</l>
-    <l n="8">peut-etre est-il fée, est-il-dieu?</l>
-  </lg>
-  <lg type="stanza" subtype="quatrain">
-    <l n="9">Quand mes yeux, cers ce chat que j'aime</l>
-    <l n="10">Tirés comme par un aimant,</l>
-    <l n="11">Se retournent docilement</l>
-    <l n="12">Et que je regarde en moi meme</l>
-  </lg>
-  <lg type="stanza" subtype="quatrain">
-    <l n="13">Je vois avec étonnement</l>
-    <l n="14">Le feu de ses paunelles pales</l>
-    <l n="15">Clairs fanaux, vivantes opales</l>
-    <l n="16">Qui me contemplent fixement.</l>
-  </lg>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
   <head>
@@ -1820,80 +1679,6 @@ Online Distributed Proofreading Team.</p>
     </lg>
   </div>
 </div>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="I">
-  <lg type="stanza" n="1" subtype="cinquain">
-    <l n="1">Pouvons-nous étouffer le vieux, le long Remords,</l>
-    <l n="2">Que vit, s'agite et se tortille,</l>
-    <l n="3">Et se nourrit de nous comme le ver des morts,</l>
-    <l n="4">Comme du chêne la chenille?</l>
-    <l n="5">Pouvons-nous étouffer l'implacable Remords?&gt;</l>
-  </lg>
-  <lg type="stanza" n="2" subtype="cinquain">
-    <l n="6">Dans quel philtre, dans quel vin, dans quelle tisane</l>
-    <l n="7">Noierons-nous ce vieil ennemi,</l>
-    <l n="8">Destructeur et gourmand comme la courtisane,</l>
-    <l n="9">Patient comme la fourmi?</l>
-    <l n="10">Dans quel philtre? — dans quel vin? — dans quelle tisane?</l>
-  </lg>
-  <lg type="stanza" n="3" subtype="cinquain">
-    <l n="11">Dis-le, belle sorcière, oh! dis, si tu le sais,</l>
-    <l n="12">À cet esprit comblé d'angoisse</l>
-    <l n="13">Et pareil au mourant qu'écrasent les blessés,</l>
-    <l n="14">Que le sabot du cheval froisse,</l>
-    <l n="15">Dis-le, belle sorcière, oh! dis, si tu le sais,</l>
-  </lg>
-  <lg type="stanza" n="4" subtype="cinquain">
-    <l n="16">À cet agonisant que le loup déjà flaire</l>
-    <l n="17">Et que surveille le corbeau,</l>
-    <l n="18">À ce soldat brisé, s'il faut qu'il désespère</l>
-    <l n="19">D'avoir sa croix et son tombeau;</l>
-    <l n="20">Ce pauvre agonisant que déjà le loup flaire!</l>
-  </lg>
-  <lg type="stanza" n="5" subtype="cinquain">
-    <l n="21">Peut-on illuminer un ciel bourbeux et noir?</l>
-    <l n="22">Peut-on déchirer des ténèbres</l>
-    <l n="23">Plus denses que la poix, sans matin et sans soir,</l>
-    <l n="24">Sans astres, sans éclairs funèbres?</l>
-    <l n="25">Peut-on illuminer un ciel bourbeux et noir?</l>
-  </lg>
-  <lg type="stanza" n="6" subtype="cinquain">
-    <l n="26">L'Espérance qui brille aux carreaux de l'Auberge</l>
-    <l n="27">Est soufflée, est morte à jamais!</l>
-    <l n="28">Sans lune et sans rayons, trouver où l'on héberge</l>
-    <l n="29">Les martyrs d'un chemin mauvais!</l>
-    <l n="30">Le Diable a tout éteint aux carreaux de l'Auberge!</l>
-  </lg>
-  <lg type="stanza" n="7" subtype="cinquain">
-    <l n="31">Adorable sorcière, aimes-tu les damnés?</l>
-    <l n="32">Dis, connais-tu l'irrémissible?</l>
-    <l n="33">Connais-tu le Remords, aux traits empoisonnés,</l>
-    <l n="34">À qui notre coeur sert de cible?</l>
-    <l n="35">Adorable sorcière, aimes-tu les damnés?</l>
-  </lg>
-  <lg type="stanza" n="8" subtype="cinquain">
-    <l n="36">L'Irréparable ronge avec sa dent maudite</l>
-    <l n="37">Notre âme, piteux monument,</l>
-    <l n="38">Et souvent il attaque, ainsi que le termite,</l>
-    <l n="39">Par la base le bâtiment.</l>
-    <l n="40">L'Irréparable ronge avec sa dent maudite!</l>
-  </lg>
-</div>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="II">
-  <lg type="stanza" n="9" subtype="cinquain">
-    <l n="41">J'ai vu parfois, au fond d'un théâtre banal</l>
-    <l n="42">Qu'enflammait l'orchestre sonore,</l>
-    <l n="43">Une fée allumer dans un ciel infernal</l>
-    <l n="44">Une miraculeuse aurore;</l>
-    <l n="45">J'ai vu parfois au fond d'un théâtre banal</l>
-  </lg>
-  <lg type="stanza" n="10" subtype="cinquain">
-    <l n="46">Un être, qui n'était que lumière, or et gaze,</l>
-    <l n="47">Terrasser l'énorme Satan</l>
-    <l n="48">Mais mon coeur, que jamais ne visite l'extase,</l>
-    <l n="49">Est un théâtre où l'on attend</l>
-    <l n="50">Toujours. toujours en vain, l'Etre aux ailes de gaze!</l>
-  </lg>
-</div>
 <div xmlns="http://www.tei-c.org/ns/1.0" type="poem" subtype="sonnet">
   <head>
     <title>Causerie</title>
@@ -1971,52 +1756,6 @@ Online Distributed Proofreading Team.</p>
       <l n="28">De l'arrière-saison le rayon jaune et doux!</l>
     </lg>
   </div>
-</div>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="I">
-  <lg type="stanza" n="1" subtype="quatrain">
-    <l n="1">Bientôt nous plongerons dans les froides ténèbres;</l>
-    <l n="2">Adieu, vive clarté de nos étés trop courts!</l>
-    <l n="3">J'entends déjà tomber avec des chocs funèbres</l>
-    <l n="4">Le bois retentissant sur le pavé des cours.</l>
-  </lg>
-  <lg type="stanza" n="2" subtype="quatrain">
-    <l n="5">Tout l'hiver va rentrer dans mon être: colère,</l>
-    <l n="6">Haine, frissons, horreur, labeur dur et forcé,</l>
-    <l n="7">Et, comme le soleil dans son enfer polaire.</l>
-    <l n="8">Mon coeur ne sera plus qu'un bloc rouge et glacé.</l>
-  </lg>
-  <lg type="stanza" n="3" subtype="quatrain">
-    <l n="9">J'écoute en frémissant chaque bûche qui tombe;</l>
-    <l n="10">L'échafaud qu'on bâtit n'a pas d'écho plus sourd.</l>
-    <l n="11">Mon esprit est pareil à la tour qui succombe</l>
-    <l n="12">Sous les coups du bélier infatigable et lourd.</l>
-  </lg>
-  <lg type="stanza" n="4" subtype="quatrain">
-    <l n="13">II me semble, bercé par ce choc monotone,</l>
-    <l n="14">Qu'on cloue en grande hâte un cercueil quelque part...</l>
-    <l n="15">Pour qui?--C'était hier l'été; voici l'automne!</l>
-    <l n="16">Ce bruit mystérieux sonne comme un départ.</l>
-  </lg>
-</div>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="II">
-  <lg type="stanza" n="5" subtype="quatrain">
-    <l n="17">J'aime de vos longs yeux la lumière verdâtre,</l>
-    <l n="18">Douce beauté, mais tout aujourd'hui m'est amer,</l>
-    <l n="19">Et rien, ni votre amour, ni le boudoir, ni l'âtre,</l>
-    <l n="20">Ne me vaut le soleil rayonnant sur la mer.</l>
-  </lg>
-  <lg type="stanza" n="6" subtype="quatrain">
-    <l n="21">Et pourtant aimez-moi, tendre coeur! soyez mère</l>
-    <l n="22">Même pour un ingrat, même pour un méchant;</l>
-    <l n="23">Amante ou soeur, soyez la douceur éphémère</l>
-    <l n="24">D'un glorieux automne ou d'un soleil couchant.</l>
-  </lg>
-  <lg type="stanza" n="7" subtype="quatrain">
-    <l n="25">Courte tâche! La tombe attend; elle est avide!</l>
-    <l n="26">Ah! laissez-moi, mon front posé sur vos genoux,</l>
-    <l n="27">Goûter, en regrettant l'été blanc et torride,</l>
-    <l n="28">De l'arrière-saison le rayon jaune et doux!</l>
-  </lg>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
   <head>
@@ -2362,7 +2101,7 @@ Online Distributed Proofreading Team.</p>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0" type="sonnet">
   <head>
-    <title>SPLEEN</title>
+    <title>SPLEEN (Pluviôse, irrité)</title>
   </head>
   <lg type="stanza" subtype="quatrain" n="1">
     <l n="1">Pluviôse, irrité contre la vie entière,</l>
@@ -2389,7 +2128,7 @@ Online Distributed Proofreading Team.</p>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
   <head>
-    <title>SPLEEN</title>
+    <title>Spleen (j’ai plus de souvenirs)</title>
   </head>
   <!-- Todd's going to finish this up later. -->
   <p>J'ai plus de souvenirs que si j'avais mille ans. Un gros meuble à tiroirs
@@ -2411,7 +2150,7 @@ Online Distributed Proofreading Team.</p>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
   <head>
-    <title>SPLEEN</title>
+    <title>SPLEEN (Je suis comme le roi)</title>
   </head>
   <lg type="stanza" n="1">
     <l n="1">Je suis comme le roi d'un pays pluvieux,</l>
@@ -2436,7 +2175,7 @@ Online Distributed Proofreading Team.</p>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0" type="poem">
   <head>
-    <title>SPLEEN</title>
+    <title>SPLEEN (Quand le ciel bas et lourd)</title>
   </head>
   <lg type="stanza" subtype="quatrain" n="1">
     <l n="1">Quand le ciel bas et lourd pèse comme un couvercle</l>

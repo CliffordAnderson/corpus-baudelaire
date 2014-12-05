@@ -138,35 +138,31 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="sonnet">
         <head>
-          <title>LE SOLEIL</title>
+          <title>LA PRIERE D'UN PAÏEN</title>
         </head>
-        <lg type="stanza" subtype="octave" n="1">
-          <l>Le long du vieux faubourg, où pendant aux masures</l>
-          <l>Les persiennes, abri des secrètes luxures,</l>
-          <l>Quand le soleil cruel frappe à traits redoublés</l>
-          <l>Sur la ville et les champs, sur les toits et les blés.</l>
-          <l>Je vais m'exercer seul à ma fantasque escrime,</l>
-          <l>Flairant dans tous les coins les hasards de la rime.</l>
-          <l>Trébuchant sur les mots comme sur les pavés,</l>
-          <l>Heurtant parfois des vers depuis longtemps rêvés.</l>
+        <lg type="stanza" subtype="quatrain" n="1">
+          <l n="1">Ah! ne ralentis pas tes flammes;</l>
+          <l n="2">Réchauffe mon coeur engourdi,</l>
+          <l n="3">Volupté, torture des âmes!</l>
+          <l n="4">_Diva! supplicem exaudi!_</l>
         </lg>
-        <lg type="stanza" subtype="octave" n="2">
-          <l>Ce père nourricier, ennemi des chloroses,</l>
-          <l>Eveille dans les champs les vers comme les roses;</l>
-          <l>Il fait s'évaporer les soucis vers le ciel,</l>
-          <l>Et remplit les cerveaux et les ruches de miel.</l>
-          <l>C'est lui qui rajeunit les porteurs de béquilles</l>
-          <l>Et les rend gais et doux comme des jeunes filles,</l>
-          <l>Et commande aux moissons de croître et de mûrir</l>
-          <l>Dans le coeur immortel qui toujours veut fleurir!</l>
+        <lg type="stanza" subtype="quatrain" n="2">
+          <l n="5">Déesse dans l'air répandue,</l>
+          <l n="6">Flamme dans notre souterrain!</l>
+          <l n="7">Exauce une âme morfondue,</l>
+          <l n="8">Qui te consacre un chant d'airain.</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="3">
-          <l>Quand, ainsi qu'un poète, il descend dans les villes,</l>
-          <l>Il ennoblit le sort des choses les plus viles,</l>
-          <l>Et s'introduit en roi, sans bruit et sans valets,</l>
-          <l>Dans tous les hôpitaux et dans tous les palais.</l>
+        <lg type="stanza" subtype="tercet" n="3">
+          <l n="9">Volupté, sois toujours ma reine!</l>
+          <l n="10">Prends le masque d'une sirène</l>
+          <l n="11">Faîte de chair et de velours.</l>
+        </lg>
+        <lg type="stanza" subtype="tercet" n="4">
+          <l n="12">Ou verse-moi tes sommeils lourds</l>
+          <l n="13">Dans le vin informe et mystique,</l>
+          <l n="14">Volupté, fantôme élastique!</l>
         </lg>
       </div>
     </body>

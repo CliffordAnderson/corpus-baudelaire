@@ -138,35 +138,31 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="sonnet">
         <head>
-          <title>LE SOLEIL</title>
+          <title type="main">Le Chat (Viens, mon beau chat)</title>
         </head>
-        <lg type="stanza" subtype="octave" n="1">
-          <l>Le long du vieux faubourg, où pendant aux masures</l>
-          <l>Les persiennes, abri des secrètes luxures,</l>
-          <l>Quand le soleil cruel frappe à traits redoublés</l>
-          <l>Sur la ville et les champs, sur les toits et les blés.</l>
-          <l>Je vais m'exercer seul à ma fantasque escrime,</l>
-          <l>Flairant dans tous les coins les hasards de la rime.</l>
-          <l>Trébuchant sur les mots comme sur les pavés,</l>
-          <l>Heurtant parfois des vers depuis longtemps rêvés.</l>
+        <lg type="stanza" subtype="quatrain">
+          <l n="1">Viens, mon beau chat, sur mon coeur amoureux:</l>
+          <l n="2">Retiens les griffes de ta patte,</l>
+          <l n="3">Et laisse-moi plonger dans tes beaux yeux,</l>
+          <l n="4">Mêlés de métal et d'agate.</l>
         </lg>
-        <lg type="stanza" subtype="octave" n="2">
-          <l>Ce père nourricier, ennemi des chloroses,</l>
-          <l>Eveille dans les champs les vers comme les roses;</l>
-          <l>Il fait s'évaporer les soucis vers le ciel,</l>
-          <l>Et remplit les cerveaux et les ruches de miel.</l>
-          <l>C'est lui qui rajeunit les porteurs de béquilles</l>
-          <l>Et les rend gais et doux comme des jeunes filles,</l>
-          <l>Et commande aux moissons de croître et de mûrir</l>
-          <l>Dans le coeur immortel qui toujours veut fleurir!</l>
+        <lg type="stanza" subtype="quatrain">
+          <l n="5">Lorsque mes doigts caressent à loisir</l>
+          <l n="6">Ta tête et ton dos élastique,</l>
+          <l n="7">Et que ma main s'enivre du plaisir</l>
+          <l n="8">De palper ton corps électrique,</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="3">
-          <l>Quand, ainsi qu'un poète, il descend dans les villes,</l>
-          <l>Il ennoblit le sort des choses les plus viles,</l>
-          <l>Et s'introduit en roi, sans bruit et sans valets,</l>
-          <l>Dans tous les hôpitaux et dans tous les palais.</l>
+        <lg type="stanza" subtype="tercet">
+          <l n="9">Je vois ma fenne en esprit. Son regard,</l>
+          <l n="10">Comme le tien, aimable bête</l>
+          <l n="11">Profond et froid, coupe et fend comme un dard,</l>
+        </lg>
+        <lg type="stanza" subtype="tercet">
+          <l n="12" rhyme="d">Et ,des pieds jusques à la t^ete,</l>
+          <l n="13">Un air subtil, un dangereux parfum</l>
+          <l n="14">Nagent autour de son corps brun.</l>
         </lg>
       </div>
     </body>
