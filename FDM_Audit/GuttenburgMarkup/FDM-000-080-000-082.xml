@@ -3,7 +3,7 @@
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>Le Gout du Neant</title>
+        <title rend="Le Gout du Neant">Gout du Neant</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Encoded by</resp>
