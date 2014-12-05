@@ -10,7 +10,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <titleStmt>
 <!-- Title element - insert name of poem. If tile starts with an article, leave it off in the title value
 and include the title with the article in a rend attribute. -->
-<title rend="La Mort des pauvres">Mort des pauvres</title>
+<title rend="Le Vin des chiffonniers">Vin des chiffonniers</title>
 <author>Charles Baudelaire</author>
 <respStmt>
 <resp>Encoded by</resp>
@@ -32,7 +32,7 @@ and include the title with the article in a rend attribute. -->
 <!-- Insert identification number. See the Editions Table 
 (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) 
 to derive the numerical ID Code. -->
-<idno>FDM-099-122-000-147</idno>
+<idno>FDM-094-105-000-129</idno>
 <!--insert id no in above element account to established format-->
 </publicationStmt>
 <sourceDesc>
@@ -90,18 +90,18 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
 <desc>1866 Les Epaves xml:id="1866"</desc>
 <biblStruct>
 <monogr>
-<title>Les …paves</title>
+<title>Les √âpaves</title>
 <author>Charles Baudelaire</author>
 <imprint>
 <pubPlace>Amsterdam</pubPlace>
-<publisher>¿ L'Enseigne du Coq</publisher>
+<publisher>√Ä L'Enseigne du Coq</publisher>
 <date>1866</date>
 <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
 this is a false imprint, the book actually being published in Brussels
 by Poulet-Malassis.</note>
 <note>Includes condemned pieces removed from Fleurs du Mal: p.
 9-55</note>
-<note>With a frontispeice etching by FÈlicien Rops</note>
+<note>With a frontispeice etching by F√©licien Rops</note>
 </imprint>
 <extent>163 p.</extent>
 </monogr>
@@ -111,12 +111,12 @@ by Poulet-Malassis.</note>
 <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
 <biblStruct>
 <monogr>
-<title>Oeuvres ComplËtes de Charles Baudelaire</title>
+<title>Oeuvres Compl√®tes de Charles Baudelaire</title>
 <author>Charles Baudelaire</author>
-<editor>ThÈophile Gautier</editor>
+<editor>Th√©ophile Gautier</editor>
 <imprint>
 <pubPlace>Paris</pubPlace>
-<publisher>Michel LÈvy FrËres</publisher>
+<publisher>Michel L√©vy Fr√®res</publisher>
 <date>1868-1873</date>
 <note>Volume 1 contains Les Fleurs du Mal</note>
 </imprint>
@@ -152,16 +152,16 @@ Online Distributed Proofreading Team.</p>
 
 <!-- Here's what this poem looked like in the source before markup:  
 <div>
-<p> LA PRIERE D'UN PAœEN </p>
+<p> LA PRIERE D'UN PA√èEN </p>
 <p/>
-<p> Ah! ne ralentis pas tes flammes; RÈchauffe mon coeur engourdi, VoluptÈ,
-torture des ‚mes! _Diva! supplicem exaudi!_ </p>
-<p> DÈesse dans l'air rÈpandue, Flamme dans notre souterrain! Exauce une ‚me
+<p> Ah! ne ralentis pas tes flammes; R√©chauffe mon coeur engourdi, Volupt√©,
+torture des √¢mes! _Diva! supplicem exaudi!_ </p>
+<p> D√©esse dans l'air r√©pandue, Flamme dans notre souterrain! Exauce une √¢me
 morfondue, Qui te consacre un chant d'airain. </p>
-<p> VoluptÈ, sois toujours ma reine! Prends le masque d'une sirËne FaÓte de
+<p> Volupt√©, sois toujours ma reine! Prends le masque d'une sir√®ne Fa√Æte de
 chair et de velours. </p>
-<p> Ou verse-moi tes sommeils lourds Dans le vin informe et mystique, VoluptÈ,
-fantÙme Èlastique! </p>
+<p> Ou verse-moi tes sommeils lourds Dans le vin informe et mystique, Volupt√©,
+fant√¥me √©lastique! </p>
 <p/>
 </div>
 -->
@@ -176,34 +176,68 @@ is a specific type like 'sonnet'. -->
 Add head and title element -->
 
 <head>
-<title>LA MORT DES PAUVRES</title>
+<title>LE VIN DES CHIFFONNIERS</title>
 </head>
 
 <!-- Add lg element with type, subtype, and n attributes 
 Add l elemnts with n attributes -->
 
 <lg type="stanza" subtype="quatrain" n="1">
- <l n="1">C'est la Mort qui console, hÈlas! et qui fait vivre;</l>
-<l n="2">C'est le but de la vie, et c'est le seul espoir</l>
-<l n="3">Qui, comme un Èlixir, nous monte et nous enivre,</l>
-<l n="4">Et nous donne le coeur de marcher jusqu'au soir;</l>
+<l n="1">Souvent √† la clart√© rouge d'un r√©verb√®re</l>
+<l n="2">Dont le vent bat la flamme et tourmente le verre,</l>
+<l n="3">Au coeur d'un vieux faubourg, labyrinthe fangeux</l>
+<l n="4">O√π l'humanit√© grouille en ferments orageux,</l>
 </lg>
+
 <lg type="stanza" subtype="quatrain" n="2">
-<l n="5">¿ travers la tempÍte, et la neige, et le givre,</l>
-<l n="6">C'est la clartÈ vibrante ‡ notre horizon noir</l>
-<l n="7">C'est l'auberge fameuse inscrite sur le livre,</l>
-<l n="8">O˘ l'on pourra manger, et dormir, et s'asseoir;</l>
+<l n="5">On voit un chiffonnier qui vient, hochant la t√™te,</l>
+<l n="6">Butant, et se cognant aux murs comme un po√®te,</l>
+<l n="7">Et, sans prendre souci des mouchards, ses sujets,</l>
+<l n="8">Epanche tout son coeur en glorieux projets.</l>
 </lg>
-<lg type="stanza" subtype="tercet" n="3">
-<l n="9">C'est un Ange qui tient dans ses doigts magnÈtiques</l>
-<l n="10">Le sommeil et le don des rÍves extatiques,</l>
-<l n="11">Et qui refait le lit des gens pauvres et nus;</l>
+
+<lg type="stanza" subtype="quatrain" n="3">
+<l n="9">Il pr√™te des serments, dicte des lois sublimes,</l>
+<l n="10">Terrasse les m√©chants, rel√®ve les victimes,</l>
+<l n="11">Et sous le firmament comme un dais suspendu</l>
+<l n="12">S'enivre des splendeurs de sa propre vertu.</l>
 </lg>
-<lg type="stanza" subtype="tercet" n="4">
-<l n="12">C'est la gloire des Dieux, c'est le grenier mystique,</l>
-<l n="13">C'est la bourse du pauvre et sa patrie antique,</l>
-<l n="14">C'est le portique ouvert sur les Cieux inconnus!</l>
+
+<lg type="stanza" subtype="quatrain" n="4">
+<l n="13">Oui, ces gens harcel√©s de chagrins de m√©nage</l>
+<l n="14">Moulus par le travail et tourment√©s par l'√¢ge</l>
+<l n="15">Ereint√©s et pliant sous un tas de d√©bris,</l>
+<l n="16">Vomissement confus de l'√©norme Paris,</l>
 </lg>
+
+<lg type="stanza" subtype="quatrain" n="5">
+<l n="17">Reviennent, parfum√©s d'une odeur de futailles,</l>
+<l n="18">Suivis de compagnons, blanchis dans les batailles,</l>
+<l n="19">Dont la moustache pend comme les vieux drapeaux.</l>
+<l n="20">Les banni√®res, les fleurs et les arcs triomphaux</l>
+</lg>
+
+<lg type="stanza" subtype="quatrain" n="6">
+<l n="21">Se dressent devant eux, solennelle magie!</l>
+<l n="22">Et dans l'√©tourdissante et lumineuse orgie</l>
+<l n="23">Des clairons, du soleil, des cris et du tambour,</l>
+<l n="24">Ils apportent la gloire au peuple ivre d'amour!</l>
+</lg>
+
+<lg type="stanza" subtype="quatrain" n="7">
+<l n="25">C'est ainsi qu'√† travers l'Humanit√© frivole</l>
+<l n="26">Le vin roule de l'or, √©blouissant Pactole;</l>
+<l n="27">Par le gosier de l'homme il chante ses exploits</l>
+<l n="28">Et r√®gne par ses dons ainsi que les vrais rois.</l>
+</lg>
+
+<lg type="stanza" subtype="quatrain" n="8">
+<l n="29">Pour noyer la rancoeur et bercer l'indolence</l>
+<l n="30">De tous ces vieux maudits qui meurent en silence,</l>
+<l n="31">Dieu, touch√© de remords, avait fait le sommeil;</l>
+<l n="32">L'Homme ajouta le Vin, fils sacr√© du Soleil!</l>
+</lg>
+
 </div>
 </body>
 </text>

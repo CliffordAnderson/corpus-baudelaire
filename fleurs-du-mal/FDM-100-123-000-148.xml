@@ -10,7 +10,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <titleStmt>
 <!-- Title element - insert name of poem. If tile starts with an article, leave it off in the title value
 and include the title with the article in a rend attribute. -->
-<title rend="La Mort des pauvres">Mort des pauvres</title>
+<title rend="La Mort des artistes">Mort des artistes</title>
 <author>Charles Baudelaire</author>
 <respStmt>
 <resp>Encoded by</resp>
@@ -20,11 +20,6 @@ and include the title with the article in a rend attribute. -->
 <sponsor>Jean and Alexander Heard Library</sponsor>
 </titleStmt>
 <publicationStmt>
-<!-- Insert identification number. See the Editions Table 
-(https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) 
-to derive the numerical ID Code. -->
-<idno>FDM-100-123-000-148</idno>
-<!--insert id no in above element account to established format-->
 <publisher>Jean and Alexander Heard Library</publisher>
 <pubPlace>Nashville</pubPlace>
 <address>
@@ -34,6 +29,11 @@ to derive the numerical ID Code. -->
 <addrLine>USA</addrLine>
 </address>
 <date>2014</date>
+<!-- Insert identification number. See the Editions Table 
+(https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) 
+to derive the numerical ID Code. -->
+<idno>FDM-100-123-000-148</idno>
+<!--insert id no in above element account to established format-->
 </publicationStmt>
 <sourceDesc>
 <listWit>
@@ -90,18 +90,18 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
 <desc>1866 Les Epaves xml:id="1866"</desc>
 <biblStruct>
 <monogr>
-<title>Les …paves</title>
+<title>Les √âpaves</title>
 <author>Charles Baudelaire</author>
 <imprint>
 <pubPlace>Amsterdam</pubPlace>
-<publisher>¿ L'Enseigne du Coq</publisher>
+<publisher>√Ä L'Enseigne du Coq</publisher>
 <date>1866</date>
 <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
 this is a false imprint, the book actually being published in Brussels
 by Poulet-Malassis.</note>
 <note>Includes condemned pieces removed from Fleurs du Mal: p.
 9-55</note>
-<note>With a frontispeice etching by FÈlicien Rops</note>
+<note>With a frontispeice etching by F√©licien Rops</note>
 </imprint>
 <extent>163 p.</extent>
 </monogr>
@@ -111,12 +111,12 @@ by Poulet-Malassis.</note>
 <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
 <biblStruct>
 <monogr>
-<title>Oeuvres ComplËtes de Charles Baudelaire</title>
+<title>Oeuvres Compl√®tes de Charles Baudelaire</title>
 <author>Charles Baudelaire</author>
-<editor>ThÈophile Gautier</editor>
+<editor>Th√©ophile Gautier</editor>
 <imprint>
 <pubPlace>Paris</pubPlace>
-<publisher>Michel LÈvy FrËres</publisher>
+<publisher>Michel L√©vy Fr√®res</publisher>
 <date>1868-1873</date>
 <note>Volume 1 contains Les Fleurs du Mal</note>
 </imprint>
@@ -152,16 +152,16 @@ Online Distributed Proofreading Team.</p>
 
 <!-- Here's what this poem looked like in the source before markup:  
 <div>
-<p> LA PRIERE D'UN PAœEN </p>
+<p> LA PRIERE D'UN PA√èEN </p>
 <p/>
-<p> Ah! ne ralentis pas tes flammes; RÈchauffe mon coeur engourdi, VoluptÈ,
-torture des ‚mes! _Diva! supplicem exaudi!_ </p>
-<p> DÈesse dans l'air rÈpandue, Flamme dans notre souterrain! Exauce une ‚me
+<p> Ah! ne ralentis pas tes flammes; R√©chauffe mon coeur engourdi, Volupt√©,
+torture des √¢mes! _Diva! supplicem exaudi!_ </p>
+<p> D√©esse dans l'air r√©pandue, Flamme dans notre souterrain! Exauce une √¢me
 morfondue, Qui te consacre un chant d'airain. </p>
-<p> VoluptÈ, sois toujours ma reine! Prends le masque d'une sirËne FaÓte de
+<p> Volupt√©, sois toujours ma reine! Prends le masque d'une sir√®ne Fa√Æte de
 chair et de velours. </p>
-<p> Ou verse-moi tes sommeils lourds Dans le vin informe et mystique, VoluptÈ,
-fantÙme Èlastique! </p>
+<p> Ou verse-moi tes sommeils lourds Dans le vin informe et mystique, Volupt√©,
+fant√¥me √©lastique! </p>
 <p/>
 </div>
 -->
@@ -186,26 +186,26 @@ Add l elemnts with n attributes -->
  <l n="1"> Combien faut-il de fois secouer mes grelots</l>
 <l n="2"> Et baiser ton front bas, morne caricature?</l>
 <l n="3"> Pour piquer dans le but, de mystique nature,</l>
-<l n="4"> Combien, Ù mon carquois, perdre de javelots?</l>
+<l n="4"> Combien, √¥ mon carquois, perdre de javelots?</l>
 </lg>
 
 <lg type="stanza" subtype="quatrain" n="2">  
-<l n="5"> Nous userons notre ‚me en de subtils complots,</l>
-<l n="6"> Et nous dÈmolirons mainte lourde armature,</l>
-<l n="7"> Avant de contempler la grande CrÈature</l>
-<l n="8"> Dont l'infernal dÈsir nous remplit de sanglots!</l>
+<l n="5"> Nous userons notre √¢me en de subtils complots,</l>
+<l n="6"> Et nous d√©molirons mainte lourde armature,</l>
+<l n="7"> Avant de contempler la grande Cr√©ature</l>
+<l n="8"> Dont l'infernal d√©sir nous remplit de sanglots!</l>
 </lg>
 
 <lg type="stanza" subtype="tercet" n="3">  
 <l n="9"> Il en est qui jamais n'ont connu leur Idole,</l>
-<l n="10"> Et ces sculpteurs damnÈs et marquÈs d'un affront,</l>
+<l n="10"> Et ces sculpteurs damn√©s et marqu√©s d'un affront,</l>
 <l n="11"> Qui vont se martelant la poitrine et le front,</l>
 </lg>
 
 <lg type="stanza" subtype="tercet" n="4">  
-<l n="12"> N'ont qu'un espoir, Ètrange et sombre Capitole!</l>
+<l n="12"> N'ont qu'un espoir, √©trange et sombre Capitole!</l>
 <l n="13"> C'est que la Mort, planant comme un soleil nouveau,</l>
-<l n="14"> Fera s'Èpanouir les fleurs de leur cerveau!</l>
+<l n="14"> Fera s'√©panouir les fleurs de leur cerveau!</l>
 </lg>
 </div>
 </body>

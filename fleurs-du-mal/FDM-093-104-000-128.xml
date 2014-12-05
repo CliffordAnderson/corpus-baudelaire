@@ -10,7 +10,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <titleStmt>
 <!-- Title element - insert name of poem. If tile starts with an article, leave it off in the title value
 and include the title with the article in a rend attribute. -->
-<title rend="La Mort des pauvres">Mort des pauvres</title>
+<title rend="L'Ame du Vin">Ame du Vin</title>
 <author>Charles Baudelaire</author>
 <respStmt>
 <resp>Encoded by</resp>
@@ -32,7 +32,7 @@ and include the title with the article in a rend attribute. -->
 <!-- Insert identification number. See the Editions Table 
 (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) 
 to derive the numerical ID Code. -->
-<idno>FDM-099-122-000-147</idno>
+<idno>FDM-093-104-000-128</idno>
 <!--insert id no in above element account to established format-->
 </publicationStmt>
 <sourceDesc>
@@ -90,18 +90,18 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
 <desc>1866 Les Epaves xml:id="1866"</desc>
 <biblStruct>
 <monogr>
-<title>Les …paves</title>
+<title>Les √âpaves</title>
 <author>Charles Baudelaire</author>
 <imprint>
 <pubPlace>Amsterdam</pubPlace>
-<publisher>¿ L'Enseigne du Coq</publisher>
+<publisher>√Ä L'Enseigne du Coq</publisher>
 <date>1866</date>
 <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
 this is a false imprint, the book actually being published in Brussels
 by Poulet-Malassis.</note>
 <note>Includes condemned pieces removed from Fleurs du Mal: p.
 9-55</note>
-<note>With a frontispeice etching by FÈlicien Rops</note>
+<note>With a frontispeice etching by F√©licien Rops</note>
 </imprint>
 <extent>163 p.</extent>
 </monogr>
@@ -111,12 +111,12 @@ by Poulet-Malassis.</note>
 <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
 <biblStruct>
 <monogr>
-<title>Oeuvres ComplËtes de Charles Baudelaire</title>
+<title>Oeuvres Compl√®tes de Charles Baudelaire</title>
 <author>Charles Baudelaire</author>
-<editor>ThÈophile Gautier</editor>
+<editor>Th√©ophile Gautier</editor>
 <imprint>
 <pubPlace>Paris</pubPlace>
-<publisher>Michel LÈvy FrËres</publisher>
+<publisher>Michel L√©vy Fr√®res</publisher>
 <date>1868-1873</date>
 <note>Volume 1 contains Les Fleurs du Mal</note>
 </imprint>
@@ -152,16 +152,16 @@ Online Distributed Proofreading Team.</p>
 
 <!-- Here's what this poem looked like in the source before markup:  
 <div>
-<p> LA PRIERE D'UN PAœEN </p>
+<p> LA PRIERE D'UN PA√èEN </p>
 <p/>
-<p> Ah! ne ralentis pas tes flammes; RÈchauffe mon coeur engourdi, VoluptÈ,
-torture des ‚mes! _Diva! supplicem exaudi!_ </p>
-<p> DÈesse dans l'air rÈpandue, Flamme dans notre souterrain! Exauce une ‚me
+<p> Ah! ne ralentis pas tes flammes; R√©chauffe mon coeur engourdi, Volupt√©,
+torture des √¢mes! _Diva! supplicem exaudi!_ </p>
+<p> D√©esse dans l'air r√©pandue, Flamme dans notre souterrain! Exauce une √¢me
 morfondue, Qui te consacre un chant d'airain. </p>
-<p> VoluptÈ, sois toujours ma reine! Prends le masque d'une sirËne FaÓte de
+<p> Volupt√©, sois toujours ma reine! Prends le masque d'une sir√®ne Fa√Æte de
 chair et de velours. </p>
-<p> Ou verse-moi tes sommeils lourds Dans le vin informe et mystique, VoluptÈ,
-fantÙme Èlastique! </p>
+<p> Ou verse-moi tes sommeils lourds Dans le vin informe et mystique, Volupt√©,
+fant√¥me √©lastique! </p>
 <p/>
 </div>
 -->
@@ -171,38 +171,47 @@ add the type attribute. For the type attibute value use 'poem' unless the poem
 is a specific type like 'sonnet'. -->
 
 <div type="poem">
-
-<!-- Remove all p elements
-Add head and title element -->
-
 <head>
-<title>LA MORT DES PAUVRES</title>
+<title>L'AME DU VIN</title>
 </head>
 
 <!-- Add lg element with type, subtype, and n attributes 
 Add l elemnts with n attributes -->
-
 <lg type="stanza" subtype="quatrain" n="1">
- <l n="1">C'est la Mort qui console, hÈlas! et qui fait vivre;</l>
-<l n="2">C'est le but de la vie, et c'est le seul espoir</l>
-<l n="3">Qui, comme un Èlixir, nous monte et nous enivre,</l>
-<l n="4">Et nous donne le coeur de marcher jusqu'au soir;</l>
+<l n="1">Un soir, l'√¢me du vin chantait dans les bouteilles:</l>
+<l n="2">¬´Homme, vers toi je pousse, √¥ cher d√©sh√©rit√©,</l>
+<l n="3">Sous ma prison de verre et mes cires vermeilles,</l>
+<l n="4">Un chant plein de lumi√®re et de fraternit√©!</l>
 </lg>
 <lg type="stanza" subtype="quatrain" n="2">
-<l n="5">¿ travers la tempÍte, et la neige, et le givre,</l>
-<l n="6">C'est la clartÈ vibrante ‡ notre horizon noir</l>
-<l n="7">C'est l'auberge fameuse inscrite sur le livre,</l>
-<l n="8">O˘ l'on pourra manger, et dormir, et s'asseoir;</l>
+<l n="5">Je sais combien il faut, sur la colline en flamme,</l>
+<l n="6">De peine, de sueur et de soleil cuisant</l>
+<l n="7">Pour engendrer ma vie et pour me donner l'√¢me;</l>
+<l n="8">Mais je ne serai point ingrat ni malfaisant,</l>
 </lg>
-<lg type="stanza" subtype="tercet" n="3">
-<l n="9">C'est un Ange qui tient dans ses doigts magnÈtiques</l>
-<l n="10">Le sommeil et le don des rÍves extatiques,</l>
-<l n="11">Et qui refait le lit des gens pauvres et nus;</l>
+<lg type="stanza" subtype="quatrain" n="3">
+<l n="9">Car j'√©prouve une joie immense quand je tombe</l>
+<l n="10">Dans le gosier d'un homme us√© par ses travaux,</l>
+<l n="11">Et sa chaude poitrine est une douce tombe</l>
+<l n="12">O√π je me plais bien mieux que dans mes froids caveaux.</l>
 </lg>
-<lg type="stanza" subtype="tercet" n="4">
-<l n="12">C'est la gloire des Dieux, c'est le grenier mystique,</l>
-<l n="13">C'est la bourse du pauvre et sa patrie antique,</l>
-<l n="14">C'est le portique ouvert sur les Cieux inconnus!</l>
+<lg type="stanza" subtype="quatrain" n="4">
+<l n="13">Entends-tu retentir les refrains des dimanches</l>
+<l n="14">Et l'espoir qui gazouille en mon sein palpitant?</l>
+<l n="15">Les coudes sur la table et retroussant tes manches,</l>
+<l n="16">Tu me glorifieras et tu seras content;</l>
+</lg>
+<lg type="stanza" subtype="quatrain" n="5">
+<l n="17">J'allumerai les yeux de ta femme ravie;</l>
+<l n="18">√Ä ton fils je rendrai sa force et ses couleurs</l>
+<l n="19">Et serai pour ce fr√™le athl√®te de la vie</l>
+<l n="20">L'huile qui raffermit les muscles des lutteurs.</l>
+</lg>
+<lg type="stanza" subtype="quatrain" n="6">
+<l n="21">En toi je tomberai, v√©g√©tale ambroisie,</l>
+<l n="22">Grain pr√©cieux jet√© par l'√©ternel Semeur,</l>
+<l n="23">Pour que de notre amour naisse la po√©sie</l>
+<l n="24">Qui jaillira vers Dieu comme une rare fleur!¬ª</l>
 </lg>
 </div>
 </body>

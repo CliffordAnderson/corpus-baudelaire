@@ -10,7 +10,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <titleStmt>
 <!-- Title element - insert name of poem. If tile starts with an article, leave it off in the title value
 and include the title with the article in a rend attribute. -->
-<title rend="La Mort des pauvres">Mort des pauvres</title>
+<title rend="La Géante">Géante</title>
 <author>Charles Baudelaire</author>
 <respStmt>
 <resp>Encoded by</resp>
@@ -32,7 +32,7 @@ and include the title with the article in a rend attribute. -->
 <!-- Insert identification number. See the Editions Table 
 (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) 
 to derive the numerical ID Code. -->
-<idno>FDM-099-122-000-147</idno>
+<idno>FDM-019-019-000-020</idno>
 <!--insert id no in above element account to established format-->
 </publicationStmt>
 <sourceDesc>
@@ -176,34 +176,38 @@ is a specific type like 'sonnet'. -->
 Add head and title element -->
 
 <head>
-<title>LA MORT DES PAUVRES</title>
+<title>LA GÉANTE</title>
 </head>
 
 <!-- Add lg element with type, subtype, and n attributes 
 Add l elemnts with n attributes -->
 
-<lg type="stanza" subtype="quatrain" n="1">
- <l n="1">C'est la Mort qui console, hélas! et qui fait vivre;</l>
-<l n="2">C'est le but de la vie, et c'est le seul espoir</l>
-<l n="3">Qui, comme un élixir, nous monte et nous enivre,</l>
-<l n="4">Et nous donne le coeur de marcher jusqu'au soir;</l>
+<lg type="stanza" subtype="quatrain" n="1">  
+<l n="1">Du temps que la Nature en sa verve puissante</l>
+<l n="2">Concevait chaque jour des enfants monstrueux,</l>
+<l n="3">J'eusse aimé vivre auprès d'une jeune géante,</l>
+<l n="4">Comme aux pieds d'une reine un chat voluptueux.</l>
 </lg>
-<lg type="stanza" subtype="quatrain" n="2">
-<l n="5">À travers la tempête, et la neige, et le givre,</l>
-<l n="6">C'est la clarté vibrante à notre horizon noir</l>
-<l n="7">C'est l'auberge fameuse inscrite sur le livre,</l>
-<l n="8">Où l'on pourra manger, et dormir, et s'asseoir;</l>
+
+<lg type="stanza" subtype="quatrain" n="2">  
+<l n="5">J'eusse aimé voir son corps fleurir avec son âme</l>
+<l n="6">Et grandir librement dans ses terribles jeux;</l>
+<l n="7">Deviner si son coeur couve une sombre flamme</l>
+<l n="8">Aux humides brouillards qui nagent dans ses yeux;</l>
 </lg>
-<lg type="stanza" subtype="tercet" n="3">
-<l n="9">C'est un Ange qui tient dans ses doigts magnétiques</l>
-<l n="10">Le sommeil et le don des rêves extatiques,</l>
-<l n="11">Et qui refait le lit des gens pauvres et nus;</l>
+
+<lg type="stanza" subtype="tercet" n="3">  
+<l n="9">Parcourir à loisir ses magnifiques formes;</l>
+<l n="10">Ramper sur le versant de ses genoux énormes,</l>
+<l n="11">Et parfois en été, quand les soleils malsains,</l>
 </lg>
-<lg type="stanza" subtype="tercet" n="4">
-<l n="12">C'est la gloire des Dieux, c'est le grenier mystique,</l>
-<l n="13">C'est la bourse du pauvre et sa patrie antique,</l>
-<l n="14">C'est le portique ouvert sur les Cieux inconnus!</l>
+
+<lg type="stanza" subtype="tercet" n="4">  
+<l n="12">Lasse, la font s'étendre à travers la campagne,</l>
+<l n="13">Dormir nonchalamment à l'ombre de ses seins,</l>
+<l n="14">Comme un hameau paisible au pied d'une montagne.</l>
 </lg>
+
 </div>
 </body>
 </text>
