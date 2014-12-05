@@ -1,1 +1,0 @@
-(:get curent version of work computer:)
