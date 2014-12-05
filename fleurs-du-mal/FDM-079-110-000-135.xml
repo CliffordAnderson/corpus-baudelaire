@@ -6,7 +6,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title rend="UNE MARTYRE">MARTYRE</title>
+            <title rend="Une Martyre">Martyre</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
