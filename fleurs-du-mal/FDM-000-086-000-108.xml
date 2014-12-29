@@ -6,13 +6,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-            <title rend="Le Lethe">Lethe</title>
+            <title>Paysage</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-               <name xml:id="EW">Ed Warga</name>
+               <name xml:id="SS">Sara Sterkenburg</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
@@ -26,8 +24,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
-            <!--Below, insert the number of the poem, according to the established protocol-->
-            <idno>FDM-030-000-004-000</idno>
+            <idno>FDM-000-086-000-108</idno>
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -143,43 +140,38 @@ Online Distributed Proofreading Team.</p>
    <text>
       <body>
          <div type="poem">
-            <head><title>LE LETHE</title></head>
-
-            <lg type="stanza" subtype="quatrain">
-               <l n="1">Viens sur mon coeur, âme cruelle et sourde,</l>
-               <l n="2">Tigre adoré, monstre aux airs indolents;</l>
-               <l n="3">Je veux longtemps plonger mes doigts tremblants</l>
-               <l n="4">Dans l'épaisseur de ta crinière lourde;</l>
+            <head>
+               <title>Paysage</title>
+            </head>
+            <lg type="stanza" n="1">
+               <l n="1">Je veux, pour compòser chastement mes églogues,</l>
+               <l n="2">Coucher auprès du ciel, comme les astrologues,</l>
+               <l n="3">Et, voisin des clochers, écouter en rêvant</l>
+               <l n="4">Leurs hymnes solennels emportés par le vent.</l>
+               <l n="5">Les deux mains au menton, du haut de ma mansarde,</l>
+               <l n="6">Je verrai l'atelier qui chante et qui bavarde;</l>
+               <l n="7">Les tuyaux, les clochers, ces mâts de la cité,</l>
+               <l n="8">Et les grands ciels qui font rêver d'éternité.</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="5">Dans tes jupons remplis de ton parfum</l>
-               <l n="6">Ensevelir ma tête endolorie,</l>
-               <l n="7">Et respirer, comme une fleur flétrie,</l>
-               <l n="8">Le doux relent de mon amour défunt.</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="9">Je veux dormir! dormir plutôt que vivre!</l>
-               <l n="10">Dans un sommeil, douteux comme la mort,</l>
-               <l n="11">J'étalerai mes baisers sans remord</l>
-               <l n="12">Sur ton beau corps poli comme le cuivre. </l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="13">Pour engloutir mes sanglots apaisés</l>
-               <l n="14">Rien ne me vaut l'abîme de ta couche;</l>
-               <l n="15">L'oubli puissant habite sur ta bouche,</l>
-               <l n="16">Et le Léthé coule dans tes baisers.</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="17">A mon destin, désormais mon délice,</l>
-               <l n="18">J'obéirai comme un prédestiné;</l>
-               <l n="19">Martyr docile, innocent condamné,</l>
-               <l n="20">Dont la ferveur attise le supplice,</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="21">Je sucerai, pour noyer ma rancoeur,</l>
-               <l n="22">Le népenthès et la bonne ciguë</l>
-               <l n="23">Aux bouts charmants de cette gorge aiguë</l>
-               <l n="24">Qui n'a jamais emprisonné de coeur.</l>
+            <lg type="stanza" n="2">
+               <l n="9">Il est doux, à travers les brumes, de voir naître</l>
+               <l n="10">L'étoile dans l'azur, la lampe à la fenêtre,</l>
+               <l n="11">Les fleuves de charbon monter au firmament</l>
+               <l n="12">Et la lune verser son pâle enchantement.</l> 
+               <l n="13">Je verrai les printemps, les étés, les automnes;</l>
+               <l n="14">Et quand viendra l'hiver aux neiges monotones;</l>
+               <l n="15">Je fermerai partout portières et volets</l>
+               <l n="16">Pour bâtir dans la nuit mes féeriques palais.</l>
+               <l n="17">Alors je rêverai des horizons bleuâtres,</l>
+               <l n="18">Des jardins, des jets d'eau pleurant dans les albâtres,</l>
+               <l n="19">Des baisers, des oiseaux chantant soir et matin,</l>
+               <l n="20">Et tout ce que l'Idylle a de plus enfantin.</l>
+               <l n="21">L'Émeute, tempêtant vainement à ma vitre,</l>
+               <l n="22">Ne fera pas lever mon front de mon pupitre;</l>
+               <l n="23">Car je serai plongé dans cette volupté</l>
+               <l n="24">D'évoquer le Printemps avec ma volonté,</l>
+               <l n="25">De tirer un soleil de mon cœur, et de faire</l>
+               <l n="26">De mes pensers brûlants une tiède atmosphère.</l>
             </lg>
          </div>
       </body>

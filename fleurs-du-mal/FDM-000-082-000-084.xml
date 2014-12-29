@@ -6,13 +6,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-            <title rend="Le Lethe">Lethe</title>
+            <title>Horreur sympathique</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-               <name xml:id="EW">Ed Warga</name>
+               <name xml:id="SS">Sara Sterkenburg</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
@@ -26,8 +24,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
-            <!--Below, insert the number of the poem, according to the established protocol-->
-            <idno>FDM-030-000-004-000</idno>
+            <idno>FDM-000-082-000-084</idno>
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -143,43 +140,30 @@ Online Distributed Proofreading Team.</p>
    <text>
       <body>
          <div type="poem">
-            <head><title>LE LETHE</title></head>
-
-            <lg type="stanza" subtype="quatrain">
-               <l n="1">Viens sur mon coeur, âme cruelle et sourde,</l>
-               <l n="2">Tigre adoré, monstre aux airs indolents;</l>
-               <l n="3">Je veux longtemps plonger mes doigts tremblants</l>
-               <l n="4">Dans l'épaisseur de ta crinière lourde;</l>
+            <head>
+               <title>Horreur sympathique</title>
+            </head>
+            <lg type="stanza" subtype="quatrain" n="1">
+               <l n="1">De ce ciel bizarre et livide,</l>
+               <l n="2">Tourmenté comme ton destin,</l>
+               <l n="3">Quels pensers dans ton âme vide</l>
+               <l n="4">Descendent? réponds, libertin.</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="5">Dans tes jupons remplis de ton parfum</l>
-               <l n="6">Ensevelir ma tête endolorie,</l>
-               <l n="7">Et respirer, comme une fleur flétrie,</l>
-               <l n="8">Le doux relent de mon amour défunt.</l>
+            <lg type="stanza" subtype="quatrain" n="2">
+               <l n="5">--Insatiablement avide,</l>
+               <l n="6">De l'obscur et de l'incertain,</l>
+               <l n="7">Je ne geindrai pas comme Ovide</l>
+               <l n="8">Chassé du paradis latin.</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="9">Je veux dormir! dormir plutôt que vivre!</l>
-               <l n="10">Dans un sommeil, douteux comme la mort,</l>
-               <l n="11">J'étalerai mes baisers sans remord</l>
-               <l n="12">Sur ton beau corps poli comme le cuivre. </l>
+            <lg type="stanza" subtype="tercet" n="3">
+               <l n="9">Cieux déchirés comme des gréves</l>
+               <l n="10">En vous se mire mon orgueil;</l>
+               <l n="11">Vos vastes nuages en deuil</l>
             </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="13">Pour engloutir mes sanglots apaisés</l>
-               <l n="14">Rien ne me vaut l'abîme de ta couche;</l>
-               <l n="15">L'oubli puissant habite sur ta bouche,</l>
-               <l n="16">Et le Léthé coule dans tes baisers.</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="17">A mon destin, désormais mon délice,</l>
-               <l n="18">J'obéirai comme un prédestiné;</l>
-               <l n="19">Martyr docile, innocent condamné,</l>
-               <l n="20">Dont la ferveur attise le supplice,</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="21">Je sucerai, pour noyer ma rancoeur,</l>
-               <l n="22">Le népenthès et la bonne ciguë</l>
-               <l n="23">Aux bouts charmants de cette gorge aiguë</l>
-               <l n="24">Qui n'a jamais emprisonné de coeur.</l>
+            <lg type="stanza" subtype="tercet" n="4">
+               <l n="12">Sont les corbillards de mes rêves,</l> 
+               <l n="13">Et vos lueurs sont le reflet</l>
+               <l n="14">De l'Enfer où mon cœur se plaît.</l>
             </lg>
          </div>
       </body>

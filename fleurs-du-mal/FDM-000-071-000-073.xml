@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-            <title rend="Le Lethe">Lethe</title>
+            <title rend="Une Gravure Fantastique">Gravure Fantastique</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-               <name xml:id="EW">Ed Warga</name>
+               <name xml:id="RVR">Ramona V. Romero</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
@@ -26,8 +25,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
-            <!--Below, insert the number of the poem, according to the established protocol-->
-            <idno>FDM-030-000-004-000</idno>
+            <idno>FDM-000-071-000-073</idno>
+            <!--insert id no in above element according to established format-->
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -120,66 +119,47 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </witness>
             </listWit>
             <!-- create witList in sourceDesc with the different editions and their bib data
-1. 1857 Unexpurgated xml:id="U1857"
-2. 1857 Expurgated xml:id="E1857"
-3. 1861 2nd edition censored xml:id="FDM1861"
-4. 1866 Les Epaves xml:id="1866"
-5. 1868 3rd edition - posthumous xml:id="1868"
--->
+                     1. 1857 Unexpurgated xml:id="U1857"
+                     2. 1857 Expurgated xml:id="E1857"
+                     3. 1861 2nd edition censored xml:id="FDM1861"
+                     4. 1866 Les Epaves xml:id="1866"
+                     5. 1868 3rd edition - posthumous xml:id="1868"
+            -->
             <!--
-<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
-for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
-You may copy it, give it away or re-use it under the terms of the Project Gutenberg
-License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
-Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
-Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
-encoding: ISO-8859-1 </p>
-<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
-Online Distributed Proofreading Team.</p>
--->
+            <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+               for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+               You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+               License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+               Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+               Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+               encoding: ISO-8859-1 </p>
+            <p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+               Online Distributed Proofreading Team.</p>
+               -->
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="poem">
-            <head><title>LE LETHE</title></head>
-
-            <lg type="stanza" subtype="quatrain">
-               <l n="1">Viens sur mon coeur, âme cruelle et sourde,</l>
-               <l n="2">Tigre adoré, monstre aux airs indolents;</l>
-               <l n="3">Je veux longtemps plonger mes doigts tremblants</l>
-               <l n="4">Dans l'épaisseur de ta crinière lourde;</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="5">Dans tes jupons remplis de ton parfum</l>
-               <l n="6">Ensevelir ma tête endolorie,</l>
-               <l n="7">Et respirer, comme une fleur flétrie,</l>
-               <l n="8">Le doux relent de mon amour défunt.</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="9">Je veux dormir! dormir plutôt que vivre!</l>
-               <l n="10">Dans un sommeil, douteux comme la mort,</l>
-               <l n="11">J'étalerai mes baisers sans remord</l>
-               <l n="12">Sur ton beau corps poli comme le cuivre. </l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="13">Pour engloutir mes sanglots apaisés</l>
-               <l n="14">Rien ne me vaut l'abîme de ta couche;</l>
-               <l n="15">L'oubli puissant habite sur ta bouche,</l>
-               <l n="16">Et le Léthé coule dans tes baisers.</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="17">A mon destin, désormais mon délice,</l>
-               <l n="18">J'obéirai comme un prédestiné;</l>
-               <l n="19">Martyr docile, innocent condamné,</l>
-               <l n="20">Dont la ferveur attise le supplice,</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="21">Je sucerai, pour noyer ma rancoeur,</l>
-               <l n="22">Le népenthès et la bonne ciguë</l>
-               <l n="23">Aux bouts charmants de cette gorge aiguë</l>
-               <l n="24">Qui n'a jamais emprisonné de coeur.</l>
+            <head>
+               <title>Une Gravure Fantastique</title>
+            </head>
+            <lg type="stanza" n="1">
+               <l n="1">Ce spectre singulier n'a pour toute toilette,</l>
+               <l n="2">Grotesquement campé sur son front de squelette,</l>
+               <l n="3">Qu'un diadème affreux sentant le carnaval.</l>
+               <l n="4">Sans éperons, sans fouet, il essouffle un cheval,</l>
+               <l n="5">Fantôme comme lui, rosse apocalyptique,</l>
+               <l n="6">Qui bave des naseaux comme un épileptique.</l>
+               <l n="7">Au travers de l'espace ils s'enfoncent tous deux,</l>
+               <l n="8">Et foulent l'infini d'un sabot hasardeux.</l>
+               <l n="9">Le cavalier promène un sabre qui flamboie</l>
+               <l n="10">Sur les foules sans nom que sa monture broie,</l>
+               <l n="11">Et parcourt, comme un prince inspectant sa maison,</l>
+               <l n="12">Le cimetière immense et froid, sans horizon,</l>
+               <l n="13">Où gisent, aux lueurs d'un soleil blanc et terne,</l>
+               <l n="14">Les peuples de l'histoire ancienne et moderne.</l>
             </lg>
          </div>
       </body>

@@ -7,12 +7,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-            <title rend="Le Lethe">Lethe</title>
+            <title>Réversibilité</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
                <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-               <name xml:id="EW">Ed Warga</name>
+               <name xml:id="RP">Rebecca Panter</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </address>
             <date>2014</date>
             <!--Below, insert the number of the poem, according to the established protocol-->
-            <idno>FDM-030-000-004-000</idno>
+            <idno>FDM-040-044-000-045</idno>
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -143,45 +143,45 @@ Online Distributed Proofreading Team.</p>
    <text>
       <body>
          <div type="poem">
-            <head><title>LE LETHE</title></head>
-
-            <lg type="stanza" subtype="quatrain">
-               <l n="1">Viens sur mon coeur, âme cruelle et sourde,</l>
-               <l n="2">Tigre adoré, monstre aux airs indolents;</l>
-               <l n="3">Je veux longtemps plonger mes doigts tremblants</l>
-               <l n="4">Dans l'épaisseur de ta crinière lourde;</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="5">Dans tes jupons remplis de ton parfum</l>
-               <l n="6">Ensevelir ma tête endolorie,</l>
-               <l n="7">Et respirer, comme une fleur flétrie,</l>
-               <l n="8">Le doux relent de mon amour défunt.</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="9">Je veux dormir! dormir plutôt que vivre!</l>
-               <l n="10">Dans un sommeil, douteux comme la mort,</l>
-               <l n="11">J'étalerai mes baisers sans remord</l>
-               <l n="12">Sur ton beau corps poli comme le cuivre. </l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="13">Pour engloutir mes sanglots apaisés</l>
-               <l n="14">Rien ne me vaut l'abîme de ta couche;</l>
-               <l n="15">L'oubli puissant habite sur ta bouche,</l>
-               <l n="16">Et le Léthé coule dans tes baisers.</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="17">A mon destin, désormais mon délice,</l>
-               <l n="18">J'obéirai comme un prédestiné;</l>
-               <l n="19">Martyr docile, innocent condamné,</l>
-               <l n="20">Dont la ferveur attise le supplice,</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain">
-               <l n="21">Je sucerai, pour noyer ma rancoeur,</l>
-               <l n="22">Le népenthès et la bonne ciguë</l>
-               <l n="23">Aux bouts charmants de cette gorge aiguë</l>
-               <l n="24">Qui n'a jamais emprisonné de coeur.</l>
-            </lg>
-         </div>
+         	<head>
+         		<title>Réversibilité</title>
+         	</head>
+         	<lg type="stanza" n="1">
+				<l n="1">Ange plein de gaieté, connaissez-vous l'angoisse,</l>
+				<l n="2">La honte, les remords, les sanglots, les ennuis,</l>
+				<l n="3">Et les vagues terreurs de ces affreuses nuits</l>
+				<l n="4">Qui compriment le coeur comme un papier qu'on froisse?</l>
+				<l n="5">Ange plein de gaieté, connaissez-vous l'angoisse?</l>
+			</lg>
+         	<lg type="stanza" n="2">
+				<l n="6">Ange plein de bonté, connaissez-vous la haine,</l>
+				<l n="7">Les poings crispés dans l'ombre et les larmes de fiel,</l>
+				<l n="8">Quand la Vengeance bat son infernal rappel,</l>
+				<l n="9">Et de nos facultés se fait le capitaine?</l>
+				<l n="10">Ange plein de bonté connaissez-vous la haine?</l>
+			</lg>
+         	<lg type="stanza" n="3">
+				<l n="11">Ange plein de santé, connaissez-vous les Fièvres,</l>
+				<l n="12">Qui, le long des grands murs de l'hospice blafard,</l>
+				<l n="13">Comme des exilés, s'en vont d'un pied traînard,</l>
+				<l n="14">Cherchant le soleil rare et remuant les lèvres?</l>
+				<l n="15">Ange plein de santé, connaissez-vous les Fièvres?</l>
+			</lg>
+         	<lg type="stanza" n="4">
+				<l n="16">Ange plein de beauté, connaissez-vous les rides,</l>
+				<l n="17">Et la peur de vieillir, et ce hideux tourment</l>
+				<l n="18">De lire la secrète horreur du dévouement</l>
+				<l n="19">Dans des yeux où longtemps burent nos yeux avide!</l>
+				<l n="20">Ange plein de beauté, connaissez-vous les rides?</l>
+			</lg>
+         	<lg type="stanza" n="5">
+				<l n="21">Ange plein de bonheur, de joie et de lumières,</l>
+				<l n="22">David mourant aurait demandé la santé</l>
+				<l n="23">Aux émanations de ton corps enchanté;</l>
+				<l n="24">Mais de toi je n'implore, ange, que tes prières,</l>
+				<l n="25">Ange plein de bonheur, de joie et de lumières!</l>
+			</lg>
+		</div>
       </body>
    </text>
 </TEI>
