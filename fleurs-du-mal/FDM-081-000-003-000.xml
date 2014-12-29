@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
+            <title>Femmes Damnées (Delphine et Hippolyte)</title>
+            <author>Charles Baudelaire</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+               <name xml:id="ZB">Zora Breeding</name>
+            </respStmt>
+            <sponsor>Jean and Alexander Heard Library</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <!--Below, insert the number of the poem, according to the established protocol-->
+            <idno>FDM-081-000-003-000</idno>
+            <publisher>Jean and Alexander Heard Library</publisher>
+            <pubPlace>Nashville</pubPlace>
+            <address>
+               <addrLine>Jean and Alexander Heard Library</addrLine>
+               <addrLine>419 21st Avenue South</addrLine>
+               <addrLine>Nashville, TN 37203</addrLine>
+               <addrLine>USA</addrLine>
+            </address>
+            <date>2014</date>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="U1857">
+                  <desc>1857 Unexpurgated</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Fleurs du Mal</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Poulet-Malassis et De Broise</publisher>
+                           <date>1857</date>
+                           <note>Original edition with condemned pieces</note>
+                        </imprint>
+                        <extent>248 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="E1857">
+                  <desc>1857 Expurgated</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Fleurs du Mal</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Poulet-Malassis et De Broise</publisher>
+                           <date>1857</date>
+                           <note>Original edition with condemned pieces removed</note>
+                        </imprint>
+                        <extent>248 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="FDM1861">
+                  <desc>1861 2nd edition censored</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Fleurs du Mal</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Poulet-Malassis et De Broise</publisher>
+                           <date>1861</date>
+                           <note>2nd edition augmented by 35 new poems and ornamented with a
+                              portrait of the author drawn and engraved by Felix Bracquemond</note>
+                        </imprint>
+                        <extent> 319 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="LE1866">
+                  <desc>1866 Les Epaves xml:id="1866"</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Épaves</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Amsterdam</pubPlace>
+                           <publisher>À L'Enseigne du Coq</publisher>
+                           <date>1866</date>
+                           <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                              this is a false imprint, the book actually being published in Brussels
+                              by Poulet-Malassis.</note>
+                           <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                              9-55</note>
+                           <note>With a frontispeice etching by Félicien Rops</note>
+                        </imprint>
+                        <extent>163 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="FDM1868">
+                  <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Oeuvres Complètes de Charles Baudelaire</title>
+                        <author>Charles Baudelaire</author>
+                        <editor>Théophile Gautier</editor>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Michel Lévy Frères</publisher>
+                           <date>1868-1873</date>
+                           <note>Volume 1 contains Les Fleurs du Mal</note>
+                        </imprint>
+                        <extent>7 volumes</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+            </listWit>
+<!-- create witList in sourceDesc with the different editions and their bib data
+1. 1857 Unexpurgated xml:id="U1857"
+2. 1857 Expurgated xml:id="E1857"
+3. 1861 2nd edition censored xml:id="FDM1861"
+4. 1866 Les Epaves xml:id="1866"
+5. 1868 3rd edition - posthumous xml:id="1868"
+-->
+<!--
+<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+encoding: ISO-8859-1 </p>
+<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+Online Distributed Proofreading Team.</p>
+-->
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poem">
+            <head>Femmes Damnées (Delphine et Hippolyte)</head>
+            <lg type="stanza" subtype="quatrain" n="1">
+               <l n="1">À la pâle clarté des lampes languissantes,</l>
+               <l n="2">Sur de profonds coussins tout imprégnés d'odeur</l>
+               <l n="3">Hippolyte rêvait aux caresses puissantes</l>
+               <l n="4">Qui levaient le rideau de sa jeune candeur.</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="2">
+               <l n="5">Elle cherchait, d'un oeil troublé par la tempête,</l>
+               <l n="6">De sa naïveté le ciel déjà lointain,</l>
+               <l n="7">Ainsi qu'un voyageur qui retourne la tête</l>
+               <l n="8">Vers les horizons bleus dépassés le matin.</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="3">
+               <l n="9">De ses yeux amortis les paresseuses larmes,</l>
+               <l n="10">L'air brisé, la stupeur, la morne volupté,</l>
+               <l n="11">Ses bras vaincus, jetés comme de vaines armes,</l>
+               <l n="12">Tout servait, tout parait sa fragile beauté.</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="4">
+               <l n="13">Étendue à ses pieds, calme et pleine de joie,</l>
+               <l n="14">Delphine la couvait avec des yeux ardents,</l>
+               <l n="15">Comme un animal fort qui surveille une proie,</l>
+               <l n="16">Après l'avoir d'abord marquée avec les dents.</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="5">
+               <l n="17">Beauté forte à genoux devant la beauté frêle,</l>
+               <l n="18">Superbe, elle humait voluptueusement</l>
+               <l n="19">Le vin de son triomphe, et s'allongeait vers elle,</l>
+               <l n="20">Comme pour recueillir un doux remerciement.</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="6">
+               <l n="21">Elle cherchait dans l'oeil de sa pâle victime</l>
+               <l n="22">Le cantique muet que chante le plaisir,</l>
+               <l n="23">Et cette gratitude infinie et sublime</l>
+               <l n="24">Qui sort de la paupière ainsi qu'un long soupir.</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="7">
+               <l n="25">— «Hippolyte, cher coeur, que dis-tu de ces choses?</l>
+               <l n="26">Comprends-tu maintenant qu'il ne faut pas offrir</l>
+               <l n="27">L'holocauste sacré de tes premières roses</l>
+               <l n="28">Aux souffles violents qui pourraient les flétrir ?</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="8">
+               <l n="29">Mes baisers sont légers comme ces éphémères</l>
+               <l n="30">Qui caressent le soir les grands lacs transparents,</l>
+               <l n="31">Et ceux de ton amant creuseront leurs ornières</l>
+               <l n="32">Comme des chariots ou des socs déchirants;</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="9">
+               <l n="33">Ils passeront sur toi comme un lourd attelage</l>
+               <l n="34">De chevaux et de boeufs aux sabots sans pitié...</l>
+               <l n="35">Hippolyte, ô ma soeur! tourne donc ton visage,</l>
+               <l n="36">Toi, mon âme et mon coeur, mon tout et ma moitié,</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="10">
+               <l n="37">Tourne vers moi tes yeux pleins d'azur et d'étoiles!</l>
+               <l n="38">Pour un de ces regards charmants, baume divin,</l>
+               <l n="39">Des plaisirs plus obscurs je lèverai les voiles,</l>
+               <l n="40">Et je t'endormirai dans un rêve sans fin!»</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="11">
+               <l n="41">Mais Hippolyte alors, levant sa jeune tête:</l>
+               <l n="42">— «Je ne suis point ingrate et ne me repens pas,</l>
+               <l n="43">Ma Delphine, je souffre et je suis inquiète,</l>
+               <l n="44">Comme après un nocturne et terrible repas.</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="12">
+               <l n="45">Je sens fondre sur moi de lourdes épouvantes</l>
+               <l n="46">Et de noirs bataillons de fantômes épars,</l>
+               <l n="47">Qui veulent me conduire en des routes mouvantes</l>
+               <l n="48">Qu'un horizon sanglant ferme de toutes parts.</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="13">
+               <l n="49">Avons-nous donc commis une action étrange ?</l>
+               <l n="50">Explique, si tu peux, mon trouble et mon effroi:</l>
+               <l n="51">Je frissonne de peur quand tu me dis: 'Mon ange!'</l>
+               <l n="52">Et cependant je sens ma bouche aller vers toi.</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="14">
+               <l n="53">Ne me regarde pas ainsi, toi, ma pensée!</l>
+               <l n="54">Toi que j'aime à jamais, ma soeur d'élection,</l>
+               <l n="55">Quand même tu serais une embûche dressée</l>
+               <l n="56">Et le commencement de ma perdition!»</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="15">
+               <l n="57">Delphine secouant sa crinière tragique,</l>
+               <l n="58">Et comme trépignant sur le trépied de fer,</l>
+               <l n="59">L'oeil fatal, répondit d'une voix despotique:</l>
+               <l n="60">— «Qui donc devant l'amour ose parler d'enfer ?</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="16">
+               <l n="61">Maudit soit à jamais le rêveur inutile</l>
+               <l n="62">Qui voulut le premier, dans sa stupidité,</l>
+               <l n="63">S'éprenant d'un problème insoluble et stérile,</l>
+               <l n="64">Aux choses de l'amour mêler l'honnêteté!</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="17">
+               <l n="65">Celui qui veut unir dans un accord mystique</l>
+               <l n="66">L'ombre avec la chaleur, la nuit avec le jour,</l>
+               <l n="67">Ne chauffera jamais son corps paralytique</l>
+               <l n="68">À ce rouge soleil que l'on nomme l'amour!</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="18">
+               <l n="69">Va, si tu veux, chercher un fiancé stupide;</l>
+               <l n="70">Cours offrir un coeur vierge à ses cruels baisers;</l>
+               <l n="71">Et, pleine de remords et d'horreur, et livide,</l>
+               <l n="72">Tu me rapporteras tes seins stigmatisés...</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="19">
+               <l n="73">On ne peut ici-bas contenter qu'un seul maître!»</l>
+               <l n="74">Mais l'enfant, épanchant une immense douleur,</l>
+               <l n="75">Cria soudain: — «Je sens s'élargir dans mon être</l>
+               <l n="76">Un abîme béant; cet abîme est mon coeur!</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="20">
+               <l n="77">Brûlant comme un volcan, profond comme le vide!</l>
+               <l n="78">Rien ne rassasiera ce monstre gémissant</l>
+               <l n="79">Et ne rafraîchira la soif de l'Euménide</l>
+               <l n="80">Qui, la torche à la main, le brûle jusqu'au sang.</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="21">
+               <l n="81">Que nos rideaux fermés nous séparent du monde,</l>
+               <l n="82">Et que la lassitude amène le repos!</l>
+               <l n="83">Je veux m'anéantir dans ta gorge profonde,</l>
+               <l n="84">Et trouver sur ton sein la fraîcheur des tombeaux!»</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="22">
+               <l n="85">— Descendez, descendez, lamentables victimes,</l>
+               <l n="86">Descendez le chemin de l'enfer éternel!</l>
+               <l n="87">Plongez au plus profond du gouffre, où tous les crimes</l>
+               <l n="88">Flagellés par un vent qui ne vient pas du ciel,</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="23">
+               <l n="89">Bouillonnent pêle-mêle avec un bruit d'orage.</l>
+               <l n="90">Ombres folles, courez au but de vos désirs;</l>
+               <l n="91">Jamais vous ne pourrez assouvir votre rage,</l>
+               <l n="92">Et votre châtiment naîtra de vos plaisirs.</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="24">
+               <l n="93">Jamais un rayon frais n'éclaira vos cavernes;</l>
+               <l n="94">Par les fentes des murs des miasmes fiévreux</l>
+               <l n="95">Filtrent en s'enflammant ainsi que des lanternes</l>
+               <l n="96">Et pénètrent vos corps de leurs parfums affreux.</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="25">
+               <l n="97">L'âpre stérilité de votre jouissance</l>
+               <l n="98">Altère votre soif et roidit votre peau,</l>
+               <l n="99">Et le vent furibond de la concupiscence</l>
+               <l n="100">Fait claquer votre chair ainsi qu'un vieux drapeau.</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="26">
+               <l n="101">Loin des peuples vivants, errantes, condamnées,</l>
+               <l n="102">À travers les déserts courez comme les loups;</l>
+               <l n="103">Faites votre destin, âmes désordonnées,</l>
+               <l n="104">Et fuyez l'infini que vous portez en vous!</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
