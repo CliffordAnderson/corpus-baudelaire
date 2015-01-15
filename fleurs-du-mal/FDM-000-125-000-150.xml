@@ -1,0 +1,132 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title rend ="Le rêve d'un curieux">Rêve d'un curieux</title>
+<author>Charles Baudelaire</author>
+<respStmt>
+<resp>Encoded by</resp>
+<name xml:id="RKB">Raquelle K. Bostow</name>
+</respStmt>
+<sponsor>Jean and Alexander Heard Library</sponsor>
+</titleStmt>
+<publicationStmt>
+<publisher>Jean and Alexander Heard Library</publisher>
+<pubPlace>Nashville</pubPlace>
+<address>
+<addrLine>Jean and Alexander Heard Library</addrLine>
+<addrLine>419 21st Avenue South</addrLine>
+<addrLine>Nashville, TN 37203</addrLine>
+<addrLine>USA</addrLine>
+</address>
+<date>2014</date>
+<idno>FDM-000-125-000-150</idno>
+</publicationStmt>
+<sourceDesc>
+<listWit>
+<witness xml:id="U1857">
+<desc>1857 Unexpurgated</desc>
+<biblStruct>
+<monogr>
+<title>Les Fleurs du Mal</title>
+<author>Charles Baudelaire</author>
+<imprint>
+<pubPlace>Paris</pubPlace>
+<publisher>Poulet-Malassis et De Broise</publisher>
+<date>1857</date>
+<note>Original edition with condemned pieces</note>
+</imprint>
+<extent>248 p.</extent>
+</monogr>
+</biblStruct>
+</witness>
+<witness xml:id="E1857">
+<desc>1857 Expurgated</desc>
+<biblStruct>
+<monogr>
+<title>Les Fleurs du Mal</title>
+<author>Charles Baudelaire</author>
+<imprint>
+<pubPlace>Paris</pubPlace>
+<publisher>Poulet-Malassis et De Broise</publisher>
+<date>1857</date>
+<note>Original edition with condemned pieces removed</note>
+</imprint>
+<extent>248 p.</extent>
+</monogr>
+</biblStruct>
+</witness>
+<witness xml:id="FDM1861">
+<desc>1861 2nd edition censored</desc>
+<biblStruct>
+<monogr>
+<title>Les Fleurs du Mal</title>
+<author>Charles Baudelaire</author>
+<imprint>
+<pubPlace>Paris</pubPlace>
+<publisher>Poulet-Malassis et De Broise</publisher>
+<date>1861</date>
+<note>2nd edition augmented by 35 new poems and ornamented with a
+portrait of the author drawn and engraved by Felix Bracquemond</note>
+</imprint>
+<extent> 319 p.</extent>
+</monogr>
+</biblStruct>
+</witness>
+<witness xml:id="FDM1868">
+<desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+<biblStruct>
+<monogr>
+<title>Oeuvres Complètes de Charles Baudelaire</title>
+<author>Charles Baudelaire</author>
+<editor>Théophile Gautier</editor>
+<imprint>
+<pubPlace>Paris</pubPlace>
+<publisher>Michel Lévy Frères</publisher>
+<date>1868-1873</date>
+<note>Volume 1 contains Les Fleurs du Mal</note>
+</imprint>
+<extent>7 volumes</extent>
+</monogr>
+</biblStruct>
+</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+
+<text>
+<body>
+<div type="sonnet">
+<head>
+<title>Le rêve d'un curieux</title>
+</head>
+
+<head type="dedication">À Félix Nadar</head>
+
+<lg type="stanza" subtype="quatrain" n="1">
+<l n="1">Connais-tu, comme moi, la douleur savoureuse</l>
+<l n="2">Et de toi fais-tu dire: «Oh! l'homme singulier!»</l>
+<l n="3">— J'allais mourir. C'était dans mon âme amoureuse</l>
+<l n="4">Désir mêlé d'horreur, un mal particulier;</l>
+</lg>
+<lg type="stanza" subtype="quatrain" n="2">
+<l n="1">Angoisse et vif espoir, sans humeur factieuse.</l>
+<l n="2">Plus allait se vidant le fatal sablier,</l>
+<l n="3">Plus ma torture était âpre et délicieuse;</l>
+<l n="4">Tout mon coeur s'arrachait au monde familier.</l>
+</lg>
+<lg type="stanza" subtype="tercet" n="3">
+<l n="1">J'étais comme l'enfant avide du spectacle,</l>
+<l n="2">Haïssant le rideau comme on hait un obstacle...</l>
+<l n="3">Enfin la vérité froide se révéla:</l>
+</lg>
+<lg type="stanza" subtype="tercet" n="4">
+<l n="1">J'étais mort sans surprise, et la terrible aurore</l>
+<l n="2">M'enveloppait. — Eh quoi! n'est-ce donc que cela?</l>
+<l n="3">La toile était levée et j'attendais encore.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

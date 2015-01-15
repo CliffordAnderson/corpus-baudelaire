@@ -6,11 +6,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title rend="Une Martyre">Martyre</title>
+            <title rend="L'invitation au Voyage">Invitation au Voyage</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <name xml:id="TMF">Timothy Foster</name>
+               <name xml:id="SS">Sara Sterkenburg</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
@@ -24,7 +24,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
-            <idno>FDM-079-110-000-135</idno>
+            <idno>FDM-049-053-000-054</idno>
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -141,100 +141,61 @@ Online Distributed Proofreading Team.</p>
       <body>
          <div type="poem">
             <head>
-               <title type="main">UNE MARTYRE</title>
+               <title>L'invitation au voyage</title>
             </head>
-            <head>
-               <title type="sub">DESSIN D'UN MAITRE INCONNU</title>
-            </head>
-            <lg type="stanza" subtype="quatrain" n="1">
-               <l n="1">Au milieu des flacons, des étoffes lamées</l>
-               <l n="2">Et des meubles voluptueux,</l>
-               <l n="3">Des marbres, des tableaux, des robes parfumées</l>
-               <l n="4">Qui trament à plis sompteux,</l>
+            <lg type="stanza" n="1">
+               <l n="1">Mon enfant, ma sœur,</l>
+               <l n="2">Songe à la douceur</l>
+               <l n="3">D'aller là-bas vivre ensemble;</l>
+               <l n="4">Aimer à loisir,</l>
+               <l n="5">Aimer et mourir</l>
+               <l n="6">Au pays qui te ressemble!</l>
+               <l n="7">Les soleils mouillés</l>
+               <l n="8">De ces ciels brouillés</l>
+               <l n="9">Pour mon esprit ont les charmes</l>
+               <l n="10">Si mystérieux</l>
+               <l n="11">De tes traîtres yeux,</l>
+               <l n="12">Brillant à travers leurs larmes.</l>
             </lg>
-            <lg type="stanza" subtype="quatrain" n="2">
-               <l n="5">Dans une chambre tiède où, comme en une serre,</l>
-               <l n="6">L'air est dangereux et fatal,</l>
-               <l n="7">Où des bouquets mourants dans leurs cercueils de verre,</l>
-               <l n="8">Exhalent leur soupir final,</l>
+            <lg type="stanza" subtype="couplet" n="2">
+               <l n="13">Là, tout n'est qu'ordre et beauté,</l>
+               <l n="14">Luxe, calme et volupté.</l>
             </lg>
-            <lg type="stanza" subtype="quatrain" n="3">
-               <l n="9">Un cadavre sans tête épanche, comme un fleuve,</l>
-               <l n="10">Sur l'oreiller désaltéré</l>
-               <l n="11">Un sang rouge et vivant, dont la toile s'abreuve</l>
-               <l n="12">Avec l'avidité d'un pré.</l>
+            <lg type="stanza" n="3">
+               <l n="15">-Des meubles luisants,</l>
+               <l n="16">Polis par les ans,</l>
+               <l n="17">Décoreraient notre chambre;</l>
+               <l n="18">Les plus rare fleurs</l>
+               <l n="19">mêlant leurs odeurs</l> 
+               <l n="20">Aux vagues senteurs de l'ambre,</l>
+               <l n="21">Les riches plafonds,</l>
+               <l n="22">Les miroirs profonds,</l>
+               <l n="23">La splendeur orientale,</l>
+               <l n="24">Tout y parlerait</l>
+               <l n="25">A l'âme en secret</l>
+               <l n="26">Sa douce langue natale.</l>
             </lg>
-            <lg type="stanza" subtype="quatrain" n="4">
-               <l n="13">Semblable aux visions pâles qu'enfante l'ombre</l>
-               <l n="14">Et qui nous enchaînent les yeux,</l>
-               <l n="15">La tête, avec l'amas de sa crinière sombre</l>
-               <l n="16">Et de ses bijoux précieux,</l>
+            <lg type="stanza" subtype="couplet" n="4">   
+               <l n="27">Là, tout n'est qu'ordre et beauté,</l>
+               <l n="28">Luxe, calme et volupté.</l>
             </lg>
-            <lg type="stanza" subtype="quatrain" n="5">
-               <l n="17">Sur la table de nuit, comme une renoncule,</l>
-               <l n="18">Repose, et, vide de pensers,</l>
-               <l n="19">Un regard vague et blanc comme le crépuscule</l>
-               <l n="20">S'échappe des yeux révulsés.</l>
+            <lg type="stanza" n="5">
+               <l n="29">Vois sur ces canaux</l>
+               <l n="30">Dormir ces vaisseaux</l>
+               <l n="31">Dont l'humeur est vagabonde;</l>
+               <l n="32">C'est pour assouvir</l>
+               <l n="33">Ton moindre désir</l>
+               <l n="34">Qu'ils viennent du bout du monde.</l>
+               <l n="35">— Les soliels couchants</l> 
+               <l n="36">Revêtent les champs,</l>
+               <l n="37">Les canaux, la ville entière,</l>
+               <l n="38">D'hyacinthe et d'or;</l>
+               <l n="39">— Le monde s'endort</l>
+               <l n="40">Dans une chaude lumière.</l>
             </lg>
-            <lg type="stanza" subtype="quatrain" n="6">
-               <l n="21">Sur le lit, le tronc nu sans scrupule étale</l>
-               <l n="22">Dans le plus complet abandon</l>
-               <l n="23">La secrète splendeur et la beauté fatale</l>
-               <l n="24">Dont la nature lui fit don;</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="7">
-               <l n="25">Un bas rosâtre, orné de coins d'or, à la jambe</l>
-               <l n="26">Comme un souvenir est resté;</l>
-               <l n="27">La jarretière, ainsi qu'un oeil secret qui flambe,</l>
-               <l n="28">Darde un regard diamanté.</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="8">
-               <l n="29">Le singulier aspect de cette solitude</l>
-               <l n="30">Et d'un grand portrait langoureux,</l>
-               <l n="31">Aux yeux provocateurs comme son attitude,</l>
-               <l n="32">Révèle un amour ténébreux,</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="9">
-               <l n="33">Une coupable joie et des fêtes étranges</l>
-               <l n="34">Pleines de baisers infernaux.</l>
-               <l n="35">Dont se réjouissait l'essaim de mauvais anges</l>
-               <l n="36">Nageant dans les plis des rideaux;</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="10">
-               <l n="37">Et cependant, à voir la maigreur élégante</l>
-               <l n="38">De l'épaule au contour heurté,</l>
-               <l n="39">La hanche un peu pointue et la taille fringante</l>
-               <l n="40">Ainsi qu'an reptile irrité,</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="11">
-               <l n="41">Elle est bien jeune encor!--Son âme exaspérée</l>
-               <l n="42">Et ses sens par l'ennui mordus</l>
-               <l n="43">S'étaient-ils entr'ouverts à la meute altérée</l>
-               <l n="44">Des désirs errants et perdus?</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="12">
-               <l n="45">L'homme vindicatif que tu n'as pu, vivante,</l>
-               <l n="46">Malgré tant d'amour, assouvir,</l>
-               <l n="47">Combla-t-il sur ta chair inerte et complaisante</l>
-               <l n="48">L'immensité de son désir?</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="13">
-               <l n="49">Réponds, cadavre impur! et par tes tresses roides</l>
-               <l n="50">Te soulevant d'un bras fiévreux,</l>
-               <l n="51">Dis-moi, tête effrayante, as-tu sur tes dents froides,</l>
-               <l n="52">Collé les suprêmes adieux?</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="14">
-               <l n="53">--Loin du monde railleur, loin de la foule impure,</l>
-               <l n="54">Loin des magistrats curieux,</l>
-               <l n="55">Dors en paix, dors en paix, étrange créature,</l>
-               <l n="56">Dans ton tombeau mystérieux;</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="15">
-               <l n="57">Ton époux court le monde, et ta forme immortelle</l>
-               <l n="58">Veille près de lui quand il dort;</l>
-               <l n="59">Autant que toi sans doute il te sera fidèle,</l>
-               <l n="60">Et constant jusques à la mort.</l>
+            <lg type="stanza" subtype="couplet" n="6">
+               <l n="41">Là, tout n'est qu'ordre et beauté,</l>
+               <l n="42">Luxe, calme et volupté.</l>   
             </lg>
          </div>
       </body>
