@@ -1,0 +1,170 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
+        <title>SPLEEN (Pluviôse, irrité)</title>
+        <author>Charles Baudelaire</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <sponsor>Jean and Alexander Heard Library</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Jean and Alexander Heard Library</publisher>
+        <pubPlace>Nashville</pubPlace>
+        <address>
+          <addrLine>Jean and Alexander Heard Library</addrLine>
+          <addrLine>419 21st Avenue South</addrLine>
+          <addrLine>Nashville, TN 37203</addrLine>
+          <addrLine>USA</addrLine>
+        </address>
+        <date>2014</date>
+        <!--Below, insert the number of the poem, according to the established protocol-->
+        <idno>FDM-059-075-000-077</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="U1857">
+            <desc>1857 Unexpurgated</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1857</date>
+                  <note>Original edition with condemned pieces</note>
+                </imprint>
+                <extent>248 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="E1857">
+            <desc>1857 Expurgated</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1857</date>
+                  <note>Original edition with condemned pieces removed</note>
+                </imprint>
+                <extent>248 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="FDM1861">
+            <desc>1861 2nd edition censored</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1861</date>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a
+                    portrait of the author drawn and engraved by Felix Bracquemond</note>
+                </imprint>
+                <extent>319 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                    this is a false imprint, the book actually being published in Brussels
+                    by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                    9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="FDM1868">
+            <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Oeuvres Complètes de Charles Baudelaire</title>
+                <author>Charles Baudelaire</author>
+                <editor>Théophile Gautier</editor>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Michel Lévy Frères</publisher>
+                  <date>1868-1873</date>
+                  <note>Volume 1 contains Les Fleurs du Mal</note>
+                </imprint>
+                <extent>7 volumes</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+        </listWit>
+        <!-- create witList in sourceDesc with the different editions and their bib data
+1. 1857 Unexpurgated xml:id="U1857"
+2. 1857 Expurgated xml:id="E1857"
+3. 1861 2nd edition censored xml:id="FDM1861"
+4. 1866 Les Epaves xml:id="1866"
+5. 1868 3rd edition - posthumous xml:id="1868"
+-->
+        <!--
+<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+encoding: ISO-8859-1 </p>
+<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+Online Distributed Proofreading Team.</p>
+-->
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="sonnet">
+        <head>
+          <title>SPLEEN (Pluviôse, irrité)</title>
+        </head>
+        <lg type="stanza" subtype="quatrain" n="1">
+          <l n="1">Pluviôse, irrité contre la vie entière,</l>
+          <l n="2">De son urne à grands flots vers un froid ténébreux</l>
+          <l n="3">Aux pâles habitants du voisin cimetière</l>
+          <l n="4">Et la mortalité sur les faubourgs brumeux.</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="2">
+          <l n="5">Mon chat sur le carreau cherchant une litière</l>
+          <l n="6">Agite sans repos son corps maigre et galeux;</l>
+          <l n="7">L'âme d'un vieux poète erre dans la gouttière</l>
+          <l n="8">Avec la triste voix d'un fantôme frileux.</l>
+        </lg>
+        <lg type="stanza" subtype="tercet" n="3">
+          <l n="9">Le bourdon se lamente, et la bûche enfumée</l>
+          <l n="10">Accompagne en fausset la pendule enrhumée</l>
+          <l n="11">Cependant qu'en un jeu plein de sales parfums,</l>
+        </lg>
+        <lg type="stanza" subtype="tercet" n="4">
+          <l n="12">Héritage fatal d'une vieille hydropique,</l>
+          <l n="13">Le beau valet de coeur et la dame de pique</l>
+          <l n="14">Causent sinistrement de leurs amours défunts.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
