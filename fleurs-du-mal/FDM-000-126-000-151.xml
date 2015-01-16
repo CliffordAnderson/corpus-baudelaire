@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
+            <title rend="La Voyage">Voyage</title>
+            <author>Charles Baudelaire</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+               <name xml:id="TFH">Todd F. Hughes</name>
+            </respStmt>
+            <sponsor>Jean and Alexander Heard Library</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <!--Below, insert the number of the poem, according to the established protocol-->
+            <publisher>Jean and Alexander Heard Library</publisher>
+            <pubPlace>Nashville</pubPlace>
+            <address>
+               <addrLine>Jean and Alexander Heard Library</addrLine>
+               <addrLine>419 21st Avenue South</addrLine>
+               <addrLine>Nashville, TN 37203</addrLine>
+               <addrLine>USA</addrLine>
+            </address>
+            <date>2014</date>
+            <idno>FDM-000-126-000-151</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="U1857">
+                  <desc>1857 Unexpurgated</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Fleurs du Mal</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Poulet-Malassis et De Broise</publisher>
+                           <date>1857</date>
+                           <note>Original edition with condemned pieces</note>
+                        </imprint>
+                        <extent>248 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="E1857">
+                  <desc>1857 Expurgated</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Fleurs du Mal</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Poulet-Malassis et De Broise</publisher>
+                           <date>1857</date>
+                           <note>Original edition with condemned pieces removed</note>
+                        </imprint>
+                        <extent>248 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="FDM1861">
+                  <desc>1861 2nd edition censored</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Fleurs du Mal</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Poulet-Malassis et De Broise</publisher>
+                           <date>1861</date>
+                           <note>2nd edition augmented by 35 new poems and ornamented with a
+                              portrait of the author drawn and engraved by Felix Bracquemond</note>
+                        </imprint>
+                        <extent> 319 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="LE1866">
+                  <desc>1866 Les Epaves xml:id="1866"</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Épaves</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Amsterdam</pubPlace>
+                           <publisher>À L'Enseigne du Coq</publisher>
+                           <date>1866</date>
+                           <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                              this is a false imprint, the book actually being published in Brussels
+                              by Poulet-Malassis.</note>
+                           <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                              9-55</note>
+                           <note>With a frontispeice etching by Félicien Rops</note>
+                        </imprint>
+                        <extent>163 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="FDM1868">
+                  <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Oeuvres Complètes de Charles Baudelaire</title>
+                        <author>Charles Baudelaire</author>
+                        <editor>Théophile Gautier</editor>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Michel Lévy Frères</publisher>
+                           <date>1868-1873</date>
+                           <note>Volume 1 contains Les Fleurs du Mal</note>
+                        </imprint>
+                        <extent>7 volumes</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+            </listWit>
+            <!-- create witList in sourceDesc with the different editions and their bib data
+1. 1857 Unexpurgated xml:id="U1857"
+2. 1857 Expurgated xml:id="E1857"
+3. 1861 2nd edition censored xml:id="FDM1861"
+4. 1866 Les Epaves xml:id="1866"
+5. 1868 3rd edition - posthumous xml:id="1868"
+-->
+            <!--
+<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+encoding: ISO-8859-1 </p>
+<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+Online Distributed Proofreading Team.</p>
+-->
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poem">
+            <head>
+               <title>Le Voyage</title>
+            </head>
+            <div type="dedication">
+               <p>À Maxime du Camp</p>
+            </div>
+            <div>
+               <ab>I</ab>
+               <lg type="stanza" subtype="quatrain" n="1">
+                  <l n="1">Pour l'enfant, amoureux de cartes et d'estampes,</l>
+                  <l n="2"> L'univers est égal à son vaste appétit.</l>
+                  <l n="3">Ah! que le monde est grand à la clarté des lampes!</l>
+                  <l n="4">Aux yeux du souvenir que le monde est petit!</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="2">
+                  <l n="5">Un matin nous partons, le cerveau plein de flamme,</l>
+                  <l n="6">Le coeur gros de rancune et de désirs amers,</l>
+                  <l n="7">Et nous allons, suivant le rythme de la lame,</l>
+                  <l n="8">Berçant notre infini sur le fini des mers:</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="3">
+                  <l n="9">Les uns, joyeux de fuir une patrie infâme;</l>
+                  <l n="10">D'autres, l'horreur de leurs berceaux, et quelques-uns,</l>
+                  <l n="11">Astrologues noyés dans les yeux d'une femme,</l>
+                  <l n="12">La Circé tyrannique aux dangereux parfums.</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="4">
+                  <l n="13">Pour n'être pas changés en bêtes, ils s'enivrent</l>
+                  <l n="14">D'espace et de lumière et de cieux embrasés;</l>
+                  <l n="15">La glace qui les mord, les soleils qui les cuivrent,</l>
+                  <l n="16">Effacent lentement la marque des baisers.</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="5">
+                  <l n="17">Mais les vrais voyageurs sont ceux-là seuls qui partent</l>
+                  <l n="18">Pour partir; coeurs légers, semblables aux ballons,</l>
+                  <l n="19">De leur fatalité jamais ils ne s'écartent,</l>
+                  <l n="20">Et, sans savoir pourquoi, disent toujours: Allons!</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="6">
+                  <l n="21">Ceux-là dont les désirs ont la forme des nues,</l>
+                  <l n="22">Et qui rêvent, ainsi qu'un conscrit le canon,</l>
+                  <l n="23">De vastes voluptés, changeantes, inconnues,</l>
+                  <l n="24">Et dont l'esprit humain n'a jamais su le nom!</l>
+               </lg>
+            </div>
+            <div>
+               <ab>II</ab>
+               <lg type="stanza" subtype="quatrain" n="7">
+                  <l n="25">Nous imitons, horreur! la toupie et la boule</l>
+                  <l n="26">Dans leur valse et leurs bonds; même dans nos sommeils</l>
+                  <l n="27">La Curiosité nous tourmente et nous roule</l>
+                  <l n="28">Comme un Ange cruel qui fouette des soleils.</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="8">
+                  <l n="29">Singulière fortune où le but se déplace,</l>
+                  <l n="30">Et, n'étant nulle part, peut être n'importe où!</l>
+                  <l n="31">Où l'Homme, dont jamais l'espérance n'est lasse,</l>
+                  <l n="32">Pour trouver le repos court toujours comme un fou!</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="9">
+                  <l n="33">Notre âme est un trois-mâts cherchant son Icarie;</l>
+                  <l n="34">Une voix retentit sur le pont: «Ouvre l'oeil!»</l>
+                  <l n="35">Une voix de la hune, ardente et folle, crie:</l>
+                  <l n="36">«Amour... gloire... bonheur!» Enfer! c'est un écueil!</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="10">
+                  <l n="37">Pour n'être pas changés en bêtes, ils s'enivrent</l>
+                  <l n="38">D'espace et de lumière et de cieux embrasés;</l>
+                  <l n="39">La glace qui les mord, les soleils qui les cuivrent,</l>
+                  <l n="40">Effacent lentement la marque des baisers.</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="11">
+                  <l n="41">Mais les vrais voyageurs sont ceux-là seuls qui partent</l>
+                  <l n="42">Pour partir; coeurs légers, semblables aux ballons,</l>
+                  <l n="43">De leur fatalité jamais ils ne s'écartent,</l>
+                  <l n="44">Et, sans savoir pourquoi, disent toujours: Allons!</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="12">
+                  <l n="45">Ceux-là dont les désirs ont la forme des nues,</l>
+                  <l n="46">Et qui rêvent, ainsi qu'un conscrit le canon,</l>
+                  <l n="47">De vastes voluptés, changeantes, inconnues,</l>
+                  <l n="48">Et dont l'esprit humain n'a jamais su le nom!</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="13">
+                  <l n="49">Chaque îlot signalé par l'homme de vigie</l>
+                  <l n="50">Est un Eldorado promis par le Destin;</l>
+                  <l n="51">L'Imagination qui dresse son orgie</l>
+                  <l n="52">Ne trouve qu'un récif aux clartés du matin.</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="14">
+                  <l n="53">Ô le pauvre amoureux des pays chimériques!</l>
+                  <l n="54">Faut-il le mettre aux fers, le jeter à la mer,</l>
+                  <l n="55">Ce matelot ivrogne, inventeur d'Amériques</l>
+                  <l n="56">Dont le mirage rend le gouffre plus amer?</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="15">
+                  <l n="57">Tel le vieux vagabond, piétinant dans la boue,</l>
+                  <l n="58">Rêve, le nez en l'air, de brillants paradis;</l>
+                  <l n="59">Son oeil ensorcelé découvre une Capoue</l>
+                  <l n="60">Partout où la chandelle illumine un taudis.</l>
+               </lg>
+            </div>
+            <div>
+               <ab>III</ab>
+               <lg type="stanza" subtype="quatrain" n="16">
+                  <l n="61">Etonnants voyageurs! quelles nobles histoires</l>
+                  <l n="62">Nous lisons dans vos yeux profonds comme les mers!</l>
+                  <l n="63">Montrez-nous les écrins de vos riches mémoires,</l>
+                  <l n="64">Ces bijoux merveilleux, faits d'astres et d'éthers.</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="17">
+                  <l n="65">Nous voulons voyager sans vapeur et sans voile!</l>
+                  <l n="66">Faites, pour égayer l'ennui de nos prisons,</l>
+                  <l n="67">Passer sur nos esprits, tendus comme une toile,</l>
+                  <l n="68">Vos souvenirs avec leurs cadres d'horizons.</l>
+               </lg>
+               <lg type="stanza" n="18">
+                  <l n="69">Dites, qu'avez-vous vu?</l>
+               </lg>
+            </div>
+            <div>
+               <ab>IV</ab>
+               <lg type="stanza" subtype="quatrain" n="19">
+                  <l n="70">«Nous avons vu des astres</l>
+                  <l n="71">Et des flots, nous avons vu des sables aussi;</l>
+                  <l n="72">Et, malgré bien des chocs et d'imprévus désastres,</l>
+                  <l n="73">Nous nous sommes souvent ennuyés, comme ici.</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="20">
+                  <l n="74">La gloire du soleil sur la mer violette,</l>
+                  <l n="75">La gloire des cités dans le soleil couchant,</l>
+                  <l n="76">Allumaient dans nos coeurs une ardeur inquiète</l>
+                  <l n="77">De plonger dans un ciel au reflet alléchant.</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="21">
+                  <l n="78">Les plus riches cités, les plus grands paysages,</l>
+                  <l n="79">Jamais ne contenaient l'attrait mystérieux</l>
+                  <l n="80">De ceux que le hasard fait avec les nuages.</l>
+                  <l n="81">Et toujours le désir nous rendait soucieux!</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="22">
+                  <l n="82">— La jouissance ajoute au désir de la force.</l>
+                  <l n="83">Désir, vieil arbre à qui le plaisir sert d'engrais,</l>
+                  <l n="84">Cependant que grossit et durcit ton écorce,</l>
+                  <l n="85">Tes branches veulent voir le soleil de plus près!</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="23">
+                  <l n="86">Grandiras-tu toujours, grand arbre plus vivace</l>
+                  <l n="87">Que le cyprès? — Pourtant nous avons, avec soin,</l>
+                  <l n="88">Cueilli quelques croquis pour votre album vorace</l>
+                  <l n="89">Frères qui trouvez beau tout ce qui vient de loin!</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="24">
+                  <l n="90">Nous avons salué des idoles à trompe;</l>
+                  <l n="91">Des trônes constellés de joyaux lumineux;</l>
+                  <l n="92">Des palais ouvragés dont la féerique pompe</l>
+                  <l n="93">Serait pour vos banquiers un rêve ruineux;</l>
+               </lg>
+               <lg type="stanza" subtype="tercet" n="25">
+                  <l n="94">Des costumes qui sont pour les yeux une ivresse;</l>
+                  <l n="95">Des femmes dont les dents et les ongles sont teints,</l>
+                  <l n="96">Et des jongleurs savants que le serpent caresse.»</l>
+               </lg>
+            </div>
+            <div>
+               <ab>V</ab>
+               <lg type="stanza" n="26">
+                  <l n="97">Et puis, et puis encore?</l>
+               </lg>
+            </div>
+            <div>
+               <ab>VI</ab>
+               <lg type="stanza" n="27">
+                  <l n="97">«Ô cerveaux enfantins!</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="28">
+                  <l n="98">Pour ne pas oublier la chose capitale,</l>
+                  <l n="99">Nous avons vu partout, et sans l'avoir cherché,</l>
+                  <l n="100"> Du haut jusques en bas de l'échelle fatale,</l>
+                  <l n="101">Le spectacle ennuyeux de l'immortel péché:</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="29">
+                  <l n="102">La femme, esclave vile, orgueilleuse et stupide,</l>
+                  <l n="103">Sans rire s'adorant et s'aimant sans dégoût;</l>
+                  <l n="104"> L'homme, tyran goulu, paillard, dur et cupide,</l>
+                  <l n="105">Esclave de l'esclave et ruisseau dans l'égout;</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="30">
+                  <l n="106">Des costumes qui sont pour les yeux une ivresse;</l>
+                  <l n="107">Des femmes dont les dents et les ongles sont teints,</l>
+                  <l n="108">Et des jongleurs savants que le serpent caresse.»</l>
+                  <l n="109">Et des jongleurs savants que le serpent caresse.»</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="31">
+                  <l n="110">Plusieurs religions semblables à la nôtre,</l>
+                  <l n="111">Toutes escaladant le ciel; la Sainteté,</l>
+                  <l n="112">Comme en un lit de plume un délicat se vautre,</l>
+                  <l n="113">Dans les clous et le crin cherchant la volupté;</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="32">
+                  <l n="114">L'Humanité bavarde, ivre de son génie,</l>
+                  <l n="115">Et, folle maintenant comme elle était jadis,</l>
+                  <l n="116">Criant à Dieu, dans sa furibonde agonie:</l>
+                  <l n="117"> »Ô mon semblable, mon maître, je te maudis!«</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="33">
+                  <l n="118">Et les moins sots, hardis amants de la Démence,</l>
+                  <l n="119"> Fuyant le grand troupeau parqué par le Destin,</l>
+                  <l n="120">Et se réfugiant dans l'opium immense!</l>
+                  <l n="121">— Tel est du globe entier l'éternel bulletin.»</l>
+               </lg>
+            </div>
+            <div>
+               <ab> VII</ab>
+               <lg type="stanza" subtype="quatrain" n="34">
+                  <l n="122">Amer savoir, celui qu'on tire du voyage!</l>
+                  <l n="123">Le monde, monotone et petit, aujourd'hui,</l>
+                  <l n="124">Hier, demain, toujours, nous fait voir notre image:</l>
+                  <l n="125">Une oasis d'horreur dans un désert d'ennui!</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="35">
+                  <l n="126">Faut-il partir? rester? Si tu peux rester, reste;</l>
+                  <l n="127">Pars, s'il le faut. L'un court, et l'autre se tapit</l>
+                  <l n="128">Pour tromper l'ennemi vigilant et funeste,</l>
+                  <l n="129">Le Temps! Il est, hélas! des coureurs sans répit,</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="36">
+                  <l n="130">Comme le Juif errant et comme les apôtres,</l>
+                  <l n="131">À qui rien ne suffit, ni wagon ni vaisseau,</l>
+                  <l n="132">Pour fuir ce rétiaire infâme; il en est d'autres</l>
+                  <l n="133">Qui savent le tuer sans quitter leur berceau.</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="37">
+                  <l n="134">Lorsque enfin il mettra le pied sur notre échine,</l>
+                  <l n="135">Nous pourrons espérer et crier: En avant!</l>
+                  <l n="136"> De même qu'autrefois nous partions pour la Chine,</l>
+                  <l n="137">Les yeux fixés au large et les cheveux au vent,</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="38">
+                  <l n="138">Nous nous embarquerons sur la mer des Ténèbres</l>
+                  <l n="139">Avec le coeur joyeux d'un jeune passager.</l>
+                  <l n="140">Entendez-vous ces voix charmantes et funèbres,</l>
+                  <l n="141">Qui chantent: «Par ici vous qui voulez manger</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="39">
+                  <l n="142">Le Lotus parfumé! c'est ici qu'on vendange</l>
+                  <l n="143">Les fruits miraculeux dont votre coeur a faim;</l>
+                  <l n="144">Venez vous enivrer de la douceur étrange</l>
+                  <l n="145">De cette après-midi qui n'a jamais de fin!»</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="40">
+                  <l n="146">Le Lotus parfumé! c'est ici qu'on vendange</l>
+                  <l n="147">Les fruits miraculeux dont votre coeur a faim;</l>
+                  <l n="148">Venez vous enivrer de la douceur étrange</l>
+                  <l n="149">De cette après-midi qui n'a jamais de fin!»</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="41">
+                  <l n="150">À l'accent familier nous devinons le spectre;</l>
+                  <l n="151">Nos Pylades là-bas tendent leurs bras vers nous.</l>
+                  <l n="152">«Pour rafraîchir ton coeur nage vers ton Electre!»</l>
+                  <l n="153">Dit celle dont jadis nous baisions les genoux.</l>
+               </lg>
+            </div>
+            <div>
+               <ab> VIII</ab>
+               <lg type="stanza" subtype="quatrain" n="42">
+                  <l n="154">Ô Mort, vieux capitaine, il est temps! levons l'ancre!</l>
+                  <l n="155">Ce pays nous ennuie, ô Mort! Appareillons!</l>
+                  <l n="156">Si le ciel et la mer sont noirs comme de l'encre,</l>
+                  <l n="157">Nos coeurs que tu connais sont remplis de rayons!</l>
+               </lg>
+               <lg type="stanza" subtype="quatrain" n="43">
+                  <l n="158">Verse-nous ton poison pour qu'il nous réconforte!</l>
+                  <l n="159">Nous voulons, tant ce feu nous brûle le cerveau,</l>
+                  <l n="160">Plonger au fond du gouffre, Enfer ou Ciel, qu'importe?</l>
+                  <l n="161">Au fond de l'Inconnu pour trouver du nouveau!</l>
+               </lg>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

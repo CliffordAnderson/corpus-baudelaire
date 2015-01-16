@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- TEI Header begins here... --> 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-                <title rend="La mort des amants">Mort des Amants</title>
+                <title rend="Allegorie">Allegorie</title>
                 <author>Charles Baudelaire</author>
                 <respStmt>
                     <resp>Encoded by</resp>
-                    <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-                    <name xml:id="TFH">Todd F. Hughes</name>
+                    <name xml:id="SW">Steven Wenz</name>
                 </respStmt>
                 <sponsor>Jean and Alexander Heard Library</sponsor>
             </titleStmt>
@@ -20,14 +19,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <publisher>Jean and Alexander Heard Library</publisher>
                 <pubPlace>Nashville</pubPlace>
                 <address>
-               <addrLine>Jean and Alexander Heard Library</addrLine>
-               <addrLine>419 21st Avenue South</addrLine>
-               <addrLine>Nashville, TN 37203</addrLine>
-               <addrLine>USA</addrLine>
-            </address>
+<addrLine>Jean and Alexander Heard Library</addrLine>
+<addrLine>419 21st Avenue South</addrLine>
+<addrLine>Nashville, TN 37203</addrLine>
+<addrLine>USA</addrLine>
+</address>
                 <date>2014</date>
-                <!--Below, insert the number of the poem, according to the established protocol-->
-                <idno>FDM-098-121-000-146</idno>
+                <idno>FDM-085-114-000-139</idno>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
@@ -73,8 +71,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     <pubPlace>Paris</pubPlace>
                                     <publisher>Poulet-Malassis et De Broise</publisher>
                                     <date>1861</date>
-                                    <note>2nd edition augmented by 35 new poems and ornamented with a
-                                        portrait of the author drawn and engraved by Felix Bracquemond</note>
+                                    <note>2nd edition augmented by 35 new poems and ornamented with
+                                        a portrait of the author drawn and engraved by Felix
+                                        Bracquemond</note>
                                 </imprint>
                                 <extent> 319 p.</extent>
                             </monogr>
@@ -90,9 +89,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     <pubPlace>Amsterdam</pubPlace>
                                     <publisher>À L'Enseigne du Coq</publisher>
                                     <date>1866</date>
-                                    <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                                        this is a false imprint, the book actually being published in Brussels
-                                        by Poulet-Malassis.</note>
+                                    <note>According to the preface of the 1890 edition (Paris, A.
+                                        Lemerre), this is a false imprint, the book actually being
+                                        published in Brussels by Poulet-Malassis.</note>
                                     <note>Includes condemned pieces removed from Fleurs du Mal: p.
                                         9-55</note>
                                     <note>With a frontispeice etching by Félicien Rops</note>
@@ -119,13 +118,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </biblStruct>
                     </witness>
                 </listWit>
-                <!-- These comments are insane.  create witList in sourceDesc with the different editions and their bib data
-1. 1857 Unexpurgated xml:id="U1857"
-2. 1857 Expurgated xml:id="E1857"
-3. 1861 2nd edition censored xml:id="FDM1861"
-4. 1866 Les Epaves xml:id="1866"
-5. 1868 3rd edition - posthumous xml:id="1868"
--->
                 <!--
 <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
 for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
@@ -140,37 +132,36 @@ Online Distributed Proofreading Team.</p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <!-- TEI header ends, text section begins... -->
     <text>
         <body>
-            <div type="sonnet">
+            <div type="poem">
                 <head>
-                    <title>La Mort des Amants</title>
+                    <title>ALLEGORIE</title>
                 </head>
-                <lg type="stanza" subtype="quatrain" n="1">
-                    <l n="">Nous aurons des lits pleins d'odeurs légères,</l>
-                    <l n="1">Des divans profonds comme des tombeaux,</l>
-                    <l n="2">Et d'étranges fleurs sur des étagères,</l>
-                    <l n="3">Ecloses pour nous sous des cieux plus beaux.</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="2">
-                    <l n="4">Usant à l'envi leurs chaleurs dernières,</l>
-                    <l n="5">Nos deux coeurs seront deux vastes flambeaux,</l>
-                    <l n="6">Qui réfléchiront leurs doubles lumières</l>
-                    <l n="7">Dans nos deux esprits, ces miroirs jumeaux.</l>
-                </lg>
-                <lg type="stanza" subtype="tercet" n="3">
-                    <l n="8">Un soir fait de rose et de bleu mystique,</l>
-                    <l n="9">Nous échangerons un éclair unique,</l>
-                    <l n="10">Comme un long sanglot, tout chargé d'adieux;</l>
-                </lg>
-                <lg type="stanza" subtype="tercet" n="4">
-                    <l n="11">Et plus tard un Ange, entr'ouvrant les portes,</l>
-                    <l n="12">Viendra ranimer, fidèle et joyeux,</l>
-                    <l n="13">Les miroirs ternis et les flammes mortes.</l>
+                <lg type="stanza" n="1">
+                    <l n="1">C'est une femme belle et de riche encolure,</l>
+                    <l n="2">Qui laisse dans son vin traîner sa chevelure.</l>
+                    <l n="3">Les griffes de l'amour, les poisons du tripot,</l>
+                    <l n="4">Tout glisse et tout s'émousse au granit de sa peau.</l>
+                    <l n="5">Elle rit à la Mort et nargue la Débauche,</l>
+                    <l n="6">Ces monstres dont la main, qui toujours gratte et fauche,</l>
+                    <l n="7">Dans ses jeux destructeurs a pourtant respecté</l>
+                    <l n="8">De ce corps ferme et droit la rude majesté.</l>
+                    <l n="9">Elle marche en déesse et repose en sultane;</l>
+                    <l n="10">Elle a dans le plaisir la foi mahométane,</l>
+                    <l n="11">Et dans ses bras ouverts, que remplissent ses seins,</l>
+                    <l n="12">Elle appelle des yeux la race des humains.</l>
+                    <l n="13">Elle croit, elle sait, cette vierge inféconde</l>
+                    <l n="14">Et pourtant nécessaire à la marche du monde,</l>
+                    <l n="15">Que la beauté du corps est un sublime don</l>
+                    <l n="16">Qui de toute infamie arrache le pardon.</l>
+                    <l n="17">Elle ignore l'Enfer comme le Purgatoire,</l>
+                    <l n="18">Et quand l'heure viendra d'entrer dans la Nuit noire</l>
+                    <l n="19">Elle regardera la face de la Mort,</l>
+                    <l n="20">Ainsi qu'un nouveau-né, — sans haine et sans remords.</l>
                 </lg>
             </div>
         </body>
     </text>
 </TEI>
-
-
