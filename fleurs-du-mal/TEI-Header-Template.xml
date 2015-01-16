@@ -7,12 +7,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <fileDesc>
             <titleStmt>
                 <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-                <title rend="La mort des amants">Mort des Amants</title>
+                <title>{insert poem title here}</title>
                 <author>Charles Baudelaire</author>
                 <respStmt>
                     <resp>Encoded by</resp>
                     <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-                    <name xml:id="TFH">Todd F. Hughes</name>
+                    <name xml:id="III">{Insert Name Here and update xml ID}</name>
                 </respStmt>
                 <sponsor>Jean and Alexander Heard Library</sponsor>
             </titleStmt>
@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </address>
                 <date>2014</date>
                 <!--Below, insert the number of the poem, according to the established protocol-->
-                <idno>FDM-098-121-000-146</idno>
+                <idno>FDM-</idno>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
@@ -119,7 +119,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </biblStruct>
                     </witness>
                 </listWit>
-                <!-- These comments are insane.  create witList in sourceDesc with the different editions and their bib data
+                <!-- create witList in sourceDesc with the different editions and their bib data
 1. 1857 Unexpurgated xml:id="U1857"
 2. 1857 Expurgated xml:id="E1857"
 3. 1861 2nd edition censored xml:id="FDM1861"
@@ -142,35 +142,8 @@ Online Distributed Proofreading Team.</p>
     </teiHeader>
     <text>
         <body>
-            <div type="sonnet">
-                <head>
-                    <title>La Mort des Amants</title>
-                </head>
-                <lg type="stanza" subtype="quatrain" n="1">
-                    <l n="">Nous aurons des lits pleins d'odeurs légères,</l>
-                    <l n="1">Des divans profonds comme des tombeaux,</l>
-                    <l n="2">Et d'étranges fleurs sur des étagères,</l>
-                    <l n="3">Ecloses pour nous sous des cieux plus beaux.</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="2">
-                    <l n="4">Usant à l'envi leurs chaleurs dernières,</l>
-                    <l n="5">Nos deux coeurs seront deux vastes flambeaux,</l>
-                    <l n="6">Qui réfléchiront leurs doubles lumières</l>
-                    <l n="7">Dans nos deux esprits, ces miroirs jumeaux.</l>
-                </lg>
-                <lg type="stanza" subtype="tercet" n="3">
-                    <l n="8">Un soir fait de rose et de bleu mystique,</l>
-                    <l n="9">Nous échangerons un éclair unique,</l>
-                    <l n="10">Comme un long sanglot, tout chargé d'adieux;</l>
-                </lg>
-                <lg type="stanza" subtype="tercet" n="4">
-                    <l n="11">Et plus tard un Ange, entr'ouvrant les portes,</l>
-                    <l n="12">Viendra ranimer, fidèle et joyeux,</l>
-                    <l n="13">Les miroirs ternis et les flammes mortes.</l>
-                </lg>
-            </div>
+            <p>Some text here.</p>
         </body>
     </text>
 </TEI>
-
 
