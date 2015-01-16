@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title rend="LESBOS">LESBOS</title>
+            <author>Charles Baudelaire</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <name xml:id="TMF">Timothy Foster</name>
+            </respStmt>
+            <sponsor>Jean and Alexander Heard Library</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Jean and Alexander Heard Library</publisher>
+            <pubPlace>Nashville</pubPlace>
+            <address>
+               <addrLine>Jean and Alexander Heard Library</addrLine>
+               <addrLine>419 21st Avenue South</addrLine>
+               <addrLine>Nashville, TN 37203</addrLine>
+               <addrLine>USA</addrLine>
+            </address>
+            <date>2014</date>
+        <idno>FDM-080-000-002-000</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="U1857">
+                  <desc>1857 Unexpurgated</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Fleurs du Mal</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Poulet-Malassis et De Broise</publisher>
+                           <date>1857</date>
+                           <note>Original edition with condemned pieces</note>
+                        </imprint>
+                        <extent>248 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="E1857">
+                  <desc>1857 Expurgated</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Fleurs du Mal</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Poulet-Malassis et De Broise</publisher>
+                           <date>1857</date>
+                           <note>Original edition with condemned pieces removed</note>
+                        </imprint>
+                        <extent>248 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="FDM1861">
+                  <desc>1861 2nd edition censored</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Fleurs du Mal</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Poulet-Malassis et De Broise</publisher>
+                           <date>1861</date>
+                           <note>2nd edition augmented by 35 new poems and ornamented with a
+                              portrait of the author drawn and engraved by Felix Bracquemond</note>
+                        </imprint>
+                        <extent> 319 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="LE1866">
+                  <desc>1866 Les Epaves xml:id="1866"</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Épaves</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Amsterdam</pubPlace>
+                           <publisher>À L'Enseigne du Coq</publisher>
+                           <date>1866</date>
+                           <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                              this is a false imprint, the book actually being published in Brussels
+                              by Poulet-Malassis.</note>
+                           <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                              9-55</note>
+                           <note>With a frontispeice etching by Félicien Rops</note>
+                        </imprint>
+                        <extent>163 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="FDM1868">
+                  <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Oeuvres Complètes de Charles Baudelaire</title>
+                        <author>Charles Baudelaire</author>
+                        <editor>Théophile Gautier</editor>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Michel Lévy Frères</publisher>
+                           <date>1868-1873</date>
+                           <note>Volume 1 contains Les Fleurs du Mal</note>
+                        </imprint>
+                        <extent>7 volumes</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+            </listWit>
+<!-- create witList in sourceDesc with the different editions and their bib data
+1. 1857 Unexpurgated xml:id="U1857"
+2. 1857 Expurgated xml:id="E1857"
+3. 1861 2nd edition censored xml:id="FDM1861"
+4. 1866 Les Epaves xml:id="1866"
+5. 1868 3rd edition - posthumous xml:id="1868"
+-->
+<!--
+<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+encoding: ISO-8859-1 </p>
+<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+Online Distributed Proofreading Team.</p>
+-->
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+<text>
+<body>
+<div type="poem">
+<head>
+<title>LESBOS</title>
+</head>
+<lg type="stanza" subtype="quintain" n="1">
+<l n="1">Mère des jeux latins et des voluptés grecques,</l>
+<l n="2">Lesbos, où les baisers languissants ou joyeux,</l>
+<l n="3">Chauds comme les soleils, frais comme les pastèques,</l>
+<l n="4">Font l'ornement des nuits et des jours glorieux,</l>
+<l n="5">--Mère des jeux latins et des voluptés grecques,</l>
+</lg>
+<lg type="stanza" subtype="quintain" n="2">
+<l n="6">Lesbos, où les baisers sont comme les cascades</l>
+<l n="7">Qui se jettent sans peur dans les gouffres sans fonds</l>
+<l n="8">Et courent, sanglotant et gloussant par saccades,</l>
+<l n="9">--Orageux et secrets, fourmillants et profonds;</l>
+<l n="10">Lesbos, où les baisers sont comme les cascades!</l>
+</lg>
+<lg type="stanza" subtype="quintain" n="3">
+<l n="11">Lesbos où les Phrynés l'une l'autre s'attirent,</l>
+<l n="12">Où jamais un soupir ne resta sans écho,</l>
+<l n="13">A l'égal de Paphos les étoiles t'admirent,</l>
+<l n="14">Et Vénus à bon droit peut jalouser Sapho!</l>
+<l n="15">--Lesbos où les Phrynés l'une l'autre s'attirent.</l>
+</lg>
+<lg type="stanza" subtype="quintain" n="4">
+<l n="16">Lesbos, terre des nuits chaudes et langoureuses,</l>
+<l n="17">Qui font qu'à leurs miroirs, stérile volupté,</l>
+<l n="18">Les filles aux yeux creux, de leurs corps amoureuses,</l>
+<l n="19">Caressent les fruits mûrs de leur nubilité,</l>
+<l n="20">Lesbos, terre des nuits chaudes et langoureuses,</l>
+</lg>
+<lg type="stanza" subtype="quintain" n="5">
+<l n="21">Laisse du vieux Platon se froncer l'oeil austère;</l>
+<l n="22">Tu tires ton pardon de l'excès des baisers,</l>
+<l n="23">Reine du doux empire, aimable et noble terre,</l>
+<l n="24">Et des raffinements toujours inépuisés.</l>
+<l n="25">Laisse du vieux Platon se froncer l'oeil austère.</l>
+</lg>
+<lg type="stanza" subtype="quintain" n="6">
+<l n="26">Tu tires ton pardon de l'éternel martyre</l>
+<l n="27">Infligé sans relâche aux coeurs ambitieux</l>
+<l n="28">Qu'attiré loin de nous le radieux sourire</l>
+<l n="29">Entrevue vaguement au bord des autres cieux;</l>
+<l n="30">Tu tires ton pardon de l'éternel martyre!</l>
+</lg>
+<lg type="stanza" subtype="quintain" n="7">
+<l n="31">Qui des Dieux osera, Lesbos, être ton juge,</l>
+<l n="32">Et condamner ton front pâli dans les travaux,</l>
+<l n="33">Si ses balances d'or n'ont pesé le déluge</l>
+<l n="34">De larmes qu'à la mer ont versé tes ruisseaux?</l>
+<l n="35">Qui des Dieux osera, Lesbos, être ton juge?</l>
+</lg>
+<lg type="stanza" subtype="quintain" n="8">
+<l n="36">Que nous veulent les lois du juste et de l'injuste?</l>
+<l n="37">Vierges au coeur sublime, honneur de l'archipel,</l>
+<l n="38">Votre religion comme une autre est auguste,</l>
+<l n="39">Et l'amour se rira de l'enfer et du ciel!</l>
+<l n="40">--Que nous veulent les lois du juste et de l'injuste?</l>
+</lg>
+<lg type="stanza" subtype="quintain" n="9">
+<l n="41">Car Lesbos entre tous m'a choisi sur la terre</l>
+<l n="42">Pour chanter le secret de ses vierges en fleur,</l>
+<l n="43">Et je fus dès l'enfance admis au noir mystère</l>
+<l n="44">Des rires effrénés mêlés au sombre pleurs;</l>
+<l n="45">Car Lesbos entre tous m'a choisi sur la terre,</l>
+</lg>
+<lg type="stanza" subtype="quintain" n="10">
+<l n="46">Et depuis lors je veille au sommet de Leucate,</l>
+<l n="47">Comme une sentinelle, à l'oeil perçant et sûr,</l>
+<l n="48">Qui guette nuit et jour brick, tartane ou frégate,</l>
+<l n="49">Dont les formes au loin frissonnent dans l'azur,</l>
+<l n="50">--Et depuis lors je veille au sommet de Leucate</l>
+</lg>
+<lg type="stanza" subtype="quintain" n="11">
+<l n="51">Pour savoir si la mer est indulgente et bonne,</l>
+<l n="52">Et parmi les sanglots dont le roc retentit</l>
+<l n="53">Un soir ramènera vers Lesbos qui pardonne</l>
+<l n="54">Le cadavre adoré de Sapho qui partit</l>
+<l n="55">Pour savoir si la mer est indulgente et bonne!</l>
+</lg>
+<lg type="stanza" subtype="quintain" n="12">
+<l n="56">De la mâle Sapho, l'amante et le poète,</l>
+<l n="57">Plus belle que Vénus par ses mornes pâleurs!</l>
+<l n="58">--L'oeil d'azur est vaincu par l'oeil noir que tachette</l>
+<l n="59">Le cercle ténébreux tracé par les douleurs</l>
+<l n="60">De la mâle Sapho, l'amante et le poète!</l>
+</lg>
+<lg type="stanza" subtype="quintain" n="13">
+<l n="61">--Plus belle que Vénus se dressant sur le monde</l>
+<l n="62">Et versant les trésors de sa sérénité</l>
+<l n="63">Et le rayonnement de sa jeunesse blonde</l>
+<l n="64">Sur le vieil Océan de sa fille enchanté;</l>
+<l n="65">Plus belle que Vénus se dressant sur le monde!</l>
+</lg>
+<lg type="stanza" subtype="quintain" n="14">
+<l n="66">--De Sapho qui mourut le jour de son blasphème,</l>
+<l n="67">Quand, insultant le rite et le culte inventé,</l>
+<l n="68">Elle fit son beau corps la pâture suprême</l>
+<l n="69">D'un brutal dont l'orgueil punit l'impiété</l>
+<l n="70">De Sapho qui mourut le jour de son blasphème.</l>
+</lg>
+<lg type="stanza" subtype="quintain" n="15">
+<l n="71">Et c'est depuis ce temps que Lesbos se lamente,</l>
+<l n="72">Et, malgré les honneurs que lui rend l'univers,</l>
+<l n="73">S'enivre chaque nuit du cri de la tourmente</l>
+<l n="74">Que poussent vers les deux ses rivages déserts.</l>
+<l n="75">Et c'est depuis ce temps que Lesbos se lamente!</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>
