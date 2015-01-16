@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- TEI Header begins here... --> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title rend="Un Voyage à Cythère">Voyage à Cythère</title>
+                <author>Charles Baudelaire</author>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="SW">Steven Wenz</name>
+                </respStmt>
+                <sponsor>Jean and Alexander Heard Library</sponsor>
+            </titleStmt>
+            <publicationStmt>
+
+                <publisher>Jean and Alexander Heard Library</publisher>
+                <pubPlace>Nashville</pubPlace>
+                <address>
+<addrLine>Jean and Alexander Heard Library</addrLine>
+<addrLine>419 21st Avenue South</addrLine>
+<addrLine>Nashville, TN 37203</addrLine>
+<addrLine>USA</addrLine>
+</address>
+                <date>2014</date>
+                <idno>FDM-088-116-000-141</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="U1857">
+                        <desc>1857 Unexpurgated</desc>
+                        <biblStruct>
+                            <monogr>
+                                <title>Les Fleurs du Mal</title>
+                                <author>Charles Baudelaire</author>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Poulet-Malassis et De Broise</publisher>
+                                    <date>1857</date>
+                                    <note>Original edition with condemned pieces</note>
+                                </imprint>
+                                <extent>248 p.</extent>
+                            </monogr>
+                        </biblStruct>
+                    </witness>
+                    <witness xml:id="E1857">
+                        <desc>1857 Expurgated</desc>
+                        <biblStruct>
+                            <monogr>
+                                <title>Les Fleurs du Mal</title>
+                                <author>Charles Baudelaire</author>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Poulet-Malassis et De Broise</publisher>
+                                    <date>1857</date>
+                                    <note>Original edition with condemned pieces removed</note>
+                                </imprint>
+                                <extent>248 p.</extent>
+                            </monogr>
+                        </biblStruct>
+                    </witness>
+                    <witness xml:id="FDM1861">
+                        <desc>1861 2nd edition censored</desc>
+                        <biblStruct>
+                            <monogr>
+                                <title>Les Fleurs du Mal</title>
+                                <author>Charles Baudelaire</author>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Poulet-Malassis et De Broise</publisher>
+                                    <date>1861</date>
+                                    <note>2nd edition augmented by 35 new poems and ornamented with
+                                        a portrait of the author drawn and engraved by Felix
+                                        Bracquemond</note>
+                                </imprint>
+                                <extent> 319 p.</extent>
+                            </monogr>
+                        </biblStruct>
+                    </witness>
+                    <witness xml:id="LE1866">
+                        <desc>1866 Les Epaves xml:id="1866"</desc>
+                        <biblStruct>
+                            <monogr>
+                                <title>Les Épaves</title>
+                                <author>Charles Baudelaire</author>
+                                <imprint>
+                                    <pubPlace>Amsterdam</pubPlace>
+                                    <publisher>À L'Enseigne du Coq</publisher>
+                                    <date>1866</date>
+                                    <note>According to the preface of the 1890 edition (Paris, A.
+                                        Lemerre), this is a false imprint, the book actually being
+                                        published in Brussels by Poulet-Malassis.</note>
+                                    <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                                        9-55</note>
+                                    <note>With a frontispeice etching by Félicien Rops</note>
+                                </imprint>
+                                <extent>163 p.</extent>
+                            </monogr>
+                        </biblStruct>
+                    </witness>
+                    <witness xml:id="FDM1868">
+                        <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+                        <biblStruct>
+                            <monogr>
+                                <title>Oeuvres Complètes de Charles Baudelaire</title>
+                                <author>Charles Baudelaire</author>
+                                <editor>Théophile Gautier</editor>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Michel Lévy Frères</publisher>
+                                    <date>1868-1873</date>
+                                    <note>Volume 1 contains Les Fleurs du Mal</note>
+                                </imprint>
+                                <extent>7 volumes</extent>
+                            </monogr>
+                        </biblStruct>
+                    </witness>
+                </listWit>
+                <!--
+<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+encoding: ISO-8859-1 </p>
+<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+Online Distributed Proofreading Team.</p>
+-->
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- TEI header ends, text section begins... -->
+    <text>
+        <body>
+            <div type="poem">
+                <head>
+                    <title>UN VOYAGE À CYTHÈRE</title>
+                </head>
+                <lg type="stanza" subtype="quatrain" n="1">
+                    <l n="1">Mon coeur, comme un oiseau, voltigeait tout joyeux</l>
+                    <l n="2">Et planait librement à l'entour des cordages;</l>
+                    <l n="3">Le navire roulait sous un ciel sans nuages;</l>
+                    <l n="4">Comme un ange enivré d'un soleil radieux.</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="2">
+                    <l n="5">Quelle est cette île triste et noire? — C'est Cythère,</l>
+                    <l n="6">Nous dit-on, un pays fameux dans les chansons</l>
+                    <l n="7">Eldorado banal de tous les vieux garçons.</l>
+                    <l n="8">Regardez, après tout, c'est une pauvre terre.</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="3">
+                    <l n="9">— Île des doux secrets et des fêtes du coeur!</l>
+                    <l n="10">De l'antique Vénus le superbe fantôme</l>
+                    <l n="11">Au-dessus de tes mers plane comme un arôme</l>
+                    <l n="12">Et charge les esprits d'amour et de langueur.</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="4">
+                    <l n="13">Belle île aux myrtes verts, pleine de fleurs écloses,</l>
+                    <l n="14">Vénérée à jamais par toute nation,</l>
+                    <l n="15">Où les soupirs des coeurs en adoration</l>
+                    <l n="16">Roulent comme l'encens sur un jardin de roses</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="5">
+                    <l n="17">Ou le roucoulement éternel d'un ramier!</l>
+                    <l n="18">— Cythère n'était plus qu'un terrain des plus maigres,</l>
+                    <l n="19">Un désert rocailleux troublé par des cris aigres.</l>
+                    <l n="20">J'entrevoyais pourtant un objet singulier!</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="6">
+                    <l n="21">Ce n'était pas un temple aux ombres bocagères,</l>
+                    <l n="22">Où la jeune prêtresse, amoureuse des fleurs,</l>
+                    <l n="23">Allait, le corps brûlé de secrètes chaleurs,</l>
+                    <l n="24">Entrebâillant sa robe aux brises passagères;</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="7">
+                    <l n="25">Mais voilà qu'en rasant la côte d'assez près</l>
+                    <l n="26">Pour troubler les oiseaux avec nos voiles blanches,</l>
+                    <l n="27">Nous vîmes que c'était un gibet à trois branches,</l>
+                    <l n="28">Du ciel se détachant en noir, comme un cyprès.</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="8">
+                    <l n="29">De féroces oiseaux perchés sur leur pâture</l>
+                    <l n="30">Détruisaient avec rage un pendu déjà mûr,</l>
+                    <l n="31">Chacun plantant, comme un outil, son bec impur</l>
+                    <l n="32">Dans tous les coins saignants de cette pourriture;</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="9">
+                    <l n="33">Les yeux étaient deux trous, et du ventre effondré</l>
+                    <l n="34">Les intestins pesants lui coulaient sur les cuisses,</l>
+                    <l n="35">Et ses bourreaux, gorgés de hideuses délices,</l>
+                    <l n="36">L'avaient à coups de bec absolument châtré.</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="10">
+                    <l n="37">Sous les pieds, un troupeau de jaloux quadrupèdes,</l>
+                    <l n="38">Le museau relevé, tournoyait et rôdait;</l>
+                    <l n="39">Une plus grande bête au milieu s'agitait</l>
+                    <l n="40">Comme un exécuteur entouré de ses aides.</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="11">
+                    <l n="41">Habitant de Cythère, enfant d'un ciel si beau,</l>
+                    <l n="42">Silencieusement tu souffrais ces insultes</l>
+                    <l n="43">En expiation de tes infâmes cultes</l>
+                    <l n="44">Et des péchés qui t'ont interdit le tombeau.</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="12">
+                    <l n="45">Ridicule pendu, tes douleurs sont les miennes!</l>
+                    <l n="46">Je sentis, à l'aspect de tes membres flottants,</l>
+                    <l n="47">Comme un vomissement, remonter vers mes dents</l>
+                    <l n="48">Le long fleuve de fiel des douleurs anciennes;</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="13">
+                    <l n="49">Devant toi, pauvre diable au souvenir si cher,</l>
+                    <l n="50">J'ai senti tous les becs et toutes les mâchoires</l>
+                    <l n="51">Des corbeaux lancinants et des panthères noires</l>
+                    <l n="52">Qui jadis aimaient tant à triturer ma chair.</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="14">
+                    <l n="53">— Le ciel était charmant, la mer était unie;</l>
+                    <l n="54">Pour moi tout était noir et sanglant désormais,</l>
+                    <l n="55">Hélas! et j'avais, comme en un suaire épais,</l>
+                    <l n="56">Le coeur enseveli dans cette allégorie.</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="15">
+                    <l n="57">Dans ton île, ô Vénus! je n'ai trouvé debout</l>
+                    <l n="58">Qu'un gibet symbolique où pendait mon image...</l>
+                    <l n="59">— Ah! Seigneur! donnez-moi la force et le courage</l>
+                    <l n="60">De contempler mon coeur et mon corps sans dégoût!</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

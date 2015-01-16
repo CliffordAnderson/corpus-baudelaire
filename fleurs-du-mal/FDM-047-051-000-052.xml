@@ -1,0 +1,212 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
+        <title rend="Le Chat">Chat</title>
+        <author>Charles Baudelaire</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <sponsor>Jean and Alexander Heard Library</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Jean and Alexander Heard Library</publisher>
+        <pubPlace>Nashville</pubPlace>
+        <address>
+          <addrLine>Jean and Alexander Heard Library</addrLine>
+          <addrLine>419 21st Avenue South</addrLine>
+          <addrLine>Nashville, TN 37203</addrLine>
+          <addrLine>USA</addrLine>
+        </address>
+        <date>2014</date>
+        <!--Below, insert the number of the poem, according to the established protocol-->
+        <idno>FDM-047-051-000-052</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="U1857">
+            <desc>1857 Unexpurgated</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1857</date>
+                  <note>Original edition with condemned pieces</note>
+                </imprint>
+                <extent>248 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="E1857">
+            <desc>1857 Expurgated</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1857</date>
+                  <note>Original edition with condemned pieces removed</note>
+                </imprint>
+                <extent>248 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="FDM1861">
+            <desc>1861 2nd edition censored</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1861</date>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a
+                    portrait of the author drawn and engraved by Felix Bracquemond</note>
+                </imprint>
+                <extent>319 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                    this is a false imprint, the book actually being published in Brussels
+                    by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                    9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="FDM1868">
+            <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Oeuvres Complètes de Charles Baudelaire</title>
+                <author>Charles Baudelaire</author>
+                <editor>Théophile Gautier</editor>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Michel Lévy Frères</publisher>
+                  <date>1868-1873</date>
+                  <note>Volume 1 contains Les Fleurs du Mal</note>
+                </imprint>
+                <extent>7 volumes</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+        </listWit>
+        <!-- create witList in sourceDesc with the different editions and their bib data
+1. 1857 Unexpurgated xml:id="U1857"
+2. 1857 Expurgated xml:id="E1857"
+3. 1861 2nd edition censored xml:id="FDM1861"
+4. 1866 Les Epaves xml:id="1866"
+5. 1868 3rd edition - posthumous xml:id="1868"
+-->
+        <!--
+<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+encoding: ISO-8859-1 </p>
+<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+Online Distributed Proofreading Team.</p>
+-->
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <head>
+          <title type="main">Le Chat</title>
+        </head>
+        <div type="I">
+          <lg type="stanza" subtype="quatrain">
+            <l n="1">Dans ma cervelle se promène,</l>
+            <l n="2">Ainsi qu'en son appartement,</l>
+            <l n="3">Un beau chat, fort, doux et charmant.</l>
+            <l n="4">Quand il miaule, on l'entend à peine,</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l n="5">Tant son timbre est tendre et discret;</l>
+            <l n="6">Mais que sa voix s'apaise ou gronde,</l>
+            <l n="7">Elle est toujours riche et profonde.</l>
+            <l n="8">C'est là son charme et son secret.</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l n="9">Cette voix, qui perle et qui filtre</l>
+            <l n="10">Dans mon fonds le plus ténébreux,</l>
+            <l n="11">Me remplit comme un vers nombreux</l>
+            <l n="12" rhyme="d">Et ,e réjouit comme un philtre.</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l n="13">Elle endort les plus cruels maux</l>
+            <l n="14">Et contient tous les extases;</l>
+            <l n="15">Pour dire les plus longues phrases</l>
+            <l n="16">Elle n'a pas besoin de mots.</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l n="17">Non, il n'est pas d'archet qui morde</l>
+            <l n="18">Sur mon coeur, parfait instument,</l>
+            <l n="19">Et fasse plus royalement</l>
+            <l n="20">Chanter sa plus vibrante corde,</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l n="21">que ta voix, chat mystérieux,</l>
+            <l n="22">Chat sérafique, chat étrange,</l>
+            <l n="23">En qui tout est, comme en un ange,</l>
+            <l n="24">Aussi subtil qu'harmonieux</l>
+          </lg>
+        </div>
+        <div type="II">
+          <lg type="stanza" subtype="quatrain">
+            <l n="1">De sa fourrure blonde et brune,</l>
+            <l n="2">Sort un parfum si doux, qu'un soir</l>
+            <l n="3">J'en fus embaumé, pour l'avoir</l>
+            <l n="4">Caressée une fois, rien qu'une.</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l n="5">C'est l'esprit familier du lieu;</l>
+            <l n="6">Il juge, il préside, il inspire</l>
+            <l n="7">Toutes choses dans son empire;</l>
+            <l n="8">peut-etre est-il fée, est-il-dieu?</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l n="9">Quand mes yeux, cers ce chat que j'aime</l>
+            <l n="10">Tirés comme par un aimant,</l>
+            <l n="11">Se retournent docilement</l>
+            <l n="12">Et que je regarde en moi meme</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l n="13">Je vois avec étonnement</l>
+            <l n="14">Le feu de ses paunelles pales</l>
+            <l n="15">Clairs fanaux, vivantes opales</l>
+            <l n="16">Qui me contemplent fixement.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
