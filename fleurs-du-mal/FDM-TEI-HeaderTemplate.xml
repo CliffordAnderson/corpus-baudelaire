@@ -17,9 +17,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
+            <publisher>Jean and Alexander Heard Library</publisher>
             <!--Below, insert the number of the poem, according to the established protocol-->
             <idno>FDM-</idno>
-            <publisher>Jean and Alexander Heard Library</publisher>
             <pubPlace>Nashville</pubPlace>
             <address>
                <addrLine>Jean and Alexander Heard Library</addrLine>
