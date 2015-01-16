@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
+                <title rend="Le Calumet de paix, imite de Longfellow">Calumet de paix, imite de
+                    Longfellow</title>
+                <author>Charles Baudelaire</author>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+                    <name xml:id="EJW">Ed Warga</name>
+                </respStmt>
+                <sponsor>Jean and Alexander Heard Library</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jean and Alexander Heard Library</publisher>
+                <pubPlace>Nashville</pubPlace>
+                <address>
+               <addrLine>Jean and Alexander Heard Library</addrLine>
+               <addrLine>419 21st Avenue South</addrLine>
+               <addrLine>Nashville, TN 37203</addrLine>
+               <addrLine>USA</addrLine>
+            </address>
+                <date>2014</date>
+                <!--Below, insert the number of the poem, according to the established protocol-->
+                <idno>FDM-000-000-000-085</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="U1857">
+                        <desc>1857 Unexpurgated</desc>
+                        <biblStruct>
+                            <monogr>
+                                <title>Les Fleurs du Mal</title>
+                                <author>Charles Baudelaire</author>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Poulet-Malassis et De Broise</publisher>
+                                    <date>1857</date>
+                                    <note>Original edition with condemned pieces</note>
+                                </imprint>
+                                <extent>248 p.</extent>
+                            </monogr>
+                        </biblStruct>
+                    </witness>
+                    <witness xml:id="E1857">
+                        <desc>1857 Expurgated</desc>
+                        <biblStruct>
+                            <monogr>
+                                <title>Les Fleurs du Mal</title>
+                                <author>Charles Baudelaire</author>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Poulet-Malassis et De Broise</publisher>
+                                    <date>1857</date>
+                                    <note>Original edition with condemned pieces removed</note>
+                                </imprint>
+                                <extent>248 p.</extent>
+                            </monogr>
+                        </biblStruct>
+                    </witness>
+                    <witness xml:id="FDM1861">
+                        <desc>1861 2nd edition censored</desc>
+                        <biblStruct>
+                            <monogr>
+                                <title>Les Fleurs du Mal</title>
+                                <author>Charles Baudelaire</author>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Poulet-Malassis et De Broise</publisher>
+                                    <date>1861</date>
+                                    <note>2nd edition augmented by 35 new poems and ornamented with
+                                        a portrait of the author drawn and engraved by Felix
+                                        Bracquemond</note>
+                                </imprint>
+                                <extent> 319 p.</extent>
+                            </monogr>
+                        </biblStruct>
+                    </witness>
+                    <witness xml:id="LE1866">
+                        <desc>1866 Les Epaves xml:id="1866"</desc>
+                        <biblStruct>
+                            <monogr>
+                                <title>Les Épaves</title>
+                                <author>Charles Baudelaire</author>
+                                <imprint>
+                                    <pubPlace>Amsterdam</pubPlace>
+                                    <publisher>À L'Enseigne du Coq</publisher>
+                                    <date>1866</date>
+                                    <note>According to the preface of the 1890 edition (Paris, A.
+                                        Lemerre), this is a false imprint, the book actually being
+                                        published in Brussels by Poulet-Malassis.</note>
+                                    <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                                        9-55</note>
+                                    <note>With a frontispeice etching by Félicien Rops</note>
+                                </imprint>
+                                <extent>163 p.</extent>
+                            </monogr>
+                        </biblStruct>
+                    </witness>
+                    <witness xml:id="FDM1868">
+                        <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+                        <biblStruct>
+                            <monogr>
+                                <title>Oeuvres Complètes de Charles Baudelaire</title>
+                                <author>Charles Baudelaire</author>
+                                <editor>Théophile Gautier</editor>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Michel Lévy Frères</publisher>
+                                    <date>1868-1873</date>
+                                    <note>Volume 1 contains Les Fleurs du Mal</note>
+                                </imprint>
+                                <extent>7 volumes</extent>
+                            </monogr>
+                        </biblStruct>
+                    </witness>
+                </listWit>
+                <!-- create witList in sourceDesc with the different editions and their bib data
+1. 1857 Unexpurgated xml:id="U1857"
+2. 1857 Expurgated xml:id="E1857"
+3. 1861 2nd edition censored xml:id="FDM1861"
+4. 1866 Les Epaves xml:id="1866"
+5. 1868 3rd edition - posthumous xml:id="1868"
+-->
+                <!--
+<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+encoding: ISO-8859-1 </p>
+<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+Online Distributed Proofreading Team.</p>
+-->
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head><title type="main">Le Calumet de paix</title>
+                    <title type="sub">Imite de Longfellow</title></head>
+
+                <div type="section">
+                    <head>I</head>
+
+                    <lg type="stanza" subtype="sextet" n="1">
+                        <l n="1">Or Gitche Manito, le Maître de la Vie,</l>
+                        <l n="2">Le Puissant, descendit dans la verte prairie,</l>
+                        <l n="3">Dans l'immense prairie aux coteaux montueux;</l>
+                        <l n="4">Et là, sur les rochers de la Rouge Carrière,</l>
+                        <l n="5">Dominant tout l'espace et baigné de lumière,</l>
+                        <l n="6">Il se tenait debout, vaste et majestueux.</l>
+                    </lg>
+
+                    <lg type="stanza" subtype="sextet" n="2">
+                        <l n="7">Alors il convoqua les peuples innombrables,</l>
+                        <l n="8">Plus nombreux que ne sont les herbes et les sables.</l>
+                        <l n="9">Avec sa main terrible il rompit un morceau</l>
+                        <l n="10">Du rocher, dont il fit une pipe superbe,</l>
+                        <l n="11">Puis, au bord du ruisseau, dans une énorme gerbe,</l>
+                        <l n="12">Pour s'en faire un tuyau, choisit un long roseau.</l>
+                    </lg>
+
+                    <lg type="stanza" subtype="sextet" n="3">
+                        <l n="13">Pour la bourrer il prit au saule son écorce;</l>
+                        <l n="14">Et lui, le Tout-Puissant, Créateur de la Force,</l>
+                        <l n="15">Debout, il alluma, comme un divin fanal,</l>
+                        <l n="16">La Pipe de la Paix. Debout sur la Carrière</l>
+                        <l n="17">Il fumait, droit, superbe et baigné de lumière.</l>
+                        <l n="18">Or pour les nations c'était le grand signal.</l>
+                    </lg>
+
+                    <lg type="stanza" subtype="sextet" n="4">
+                        <l n="19">Et lentement montait la divine fumée</l>
+                        <l n="20">Dans l'air doux du matin, onduleuse, embaumée.</l>
+                        <l n="21">Et d'abord ce ne fut qu'un sillon ténébreux;</l>
+                        <l n="22">Puis la vapeur se fit plus bleue et plus épaisse,</l>
+                        <l n="23">Puis blanchit; et montant, et grossissant sans cesse,</l>
+                        <l n="24">Elle alla se briser au dur plafond des cieux.</l>
+                    </lg>
+
+                    <lg type="stanza" subtype="sextet" n="5">
+                        <l n="25">Des plus lointains sommets des Montagnes Rocheuses,</l>
+                        <l n="26">Depuis les lacs du Nord aux ondes tapageuses,</l>
+                        <l n="27">Depuis Tawasentha, le vallon sans pareil,</l>
+                        <l n="28">Jusqu'à Tuscaloosa, la forêt parfumée,</l>
+                        <l n="29">Tous virent le signal et l'immense fumée</l>
+                        <l n="30">Montant paisiblement dans le matin vermeil.</l>
+                    </lg>
+
+                    <lg type="stanza" subtype="sextet" n="6">
+                        <l n="31">Les Prophètes disaient: «Voyez-vous cette bande</l>
+                        <l n="32">De vapeur, qui, semblable à la main qui commande,</l>
+                        <l n="33">Oscille et se détache en noir sur le soleil?</l>
+                        <l n="34">C'est Gitche Manito, le Maître de la Vie,</l>
+                        <l n="35">Qui dit aux quatre coins de l'immense prairie:</l>
+                        <l n="36">'Je vous convoque tous, guerriers, à mon conseil!'.»</l>
+                    </lg>
+
+                    <lg type="stanza" subtype="sextet" n="7">
+                        <l n="37">Par le chemin des eaux, par la route des plaines,</l>
+                        <l n="38">Par les quatre côtés d'où soufflent les haleines</l>
+                        <l n="39">Du vent, tous les guerriers de chaque tribu, tous,</l>
+                        <l n="40">Comprenant le signal du nuage qui bouge,</l>
+                        <l n="41">Vinrent docilement à la Carrière Rouge</l>
+                        <l n="42">Où Gitche Manito leur donnait rendez-vous.</l>
+                    </lg>
+
+                    <lg type="stanza" subtype="sextet" n="8">
+                        <l n="43">Les guerriers se tenaient sur la verte prairie,</l>
+                        <l n="44">Tous èquipés en guerre, et la mine aguerrie,</l>
+                        <l n="45">Bariolés ainsi qu'un feuillage automnal;</l>
+                        <l n="46">Et la haine qui fait combattre tous les êtres,</l>
+                        <l n="47">La haine qui brûlait les yeux de leurs ancêtres</l>
+                        <l n="48">Incendiait encor leurs yeux d'un feu fatal.</l>
+                    </lg>
+
+                    <lg type="stanza" subtype="sextet" n="9">
+                        <l n="49">Et leurs yeux étaient pleins de haine héréditaire.</l>
+                        <l n="50">Or Gitche Manito, le Maître de la Terre,</l>
+                        <l n="51">Les considérait tous avec compassion,</l>
+                        <l n="52">Comme un père très-bon, ennemi du désordre,</l>
+                        <l n="53">Qui voit ses chers petits batailler et se mordre.</l>
+                        <l n="54">Tel Gitche Manito pour toute nation.</l>
+                    </lg>
+
+                    <lg type="stanza" subtype="sextet" n="10">
+                        <l n="55">Il étendit sur eux sa puissante main droite</l>
+                        <l n="56">Pour subjuguer leur coeur et leur nature étroite,</l>
+                        <l n="57">Pour rafraîchir leur fièvre à l'ombre de sa main;</l>
+                        <l n="58">Puis il leur dit avec sa voix majestueuse,</l>
+                        <l n="59">Comparable à la voix d'une eau tumultueuse</l>
+                        <l n="60">Qui tombe et rend un son monstrueux, surhumain:</l>
+                    </lg>
+                </div>
+
+                <div type="section">
+                    <head>II</head>
+
+                    <lg type="stanza" subtype="quintet" n="11">
+                        <l n="61">«O ma postérité, déplorable et chérie!</l>
+                        <l n="62">O mes fils! écoutez la divine raison.</l>
+                        <l n="63">C'est Gitche Manito, le Maître de la Vie,</l>
+                        <l n="64">Qui vous parle! Celui qui dans votre patrie</l>
+                        <l n="65">A mis l'ours, le castor, le renne et le bison.</l>
+                    </lg>
+
+                    <lg type="stanza" subtype="quintet" n="12">
+                        <l n="66">Je vous ai fait la chasse et la pêche faciles;</l>
+                        <l n="67">Pourquoi donc le chasseur devient-il assassin?</l>
+                        <l n="68">Le marais fut par moi peuple de volatiles;</l>
+                        <l n="69">Pourquoi n'êtes-vous pas contents, fils indociles?</l>
+                        <l n="70">Pourquoi l'homme fait-il la chasse à son voisin?</l>
+                    </lg>
+
+                    <lg type="stanza" subtype="quintet" n="13">
+                        <l n="71">Je suis vraiment bien las de vos horribles guerres.</l>
+                        <l n="72">Vos prières, vos voeux mêmes sont des forfaits!</l>
+                        <l n="73">Le péril est pour vous dans vos humeurs contraires,</l>
+                        <l n="74">Et c'est dans l'union qu'est votre force. En frères</l>
+                        <l n="75">Vivez donc, et sachez vous maintenir en paix.</l>
+                    </lg>
+
+                    <lg type="stanza" subtype="quintet" n="14">
+                        <l n="76">Bientôt vous recevrez de ma main un Prophète</l>
+                        <l n="77">Qui viendra vous instruire et souffrir avec vous.</l>
+                        <l n="78">Sa parole fera de la vie une fête;</l>
+                        <l n="79">Mais si vous méprisez sa sagesse parfaite,</l>
+                        <l n="80">Pauvres enfants maudits, vous disparaîtrez tous!</l>
+                    </lg>
+
+                    <lg type="stanza" subtype="quintet" n="15">
+                        <l n="81">Effacez dans les flots vos couleurs meurtrières.</l>
+                        <l n="82">Les roseaux sont nombreux et le roc est épais;</l>
+                        <l n="83">Chacun en peut tirer sa pipe. Plus de guerres,</l>
+                        <l n="84">Plus de sang! Désormais vivez comme des frères,</l>
+                        <l n="85">Et tous, unis, fumez le Calumet de Paix!»</l>
+                    </lg>
+                </div>
+
+                <div type="section">
+                    <head>III</head>
+
+                    <lg type="stanza" subtype="sextet" n="16">
+                        <l n="86">Et soudain tous, jetant leurs armes sur la terre,</l>
+                        <l n="87">Lavent dans le ruisseau les couleurs de la guerre</l>
+                        <l n="88">Qui luisaient sur leurs fronts cruels et triomphants.</l>
+                        <l n="89">Chacun creuse une pipe et cueille sur la rive</l>
+                        <l n="90">Un long roseau qu'avec adresse il enjolive.</l>
+                        <l n="91">Et l'Esprit souriait à ses pauvres enfants!</l>
+                    </lg>
+
+                    <lg type="stanza" subtype="sextet" n="17">
+                        <l n="92">Chacun s'en retourna l'âme calme et ravie,</l>
+                        <l n="93">Et Gitche Manito, le Maître de la Vie,</l>
+                        <l n="94">Remonta par la porte entr'ouverte des cieux.</l>
+                        <l n="95">— À travers la vapeur splendide du nuage</l>
+                        <l n="96">Le Tout-Puissant montait, content de son ouvrage,</l>
+                        <l n="97">Immense, parfumé, sublime, radieux!</l>
+                    </lg>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
