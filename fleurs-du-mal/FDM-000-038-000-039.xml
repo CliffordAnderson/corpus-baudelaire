@@ -1,0 +1,252 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
+        <title rend="Un Fantôme">Fantôme</title>
+        <author>Charles Baudelaire</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <sponsor>Jean and Alexander Heard Library</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Jean and Alexander Heard Library</publisher>
+        <pubPlace>Nashville</pubPlace>
+        <address>
+          <addrLine>Jean and Alexander Heard Library</addrLine>
+          <addrLine>419 21st Avenue South</addrLine>
+          <addrLine>Nashville, TN 37203</addrLine>
+          <addrLine>USA</addrLine>
+        </address>
+        <date>2014</date>
+        <!--Below, insert the number of the poem, according to the established protocol-->
+        <idno>FDM-000-038-000-039</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="U1857">
+            <desc>1857 Unexpurgated</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1857</date>
+                  <note>Original edition with condemned pieces</note>
+                </imprint>
+                <extent>248 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="E1857">
+            <desc>1857 Expurgated</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1857</date>
+                  <note>Original edition with condemned pieces removed</note>
+                </imprint>
+                <extent>248 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="FDM1861">
+            <desc>1861 2nd edition censored</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1861</date>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a
+                    portrait of the author drawn and engraved by Felix Bracquemond</note>
+                </imprint>
+                <extent>319 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                    this is a false imprint, the book actually being published in Brussels
+                    by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                    9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="FDM1868">
+            <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Oeuvres Complètes de Charles Baudelaire</title>
+                <author>Charles Baudelaire</author>
+                <editor>Théophile Gautier</editor>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Michel Lévy Frères</publisher>
+                  <date>1868-1873</date>
+                  <note>Volume 1 contains Les Fleurs du Mal</note>
+                </imprint>
+                <extent>7 volumes</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+        </listWit>
+        <!-- create witList in sourceDesc with the different editions and their bib data
+1. 1857 Unexpurgated xml:id="U1857"
+2. 1857 Expurgated xml:id="E1857"
+3. 1861 2nd edition censored xml:id="FDM1861"
+4. 1866 Les Epaves xml:id="1866"
+5. 1868 3rd edition - posthumous xml:id="1868"
+-->
+        <!--
+<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+encoding: ISO-8859-1 </p>
+<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+Online Distributed Proofreading Team.</p>
+-->
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="cycle">
+        <head>
+          <title>Un Fantôme</title>
+        </head>
+        <lg type="poem" subtype="sonnet">
+          <head>I</head>
+          <head>Les Ténèbres</head>
+          <lg type="stanza" subtype="quatrain">
+            <l>Dans les caveaux d'insondable tristesse</l>
+            <l>Où le Destin m'a déjà relégué;</l>
+            <l>Où jamais n'entre un rayon rose et gai;</l>
+            <l>Où, seul avec la Nuit, maussade hôtesse,</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l>Je suis comme un peintre qu'un Dieu moqueur</l>
+            <l>Condamne à peindre, hélas! sur les ténèbres;</l>
+            <l>Où, cuisinier aux appétits funèbres,</l>
+            <l>Je fais bouillir et je mange mon coeur,</l>
+          </lg>
+          <lg type="stanza" subtype="tercet">
+            <l>Par instants brille, et s'allonge, et s'étale</l>
+            <l>Un spectre fait de grâce et de splendeur.</l>
+            <l>À sa rêveuse allure orientale,</l>
+          </lg>
+          <lg type="stanza" subtype="tercet">
+            <l>Quand il atteint sa totale grandeur,</l>
+            <l>Je reconnais ma belle visiteuse:</l>
+            <l>C'est Elle! noire et pourtant lumineuse.</l>
+          </lg>
+        </lg>
+        <lg type="poem" subtype="sonnet">
+          <head>II</head>
+          <head>Le Parfum</head>
+          <lg type="stanza" subtype="quatrain">
+            <l>Lecteur, as-tu quelquefois respiré</l>
+            <l>Avec ivresse et lente gourmandise</l>
+            <l>Ce grain d'encens qui remplit une église,</l>
+            <l>Ou d'un sachet le musc invétéré?</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l>Charme profond, magique, dont nous grise</l>
+            <l>Dans le présent le passé restauré!</l>
+            <l>Ainsi l'amant sur un corps adoré</l>
+            <l>Du souvenir cueille la fleur exquise.</l>
+          </lg>
+          <lg type="stanza" subtype="tercet">
+            <l>De ses cheveux élastiques et lourds,</l>
+            <l>Vivant sachet, encensoir de l'alcôve,</l>
+            <l>Une senteur montait, sauvage et fauve,</l>
+          </lg>
+          <lg type="stanza" subtype="tercet">
+            <l>Et des habits, mousseline ou velours,</l>
+            <l>Tout imprégnés de sa jeunesse pure,</l>
+            <l>Se dégageait un parfum de fourrure.</l>
+          </lg>
+        </lg>
+        <lg type="poem" subtype="sonnet">
+          <head>III</head>
+          <head>Le Cadre</head>
+          <lg type="stanza" subtype="quatrain">
+            <l>Comme un beau cadre ajoute à la peinture,</l>
+            <l>Bien qu'elle soit d'un pinceau très-vanté,</l>
+            <l>Je ne sais quoi d'étrange et d'enchanté</l>
+            <l>En l'isolant de l'immense nature,</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l>Ainsi bijoux, meubles, métaux, dorure,</l>
+            <l>S'adaptaient juste à sa rare beauté;</l>
+            <l>Rien n'offusquait sa parfaite clarté,</l>
+            <l>Et tout semblait lui servir de bordure.</l>
+          </lg>
+          <lg type="stanza" subtype="tercet">
+            <l>Même on eût dit parfois qu'elle croyait</l>
+            <l>Que tout voulait l'aimer; elle noyait</l>
+            <l>Sa nudité voluptueusement</l>
+          </lg>
+          <lg type="stanza" subtype="tercet">
+            <l>Dans les baisers du satin et du linge,</l>
+            <l>Et, lente ou brusque, à chaque mouvement</l>
+            <l>Montrait la grâce enfantine du singe.</l>
+          </lg>
+        </lg>
+        <lg type="poem" subtype="sonnet">
+          <head>IV</head>
+          <head>Le Portrait</head>
+          <lg type="stanza" subtype="quatrain">
+            <l>La Maladie et la Mort font des cendres</l>
+            <l>De tout le feu qui pour nous flamboya.</l>
+            <l>De ces grands yeux si fervents et si tendres,</l>
+            <l>De cette bouche où mon coeur se noya,</l>
+          </lg>
+          <lg type="stanza" subtype="quatrain">
+            <l>De ces baisers puissants comme un dictame,</l>
+            <l>De ces transports plus vifs que des rayons,</l>
+            <l>Que reste-t-il? C'est affreux, ô mon âme!</l>
+            <l>Rien qu'un dessin fort pâle, aux trois crayons,</l>
+          </lg>
+          <lg type="stanza" subtype="tercet">
+            <l>Qui, comme moi, meurt dans la solitude,</l>
+            <l>Et que le Temps, injurieux vieillard,</l>
+            <l>Chaque jour frotte avec son aile rude...</l>
+          </lg>
+          <lg type="stanza" subtype="tercet">
+            <l>Noir assassin de la Vie et de l'Art,</l>
+            <l>Tu ne tueras jamais dans ma mémoire</l>
+            <l>Celle qui fut mon plaisir et ma gloire!</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

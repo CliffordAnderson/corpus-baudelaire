@@ -7,12 +7,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-            <title>{insert poem title here}</title>
+            <title rend="Le Flambeau Vivant">Flambeau Vivant</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
                <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-               <name xml:id="III">{Insert Name Here and update xml ID}</name>
+               <name xml:id="EJW">Ed Warga</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </address>
             <date>2014</date>
             <!--Below, insert the number of the poem, according to the established protocol-->
-            <idno>FDM-</idno>
+            <idno>FDM-038-043-000-044</idno>
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -127,22 +127,40 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 5. 1868 3rd edition - posthumous xml:id="1868"
 -->
             <!--
-<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
-for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
-You may copy it, give it away or re-use it under the terms of the Project Gutenberg
-License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
-Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
-Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
-encoding: ISO-8859-1 </p>
-<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
-Online Distributed Proofreading Team.</p>
+<p>I copied the text of this poem from http://fleursdumal.org/poem/137</p>
 -->
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <div type="sonnet">
+          <head><title>Le Flambeau vivant</title></head>
+            
+            <lg type="stanza" subtype="quatrain" n="1">
+            <l n="1">Ils marchent devant moi, ces Yeux pleins de lumières,</l>
+            <l n="2">Qu'un Ange très savant a sans doute aimantés</l>
+            <l n="3">Ils marchent, ces divins frères qui sont mes frères,</l>
+            <l n="4">Secouant dans mes yeux leurs feux diamantés.</l>
+            </lg>
+            <lg type="stanza" subtype="quatrain" n="2">
+            <l n="5">Me sauvant de tout piège et de tout péché grave,</l>
+            <l n="6">Ils conduisent mes pas dans la route du Beau</l>
+            <l n="7">Ils sont mes serviteurs et je suis leur esclave</l>
+            <l n="8">Tout mon être obéit à ce vivant flambeau.</l>
+            </lg>
+            <lg type="stanza" subtype="tercet" n="3">
+            <l n="10">Charmants Yeux, vous brillez de la clarté mystique</l>
+            <l n="11">Qu'ont les cierges brûlant en plein jour; le soleil</l>
+            <l n="12">Rougit, mais n'éteint pas leur flamme fantastique;</l>
+            </lg>
+            
+            <lg type="stanza" subtype="tercet" n="4">
+            <l n="13">Ils célèbrent la Mort, vous chantez le Réveil</l>
+            <l n="14">Vous marchez en chantant le réveil de mon âme,</l>
+            <l n="15">Astres dont nul soleil ne peut flétrir la flamme!</l>
+            </lg>
+            </div>
       </body>
    </text>
 </TEI>
