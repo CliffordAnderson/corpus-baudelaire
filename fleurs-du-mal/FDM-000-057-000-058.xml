@@ -6,11 +6,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title rend="Une Martyre">Martyre</title>
+            <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
+            <title>À une Madone</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <name xml:id="TMF">Timothy Foster</name>
+               <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+               <name xml:id="RP">Rebecca Panter</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
@@ -24,7 +26,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
-            <idno>FDM-079-110-000-135</idno>
+            <!--Below, insert the number of the poem, according to the established protocol-->
+            <idno>FDM-000-057-000-058</idno>
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -139,104 +142,60 @@ Online Distributed Proofreading Team.</p>
    </teiHeader>
    <text>
       <body>
-         <div type="poem">
-            <head>
-               <title type="main">UNE MARTYRE</title>
+        <div type="poem">
+        	<head>
+               <title type="main">À une Madone</title>
+               <title type="sub">Ex-voto dans le goût espagnol</title>
             </head>
-            <head>
-               <title type="sub">DESSIN D'UN MAITRE INCONNU</title>
-            </head>
-            <lg type="stanza" subtype="quatrain" n="1">
-               <l n="1">Au milieu des flacons, des étoffes lamées</l>
-               <l n="2">Et des meubles voluptueux,</l>
-               <l n="3">Des marbres, des tableaux, des robes parfumées</l>
-               <l n="4">Qui trament à plis sompteux,</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="2">
-               <l n="5">Dans une chambre tiède où, comme en une serre,</l>
-               <l n="6">L'air est dangereux et fatal,</l>
-               <l n="7">Où des bouquets mourants dans leurs cercueils de verre,</l>
-               <l n="8">Exhalent leur soupir final,</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="3">
-               <l n="9">Un cadavre sans tête épanche, comme un fleuve,</l>
-               <l n="10">Sur l'oreiller désaltéré</l>
-               <l n="11">Un sang rouge et vivant, dont la toile s'abreuve</l>
-               <l n="12">Avec l'avidité d'un pré.</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="4">
-               <l n="13">Semblable aux visions pâles qu'enfante l'ombre</l>
-               <l n="14">Et qui nous enchaînent les yeux,</l>
-               <l n="15">La tête, avec l'amas de sa crinière sombre</l>
-               <l n="16">Et de ses bijoux précieux,</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="5">
-               <l n="17">Sur la table de nuit, comme une renoncule,</l>
-               <l n="18">Repose, et, vide de pensers,</l>
-               <l n="19">Un regard vague et blanc comme le crépuscule</l>
-               <l n="20">S'échappe des yeux révulsés.</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="6">
-               <l n="21">Sur le lit, le tronc nu sans scrupule étale</l>
-               <l n="22">Dans le plus complet abandon</l>
-               <l n="23">La secrète splendeur et la beauté fatale</l>
-               <l n="24">Dont la nature lui fit don;</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="7">
-               <l n="25">Un bas rosâtre, orné de coins d'or, à la jambe</l>
-               <l n="26">Comme un souvenir est resté;</l>
-               <l n="27">La jarretière, ainsi qu'un oeil secret qui flambe,</l>
-               <l n="28">Darde un regard diamanté.</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="8">
-               <l n="29">Le singulier aspect de cette solitude</l>
-               <l n="30">Et d'un grand portrait langoureux,</l>
-               <l n="31">Aux yeux provocateurs comme son attitude,</l>
-               <l n="32">Révèle un amour ténébreux,</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="9">
-               <l n="33">Une coupable joie et des fêtes étranges</l>
-               <l n="34">Pleines de baisers infernaux.</l>
-               <l n="35">Dont se réjouissait l'essaim de mauvais anges</l>
-               <l n="36">Nageant dans les plis des rideaux;</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="10">
-               <l n="37">Et cependant, à voir la maigreur élégante</l>
-               <l n="38">De l'épaule au contour heurté,</l>
-               <l n="39">La hanche un peu pointue et la taille fringante</l>
-               <l n="40">Ainsi qu'an reptile irrité,</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="11">
-               <l n="41">Elle est bien jeune encor!--Son âme exaspérée</l>
-               <l n="42">Et ses sens par l'ennui mordus</l>
-               <l n="43">S'étaient-ils entr'ouverts à la meute altérée</l>
-               <l n="44">Des désirs errants et perdus?</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="12">
-               <l n="45">L'homme vindicatif que tu n'as pu, vivante,</l>
-               <l n="46">Malgré tant d'amour, assouvir,</l>
-               <l n="47">Combla-t-il sur ta chair inerte et complaisante</l>
-               <l n="48">L'immensité de son désir?</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="13">
-               <l n="49">Réponds, cadavre impur! et par tes tresses roides</l>
-               <l n="50">Te soulevant d'un bras fiévreux,</l>
-               <l n="51">Dis-moi, tête effrayante, as-tu sur tes dents froides,</l>
-               <l n="52">Collé les suprêmes adieux?</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="14">
-               <l n="53">--Loin du monde railleur, loin de la foule impure,</l>
-               <l n="54">Loin des magistrats curieux,</l>
-               <l n="55">Dors en paix, dors en paix, étrange créature,</l>
-               <l n="56">Dans ton tombeau mystérieux;</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="15">
-               <l n="57">Ton époux court le monde, et ta forme immortelle</l>
-               <l n="58">Veille près de lui quand il dort;</l>
-               <l n="59">Autant que toi sans doute il te sera fidèle,</l>
-               <l n="60">Et constant jusques à la mort.</l>
-            </lg>
-         </div>
+            <lg type="stanza" n="1">
+               <l n="1">Je veux bâtir pour toi, Madone, ma maîtresse,</l>
+               <l n="2">Un autel souterrain au fond de ma détresse,</l>
+               <l n="3">Et creuser dans le coin le plus noir de mon coeur,</l>
+               <l n="4">Loin du désir mondain et du regard moqueur,</l>
+               <l n="5">Une niche, d'azur et d'or tout émaillée,</l>
+               <l n="6">Où tu te dresseras, Statue émerveillée.</l>
+               <l n="7">Avec mes Vers polis, treillis d'un pur métal</l>
+               <l n="8">Savamment constellé de rimes de cristal</l>
+               <l n="9">Je ferai pour ta tête une énorme Couronne;</l>
+               <l n="10">Et dans ma Jalousie, ô mortelle Madone</l>
+               <l n="11">Je saurai te tailler un Manteau, de façon</l>
+               <l n="12">Barbare, roide et lourd, et doublé de soupçon,</l>
+               <l n="13">Qui, comme une guérite, enfermera tes charmes,</l>
+               <l n="14">Non de Perles brodé, mais de toutes mes Larmes!</l>
+               <l n="15">Ta Robe, ce sera mon Désir, frémissant,</l>
+               <l n="16">Onduleux, mon Désir qui monte et qui descend,</l>
+               <l n="17">Aux pointes se balance, aux vallons se repose,</l>
+               <l n="18">Et revêt d'un baiser tout ton corps blanc et rose.</l>
+               <l n="19">Je te ferai de mon Respect de beaux Souliers</l>
+               <l n="20">De satin, par tes pieds divins humiliés,</l>
+               <l n="21">Qui, les emprisonnant dans une molle étreinte</l>
+               <l n="22">Comme un moule fidèle en garderont l'empreinte.</l>
+               <l n="23">Si je ne puis, malgré tout mon art diligent</l>
+               <l n="24">Pour Marchepied tailler une Lune d'argent</l>
+               <l n="25">Je mettrai le Serpent qui me mord les entrailles</l>
+               <l n="26">Sous tes talons, afin que tu foules et railles</l>
+               <l n="27">Reine victorieuse et féconde en rachats</l>
+               <l n="28">Ce monstre tout gonflé de haine et de crachats.</l>
+               <l n="29">Tu verras mes Pensers, rangés comme les Cierges</l>
+               <l n="30">Devant l'autel fleuri de la Reine des Vierges</l>
+               <l n="31">Etoilant de reflets le plafond peint en bleu,</l>
+               <l n="32">Te regarder toujours avec des yeux de feu;</l>
+               <l n="33">Et comme tout en moi te chérit et t'admire,</l>
+               <l n="34">Tout se fera Benjoin, Encens, Oliban, Myrrhe,</l>
+               <l n="35">Et sans cesse vers toi, sommet blanc et neigeux,</l>
+               <l n="36">En Vapeurs montera mon Esprit orageux.</l>
+			</lg>
+            <lg type="stanza" n="2">
+               <l n="37">Enfin, pour compléter ton rôle de Marie,</l>
+               <l n="38">Et pour mêler l'amour avec la barbarie,</l>
+               <l n="39">Volupté noire! des sept Péchés capitaux,</l>
+               <l n="40">Bourreau plein de remords, je ferai sept Couteaux</l>
+               <l n="41">Bien affilés, et comme un jongleur insensible,</l>
+               <l n="42">Prenant le plus profond de ton amour pour cible,</l>
+               <l n="43">Je les planterai tous dans ton Coeur pantelant,</l>
+               <l n="44">Dans ton Coeur sanglotant, dans ton Coeur ruisselant!</l>
+			</lg>
+		</div>
       </body>
    </text>
 </TEI>

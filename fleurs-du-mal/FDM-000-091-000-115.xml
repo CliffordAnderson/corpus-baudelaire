@@ -1,0 +1,286 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
+        <title rend="LES PETITES VIEILLES">PETITES VIEILLES</title>
+        <author>Charles Baudelaire</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <sponsor>Jean and Alexander Heard Library</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Jean and Alexander Heard Library</publisher>
+        <pubPlace>Nashville</pubPlace>
+        <address>
+          <addrLine>Jean and Alexander Heard Library</addrLine>
+          <addrLine>419 21st Avenue South</addrLine>
+          <addrLine>Nashville, TN 37203</addrLine>
+          <addrLine>USA</addrLine>
+        </address>
+        <date>2014</date>
+        <!--Below, insert the number of the poem, according to the established protocol-->
+        <idno>FDM-000-091-000-115</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="U1857">
+            <desc>1857 Unexpurgated</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1857</date>
+                  <note>Original edition with condemned pieces</note>
+                </imprint>
+                <extent>248 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="E1857">
+            <desc>1857 Expurgated</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1857</date>
+                  <note>Original edition with condemned pieces removed</note>
+                </imprint>
+                <extent>248 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="FDM1861">
+            <desc>1861 2nd edition censored</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1861</date>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a
+                    portrait of the author drawn and engraved by Felix Bracquemond</note>
+                </imprint>
+                <extent>319 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                    this is a false imprint, the book actually being published in Brussels
+                    by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                    9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="FDM1868">
+            <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Oeuvres Complètes de Charles Baudelaire</title>
+                <author>Charles Baudelaire</author>
+                <editor>Théophile Gautier</editor>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Michel Lévy Frères</publisher>
+                  <date>1868-1873</date>
+                  <note>Volume 1 contains Les Fleurs du Mal</note>
+                </imprint>
+                <extent>7 volumes</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+        </listWit>
+        <!-- create witList in sourceDesc with the different editions and their bib data
+1. 1857 Unexpurgated xml:id="U1857"
+2. 1857 Expurgated xml:id="E1857"
+3. 1861 2nd edition censored xml:id="FDM1861"
+4. 1866 Les Epaves xml:id="1866"
+5. 1868 3rd edition - posthumous xml:id="1868"
+-->
+        <!--
+<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+encoding: ISO-8859-1 </p>
+<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+Online Distributed Proofreading Team.</p>
+-->
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <head>
+          <title>LES PETITES VIEILLES</title>A VICTOR HUGO</head>
+        <div>
+          <head>I</head>
+          <lg>
+            <l n="1">Dans les plis sinueux des vieilles capitales,</l>
+            <l n="2">Où tout, même l'horreur, tourne aux enchantements,</l>
+            <l n="3">Je guette, obéissant à mes humeurs fatales,</l>
+            <l n="4">Des êtres singuliers, décrépits et charmants.</l>
+          </lg>
+          <lg>
+            <l n="5">Ces monstres disloqués furent jadis des femmes,</l>
+            <l n="6">Eponine ou Laïs!--Monstres brisés, bossus</l>
+            <l n="7">Ou tordus, aimons-les! ce sont encor des âmes.</l>
+            <l n="8">Sous des jupons troués et sous de froids tissus</l>
+          </lg>
+          <lg>
+            <l n="9">Ils rampent, flagellés par les bises iniques,</l>
+            <l n="10">Frémissant au fracas roulant des omnibus,</l>
+            <l n="11">Et serrant sur leur flanc, ainsi que des reliques,</l>
+            <l n="12">Un petit sac brodé de fleurs ou de rébus;</l>
+          </lg>
+          <lg>
+            <l n="13">Ils trottent, tout pareils à des marionnettes;</l>
+            <l n="14">Se traînent, comme font les animaux blessés,</l>
+            <l n="15">Ou dansent, sans vouloir danser, pauvres sonnettes</l>
+            <l n="16">Où se pend un Démon sans pitié! Tout cassés</l>
+          </lg>
+          <lg>
+            <l n="17">Qu'ils sont, ils ont des yeux perçants comme une vrille,</l>
+            <l n="18">Luisants comme ces trous où l'eau dort dans la nuit;</l>
+            <l n="19">Ils ont les yeux divins de la petite fille</l>
+            <l n="20">Qui s'étonne et qui rit à tout ce qui reluit.</l>
+          </lg>
+          <lg>
+            <l n="21">--Avez-vous observé que maints cercueils de vieilles</l>
+            <l n="22">Sont presque aussi petits que celui d'un enfant?</l>
+            <l n="23">La Mort savante met dans ces bières pareilles</l>
+            <l n="24">Un symbole d'un goût bizarre et captivant,</l>
+          </lg>
+          <lg>
+            <l n="25">Et lorsque j'entrevois un fantôme débile</l>
+            <l n="26">Traversant de Paris le fourmillant tableau,</l>
+            <l n="27">Il me semble toujours que cet être fragile</l>
+            <l n="28">S'en va tout doucement vers un nouveau berceau;</l>
+          </lg>
+          <lg>
+            <l n="29">A moins que, méditant sur la géométrie,</l>
+            <l n="30">Je ne cherche, à l'aspect de ces membres discords,</l>
+            <l n="31">Combien de fois il faut que l'ouvrier varie</l>
+            <l n="32">La forme de la boîte où l'on met tous ces corps.</l>
+          </lg>
+          <lg>
+            <l n="33">--Ces yeux sont des puits faits d'un million de larmes,</l>
+            <l n="34">Des creusets qu'un métal refroidi pailleta...</l>
+            <l n="35">Ces yeux mystérieux ont d'invincibles charmes</l>
+            <l n="36">Pour celui que l'austère !<foreign>Infortune
+                           allaita</foreign>!</l>
+          </lg>
+        </div>
+        <div>
+          <head>II</head>
+          <lg>
+            <l n="1">De l'ancien Frascati Vestale énamourée;</l>
+            <l n="2">Prêtresse de Thalie, hélas! dont le souffleur</l>
+            <l n="3">Défunt, seul, sait le nom; célèbre évaporée</l>
+            <l n="4">Que Tivoli jadis ombragea dans sa fleur,</l>
+          </lg>
+          <lg>
+            <l n="5">Toutes m'enivrent! mais parmi ces êtres frêles</l>
+            <l n="6">Il en est qui, faisant de la douleur un miel,</l>
+            <l n="7">Ont dit au Dévouement qui leur prêtait ses ailes:</l>
+            <l n="8">« Hippogriffe puissant, mène-moi jusqu'au ciel! »</l>
+          </lg>
+          <lg>
+            <l n="9">L'une, par sa patrie au malheur exercée,</l>
+            <l n="10">L'autre, que son époux surchargea de douleurs,</l>
+            <l n="11">L'autre, par son enfant Madone transpercée,</l>
+            <l n="12">Toutes auraient pu faire un fleuve avec leurs pleurs!</l>
+          </lg>
+        </div>
+        <div>
+          <head>III</head>
+          <lg>
+            <l n="1">Ah! que j'en ai suivi, de ces petites vieilles!</l>
+            <l n="2">Une, entre autres, à l'heure où le soleil tombant</l>
+            <l n="3">Ensanglante le ciel de blessures vermeilles,</l>
+            <l n="4">Pensive, s'asseyait à l'écart sur un banc,</l>
+          </lg>
+          <lg>
+            <l n="5">Pour entendre un de ces concerts, riches de cuivre,</l>
+            <l n="6">Dont les soldats parfois inondent nos jardins,</l>
+            <l n="7">Et qui, dans ces soirs dor où l'on se sent revivre,</l>
+            <l n="8">Versent quelque héroïsme au coeur des citadins.</l>
+          </lg>
+          <lg>
+            <l n="9">Celle-là droite encor, fière et sentant la règle,</l>
+            <l n="10">Humait avidement ce chant vif et guerrier;</l>
+            <l n="11">Son oeil parfois s'ouvrait comme l'oeil d'un vieil aigle;</l>
+            <l n="12">Son front de marbre avait l'air fait pour le laurier!</l>
+          </lg>
+        </div>
+        <div>
+          <head>IV</head>
+          <lg>
+            <l n="1">Telles vous cheminez, stoïques et sans plaintes,</l>
+            <l n="2">A travers le chaos des vivantes cités,</l>
+            <l n="3">Mères au coeur saignant, courtisanes ou saintes,</l>
+            <l n="4">Dont autrefois les noms par tous étaient cités.</l>
+          </lg>
+          <lg>
+            <l n="5">Vous qui fûtes la grâce ou qui fûtes la gloire,</l>
+            <l n="6">Nul ne vous reconnaît! un ivrogne incivil</l>
+            <l n="7">Vous insulte en passant d'un amour dérisoire;</l>
+            <l n="8">Sur vos talons gambade un enfant lâche et vil.</l>
+          </lg>
+          <lg>
+            <l n="9">Honteuses d'exister, ombres ratatinées,</l>
+            <l n="10">Peureuses, le dos bas, vous côtoyer les murs,</l>
+            <l n="11">Et nul ne vous salue, étranges destinées!</l>
+            <l n="12">Débris d'humanité pour l'éternité mûrs!</l>
+          </lg>
+          <lg>
+            <l n="13">Mais moi, moi qui de loin tendrement vous surveille,</l>
+            <l n="14">L'oeil inquiet, fixé sur vos pas incertains,</l>
+            <l n="15">Tout comme si j'étais votre père, ô merveille!</l>
+            <l n="16">Je goûte à votre insu des plaisirs clandestins:</l>
+          </lg>
+          <lg>
+            <l n="17">Je vois s'épanouir vos passions novices;</l>
+            <l n="18">Sombres ou lumineux, je vis vos jours perdus;</l>
+            <l n="19">Mon coeur multiplié jouit de tous vos vices!</l>
+            <l n="20">Mon âme resplendit de toutes vos vertus!</l>
+          </lg>
+          <lg>
+            <l n="21">Ruines! ma famille! ô cerveaux congénères!</l>
+            <l n="22">Je vous fais chaque soir un solennel adieu!</l>
+            <l n="23">Où serez-vous demain, Eves octogénaires,</l>
+            <l n="24">Sur qui pèse la griffe effroyable de Dieu?</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

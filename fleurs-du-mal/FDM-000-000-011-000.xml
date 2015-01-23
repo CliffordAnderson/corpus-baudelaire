@@ -6,11 +6,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title rend="Une Martyre">Martyre</title>
+            <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
+            <title rend="Les promesses d'un visage">Promesses d'un visage</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
-               <name xml:id="TMF">Timothy Foster</name>
+               <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+               <name xml:id="SW">Steven Wenz</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
@@ -24,7 +26,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
-            <idno>FDM-079-110-000-135</idno>
+            <!--Below, insert the number of the poem, according to the established protocol-->
+            <idno>FDM-000-000-011-000</idno>
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -141,100 +144,37 @@ Online Distributed Proofreading Team.</p>
       <body>
          <div type="poem">
             <head>
-               <title type="main">UNE MARTYRE</title>
-            </head>
-            <head>
-               <title type="sub">DESSIN D'UN MAITRE INCONNU</title>
+               <title>Les promesses d'un visage</title>
             </head>
             <lg type="stanza" subtype="quatrain" n="1">
-               <l n="1">Au milieu des flacons, des étoffes lamées</l>
-               <l n="2">Et des meubles voluptueux,</l>
-               <l n="3">Des marbres, des tableaux, des robes parfumées</l>
-               <l n="4">Qui trament à plis sompteux,</l>
+               <l n="1">J'aime, ô pâle beauté, tes sourcils surbaissés,</l>
+               <l n="2">D'où semblent couler des ténèbres;</l>
+               <l n="3">Tes yeux, quoique très-noirs, m'inspirent des pensers</l>
+               <l n="4">Qui ne sont pas du tout funèbres.</l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="2">
-               <l n="5">Dans une chambre tiède où, comme en une serre,</l>
-               <l n="6">L'air est dangereux et fatal,</l>
-               <l n="7">Où des bouquets mourants dans leurs cercueils de verre,</l>
-               <l n="8">Exhalent leur soupir final,</l>
+               <l n="1">Tes yeux, qui sont d'accord avec tes noirs cheveux,</l>
+               <l n="2">Avec ta crinière élastique,</l>
+               <l n="3">Tes yeux, languissamment, me disent: «Si tu veux,</l>
+               <l n="4">Amant de la muse plastique,</l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="3">
-               <l n="9">Un cadavre sans tête épanche, comme un fleuve,</l>
-               <l n="10">Sur l'oreiller désaltéré</l>
-               <l n="11">Un sang rouge et vivant, dont la toile s'abreuve</l>
-               <l n="12">Avec l'avidité d'un pré.</l>
+               <l n="1">Suivre l'espoir qu'en toi nous avons excité,</l>
+               <l n="2">Et tous les goûts que tu professes,</l>
+               <l n="3">Tu pourras constater notre véracité</l>
+               <l n="4">Depuis le nombril jusqu'aux fesses;</l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="4">
-               <l n="13">Semblable aux visions pâles qu'enfante l'ombre</l>
-               <l n="14">Et qui nous enchaînent les yeux,</l>
-               <l n="15">La tête, avec l'amas de sa crinière sombre</l>
-               <l n="16">Et de ses bijoux précieux,</l>
+               <l n="1">Tu trouveras au bout de deux beaux seins bien lourds,</l>
+               <l n="2">Deux larges médailles de bronze,</l>
+               <l n="3">Et sous un ventre uni, doux comme du velours,</l>
+               <l n="4">Bistré comme la peau d'un bonze,</l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="5">
-               <l n="17">Sur la table de nuit, comme une renoncule,</l>
-               <l n="18">Repose, et, vide de pensers,</l>
-               <l n="19">Un regard vague et blanc comme le crépuscule</l>
-               <l n="20">S'échappe des yeux révulsés.</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="6">
-               <l n="21">Sur le lit, le tronc nu sans scrupule étale</l>
-               <l n="22">Dans le plus complet abandon</l>
-               <l n="23">La secrète splendeur et la beauté fatale</l>
-               <l n="24">Dont la nature lui fit don;</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="7">
-               <l n="25">Un bas rosâtre, orné de coins d'or, à la jambe</l>
-               <l n="26">Comme un souvenir est resté;</l>
-               <l n="27">La jarretière, ainsi qu'un oeil secret qui flambe,</l>
-               <l n="28">Darde un regard diamanté.</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="8">
-               <l n="29">Le singulier aspect de cette solitude</l>
-               <l n="30">Et d'un grand portrait langoureux,</l>
-               <l n="31">Aux yeux provocateurs comme son attitude,</l>
-               <l n="32">Révèle un amour ténébreux,</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="9">
-               <l n="33">Une coupable joie et des fêtes étranges</l>
-               <l n="34">Pleines de baisers infernaux.</l>
-               <l n="35">Dont se réjouissait l'essaim de mauvais anges</l>
-               <l n="36">Nageant dans les plis des rideaux;</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="10">
-               <l n="37">Et cependant, à voir la maigreur élégante</l>
-               <l n="38">De l'épaule au contour heurté,</l>
-               <l n="39">La hanche un peu pointue et la taille fringante</l>
-               <l n="40">Ainsi qu'an reptile irrité,</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="11">
-               <l n="41">Elle est bien jeune encor!--Son âme exaspérée</l>
-               <l n="42">Et ses sens par l'ennui mordus</l>
-               <l n="43">S'étaient-ils entr'ouverts à la meute altérée</l>
-               <l n="44">Des désirs errants et perdus?</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="12">
-               <l n="45">L'homme vindicatif que tu n'as pu, vivante,</l>
-               <l n="46">Malgré tant d'amour, assouvir,</l>
-               <l n="47">Combla-t-il sur ta chair inerte et complaisante</l>
-               <l n="48">L'immensité de son désir?</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="13">
-               <l n="49">Réponds, cadavre impur! et par tes tresses roides</l>
-               <l n="50">Te soulevant d'un bras fiévreux,</l>
-               <l n="51">Dis-moi, tête effrayante, as-tu sur tes dents froides,</l>
-               <l n="52">Collé les suprêmes adieux?</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="14">
-               <l n="53">--Loin du monde railleur, loin de la foule impure,</l>
-               <l n="54">Loin des magistrats curieux,</l>
-               <l n="55">Dors en paix, dors en paix, étrange créature,</l>
-               <l n="56">Dans ton tombeau mystérieux;</l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="15">
-               <l n="57">Ton époux court le monde, et ta forme immortelle</l>
-               <l n="58">Veille près de lui quand il dort;</l>
-               <l n="59">Autant que toi sans doute il te sera fidèle,</l>
-               <l n="60">Et constant jusques à la mort.</l>
+               <l n="1">Une riche toison qui, vraiment, est la soeur</l>
+               <l n="2">De cette énorme chevelure,</l>
+               <l n="3">Souple et frisée, et qui t'égale en épaisseur,</l>
+               <l n="4">Nuit sans étoiles, Nuit obscure!»</l>
             </lg>
          </div>
       </body>

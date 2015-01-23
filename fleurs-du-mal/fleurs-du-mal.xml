@@ -1387,7 +1387,7 @@
                   </div>
                   <div type="sonnet">
                      <head>
-                        <title type="main">Le Chat</title>
+                        <title type="main">Le Chat (Viens, mon beau chat)</title>
                      </head>
                      <lg type="stanza" subtype="quatrain">
                         <l n="1">Viens, mon beau chat, sur mon coeur amoureux:</l>
@@ -1914,7 +1914,7 @@
                   </div>
                   <div type="poem">
                      <head>
-                        <title type="main">Le Chat</title>
+                        <title type="main">Le Chat(Dans ma cervelle)</title>
                      </head>
                      <div type="I">
                         <lg type="stanza" subtype="quatrain">
@@ -2570,7 +2570,7 @@
                   </div>
                   <div type="sonnet">
                      <head>
-                        <title>SPLEEN</title>
+                        <title>SPLEEN (Pluviôse, irrité)</title>
                      </head>
                      <lg type="stanza" subtype="quatrain" n="1">
                         <l n="1">Pluviôse, irrité contre la vie entière,</l>
@@ -2597,7 +2597,7 @@
                   </div>
                   <div type="poem">
                      <head>
-                        <title>SPLEEN</title>
+                        <title>Spleen (j’ai plus de souvenirs)</title>
                      </head>
                      <!-- Todd's going to finish this up later. -->
                      <p>J'ai plus de souvenirs que si j'avais mille ans. Un gros meuble à tiroirs
@@ -2619,7 +2619,7 @@
                   </div>
                   <div type="poem">
                      <head>
-                        <title>SPLEEN</title>
+                        <title>SPLEEN (Je suis comme le roi)</title>
                      </head>
                      <lg type="stanza" n="1">
                         <l n="1">Je suis comme le roi d'un pays pluvieux,</l>
@@ -2644,7 +2644,7 @@
                   </div>
                   <div type="poem">
                      <head>
-                        <title>SPLEEN</title>
+                        <title>SPLEEN (Quand le ciel bas et lourd)</title>
                      </head>
                      <lg type="stanza" subtype="quatrain" n="1">
                         <l n="1">Quand le ciel bas et lourd pèse comme un couvercle</l>
