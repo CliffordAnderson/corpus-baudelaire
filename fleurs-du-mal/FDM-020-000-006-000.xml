@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-            <title rend="Les Bijoux">Bijoux</title>
+            <title rend="LES BIJOUX">BIJOUX</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
@@ -144,31 +144,31 @@ Online Distributed Proofreading Team.</p>
       <body>
          <div type="poem">
             <head>
-               <title>Les Bijoux</title>
+               <title type="main">LES BIJOUX</title>
             </head>
             <lg type="stanza" subtype="quatrain" n="1">
-               <l n="1">La très chère était nue, et, connaissant mon coeur, </l>
+               <l n="1">La très-chère était nue, et, connaissant mon coeur, </l>
                <l n="2">Elle n'avait gardé que ses bijoux sonores,</l>
                <l n="3">Dont le riche attirail lui donnait l'air vainqueur </l>
-               <l n="4">Qu'ont dans leurs jours heureux les esclaves des Mores.</l>
+               <l n="4">Qu'ont dans leurs jours heureux les esclaves des Maures.</l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="2">
                <l n="5">Quand il jette en dansant son bruit vif et moqueur,</l>
                <l n="6">Ce monde rayonnant de métal et de pierre</l>
-               <l n="7">Me ravit en extase, et j'aime à la fureur</l>
+               <l n="7">Me ravit en extase, et j'aime avec fureur</l>
                <l n="8">Les choses où le son se mêle à la lumière.</l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="3">
                <l n="9">Elle était donc couchée et se laissait aimer,</l>
                <l n="10">Et du haut du divan elle souriait d'aise</l>
-               <l n="11">À mon amour profond et doux comme la mer,</l>
+               <l n="11">A mon amour profond et doux comme la mer</l>
                <l n="12">Qui vers elle montait comme vers sa falaise.</l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="4">
                <l n="13">Les yeux fixés sur moi, comme un tigre dompté,</l>
                <l n="14">D'un air vague et rêveur elle essayait des poses,</l>
                <l n="15">Et la candeur unie à la lubricité</l>
-               <l n="16">Donnait un charme neuf à ses métamorphoses;</l>
+               <l n="16">Donnait un charme neuf à ses métamorphoses.</l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="5">
                <l n="17">Et son bras et sa jambe, et sa cuisse et ses reins,</l>
@@ -180,13 +180,13 @@ Online Distributed Proofreading Team.</p>
                <l n="21">S'avançaient, plus câlins que les Anges du mal,</l>
                <l n="22">Pour troubler le repos où mon âme était mise,</l>
                <l n="23">Et pour la déranger du rocher de cristal</l>
-               <l n="24">Où, calme et solitaire, elle s'était assise.</l>
+               <l n="24">Où calme et solitaire elle s'était assise.</l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="7">
                <l n="25">Je croyais voir unis par un nouveau dessin</l>
                <l n="26">Les hanches de l'Antiope au buste d'un imberbe,</l>
                <l n="27">Tant sa taille faisait ressortir son bassin.</l>
-               <l n="28">Sur ce teint fauve et brun, le fard était superbe!</l>
+               <l n="28">Sur ce teint fauve et brun le fard était superbe!</l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="8">
                <l n="29">— Et la lampe s'étant résignée à mourir,</l>
