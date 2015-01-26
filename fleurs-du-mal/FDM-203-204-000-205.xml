@@ -145,7 +145,7 @@ Online Distributed Proofreading Team.</p>
         <body>
             <div type="poem">
                 <head>
-                    <title>AU LECTEUR</title>
+                    <title type="main">AU LECTEUR</title>
                 </head>
                 <lg type="stanza" subtype="quatrain" n="1">
                     <l n="1">La sottise, l'erreur, le péché, la lésine,</l>
