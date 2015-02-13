@@ -7,12 +7,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-            <title rend="Les Hiboux">Hiboux</title>
+            <title rend="Le Reniement de Saint Pierre">Reniement de Saint Pierre</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
                <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-               <name xml:id="TFH">Todd F. Hughes</name>
+               <name xml:id="EJW">Ed Warga</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </address>
             <date>2014</date>
             <!--Below, insert the number of the poem, according to the established protocol-->
-            <idno>FDM-000-067-000-069</idno>
+            <idno>FDM-090-118-000-143</idno>
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -119,7 +119,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </biblStruct>
                </witness>
             </listWit>
-            <!-- These comments are insane.  create witList in sourceDesc with the different editions and their bib data
+            <!-- create witList in sourceDesc with the different editions and their bib data
 1. 1857 Unexpurgated xml:id="U1857"
 2. 1857 Expurgated xml:id="E1857"
 3. 1861 2nd edition censored xml:id="FDM1861"
@@ -142,34 +142,57 @@ Online Distributed Proofreading Team.</p>
    </teiHeader>
    <text>
       <body>
-         <div type="sonnet">
-            <head>
-               <title>Les Hiboux</title>
-            </head>
+         <div type="poem">
+            <head><title>Le Reniement de Saint Pierre</title></head>
             <lg type="stanza" subtype="quatrain" n="1">
-               <l n="1">Sous les ifs noirs qui les abritent</l>
-               <l n="2">Les hiboux se tiennent rangés</l>
-               <l n="3">Ainsi que des dieux étrangers</l>
-               <l n="4">Dardant leur oeil rouge. Ils méditent.</l>
+               <l n="1">Qu'est-ce que Dieu fait donc de ce flot d'anathèmes</l>
+               <l n="2">Qui monte tous les jours vers ses chers Séraphins?</l>
+               <l n="3">Comme un tyran gorgé de viande et de vins,</l>
+               <l n="4">II s'endort au doux bruit de nos affreux blasphèmes.</l>
             </lg>
+
             <lg type="stanza" subtype="quatrain" n="2">
-               <l n="5">Sans remuer ils se tiendront</l>
-               <l n="6">Jusqu'à l'heure mélancolique</l>
-               <l n="7">Où, poussant le soleil oblique,</l>
-               <l n="8">Les ténèbres s'établiront.</l>
+               <l n="5">Les sanglots des martyrs et des suppliciés</l>
+               <l n="6">Sont une symphonie enivrante sans doute,</l>
+               <l n="7">Puisque, malgré le sang que leur volupté coûte,</l>
+               <l n="8">Les cieux ne s'en sont point encore rassasiés!</l>
             </lg>
-            <lg type="stanza" subtype="tercet" n="3">
-               <l n="9">Leur attitude au sage enseigne</l>
-               <l n="10">Qu'il faut en ce monde qu'il craigne</l>
-               <l n="11">Le tumulte et le mouvement;</l>
+
+            <lg type="stanza" subtype="quatrain" n="3">
+               <l n="9">— Ah! Jésus, souviens-toi du Jardin des Olives!</l>
+               <l n="10">Dans ta simplicité tu priais à genoux</l>
+               <l n="11">Celui qui dans son ciel riait au bruit des clous</l>
+               <l n="12">Que d'ignobles bourreaux plantaient dans tes chairs vives,</l>
             </lg>
-            <lg type="stanza" subtype="tercet" n="4">
-               <l n="12">L'homme ivre d'une ombre qui passe</l>
-               <l n="13">Porte toujours le châtiment</l>
-               <l n="14">D'avoir voulu changer de place.</l>
+
+            <lg type="stanza" subtype="quatrain" n="4">
+               <l n="13">Lorsque tu vis cracher sur ta divinité</l>
+               <l n="14">La crapule du corps de garde et des cuisines,</l>
+               <l n="15">Et lorsque tu sentis s'enfoncer les épines</l>
+               <l n="16">Dans ton crâne où vivait l'immense Humanité;</l>
+            </lg>
+
+            <lg type="stanza" subtype="quatrain" n="5">
+               <l n="17">Quand de ton corps brisé la pesanteur horrible</l>
+               <l n="18">Allongeait tes deux bras distendus, que ton sang</l>
+               <l n="19">Et ta sueur coulaient de ton front pâlissant,</l>
+               <l n="20">Quand tu fus devant tous posé comme une cible,</l>
+            </lg>
+
+            <lg type="stanza" subtype="quatrain" n="6">
+               <l n="21">Rêvais-tu de ces jours si brillants et si beaux</l>
+               <l n="22">Où tu vins pour remplir l'éternelle promesse,</l>
+               <l n="23">Où tu foulais, monté sur une douce ânesse,</l>
+               <l n="24">Des chemins tout jonchés de fleurs et de rameaux,</l>
+            </lg>
+
+            <lg type="stanza" subtype="quatrain" n="7">
+               <l n="25">Où, le coeur tout gonflé d'espoir et de vaillance,</l>
+               <l n="26">Tu fouettais tous ces vils marchands à tour de bras,</l>
+               <l n="27">Où tu fus maître enfin? Le remords n'a-t-il pas</l>
+               <l n="28"> Pénétré dans ton flanc plus avant que la lance?</l>
             </lg>
          </div>
       </body>
    </text>
-
 </TEI>
