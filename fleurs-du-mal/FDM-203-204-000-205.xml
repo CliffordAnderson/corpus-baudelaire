@@ -81,27 +81,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </monogr>
                         </biblStruct>
                     </witness>
-                    <witness xml:id="LE1866">
-                        <desc>1866 Les Epaves xml:id="1866"</desc>
-                        <biblStruct>
-                            <monogr>
-                                <title>Les Épaves</title>
-                                <author>Charles Baudelaire</author>
-                                <imprint>
-                                    <pubPlace>Amsterdam</pubPlace>
-                                    <publisher>À L'Enseigne du Coq</publisher>
-                                    <date>1866</date>
-                                    <note>According to the preface of the 1890 edition (Paris, A.
-                                        Lemerre), this is a false imprint, the book actually being
-                                        published in Brussels by Poulet-Malassis.</note>
-                                    <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                                        9-55</note>
-                                    <note>With a frontispeice etching by Félicien Rops</note>
-                                </imprint>
-                                <extent>163 p.</extent>
-                            </monogr>
-                        </biblStruct>
-                    </witness>
                     <witness xml:id="FDM1868">
                         <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
                         <biblStruct>
@@ -145,10 +124,16 @@ Online Distributed Proofreading Team.</p>
         <body>
             <div type="poem">
                 <head>
-                    <title type="main">AU LECTEUR</title>
+                    <title type="main"><app>
+                            <lem wit="#U1857 #E1857 #FDM1861">AU LECTEUR</lem>
+                            <rdg wit="#FDM1868">PRÉFACE</rdg>
+                        </app></title>
                 </head>
                 <lg type="stanza" subtype="quatrain" n="1">
-                    <l n="1">La sottise, l'erreur, le péché, la lésine,</l>
+                    <l n="1">La sottise, l'erreur, le péché, la lésine<app>
+                            <lem wit="#U1857 #E1857"/>
+                            <rdg wit="#FDM1861 #FDM1868">,</rdg>
+                        </app></l>
                     <l n="2">Occupent nos esprits et travaillent nos corps,</l>
                     <l n="3">Et nous alimentons nos aimables remords,</l>
                     <l n="4">Comme les mendiants nourrissent leur vermine.</l>
@@ -156,7 +141,10 @@ Online Distributed Proofreading Team.</p>
                 <lg type="stanza" subtype="quatrain" n="2">
                     <l n="5">Nos péchés sont têtus, nos repentirs sont lâches;</l>
                     <l n="6">Nous nous faisons payer grassement nos aveux,</l>
-                    <l n="7">Et nous rentrons gaîment dans le chemin bourbeux,</l>
+                    <l n="7">Et nous rentrons <app>
+                            <lem wit="#U1857 #E1857 #FDM1868">gaîment</lem>
+                            <rdg wit="#FDM1861">gaiement</rdg>
+                        </app> dans le chemin bourbeux,</l>
                     <l n="8">Croyant par de vils pleurs laver toutes nos taches.</l>
                 </lg>
                 <lg type="stanza" subtype="quatrain" n="3">
@@ -178,16 +166,19 @@ Online Distributed Proofreading Team.</p>
                     <l n="20">Que nous pressons bien fort comme une vieille orange.</l>
                 </lg>
                 <lg type="stanza" subtype="quatrain" n="6">
-                    <l n="21">Dans nos cerveaux malsains, comme un million d'helminthes</l>
-                    <l n="22">Grouille, chante et ripaille une peuple de Démons,</l>
+                    <l n="21"><app>
+                            <lem wit="#U1857 #E1857">Dans nos cerveaux malsains</lem>
+                            <rdg wit="#FDM1861 #FDM1868">Serré, fourmillant</rdg>
+                        </app>, comme un million d'helminthes</l>
+                    <l n="22"><app>
+                            <lem wit="#U1857 #E1857">Grouille, chante et ripaille une</lem>
+                            <rdg wit="#FDM1861 #FDM1868">Dans nos cerveaux ribote un</rdg>
+                        </app> peuple de Démons,</l>
                     <l n="23">Et, quand nous respirons, la Mort dans nos poumons</l>
-                    <l n="24">S'engouffre, comme un fleuve, avec de sourdes plaintes</l>
-                    <!-- 
-                    <l n="21">Serré, fourmillant, comme un million d'helminthes,</l>
-                    <l n="22">Dans nos cerveaux ribote un peuple de Démons,</l>
-                    <l n="23">Et, quand nous respirons, la Mort dans nos poumons </l>
-                    <l n="24">Descend, fleuve invisible, avec de sourdes plaintes.</l> 
-                    -->
+                    <l n="24"><app>
+                            <lem wit="#U1857 #E1857">S'engouffre, comme un fleuve</lem>
+                            <rdg wit="#FDM1861 #FDM1868">Descend, fleuve invisible</rdg>
+                        </app>, avec de sourdes plaintes</l>
                 </lg>
                 <lg type="stanza" subtype="quatrain" n="7">
                     <l n="25">Si le viol, le poison, le poignard, l'incendie</l>
