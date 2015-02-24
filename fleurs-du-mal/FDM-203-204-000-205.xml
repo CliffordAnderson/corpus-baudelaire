@@ -181,25 +181,31 @@ Online Distributed Proofreading Team.</p>
                         </app>, avec de sourdes plaintes</l>
                 </lg>
                 <lg type="stanza" subtype="quatrain" n="7">
-                    <l n="25">Si le viol, le poison, le poignard, l'incendie</l>
+                    <l n="25">Si le viol, le poison, le poignard, l'incendie<app>
+                            <lem wit="#U1857 #E1857"/>
+                            <rdg wit="#FDM1861 #FDM1868">,</rdg>
+                        </app></l>
                     <l n="26">N'ont pas encor brodé de leurs plaisants dessins</l>
                     <l n="27">Le canevas banal de nos piteux destins,</l>
                     <l n="28">C'est que notre âme, hélas! n'est pas assez hardie.</l>
                 </lg>
                 <lg type="stanza" subtype="quatrain" n="8">
-                    <l n="29">Mais parmi les chacals, les panthères, les lyces,</l>
+                    <l n="29">Mais parmi les chacals, les panthères, les <app>
+                            <lem wit="#U1857 #E1857">lyces</lem>
+                            <rdg wit="#FDM1861 #FDM1868">lices</rdg>
+                        </app>,</l>
                     <l n="30">Les singes, les scorpions, les vautours, les serpents,</l>
                     <l n="31">Les monstres glapissants, hurlants, grognants, rampants,</l>
                     <l n="32">Dans la ménagerie infâme de nos vices,</l>
                 </lg>
                 <lg type="stanza" subtype="quatrain" n="9">
                     <l n="33">II en est un plus laid, plus méchant, plus immonde!</l>
-                    <l n="34">Quoiqu'il ne fasse ni grands gestes ni grands cris,</l>
+                    <l n="34">Quoiqu'il ne <app><lem wit="#U1857 #E1857">fasse</lem><rdg wit="#FDM1861 #FDM1868">pousse</rdg></app> ni grands gestes ni grands cris,</l>
                     <l n="35">Il ferait volontiers de la terre un débris</l>
                     <l n="36">Et dans un bâillement avalerait le monde;</l>
                 </lg>
                 <lg type="stanza" subtype="quatrain" n="10">
-                    <l n="37">C'est l'Ennui! — l'oeil chargé d'un pleur involontaire,</l>
+                    <l n="37">C'est l'Ennui! — <app><lem wit="#U1857 #E1857 #FDM1861">l'oeil</lem><rdg wit="#FDM1868">L'oeil</rdg></app> chargé d'un pleur involontaire,</l>
                     <l n="38">II rêve d'échafauds en fumant son houka.</l>
                     <l n="39">Tu le connais, lecteur, ce monstre délicat,</l>
                     <l n="40">— Hypocrite lecteur, — mon semblable, — mon frère!</l>
