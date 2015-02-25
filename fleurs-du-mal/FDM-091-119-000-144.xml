@@ -123,10 +123,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <div type="poem">
             <head>
-               <title type="main">ABEL ET CA<app>
-                     <lem wit="#U1857 #E1857">I</lem>
-                     <rdg wit="#FDM1861 #FDM1868">Ï</rdg>
-                  </app>N</title>
+               <title type="main">ABEL ET <app>
+                     <lem wit="#U1857 #E1857">CAIN</lem>
+                     <rdg wit="#FDM1861 #FDM1868">CAÏN</rdg>
+                  </app></title>
             </head>
             <lg type="stanza" subtype="couplet" n="1">
                <l n="1">Race d'Abel, dors, bois et mange<app>
