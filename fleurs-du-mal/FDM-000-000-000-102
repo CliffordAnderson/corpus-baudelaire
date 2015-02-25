@@ -7,7 +7,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title rend="LE GOUFFRE">Imprévu</title>
+            <title rend="LE GOUFFRE">Gouffre</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
@@ -25,7 +25,7 @@
                <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
-            <idno>FDM-000-000-018-088</idno>
+            <idno>FDM-000-000-000-102</idno>
             <!--insert id no in above element account to established format-->
          </publicationStmt>
          <sourceDesc>
@@ -143,7 +143,7 @@
       <body>
          <div type="poem" subtype="sonnet">
             <head>
-               <title>LE GOUFFRE</title>
+               <title>Le gouffre</title>
             </head>
             <lg type="stanza" subtype="quatrain" n="1">
                <l n="1">Pascal avait son gouffre, avec lui se mouvant.</l>
