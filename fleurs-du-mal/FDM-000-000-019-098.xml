@@ -7,12 +7,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <fileDesc>
             <titleStmt>
                 <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-                <title>AU LECTEUR</title>
+                <title rend="La Rançon">Rançon</title>
                 <author>Charles Baudelaire</author>
                 <respStmt>
                     <resp>Encoded by</resp>
                     <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-                    <name xml:id="RVR">Ramona V. Romero</name>
+                    <name xml:id="TMF">Timothy M. Foster</name>
                 </respStmt>
                 <sponsor>Jean and Alexander Heard Library</sponsor>
             </titleStmt>
@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </address>
                 <date>2014</date>
                 <!--Below, insert the number of the poem, according to the established protocol-->
-                <idno>FDM-203-204-000-205</idno>
+                <idno>FDM-000-000-019-098</idno>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
@@ -81,6 +81,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </monogr>
                         </biblStruct>
                     </witness>
+                    <witness xml:id="LE1866">
+                        <desc>1866 Les Epaves xml:id="1866"</desc>
+                        <biblStruct>
+                            <monogr>
+                                <title>Les Épaves</title>
+                                <author>Charles Baudelaire</author>
+                                <imprint>
+                                    <pubPlace>Amsterdam</pubPlace>
+                                    <publisher>À L'Enseigne du Coq</publisher>
+                                    <date>1866</date>
+                                    <note>According to the preface of the 1890 edition (Paris, A.
+                                        Lemerre), this is a false imprint, the book actually being
+                                        published in Brussels by Poulet-Malassis.</note>
+                                    <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                                        9-55</note>
+                                    <note>With a frontispeice etching by Félicien Rops</note>
+                                </imprint>
+                                <extent>163 p.</extent>
+                            </monogr>
+                        </biblStruct>
+                    </witness>
                     <witness xml:id="FDM1868">
                         <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
                         <biblStruct>
@@ -106,7 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 4. 1866 Les Epaves xml:id="1866"
 5. 1868 3rd edition - posthumous xml:id="1868"
 -->
-                <!--
+<!--
 <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
 for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
 You may copy it, give it away or re-use it under the terms of the Project Gutenberg
@@ -123,93 +144,31 @@ Online Distributed Proofreading Team.</p>
     <text>
         <body>
             <div type="poem">
-                <head>
-                    <title type="main"><app>
-                            <lem wit="#U1857 #E1857 #FDM1861">AU LECTEUR</lem>
-                            <rdg wit="#FDM1868">PRÉFACE</rdg>
-                        </app></title>
-                </head>
-                <lg type="stanza" subtype="quatrain" n="1">
-                    <l n="1">La sottise, l'erreur, le péché, la lésine<app>
-                            <lem wit="#U1857 #E1857"/>
-                            <rdg wit="#FDM1861 #FDM1868">,</rdg>
-                        </app></l>
-                    <l n="2">Occupent nos esprits et travaillent nos corps,</l>
-                    <l n="3">Et nous alimentons nos aimables remords,</l>
-                    <l n="4">Comme les mendiants nourrissent leur vermine.</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="2">
-                    <l n="5">Nos péchés sont têtus, nos repentirs sont lâches;</l>
-                    <l n="6">Nous nous faisons payer grassement nos aveux,</l>
-                    <l n="7">Et nous rentrons <app>
-                            <lem wit="#U1857 #E1857 #FDM1868">gaîment</lem>
-                            <rdg wit="#FDM1861">gaiement</rdg>
-                        </app> dans le chemin bourbeux,</l>
-                    <l n="8">Croyant par de vils pleurs laver toutes nos taches.</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="3">
-                    <l n="9">Sur l'oreiller du mal c'est Satan Trismégiste</l>
-                    <l n="10">Qui berce longuement notre esprit enchanté,</l>
-                    <l n="11">Et le riche métal de notre volonté</l>
-                    <l n="12">Est tout vaporisé par ce savant chimiste.</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="4">
-                    <l n="13">C'est le Diable qui tient les fils qui nous remuent!</l>
-                    <l n="14">Aux objets répugnants nous trouvons des appas;</l>
-                    <l n="15">Chaque jour vers l'Enfer nous descendons d'un pas,</l>
-                    <l n="16">Sans horreur, à travers des ténèbres qui puent.</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="5">
-                    <l n="17">Ainsi qu'un débauché pauvre qui baise et mange</l>
-                    <l n="18">Le sein martyrisé d'une antique catin,</l>
-                    <l n="19">Nous volons au passage un plaisir clandestin</l>
-                    <l n="20">Que nous pressons bien fort comme une vieille orange.</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="6">
-                    <l n="21"><app>
-                            <lem wit="#U1857 #E1857">Dans nos cerveaux malsains</lem>
-                            <rdg wit="#FDM1861 #FDM1868">Serré, fourmillant</rdg>
-                        </app>, comme un million d'helminthes</l>
-                    <l n="22"><app>
-                            <lem wit="#U1857 #E1857">Grouille, chante et ripaille une</lem>
-                            <rdg wit="#FDM1861 #FDM1868">Dans nos cerveaux ribote un</rdg>
-                        </app> peuple de Démons,</l>
-                    <l n="23">Et, quand nous respirons, la Mort dans nos poumons</l>
-                    <l n="24"><app>
-                            <lem wit="#U1857 #E1857">S'engouffre, comme un fleuve</lem>
-                            <rdg wit="#FDM1861 #FDM1868">Descend, fleuve invisible</rdg>
-                        </app>, avec de sourdes plaintes</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="7">
-                    <l n="25">Si le viol, le poison, le poignard, l'incendie<app>
-                            <lem wit="#U1857 #E1857"/>
-                            <rdg wit="#FDM1861 #FDM1868">,</rdg>
-                        </app></l>
-                    <l n="26">N'ont pas encor brodé de leurs plaisants dessins</l>
-                    <l n="27">Le canevas banal de nos piteux destins,</l>
-                    <l n="28">C'est que notre âme, hélas! n'est pas assez hardie.</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="8">
-                    <l n="29">Mais parmi les chacals, les panthères, les <app>
-                            <lem wit="#U1857 #E1857">lyces</lem>
-                            <rdg wit="#FDM1861 #FDM1868">lices</rdg>
-                        </app>,</l>
-                    <l n="30">Les singes, les scorpions, les vautours, les serpents,</l>
-                    <l n="31">Les monstres glapissants, hurlants, grognants, rampants,</l>
-                    <l n="32">Dans la ménagerie infâme de nos vices,</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="9">
-                    <l n="33">II en est un plus laid, plus méchant, plus immonde!</l>
-                    <l n="34">Quoiqu'il ne <app><lem wit="#U1857 #E1857">fasse</lem><rdg wit="#FDM1861 #FDM1868">pousse</rdg></app> ni grands gestes ni grands cris,</l>
-                    <l n="35">Il ferait volontiers de la terre un débris</l>
-                    <l n="36">Et dans un bâillement avalerait le monde;</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="10">
-                    <l n="37">C'est l'Ennui! — <app><lem wit="#U1857 #E1857 #FDM1861">l'oeil</lem><rdg wit="#FDM1868">L'oeil</rdg></app> chargé d'un pleur involontaire,</l>
-                    <l n="38">II rêve d'échafauds en fumant son houka.</l>
-                    <l n="39">Tu le connais, lecteur, ce monstre délicat,</l>
-                    <l n="40">— Hypocrite lecteur, — mon semblable, — mon frère!</l>
-                </lg>
+                <head><title>La rançon</title></head>
+                    <lg type="stanza" subtype="quatrain" n="1">
+                        <l n="1">L'homme a, pour payer sa rançon,</l>
+                        <l n="2">Deux champs au tuf profond et riche,</l>
+                        <l n="3">Qu'il faut qu'il remue et défriche</l>
+                        <l n="4">Avec le fer de la raison;</l>
+                    </lg>
+                    <lg type="stanza" subtype="quatrain" n="2">
+                        <l n="5">Pour obtenir la moindre rose,</l>
+                        <l n="6">Pour extorquer quelques épis,</l>
+                        <l n="7">Des pleurs salés de son front gris</l>
+                        <l n="8">Sans cesse il faut qu'il les arrose.</l>
+                    </lg>
+                    <lg type="stanza" subtype="quatrain" n="3">
+                        <l n="9">L'un est l'Art, et l'autre l'Amour.</l>
+                        <l n="10">— Pour rendre le juge propice,</l>
+                        <l n="11">Lorsque de la stricte justice</l>
+                        <l n="12">Paraîtra le terrible jour,</l>
+                    </lg>
+                    <lg type="stanza" subtype="quatrain" n="4">
+                        <l n="13">Il faudra lui montrer des granges</l>
+                        <l n="14">Pleines de moissons, et des fleurs</l>
+                        <l n="15">Dont les formes et les couleurs</l>
+                        <l n="16">Gagnent le suffrage des Anges.</l>
+                    </lg>
             </div>
         </body>
     </text>
