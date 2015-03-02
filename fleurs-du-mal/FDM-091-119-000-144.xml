@@ -80,27 +80,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </monogr>
                   </biblStruct>
                </witness>
-               <witness xml:id="LE1866">
-                  <desc>1866 Les Epaves xml:id="1866"</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Les Épaves</title>
-                        <author>Charles Baudelaire</author>
-                        <imprint>
-                           <pubPlace>Amsterdam</pubPlace>
-                           <publisher>À L'Enseigne du Coq</publisher>
-                           <date>1866</date>
-                           <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                           <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                           <note>With a frontispeice etching by Félicien Rops</note>
-                        </imprint>
-                        <extent>163 p.</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
                <witness xml:id="FDM1868">
                   <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
                   <biblStruct>
@@ -144,69 +123,105 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <div type="poem">
             <head>
-               <title>Abel et Caïn</title>
+               <title type="main">ABEL ET <app>
+                     <lem wit="#U1857 #E1857">CAIN</lem>
+                     <rdg wit="#FDM1861 #FDM1868">CAÏN</rdg>
+                  </app></title>
             </head>
-            <lg type="couplet" n="1">
-               <l n="1">Race d'Abel, dors, bois et mange;</l>
-               <l n="2">Dieu te sourit complaisamment.</l>
+            <lg type="stanza" subtype="couplet" n="1">
+               <l n="1">Race d'Abel, dors, bois et mange<app>
+                     <lem wit="#U1857 #E1857">:</lem>
+                     <rdg wit="#FDM1861 #FDM1868">;</rdg>
+                  </app></l>
+               <l n="2">Dieu te sourit complaisamment<app>
+                     <lem wit="#U1857 #E1857">.</lem>
+                     <rdg wit="#FDM1861 #FDM1868">,</rdg>
+                  </app></l>
             </lg>
-            <lg type="couplet" n="2">
+            <lg type="stanza" subtype="couplet" n="2">
                <l n="3">Race de Caïn, dans la fange</l>
                <l n="4">Rampe et meurs misérablement.</l>
             </lg>
-            <lg type="couplet" n="3">
+            <lg type="stanza" subtype="couplet" n="3">
                <l n="5">Race d'Abel, ton sacrifice</l>
                <l n="6">Flatte le nez du Séraphin!</l>
             </lg>
-            <lg type="couplet" n="4">
+            <lg type="stanza" subtype="couplet" n="4">
                <l n="7">Race de Caïn, ton supplice</l>
                <l n="8">Aura-t-il jamais une fin?</l>
             </lg>
-            <lg type="couplet" n="5">
+            <lg type="stanza" subtype="couplet" n="5">
                <l n="9">Race d'Abel, vois tes semailles</l>
                <l n="10">Et ton bétail venir à bien;</l>
             </lg>
-            <lg type="couplet" n="6">
+            <lg type="stanza" subtype="couplet" n="6">
                <l n="11">Race de Caïn, tes entrailles</l>
                <l n="12">Hurlent la faim comme un vieux chien.</l>
             </lg>
-            <lg type="couplet" n="7">
+            <lg type="stanza" subtype="couplet" n="7">
                <l n="13">Race d'Abel, chauffe ton ventre</l>
                <l n="14">À ton foyer patriarcal;</l>
             </lg>
-            <lg type="couplet" n="8">
+            <lg type="stanza" subtype="couplet" n="8">
                <l n="15">Race de Caïn, dans ton antre</l>
                <l n="16">Tremble de froid, pauvre chacal!</l>
             </lg>
-            <lg type="couplet" n="9">
-               <l n="17">Race d'Abel, aime et pullule!</l>
-               <l n="18">Ton or fait aussi des petits.</l>
+            <lg type="stanza" subtype="couplet" n="9">
+               <l n="17">Race d'Abel, <app>
+                     <lem wit="#U1857 #E1857">sans peur</lem>
+                     <rdg wit="#FDM1861 #FDM1868">aime et</rdg>
+                  </app> pullule<app>
+                     <lem wit="#U1857 #E1857">:</lem>
+                     <rdg wit="#FDM1861 #FDM1868">!</rdg>
+                  </app></l>
+               <l n="18"><app>
+                     <lem wit="#U1857 #E1857">L'argent fait aussi ses</lem>
+                     <rdg wit="#FDM1861 #FDM1868">Ton or fait aussi des</rdg>
+                  </app> petits<app>
+                     <lem wit="U1857 #E1857">;</lem>
+                     <rdg wit="#FDM1861 #FDM1868">.</rdg>
+                  </app></l>
             </lg>
-            <lg type="couplet" n="10">
-               <l n="19">Race de Caïn, coeur qui brûle,</l>
-               <l n="20">Prends garde à ces grands appétits.</l>
+            <lg type="stanza" subtype="couplet" n="10">
+               <l n="19">Race de Caïn, <app>
+                     <lem wit="#U1857 #E1857">ton</lem>
+                     <rdg wit="#FDM1861 #FDM1868"/>
+                  </app>coeur <app>
+                     <lem wit="#U1857 #E1857"/>
+                     <rdg wit="#FDM1861 #FDM1868">qui</rdg>
+                  </app> brûle<app>
+                     <lem wit="#U1857 #E1857">;</lem>
+                     <rdg wit="#FDM1861 #FDM1868">,</rdg>
+                  </app></l>
+               <l n="20"><app>
+                     <lem wit="#U1857 #E1857">Eteins ces cruels</lem>
+                     <rdg wit="#FDM1861 #FDM1868">Prends garde à ces grands</rdg>
+                  </app> appétits.</l>
             </lg>
-            <lg type="couplet" n="11">
+            <lg type="stanza" subtype="couplet" n="11">
                <l n="21">Race d'Abel, tu croîs et broutes</l>
                <l n="22">Comme les punaises des bois!</l>
             </lg>
-            <lg type="couplet" n="12">
+            <lg type="stanza" subtype="couplet" n="12">
                <l n="23">Race de Caïn, sur les routes</l>
                <l n="24">Traîne ta famille aux abois.</l>
             </lg>
-            <lg type="couplet" n="13">
-               <l n="25">Ah! race d'Abel, ta charogne</l>
+            <lg type="stanza" subtype="couplet" n="13">
+               <l n="25"><app>
+                     <lem wit="#U1857 #E1857">—</lem>
+                     <rdg wit="#FDM1861 #FDM1868"/>
+                  </app>Ah! race d'Abel, ta charogne</l>
                <l n="26">Engraissera le sol fumant!</l>
             </lg>
-            <lg type="couplet" n="14">
+            <lg type="stanza" subtype="couplet" n="14">
                <l n="27">Race de Caïn, ta besogne</l>
                <l n="28">N'est pas faite suffisamment;</l>
             </lg>
-            <lg type="couplet" n="15">
+            <lg type="stanza" subtype="couplet" n="15">
                <l n="29">Race d'Abel, voici ta honte:</l>
                <l n="30">Le fer est vaincu par l'épieu!</l>
             </lg>
-            <lg type="couplet" n="16">
+            <lg type="stanza" subtype="couplet" n="16">
                <l n="31">Race de Caïn, au ciel monte,</l>
                <l n="32">Et sur la terre jette Dieu!</l>
             </lg>
