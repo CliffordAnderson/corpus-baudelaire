@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <fileDesc>
 <titleStmt>
 <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-<title rend="La Mort des pauvres">Mort des pauvres</title>
+<title rend="Le Tonneau de la Haine">Tonneau de la Haine</title>
 <author>Charles Baudelaire</author>
 <respStmt>
 <resp>Encoded by</resp>
@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </address>
 <date>2014</date>
 <!--Below, insert the number of the poem, according to the established protocol-->
-<idno>FDM-099-122-000-147</idno>
+<idno>FDM-071-073-000-075</idno>
 </publicationStmt>
 <sourceDesc>
 <listWit>
@@ -144,29 +144,29 @@ Online Distributed Proofreading Team.</p>
 <body>
 <div type="poem">
 <head>
-<title>La Mort des pauvres</title>
+<title>Le Tonneau de la Haine</title>
 </head>
 <lg type="stanza" subtype="quatrain" n="1">
-<l n="1">C'est la Mort qui console, hélas! et qui fait vivre;</l>
-<l n="2">C'est le but de la vie, et c'est le seul espoir</l>
-<l n="3">Qui, comme un élixir, nous monte et nous enivre,</l>
-<l n="4">Et nous donne le coeur de marcher jusqu'au soir;</l>
+<l n="1">La Haine est le tonneau des pâles Danaïdes;</l>
+<l n="2">La Vengeance éperdue aux bras rouges et forts</l>
+<l n="3">À beau précipiter dans ses ténèbres vides</l>
+<l n="4">De grands seaux pleins du sang et des larmes des morts,</l>
 </lg>
 <lg type="stanza" subtype="quatrain" n="2">
-<l n="1">À travers la tempête, et la neige, et le givre,</l>
-<l n="2">C'est la clarté vibrante à notre horizon noir</l>
-<l n="3">C'est l'auberge fameuse inscrite sur le livre,</l>
-<l n="4">Où l'on pourra manger, et dormir, et s'asseoir;</l>
+<l n="1">Le Démon fait des trous secrets à ces abîmes,</l>
+<l n="2">Par où fuiraient mille ans de sueurs et d'efforts,</l>
+<l n="3">Quand même elle saurait ranimer ses victimes,</l>
+<l n="4">Et pour les pressurer ressusciter leurs corps.</l>
 </lg>
 <lg type="stanza" subtype="tercet" n="3">
-<l n="1">C'est un Ange qui tient dans ses doigts magnétiques</l>
-<l n="2">Le sommeil et le don des rêves extatiques,</l>
-<l n="3">Et qui refait le lit des gens pauvres et nus;</l>
+<l n="1">La Haine est un ivrogne au fond d'une taverne,</l>
+<l n="2">Qui sent toujours la soif naître de la liqueur</l>
+<l n="3">Et se multiplier comme l'hydre de Lerne.</l>
 </lg>
 <lg type="stanza" subtype="tercet" n="4">
-<l n="1">C'est la gloire des Dieux, c'est le grenier mystique,</l>
-<l n="2">C'est la bourse du pauvre et sa patrie antique,</l>
-<l n="3">C'est le portique ouvert sur les Cieux inconnus!</l>
+<l n="1">— Mais les buveurs heureux connaissent leur vainqueur,</l>
+<l n="2">Et la Haine est vouée à ce sort lamentable</l>
+<l n="3">De ne pouvoir jamais s'endormir sous la table.</l>
 </lg>
 </div>
 </body>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <fileDesc>
 <titleStmt>
 <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-<title rend="La Mort des pauvres">Mort des pauvres</title>
+<title rend="Le Mauvais Moine">Mauvais Moine</title>
 <author>Charles Baudelaire</author>
 <respStmt>
 <resp>Encoded by</resp>
@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </address>
 <date>2014</date>
 <!--Below, insert the number of the poem, according to the established protocol-->
-<idno>FDM-099-122-000-147</idno>
+<idno>FDM-008-009-000-009</idno>
 </publicationStmt>
 <sourceDesc>
 <listWit>
@@ -144,29 +144,29 @@ Online Distributed Proofreading Team.</p>
 <body>
 <div type="poem">
 <head>
-<title>La Mort des pauvres</title>
+<title>Le Mauvais Moine</title>
 </head>
 <lg type="stanza" subtype="quatrain" n="1">
-<l n="1">C'est la Mort qui console, hélas! et qui fait vivre;</l>
-<l n="2">C'est le but de la vie, et c'est le seul espoir</l>
-<l n="3">Qui, comme un élixir, nous monte et nous enivre,</l>
-<l n="4">Et nous donne le coeur de marcher jusqu'au soir;</l>
+<l n="1">Les cloîtres anciens sur leurs grandes murailles</l>
+<l n="2">Etalaient en tableaux la sainte Vérité,</l>
+<l n="3">Dont l'effet réchauffant les pieuses entrailles,</l>
+<l n="4">Tempérait la froideur de leur austérité.</l>
 </lg>
 <lg type="stanza" subtype="quatrain" n="2">
-<l n="1">À travers la tempête, et la neige, et le givre,</l>
-<l n="2">C'est la clarté vibrante à notre horizon noir</l>
-<l n="3">C'est l'auberge fameuse inscrite sur le livre,</l>
-<l n="4">Où l'on pourra manger, et dormir, et s'asseoir;</l>
+<l n="1">En ces temps où du Christ florissaient les semailles,</l>
+<l n="2">Plus d'un illustre moine, aujourd'hui peu cité,</l>
+<l n="3">Prenant pour atelier le champ des funérailles,</l>
+<l n="4">Glorifiait la Mort avec simplicité.</l>
 </lg>
 <lg type="stanza" subtype="tercet" n="3">
-<l n="1">C'est un Ange qui tient dans ses doigts magnétiques</l>
-<l n="2">Le sommeil et le don des rêves extatiques,</l>
-<l n="3">Et qui refait le lit des gens pauvres et nus;</l>
+<l n="1">— Mon âme est un tombeau que, mauvais cénobite,</l>
+<l n="2">Depuis l'éternité je parcours et j'habite;</l>
+<l n="3">Rien n'embellit les murs de ce cloître odieux.</l>
 </lg>
 <lg type="stanza" subtype="tercet" n="4">
-<l n="1">C'est la gloire des Dieux, c'est le grenier mystique,</l>
-<l n="2">C'est la bourse du pauvre et sa patrie antique,</l>
-<l n="3">C'est le portique ouvert sur les Cieux inconnus!</l>
+<l n="1">Ô moine fainéant! quand saurai-je donc faire</l>
+<l n="2">Du spectacle vivant de ma triste misère</l>
+<l n="3">Le travail de mes mains et l'amour de mes yeux?</l>
 </lg>
 </div>
 </body>

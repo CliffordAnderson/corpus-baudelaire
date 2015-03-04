@@ -30,38 +30,6 @@
          </publicationStmt>
          <sourceDesc>
             <listWit>
-               <witness xml:id="U1857">
-                  <desc>1857 Unexpurgated</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Les Fleurs du Mal</title>
-                        <author>Charles Baudelaire</author>
-                        <imprint>
-                           <pubPlace>Paris</pubPlace>
-                           <publisher>Poulet-Malassis et De Broise</publisher>
-                           <date>1857</date>
-                           <note>Original edition with condemned pieces</note>
-                        </imprint>
-                        <extent>248 p.</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
-               <witness xml:id="E1857">
-                  <desc>1857 Expurgated</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Les Fleurs du Mal</title>
-                        <author>Charles Baudelaire</author>
-                        <imprint>
-                           <pubPlace>Paris</pubPlace>
-                           <publisher>Poulet-Malassis et De Broise</publisher>
-                           <date>1857</date>
-                           <note>Original edition with condemned pieces removed</note>
-                        </imprint>
-                        <extent>248 p.</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
                <witness xml:id="FDM1861">
                   <desc>1861 2nd edition censored</desc>
                   <biblStruct>
@@ -76,27 +44,6 @@
                               portrait of the author drawn and engraved by Felix Bracquemond</note>
                         </imprint>
                         <extent> 319 p.</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
-               <witness xml:id="LE1866">
-                  <desc>1866 Les Epaves xml:id="1866"</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Les Épaves</title>
-                        <author>Charles Baudelaire</author>
-                        <imprint>
-                           <pubPlace>Amsterdam</pubPlace>
-                           <publisher>À L'Enseigne du Coq</publisher>
-                           <date>1866</date>
-                           <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                           <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                           <note>With a frontispeice etching by Félicien Rops</note>
-                        </imprint>
-                        <extent>163 p.</extent>
                      </monogr>
                   </biblStruct>
                </witness>
@@ -143,43 +90,57 @@
       <body>
          <div type="poem">
             <head>
-               <title> L'HORLOGE </title>
+               <title type="main"> L'HORLOGE </title>
             </head>
             <lg type="stanza" subtype="quatrain" n="1">
-               <l>Horloge dieu sinistre, effrayant, impassible,</l>
-               <l>Dont le doigt nous menace et nous dit: _Souviens-toi!_</l>
-               <l>Les bivrantes Douleurs dans ton coeur plein d'effroi</l>
-               <l>Se planteront bientôt comme dans une cible; </l>
+               <l n="1">Horloge dieu sinistre, effrayant, impassible,</l>
+               <l n="2">Dont le doigt nous menace et nous dit: « <emph rend="italic"
+                     >Souviens-toi!</emph></l>
+               <l n="3">Les bivrantes Douleurs dans ton coeur plein d'effroi</l>
+               <l n="4">Se planteront bientôt comme dans une cible; </l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="2">
-               <l>Le Plaisir vaporeux fuira vers l'horizon</l>
-               <l>Ainsi qu'une sylphide au fond de la coulisse;</l>
-               <l>Chaque instant te dévore un morceau du délice</l>
-               <l>A chaque homme accordé pour toute sa saison. </l>
+               <l n="5">Le Plaisir vaporeux fuira vers l<app>
+                     <lem wit="#FDM1861"/>
+                     <rdg wit="#FDM1868">'</rdg>
+                  </app>horizon</l>
+               <l n="6">Ainsi qu'une sylphide au fond de la coulisse;</l>
+               <l n="7">Chaque instant te dévore un morceau du délice</l>
+               <l n="8">A chaque homme accordé pour toute sa saison<app>
+                     <lem wit="#FDM1861"/>
+                     <rdg wit="#FDM1868">.</rdg>
+                  </app>
+                  <!--check the print edition of 1861 to determine if scan is the cause of missing apostrophe in l'horology and missing period at end of 
+stanza-->
+               </l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="3">
-               <l>Trois mille six cents fois par heure, la Seconde</l>
-               <l>Chuchote: _Souviens-toi!_--Rapide, avec sa voix</l>
-               <l>D'insecte, Maintenant dit: Je sais Autrefois,</l>
-               <l>Et j'ai pompé ta vie avec ma trompe immonde! </l>
+               <l n="9">Trois mille six cents fois par heure, la Seconde</l>
+               <l n="10">Chuchote: <emph rend="italic">Souviens-toi!</emph> — Rapide, avec sa
+                  voix</l>
+               <l n="11">D'insecte, Maintenant dit: Je sais Autrefois,</l>
+               <l n="12">Et j'ai pompé ta vie avec ma trompe immonde! </l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="4">
-               <l>_Remember! Souviens-toi!_ prodigue! _Esto memor!_</l>
-               <l>(Mon gosier de métal parle toutes les langues.)</l>
-               <l>Les minutes, mortel folâtre, sont des gangues</l>
-               <l>Qu'il ne faut pas lâcher sans en extraire l'or! </l>
+               <l n="13"><emph rend="italic">Remember! Souviens-toi!</emph> prodigue! <emph
+                     rend="italic">Esto memor!</emph></l>
+               <l n="14">(Mon gosier de métal parle toutes les langues.)</l>
+               <l n="15">Les minutes, mortel folâtre, sont des gangues</l>
+               <l n="16">Qu'il ne faut pas lâcher sans en extraire l'or! </l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="5">
-               <l>_Souviens-toi_ que le Temps est un joueur avide</l>
-               <l>Qui gagne sans tricher, à out coup! c'est la loi.</l>
-               <l>Le jour décroît; la nuit augmente, _souviens-toi!_</l>
-               <l>Le gouffre a toujours soif; la clepsydre se vide. </l>
+               <l n="17"><emph rend="italic">Souviens-toi</emph> que le Temps est un joueur
+                  avide</l>
+               <l n="18">Qui gagne sans tricher, à out coup! c'est la loi.</l>
+               <l n="19">Le jour décroît; la nuit augmente, <emph rend="italic"
+                  >souviens-toi!</emph></l>
+               <l n="20">Le gouffre a toujours soif; la clepsydre se vide. </l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="6">
-               <l>Tantôt sonnera l'heure où le divin Hasard,</l>
-               <l>Où l'auguste Vertu, ton épouse encor vierge,</l>
-               <l>Où le Repentir même (oh! la dernière auberge!),</l>
-               <l>Où tout te dira: Meurs, vieux lâche! il est trop tard! » </l>
+               <l n="21">Tantôt sonnera l'heure où le divin Hasard,</l>
+               <l n="22">Où l'auguste Vertu, ton épouse encor vierge,</l>
+               <l n="23">Où le Repentir même (oh! la dernière auberge!),</l>
+               <l n="24">Où tout te dira: Meurs, vieux lâche! il est trop tard! » </l>
             </lg>
          </div>
       </body>
