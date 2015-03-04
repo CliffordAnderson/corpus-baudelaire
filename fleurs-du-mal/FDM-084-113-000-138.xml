@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <fileDesc>
 <titleStmt>
 <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-<title rend="La Mort des pauvres">Mort des pauvres</title>
+<title rend="La Fontaine du sang">Fontaine du sang</title>
 <author>Charles Baudelaire</author>
 <respStmt>
 <resp>Encoded by</resp>
@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </address>
 <date>2014</date>
 <!--Below, insert the number of the poem, according to the established protocol-->
-<idno>FDM-099-122-000-147</idno>
+<idno>FDM-084-113-000-138</idno>
 </publicationStmt>
 <sourceDesc>
 <listWit>
@@ -144,29 +144,29 @@ Online Distributed Proofreading Team.</p>
 <body>
 <div type="poem">
 <head>
-<title>La Mort des pauvres</title>
+<title>La Fontaine du sang</title>
 </head>
 <lg type="stanza" subtype="quatrain" n="1">
-<l n="1">C'est la Mort qui console, hélas! et qui fait vivre;</l>
-<l n="2">C'est le but de la vie, et c'est le seul espoir</l>
-<l n="3">Qui, comme un élixir, nous monte et nous enivre,</l>
-<l n="4">Et nous donne le coeur de marcher jusqu'au soir;</l>
+<l n="1">Il me semble parfois que mon sang coule à flots,</l>
+<l n="2">Ainsi qu'une fontaine aux rythmiques sanglots.</l>
+<l n="3">Je l'entends bien qui coule avec un long murmure,</l>
+<l n="4">Mais je me tâte en vain pour trouver la blessure.</l>
 </lg>
 <lg type="stanza" subtype="quatrain" n="2">
-<l n="1">À travers la tempête, et la neige, et le givre,</l>
-<l n="2">C'est la clarté vibrante à notre horizon noir</l>
-<l n="3">C'est l'auberge fameuse inscrite sur le livre,</l>
-<l n="4">Où l'on pourra manger, et dormir, et s'asseoir;</l>
+<l n="1">À travers la cité, comme dans un champ clos,</l>
+<l n="2">Il s'en va, transformant les pavés en îlots,</l>
+<l n="3">Désaltérant la soif de chaque créature,</l>
+<l n="4">Et partout colorant en rouge la nature.</l>
 </lg>
 <lg type="stanza" subtype="tercet" n="3">
-<l n="1">C'est un Ange qui tient dans ses doigts magnétiques</l>
-<l n="2">Le sommeil et le don des rêves extatiques,</l>
-<l n="3">Et qui refait le lit des gens pauvres et nus;</l>
+<l n="1">J'ai demandé souvent à des vins captieux</l>
+<l n="2">D'endormir pour un jour la terreur qui me mine;</l>
+<l n="3">Le vin rend l'oeil plus clair et l'oreille plus fine!</l>
 </lg>
 <lg type="stanza" subtype="tercet" n="4">
-<l n="1">C'est la gloire des Dieux, c'est le grenier mystique,</l>
-<l n="2">C'est la bourse du pauvre et sa patrie antique,</l>
-<l n="3">C'est le portique ouvert sur les Cieux inconnus!</l>
+<l n="1">J'ai cherché dans l'amour un sommeil oublieux;</l>
+<l n="2">Mais l'amour n'est pour moi qu'un matelas d'aiguilles</l>
+<l n="3">Fait pour donner à boire à ces cruelles filles!</l>
 </lg>
 </div>
 </body>
