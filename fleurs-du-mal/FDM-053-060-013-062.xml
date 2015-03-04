@@ -147,24 +147,24 @@ Online Distributed Proofreading Team.</p>
                <title type="sub"><app>
                      <lem wit="#U1857 #E1857">VERS COMPOSÉ POUR UNE MODISTE ÉRUDITE ET DÉVOTE</lem>
                      <rdg wit="#FDM1861 #FDM1868"/>
-                     <rdg wit="#LE1866">VERS COMPOSE POUR UNE MODISTE ERUDITE ET DEVOTE (1)<note
-                           place="bottom"><p>(1) Le sous-titre de cette pièce, supprimé dans la
-                              seconde éedition des <emph style="italics">Fleurs du Mal</emph>, se
-                              trouve dan la première avec la drôle de note suivante:</p><p>« Ne
-                              semble-t-il pas au lecteur, comme à moi, qu la langue de la dernière
-                              décadence latine, — supreme soupir d'une personne robuste, déjà
-                              transformeé et préparée pour la vie spirituelle, — est singulièrement
-                              propre à exprimer la passion, telle que l'a comprise et sentie le
-                              monde poëtque moderne? La mysticité est l'autre pôle de cet aimant,
-                              dont Catulle et sa bande, poëtes brutaux et purement épidermiques,
-                              n'ont connu que le pôle sensualité. Dans cette merveilleuse langue, le
-                              solécisme et le barbarisme me paraissent rendre les négligences
-                              forcèes d'une passion qui s'oublie et se moque des règles. Les mots,
-                              pris dans une acception nouvelle, révèlent la maladresse charmante du
-                              barbare du nord agenouillé devant la beauté romaine. Le calembour
-                              lui-même, quand il traverse ces pédantesques bégalements, ne joue-t-il
-                              pas la grâce sauvage et baroque de l'enfance? » —
-                        C.B.</p></note></rdg>
+                     <rdg wit="#LE1866">VERS COMPOSE POUR UNE MODISTE ERUDITE ET DEVOTE<note n="1"
+                           anchored="true" place="bottom"><p>Le sous-titre de cette pièce, supprimé
+                              dans la seconde éedition des <emph style="italics">Fleurs du
+                                 Mal</emph>, se trouve dan la première avec la drôle de note
+                              suivante:</p><p>« Ne semble-t-il pas au lecteur, comme à moi, qu la
+                              langue de la dernière décadence latine, — supreme soupir d'une
+                              personne robuste, déjà transformeé et préparée pour la vie
+                              spirituelle, — est singulièrement propre à exprimer la passion, telle
+                              que l'a comprise et sentie le monde poëtque moderne? La mysticité est
+                              l'autre pôle de cet aimant, dont Catulle et sa bande, poëtes brutaux
+                              et purement épidermiques, n'ont connu que le pôle sensualité. Dans
+                              cette merveilleuse langue, le solécisme et le barbarisme me paraissent
+                              rendre les négligences forcèes d'une passion qui s'oublie et se moque
+                              des règles. Les mots, pris dans une acception nouvelle, révèlent la
+                              maladresse charmante du barbare du nord agenouillé devant la beauté
+                              romaine. Le calembour lui-même, quand il traverse ces pédantesques
+                              bégalements, ne joue-t-il pas la grâce sauvage et baroque de
+                              l'enfance? » — C.B.</p></note></rdg>
                   </app></title>
             </head>
             <p><app>
@@ -243,9 +243,14 @@ Online Distributed Proofreading Team.</p>
             <lg type="stanza" subtype="tercet" n="9">
                <l n="25">Adde nunc <app>
                      <lem wit="#U1857 #E1857 #FDM1861 #FDM1868">vires</lem>
-                     <rdg wit="#LE1866">viris</rdg>
-                     <!-- vires,nom. pl., from third declension noun vis, meaning power or strength. viris, dat. pl. 
-                        from second declension noun vir, meaning man. Reading in Les Epaves may be an error-->
+                     <rdg wit="#LE1866"><sic>viris</sic><note type="editorial" resp="#RVR">The use
+                           of viris in the Les Epaves edition appears to be a typographical error.
+                           In all other editions vires is used, which is the nominative plural form
+                           of the third declension noun vis, meaning power or strength. The term
+                           viris, used in Les Epaves, is the dative plural form of the second
+                           declension noun vir, meaning man. Viris changes the meaning of line 25
+                           and does not tie in with the meaning of the rest of the
+                        stanza.</note></rdg>
                   </app> viribus,</l>
                <l n="26">Dulce balneum suavibus</l>
                <l n="27">Unguentatum odoribus!</l>
