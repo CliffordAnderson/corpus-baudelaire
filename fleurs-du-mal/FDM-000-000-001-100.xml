@@ -6,9 +6,14 @@
         <title rend="LE COUCHER DU SOLEIL ROMANTIQUE">COUCHER DU SOLEIL ROMANTIQUE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+         <respStmt>
+          <resp>Critical Apparatus</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name xml:id="TMF">Tim Foster</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -101,7 +106,7 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="quatrain" n="2">
           <l n="5">Je me souviens!... J'ai vu tout, fleur, source, sillon,</l>
-          <l n="6">Se pâmer sous son <hi rend="ligature">oe</hi>il comme un c<hi rend="ligature">oe</hi>ur qui palpite...</l>
+          <l n="6">Se pâmer sous son œil comme un cœur qui palpite...</l>
           <l n="7">—Courons vers l'horizon, il est tard, courons vite,</l>
           <l n="8">Pour attraper au moins un oblique rayon!</l>
         </lg>
@@ -113,7 +118,19 @@ Online Distributed Proofreading Team.</p>
         <lg type="tercet" n="4">
           <l n="12">Une odeur de tombeau dans les ténèbres nage,</l>
           <l n="13">Et mon pied peureux froisse, au bord du marécage,</l>
-          <l n="14">Des crapauds imprévus et de froids limaçons.</l>
+          <l n="14">Des crapauds imprévus et de froids limaçons
+          <app>
+                     <lem wit="#LE1866"><note n="1"
+                           anchored="true" place="bottom">
+                           <p>Le mot: <emph style="italics">Genus irritabile vatum</emph>, date de bien des siècles avant les querelles des Classiques, des Romantiques, des Réalistes, des Euphuistes, etc... Il est évident que par <emph style="italics">l'irrésistible Nuit</emph> M. Charles Baudelaire a voulu caractériser l'état actuel de la litérature, et que les <emph style="italics">crapauds imprévus</emph> et les <emph style="italics">froids limaçons</emph> sont les écrivains qui ne sont pas de son école.</p>
+                           <p>Ce sonnet a été composé en 1862, pour servir d'épilogue à un livre de M. Charles Asselineau, qui n'a pas paru: <emph style="italics">Mélanges tires d'une petite bibliothèque romantique</emph>; lequel devait avoir pour prologue un sonnet de M. Théodore de Banville: <emph style="italics">Le lever du soleil romantique</emph>.</p>
+                           <p>(<emph style="italics">Note de l'éditeur</emph>.)</p>
+                           </note>
+                           </lem>
+                     <rdg wit="#F1868"/>
+                  </app>
+          
+          .</l>
         </lg>
       </div>
     </body>

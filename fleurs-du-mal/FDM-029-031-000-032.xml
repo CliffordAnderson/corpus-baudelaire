@@ -6,9 +6,14 @@
         <title rend="LE VAMPIRE">VAMPIRE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+         <respStmt>
+         	<resp>Critical Apparatus</resp>
+          	<!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          	<name xml:id="TMF">Tim Foster</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -123,7 +128,7 @@ Online Distributed Proofreading Team.</p>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Toi qui, comme un coup de couteau,</l>
-          <l n="2">Dans mon c<hi rend="ligature">oe</hi>ur plaintif es entrée<app>
+          <l n="2">Dans mon cœur plaintif es entrée<app>
                             <lem wit="#U1857 #E1857">,</lem>
                             <rdg wit="#FDM1861 #FDM1868">;</rdg>
                         </app></l>
