@@ -10,9 +10,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title rend="LES BIJOUX">BIJOUX</title>
             <author>Charles Baudelaire</author>
             <respStmt>
-               <resp>Encoded by</resp>
+               <resp>Basic Markup</resp>
                <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-               <name xml:id="RVR">Ramona V. ROmero</name>
+               <name xml:id="RVR">Ramona V. Romero</name>
+            </respStmt>
+            <respStmt>
+               <resp>Critical Apparatus</resp>
+               <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+               <name ref="#RVR">Ramona V. Romero</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
@@ -97,7 +102,7 @@ Online Distributed Proofreading Team.</p>
                <title type="main">LES BIJOUX</title>
             </head>
             <lg type="stanza" subtype="quatrain" n="1">
-               <l n="1">La très-chère était nue, et, connaissant mon coeur, </l>
+               <l n="1">La très-chère était nue, et, connaissant mon cœur, </l>
                <l n="2">Elle n'avait gardé que ses bijoux sonores,</l>
                <l n="3">Dont le riche attirail lui donnait l'air vainqueur </l>
                <l n="4">Qu'ont dans leurs jours heureux les esclaves des <app>
