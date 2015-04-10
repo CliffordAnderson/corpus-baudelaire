@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <fileDesc>
 <titleStmt>
 <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-<title rend="La servante au grand coeur dont vous étiez jalouse">servante au grand coeur dont vous étiez jalouse</title>
+<title rend="LA SERVANTE AU GRAND COEUR DONT VOUS ÉTIEZ JALOUSE">SERVANTE AU GRAND COEUR DONT VOUS ÉTIEZ JALOUSE</title>
 <author>Charles Baudelaire</author>
                 <respStmt>
                     <resp>Basic Markup</resp>
@@ -144,7 +144,7 @@ Online Distributed Proofreading Team.</p>
 <body>
 <div type="poem">
 <head>
-<title>La servante au grand coeur dont vous étiez jalouse</title>
+<title type="main">La servante au grand coeur dont vous étiez jalouse</title>
 </head>
 <lg type="stanza" n="1">
 <l n="1">La servante au grand coeur dont vous étiez jalouse,</l>

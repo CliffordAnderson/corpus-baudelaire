@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <fileDesc>
 <titleStmt>
 <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-<title rend="Je n'ai pas oublié, voisine de la ville">Je n'ai pas oublié, voisine de la ville</title>
+<title rend="JE N'AI PAS OUBLIÉ, VOISINE DE LA VILLE">JE N'AI PAS OUBLIÉ, VOISINE DE LA VILLE</title>
 <author>Charles Baudelaire</author>
                 <respStmt>
                     <resp>Basic Markup</resp>
@@ -144,7 +144,7 @@ Online Distributed Proofreading Team.</p>
 <body>
 <div type="poem">
 <head>
-<title>Je n'ai pas oublié, voisine de la ville</title>
+<title type="main">Je n'ai pas oublié, voisine de la ville</title>
 </head>
 <lg type="stanza" n="1">
 <l n="1">Je n'ai pas oublié, voisine de la ville,</l>

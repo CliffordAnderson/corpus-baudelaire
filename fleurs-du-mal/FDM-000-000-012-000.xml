@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <fileDesc>
 <titleStmt>
 <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-<title rend="Le Monstre, ou le Paranymphe d'une nymphe macabre">Monstre, ou le Paranymphe d'une nymphe macabre</title>
+<title rend="LE MONSTRE, OU LE PARANYMPHE D'UNE NYMPHE MACABRE">MONSTRE, OU LE PARANYMPHE D'UNE NYMPHE MACABRE</title>
 <author>Charles Baudelaire</author>
                 <respStmt>
                     <resp>Basic Markup</resp>
@@ -142,11 +142,12 @@ Online Distributed Proofreading Team.</p>
 </teiHeader>
 <text>
 <body>
-<div type="poem">
+<div type="poem" subtype="composite">
 <head>
 <title type="main">Le Monstre, ou le Paranymphe d'une nymphe macabre</title>
 </head>
-<p>I</p>
+<lg type="poem" n="1">
+<head>I</head>
 <lg type="stanza" subtype="quintain" n="1">
 <l n="1">Tu n'es certes pas, ma très-chère, </l>
 <l n="2">Ce que Veuillot nomme un tendron. </l>
@@ -217,7 +218,9 @@ Online Distributed Proofreading Team.</p>
 <l n="49">Que ton oeil ne connaît les larmes.</l>
 <l n="50">(Et pourtant elle a sa douceur!)</l>
 </lg>
-<p>II</p>
+</lg>
+<lg type="poem" n="2">
+<head>II</head>
 <lg type="stanza" subtype="quintain" n="11">
 <l n="51">Sotte, tu t'en vas droit au Diable! </l>
 <l n="52">Volontiers j'irais avec toi, </l>
@@ -252,6 +255,7 @@ Online Distributed Proofreading Team.</p>
 <l n="73">Voulant du Mal chercher la crème </l>
 <l n="74">Et n'aimer qu'un monstre parfait, </l>
 <l n="75">Vraiment oui! vieux monstre, je t'aime!</l>
+</lg>
 </lg>
 </div>
 </body>

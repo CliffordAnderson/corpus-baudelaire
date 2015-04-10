@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <fileDesc>
 <titleStmt>
 <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-<title rend="Recueillement">Recueillement</title>
+<title rend="RECUEILLEMENT">RECUEILLEMENT</title>
 <author>Charles Baudelaire</author>
                 <respStmt>
                     <resp>Basic Markup</resp>
@@ -144,7 +144,7 @@ Online Distributed Proofreading Team.</p>
 <body>
 <div type="poem" subtype="sonnet">
 <head>
-<title>Recueillement</title>
+<title type="main">Recueillement</title>
 </head>
 <lg type="stanza" subtype="quatrain" n="1">
 <l n="1">Sois sage, ô ma Douleur, et tiens-toi plus tranquille.</l>
