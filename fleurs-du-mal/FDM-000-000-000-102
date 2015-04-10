@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-            <title>DE PROFUNDIS CLAMAVI</title>
+            <title rend="LE GOUFFRE">Gouffre</title>
             <author>Charles Baudelaire</author>
             <respStmt>
-               <resp>Basic Markup</resp>
-               <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-               <name xml:id="RVR">Ramona V. Romero</name>
+               <resp>Encoded by</resp>
+               <name xml:id="RKB">Raquelle K. Bostow</name>
             </respStmt>
-            <respStmt>
-         		<resp>Critical Apparatus</resp>
-          		<!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          		<name xml:id="TMF">Tim Foster</name>
-        	</respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
@@ -31,8 +25,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
-            <!--Below, insert the number of the poem, according to the established protocol-->
-            <idno>FDM-028-030-000-031</idno>
+            <idno>FDM-000-000-000-102</idno>
+            <!--insert id no in above element account to established format-->
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -85,6 +79,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </monogr>
                   </biblStruct>
                </witness>
+               <witness xml:id="LE1866">
+                  <desc>1866 Les Epaves xml:id="1866"</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Épaves</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Amsterdam</pubPlace>
+                           <publisher>À L'Enseigne du Coq</publisher>
+                           <date>1866</date>
+                           <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                              this is a false imprint, the book actually being published in Brussels
+                              by Poulet-Malassis.</note>
+                           <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                              9-55</note>
+                           <note>With a frontispeice etching by Félicien Rops</note>
+                        </imprint>
+                        <extent>163 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
                <witness xml:id="FDM1868">
                   <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
                   <biblStruct>
@@ -104,60 +119,53 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </witness>
             </listWit>
             <!-- create witList in sourceDesc with the different editions and their bib data
-1. 1857 Unexpurgated xml:id="U1857"
-2. 1857 Expurgated xml:id="E1857"
-3. 1861 2nd edition censored xml:id="FDM1861"
-4. 1866 Les Epaves xml:id="1866"
-5. 1868 3rd edition - posthumous xml:id="1868"
--->
+                     1. 1857 Unexpurgated xml:id="U1857"
+                     2. 1857 Expurgated xml:id="E1857"
+                     3. 1861 2nd edition censored xml:id="FDM1861"
+                     4. 1866 Les Epaves xml:id="1866"
+                     5. 1868 3rd edition - posthumous xml:id="1868"
+            -->
             <!--
-<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
-for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
-You may copy it, give it away or re-use it under the terms of the Project Gutenberg
-License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
-Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
-Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
-encoding: ISO-8859-1 </p>
-<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
-Online Distributed Proofreading Team.</p>
--->
+            <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+               for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+               You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+               License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+               Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+               Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+               encoding: ISO-8859-1 </p>
+            <p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+               Online Distributed Proofreading Team.</p>
+               -->
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="poem" subtype="sonnet">
-            <head><title>DE PROFUNDIS CLAMAVI</title></head>
+            <head>
+               <title>Le gouffre</title>
+            </head>
             <lg type="stanza" subtype="quatrain" n="1">
-               <l n="1">J'implore ta pitié, Toi, l'unique que j'aime,</l>
-               <l n="2">Du fond du gouffre obscur où mon cœur est tombé.</l>
-               <l n="3">C'est un univers morne à l'horizon plombé,</l>
-               <l n="4">Où nagent dans la nuit l'horreur et le <app>
-                            <lem wit="#U1857 #E1857">blasphême</lem>
-                            <rdg wit="#FDM1861 #FDM1868">blasphème</rdg>
-                        </app>;</l>
+               <l n="1">Pascal avait son gouffre, avec lui se mouvant.</l>
+               <l n="2">– Hélas! tout est abîme, – action, désir, rêve,</l>
+               <l n="3">Parole! Et sur mon poil qui tout droit se relève</l>
+               <l n="4">Mainte fois de la Peur je sens passer le vent.</l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="2">
-               <l n="5">Un soleil sans chaleur plane au-dessus six mois,</l>
-               <l n="6">Et les six autres mois la nuit couvre la terre;</l>
-               <l n="7">C'est un pays plus nu que la terre polaire;</l>
-               <l n="8"><app>
-                            <lem wit="#U1857 #E1857 #FDM1861">—</lem>
-                            <rdg wit="#FDM1868"/>
-                        </app>Ni bêtes, ni ruisseaux, ni verdure, ni bois!</l>
+               <l n="5">En haut, en bas, partout, la profondeur, la grève,</l>
+               <l n="6">Le silence, l'espace affreux et captivant...</l>
+               <l n="7">Sur le fond de mes nuits Dieu de sont doigt savant</l>
+               <l n="8">Dessine un cauchemar multiforme et sans trêve.</l>
             </lg>
             <lg type="stanza" subtype="tercet" n="3">
-               <l n="9">Or il n'est pas d'horreur au monde qui surpasse</l>
-               <l n="10">La froide cruauté de ce soleil de glace<app>
-                            <lem wit="#U1857 #E1857">,</lem>
-                            <rdg wit="#FDM1861 #FDM1868"/>
-                        </app></l>
-               <l n="11">Et cette immense nuit semblable au vieux Chaos;</l>
+               <l n="9">J'ai peur du sommeil comme on a peur d'un grand trou,</l>
+               <l n="10">Tout plein de vague horreur, menant on ne sait où;</l>
+               <l n="11">Je ne vois qu'infini par toutes les fenêtres,</l>
             </lg>
             <lg type="stanza" subtype="tercet" n="4">
-               <l n="12">Je jalouse le sort des plus vils animaux</l>
-               <l n="13">Qui peuvent se plonger dans un sommeil stupide,</l>
-               <l n="14">Tant l'écheveau du temps lentement se dévide!</l>
+               <l n="12">Et mon esprit, toujours du vertige hanté,</l>
+               <l n="13">Jalouse du néant l'insensibilité.</l>
+               <l n="14">–Ah! ne jamais sortir des Nombres et des Êtres!</l>
             </lg>
          </div>
       </body>

@@ -7,7 +7,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bénédiction</title>
+            <title>BÉNÉDICTION</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Encoded by</resp>
@@ -79,27 +79,6 @@
                      </monogr>
                   </biblStruct>
                </witness>
-               <witness xml:id="LE1866">
-                  <desc>1866 Les Epaves xml:id="1866"</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Les Épaves</title>
-                        <author>Charles Baudelaire</author>
-                        <imprint>
-                           <pubPlace>Amsterdam</pubPlace>
-                           <publisher>À L'Enseigne du Coq</publisher>
-                           <date>1866</date>
-                           <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                           <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                           <note>With a frontispeice etching by Félicien Rops</note>
-                        </imprint>
-                        <extent>163 p.</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
                <witness xml:id="FDM1868">
                   <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
                   <biblStruct>
@@ -143,121 +122,175 @@
       <body>
          <div type="poem">
             <head>
-               <title>BENEDICTION</title>
+               <title type="main">Bénédiction</title>
             </head>
-            <lg type="quatrain" n="1">
-               <l n="1">Lorsque, par un décret des puissances suprêmes,</l>
-               <l n="2">Le Poète apparaît en ce monde ennuyé,</l>
+            <lg type="stanza" subtype="quatrain" n="1">
+               <l n="1">Lorsque, par un décret des puissances <app>
+                     <lem wit="#U1857 #E1857 #FDM1868">suprêmes</lem>
+                     <rdg wit="#FDM1861">supremes</rdg>
+                  </app>,</l>
+               <l n="2">Le <app>
+                     <lem wit="#U1857 #E1857">Poète</lem>
+                     <rdg wit="#FDM1861 #FDM1868">Poëte</rdg>
+                  </app> apparaît en ce monde ennuyé,</l>
                <l n="3">Sa mère épouvantée et pleine de blasphèmes</l>
-               <l n="4">Crispe ses poings vers Dieu, qui la prend en pitié:</l>
+               <l n="4">Crispe ses poings vers Dieu<app>
+                     <lem wit="#U1857 #E1857"/>
+                     <rdg wit="#FDM1861 #FDM1868">,</rdg>
+                  </app> qui la prend en pitié:</l>
             </lg>
-            <lg type="quatrain" n="2">
-               <l n="5">« Ah! que n'ai-je mis bas tout un noeud de vipères,</l>
+            <lg type="stanza" subtype="quatrain" n="2">
+               <l n="5"><app>
+                     <lem wit="#U1857 #E1857 #FDM1861">—«</lem>
+                     <rdg wit="#FDM1868">«—</rdg>
+                  </app> Ah! que n'ai-je mis bas tout un noeud de vipères,</l>
                <l n="6">Plutôt que de nourrir cette dérision!</l>
                <l n="7">Maudite soit la nuit aux plaisirs éphémères</l>
                <l n="8">Où mon ventre a conçu mon expiation! </l>
             </lg>
-            <lg type="quatrain" n="3">
+            <lg type="stanza" subtype="quatrain" n="3">
                <l n="9">« Puisque tu m'as choisie entre toutes les femmes</l>
-               <l n="10">Pour être le dégoût de mon triste mari,</l>
+               <l n="10">Pour être le <app>
+                     <lem wit="#U1857 #E1857">dégoùt</lem>
+                     <!--Need to check the Bandy Center copy, can't tell if scan of 1857 ed is really a grave
+ accent over the u instead of the circomflex. Could be that part of the circumflex is too light to appear on scan-->
+                     <rdg wit="#FDM1861 #FDM1868">dégoût</rdg>
+                  </app> de mon triste mari,</l>
                <l n="11">Et que je ne puis pas rejeter dans les flammes,</l>
                <l n="12">Comme un billet d'amour, ce monstre rabougri,</l>
             </lg>
-            <lg type="quatrain" n="4">
+            <lg type="stanza" subtype="quatrain" n="4">
                <l n="13">« Je ferai rejaillir la haine qui m'accable</l>
                <l n="14">Sur l'instrument maudit de tes méchancetés,</l>
                <l n="15">Et je tordrai si bien cet arbre misérable,</l>
                <l n="16">Qu'il ne pourra poussa ses boutons empestés! » </l>
             </lg>
-            <lg type="quatrain" n="5">
+            <lg type="stanza" subtype="quatrain" n="5">
                <l n="17">Elle ravale ainsi l'écume de sa haine,</l>
                <l n="18">Et, ne comprenant pas les desseins éternels,</l>
                <l n="19">Elle-même prépare au fond de la Géhenne</l>
                <l n="20">Les bûchers consacrés aux crimes maternels. </l>
             </lg>
-            <lg type="quatrain" n="6">
+            <lg type="stanza" subtype="quatrain" n="6">
                <l n="21">Pourtant, sous la tutelle invisible d'un Ange,</l>
                <l n="22">L'Enfant déshérité s'enivre de soleil,</l>
                <l n="23">Et dans tout ce qu'il boit et dans tout ce qu'il mange</l>
                <l n="24">Retrouve l'ambroisie et le nectar vermeil.</l>
             </lg>
-            <lg type="quatrain" n="7">
-               <l n="25">Il joue avec le vent, cause avec le nuage</l>
-               <l n="26">Et s'enivre en chantant du chemin de la croix;</l>
+            <lg type="stanza" subtype="quatrain" n="7">
+               <l n="25">Il joue avec le vent, cause avec le nuage<app>
+                     <lem wit="#U1857 #E1857 #FDM1861">,</lem>
+                     <rdg wit="#FDM1868"/>
+                  </app></l>
+               <l n="26">Et s'enivre en chantant du chemin de la croix<app>
+                     <lem wit="#U1857 #E1857">,</lem>
+                     <rdg wit="#FDM1861 #FDM1868">;</rdg>
+                  </app></l>
                <l n="27">Et l'Esprit qui le suit dans son pèlerinage</l>
                <l n="28">Pleure de le voir gai comme un oiseau des bois. </l>
             </lg>
-            <lg type="quatrain" n="8" rhyme="opop">
+            <lg type="stanza" subtype="quatrain" n="8">
                <l n="29">Tous ceux qu'il veut aimer l'observent avec crainte,</l>
                <l n="30">Ou bien, s'enhardissant de sa tranquillité,</l>
                <l n="31">Cherchent à qui saura lui tirer une plainte,</l>
                <l n="32">Et font sur lui l'essai de leur férocité. </l>
             </lg>
-            <lg type="quatrain" n="9">
+            <lg type="stanza" subtype="quatrain" n="9">
                <l n="33">Dans le pain et le vin destinés à sa bouche</l>
                <l n="34">Ils mêlent de la cendre avec d'impurs crachats;</l>
                <l n="35">Avec hypocrisie ils jettent ce qu'il touche,</l>
                <l n="36">Et s'accusent d'avoir mis leurs pieds dans ses pas.</l>
             </lg>
-            <lg type="quatrain" n="10">
+            <lg type="stanza" subtype="quatrain" n="10">
                <l n="37">Sa femme va criant sur les places publiques:</l>
-               <l n="38">« Puisqu'il me trouve assez belle pour m'adorer,</l>
+               <l n="38">« Puisqu'il me trouve <app>
+                     <lem wit="#U1857 #E1857">belle et qu'il veut</lem>
+                     <rdg wit="#FDM1861 #FDM1868">assez belle pour</rdg>
+                  </app> m'adorer,</l>
                <l n="39">Je ferai le métier des idoles antiques,</l>
-               <l n="40">Et comme elles je veux me faire redorer; </l>
+               <l n="40"><app>
+                     <lem wit="#U1857 #E1857">Que souvent il fallait repeindre et</lem>
+                     <rdg wit="#FDM1861 #FDM1868">Et comme elles je veux me faire</rdg>
+                  </app> redorer; </l>
             </lg>
-            <lg type="quatrain" n="11">
-               <l n="41">« Et je me soûlerai de nard, d'encens, de myrrhe,</l>
+            <lg type="stanza" subtype="quatrain" n="11">
+               <l n="41">« Et je me <app>
+                     <lem wit="#U1857 #E1857">soûler</lem>
+                     <rdg wit="#FDM1861 #FDM1868">soûlerai</rdg>
+                  </app> de nard, d'encens, de myrrhe,</l>
                <l n="42">De génuflexions, de viandes et de vins,</l>
                <l n="43">Pour savoir si je puis dans un coeur qui m'admire</l>
                <l n="44">Usurper en riant les hommages divins! </l>
             </lg>
-            <lg type="quatrain" n="12">
-               <l n="45">« Et, quand je m'ennuîrai de ces farces impies,</l>
+            <lg type="stanza" subtype="quatrain" n="12">
+               <l n="45">« Et<app>
+                     <lem wit="#U1857 #E1857"/>
+                     <rdg wit="#FDM1861 #FDM1868">,</rdg>
+                  </app>, quand je m'ennuîrai de ces farces impies,</l>
                <l n="46">Je poserai sur lui ma frêle et forte main;</l>
                <l n="47">Et mes ongles, pareils aux ongles des harpies,</l>
                <l n="48">Sauront jusqu'à son coeur se frayer un chemin. </l>
             </lg>
-            <lg type="quatrain" n="13">
+            <lg type="stanza" subtype="quatrain" n="13">
                <l n="49">« Comme un tout jeune oiseau qui tremble et qui palpite,</l>
                <l n="50">J'arracherai ce coeur tout rouge de son sein,</l>
                <l n="51">Et, pour rassasier ma bête favorite,</l>
                <l n="52">Je le lui jetterai par terre avec dédain! » </l>
             </lg>
-            <lg type="quatrain" n="14">
+            <lg type="stanza" subtype="quatrain" n="14">
                <l n="53">Vers le Ciel, où son oeil voit un trône splendide,</l>
-               <l n="54">Le Poète serein lève ses bras pieux,</l>
+               <l n="54">Le <app>
+                     <lem wit="#U1857 #E1857">Poète</lem>
+                     <rdg wit="#FDM1861 #FDM1868">Poëte</rdg>
+                  </app> serein lève ses bras pieux,</l>
                <l n="55">Et les vastes éclairs de son esprit lucide</l>
                <l n="56">Lui dérobent l'aspect des peuples furieux: </l>
             </lg>
-            <lg type="quatrain" n="15">
-               <l n="57">« Soyez béni, mon Dieu, qui donnez la souffrance</l>
+            <lg type="stanza" subtype="quatrain" n="15">
+               <l n="57"><app>
+                     <lem wit="#U1857 #E1857 #FDM1861">—«</lem>
+                     <rdg wit="#FDM1868">«—</rdg>
+                  </app>Soyez béni, mon Dieu, qui donnez la souffrance</l>
                <l n="58">Comme un divin remède à nos impuretés,</l>
                <l n="59">Et comme la meilleure et la plus pure essence</l>
                <l n="60">Qui prépare les forts aux saintes voluptés! </l>
             </lg>
-            <lg type="quatrain" n="16">
-               <l n="61">« Je sais que vous gardez une place au Poète</l>
+            <lg type="stanza" subtype="quatrain" n="16">
+               <l n="61">« Je sais que vous gardez une place au <app>
+                     <lem wit="#U1857 #E1857">Poète</lem>
+                     <rdg wit="#FDM1861 #FDM1868">Poëte</rdg>
+                  </app></l>
                <l n="62">Dans les rangs bienheureux des saintes Légions,</l>
-               <l n="63">Et que vous l'invitez à l'éternelle fête</l>
+               <l n="63">Et que vous l'invitez à l'éternelle <app>
+                     <lem wit="#U1857 #E1857">fète</lem>
+                     <rdg wit="#FDM1861 #FDM1868">fête</rdg>
+                  </app></l>
                <l n="64">Des Trônes, des Vertus, des Dominations.</l>
             </lg>
-            <lg type="quatrain" n="17">
+            <lg type="stanza" subtype="quatrain" n="17">
                <l n="65">« Je sais que la douleur est la noblesse unique</l>
                <l n="66">Où ne mordront jamais la terre et les enfers,</l>
                <l n="67">Et qu'il faut pour tresser ma couronne mystique</l>
                <l n="68">Imposer tous les temps et tous les univers. </l>
             </lg>
-            <lg type="quatrain" n="18">
+            <lg type="stanza" subtype="quatrain" n="18">
                <l n="69">« Mais les bijoux perdus de l'antique Palmyre,</l>
                <l n="70">Les métaux inconnus, les perles de la mer,</l>
-               <l n="71">Par votre main montés, ne pourraient pas suffire</l>
+               <l n="71"><app>
+                     <lem wit="#U1857 #E1857">Montés par votre main</lem>
+                     <rdg wit="#FDM1861 #FDM1868">Par votre main montés</rdg>
+                  </app>, ne pourraient pas suffire</l>
                <l n="72">A ce beau diadème éblouissant et clair;</l>
             </lg>
-            <lg type="quatrain" n="19">
+            <lg type="stanza" subtype="quatrain" n="19">
                <l n="73">« Car il ne sera fait que de pure lumière,</l>
                <l n="74">Puisée au foyer saint des rayons primitifs,</l>
                <l n="75">Et dont les yeux mortels, dans leur splendeur entière,</l>
-               <l n="76">Ne sont que des miroirs obscurcis et plaintifs! » </l>
+               <l n="76">Ne sont que des miroirs obscurcis et plaintifs! <app>
+                     <lem wit="#U1857 #E1857 #FDM1861">»</lem>
+                     <rdg wit="#FDM1868"/>
+                  </app>
+               </l>
             </lg>
          </div>
       </body>

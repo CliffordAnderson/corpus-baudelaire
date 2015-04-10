@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
+                <title>A THÉODORE DE BANVILLE</title>
+                <author>Charles Baudelaire</author>
+                <respStmt>
+                    <resp>Basic Markup</resp>
+                    <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+                    <name xml:id="ZB">Zora Breeding</name>
+                </respStmt>
+                 <respStmt>
+         			 <resp>Critical Apparatus</resp>
+          			<!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          			<name xml:id="TMF">Tim Foster</name>
+        		</respStmt>
+                <sponsor>Jean and Alexander Heard Library</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jean and Alexander Heard Library</publisher>
+                <pubPlace>Nashville</pubPlace>
+                <address>
+               <addrLine>Jean and Alexander Heard Library</addrLine>
+               <addrLine>419 21st Avenue South</addrLine>
+               <addrLine>Nashville, TN 37203</addrLine>
+               <addrLine>USA</addrLine>
+            </address>
+                <date>2014</date>
+                <!--Below, insert the number of the poem, according to the established protocol-->
+                <idno>FDM-000-000-000-016</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <!-- create witList in sourceDesc with the different editions and their bib data
+1. 1857 Unexpurgated xml:id="U1857"
+2. 1857 Expurgated xml:id="E1857"
+3. 1861 2nd edition censored xml:id="FDM1861"
+4. 1866 Les Epaves xml:id="1866"
+5. 1868 3rd edition - posthumous xml:id="1868"
+-->
+                <!--
+<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+encoding: ISO-8859-1 </p>
+<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+Online Distributed Proofreading Team.</p>
+-->
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" subtype="sonnet">
+                <head>
+                    <title type="main">A Théodore de Banville</title>
+                    <title type="sub">1842</title>
+                </head>
+                <lg type="stanza" subtype="quatrain" n="1">
+                    <l n="1">Vous avez empoigné les crins de la Déesse</l>
+                    <l n="2">Avec un tel poignet, qu'on vous eût pris, à voir</l>
+                    <l n="3">Et cet air de maîtrise et ce beau nonchaloir,</l>
+                    <l n="4">Pour un jeune ruffian terrassant sa maîtresse.</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="2">
+                    <l n="5">L'œil clair et plein du feu de la précocité,</l>
+                    <l n="6">Vous avez prélassé votre orgueil d'architecte</l>
+                    <l n="7">Dans des constructions dont l'audace correcte</l>
+                    <l n="8">Fait voir quelle sera votre maturité.</l>
+                </lg>
+                <lg type="stanza" subtype="tercet" n="3">
+                    <l n="9">Poëte, notre sang nous fuit par chaque pore;</l>
+                    <l n="10">Est-ce que par hasard la robe du Centaure,</l>
+                    <l n="11">Qui changeait toute veine en funèbre ruisseau,</l>
+                </lg>
+                <lg type="stanza" subtype="tercet" n="4">
+                    <l n="12">Était teinte trois fois dans les baves subtiles</l>
+                    <l n="13">De ces vindicatifs et monstrueux reptiles</l>
+                    <l n="14">Que le petit Hercule étranglait au berceau?</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>
+

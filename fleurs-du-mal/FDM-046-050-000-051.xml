@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <fileDesc>
 <titleStmt>
 <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-<title rend="La Mort des pauvres">Mort des pauvres</title>
+<title rend="Ciel brouillé">Ciel brouillé</title>
 <author>Charles Baudelaire</author>
 <respStmt>
 <resp>Encoded by</resp>
@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </address>
 <date>2014</date>
 <!--Below, insert the number of the poem, according to the established protocol-->
-<idno>FDM-099-122-000-147</idno>
+<idno>FDM-046-050-000-051</idno>
 </publicationStmt>
 <sourceDesc>
 <listWit>
@@ -144,29 +144,31 @@ Online Distributed Proofreading Team.</p>
 <body>
 <div type="poem">
 <head>
-<title>La Mort des pauvres</title>
+<title>Ciel brouillé</title>
 </head>
 <lg type="stanza" subtype="quatrain" n="1">
-<l n="1">C'est la Mort qui console, hélas! et qui fait vivre;</l>
-<l n="2">C'est le but de la vie, et c'est le seul espoir</l>
-<l n="3">Qui, comme un élixir, nous monte et nous enivre,</l>
-<l n="4">Et nous donne le coeur de marcher jusqu'au soir;</l>
+<l n="1">On dirait ton regard d'une vapeur couvert;</l>
+<l n="2">Ton oeil mystérieux (est-il bleu, gris ou vert?)</l>
+<l n="3">Alternativement tendre, rêveur, cruel,</l>
+<l n="4">Réfléchit l'indolence et la pâleur du ciel.</l>
 </lg>
 <lg type="stanza" subtype="quatrain" n="2">
-<l n="1">À travers la tempête, et la neige, et le givre,</l>
-<l n="2">C'est la clarté vibrante à notre horizon noir</l>
-<l n="3">C'est l'auberge fameuse inscrite sur le livre,</l>
-<l n="4">Où l'on pourra manger, et dormir, et s'asseoir;</l>
+<l n="1">Tu rappelles ces jours blancs, tièdes et voilés,</l>
+<l n="2">Qui font se fondre en pleurs les coeurs ensorcelés,</l>
+<l n="3">Quand, agités d'un mal inconnu qui les tord,</l>
+<l n="4">Les nerfs trop éveillés raillent l'esprit qui dort.</l>
 </lg>
-<lg type="stanza" subtype="tercet" n="3">
-<l n="1">C'est un Ange qui tient dans ses doigts magnétiques</l>
-<l n="2">Le sommeil et le don des rêves extatiques,</l>
-<l n="3">Et qui refait le lit des gens pauvres et nus;</l>
+<lg type="stanza" subtype="quatrain" n="3">
+<l n="1">Tu ressembles parfois à ces beaux horizons</l>
+<l n="2">Qu'allument les soleils des brumeuses saisons...</l>
+<l n="3">Comme tu resplendis, paysage mouillé</l>
+<l n="4">Qu'enflamment les rayons tombant d'un ciel brouillé!</l>
 </lg>
-<lg type="stanza" subtype="tercet" n="4">
-<l n="1">C'est la gloire des Dieux, c'est le grenier mystique,</l>
-<l n="2">C'est la bourse du pauvre et sa patrie antique,</l>
-<l n="3">C'est le portique ouvert sur les Cieux inconnus!</l>
+<lg type="stanza" subtype="quatrain" n="4">
+<l n="1">Ô femme dangereuse, ô séduisants climats!</l>
+<l n="2">Adorerai-je aussi ta neige et vos frimas,</l>
+<l n="3">Et saurai-je tirer de l'implacable hiver</l>
+<l n="4">Des plaisirs plus aigus que la glace et le fer?</l>
 </lg>
 </div>
 </body>
