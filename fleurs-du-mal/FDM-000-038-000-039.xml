@@ -89,11 +89,11 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="cycle">
+      <div type="poem" subtype="cycle">
         <head>
           <title type="main">UN FANTOME</title>
         </head>
-        <div type="poem" subtype="sonnet">
+        <lg type="poem" subtype="sonnet" n="1">
           <head type="main">I</head>
           <head type="sub">LES TÉNÈBRES<app>
               <lem wit="#FDM1861">.</lem>
@@ -121,8 +121,8 @@ Online Distributed Proofreading Team.</p>
             <l n="13">Je reconnais ma belle visiteuse:</l>
             <l n="14">C'est Elle! noire et pourtant lumineuse.</l>
           </lg>
-        </div>
-        <div type="poem" subtype="sonnet">
+        </lg>
+        <lg type="poem" subtype="sonnet" n="2">
           <head type="main">II</head>
           <head type="sub">LE PARFUM<app>
               <lem wit="#FDM1861">.</lem>
@@ -150,8 +150,8 @@ Online Distributed Proofreading Team.</p>
             <l n="13">Tout imprégnés de sa jeunesse pure,</l>
             <l n="14">Se dégageait un parfum de fourrure.</l>
           </lg>
-        </div>
-        <div type="poem" subtype="sonnet">
+        </lg>
+        <lg type="poem" subtype="sonnet" n="3">
           <head type="main">III</head>
           <head type="sub">LE CADRE<app>
               <lem wit="#FDM1861">.</lem>
@@ -188,8 +188,8 @@ Online Distributed Proofreading Team.</p>
               </app></l>
             <l n="14">Montrait la grâce enfantine du singe.</l>
           </lg>
-        </div>
-        <div type="poem" subtype="sonnet">
+        </lg>
+        <lg type="poem" subtype="sonnet" n="4">
           <head type="main">IV</head>
           <head type="sub">LE PORTRAIT<app>
               <lem wit="#FDM1861">.</lem>
@@ -217,7 +217,7 @@ Online Distributed Proofreading Team.</p>
             <l n="13">Tu ne tueras jamais dans ma mémoire</l>
             <l n="14">Celle qui fut mon plaisir et ma gloire!</l>
           </lg>
-        </div>
+        </lg>
       </div>
     </body>
   </text>
