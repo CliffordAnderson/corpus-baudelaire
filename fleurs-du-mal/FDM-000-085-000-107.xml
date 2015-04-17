@@ -10,8 +10,12 @@
             <title rend="L'Horloge">Horloge</title>
             <author>Charles Baudelaire</author>
             <respStmt>
-               <resp>Encoded by</resp>
+               <resp>Basic Markup</resp>
                <name xml:id="ZB">Zora Breeding</name>
+            </respStmt>
+            <respStmt>
+               <resp>Critical Apparatus</resp>
+               <name ref="#ZB">Zora Breeding</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>

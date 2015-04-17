@@ -15,10 +15,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <name xml:id="RVR">Ramona V. Romero</name>
             </respStmt>
             <respStmt>
-         		<resp>Critical Apparatus</resp>
-          		<!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          		<name xml:id="TMF">Tim Foster</name>
-        	</respStmt>
+               <resp>Critical Apparatus</resp>
+               <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+               <name xml:id="TMF">Tim Foster</name>
+            </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
          <publicationStmt>
@@ -47,22 +47,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <publisher>Poulet-Malassis et De Broise</publisher>
                            <date>1857</date>
                            <note>Original edition with condemned pieces</note>
-                        </imprint>
-                        <extent>248 p.</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
-               <witness xml:id="E1857">
-                  <desc>1857 Expurgated</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Les Fleurs du Mal</title>
-                        <author>Charles Baudelaire</author>
-                        <imprint>
-                           <pubPlace>Paris</pubPlace>
-                           <publisher>Poulet-Malassis et De Broise</publisher>
-                           <date>1857</date>
-                           <note>Original edition with condemned pieces removed</note>
                         </imprint>
                         <extent>248 p.</extent>
                      </monogr>
@@ -133,25 +117,25 @@ Online Distributed Proofreading Team.</p>
                <l n="2">Du fond du gouffre obscur où mon cœur est tombé.</l>
                <l n="3">C'est un univers morne à l'horizon plombé,</l>
                <l n="4">Où nagent dans la nuit l'horreur et le <app>
-                            <lem wit="#U1857 #E1857">blasphême</lem>
-                            <rdg wit="#FDM1861 #FDM1868">blasphème</rdg>
-                        </app>;</l>
+                     <lem wit="#U1857">blasphême</lem>
+                     <rdg wit="#FDM1861 #FDM1868">blasphème</rdg>
+                  </app>;</l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="2">
                <l n="5">Un soleil sans chaleur plane au-dessus six mois,</l>
                <l n="6">Et les six autres mois la nuit couvre la terre;</l>
                <l n="7">C'est un pays plus nu que la terre polaire;</l>
                <l n="8"><app>
-                            <lem wit="#U1857 #E1857 #FDM1861">—</lem>
-                            <rdg wit="#FDM1868"/>
-                        </app>Ni bêtes, ni ruisseaux, ni verdure, ni bois!</l>
+                     <lem wit="#U1857">—</lem>
+                     <rdg wit="#FDM1868"/>
+                  </app>Ni bêtes, ni ruisseaux, ni verdure, ni bois!</l>
             </lg>
             <lg type="stanza" subtype="tercet" n="3">
                <l n="9">Or il n'est pas d'horreur au monde qui surpasse</l>
                <l n="10">La froide cruauté de ce soleil de glace<app>
-                            <lem wit="#U1857 #E1857">,</lem>
-                            <rdg wit="#FDM1861 #FDM1868"/>
-                        </app></l>
+                     <lem wit="#U1857">,</lem>
+                     <rdg wit="#FDM1861 #FDM1868"/>
+                  </app></l>
                <l n="11">Et cette immense nuit semblable au vieux Chaos;</l>
             </lg>
             <lg type="stanza" subtype="tercet" n="4">
