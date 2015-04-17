@@ -10,8 +10,12 @@
             <title>BÉNÉDICTION</title>
             <author>Charles Baudelaire</author>
             <respStmt>
-               <resp>Encoded by</resp>
+               <resp>Basic Markup</resp>
                <name xml:id="ZB">Zora Breeding</name>
+            </respStmt>
+            <respStmt>
+               <resp>Critical Apparatus</resp>
+               <name ref="#ZB">Zora Breeding</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
@@ -41,22 +45,6 @@
                            <publisher>Poulet-Malassis et De Broise</publisher>
                            <date>1857</date>
                            <note>Original edition with condemned pieces</note>
-                        </imprint>
-                        <extent>248 p.</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
-               <witness xml:id="E1857">
-                  <desc>1857 Expurgated</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Les Fleurs du Mal</title>
-                        <author>Charles Baudelaire</author>
-                        <imprint>
-                           <pubPlace>Paris</pubPlace>
-                           <publisher>Poulet-Malassis et De Broise</publisher>
-                           <date>1857</date>
-                           <note>Original edition with condemned pieces removed</note>
                         </imprint>
                         <extent>248 p.</extent>
                      </monogr>
@@ -126,22 +114,22 @@
             </head>
             <lg type="stanza" subtype="quatrain" n="1">
                <l n="1">Lorsque, par un décret des puissances <app>
-                     <lem wit="#U1857 #E1857 #FDM1868">suprêmes</lem>
+                     <lem wit="#U1857">suprêmes</lem>
                      <rdg wit="#FDM1861">supremes</rdg>
                   </app>,</l>
                <l n="2">Le <app>
-                     <lem wit="#U1857 #E1857">Poète</lem>
+                     <lem wit="#U1857">Poète</lem>
                      <rdg wit="#FDM1861 #FDM1868">Poëte</rdg>
                   </app> apparaît en ce monde ennuyé,</l>
                <l n="3">Sa mère épouvantée et pleine de blasphèmes</l>
                <l n="4">Crispe ses poings vers Dieu<app>
-                     <lem wit="#U1857 #E1857"/>
+                     <lem wit="#U1857"/>
                      <rdg wit="#FDM1861 #FDM1868">,</rdg>
                   </app> qui la prend en pitié:</l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="2">
                <l n="5"><app>
-                     <lem wit="#U1857 #E1857 #FDM1861">—«</lem>
+                     <lem wit="#U1857">—«</lem>
                      <rdg wit="#FDM1868">«—</rdg>
                   </app> Ah! que n'ai-je mis bas tout un noeud de vipères,</l>
                <l n="6">Plutôt que de nourrir cette dérision!</l>
@@ -151,7 +139,7 @@
             <lg type="stanza" subtype="quatrain" n="3">
                <l n="9">« Puisque tu m'as choisie entre toutes les femmes</l>
                <l n="10">Pour être le <app>
-                     <lem wit="#U1857 #E1857">dégoùt</lem>
+                     <lem wit="#U1857">dégoùt</lem>
                      <!--Need to check the Bandy Center copy, can't tell if scan of 1857 ed is really a grave
  accent over the u instead of the circomflex. Could be that part of the circumflex is too light to appear on scan-->
                      <rdg wit="#FDM1861 #FDM1868">dégoût</rdg>
@@ -179,11 +167,11 @@
             </lg>
             <lg type="stanza" subtype="quatrain" n="7">
                <l n="25">Il joue avec le vent, cause avec le nuage<app>
-                     <lem wit="#U1857 #E1857 #FDM1861">,</lem>
+                     <lem wit="#U1857">,</lem>
                      <rdg wit="#FDM1868"/>
                   </app></l>
                <l n="26">Et s'enivre en chantant du chemin de la croix<app>
-                     <lem wit="#U1857 #E1857">,</lem>
+                     <lem wit="#U1857">,</lem>
                      <rdg wit="#FDM1861 #FDM1868">;</rdg>
                   </app></l>
                <l n="27">Et l'Esprit qui le suit dans son pèlerinage</l>
@@ -204,18 +192,18 @@
             <lg type="stanza" subtype="quatrain" n="10">
                <l n="37">Sa femme va criant sur les places publiques:</l>
                <l n="38">« Puisqu'il me trouve <app>
-                     <lem wit="#U1857 #E1857">belle et qu'il veut</lem>
+                     <lem wit="#U1857">belle et qu'il veut</lem>
                      <rdg wit="#FDM1861 #FDM1868">assez belle pour</rdg>
                   </app> m'adorer,</l>
                <l n="39">Je ferai le métier des idoles antiques,</l>
                <l n="40"><app>
-                     <lem wit="#U1857 #E1857">Que souvent il fallait repeindre et</lem>
+                     <lem wit="#U1857">Que souvent il fallait repeindre et</lem>
                      <rdg wit="#FDM1861 #FDM1868">Et comme elles je veux me faire</rdg>
                   </app> redorer; </l>
             </lg>
             <lg type="stanza" subtype="quatrain" n="11">
                <l n="41">« Et je me <app>
-                     <lem wit="#U1857 #E1857">soûler</lem>
+                     <lem wit="#U1857">soûler</lem>
                      <rdg wit="#FDM1861 #FDM1868">soûlerai</rdg>
                   </app> de nard, d'encens, de myrrhe,</l>
                <l n="42">De génuflexions, de viandes et de vins,</l>
@@ -224,7 +212,7 @@
             </lg>
             <lg type="stanza" subtype="quatrain" n="12">
                <l n="45">« Et<app>
-                     <lem wit="#U1857 #E1857"/>
+                     <lem wit="#U1857"/>
                      <rdg wit="#FDM1861 #FDM1868">,</rdg>
                   </app>, quand je m'ennuîrai de ces farces impies,</l>
                <l n="46">Je poserai sur lui ma frêle et forte main;</l>
@@ -240,7 +228,7 @@
             <lg type="stanza" subtype="quatrain" n="14">
                <l n="53">Vers le Ciel, où son oeil voit un trône splendide,</l>
                <l n="54">Le <app>
-                     <lem wit="#U1857 #E1857">Poète</lem>
+                     <lem wit="#U1857">Poète</lem>
                      <rdg wit="#FDM1861 #FDM1868">Poëte</rdg>
                   </app> serein lève ses bras pieux,</l>
                <l n="55">Et les vastes éclairs de son esprit lucide</l>
@@ -248,7 +236,7 @@
             </lg>
             <lg type="stanza" subtype="quatrain" n="15">
                <l n="57"><app>
-                     <lem wit="#U1857 #E1857 #FDM1861">—«</lem>
+                     <lem wit="#U1857">—«</lem>
                      <rdg wit="#FDM1868">«—</rdg>
                   </app>Soyez béni, mon Dieu, qui donnez la souffrance</l>
                <l n="58">Comme un divin remède à nos impuretés,</l>
@@ -257,12 +245,12 @@
             </lg>
             <lg type="stanza" subtype="quatrain" n="16">
                <l n="61">« Je sais que vous gardez une place au <app>
-                     <lem wit="#U1857 #E1857">Poète</lem>
+                     <lem wit="#U1857">Poète</lem>
                      <rdg wit="#FDM1861 #FDM1868">Poëte</rdg>
                   </app></l>
                <l n="62">Dans les rangs bienheureux des saintes Légions,</l>
                <l n="63">Et que vous l'invitez à l'éternelle <app>
-                     <lem wit="#U1857 #E1857">fète</lem>
+                     <lem wit="#U1857">fète</lem>
                      <rdg wit="#FDM1861 #FDM1868">fête</rdg>
                   </app></l>
                <l n="64">Des Trônes, des Vertus, des Dominations.</l>
@@ -277,7 +265,7 @@
                <l n="69">« Mais les bijoux perdus de l'antique Palmyre,</l>
                <l n="70">Les métaux inconnus, les perles de la mer,</l>
                <l n="71"><app>
-                     <lem wit="#U1857 #E1857">Montés par votre main</lem>
+                     <lem wit="#U1857">Montés par votre main</lem>
                      <rdg wit="#FDM1861 #FDM1868">Par votre main montés</rdg>
                   </app>, ne pourraient pas suffire</l>
                <l n="72">A ce beau diadème éblouissant et clair;</l>
@@ -287,7 +275,7 @@
                <l n="74">Puisée au foyer saint des rayons primitifs,</l>
                <l n="75">Et dont les yeux mortels, dans leur splendeur entière,</l>
                <l n="76">Ne sont que des miroirs obscurcis et plaintifs! <app>
-                     <lem wit="#U1857 #E1857 #FDM1861">»</lem>
+                     <lem wit="#U1857">»</lem>
                      <rdg wit="#FDM1868"/>
                   </app>
                </l>

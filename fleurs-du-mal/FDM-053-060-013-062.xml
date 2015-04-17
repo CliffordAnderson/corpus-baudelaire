@@ -11,7 +11,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Basic Markup</resp>
-               <name xml:id="RVR" >Ramona V. Romero</name>
+               <name xml:id="RVR">Ramona V. Romero</name>
             </respStmt>
             <respStmt>
                <resp>Critical Apparatus</resp>
@@ -45,22 +45,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <publisher>Poulet-Malassis et De Broise</publisher>
                            <date>1857</date>
                            <note>Original edition with condemned pieces</note>
-                        </imprint>
-                        <extent>248 p.</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
-               <witness xml:id="E1857">
-                  <desc>1857 Expurgated</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Les Fleurs du Mal</title>
-                        <author>Charles Baudelaire</author>
-                        <imprint>
-                           <pubPlace>Paris</pubPlace>
-                           <publisher>Poulet-Malassis et De Broise</publisher>
-                           <date>1857</date>
-                           <note>Original edition with condemned pieces removed</note>
                         </imprint>
                         <extent>248 p.</extent>
                      </monogr>
@@ -148,7 +132,7 @@ Online Distributed Proofreading Team.</p>
          <div type="poem">
             <head><title type="main">FRANCISCÆ MEÆ LAUDES</title>
                <title type="sub"><app>
-                     <lem wit="#U1857 #E1857">VERS COMPOSÉ POUR UNE MODISTE ÉRUDITE ET DÉVOTE</lem>
+                     <lem wit="#U1857">VERS COMPOSÉ POUR UNE MODISTE ÉRUDITE ET DÉVOTE</lem>
                      <rdg wit="#FDM1861 #FDM1868"/>
                      <rdg wit="#LE1866">VERS COMPOSE POUR UNE MODISTE ERUDITE ET DEVOTE<note n="1"
                            anchored="true" place="bottom"><p>Le sous-titre de cette pièce, supprimé
@@ -171,7 +155,7 @@ Online Distributed Proofreading Team.</p>
                   </app></title>
             </head>
             <p><app>
-                  <lem wit="#U1857 #E1857">Ne semble-t-il pas au lecteur, comme à moi, qu la langue
+                  <lem wit="#U1857">Ne semble-t-il pas au lecteur, comme à moi, qu la langue
                      de la dernière décadence latine, — supreme soupir d'une personne robuste déjà
                      transformeé et préparée pour la vie spirituelle, — est singulièrement propre à
                      exprimer la passion telle que l'a comprise et sentie le monde poétque moderne?
@@ -193,7 +177,7 @@ Online Distributed Proofreading Team.</p>
             <lg type="stanza" subtype="tercet" n="2">
                <l n="4">Esto sertis implicata,</l>
                <l n="5">O femina delicata<app>
-                     <lem wit="#U1857 #E1857 #LE1866">,</lem>
+                     <lem wit="#U1857">,</lem>
                      <rdg wit="#FDM1861 #FDM1868"/>
                   </app></l>
                <l n="6">Per quam solvuntur peccata!</l>
@@ -207,18 +191,18 @@ Online Distributed Proofreading Team.</p>
                <l n="10">Quum vitiorum tempestas</l>
                <l n="11">Turbabat omnes semitas,</l>
                <l n="12">Apparuisti, <app>
-                     <lem wit="#U1857 #E1857 #FDM1861 #FDM1868">Deitas</lem>
+                     <lem wit="#U1857">Deitas</lem>
                      <rdg wit="#LE1866">deitas</rdg>
                   </app>,</l>
             </lg>
             <lg type="stanza" subtype="tercet" n="5">
                <l n="13">Velut stella salutaris</l>
                <l n="14">In naufragiis amaris<app>
-                     <lem wit="#U1857 #E1857 #LE1866">.</lem>
+                     <lem wit="#U1857">.</lem>
                      <rdg wit="#FDM1861 #FDM1868">.....</rdg>
                   </app></l>
                <l n="15"><app>
-                     <lem wit="#U1857 #E1857 #LE1866">—</lem>
+                     <lem wit="#U1857">—</lem>
                      <rdg wit="#FDM1861 #FDM1868"/>
                   </app> Suspendam cor tuis aris!</l>
             </lg>
@@ -231,7 +215,7 @@ Online Distributed Proofreading Team.</p>
                <l n="19">Quod erat spurcum, cremasti;</l>
                <l n="20">Quod rudius, exæquasti;</l>
                <l n="21">Quod debile, confirmasti<app>
-                     <lem wit="#U1857 #E1857 #FDM1861">.</lem>
+                     <lem wit="#U1857">.</lem>
                      <rdg wit="#LE1866 #FDM1868">!</rdg>
                   </app></l>
             </lg>
@@ -239,13 +223,13 @@ Online Distributed Proofreading Team.</p>
                <l n="22">In fame mea taberna,</l>
                <l n="23">In nocte mea lucerna,</l>
                <l n="24">Recte me semper guberna<app>
-                     <lem wit="#U1857 #E1857"/>
+                     <lem wit="#U1857"/>
                      <rdg wit="#FDM1861 #LE1866 #FDM1868">.</rdg>
                   </app></l>
             </lg>
             <lg type="stanza" subtype="tercet" n="9">
                <l n="25">Adde nunc <app>
-                     <lem wit="#U1857 #E1857 #FDM1861 #FDM1868">vires</lem>
+                     <lem wit="#U1857">vires</lem>
                      <rdg wit="#LE1866"><sic>viris</sic><note type="editorial" resp="#RVR">The use
                            of viris in the Les Epaves edition appears to be a typographical error.
                            In all other editions vires is used, which is the nominative plural form

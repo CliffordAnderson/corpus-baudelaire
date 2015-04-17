@@ -50,22 +50,6 @@
                             </monogr>
                         </biblStruct>
                     </witness>
-                    <witness xml:id="E1857">
-                        <desc>1857 Expurgated</desc>
-                        <biblStruct>
-                            <monogr>
-                                <title>Les Fleurs du Mal</title>
-                                <author>Charles Baudelaire</author>
-                                <imprint>
-                                    <pubPlace>Paris</pubPlace>
-                                    <publisher>Poulet-Malassis et De Broise</publisher>
-                                    <date>1857</date>
-                                    <note>Original edition with condemned pieces removed</note>
-                                </imprint>
-                                <extent>248 p.</extent>
-                            </monogr>
-                        </biblStruct>
-                    </witness>
                     <witness xml:id="FDM1861">
                         <desc>1861 2nd edition censored</desc>
                         <biblStruct>
@@ -114,7 +98,7 @@
                 </head>
                 <lg type="stanza" subtype="quatrain" n="1">
                     <l n="1">Mon cœur <app>
-                            <lem wit="#U1857 #E1857">se balançait comme un ange</lem>
+                            <lem wit="#U1857">se balançait comme un ange</lem>
                             <rdg wit="#FDM1861 #FDM1868">, comme un oiseau, voltigeait tout</rdg>
                         </app> joyeux</l>
                     <l n="2">Et planait librement à l'entour des cordages;</l>
@@ -131,7 +115,7 @@
                     <l n="9">— Île des doux secrets et des fêtes du coeur!</l>
                     <l n="10">De l'antique Vénus le superbe fantôme</l>
                     <l n="11">Au-dessus de tes mers plane comme un <app>
-                            <lem wit="#U1857 #E1857">arôme</lem>
+                            <lem wit="#U1857">arôme</lem>
                             <rdg wit="#FDM1861 #FDM1868">arome</rdg>
                         </app></l>
                     <l n="12">Et charge les esprits d'amour et de langueur.</l>
@@ -147,7 +131,7 @@
                     <l n="18">— Cythère n'était plus qu'un terrain des plus maigres,</l>
                     <l n="19">Un désert rocailleux troublé par des cris aigres.</l>
                     <l n="20">J'entrevoyais pourtant un objet singulier<app>
-                            <lem wit="#U1857 #E1857">:</lem>
+                            <lem wit="#U1857">:</lem>
                             <rdg wit=" #FDM1861 #FDM1868">!</rdg>
                         </app></l>
                 </lg>
@@ -160,7 +144,7 @@
                 <lg type="stanza" subtype="quatrain" n="7">
                     <l n="25">Mais voilà qu'en rasant la côte d'assez près</l>
                     <l n="26">Pour troubler les oiseaux avec nos voiles blanches<app>
-                            <lem wit="#U1857 #E1857"/>
+                            <lem wit="#U1857"/>
                             <rdg wit="#FDM1861 #FDM1868">,</rdg>
                         </app></l>
                     <l n="27">Nous vîmes que c'était un gibet à trois branches,</l>
@@ -176,10 +160,10 @@
                     <l n="33">Les yeux étaient deux trous, et du ventre effondré</l>
                     <l n="34">Les intestins pesants lui coulaient sur les cuisses,</l>
                     <l n="35">Et ses bourreaux<app>
-                            <lem wit="#U1857 #E1857"/>
+                            <lem wit="#U1857"/>
                             <rdg wit="#FDM1861 #FDM1868">,</rdg>
                         </app> gorgés de hideuses délices<app>
-                            <lem wit="#U1857 #E1857"/>
+                            <lem wit="#U1857"/>
                             <rdg wit="#FDM1861 #FDM1868">,</rdg>
                         </app></l>
                     <l n="36">L'avaient à coups de bec absolument châtré.</l>
@@ -199,7 +183,7 @@
                 <lg type="stanza" subtype="quatrain" n="12">
                     <l n="45">Ridicule pendu, tes douleurs sont les miennes!</l>
                     <l n="46">Je sentis<app>
-                            <lem wit="#U1857 #E1857"/>
+                            <lem wit="#U1857"/>
                             <rdg wit="#FDM1861 #FDM1868">,</rdg>
                         </app> à l'aspect de tes membres flottants,</l>
                     <l n="47">Comme un vomissement, remonter vers mes dents</l>
@@ -220,7 +204,7 @@
                 <lg type="stanza" subtype="quatrain" n="15">
                     <l n="57">Dans ton île, ô Vénus! je n'ai trouvé debout</l>
                     <l n="58">Qu'un gibet symbolique où pendait mon image<app>
-                            <lem wit="#U1857 #E1857">.</lem>
+                            <lem wit="#U1857">.</lem>
                             <rdg wit="#FDM1861 #FDM1868">.....</rdg>
                         </app></l>
                     <l n="59">— Ah! Seigneur! donnez-moi la force et le courage<note

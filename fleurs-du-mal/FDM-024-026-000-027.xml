@@ -46,22 +46,6 @@
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="E1857">
-            <desc>1857 Expurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces removed</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -139,11 +123,11 @@ Online Distributed Proofreading Team.</p>
         <lg type="stanza" subtype="tercet" n="3">
           <l n="9">Par ces deux grands yeux noirs, soupiraux de ton âme,</l>
           <l n="10">O démon sans pitié<app>
-              <lem wit="#U1857 #E1857">,</lem>
+              <lem wit="#U1857">,</lem>
               <rdg wit="#FDM1861 #FDM1868">!</rdg>
             </app>
             <app>
-              <lem wit="#U1857 #E1857">verse moi</lem>
+              <lem wit="#U1857">verse moi</lem>
               <rdg wit="#FDM1861 #FDM1868">verse-moi</rdg>
             </app> moins de flamme;</l>
           <l n="11">Je ne suis pas le Styx pour t'embrasser neuf fois,</l>
