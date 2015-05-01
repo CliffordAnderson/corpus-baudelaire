@@ -98,7 +98,8 @@ Online Distributed Proofreading Team.</p>
           <head type="sub">LES TÉNÈBRES<app>
               <lem wit="#FDM1861">.</lem>
               <rdg wit="#FDM1868"/>
-            </app></head>
+            </app>
+          </head>
           <lg type="stanza" subtype="quatrain" n="1">
             <l n="1">Dans les caveaux d'insondable tristesse</l>
             <l n="2">Où le Destin m'a déjà relégué;</l>
@@ -127,7 +128,8 @@ Online Distributed Proofreading Team.</p>
           <head type="sub">LE PARFUM<app>
               <lem wit="#FDM1861">.</lem>
               <rdg wit="#FDM1868"/>
-            </app></head>
+            </app>
+          </head>
           <lg type="stanza" subtype="quatrain" n="1">
             <l n="1">Lecteur, as-tu quelquefois respiré</l>
             <l n="2">Avec ivresse et lente gourmandise</l>
@@ -156,7 +158,8 @@ Online Distributed Proofreading Team.</p>
           <head type="sub">LE CADRE<app>
               <lem wit="#FDM1861">.</lem>
               <rdg wit="#FDM1868"/>
-            </app></head>
+            </app>
+          </head>
           <lg type="stanza" subtype="quatrain" n="1">
             <l n="1">Comme un beau cadre ajoute à la peinture,</l>
             <l n="2">Bien qu'elle soit d'un pinceau très-vanté,</l>
@@ -172,20 +175,24 @@ Online Distributed Proofreading Team.</p>
           <lg type="stanza" subtype="tercet" n="3">
             <l n="9">Même on eût dit parfois qu'elle croyait</l>
             <l n="10">Que tout voulait l'aimer; elle noyait</l>
-            <l n="11"><app>
+            <l n="11">
+              <app>
                 <lem wit="#FDM1861">Sa nudité voluptueusement</lem>
                 <rdg wit="#FDM1868">Dans les baisers du satin et du linge</rdg>
-              </app></l>
+              </app>
+            </l>
           </lg>
           <lg type="stanza" subtype="tercet" n="4">
-            <l n="12"><app>
+            <l n="12">
+              <app>
                 <lem wit="#FDM1861">Dans les baisers du satin et du linge</lem>
                 <rdg wit="#FDM1868">Son beau corps nu, plein de frissonnements</rdg>
               </app>,</l>
-            <l n="13">Et, lente ou brusque, <app>
+            <l n="13">Et, lente ou brusque,<app>
                 <lem wit="#FDM1861">à chaque mouvement</lem>
                 <rdg wit="#FDM1868">en tous ses mouvements,</rdg>
-              </app></l>
+              </app>
+            </l>
             <l n="14">Montrait la grâce enfantine du singe.</l>
           </lg>
         </lg>
@@ -194,7 +201,8 @@ Online Distributed Proofreading Team.</p>
           <head type="sub">LE PORTRAIT<app>
               <lem wit="#FDM1861">.</lem>
               <rdg wit="#FDM1868"/>
-            </app></head>
+            </app>
+          </head>
           <lg type="stanza" subtype="quatrain" n="1">
             <l n="1">La Maladie et la Mort font des cendres</l>
             <l n="2">De tout le feu qui pour nous flamboya.</l>

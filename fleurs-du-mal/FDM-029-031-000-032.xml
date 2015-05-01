@@ -115,14 +115,15 @@ Online Distributed Proofreading Team.</p>
           <l n="2">Dans mon cœur plaintif es entrée<app>
               <lem wit="#U1857">,</lem>
               <rdg wit="#FDM1861 #FDM1868">;</rdg>
-            </app></l>
-          <l n="3">Toi qui, <app>
+            </app>
+          </l>
+          <l n="3">Toi qui,<app>
               <lem wit="#U1857"/>
               <rdg wit="#FDM1861 #FDM1868">forte</rdg>
-            </app>comme un <app>
+            </app>comme un<app>
               <lem wit="#U1857">hideux</lem>
               <rdg wit="#FDM1861 #FDM1868"/>
-            </app> troupeau</l>
+            </app>troupeau</l>
           <l n="4">De démons, vins, folle et parée,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
@@ -130,7 +131,8 @@ Online Distributed Proofreading Team.</p>
           <l n="6">Faire ton lit et ton domaine<app>
               <lem wit="#U1857">,</lem>
               <rdg wit="#FDM1861 #FDM1868">;</rdg>
-            </app></l>
+            </app>
+          </l>
           <l n="7">— Infâme à qui je suis lié</l>
           <l n="8">Comme le forçat à la chaîne,</l>
         </lg>
