@@ -81,13 +81,6 @@
             </biblStruct>
           </witness>
         </listWit>
-        <!-- create witList in sourceDesc with the different editions and their bib data
-1. 1857 Unexpurgated xml:id="U1857"
-2. 1857 Expurgated xml:id="E1857"
-3. 1861 2nd edition censored xml:id="FDM1861"
-4. 1866 Les Epaves xml:id="1866"
-5. 1868 3rd edition - posthumous xml:id="1868"
--->
         <!--
 <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
 for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
