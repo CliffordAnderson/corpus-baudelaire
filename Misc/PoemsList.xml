@@ -1,0 +1,2108 @@
+<poems>
+<poem>
+    <Ed1857>80</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>2</Ed1866>
+    <Ed1868>0</Ed1868>
+    <Section1857>FLEUR DU MAL</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>PIECES CONDAMNEES_ TIREES DES FLEURS DU MAL</Section1866>
+    <Section1868>nope</Section1868>
+    <Condemned>TRUE</Condemned>
+    <PoemTitle>LESBOS</PoemTitle>
+    <PoemID>FDM-080-000-002-000</PoemID>
+</poem>
+<poem>
+    <Ed1857>81</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>3</Ed1866>
+    <Ed1868>0</Ed1868>
+    <Section1857>FLEUR DU MAL</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>PIECES CONDAMNEES_ TIREES DES FLEURS DU MAL</Section1866>
+    <Section1868>nope</Section1868>
+    <Condemned>TRUE</Condemned>
+    <PoemTitle>FEMMES DAMNEES (A la p�le clart�)</PoemTitle>
+    <PoemID>FDM-081-000-003-000</PoemID>
+</poem>
+<poem>
+    <Ed1857>30</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>4</Ed1866>
+    <Ed1868>0</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>PIECES CONDAMNEES_ TIREES DES FLEURS DU MAL</Section1866>
+    <Section1868>nope</Section1868>
+    <Condemned>TRUE</Condemned>
+    <PoemTitle>LE LETHE</PoemTitle>
+    <PoemID>FDM-030-000-004-000</PoemID>
+</poem>
+<poem>
+    <Ed1857>39</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>5</Ed1866>
+    <Ed1868>0</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>PIECES CONDAMNEES_ TIREES DES FLEURS DU MAL</Section1866>
+    <Section1868>nope</Section1868>
+    <Condemned>TRUE</Condemned>
+    <PoemTitle>A CELLE QUI EST TROP GAIE</PoemTitle>
+    <PoemID>FDM-039-000-005-000</PoemID>
+</poem>
+<poem>
+    <Ed1857>20</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>6</Ed1866>
+    <Ed1868>0</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>PIECES CONDAMNEES_ TIREES DES FLEURS DU MAL</Section1866>
+    <Section1868>nope</Section1868>
+    <Condemned>TRUE</Condemned>
+    <PoemTitle>LES BIJOUX</PoemTitle>
+    <PoemID>FDM-020-000-006-000</PoemID>
+</poem>
+<poem>
+    <Ed1857>87</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>7</Ed1866>
+    <Ed1868>0</Ed1868>
+    <Section1857>FLEUR DU MAL</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>PIECES CONDAMNEES TIREES DES FLEURS DU MAL</Section1866>
+    <Section1868>nope</Section1868>
+    <Condemned>TRUE</Condemned>
+    <PoemTitle>LES METAMORPHOSES DU VAMPIRE</PoemTitle>
+    <PoemID>FDM-087-000-007-000</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>11</Ed1866>
+    <Ed1868>0</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>GALANTERIES</Section1866>
+    <Section1868>nope</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Les Promesses d�un visage</PoemTitle>
+    <PoemID>FDM-000-000-011-000</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>12</Ed1866>
+    <Ed1868>0</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>GALANTERIES</Section1866>
+    <Section1868>nope</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Le Monstre</PoemTitle>
+    <PoemID>FDM-000-000-012-000</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>21</Ed1866>
+    <Ed1868>0</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>BOUFFONNERIES</Section1866>
+    <Section1868>nope</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Sur les Debuts d�Amina Boschetti</PoemTitle>
+    <PoemID>FDM-000-000-021-000</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>22</Ed1866>
+    <Ed1868>0</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>BOUFFONNERIES</Section1866>
+    <Section1868>nope</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>A M. Eugene Fromentin</PoemTitle>
+    <PoemID>FDM-000-000-022-000</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>23</Ed1866>
+    <Ed1868>0</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>BOUFFONNERIES</Section1866>
+    <Section1868>nope</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Un Cabaret folatre</PoemTitle>
+    <PoemID>FDM-000-000-023-000</PoemID>
+</poem>
+<poem>
+    <Ed1857>1</Ed1857>
+    <Ed1861>1</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>1</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>BENEDICTION</PoemTitle>
+    <PoemID>FDM-001-001-000-001</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>2</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>2</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>L'ALBATROS</PoemTitle>
+    <PoemID>FDM-000-002-000-002</PoemID>
+</poem>
+<poem>
+    <Ed1857>3</Ed1857>
+    <Ed1861>3</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>3</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>ELEVATION</PoemTitle>
+    <PoemID>FDM-003-003-000-003</PoemID>
+</poem>
+<poem>
+    <Ed1857>4</Ed1857>
+    <Ed1861>4</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>4</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Correspondances</PoemTitle>
+    <PoemID>FDM-004-004-000-004</PoemID>
+</poem>
+<poem>
+    <Ed1857>5</Ed1857>
+    <Ed1861>5</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>5</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>J�aime le souvenir de ces epoques nues</PoemTitle>
+    <PoemID>FDM-005-005-000-005</PoemID>
+</poem>
+<poem>
+    <Ed1857>6</Ed1857>
+    <Ed1861>6</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>6</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LES PHARES</PoemTitle>
+    <PoemID>FDM-006-006-000-006</PoemID>
+</poem>
+<poem>
+    <Ed1857>7</Ed1857>
+    <Ed1861>7</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>7</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>La Muse malade</PoemTitle>
+    <PoemID>FDM-007-007-000-007</PoemID>
+</poem>
+<poem>
+    <Ed1857>8</Ed1857>
+    <Ed1861>8</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>8</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>La Muse v�nale</PoemTitle>
+    <PoemID>FDM-008-008-000-008</PoemID>
+</poem>
+<poem>
+    <Ed1857>8</Ed1857>
+    <Ed1861>9</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>9</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Le Mauvais Moine</PoemTitle>
+    <PoemID>FDM-008-009-000-009</PoemID>
+</poem>
+<poem>
+    <Ed1857>10</Ed1857>
+    <Ed1861>10</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>10</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>L'ENNEMI</PoemTitle>
+    <PoemID>FDM-010-010-000-010</PoemID>
+</poem>
+<poem>
+    <Ed1857>11</Ed1857>
+    <Ed1861>11</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>11</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Le Guignon</PoemTitle>
+    <PoemID>FDM-011-011-000-011</PoemID>
+</poem>
+<poem>
+    <Ed1857>12</Ed1857>
+    <Ed1861>12</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>12</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LA VIE ANTERIEURE</PoemTitle>
+    <PoemID>FDM-012-012-000-012</PoemID>
+</poem>
+<poem>
+    <Ed1857>13</Ed1857>
+    <Ed1861>13</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>13</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>BOHEMIENS EN VOYAGE</PoemTitle>
+    <PoemID>FDM-013-013-000-013</PoemID>
+</poem>
+<poem>
+    <Ed1857>14</Ed1857>
+    <Ed1861>14</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>14</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>L'HOMME ET LA MER</PoemTitle>
+    <PoemID>FDM-014-014-000-014</PoemID>
+</poem>
+<poem>
+    <Ed1857>15</Ed1857>
+    <Ed1861>15</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>15</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>DON JUAN AUX ENFERS</PoemTitle>
+    <PoemID>FDM-015-015-000-015</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>16</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>A Theodore de Banville</PoemTitle>
+    <PoemID>FDM-000-000-000-016</PoemID>
+</poem>
+<poem>
+    <Ed1857>16</Ed1857>
+    <Ed1861>16</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>17</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Ch�timent de l'Orgueil</PoemTitle>
+    <PoemID>FDM-016-016-000-017</PoemID>
+</poem>
+<poem>
+    <Ed1857>17</Ed1857>
+    <Ed1861>17</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>18</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LA BEAUTE</PoemTitle>
+    <PoemID>FDM-017-017-000-018</PoemID>
+</poem>
+<poem>
+    <Ed1857>18</Ed1857>
+    <Ed1861>18</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>19</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>L'IDEAL</PoemTitle>
+    <PoemID>FDM-018-018-000-019</PoemID>
+</poem>
+<poem>
+    <Ed1857>19</Ed1857>
+    <Ed1861>19</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>20</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>La Geante</PoemTitle>
+    <PoemID>FDM-019-019-000-020</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>20</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>21</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE MASQUE</PoemTitle>
+    <PoemID>FDM-000-020-000-021</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>21</Ed1861>
+    <Ed1866>10</Ed1866>
+    <Ed1868>22</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>GALANTERIES</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>HYMNE A LA BEAUTE</PoemTitle>
+    <PoemID>FDM-000-021-010-022</PoemID>
+</poem>
+<poem>
+    <Ed1857>21</Ed1857>
+    <Ed1861>22</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>23</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Parfun exotique</PoemTitle>
+    <PoemID>FDM-021-022-000-023</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>23</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>24</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LA CHEVELURE</PoemTitle>
+    <PoemID>FDM-000-023-000-024</PoemID>
+</poem>
+<poem>
+    <Ed1857>22</Ed1857>
+    <Ed1861>24</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>25</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Je t'adore � l'�gal de la vo�te nocturne (untitled)</PoemTitle>
+    <PoemID>FDM-022-024-000-025</PoemID>
+</poem>
+<poem>
+    <Ed1857>23</Ed1857>
+    <Ed1861>25</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>26</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Tu mettrais l'univers entier dans ta ruelle (untitled)</PoemTitle>
+    <PoemID>FDM-023-025-000-026</PoemID>
+</poem>
+<poem>
+    <Ed1857>24</Ed1857>
+    <Ed1861>26</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>27</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>SED NON SATIATA</PoemTitle>
+    <PoemID>FDM-024-026-000-027</PoemID>
+</poem>
+<poem>
+    <Ed1857>25</Ed1857>
+    <Ed1861>27</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>28</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Avec ses vetements ondoyants et nacres</PoemTitle>
+    <PoemID>FDM-025-027-000-028</PoemID>
+</poem>
+<poem>
+    <Ed1857>26</Ed1857>
+    <Ed1861>28</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>29</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE SERPENT QUI DANSE</PoemTitle>
+    <PoemID>FDM-026-028-000-029</PoemID>
+</poem>
+<poem>
+    <Ed1857>27</Ed1857>
+    <Ed1861>29</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>30</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>UNE CHAROGNE</PoemTitle>
+    <PoemID>FDM-027-029-000-030</PoemID>
+</poem>
+<poem>
+    <Ed1857>28</Ed1857>
+    <Ed1861>30</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>31</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>DE PROFUNDIS CLAMAVI</PoemTitle>
+    <PoemID>FDM-028-030-000-031</PoemID>
+</poem>
+<poem>
+    <Ed1857>29</Ed1857>
+    <Ed1861>31</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>32</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE VAMPIRE</PoemTitle>
+    <PoemID>FDM-029-031-000-032</PoemID>
+</poem>
+<poem>
+    <Ed1857>31</Ed1857>
+    <Ed1861>32</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>33</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Une nuit que j�etais pres d�une Juive</PoemTitle>
+    <PoemID>FDM-031-032-000-033</PoemID>
+</poem>
+<poem>
+    <Ed1857>32</Ed1857>
+    <Ed1861>33</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>34</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>REMORDS POSTHUME</PoemTitle>
+    <PoemID>FDM-032-033-000-034</PoemID>
+</poem>
+<poem>
+    <Ed1857>33</Ed1857>
+    <Ed1861>34</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>35</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE CHAT (Viens_ mon beau chat)</PoemTitle>
+    <PoemID>FDM-033-034-000-035</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>35</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>36</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Duellum</PoemTitle>
+    <PoemID>FDM-000-035-000-036</PoemID>
+</poem>
+<poem>
+    <Ed1857>34</Ed1857>
+    <Ed1861>36</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>37</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE BALCON</PoemTitle>
+    <PoemID>FDM-034-036-000-037</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>37</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>38</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE POSSEDE</PoemTitle>
+    <PoemID>FDM-000-037-000-038</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>38</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>39</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>UN FANTOME</PoemTitle>
+    <PoemID>FDM-000-038-000-039</PoemID>
+</poem>
+<poem>
+    <Ed1857>35</Ed1857>
+    <Ed1861>39</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>40</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Je te donne ces versa fin que si mon nom</PoemTitle>
+    <PoemID>FDM-035-039-000-040</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>40</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>41</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>SEMPER EADEM</PoemTitle>
+    <PoemID>FDM-000-040-000-041</PoemID>
+</poem>
+<poem>
+    <Ed1857>36</Ed1857>
+    <Ed1861>41</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>42</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>TOUT ENTIERE</PoemTitle>
+    <PoemID>FDM-036-041-000-042</PoemID>
+</poem>
+<poem>
+    <Ed1857>37</Ed1857>
+    <Ed1861>42</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>43</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Que diras-tu ce soir_ pauvre �me solitaire (untitled)</PoemTitle>
+    <PoemID>FDM-037-042-000-043</PoemID>
+</poem>
+<poem>
+    <Ed1857>38</Ed1857>
+    <Ed1861>43</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>44</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Le Flambeau vivant</PoemTitle>
+    <PoemID>FDM-038-043-000-044</PoemID>
+</poem>
+<poem>
+    <Ed1857>40</Ed1857>
+    <Ed1861>44</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>45</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Reversibilite</PoemTitle>
+    <PoemID>FDM-040-044-000-045</PoemID>
+</poem>
+<poem>
+    <Ed1857>41</Ed1857>
+    <Ed1861>45</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>46</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>CONFESSION</PoemTitle>
+    <PoemID>FDM-041-045-000-046</PoemID>
+</poem>
+<poem>
+    <Ed1857>42</Ed1857>
+    <Ed1861>46</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>47</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>L�Aube spirituelle</PoemTitle>
+    <PoemID>FDM-042-046-000-047</PoemID>
+</poem>
+<poem>
+    <Ed1857>43</Ed1857>
+    <Ed1861>47</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>48</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Harmonie du soir</PoemTitle>
+    <PoemID>FDM-043-047-000-048</PoemID>
+</poem>
+<poem>
+    <Ed1857>44</Ed1857>
+    <Ed1861>48</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>49</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE FLACON</PoemTitle>
+    <PoemID>FDM-044-048-000-049</PoemID>
+</poem>
+<poem>
+    <Ed1857>45</Ed1857>
+    <Ed1861>49</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>50</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE POISON</PoemTitle>
+    <PoemID>FDM-045-049-000-050</PoemID>
+</poem>
+<poem>
+    <Ed1857>46</Ed1857>
+    <Ed1861>50</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>51</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Ciel brouille</PoemTitle>
+    <PoemID>FDM-046-050-000-051</PoemID>
+</poem>
+<poem>
+    <Ed1857>47</Ed1857>
+    <Ed1861>51</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>52</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE CHAT (Dans ma cervelle se prom�ne)</PoemTitle>
+    <PoemID>FDM-047-051-000-052</PoemID>
+</poem>
+<poem>
+    <Ed1857>48</Ed1857>
+    <Ed1861>52</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>53</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE BEAU NAVIRE</PoemTitle>
+    <PoemID>FDM-048-052-000-053</PoemID>
+</poem>
+<poem>
+    <Ed1857>49</Ed1857>
+    <Ed1861>53</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>54</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>L�Invitation au voyage</PoemTitle>
+    <PoemID>FDM-049-053-000-054</PoemID>
+</poem>
+<poem>
+    <Ed1857>50</Ed1857>
+    <Ed1861>54</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>55</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>L'Irr�parable</PoemTitle>
+    <PoemID>FDM-050-054-000-055</PoemID>
+</poem>
+<poem>
+    <Ed1857>51</Ed1857>
+    <Ed1861>55</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>56</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Causerie</PoemTitle>
+    <PoemID>FDM-051-055-000-056</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>56</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>57</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>CHANT D'AUTOMNE</PoemTitle>
+    <PoemID>FDM-000-056-000-057</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>57</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>58</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>A une Madone</PoemTitle>
+    <PoemID>FDM-000-057-000-058</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>58</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>59</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>CHANSON D'APRES-MIDI</PoemTitle>
+    <PoemID>FDM-000-058-000-059</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>59</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>60</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>SISINA</PoemTitle>
+    <PoemID>FDM-000-059-000-060</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>14</Ed1866>
+    <Ed1868>61</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>EPIGRAPHES</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Vers pour le portrait d�Honore Daumier</PoemTitle>
+    <PoemID>FDM-000-000-014-061</PoemID>
+</poem>
+<poem>
+    <Ed1857>53</Ed1857>
+    <Ed1861>60</Ed1861>
+    <Ed1866>13</Ed1866>
+    <Ed1868>62</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>GALANTERIES</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>FRANCISCAE MEAE LAUDES (missing poem??)</PoemTitle>
+    <PoemID>FDM-053-060-013-062</PoemID>
+</poem>
+<poem>
+    <Ed1857>54</Ed1857>
+    <Ed1861>61</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>63</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>A UNE DAME CREOLE</PoemTitle>
+    <PoemID>FDM-054-061-000-063</PoemID>
+</poem>
+<poem>
+    <Ed1857>55</Ed1857>
+    <Ed1861>62</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>64</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Moesta et errabunda</PoemTitle>
+    <PoemID>FDM-055-062-000-064</PoemID>
+</poem>
+<poem>
+    <Ed1857>72</Ed1857>
+    <Ed1861>63</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>65</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE REVENANT</PoemTitle>
+    <PoemID>FDM-072-063-000-065</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>64</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>66</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>SONNET D'AUTOMNE</PoemTitle>
+    <PoemID>FDM-000-064-000-066</PoemID>
+</poem>
+<poem>
+    <Ed1857>75</Ed1857>
+    <Ed1861>65</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>67</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>TRISTESSE DE LA LUNE</PoemTitle>
+    <PoemID>FDM-075-065-000-067</PoemID>
+</poem>
+<poem>
+    <Ed1857>56</Ed1857>
+    <Ed1861>66</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>68</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LES CHATS</PoemTitle>
+    <PoemID>FDM-056-066-000-068</PoemID>
+</poem>
+<poem>
+    <Ed1857>57</Ed1857>
+    <Ed1861>67</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>69</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Les Hiboux</PoemTitle>
+    <PoemID>FDM-057-067-000-069</PoemID>
+</poem>
+<poem>
+    <Ed1857>77</Ed1857>
+    <Ed1861>68</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>70</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LA PIPE</PoemTitle>
+    <PoemID>FDM-077-068-000-070</PoemID>
+</poem>
+<poem>
+    <Ed1857>76</Ed1857>
+    <Ed1861>69</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>71</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LA MUSIQUE</PoemTitle>
+    <PoemID>FDM-076-069-000-071</PoemID>
+</poem>
+<poem>
+    <Ed1857>74</Ed1857>
+    <Ed1861>70</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>72</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>SEPULTURE D'UN POETE MAUDIT</PoemTitle>
+    <PoemID>FDM-074-070-000-072</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>71</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>73</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Une Gravure fantastique</PoemTitle>
+    <PoemID>FDM-000-071-000-073</PoemID>
+</poem>
+<poem>
+    <Ed1857>73</Ed1857>
+    <Ed1861>72</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>74</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE MORT JOYEUX</PoemTitle>
+    <PoemID>FDM-073-072-000-074</PoemID>
+</poem>
+<poem>
+    <Ed1857>71</Ed1857>
+    <Ed1861>73</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>75</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Le Tonneau de la haine</PoemTitle>
+    <PoemID>FDM-071-073-000-075</PoemID>
+</poem>
+<poem>
+    <Ed1857>58</Ed1857>
+    <Ed1861>74</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>76</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LA CLOCHE FELEE</PoemTitle>
+    <PoemID>FDM-058-074-000-076</PoemID>
+</poem>
+<poem>
+    <Ed1857>59</Ed1857>
+    <Ed1861>75</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>77</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>SPLEEN (Pluvi�se_ irrit�)</PoemTitle>
+    <PoemID>FDM-059-075-000-077</PoemID>
+</poem>
+<poem>
+    <Ed1857>60</Ed1857>
+    <Ed1861>76</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>78</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Spleen (j�ai plus de souvenirs)</PoemTitle>
+    <PoemID>FDM-060-076-000-078</PoemID>
+</poem>
+<poem>
+    <Ed1857>61</Ed1857>
+    <Ed1861>77</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>79</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>SPLEEN (Je suis comme le roi)</PoemTitle>
+    <PoemID>FDM-061-077-000-079</PoemID>
+</poem>
+<poem>
+    <Ed1857>62</Ed1857>
+    <Ed1861>78</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>80</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>SPLEEN (Quand le ciel bas et lourd)</PoemTitle>
+    <PoemID>FDM-062-078-000-080</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>79</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>81</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Obsession</PoemTitle>
+    <PoemID>FDM-000-079-000-081</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>80</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>82</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE GOUT DU NEANT</PoemTitle>
+    <PoemID>FDM-000-080-000-082</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>81</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>83</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>ALCHIMIE DE LA DOULEUR</PoemTitle>
+    <PoemID>FDM-000-081-000-083</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>82</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>84</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Horreur sympathique</PoemTitle>
+    <PoemID>FDM-000-082-000-084</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>85</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Le Calumet de paix_ imite de Longfellow</PoemTitle>
+    <PoemID>FDM-000-000-000-085</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>86</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LA PRIERE D'UN PA�EN</PoemTitle>
+    <PoemID>FDM-000-000-000-086</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>87</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE COUVERCLE</PoemTitle>
+    <PoemID>FDM-000-000-000-087</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>18</Ed1866>
+    <Ed1868>88</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>PIECES DIVERSES</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>L'IMPREVU</PoemTitle>
+    <PoemID>FDM-000-000-018-088</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>89</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>L'EXAMEN DE MINUIT</PoemTitle>
+    <PoemID>FDM-000-000-000-089</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>90</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>MADRIGAL TRISTE</PoemTitle>
+    <PoemID>FDM-000-000-000-090</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>91</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>L'AVERTISSEUR</PoemTitle>
+    <PoemID>FDM-000-000-000-091</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>20</Ed1866>
+    <Ed1868>92</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>PIECES DIVERSES</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>A UNE MALABARAISE</PoemTitle>
+    <PoemID>FDM-000-000-020-092</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>17</Ed1866>
+    <Ed1868>93</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>PIECES DIVERSES</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LA VOIX</PoemTitle>
+    <PoemID>FDM-000-000-017-093</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>94</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>HYMNE</PoemTitle>
+    <PoemID>FDM-000-000-000-094</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>95</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE REBELLE</PoemTitle>
+    <PoemID>FDM-000-000-000-095</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>9</Ed1866>
+    <Ed1868>96</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>GALANTERIES</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Les Yeux de Berthe</PoemTitle>
+    <PoemID>FDM-000-000-009-096</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>8</Ed1866>
+    <Ed1868>97</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>GALANTERIES</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE JET D'EAU</PoemTitle>
+    <PoemID>FDM-000-000-008-097</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>19</Ed1866>
+    <Ed1868>98</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>PIECES DIVERSES</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>La Rancon</PoemTitle>
+    <PoemID>FDM-000-000-019-098</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>99</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Bien loin d�ici</PoemTitle>
+    <PoemID>FDM-000-000-000-099</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>1</Ed1866>
+    <Ed1868>100</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>Le Epaves</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE COUCHER DU SOLEIL ROMANTIQUE</PoemTitle>
+    <PoemID>FDM-000-000-001-100</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>16</Ed1866>
+    <Ed1868>101</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>EPIGRAPHES</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Sur le Tasse en prison d�Eugene Delacroix</PoemTitle>
+    <PoemID>FDM-000-000-016-101</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>102</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE GOUFFRE</PoemTitle>
+    <PoemID>FDM-000-000-000-102</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>103</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LES PLAINTES D'UN ICARE</PoemTitle>
+    <PoemID>FDM-000-000-000-103</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>104</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>RECUEILLEMENT</PoemTitle>
+    <PoemID>FDM-000-000-000-104</PoemID>
+</poem>
+<poem>
+    <Ed1857>52</Ed1857>
+    <Ed1861>83</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>105</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>L'HEAUTONTIMOROUMENOS</PoemTitle>
+    <PoemID>FDM-052-083-000-105</PoemID>
+</poem>
+<poem>
+    <Ed1857>64</Ed1857>
+    <Ed1861>84</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>106</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>L'IRREMEDIABLE</PoemTitle>
+    <PoemID>FDM-064-084-000-106</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>85</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>107</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>SPLEEN ET ID�AL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>L'HORLOGE</PoemTitle>
+    <PoemID>FDM-000-085-000-107</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>86</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>108</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Paysage</PoemTitle>
+    <PoemID>FDM-000-086-000-108</PoemID>
+</poem>
+<poem>
+    <Ed1857>2</Ed1857>
+    <Ed1861>87</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>109</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE SOLEIL</PoemTitle>
+    <PoemID>FDM-002-087-000-109</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>15</Ed1866>
+    <Ed1868>110</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>EPIGRAPHES</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Lola de Valence</PoemTitle>
+    <PoemID>FDM-000-000-015-110</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>111</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LA LUNE OFFENSEE</PoemTitle>
+    <PoemID>FDM-000-000-000-111</PoemID>
+</poem>
+<poem>
+    <Ed1857>65</Ed1857>
+    <Ed1861>88</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>112</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>A UNE MENDIANTE ROUSSE</PoemTitle>
+    <PoemID>FDM-065-088-000-112</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>89</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>113</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE CYGNE</PoemTitle>
+    <PoemID>FDM-000-089-000-113</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>90</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>114</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LES SEPT VIEILLARDS</PoemTitle>
+    <PoemID>FDM-000-090-000-114</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>91</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>115</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LES PETITES VIEILLES</PoemTitle>
+    <PoemID>FDM-000-091-000-115</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>92</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>116</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Les Aveugles</PoemTitle>
+    <PoemID>FDM-000-092-000-116</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>93</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>117</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>A UNE PASSANTE</PoemTitle>
+    <PoemID>FDM-000-093-000-117</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>94</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>118</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Le Squelette laboureur</PoemTitle>
+    <PoemID>FDM-000-094-000-118</PoemID>
+</poem>
+<poem>
+    <Ed1857>67</Ed1857>
+    <Ed1861>95</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>119</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE CREPUSCULE DU SOIR</PoemTitle>
+    <PoemID>FDM-067-095-000-119</PoemID>
+</poem>
+<poem>
+    <Ed1857>66</Ed1857>
+    <Ed1861>96</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>120</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE JEU</PoemTitle>
+    <PoemID>FDM-066-096-000-120</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>97</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>121</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>DANSE MACABRE</PoemTitle>
+    <PoemID>FDM-000-097-000-121</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>98</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>122</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>L'AMOUR DU MENSONGE</PoemTitle>
+    <PoemID>FDM-000-098-000-122</PoemID>
+</poem>
+<poem>
+    <Ed1857>70</Ed1857>
+    <Ed1861>99</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>123</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>CII Je n'ai pas oubli�_ voisine de la ville (untitled)</PoemTitle>
+    <PoemID>FDM-070-099-000-123</PoemID>
+</poem>
+<poem>
+    <Ed1857>69</Ed1857>
+    <Ed1861>100</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>124</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>CIII La servante au grand coeur dont vous �tiez jalousie (untitled)</PoemTitle>
+    <PoemID>FDM-069-100-000-124</PoemID>
+</poem>
+<poem>
+    <Ed1857>63</Ed1857>
+    <Ed1861>101</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>125</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>BRUMES ET PLUIES</PoemTitle>
+    <PoemID>FDM-063-101-000-125</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>102</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>126</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Reve parisien</PoemTitle>
+    <PoemID>FDM-000-102-000-126</PoemID>
+</poem>
+<poem>
+    <Ed1857>68</Ed1857>
+    <Ed1861>103</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>127</Ed1868>
+    <Section1857>SPLEEN ET ID�AL</Section1857>
+    <Section1861>SPLEEN ET ID�AL</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>TABLEAUX PARISIENS</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Le Crepuscule du matin</PoemTitle>
+    <PoemID>FDM-068-103-000-127</PoemID>
+</poem>
+<poem>
+    <Ed1857>93</Ed1857>
+    <Ed1861>104</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>128</Ed1868>
+    <Section1857>LE VIN</Section1857>
+    <Section1861>LE VIN</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>LE VIN</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>L'AME DU VIN</PoemTitle>
+    <PoemID>FDM-093-104-000-128</PoemID>
+</poem>
+<poem>
+    <Ed1857>94</Ed1857>
+    <Ed1861>105</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>129</Ed1868>
+    <Section1857>LE VIN</Section1857>
+    <Section1861>LE VIN</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>LE VIN</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE VIN DES CHIFFONNIERS</PoemTitle>
+    <PoemID>FDM-094-105-000-129</PoemID>
+</poem>
+<poem>
+    <Ed1857>95</Ed1857>
+    <Ed1861>106</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>130</Ed1868>
+    <Section1857>LE VIN</Section1857>
+    <Section1861>LE VIN</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>LE VIN</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE VIN DE L'ASSASSIN</PoemTitle>
+    <PoemID>FDM-095-106-000-130</PoemID>
+</poem>
+<poem>
+    <Ed1857>96</Ed1857>
+    <Ed1861>107</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>131</Ed1868>
+    <Section1857>LE VIN</Section1857>
+    <Section1861>LE VIN</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>LE VIN</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE VIN DU SOLITAIRE</PoemTitle>
+    <PoemID>FDM-096-107-000-131</PoemID>
+</poem>
+<poem>
+    <Ed1857>97</Ed1857>
+    <Ed1861>108</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>132</Ed1868>
+    <Section1857>LE VIN</Section1857>
+    <Section1861>LE VIN</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>LE VIN</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE VIN DES AMANTS</PoemTitle>
+    <PoemID>FDM-097-108-000-132</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>0</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>133</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>nope</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>FLEUR DU MAL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Epigraphe pour un livre condamne</PoemTitle>
+    <PoemID>FDM-000-000-000-133</PoemID>
+</poem>
+<poem>
+    <Ed1857>78</Ed1857>
+    <Ed1861>109</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>134</Ed1868>
+    <Section1857>FLEUR DU MAL</Section1857>
+    <Section1861>LE VIN</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>FLEUR DU MAL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>La Destruction</PoemTitle>
+    <PoemID>FDM-078-109-000-134</PoemID>
+</poem>
+<poem>
+    <Ed1857>79</Ed1857>
+    <Ed1861>110</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>135</Ed1868>
+    <Section1857>FLEUR DU MAL</Section1857>
+    <Section1861>LE VIN</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>FLEUR DU MAL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>UNE MARTYRE</PoemTitle>
+    <PoemID>FDM-079-110-000-135</PoemID>
+</poem>
+<poem>
+    <Ed1857>82</Ed1857>
+    <Ed1861>111</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>136</Ed1868>
+    <Section1857>FLEUR DU MAL</Section1857>
+    <Section1861>LE VIN</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>FLEUR DU MAL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>FEMMES DAMNEES (Comme un b�tail pensif)</PoemTitle>
+    <PoemID>FDM-082-111-000-136</PoemID>
+</poem>
+<poem>
+    <Ed1857>83</Ed1857>
+    <Ed1861>112</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>137</Ed1868>
+    <Section1857>FLEUR DU MAL</Section1857>
+    <Section1861>LE VIN</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>FLEUR DU MAL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LES DEUX BONNES SOEURS</PoemTitle>
+    <PoemID>FDM-083-112-000-137</PoemID>
+</poem>
+<poem>
+    <Ed1857>84</Ed1857>
+    <Ed1861>113</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>138</Ed1868>
+    <Section1857>FLEUR DU MAL</Section1857>
+    <Section1861>LE VIN</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>FLEUR DU MAL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>La Fontaine du sang</PoemTitle>
+    <PoemID>FDM-084-113-000-138</PoemID>
+</poem>
+<poem>
+    <Ed1857>85</Ed1857>
+    <Ed1861>114</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>139</Ed1868>
+    <Section1857>FLEUR DU MAL</Section1857>
+    <Section1861>LE VIN</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>FLEUR DU MAL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>ALLEGORIE</PoemTitle>
+    <PoemID>FDM-085-114-000-139</PoemID>
+</poem>
+<poem>
+    <Ed1857>86</Ed1857>
+    <Ed1861>115</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>140</Ed1868>
+    <Section1857>FLEUR DU MAL</Section1857>
+    <Section1861>LE VIN</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>FLEUR DU MAL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>La Beatrice</PoemTitle>
+    <PoemID>FDM-086-115-000-140</PoemID>
+</poem>
+<poem>
+    <Ed1857>88</Ed1857>
+    <Ed1861>116</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>141</Ed1868>
+    <Section1857>FLEUR DU MAL</Section1857>
+    <Section1861>LE VIN</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>FLEUR DU MAL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>UN VOYAGE A CYTHERE</PoemTitle>
+    <PoemID>FDM-088-116-000-141</PoemID>
+</poem>
+<poem>
+    <Ed1857>89</Ed1857>
+    <Ed1861>117</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>142</Ed1868>
+    <Section1857>FLEUR DU MAL</Section1857>
+    <Section1861>LE VIN</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>FLEUR DU MAL</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>L�Amour et le crane</PoemTitle>
+    <PoemID>FDM-089-117-000-142</PoemID>
+</poem>
+<poem>
+    <Ed1857>90</Ed1857>
+    <Ed1861>118</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>143</Ed1868>
+    <Section1857>R�VOLTE</Section1857>
+    <Section1861>R�VOLTE</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>R�VOLTE</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>Le Reniement de saint Pierre</PoemTitle>
+    <PoemID>FDM-090-118-000-143</PoemID>
+</poem>
+<poem>
+    <Ed1857>91</Ed1857>
+    <Ed1861>119</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>144</Ed1868>
+    <Section1857>R�VOLTE</Section1857>
+    <Section1861>R�VOLTE</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>R�VOLTE</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>ABEL ET CA�N</PoemTitle>
+    <PoemID>FDM-091-119-000-144</PoemID>
+</poem>
+<poem>
+    <Ed1857>92</Ed1857>
+    <Ed1861>120</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>145</Ed1868>
+    <Section1857>R�VOLTE</Section1857>
+    <Section1861>R�VOLTE</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>R�VOLTE</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LES LITANIES DE SATAN</PoemTitle>
+    <PoemID>FDM-092-120-000-145</PoemID>
+</poem>
+<poem>
+    <Ed1857>98</Ed1857>
+    <Ed1861>121</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>146</Ed1868>
+    <Section1857>LA MORT</Section1857>
+    <Section1861>LA MORT</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>LA MORT</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LA MORT DES AMANTS</PoemTitle>
+    <PoemID>FDM-098-121-000-146</PoemID>
+</poem>
+<poem>
+    <Ed1857>99</Ed1857>
+    <Ed1861>122</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>147</Ed1868>
+    <Section1857>LA MORT</Section1857>
+    <Section1861>LA MORT</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>LA MORT</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LA MORT DES PAUVRES</PoemTitle>
+    <PoemID>FDM-099-122-000-147</PoemID>
+</poem>
+<poem>
+    <Ed1857>100</Ed1857>
+    <Ed1861>123</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>148</Ed1868>
+    <Section1857>LA MORT</Section1857>
+    <Section1861>LA MORT</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>LA MORT</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>La Mort des artistes</PoemTitle>
+    <PoemID>FDM-100-123-000-148</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>124</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>149</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>LA MORT</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>LA MORT</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>La Fin de la journee</PoemTitle>
+    <PoemID>FDM-000-124-000-149</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>125</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>150</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>LA MORT</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>LA MORT</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE REVE D'UN CURIEUX</PoemTitle>
+    <PoemID>FDM-000-125-000-150</PoemID>
+</poem>
+<poem>
+    <Ed1857>0</Ed1857>
+    <Ed1861>126</Ed1861>
+    <Ed1866>0</Ed1866>
+    <Ed1868>151</Ed1868>
+    <Section1857>nope</Section1857>
+    <Section1861>LA MORT</Section1861>
+    <Section1866>nope</Section1866>
+    <Section1868>LA MORT</Section1868>
+    <Condemned>FALSE</Condemned>
+    <PoemTitle>LE VOYAGE</PoemTitle>
+    <PoemID>FDM-000-126-000-151</PoemID>
+</poem>
+</poems>

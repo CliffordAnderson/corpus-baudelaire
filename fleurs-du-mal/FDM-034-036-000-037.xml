@@ -27,7 +27,6 @@
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
-        <!--Below, insert the number of the poem, according to the established protocol-->
         <idno>FDM-034-036-000-037</idno>
       </publicationStmt>
       <sourceDesc>
@@ -83,13 +82,6 @@
             </biblStruct>
           </witness>
         </listWit>
-        <!-- create witList in sourceDesc with the different editions and their bib data
-1. 1857 Unexpurgated xml:id="U1857"
-2. 1857 Expurgated xml:id="E1857"
-3. 1861 2nd edition censored xml:id="FDM1861"
-4. 1866 Les Epaves xml:id="1866"
-5. 1868 3rd edition - posthumous xml:id="1868"
--->
         <!--
 <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
 for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
@@ -112,16 +104,18 @@ Online Distributed Proofreading Team.</p>
         </head>
         <lg type="stanza" subtype="cinquain">
           <l n="1">Mère des souvenirs, maîtresse des maîtresses,</l>
-          <l n="2"><app>
+          <l n="2">
+            <app>
               <lem wit="#U1857">—</lem>
               <rdg wit="#FDM1861 #FDM1868"/>
-            </app> O toi, tous mes plaisirs<app>
+            </app>O toi, tous mes plaisirs<app>
               <lem wit="#U1857">,</lem>
               <rdg wit="#FDM1861 #FDM1868">!</rdg>
-            </app> ô toi, tous mes devoirs! <app>
+            </app>ô toi, tous mes devoirs!<app>
               <lem wit="#U1857">—</lem>
               <rdg wit="#FDM1861 #FDM1868"/>
-            </app></l>
+            </app>
+          </l>
           <l n="3">Tu te rappelleras la beauté des caresses,</l>
           <l n="4">La douceur du foyer et le charme des soirs,</l>
           <l n="5">Mère des souvenirs, maîtresse des maîtresses!</l>
@@ -131,7 +125,8 @@ Online Distributed Proofreading Team.</p>
           <l n="7">Et les soirs au balcon, voilés de vapeurs roses<app>
               <lem wit="#U1857">;</lem>
               <rdg wit="#FDM1861 #FDM1868">.</rdg>
-            </app></l>
+            </app>
+          </l>
           <l n="8">Que ton sein m'était doux! que ton cœur m'était bon!</l>
           <l n="9">Nous avons dit souvent d'impérissables choses</l>
           <l n="10">Les soirs illuminés par l'ardeur du charbon.</l>
@@ -150,7 +145,8 @@ Online Distributed Proofreading Team.</p>
           <l n="19">Et tes pieds s'endormaient dans mes mains fraternelles<app>
               <lem wit="#U1857">;</lem>
               <rdg wit="#FDM1861 #FDM1868">.</rdg>
-            </app></l>
+            </app>
+          </l>
           <l n="20">La nuit s'épaississait ainsi qu'une cloison.</l>
         </lg>
         <lg type="stanza" subtype="cinquain">
