@@ -27,11 +27,7 @@ and include the title with the article in a rend attribute. -->
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
-        <!-- Insert identification number. See the Editions Table 
-(https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) 
-to derive the numerical ID Code. -->
         <idno>FDM-093-104-000-128</idno>
-        <!--insert id no in above element account to established format-->
       </publicationStmt>
       <sourceDesc>
         <listWit>

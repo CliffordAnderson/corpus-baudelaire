@@ -24,7 +24,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
-        <!--Below, insert the number of the poem, according to the established protocol-->
         <idno>FDM-035-039-000-040</idno>
       </publicationStmt>
       <sourceDesc>
