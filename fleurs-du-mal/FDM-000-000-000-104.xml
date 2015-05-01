@@ -7,13 +7,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <fileDesc>
 <titleStmt>
 <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-<title rend="La Mort des pauvres">Mort des pauvres</title>
+<title rend="RECUEILLEMENT">RECUEILLEMENT</title>
 <author>Charles Baudelaire</author>
-<respStmt>
-<resp>Encoded by</resp>
-<!--In the line below, Insert your initials as the XML id and your name between the tags-->
-<name xml:id="SW">Steven Wenz</name>
-</respStmt>
+                <respStmt>
+                    <resp>Basic Markup</resp>
+                    <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+                    <name xml:id="TMF">Tim Foster</name>
+                </respStmt>
 <sponsor>Jean and Alexander Heard Library</sponsor>
 </titleStmt>
 <publicationStmt>
@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </address>
 <date>2014</date>
 <!--Below, insert the number of the poem, according to the established protocol-->
-<idno>FDM-099-122-000-147</idno>
+<idno>FDM-000-000-000-104</idno>
 </publicationStmt>
 <sourceDesc>
 <listWit>
@@ -142,33 +142,34 @@ Online Distributed Proofreading Team.</p>
 </teiHeader>
 <text>
 <body>
-<div type="poem">
+<div type="poem" subtype="sonnet">
 <head>
-<title>La Mort des pauvres</title>
+<title type="main">Recueillement</title>
 </head>
 <lg type="stanza" subtype="quatrain" n="1">
-<l n="1">C'est la Mort qui console, hélas! et qui fait vivre;</l>
-<l n="2">C'est le but de la vie, et c'est le seul espoir</l>
-<l n="3">Qui, comme un élixir, nous monte et nous enivre,</l>
-<l n="4">Et nous donne le coeur de marcher jusqu'au soir;</l>
+<l n="1">Sois sage, ô ma Douleur, et tiens-toi plus tranquille.</l>
+<l n="2">Tu réclamais le Soir; il descend; le voici:</l>
+<l n="3">Une atmosphère obscure enveloppe la ville,</l>
+<l n="4">Aux uns portant la paix, aux autres le souci.</l>
 </lg>
 <lg type="stanza" subtype="quatrain" n="2">
-<l n="1">À travers la tempête, et la neige, et le givre,</l>
-<l n="2">C'est la clarté vibrante à notre horizon noir</l>
-<l n="3">C'est l'auberge fameuse inscrite sur le livre,</l>
-<l n="4">Où l'on pourra manger, et dormir, et s'asseoir;</l>
+<l n="5">Pendant que des mortels la multitude vile,</l>
+<l n="6">Sous le fouet du Plaisir, ce bourreau sans merci,</l>
+<l n="7">Va cueillir des remords dans la fête servile,</l>
+<l n="8">Ma Douleur, donne-moi la main; viens par ici,</l>
 </lg>
 <lg type="stanza" subtype="tercet" n="3">
-<l n="1">C'est un Ange qui tient dans ses doigts magnétiques</l>
-<l n="2">Le sommeil et le don des rêves extatiques,</l>
-<l n="3">Et qui refait le lit des gens pauvres et nus;</l>
+<l n="9">Loin d'eux. Vois se pencher les défuntes Années,</l>
+<l n="10">Sur les balcons du ciel, en robes surannées;</l>
+<l n="11">Surgir du fond des eaux le Regret souriant;</l>
 </lg>
 <lg type="stanza" subtype="tercet" n="4">
-<l n="1">C'est la gloire des Dieux, c'est le grenier mystique,</l>
-<l n="2">C'est la bourse du pauvre et sa patrie antique,</l>
-<l n="3">C'est le portique ouvert sur les Cieux inconnus!</l>
+<l n="12">Le soleil moribond s'endormir sous une arche,</l>
+<l n="13">Et, comme un long linceul traînant à l'Orient,</l>
+<l n="14">Entends, ma chère, entends la douce Nuit qui marche.</l>
 </lg>
 </div>
 </body>
 </text>
 </TEI>
+

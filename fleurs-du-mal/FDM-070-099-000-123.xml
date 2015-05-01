@@ -7,13 +7,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <fileDesc>
 <titleStmt>
 <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-<title rend="La Mort des pauvres">Mort des pauvres</title>
+<title rend="JE N'AI PAS OUBLIÉ, VOISINE DE LA VILLE">JE N'AI PAS OUBLIÉ, VOISINE DE LA VILLE</title>
 <author>Charles Baudelaire</author>
-<respStmt>
-<resp>Encoded by</resp>
-<!--In the line below, Insert your initials as the XML id and your name between the tags-->
-<name xml:id="SW">Steven Wenz</name>
-</respStmt>
+                <respStmt>
+                    <resp>Basic Markup</resp>
+                    <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+                    <name xml:id="TMF">Tim Foster</name>
+                </respStmt>
 <sponsor>Jean and Alexander Heard Library</sponsor>
 </titleStmt>
 <publicationStmt>
@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </address>
 <date>2014</date>
 <!--Below, insert the number of the poem, according to the established protocol-->
-<idno>FDM-099-122-000-147</idno>
+<idno>FDM-070-099-000-123</idno>
 </publicationStmt>
 <sourceDesc>
 <listWit>
@@ -144,31 +144,22 @@ Online Distributed Proofreading Team.</p>
 <body>
 <div type="poem">
 <head>
-<title>La Mort des pauvres</title>
+<title type="main">Je n'ai pas oublié, voisine de la ville</title>
 </head>
-<lg type="stanza" subtype="quatrain" n="1">
-<l n="1">C'est la Mort qui console, hélas! et qui fait vivre;</l>
-<l n="2">C'est le but de la vie, et c'est le seul espoir</l>
-<l n="3">Qui, comme un élixir, nous monte et nous enivre,</l>
-<l n="4">Et nous donne le coeur de marcher jusqu'au soir;</l>
-</lg>
-<lg type="stanza" subtype="quatrain" n="2">
-<l n="1">À travers la tempête, et la neige, et le givre,</l>
-<l n="2">C'est la clarté vibrante à notre horizon noir</l>
-<l n="3">C'est l'auberge fameuse inscrite sur le livre,</l>
-<l n="4">Où l'on pourra manger, et dormir, et s'asseoir;</l>
-</lg>
-<lg type="stanza" subtype="tercet" n="3">
-<l n="1">C'est un Ange qui tient dans ses doigts magnétiques</l>
-<l n="2">Le sommeil et le don des rêves extatiques,</l>
-<l n="3">Et qui refait le lit des gens pauvres et nus;</l>
-</lg>
-<lg type="stanza" subtype="tercet" n="4">
-<l n="1">C'est la gloire des Dieux, c'est le grenier mystique,</l>
-<l n="2">C'est la bourse du pauvre et sa patrie antique,</l>
-<l n="3">C'est le portique ouvert sur les Cieux inconnus!</l>
+<lg type="stanza" n="1">
+<l n="1">Je n'ai pas oublié, voisine de la ville,</l>
+<l n="2">Notre blanche maison, petite mais tranquille;</l>
+<l n="3">Sa Pomone de plâtre et sa vieille Vénus</l>
+<l n="4">Dans un bosquet chétif cachant leurs membres nus,</l>
+<l n="5">Et le soleil, le soir, ruisselant et superbe,</l>
+<l n="6">Qui, derrière la vitre où se brisait sa gerbe</l>
+<l n="7">Semblait, grand oeil ouvert dans le ciel curieux,</l>
+<l n="8">Contempler nos dîners longs et silencieux,</l>
+<l n="9">Répandant largement ses beaux reflets de cierge</l>
+<l n="10">Sur la nappe frugale et les rideaux de serge.</l>
 </lg>
 </div>
 </body>
 </text>
 </TEI>
+

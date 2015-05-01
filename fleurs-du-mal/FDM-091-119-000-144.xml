@@ -10,9 +10,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>Abel et Caïn</title>
             <author>Charles Baudelaire</author>
             <respStmt>
-               <resp>Encoded by</resp>
+               <resp>Basic Markup</resp>
                <!--In the line below, Insert your initials as the XML id and your name between the tags-->
                <name xml:id="ZB">Zora Breeding</name>
+            </respStmt>
+            <respStmt>
+               <resp>Critical Apparatus</resp>
+               <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+               <name ref="#ZB">Zora Breeding</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
@@ -42,22 +47,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <publisher>Poulet-Malassis et De Broise</publisher>
                            <date>1857</date>
                            <note>Original edition with condemned pieces</note>
-                        </imprint>
-                        <extent>248 p.</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
-               <witness xml:id="E1857">
-                  <desc>1857 Expurgated</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Les Fleurs du Mal</title>
-                        <author>Charles Baudelaire</author>
-                        <imprint>
-                           <pubPlace>Paris</pubPlace>
-                           <publisher>Poulet-Malassis et De Broise</publisher>
-                           <date>1857</date>
-                           <note>Original edition with condemned pieces removed</note>
                         </imprint>
                         <extent>248 p.</extent>
                      </monogr>
@@ -124,17 +113,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <div type="poem">
             <head>
                <title type="main">ABEL ET <app>
-                     <lem wit="#U1857 #E1857">CAIN</lem>
+                     <lem wit="#U1857">CAIN</lem>
                      <rdg wit="#FDM1861 #FDM1868">CAÏN</rdg>
                   </app></title>
             </head>
+<!-- This is the encoding we were hoping to use, but it only works for the first <head> element and not the second.  <head><app><lem wit="#U1857"/><rdg wit="#FDM1861 #FDM1868">I</rdg></app></head> -->
             <lg type="stanza" subtype="couplet" n="1">
                <l n="1">Race d'Abel, dors, bois et mange<app>
-                     <lem wit="#U1857 #E1857">:</lem>
+                     <lem wit="#U1857">:</lem>
                      <rdg wit="#FDM1861 #FDM1868">;</rdg>
                   </app></l>
                <l n="2">Dieu te sourit complaisamment<app>
-                     <lem wit="#U1857 #E1857">.</lem>
+                     <lem wit="#U1857">.</lem>
                      <rdg wit="#FDM1861 #FDM1868">,</rdg>
                   </app></l>
             </lg>
@@ -168,33 +158,33 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </lg>
             <lg type="stanza" subtype="couplet" n="9">
                <l n="17">Race d'Abel, <app>
-                     <lem wit="#U1857 #E1857">sans peur</lem>
+                     <lem wit="#U1857">sans peur</lem>
                      <rdg wit="#FDM1861 #FDM1868">aime et</rdg>
                   </app> pullule<app>
-                     <lem wit="#U1857 #E1857">:</lem>
+                     <lem wit="#U1857">:</lem>
                      <rdg wit="#FDM1861 #FDM1868">!</rdg>
                   </app></l>
                <l n="18"><app>
-                     <lem wit="#U1857 #E1857">L'argent fait aussi ses</lem>
+                     <lem wit="#U1857">L'argent fait aussi ses</lem>
                      <rdg wit="#FDM1861 #FDM1868">Ton or fait aussi des</rdg>
                   </app> petits<app>
-                     <lem wit="U1857 #E1857">;</lem>
+                     <lem wit="U1857 ">;</lem>
                      <rdg wit="#FDM1861 #FDM1868">.</rdg>
                   </app></l>
             </lg>
             <lg type="stanza" subtype="couplet" n="10">
                <l n="19">Race de Caïn, <app>
-                     <lem wit="#U1857 #E1857">ton</lem>
+                     <lem wit="#U1857">ton</lem>
                      <rdg wit="#FDM1861 #FDM1868"/>
                   </app>coeur <app>
-                     <lem wit="#U1857 #E1857"/>
+                     <lem wit="#U1857"/>
                      <rdg wit="#FDM1861 #FDM1868">qui</rdg>
                   </app> brûle<app>
-                     <lem wit="#U1857 #E1857">;</lem>
+                     <lem wit="#U1857">;</lem>
                      <rdg wit="#FDM1861 #FDM1868">,</rdg>
                   </app></l>
                <l n="20"><app>
-                     <lem wit="#U1857 #E1857">Eteins ces cruels</lem>
+                     <lem wit="#U1857">Eteins ces cruels</lem>
                      <rdg wit="#FDM1861 #FDM1868">Prends garde à ces grands</rdg>
                   </app> appétits.</l>
             </lg>
@@ -206,9 +196,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <l n="23">Race de Caïn, sur les routes</l>
                <l n="24">Traîne ta famille aux abois.</l>
             </lg>
+            <!-- The second heading, II, would appear here -->
             <lg type="stanza" subtype="couplet" n="13">
                <l n="25"><app>
-                     <lem wit="#U1857 #E1857">—</lem>
+                     <lem wit="#U1857">—</lem>
                      <rdg wit="#FDM1861 #FDM1868"/>
                   </app>Ah! race d'Abel, ta charogne</l>
                <l n="26">Engraissera le sol fumant!</l>

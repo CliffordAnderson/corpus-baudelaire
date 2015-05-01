@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <fileDesc>
 <titleStmt>
 <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-<title rend="Le Guignon">Guignon</title>
+<title rend="Ciel brouillé">Ciel brouillé</title>
 <author>Charles Baudelaire</author>
 <respStmt>
 <resp>Encoded by</resp>
@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </address>
 <date>2014</date>
 <!--Below, insert the number of the poem, according to the established protocol-->
-<idno>FDM-011-011-000-011</idno>
+<idno>FDM-046-050-000-051</idno>
 </publicationStmt>
 <sourceDesc>
 <listWit>
@@ -144,29 +144,31 @@ Online Distributed Proofreading Team.</p>
 <body>
 <div type="poem">
 <head>
-<title>Le Guignon</title>
+<title>Ciel brouillé</title>
 </head>
 <lg type="stanza" subtype="quatrain" n="1">
-<l n="1">Pour soulever un poids si lourd,</l>
-<l n="2">Sisyphe, il faudrait ton courage!</l>
-<l n="3">Bien qu'on ait du coeur à l'ouvrage,</l>
-<l n="4">L'Art est long et le Temps est court.</l>
+<l n="1">On dirait ton regard d'une vapeur couvert;</l>
+<l n="2">Ton oeil mystérieux (est-il bleu, gris ou vert?)</l>
+<l n="3">Alternativement tendre, rêveur, cruel,</l>
+<l n="4">Réfléchit l'indolence et la pâleur du ciel.</l>
 </lg>
 <lg type="stanza" subtype="quatrain" n="2">
-<l n="1">Loin des sépultures célèbres,</l>
-<l n="2">Vers un cimetière isolé,</l>
-<l n="3">Mon coeur, comme un tambour voilé,</l>
-<l n="4">Va battant des marches funèbres.</l>
+<l n="1">Tu rappelles ces jours blancs, tièdes et voilés,</l>
+<l n="2">Qui font se fondre en pleurs les coeurs ensorcelés,</l>
+<l n="3">Quand, agités d'un mal inconnu qui les tord,</l>
+<l n="4">Les nerfs trop éveillés raillent l'esprit qui dort.</l>
 </lg>
-<lg type="stanza" subtype="tercet" n="3">
-<l n="1">— Maint joyau dort enseveli</l>
-<l n="2">Dans les ténèbres et l'oubli,</l>
-<l n="3">Bien loin des pioches et des sondes;</l>
+<lg type="stanza" subtype="quatrain" n="3">
+<l n="1">Tu ressembles parfois à ces beaux horizons</l>
+<l n="2">Qu'allument les soleils des brumeuses saisons...</l>
+<l n="3">Comme tu resplendis, paysage mouillé</l>
+<l n="4">Qu'enflamment les rayons tombant d'un ciel brouillé!</l>
 </lg>
-<lg type="stanza" subtype="tercet" n="4">
-<l n="1">Mainte fleur épanche à regret</l>
-<l n="2">Son parfum doux comme un secret </l>
-<l n="3">Dans les solitudes profondes.</l>
+<lg type="stanza" subtype="quatrain" n="4">
+<l n="1">Ô femme dangereuse, ô séduisants climats!</l>
+<l n="2">Adorerai-je aussi ta neige et vos frimas,</l>
+<l n="3">Et saurai-je tirer de l'implacable hiver</l>
+<l n="4">Des plaisirs plus aigus que la glace et le fer?</l>
 </lg>
 </div>
 </body>

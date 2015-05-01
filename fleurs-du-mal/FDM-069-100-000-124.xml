@@ -7,13 +7,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <fileDesc>
 <titleStmt>
 <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-<title rend="La Mort des pauvres">Mort des pauvres</title>
+<title rend="LA SERVANTE AU GRAND COEUR DONT VOUS ÉTIEZ JALOUSE">SERVANTE AU GRAND COEUR DONT VOUS ÉTIEZ JALOUSE</title>
 <author>Charles Baudelaire</author>
-<respStmt>
-<resp>Encoded by</resp>
-<!--In the line below, Insert your initials as the XML id and your name between the tags-->
-<name xml:id="SW">Steven Wenz</name>
-</respStmt>
+                <respStmt>
+                    <resp>Basic Markup</resp>
+                    <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+                    <name xml:id="TMF">Tim Foster</name>
+                </respStmt>
 <sponsor>Jean and Alexander Heard Library</sponsor>
 </titleStmt>
 <publicationStmt>
@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </address>
 <date>2014</date>
 <!--Below, insert the number of the poem, according to the established protocol-->
-<idno>FDM-099-122-000-147</idno>
+<idno>FDM-069-100-000-124</idno>
 </publicationStmt>
 <sourceDesc>
 <listWit>
@@ -144,31 +144,34 @@ Online Distributed Proofreading Team.</p>
 <body>
 <div type="poem">
 <head>
-<title>La Mort des pauvres</title>
+<title type="main">La servante au grand coeur dont vous étiez jalouse</title>
 </head>
-<lg type="stanza" subtype="quatrain" n="1">
-<l n="1">C'est la Mort qui console, hélas! et qui fait vivre;</l>
-<l n="2">C'est le but de la vie, et c'est le seul espoir</l>
-<l n="3">Qui, comme un élixir, nous monte et nous enivre,</l>
-<l n="4">Et nous donne le coeur de marcher jusqu'au soir;</l>
-</lg>
-<lg type="stanza" subtype="quatrain" n="2">
-<l n="1">À travers la tempête, et la neige, et le givre,</l>
-<l n="2">C'est la clarté vibrante à notre horizon noir</l>
-<l n="3">C'est l'auberge fameuse inscrite sur le livre,</l>
-<l n="4">Où l'on pourra manger, et dormir, et s'asseoir;</l>
-</lg>
-<lg type="stanza" subtype="tercet" n="3">
-<l n="1">C'est un Ange qui tient dans ses doigts magnétiques</l>
-<l n="2">Le sommeil et le don des rêves extatiques,</l>
-<l n="3">Et qui refait le lit des gens pauvres et nus;</l>
-</lg>
-<lg type="stanza" subtype="tercet" n="4">
-<l n="1">C'est la gloire des Dieux, c'est le grenier mystique,</l>
-<l n="2">C'est la bourse du pauvre et sa patrie antique,</l>
-<l n="3">C'est le portique ouvert sur les Cieux inconnus!</l>
+<lg type="stanza" n="1">
+<l n="1">La servante au grand coeur dont vous étiez jalouse,</l>
+<l n="2">Et qui dort son sommeil sous une humble pelouse,</l>
+<l n="3">Nous devrions pourtant lui porter quelques fleurs.</l>
+<l n="4">Les morts, les pauvres morts, ont de grandes douleurs,</l>
+<l n="5">Et quand Octobre souffle, émondeur des vieux arbres,</l>
+<l n="6">Son vent mélancolique à l'entour de leurs marbres,</l>
+<l n="7">Certe, ils doivent trouver les vivants bien ingrats,</l>
+<l n="8">À dormir, comme ils font, chaudement dans leurs draps,</l>
+<l n="9">Tandis que, dévorés de noires songeries,</l>
+<l n="10">Sans compagnon de lit, sans bonnes causeries,</l>
+<l n="11">Vieux squelettes gelés travaillés par le ver,</l>
+<l n="12">Ils sentent s'égoutter les neiges de l'hiver</l>
+<l n="13">Et le siècle couler, sans qu'amis ni famille</l>
+<l n="14">Remplacent les lambeaux qui pendent à leur grille.</l>
+<l n="15">Lorsque la bûche siffle et chante, si le soir</l>
+<l n="16">Calme, dans le fauteuil je la voyais s'asseoir,</l>
+<l n="17">Si, par une nuit bleue et froide de décembre,</l>
+<l n="18">Je la trouvais tapie en un coin de ma chambre,</l>
+<l n="19">Grave, et venant du fond de son lit éternel</l>
+<l n="20">Couver l'enfant grandi de son oeil maternel,</l>
+<l n="21">Que pourrais-je répondre à cette âme pieuse,</l>
+<l n="22">Voyant tomber des pleurs de sa paupière creuse?</l>
 </lg>
 </div>
 </body>
 </text>
 </TEI>
+

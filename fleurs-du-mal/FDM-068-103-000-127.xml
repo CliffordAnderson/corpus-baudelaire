@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <fileDesc>
 <titleStmt>
 <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-<title rend="La Mort des pauvres">Mort des pauvres</title>
+<title rend="Le Crépuscule du matin">Crépuscule du matin</title>
 <author>Charles Baudelaire</author>
 <respStmt>
 <resp>Encoded by</resp>
@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </address>
 <date>2014</date>
 <!--Below, insert the number of the poem, according to the established protocol-->
-<idno>FDM-099-122-000-147</idno>
+<idno>FDM-068-103-000-127</idno>
 </publicationStmt>
 <sourceDesc>
 <listWit>
@@ -144,29 +144,43 @@ Online Distributed Proofreading Team.</p>
 <body>
 <div type="poem">
 <head>
-<title>La Mort des pauvres</title>
+<title>Le Crépuscule du matin</title>
 </head>
-<lg type="stanza" subtype="quatrain" n="1">
-<l n="1">C'est la Mort qui console, hélas! et qui fait vivre;</l>
-<l n="2">C'est le but de la vie, et c'est le seul espoir</l>
-<l n="3">Qui, comme un élixir, nous monte et nous enivre,</l>
-<l n="4">Et nous donne le coeur de marcher jusqu'au soir;</l>
+<lg type="stanza" n="1">
+<l n="1">La diane chantait dans les cours des casernes,</l>
+<l n="2">Et le vent du matin soufflait sur les lanternes.</l>
 </lg>
-<lg type="stanza" subtype="quatrain" n="2">
-<l n="1">À travers la tempête, et la neige, et le givre,</l>
-<l n="2">C'est la clarté vibrante à notre horizon noir</l>
-<l n="3">C'est l'auberge fameuse inscrite sur le livre,</l>
-<l n="4">Où l'on pourra manger, et dormir, et s'asseoir;</l>
+<lg type="stanza" n="2">
+<l n="1">C'était l'heure où l'essaim des rêves malfaisants</l>
+<l n="2">Tord sur leurs oreillers les bruns adolescents;</l>
+<l n="3">Où, comme un oeil sanglant qui palpite et qui bouge,</l>
+<l n="4">La lampe sur le jour fait une tache rouge;</l>
+<l n="5">Où l'âme, sous le poids du corps revêche et lourd,</l>
+<l n="6">Imite les combats de la lampe et du jour.</l>
+<l n="7">Comme un visage en pleurs que les brises essuient,</l>
+<l n="8">L'air est plein du frisson des choses qui s'enfuient,</l>
+<l n="9">Et l'homme est las d'écrire et la femme d'aimer.</l>
 </lg>
-<lg type="stanza" subtype="tercet" n="3">
-<l n="1">C'est un Ange qui tient dans ses doigts magnétiques</l>
-<l n="2">Le sommeil et le don des rêves extatiques,</l>
-<l n="3">Et qui refait le lit des gens pauvres et nus;</l>
+<lg type="stanza" n="3">
+<l n="1">Les maisons çà et là commençaient à fumer.</l>
+<l n="2">Les femmes de plaisir, la paupière livide,</l>
+<l n="3">Bouche ouverte, dormaient de leur sommeil stupide;</l>
+<l n="4">Les pauvresses, traînant leurs seins maigres et froids,</l>
+<l n="5">Soufflaient sur leurs tisons et soufflaient sur leurs doigts.</l>
+<l n="6">C'était l'heure où parmi le froid et la lésine</l>
+<l n="7">S'aggravent les douleurs des femmes en gésine;</l>
+<l n="8">Comme un sanglot coupé par un sang écumeux</l>
+<l n="9">Le chant du coq au loin déchirait l'air brumeux</l>
+<l n="10">Une mer de brouillards baignait les édifices,</l>
+<l n="11">Et les agonisants dans le fond des hospices</l>
+<l n="12">Poussaient leur dernier râle en hoquets inégaux.</l>
+<l n="13">Les débauchés rentraient, brisés par leurs travaux.</l>
 </lg>
-<lg type="stanza" subtype="tercet" n="4">
-<l n="1">C'est la gloire des Dieux, c'est le grenier mystique,</l>
-<l n="2">C'est la bourse du pauvre et sa patrie antique,</l>
-<l n="3">C'est le portique ouvert sur les Cieux inconnus!</l>
+<lg type="stanza" n="4">
+<l n="1">L'aurore grelottante en robe rose et verte</l>
+<l n="2">S'avançait lentement sur la Seine déserte,</l>
+<l n="3">Et le sombre Paris, en se frottant les yeux</l>
+<l n="4">Empoignait ses outils, vieillard laborieux.</l>
 </lg>
 </div>
 </body>
