@@ -25,7 +25,6 @@
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
-        <!--Below, insert the number of the poem, according to the established protocol-->
         <idno>FDM-024-026-000-027</idno>
       </publicationStmt>
       <sourceDesc>
@@ -81,13 +80,6 @@
             </biblStruct>
           </witness>
         </listWit>
-        <!-- create witList in sourceDesc with the different editions and their bib data
-1. 1857 Unexpurgated xml:id="U1857"
-2. 1857 Expurgated xml:id="E1857"
-3. 1861 2nd edition censored xml:id="FDM1861"
-4. 1866 Les Epaves xml:id="1866"
-5. 1868 3rd edition - posthumous xml:id="1868"
--->
         <!--
 <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
 for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
@@ -129,7 +121,7 @@ Online Distributed Proofreading Team.</p>
             <app>
               <lem wit="#U1857">verse moi</lem>
               <rdg wit="#FDM1861 #FDM1868">verse-moi</rdg>
-            </app> moins de flamme;</l>
+            </app>moins de flamme;</l>
           <l n="11">Je ne suis pas le Styx pour t'embrasser neuf fois,</l>
         </lg>
         <lg type="stanza" subtype="tercet">

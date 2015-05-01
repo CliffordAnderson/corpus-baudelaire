@@ -10,7 +10,7 @@
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
         </respStmt>
-         <respStmt>
+        <respStmt>
           <resp>Critical Apparatus</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="TMF">Tim Foster</name>
@@ -27,7 +27,6 @@
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
-        <!--Below, insert the number of the poem, according to the established protocol-->
         <idno>FDM-000-000-001-100</idno>
       </publicationStmt>
       <sourceDesc>
@@ -71,13 +70,6 @@
             </biblStruct>
           </witness>
         </listWit>
-        <!-- create witList in sourceDesc with the different editions and their bib data
-1. 1857 Unexpurgated xml:id="U1857"
-2. 1857 Expurgated xml:id="E1857"
-3. 1861 2nd edition censored xml:id="FDM1861"
-4. 1866 Les Epaves xml:id="1866"
-5. 1868 3rd edition - posthumous xml:id="1868"
--->
         <!--
 <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
 for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
@@ -118,19 +110,16 @@ Online Distributed Proofreading Team.</p>
         <lg type="tercet" n="4">
           <l n="12">Une odeur de tombeau dans les ténèbres nage,</l>
           <l n="13">Et mon pied peureux froisse, au bord du marécage,</l>
-          <l n="14">Des crapauds imprévus et de froids limaçons
-          <app>
-                     <lem wit="#LE1866"><note n="1"
-                           anchored="true" place="bottom">
-                           <p>Le mot: <emph style="italics">Genus irritabile vatum</emph>, date de bien des siècles avant les querelles des Classiques, des Romantiques, des Réalistes, des Euphuistes, etc... Il est évident que par <emph style="italics">l'irrésistible Nuit</emph> M. Charles Baudelaire a voulu caractériser l'état actuel de la litérature, et que les <emph style="italics">crapauds imprévus</emph> et les <emph style="italics">froids limaçons</emph> sont les écrivains qui ne sont pas de son école.</p>
-                           <p>Ce sonnet a été composé en 1862, pour servir d'épilogue à un livre de M. Charles Asselineau, qui n'a pas paru: <emph style="italics">Mélanges tires d'une petite bibliothèque romantique</emph>; lequel devait avoir pour prologue un sonnet de M. Théodore de Banville: <emph style="italics">Le lever du soleil romantique</emph>.</p>
-                           <p>(<emph style="italics">Note de l'éditeur</emph>.)</p>
-                           </note>
-                           </lem>
-                     <rdg wit="#F1868"/>
-                  </app>
-          
-          .</l>
+          <l n="14">Des crapauds imprévus et de froids limaçons<app>
+              <lem wit="#LE1866">
+                <note n="1" anchored="true" place="bottom">
+                  <p>Le mot:<emph style="italics">Genus irritabile vatum</emph>, date de bien des siècles avant les querelles des Classiques, des Romantiques, des Réalistes, des Euphuistes, etc... Il est évident que par<emph style="italics">l'irrésistible Nuit</emph>M. Charles Baudelaire a voulu caractériser l'état actuel de la litérature, et que les<emph style="italics">crapauds imprévus</emph>et les<emph style="italics">froids limaçons</emph>sont les écrivains qui ne sont pas de son école.</p>
+                  <p>Ce sonnet a été composé en 1862, pour servir d'épilogue à un livre de M. Charles Asselineau, qui n'a pas paru:<emph style="italics">Mélanges tires d'une petite bibliothèque romantique</emph>; lequel devait avoir pour prologue un sonnet de M. Théodore de Banville:<emph style="italics">Le lever du soleil romantique</emph>.</p>
+                  <p>(<emph style="italics">Note de l'éditeur</emph>.)</p>
+                </note>
+              </lem>
+              <rdg wit="#F1868"/>
+            </app>.</l>
         </lg>
       </div>
     </body>

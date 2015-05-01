@@ -22,7 +22,6 @@
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
-        <!--Below, insert the number of the poem, according to the established protocol-->
         <idno>FDM-031-032-000-033</idno>
       </publicationStmt>
       <sourceDesc>
@@ -38,22 +37,6 @@
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1857</date>
                   <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="E1857">
-            <desc>1857 Expurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces removed</note>
                 </imprint>
                 <extent>248 p.</extent>
               </monogr>
@@ -115,13 +98,6 @@
             </biblStruct>
           </witness>
         </listWit>
-        <!-- create witList in sourceDesc with the different editions and their bib data
-1. 1857 Unexpurgated xml:id="U1857"
-2. 1857 Expurgated xml:id="E1857"
-3. 1861 2nd edition censored xml:id="FDM1861"
-4. 1866 Les Epaves xml:id="1866"
-5. 1868 3rd edition - posthumous xml:id="1868"
--->
         <!--
 <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
 for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
