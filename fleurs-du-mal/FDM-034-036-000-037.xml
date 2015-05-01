@@ -48,22 +48,6 @@
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="E1857">
-            <desc>1857 Expurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces removed</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -129,13 +113,13 @@ Online Distributed Proofreading Team.</p>
         <lg type="stanza" subtype="cinquain">
           <l n="1">Mère des souvenirs, maîtresse des maîtresses,</l>
           <l n="2"><app>
-              <lem wit="#U1857 #E1857">—</lem>
+              <lem wit="#U1857">—</lem>
               <rdg wit="#FDM1861 #FDM1868"/>
             </app> O toi, tous mes plaisirs<app>
-              <lem wit="#U1857 #E1857">,</lem>
+              <lem wit="#U1857">,</lem>
               <rdg wit="#FDM1861 #FDM1868">!</rdg>
             </app> ô toi, tous mes devoirs! <app>
-              <lem wit="#U1857 #E1857">—</lem>
+              <lem wit="#U1857">—</lem>
               <rdg wit="#FDM1861 #FDM1868"/>
             </app></l>
           <l n="3">Tu te rappelleras la beauté des caresses,</l>
@@ -145,7 +129,7 @@ Online Distributed Proofreading Team.</p>
         <lg type="stanza" subtype="cinquain">
           <l n="6">Les soirs iluminés par l'ardeur du charbon,</l>
           <l n="7">Et les soirs au balcon, voilés de vapeurs roses<app>
-              <lem wit="#U1857 #E1857">;</lem>
+              <lem wit="#U1857">;</lem>
               <rdg wit="#FDM1861 #FDM1868">.</rdg>
             </app></l>
           <l n="8">Que ton sein m'était doux! que ton cœur m'était bon!</l>
@@ -164,7 +148,7 @@ Online Distributed Proofreading Team.</p>
           <l n="17">Et mes yeux dans le noir devinaient tes prunelles</l>
           <l n="18">Et je buvais ton souffle, ô douceur, ô poison!,</l>
           <l n="19">Et tes pieds s'endormaient dans mes mains fraternelles<app>
-              <lem wit="#U1857 #E1857">;</lem>
+              <lem wit="#U1857">;</lem>
               <rdg wit="#FDM1861 #FDM1868">.</rdg>
             </app></l>
           <l n="20">La nuit s'épaississait ainsi qu'une cloison.</l>

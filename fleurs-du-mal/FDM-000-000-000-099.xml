@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <fileDesc>
             <titleStmt>
                 <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-                <title>Bien loin d'ici</title>
+                <title rend="BIEN LOIN D'ICI">BIEN LOIN D'ICI</title>
                 <author>Charles Baudelaire</author>
                 <respStmt>
                     <resp>Encoded by</resp>
@@ -144,7 +144,7 @@ Online Distributed Proofreading Team.</p>
     <text>
         <body>
             <div type="poem">
-                <head><title>Bien loin d'ici</title></head>
+                <head><title type="main">Bien loin d'ici</title></head>
                     <lg type="stanza" subtype="tercet" n="1">
                         <l n="1">C'est ici la case sacrée</l>
                         <l n="2">Où cette fille très parée,</l>
