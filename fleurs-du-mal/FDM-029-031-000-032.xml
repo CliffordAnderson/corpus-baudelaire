@@ -27,7 +27,6 @@
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
-        <!--Below, insert the number of the poem, according to the established protocol-->
         <idno>FDM-029-031-000-032</idno>
       </publicationStmt>
       <sourceDesc>
@@ -83,13 +82,6 @@
             </biblStruct>
           </witness>
         </listWit>
-        <!-- create witList in sourceDesc with the different editions and their bib data
-1. 1857 Unexpurgated xml:id="U1857"
-2. 1857 Expurgated xml:id="E1857"
-3. 1861 2nd edition censored xml:id="FDM1861"
-4. 1866 Les Epaves xml:id="1866"
-5. 1868 3rd edition - posthumous xml:id="1868"
--->
         <!--
 <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
 for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
@@ -115,14 +107,15 @@ Online Distributed Proofreading Team.</p>
           <l n="2">Dans mon cœur plaintif es entrée<app>
               <lem wit="#U1857">,</lem>
               <rdg wit="#FDM1861 #FDM1868">;</rdg>
-            </app></l>
-          <l n="3">Toi qui, <app>
+            </app>
+          </l>
+          <l n="3">Toi qui,<app>
               <lem wit="#U1857"/>
               <rdg wit="#FDM1861 #FDM1868">forte</rdg>
-            </app>comme un <app>
+            </app>comme un<app>
               <lem wit="#U1857">hideux</lem>
               <rdg wit="#FDM1861 #FDM1868"/>
-            </app> troupeau</l>
+            </app>troupeau</l>
           <l n="4">De démons, vins, folle et parée,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
@@ -130,7 +123,8 @@ Online Distributed Proofreading Team.</p>
           <l n="6">Faire ton lit et ton domaine<app>
               <lem wit="#U1857">,</lem>
               <rdg wit="#FDM1861 #FDM1868">;</rdg>
-            </app></l>
+            </app>
+          </l>
           <l n="7">— Infâme à qui je suis lié</l>
           <l n="8">Comme le forçat à la chaîne,</l>
         </lg>

@@ -1,131 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title rend="Les Phares">Phares</title>
-            <author>Charles Baudelaire</author>
-            <respStmt>
-               <resp>Encoded by</resp>
-               <name xml:id="EW">Ed Warga</name>
-            </respStmt>
-            <sponsor>Jean and Alexander Heard Library</sponsor>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>Jean and Alexander Heard Library</publisher>
-            <pubPlace>Nashville</pubPlace>
-            <address>
-               <addrLine>Jean and Alexander Heard Library</addrLine>
-               <addrLine>419 21st Avenue South</addrLine>
-               <addrLine>Nashville, TN 37203</addrLine>
-               <addrLine>USA</addrLine>
-            </address>
-            <date>2014</date>
-            <idno>FDM-006-006-000-006</idno>
-            <!--insert id no in above element account to established format-->
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="U1857">
-                  <desc>1857 Unexpurgated</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Les Fleurs du Mal</title>
-                        <author>Charles Baudelaire</author>
-                        <imprint>
-                           <pubPlace>Paris</pubPlace>
-                           <publisher>Poulet-Malassis et De Broise</publisher>
-                           <date>1857</date>
-                           <note>Original edition with condemned pieces</note>
-                        </imprint>
-                        <extent>248 p.</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
-               <witness xml:id="E1857">
-                  <desc>1857 Expurgated</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Les Fleurs du Mal</title>
-                        <author>Charles Baudelaire</author>
-                        <imprint>
-                           <pubPlace>Paris</pubPlace>
-                           <publisher>Poulet-Malassis et De Broise</publisher>
-                           <date>1857</date>
-                           <note>Original edition with condemned pieces removed</note>
-                        </imprint>
-                        <extent>248 p.</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
-               <witness xml:id="FDM1861">
-                  <desc>1861 2nd edition censored</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Les Fleurs du Mal</title>
-                        <author>Charles Baudelaire</author>
-                        <imprint>
-                           <pubPlace>Paris</pubPlace>
-                           <publisher>Poulet-Malassis et De Broise</publisher>
-                           <date>1861</date>
-                           <note>2nd edition augmented by 35 new poems and ornamented with a
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title rend="Les Phares">Phares</title>
+        <author>Charles Baudelaire</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <name xml:id="EW">Ed Warga</name>
+        </respStmt>
+        <sponsor>Jean and Alexander Heard Library</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Jean and Alexander Heard Library</publisher>
+        <pubPlace>Nashville</pubPlace>
+        <address>
+          <addrLine>Jean and Alexander Heard Library</addrLine>
+          <addrLine>419 21st Avenue South</addrLine>
+          <addrLine>Nashville, TN 37203</addrLine>
+          <addrLine>USA</addrLine>
+        </address>
+        <date>2014</date>
+        <idno>FDM-006-006-000-006</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="U1857">
+            <desc>1857 Unexpurgated</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1857</date>
+                  <note>Original edition with condemned pieces</note>
+                </imprint>
+                <extent>248 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="FDM1861">
+            <desc>1861 2nd edition censored</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1861</date>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a
                               portrait of the author drawn and engraved by Felix Bracquemond</note>
-                        </imprint>
-                        <extent> 319 p.</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
-               <witness xml:id="LE1866">
-                  <desc>1866 Les Epaves xml:id="1866"</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Les Épaves</title>
-                        <author>Charles Baudelaire</author>
-                        <imprint>
-                           <pubPlace>Amsterdam</pubPlace>
-                           <publisher>À L'Enseigne du Coq</publisher>
-                           <date>1866</date>
-                           <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                </imprint>
+                <extent>319 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
                               this is a false imprint, the book actually being published in Brussels
                               by Poulet-Malassis.</note>
-                           <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
                               9-55</note>
-                           <note>With a frontispeice etching by Félicien Rops</note>
-                        </imprint>
-                        <extent>163 p.</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
-               <witness xml:id="FDM1868">
-                  <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Oeuvres Complètes de Charles Baudelaire</title>
-                        <author>Charles Baudelaire</author>
-                        <editor>Théophile Gautier</editor>
-                        <imprint>
-                           <pubPlace>Paris</pubPlace>
-                           <publisher>Michel Lévy Frères</publisher>
-                           <date>1868-1873</date>
-                           <note>Volume 1 contains Les Fleurs du Mal</note>
-                        </imprint>
-                        <extent>7 volumes</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
-            </listWit>
-            <!-- create witList in sourceDesc with the different editions and their bib data
-                     1. 1857 Unexpurgated xml:id="U1857"
-                     2. 1857 Expurgated xml:id="E1857"
-                     3. 1861 2nd edition censored xml:id="FDM1861"
-                     4. 1866 Les Epaves xml:id="1866"
-                     5. 1868 3rd edition - posthumous xml:id="1868"
-            -->
-            <!--
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="FDM1868">
+            <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Oeuvres Complètes de Charles Baudelaire</title>
+                <author>Charles Baudelaire</author>
+                <editor>Théophile Gautier</editor>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Michel Lévy Frères</publisher>
+                  <date>1868-1873</date>
+                  <note>Volume 1 contains Les Fleurs du Mal</note>
+                </imprint>
+                <extent>7 volumes</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+        </listWit>
+        <!--
             <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
                for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
                You may copy it, give it away or re-use it under the terms of the Project Gutenberg
@@ -136,98 +110,93 @@
             <p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
                Online Distributed Proofreading Team.</p>
                -->
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="poem" n="4" rhyme="abab">
-            <head>
-               <title>LES PHARES</title>
-            </head>
-            <lg type="quatrain" n="1" rhyme="abba">
-               <l n="1">Rubens, fleuve d'oubli, jardin de la <rhyme label="a">paresse</rhyme>,</l>
-               <l n="2">Oreiller de chair fraîche où l'on ne peut <rhyme label="b"
-                  >aimer</rhyme>,</l>
-               <l n="3">Mais où la vie afflue et s'agite sans <rhyme label="a">cesse</rhyme>,</l>
-               <l n="4">Comme l'air dans le ciel et la mer dans la <rhyme label="b">mer</rhyme>;</l>
-            </lg>
-            <lg type="quatrain" n="2" rhyme="abba">
-               <l n="5">Léonard de Vinci, miroir profond et <rhyme label="a">sombre</rhyme>,</l>
-               <l n="6">Où des anges charmants, avec un doux <rhyme label="b">souris</rhyme></l>
-               <l n="7">Tout chargé de mystère, apparaissent à <rhyme label="a">l'ombre</rhyme></l>
-               <l n="8">Des glaciers et des pins qui ferment leur <rhyme label="b">pays</rhyme>;</l>
-            </lg>
-            <lg type="quatrain" n="3" rhyme="abba">
-               <l n="9">Rembrandt, triste hôpital tout rempli de <rhyme label="a"
-                  >murmures</rhyme>,</l>
-               <l n="10">Et d'un grand crucifix décoré <rhyme label="b">seulement</rhyme>,</l>
-               <l n="11">Où la prière en pleurs s'exhale des <rhyme label="a">ordures</rhyme>,</l>
-               <l n="12">Et d'un rayon d'hiver traversé <rhyme label="b">brusquement</rhyme>;</l>
-            </lg>
-            <lg type="quatrain" n="4" rhyme="abba">
-               <l n="13">Michel-Ange, lieu vague où l'on voit des <rhyme label="a"
-                  >Hercules</rhyme></l>
-               <l n="14">Se mêler à des Christ, et se lever tout <rhyme label="b">droits</rhyme></l>
-               <l n="15">Des fantômes puissants, qui dans les <rhyme label="a"
-                  >crépuscules</rhyme></l>
-               <l n="16">Déchirent leur suaire en étirant leurs <rhyme label="b">doigts</rhyme>;</l>
-            </lg>
-            <lg type="quatrain" n="5" rhyme="abba">
-               <l n="17">Colères de boxeur, impudences de <rhyme label="a">faune</rhyme>,</l>
-               <l n="18">Toi qui sus ramasser la beauté des <rhyme label="b">goujats</rhyme>,</l>
-               <l n="19">Grand coeur gonflé d'orgueil, homme débile et <rhyme label="a"
-                     >jaune</rhyme>,</l>
-               <l n="20">Puget, mélancolique empereur des <rhyme label="b">forçats</rhyme>;</l>
-            </lg>
-            <lg type="quatrain" n="6" rhyme="abba">
-               <l n="21">Watteau, ce carnaval où bien des coeurs <rhyme label="a"
-                  >illustres</rhyme>,</l>
-               <l n="22">Comme des papillons, errent en <rhyme label="b">flamboyant</rhyme>,</l>
-               <l n="23">Décors frais et légers éclairés par des <rhyme label="a"
-                  >lustres</rhyme></l>
-               <l n="24">Qui versent la folie à ce bal <rhyme label="b">tournoyant</rhyme>;</l>
-            </lg>
-            <lg type="quatrain" n="7" rhyme="abba">
-               <l n="25">Goya, cauchemar plein de choses <rhyme label="a">inconnues</rhyme>,</l>
-               <l n="26">De foetus qu'on fait cuire au milieu des <rhyme label="b"
-                  >sabbats</rhyme>,</l>
-               <l n="27">De vieilles au miroir et d'enfants toutes <rhyme label="a"
-                  >nues</rhyme>,</l>
-               <l n="28">Pour tenter les Démons ajustant bien leurs <rhyme label="b"
-                  >bas</rhyme>;</l>
-            </lg>
-            <lg type="quatrain" n="8" rhyme="abba">
-               <l n="29">Delacroix, lac de sang hanté des mauvais <rhyme label="a"
-                  >anges</rhyme>,</l>
-               <l n="30">Ombragé par un bois de sapin toujours <rhyme label="b">vert</rhyme>,</l>
-               <l n="31">Où, sous un ciel chagrin, des fanfares <rhyme label="a"
-                  >étranges</rhyme></l>
-               <l n="32">Passent, comme un soupir étouffé de <rhyme label="b">Weber</rhyme>;</l>
-            </lg>
-            <lg type="quatrain" n="9" rhyme="abba">
-               <l n="33">Ces malédictions, ces blasphèmes, ces <rhyme label="a"
-                  >plaintes</rhyme>,</l>
-               <l n="34">Ces extases, ces cris, ces pleurs, ces _<rhyme label="b">Te
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="poem" n="4" rhyme="abab">
+        <head>
+          <title>LES PHARES</title>
+        </head>
+        <lg type="quatrain" n="1" rhyme="abba">
+          <l n="1">Rubens, fleuve d'oubli, jardin de la<rhyme label="a">paresse</rhyme>,</l>
+          <l n="2">Oreiller de chair fraîche où l'on ne peut<rhyme label="b">aimer</rhyme>,</l>
+          <l n="3">Mais où la vie afflue et s'agite sans<rhyme label="a">cesse</rhyme>,</l>
+          <l n="4">Comme l'air dans le ciel et la mer dans la<rhyme label="b">mer</rhyme>;</l>
+        </lg>
+        <lg type="quatrain" n="2" rhyme="abba">
+          <l n="5">Léonard de Vinci, miroir profond et<rhyme label="a">sombre</rhyme>,</l>
+          <l n="6">Où des anges charmants, avec un doux<rhyme label="b">souris</rhyme>
+          </l>
+          <l n="7">Tout chargé de mystère, apparaissent à<rhyme label="a">l'ombre</rhyme>
+          </l>
+          <l n="8">Des glaciers et des pins qui ferment leur<rhyme label="b">pays</rhyme>;</l>
+        </lg>
+        <lg type="quatrain" n="3" rhyme="abba">
+          <l n="9">Rembrandt, triste hôpital tout rempli de<rhyme label="a">murmures</rhyme>,</l>
+          <l n="10">Et d'un grand crucifix décoré<rhyme label="b">seulement</rhyme>,</l>
+          <l n="11">Où la prière en pleurs s'exhale des<rhyme label="a">ordures</rhyme>,</l>
+          <l n="12">Et d'un rayon d'hiver traversé<rhyme label="b">brusquement</rhyme>;</l>
+        </lg>
+        <lg type="quatrain" n="4" rhyme="abba">
+          <l n="13">Michel-Ange, lieu vague où l'on voit des<rhyme label="a">Hercules</rhyme>
+          </l>
+          <l n="14">Se mêler à des Christ, et se lever tout<rhyme label="b">droits</rhyme>
+          </l>
+          <l n="15">Des fantômes puissants, qui dans les<rhyme label="a">crépuscules</rhyme>
+          </l>
+          <l n="16">Déchirent leur suaire en étirant leurs<rhyme label="b">doigts</rhyme>;</l>
+        </lg>
+        <lg type="quatrain" n="5" rhyme="abba">
+          <l n="17">Colères de boxeur, impudences de<rhyme label="a">faune</rhyme>,</l>
+          <l n="18">Toi qui sus ramasser la beauté des<rhyme label="b">goujats</rhyme>,</l>
+          <l n="19">Grand coeur gonflé d'orgueil, homme débile et<rhyme label="a">jaune</rhyme>,</l>
+          <l n="20">Puget, mélancolique empereur des<rhyme label="b">forçats</rhyme>;</l>
+        </lg>
+        <lg type="quatrain" n="6" rhyme="abba">
+          <l n="21">Watteau, ce carnaval où bien des coeurs<rhyme label="a">illustres</rhyme>,</l>
+          <l n="22">Comme des papillons, errent en<rhyme label="b">flamboyant</rhyme>,</l>
+          <l n="23">Décors frais et légers éclairés par des<rhyme label="a">lustres</rhyme>
+          </l>
+          <l n="24">Qui versent la folie à ce bal<rhyme label="b">tournoyant</rhyme>;</l>
+        </lg>
+        <lg type="quatrain" n="7" rhyme="abba">
+          <l n="25">Goya, cauchemar plein de choses<rhyme label="a">inconnues</rhyme>,</l>
+          <l n="26">De foetus qu'on fait cuire au milieu des<rhyme label="b">sabbats</rhyme>,</l>
+          <l n="27">De vieilles au miroir et d'enfants toutes<rhyme label="a">nues</rhyme>,</l>
+          <l n="28">Pour tenter les Démons ajustant bien leurs<rhyme label="b">bas</rhyme>;</l>
+        </lg>
+        <lg type="quatrain" n="8" rhyme="abba">
+          <l n="29">Delacroix, lac de sang hanté des mauvais<rhyme label="a">anges</rhyme>,</l>
+          <l n="30">Ombragé par un bois de sapin toujours<rhyme label="b">vert</rhyme>,</l>
+          <l n="31">Où, sous un ciel chagrin, des fanfares<rhyme label="a">étranges</rhyme>
+          </l>
+          <l n="32">Passent, comme un soupir étouffé de<rhyme label="b">Weber</rhyme>;</l>
+        </lg>
+        <lg type="quatrain" n="9" rhyme="abba">
+          <l n="33">Ces malédictions, ces blasphèmes, ces<rhyme label="a">plaintes</rhyme>,</l>
+          <l n="34">Ces extases, ces cris, ces pleurs, ces _<rhyme label="b">Te
                   Deum</rhyme>,_</l>
-               <l n="35">Sont un écho redit par mille <rhyme label="a">labyrinthes</rhyme>;</l>
-               <l n="36">C'est pour les coeurs mortels un divin <rhyme label="b">opium</rhyme>.</l>
-            </lg>
-            <lg type="quatrain" n="10" rhyme="abba">
-               <l n="37">C'est un cri répété par mille <rhyme label="a">sentinelles</rhyme>,</l>
-               <l n="38">Un ordre renvoyé par mille <rhyme label="b">porte-voix</rhyme>;</l>
-               <l n="39">C'est un phare allumé sur mille <rhyme label="a">citadelles</rhyme>,</l>
-               <l n="40">Un appel de chasseurs perdus dans les grands <rhyme label="b"
-                  >bois</rhyme>!</l>
-            </lg>
-            <lg type="quatrain" n="11" rhyme="abba">
-               <l n="41">Car c'est vraiment, Seigneur, le meilleur <rhyme label="a"
-                     >témoignage</rhyme></l>
-               <l n="42">Que nous puissions donner de notre <rhyme label="b">dignité</rhyme></l>
-               <l n="43">Que cet ardent sanglot qui roule d'âge <rhyme label="a">en âge</rhyme></l>
-               <l n="44">Et vient mourir au bord de votre <rhyme label="b">éternité</rhyme>!</l>
-            </lg>
-         </div>
-      </body>
-   </text>
+          <l n="35">Sont un écho redit par mille<rhyme label="a">labyrinthes</rhyme>;</l>
+          <l n="36">C'est pour les coeurs mortels un divin<rhyme label="b">opium</rhyme>.</l>
+        </lg>
+        <lg type="quatrain" n="10" rhyme="abba">
+          <l n="37">C'est un cri répété par mille<rhyme label="a">sentinelles</rhyme>,</l>
+          <l n="38">Un ordre renvoyé par mille<rhyme label="b">porte-voix</rhyme>;</l>
+          <l n="39">C'est un phare allumé sur mille<rhyme label="a">citadelles</rhyme>,</l>
+          <l n="40">Un appel de chasseurs perdus dans les grands<rhyme label="b">bois</rhyme>!</l>
+        </lg>
+        <lg type="quatrain" n="11" rhyme="abba">
+          <l n="41">Car c'est vraiment, Seigneur, le meilleur<rhyme label="a">témoignage</rhyme>
+          </l>
+          <l n="42">Que nous puissions donner de notre<rhyme label="b">dignité</rhyme>
+          </l>
+          <l n="43">Que cet ardent sanglot qui roule d'âge<rhyme label="a">en âge</rhyme>
+          </l>
+          <l n="44">Et vient mourir au bord de votre<rhyme label="b">éternité</rhyme>!</l>
+        </lg>
+      </div>
+    </body>
+  </text>
 </TEI>

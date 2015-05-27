@@ -1,131 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title rend="L'imprévu">Imprévu</title>
-            <author>Charles Baudelaire</author>
-            <respStmt>
-               <resp>Encoded by</resp>
-               <name xml:id="ZB">Zora Breeding</name>
-            </respStmt>
-            <sponsor>Jean and Alexander Heard Library</sponsor>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>Jean and Alexander Heard Library</publisher>
-            <pubPlace>Nashville</pubPlace>
-            <address>
-               <addrLine>Jean and Alexander Heard Library</addrLine>
-               <addrLine>419 21st Avenue South</addrLine>
-               <addrLine>Nashville, TN 37203</addrLine>
-               <addrLine>USA</addrLine>
-            </address>
-            <date>2014</date>
-            <idno>FDM-000-000-018-088</idno>
-            <!--insert id no in above element account to established format-->
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="U1857">
-                  <desc>1857 Unexpurgated</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Les Fleurs du Mal</title>
-                        <author>Charles Baudelaire</author>
-                        <imprint>
-                           <pubPlace>Paris</pubPlace>
-                           <publisher>Poulet-Malassis et De Broise</publisher>
-                           <date>1857</date>
-                           <note>Original edition with condemned pieces</note>
-                        </imprint>
-                        <extent>248 p.</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
-               <witness xml:id="E1857">
-                  <desc>1857 Expurgated</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Les Fleurs du Mal</title>
-                        <author>Charles Baudelaire</author>
-                        <imprint>
-                           <pubPlace>Paris</pubPlace>
-                           <publisher>Poulet-Malassis et De Broise</publisher>
-                           <date>1857</date>
-                           <note>Original edition with condemned pieces removed</note>
-                        </imprint>
-                        <extent>248 p.</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
-               <witness xml:id="FDM1861">
-                  <desc>1861 2nd edition censored</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Les Fleurs du Mal</title>
-                        <author>Charles Baudelaire</author>
-                        <imprint>
-                           <pubPlace>Paris</pubPlace>
-                           <publisher>Poulet-Malassis et De Broise</publisher>
-                           <date>1861</date>
-                           <note>2nd edition augmented by 35 new poems and ornamented with a
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title rend="L'imprévu">Imprévu</title>
+        <author>Charles Baudelaire</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
+        <sponsor>Jean and Alexander Heard Library</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Jean and Alexander Heard Library</publisher>
+        <pubPlace>Nashville</pubPlace>
+        <address>
+          <addrLine>Jean and Alexander Heard Library</addrLine>
+          <addrLine>419 21st Avenue South</addrLine>
+          <addrLine>Nashville, TN 37203</addrLine>
+          <addrLine>USA</addrLine>
+        </address>
+        <date>2014</date>
+        <idno>FDM-000-000-018-088</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="U1857">
+            <desc>1857 Unexpurgated</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1857</date>
+                  <note>Original edition with condemned pieces</note>
+                </imprint>
+                <extent>248 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="FDM1861">
+            <desc>1861 2nd edition censored</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1861</date>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a
                               portrait of the author drawn and engraved by Felix Bracquemond</note>
-                        </imprint>
-                        <extent> 319 p.</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
-               <witness xml:id="LE1866">
-                  <desc>1866 Les Epaves xml:id="1866"</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Les Épaves</title>
-                        <author>Charles Baudelaire</author>
-                        <imprint>
-                           <pubPlace>Amsterdam</pubPlace>
-                           <publisher>À L'Enseigne du Coq</publisher>
-                           <date>1866</date>
-                           <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                </imprint>
+                <extent>319 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
                               this is a false imprint, the book actually being published in Brussels
                               by Poulet-Malassis.</note>
-                           <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
                               9-55</note>
-                           <note>With a frontispeice etching by Félicien Rops</note>
-                        </imprint>
-                        <extent>163 p.</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
-               <witness xml:id="FDM1868">
-                  <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
-                  <biblStruct>
-                     <monogr>
-                        <title>Oeuvres Complètes de Charles Baudelaire</title>
-                        <author>Charles Baudelaire</author>
-                        <editor>Théophile Gautier</editor>
-                        <imprint>
-                           <pubPlace>Paris</pubPlace>
-                           <publisher>Michel Lévy Frères</publisher>
-                           <date>1868-1873</date>
-                           <note>Volume 1 contains Les Fleurs du Mal</note>
-                        </imprint>
-                        <extent>7 volumes</extent>
-                     </monogr>
-                  </biblStruct>
-               </witness>
-            </listWit>
-            <!-- create witList in sourceDesc with the different editions and their bib data
-                     1. 1857 Unexpurgated xml:id="U1857"
-                     2. 1857 Expurgated xml:id="E1857"
-                     3. 1861 2nd edition censored xml:id="FDM1861"
-                     4. 1866 Les Epaves xml:id="1866"
-                     5. 1868 3rd edition - posthumous xml:id="1868"
-            -->
-            <!--
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="FDM1868">
+            <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Oeuvres Complètes de Charles Baudelaire</title>
+                <author>Charles Baudelaire</author>
+                <editor>Théophile Gautier</editor>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Michel Lévy Frères</publisher>
+                  <date>1868-1873</date>
+                  <note>Volume 1 contains Les Fleurs du Mal</note>
+                </imprint>
+                <extent>7 volumes</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+        </listWit>
+        <!--
             <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
                for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
                You may copy it, give it away or re-use it under the terms of the Project Gutenberg
@@ -136,94 +110,94 @@
             <p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
                Online Distributed Proofreading Team.</p>
                -->
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="poem">
-            <head>
-               <title>L'IMPREVU </title>
-            </head>
-            <lg type="stanza" subtype="quatrain" n="1">
-               <l n="1">Harpagon, qui veillait son père agonisant,</l>
-               <l n="2">Se dit, rêveur, devant ces lèvres déjà blanches;</l>
-               <l n="3">« Nous avons au grenier un nombre suffisant,</l>
-               <l n="4">Ce me semble, de vieilles planches? » </l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="2">
-               <l n="5">Célimène roucoule et dit: « Mon coeur est bon,</l>
-               <l n="6">Et naturellement, Dieu m'a faite très belle.</l>
-               <l n="7">» --Son coeur! coeur racorni, fumé comme un jambon,</l>
-               <l n="8">Recuit à la flamme éternelle! </l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="3">
-               <l n="9">Un gazetier fumeux, qui se croit un flambeau,</l>
-               <l n="10">Dit au pauvre, qu'il a noyé dans les ténèbres:</l>
-               <l n="11">« Où donc l'aperçois-tu, ce créateur du Beau,</l>
-               <l n="12">Ce Redresseur que tu célèbres? » </l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="4">
-               <l n="13">Mieux que tous, je connais certains voluptueux</l>
-               <l n="14">Qui bâille nuit et jour, et se lamente et pleure,</l>
-               <l n="15">Répétant, l'impuissant et le fat: « Oui, je veux</l>
-               <l n="16">Etre vertueux, dans une heure! » </l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="5">
-               <l n="17">L'horloge, à son tour, dit à voix basse: « Il est mûr,</l>
-               <l n="18">Le damné! J'avertis en vain la chair infecte.</l>
-               <l n="19">L'homme est aveugle, sourd, fragile, comme un mur</l>
-               <l n="20">Qu'habite et que ronge un insecte! » </l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="6">
-               <l n="21">Et puis, Quelqu'un paraît, que tous avaient nié,</l>
-               <l n="22">Et qui leur dit, railleur et fier: « Dans mon ciboire,</l>
-               <l n="23">Vous avez, que je crois, assez communié,</l>
-               <l n="24">A la joyeuse Messe noire? </l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="7">
-               <l n="25">Chacun de vous m'a fait un temple dans son coeur;</l>
-               <l n="26">Vous avez, en secret, baisé ma fesse immonde!</l>
-               <l n="27">Reconnaissez Satan à son rire vainqueur,</l>
-               <l n="28">Enorme et laid comme le monde! </l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="8">
-               <l n="29">Avez-vous donc pu croire, hypocrites surpris,</l>
-               <l n="30">Qu'on se moque du maître, et qu'avec lui l'on triche,</l>
-               <l n="31">Et qu'il soit naturel de recevoir deux prix.</l>
-               <l n="32">D'aller au Ciel et d'être riche? </l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="9">
-               <l n="33">Il faut que le gibier paye le vieux chasseur</l>
-               <l n="34">Qui se morfond longtemps à l'affût de la proie.</l>
-               <l n="35">Je vais vous emporter à travers l'épaisseur,</l>
-               <l n="36">Compagnons de ma triste joie, </l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="10">
-               <l n="37">A travers l'épaisseur de la terre et du roc,</l>
-               <l n="38">A travers les amas confus de votre cendre,</l>
-               <l n="39">Dans un palais aussi grand que moi, d'un seul bloc,</l>
-               <l n="40">Et qui n'est pas de pierre tendre; </l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="11">
-               <l n="41">Car il fait avec l'universel Péché,</l>
-               <l n="42">Et contient mon orgueil, ma douleur et ma gloire!</l>
-               <l n="43">--Cependant, tout en haut de l'univers juché,</l>
-               <l n="44">Un Ange sonne la victoire </l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="12">
-               <l n="45">De ceux dont le coeur dit: « Que béni soit ton fouet,</l>
-               <l n="46">Seigneur! que la douleur, ô Père, soit bénie!</l>
-               <l n="47">Mon âme dans tes mains n'est pas un vain jouet,</l>
-               <l n="48">Et ta prudence est infinie. » </l>
-            </lg>
-            <lg type="stanza" subtype="quatrain" n="13">
-               <l n="49">Le son de la trompette est si délicieux,</l>
-               <l n="50">Dans ces soirs solennels de célestes vendanges,</l>
-               <l n="51">Qu'il s'infiltre comme une extase dans tous ceux</l>
-               <l n="52">Dont elle chante les louanges. </l>
-            </lg>
-         </div>
-      </body>
-   </text>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <head>
+          <title>L'IMPREVU</title>
+        </head>
+        <lg type="stanza" subtype="quatrain" n="1">
+          <l n="1">Harpagon, qui veillait son père agonisant,</l>
+          <l n="2">Se dit, rêveur, devant ces lèvres déjà blanches;</l>
+          <l n="3">« Nous avons au grenier un nombre suffisant,</l>
+          <l n="4">Ce me semble, de vieilles planches? »</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="2">
+          <l n="5">Célimène roucoule et dit: « Mon coeur est bon,</l>
+          <l n="6">Et naturellement, Dieu m'a faite très belle.</l>
+          <l n="7">» --Son coeur! coeur racorni, fumé comme un jambon,</l>
+          <l n="8">Recuit à la flamme éternelle!</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="3">
+          <l n="9">Un gazetier fumeux, qui se croit un flambeau,</l>
+          <l n="10">Dit au pauvre, qu'il a noyé dans les ténèbres:</l>
+          <l n="11">« Où donc l'aperçois-tu, ce créateur du Beau,</l>
+          <l n="12">Ce Redresseur que tu célèbres? »</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="4">
+          <l n="13">Mieux que tous, je connais certains voluptueux</l>
+          <l n="14">Qui bâille nuit et jour, et se lamente et pleure,</l>
+          <l n="15">Répétant, l'impuissant et le fat: « Oui, je veux</l>
+          <l n="16">Etre vertueux, dans une heure! »</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="5">
+          <l n="17">L'horloge, à son tour, dit à voix basse: « Il est mûr,</l>
+          <l n="18">Le damné! J'avertis en vain la chair infecte.</l>
+          <l n="19">L'homme est aveugle, sourd, fragile, comme un mur</l>
+          <l n="20">Qu'habite et que ronge un insecte! »</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="6">
+          <l n="21">Et puis, Quelqu'un paraît, que tous avaient nié,</l>
+          <l n="22">Et qui leur dit, railleur et fier: « Dans mon ciboire,</l>
+          <l n="23">Vous avez, que je crois, assez communié,</l>
+          <l n="24">A la joyeuse Messe noire?</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="7">
+          <l n="25">Chacun de vous m'a fait un temple dans son coeur;</l>
+          <l n="26">Vous avez, en secret, baisé ma fesse immonde!</l>
+          <l n="27">Reconnaissez Satan à son rire vainqueur,</l>
+          <l n="28">Enorme et laid comme le monde!</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="8">
+          <l n="29">Avez-vous donc pu croire, hypocrites surpris,</l>
+          <l n="30">Qu'on se moque du maître, et qu'avec lui l'on triche,</l>
+          <l n="31">Et qu'il soit naturel de recevoir deux prix.</l>
+          <l n="32">D'aller au Ciel et d'être riche?</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="9">
+          <l n="33">Il faut que le gibier paye le vieux chasseur</l>
+          <l n="34">Qui se morfond longtemps à l'affût de la proie.</l>
+          <l n="35">Je vais vous emporter à travers l'épaisseur,</l>
+          <l n="36">Compagnons de ma triste joie,</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="10">
+          <l n="37">A travers l'épaisseur de la terre et du roc,</l>
+          <l n="38">A travers les amas confus de votre cendre,</l>
+          <l n="39">Dans un palais aussi grand que moi, d'un seul bloc,</l>
+          <l n="40">Et qui n'est pas de pierre tendre;</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="11">
+          <l n="41">Car il fait avec l'universel Péché,</l>
+          <l n="42">Et contient mon orgueil, ma douleur et ma gloire!</l>
+          <l n="43">--Cependant, tout en haut de l'univers juché,</l>
+          <l n="44">Un Ange sonne la victoire</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="12">
+          <l n="45">De ceux dont le coeur dit: « Que béni soit ton fouet,</l>
+          <l n="46">Seigneur! que la douleur, ô Père, soit bénie!</l>
+          <l n="47">Mon âme dans tes mains n'est pas un vain jouet,</l>
+          <l n="48">Et ta prudence est infinie. »</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="13">
+          <l n="49">Le son de la trompette est si délicieux,</l>
+          <l n="50">Dans ces soirs solennels de célestes vendanges,</l>
+          <l n="51">Qu'il s'infiltre comme une extase dans tous ceux</l>
+          <l n="52">Dont elle chante les louanges.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
 </TEI>
