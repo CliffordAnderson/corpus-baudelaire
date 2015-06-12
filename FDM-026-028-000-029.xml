@@ -13,7 +13,7 @@ and include the title with the article in a rend attribute. -->
                 <title rend="LE SERPENT QUI DANSE">SERPENT QUI DANSE</title>
                 <author>Charles Baudelaire</author>
                 <respStmt>
-                    <resp>Encoded by</resp>
+                    <resp>Basic Markup by</resp>
                     <!-- Insert your name and XML ID - choose an XML ID for the project and stick with it! -->
                     <name xml:id="TG">Teresa Gray</name>
                 </respStmt>
@@ -244,3 +244,4 @@ Add l elemnts with n attributes -->
 as an individual file. Save the file using the numeric code based on the Editions Table.
 Add the TEI header from the template file. Replace values in header template
 as appropriate.-->
+

@@ -10,7 +10,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <titleStmt>
                 <!-- Title element - insert name of poem. If tile starts with an article, leave it off in the title value
 and include the title with the article in a rend attribute. -->
-                <title rend="UNE CHAROGNE">CHAROGNE</title>
+                <title rend="L'AUBE SPIRITUELLE">AUBE SPIRITUELLE</title>
                 <author>Charles Baudelaire</author>
                 <respStmt>
                     <resp>Basic Markup by</resp>
@@ -32,7 +32,7 @@ and include the title with the article in a rend attribute. -->
                 <!-- Insert identification number. See the Editions Table 
 (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) 
 to derive the numerical ID Code. -->
-                <idno>FDM-027-029-000-030</idno>
+                <idno>FDM-042-046-000-047</idno>
                 <!--insert id no in above element account to established format-->
             </publicationStmt>
             <sourceDesc>
@@ -170,89 +170,39 @@ fantôme élastique! </p>
 add the type attribute. For the type attibute value use 'poem' unless the poem 
 is a specific type like 'sonnet'. -->
             
-            <div type="poem">
+            <div type="sonnet">
                 
                 <!-- Remove all p elements
 Add head and title element -->
                 
                 <head>
-                    <title type="main">Une Charogne</title>
+                    <title type="main">L’Aube spirituelle</title>
                 </head>
                 
                 <!-- Add lg element with type, subtype, and n attributes 
 Add l elemnts with n attributes -->
                 
                 <lg type="stanza" subtype="quatrain" n="1">
-                    <l n="1">Rappelez-vous l'objet que nous vîmes, mon âme,</l>
-                    <l n="2">Ce beau matin d'été si doux:</l>
-                    <l n="3">Au détour d'un sentier une charogne infâme</l>
-                    <l n="4">Sur un lit semé de cailloux,</l>
+                    <l n="1">Quand chez les débauchés l'aube blanche et vermeille</l>
+                    <l n="2">Entre en société de l'Idéal rongeur,</l>
+                    <l n="3">Par l'opération d'un mystère vengeur</l>
+                    <l n="4">Dans la brute assoupie un ange se réveille.</l>
                 </lg>
                 <lg type="stanza" subtype="quatrain" n="2">
-                    <l n="5">Les jambes en l'air, comme une femme lubrique,</l>
-                    <l n="6">Brûlante et suant les poisons,</l>
-                    <l n="7">Ouvrait d'une façon nonchalante et cynique</l>
-                    <l n="8">Son ventre plein d'exhalaisons.</l>
+                    <l n="5">Des Cieux Spirituels l'inaccessible azur,</l>
+                    <l n="6">Pour l'homme terrassé qui rêve encore et souffre,</l>
+                    <l n="7">S'ouvre et s'enfonce avec l'attirance du gouffre.</l>
+                    <l n="8">Ainsi, chère Déesse, Etre lucide et pur,</l>
                 </lg>
-                <lg type="stanza" subtype="quatrain" n="3">
-                    <l n="9">Le soleil rayonnait sur cette pourriture,</l>
-                    <l n="10">Comme afin de la cuire à point,</l>
-                    <l n="11">Et de rendre au centuple à la grande Nature</l>
-                    <l n="12">Tout ce qu'ensemble elle avait joint;</l>
+                <lg type="stanza" subtype="tercet" n="3">
+                    <l n="9">Sur les débris fumeux des stupides orgies</l>
+                    <l n="10">Ton souvenir plus clair, plus rose, plus charmant,</l>
+                    <l n="11">À mes yeux agrandis voltige incessamment.</l>
                 </lg>
-                <lg type="stanza" subtype="quatrain" n="4">
-                    <l n="13">Et le ciel regardait la carcasse superbe</l>
-                    <l n="14">Comme une fleur s'épanouir.</l>
-                    <l n="15">La puanteur était si forte, que sur l'herbe</l>
-                    <l n="16">Vous crûtes vous évanouir.</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="5">
-                    <l n="17">Les mouches bourdonnaient sur ce ventre putride,</l>
-                    <l n="18">D'où sortaient de noirs bataillons</l>
-                    <l n="19">De larves, qui coulaient comme un épais liquide</l>
-                    <l n="20">Le long de ces vivants haillons.</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="6">
-                    <l n="21">Tout cela descendait, montait comme une vague</l>
-                    <l n="22">Ou s'élançait en pétillant;</l>
-                    <l n="23">On eût dit que le corps, enflé d'un souffle vague,</l>
-                    <l n="24">Vivait en se multipliant.</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="7">
-                    <l n="25">Et ce monde rendait une étrange musique,</l>
-                    <l n="26">Comme l'eau courante et le vent,</l>
-                    <l n="27">Ou le grain qu'un vanneur d'un mouvement rythmique</l>
-                    <l n="28">Agite et tourne dans son van.</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="8">
-                    <l n="29">Les formes s'effaçaient et n'étaient plus qu'un rêve,</l>
-                    <l n="30">Une ébauche lente à venir</l>
-                    <l n="31">Sur la toile oubliée, et que l'artiste achève</l>
-                    <l n="32">Seulement par le souvenir.</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="9">
-                    <l n="33">Derrière les rochers une chienne inquiète</l>
-                    <l n="34">Nous regardait d'un oeil fâché,</l> 
-                    <l n="35">Epiant le moment de reprendre au squelette</l>
-                    <l n="36">Le morceau qu'elle avait lâché.</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="10">
-                    <l n="37">— Et pourtant vous serez semblable à cette ordure,</l>
-                    <l n="38">À cette horrible infection,</l> 
-                    <l n="39">Etoile de mes yeux, soleil de ma nature,</l>
-                    <l n="40">Vous, mon ange et ma passion!</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="11">
-                    <l n="41">Oui! telle vous serez, ô la reine des grâces,</l>
-                    <l n="42">Apres les derniers sacrements,</l>
-                    <l n="43">Quand vous irez, sous l'herbe et les floraisons grasses,</l>
-                    <l n="44">Moisir parmi les ossements.</l>
-                </lg>
-                <lg type="stanza" subtype="quatrain" n="12">
-                    <l n="45">Alors, ô ma beauté! dites à la vermine</l>
-                    <l n="46">Qui vous mangera de baisers,</l>
-                    <l n="47">Que j'ai gardé la forme et l'essence divine</l>
-                    <l n="48">De mes amours décomposés!</l>
+                <lg type="stanza" subtype="tercet" n="4">
+                    <l n="12">Le soleil a noirci la flamme des bougies;</l>
+                    <l n="13">Ainsi, toujours vainqueur, ton fantôme est pareil,</l>
+                    <l n="14">Ame resplendissante, à l'immortel soleil!</l>
                 </lg>
             </div>
         </body>
