@@ -170,7 +170,7 @@ fantôme élastique! </p>
 add the type attribute. For the type attibute value use 'poem' unless the poem 
 is a specific type like 'sonnet'. -->
             
-            <div type="sonnet">
+            <div type="poem" subtype="sonnet">
                 
                 <!-- Remove all p elements
 Add head and title element -->
