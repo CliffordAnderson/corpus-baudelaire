@@ -6,12 +6,16 @@
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="Les Litanies de Satan">Litanies de Satan</title>
+        <title rend="LES LITANIES DE SATAN">LITANIES DE SATAN</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -122,6 +126,7 @@ Online Distributed Proofreading Team.</p>
         <head>
           <title>Les Litanies de Satan</title>
         </head>
+      <lg type="poem">  
         <lg type="couplet" n="1">
           <l n="1">Ô toi, le plus savant et le plus beau des Anges,</l>
           <l n="2">Dieu trahi par le sort et privé de louanges,</l>
@@ -226,18 +231,20 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="refrain">
           <l n="45">Ô Satan, prends pitié de ma longue misère!</l>
-        </lg>
-        <lg>
-          <l n="46">Prière</l>
-        </lg>
-        <lg type="sestet">
-          <l n="47">Gloire et louange à toi, Satan, dans les hauteurs</l>
-          <l n="48">Du Ciel, où tu régnas, et dans les profondeurs</l>
-          <l n="49">De l'Enfer, où, vaincu, tu rêves en silence!</l>
-          <l n="50">Fais que mon âme un jour, sous l'Arbre de Science,</l>
-          <l n="51">Près de toi se repose, à l'heure où sur ton front</l>
-          <l n="52">Comme un Temple nouveau ses rameaux s'épandront!</l>
-        </lg>
+        </lg></lg>
+       <lg type="poem">
+         <head>
+           <title type="main">Prière</title>
+         </head>
+         <lg type="sestet">
+           <l n="1">Gloire et louange à toi, Satan, dans les hauteurs</l>
+           <l n="2">Du Ciel, où tu régnas, et dans les profondeurs</l>
+           <l n="3">De l'Enfer, où, vaincu, tu rêves en silence!</l>
+           <l n="4">Fais que mon âme un jour, sous l'Arbre de Science,</l>
+           <l n="5">Près de toi se repose, à l'heure où sur ton front</l>
+           <l n="6">Comme un Temple nouveau ses rameaux s'épandront!</l>
+         </lg>
+       </lg>          
       </div>
     </body>
   </text>
