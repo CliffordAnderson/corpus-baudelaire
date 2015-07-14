@@ -6,7 +6,8 @@ declare variable $model:collection := fn:collection("fleurs-du-mal");
 declare function model:get-poem-by-idno($idno) {
     for $doc in $model:collection
     where $doc//tei:idno = $idno
-    return $doc//tei:text/tei:body
+    let $poem := $doc//tei:text/tei:body/tei:div
+    return view:format-poem($poem)
 };
 
 declare function model:get-title-by-idno($idno) {

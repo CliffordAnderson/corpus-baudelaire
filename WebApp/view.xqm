@@ -1,4 +1,26 @@
 module namespace view = 'http://www.library.vanderbilt.edu/baudelaire/view';
+declare namespace tei = "http://www.tei-c.org/ns/1.0";
+
+declare function view:format-poem($poem as element(tei:div)) as element(div)
+{
+    element div {view:passthru($poem)}
+};
+
+declare function view:dispatch($node as node()) as item()* {
+    typeswitch($node)
+        case text() return $node
+        case comment() return $node
+        case element(tei:title) return ()
+        case element(tei:l) return element p { $node/text() }
+        case element(tei:lg) return element div { (view:passthru($node), element br {}) }
+        case element(tei:div) return element div { $node }
+        default return view:passthru($node)
+};  
+
+declare function view:passthru($nodes as node()*) as item()* {
+    for $node in $nodes/node() return view:dispatch($node)
+};   
+
 
 declare function view:format-div($content, $title) as element(div)
 {
