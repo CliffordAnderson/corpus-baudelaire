@@ -10,9 +10,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>AU LECTEUR</title>
                 <author>Charles Baudelaire</author>
                 <respStmt>
-                    <resp>Encoded by</resp>
-                    <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+                    <resp>Basic Markup</resp>
                     <name xml:id="RVR">Ramona V. Romero</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Critical Apparatus</resp>
+                    <name ref="#RVR">Ramona V. Romero</name>
                 </respStmt>
                 <sponsor>Jean and Alexander Heard Library</sponsor>
             </titleStmt>
@@ -42,22 +45,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     <publisher>Poulet-Malassis et De Broise</publisher>
                                     <date>1857</date>
                                     <note>Original edition with condemned pieces</note>
-                                </imprint>
-                                <extent>248 p.</extent>
-                            </monogr>
-                        </biblStruct>
-                    </witness>
-                    <witness xml:id="E1857">
-                        <desc>1857 Expurgated</desc>
-                        <biblStruct>
-                            <monogr>
-                                <title>Les Fleurs du Mal</title>
-                                <author>Charles Baudelaire</author>
-                                <imprint>
-                                    <pubPlace>Paris</pubPlace>
-                                    <publisher>Poulet-Malassis et De Broise</publisher>
-                                    <date>1857</date>
-                                    <note>Original edition with condemned pieces removed</note>
                                 </imprint>
                                 <extent>248 p.</extent>
                             </monogr>
@@ -125,13 +112,13 @@ Online Distributed Proofreading Team.</p>
             <div type="poem">
                 <head>
                     <title type="main"><app>
-                            <lem wit="#U1857 #E1857 #FDM1861">AU LECTEUR</lem>
+                            <lem wit="#U1857">AU LECTEUR</lem>
                             <rdg wit="#FDM1868">PRÉFACE</rdg>
                         </app></title>
                 </head>
                 <lg type="stanza" subtype="quatrain" n="1">
                     <l n="1">La sottise, l'erreur, le péché, la lésine<app>
-                            <lem wit="#U1857 #E1857"/>
+                            <lem wit="#U1857"/>
                             <rdg wit="#FDM1861 #FDM1868">,</rdg>
                         </app></l>
                     <l n="2">Occupent nos esprits et travaillent nos corps,</l>
@@ -142,7 +129,7 @@ Online Distributed Proofreading Team.</p>
                     <l n="5">Nos péchés sont têtus, nos repentirs sont lâches;</l>
                     <l n="6">Nous nous faisons payer grassement nos aveux,</l>
                     <l n="7">Et nous rentrons <app>
-                            <lem wit="#U1857 #E1857 #FDM1868">gaîment</lem>
+                            <lem wit="#U1857">gaîment</lem>
                             <rdg wit="#FDM1861">gaiement</rdg>
                         </app> dans le chemin bourbeux,</l>
                     <l n="8">Croyant par de vils pleurs laver toutes nos taches.</l>
@@ -167,22 +154,22 @@ Online Distributed Proofreading Team.</p>
                 </lg>
                 <lg type="stanza" subtype="quatrain" n="6">
                     <l n="21"><app>
-                            <lem wit="#U1857 #E1857">Dans nos cerveaux malsains</lem>
+                            <lem wit="#U1857">Dans nos cerveaux malsains</lem>
                             <rdg wit="#FDM1861 #FDM1868">Serré, fourmillant</rdg>
                         </app>, comme un million d'helminthes</l>
                     <l n="22"><app>
-                            <lem wit="#U1857 #E1857">Grouille, chante et ripaille une</lem>
+                            <lem wit="#U1857">Grouille, chante et ripaille une</lem>
                             <rdg wit="#FDM1861 #FDM1868">Dans nos cerveaux ribote un</rdg>
                         </app> peuple de Démons,</l>
                     <l n="23">Et, quand nous respirons, la Mort dans nos poumons</l>
                     <l n="24"><app>
-                            <lem wit="#U1857 #E1857">S'engouffre, comme un fleuve</lem>
+                            <lem wit="#U1857">S'engouffre, comme un fleuve</lem>
                             <rdg wit="#FDM1861 #FDM1868">Descend, fleuve invisible</rdg>
                         </app>, avec de sourdes plaintes</l>
                 </lg>
                 <lg type="stanza" subtype="quatrain" n="7">
                     <l n="25">Si le viol, le poison, le poignard, l'incendie<app>
-                            <lem wit="#U1857 #E1857"/>
+                            <lem wit="#U1857"/>
                             <rdg wit="#FDM1861 #FDM1868">,</rdg>
                         </app></l>
                     <l n="26">N'ont pas encor brodé de leurs plaisants dessins</l>
@@ -191,7 +178,7 @@ Online Distributed Proofreading Team.</p>
                 </lg>
                 <lg type="stanza" subtype="quatrain" n="8">
                     <l n="29">Mais parmi les chacals, les panthères, les <app>
-                            <lem wit="#U1857 #E1857">lyces</lem>
+                            <lem wit="#U1857">lyces</lem>
                             <rdg wit="#FDM1861 #FDM1868">lices</rdg>
                         </app>,</l>
                     <l n="30">Les singes, les scorpions, les vautours, les serpents,</l>
@@ -200,12 +187,18 @@ Online Distributed Proofreading Team.</p>
                 </lg>
                 <lg type="stanza" subtype="quatrain" n="9">
                     <l n="33">II en est un plus laid, plus méchant, plus immonde!</l>
-                    <l n="34">Quoiqu'il ne <app><lem wit="#U1857 #E1857">fasse</lem><rdg wit="#FDM1861 #FDM1868">pousse</rdg></app> ni grands gestes ni grands cris,</l>
+                    <l n="34">Quoiqu'il ne <app>
+                            <lem wit="#U1857">fasse</lem>
+                            <rdg wit="#FDM1861 #FDM1868">pousse</rdg>
+                        </app> ni grands gestes ni grands cris,</l>
                     <l n="35">Il ferait volontiers de la terre un débris</l>
                     <l n="36">Et dans un bâillement avalerait le monde;</l>
                 </lg>
                 <lg type="stanza" subtype="quatrain" n="10">
-                    <l n="37">C'est l'Ennui! — <app><lem wit="#U1857 #E1857 #FDM1861">l'oeil</lem><rdg wit="#FDM1868">L'oeil</rdg></app> chargé d'un pleur involontaire,</l>
+                    <l n="37">C'est l'Ennui! — <app>
+                            <lem wit="#U1857">l'œil</lem>
+                            <rdg wit="#FDM1868">L'œil</rdg>
+                        </app> chargé d'un pleur involontaire,</l>
                     <l n="38">II rêve d'échafauds en fumant son houka.</l>
                     <l n="39">Tu le connais, lecteur, ce monstre délicat,</l>
                     <l n="40">— Hypocrite lecteur, — mon semblable, — mon frère!</l>
