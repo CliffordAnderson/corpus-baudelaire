@@ -8,8 +8,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <title rend="LESBOS">LESBOS</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="TMF">Timothy Foster</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -53,8 +57,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                              portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
+                    author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
               </monogr>
@@ -70,11 +74,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <pubPlace>Amsterdam</pubPlace>
                   <publisher>À L'Enseigne du Coq</publisher>
                   <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre), this is a
+                    false imprint, the book actually being published in Brussels by
+                    Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p. 9-55</note>
                   <note>With a frontispeice etching by Félicien Rops</note>
                 </imprint>
                 <extent>163 p.</extent>
@@ -117,20 +120,42 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>LESBOS</title>
+          <title type="main"><app>
+              <lem wit="#U1857">LESBOS</lem>
+              <rdg wit="#LE1866">LESBOS<note n="1" anchored="true" place="bottom"><p>Cette pièce et
+                    les cinq suivantes ont été condamnées en 1857, par le tribunal correctionnel, et
+                    ne peuvent pas étre reproduites dans le recueil des <emph style="italics">Fleurs
+                      du Mal</emph></p><p>(<emph style="italics">Note de
+                  l'editeur</emph>)</p></note></rdg>
+            </app></title>
         </head>
         <lg type="stanza" subtype="quintain" n="1">
           <l n="1">Mère des jeux latins et des voluptés grecques,</l>
-          <l n="2">Lesbos, où les baisers languissants ou joyeux,</l>
+          <l n="2">Lesbos, où les baisers<app>
+              <lem wit="#U1857"/>
+              <rdg wit="#LE1866">,</rdg>
+            </app> languissants ou joyeux,</l>
           <l n="3">Chauds comme les soleils, frais comme les pastèques,</l>
-          <l n="4">Font l'ornement des nuits et des jours glorieux,</l>
-          <l n="5">--Mère des jeux latins et des voluptés grecques,</l>
+          <l n="4">Font l'ornement des nuits et des jours glorieux<app>
+              <lem wit="#U1857">,</lem>
+              <rdg wit="#LE1866">;</rdg>
+            </app></l>
+          <l n="5"><app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#LE1866"/>
+            </app>Mère des jeux latins et des voluptés grecques,</l>
         </lg>
         <lg type="stanza" subtype="quintain" n="2">
           <l n="6">Lesbos, où les baisers sont comme les cascades</l>
-          <l n="7">Qui se jettent sans peur dans les gouffres sans fonds</l>
+          <l n="7">Qui se jettent sans peur dans les gouffres sans fonds<app>
+              <lem wit="#U1857"/>
+              <rdg wit="#LE1866">,</rdg>
+            </app></l>
           <l n="8">Et courent, sanglotant et gloussant par saccades,</l>
-          <l n="9">--Orageux et secrets, fourmillants et profonds;</l>
+          <l n="9"><app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#LE1866"/>
+            </app>Orageux et secrets, fourmillants et profonds;</l>
           <l n="10">Lesbos, où les baisers sont comme les cascades!</l>
         </lg>
         <lg type="stanza" subtype="quintain" n="3">
@@ -138,7 +163,10 @@ Online Distributed Proofreading Team.</p>
           <l n="12">Où jamais un soupir ne resta sans écho,</l>
           <l n="13">A l'égal de Paphos les étoiles t'admirent,</l>
           <l n="14">Et Vénus à bon droit peut jalouser Sapho!</l>
-          <l n="15">--Lesbos où les Phrynés l'une l'autre s'attirent.</l>
+          <l n="15"><app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#LE1866"/>
+            </app>Lesbos où les Phrynés l'une l'autre s'attirent.</l>
         </lg>
         <lg type="stanza" subtype="quintain" n="4">
           <l n="16">Lesbos, terre des nuits chaudes et langoureuses,</l>
@@ -155,10 +183,19 @@ Online Distributed Proofreading Team.</p>
           <l n="25">Laisse du vieux Platon se froncer l'oeil austère.</l>
         </lg>
         <lg type="stanza" subtype="quintain" n="6">
-          <l n="26">Tu tires ton pardon de l'éternel martyre</l>
-          <l n="27">Infligé sans relâche aux coeurs ambitieux</l>
+          <l n="26">Tu tires ton pardon de l'éternel martyre<app>
+              <lem wit="#U1857"/>
+              <rdg wit="#LE1866">,</rdg>
+            </app></l>
+          <l n="27">Infligé sans relâche aux coeurs ambitieux<app>
+              <lem wit="#U1857"/>
+              <rdg wit="#LE1866">,</rdg>
+            </app></l>
           <l n="28">Qu'attiré loin de nous le radieux sourire</l>
-          <l n="29">Entrevue vaguement au bord des autres cieux;</l>
+          <l n="29">Entrevue vaguement au bord des autres cieux<app>
+              <lem wit="#U1857">;</lem>
+              <rdg wit="#LE1866">!</rdg>
+            </app></l>
           <l n="30">Tu tires ton pardon de l'éternel martyre!</l>
         </lg>
         <lg type="stanza" subtype="quintain" n="7">
@@ -173,7 +210,10 @@ Online Distributed Proofreading Team.</p>
           <l n="37">Vierges au coeur sublime, honneur de l'archipel,</l>
           <l n="38">Votre religion comme une autre est auguste,</l>
           <l n="39">Et l'amour se rira de l'enfer et du ciel!</l>
-          <l n="40">--Que nous veulent les lois du juste et de l'injuste?</l>
+          <l n="40"><app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#LE1866"/>
+            </app>Que nous veulent les lois du juste et de l'injuste?</l>
         </lg>
         <lg type="stanza" subtype="quintain" n="9">
           <l n="41">Car Lesbos entre tous m'a choisi sur la terre</l>
@@ -184,38 +224,56 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="stanza" subtype="quintain" n="10">
           <l n="46">Et depuis lors je veille au sommet de Leucate,</l>
-          <l n="47">Comme une sentinelle, à l'oeil perçant et sûr,</l>
+          <l n="47">Comme une sentinelle<app>
+              <lem wit="#U1857">,</lem>
+              <rdg wit="#LE1866"/>
+            </app> à l'oeil perçant et sûr,</l>
           <l n="48">Qui guette nuit et jour brick, tartane ou frégate,</l>
           <l n="49">Dont les formes au loin frissonnent dans l'azur,</l>
-          <l n="50">--Et depuis lors je veille au sommet de Leucate</l>
+          <l n="50"><app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#LE1866"/>
+            </app>Et depuis lors je veille au sommet de Leucate</l>
         </lg>
         <lg type="stanza" subtype="quintain" n="11">
           <l n="51">Pour savoir si la mer est indulgente et bonne,</l>
           <l n="52">Et parmi les sanglots dont le roc retentit</l>
           <l n="53">Un soir ramènera vers Lesbos qui pardonne</l>
-          <l n="54">Le cadavre adoré de Sapho qui partit</l>
+          <l n="54">Le cadavre adoré de Sapho<app>
+              <lem wit="#U1857"/>
+              <rdg wit="#LE1866">,</rdg>
+            </app> qui partit</l>
           <l n="55">Pour savoir si la mer est indulgente et bonne!</l>
         </lg>
         <lg type="stanza" subtype="quintain" n="12">
-          <l n="56">De la mâle Sapho, l'amante et le poète,</l>
+          <l n="56">De la mâle Sapho, l'amante et le <app>
+              <lem wit="#U1857">poète</lem>
+              <rdg wit="#LE1866">poëte</rdg>
+            </app>,</l>
           <l n="57">Plus belle que Vénus par ses mornes pâleurs!</l>
-          <l n="58">--L'oeil d'azur est vaincu par l'oeil noir que tachette</l>
+          <l n="58">—L'oeil d'azur est vaincu par l'oeil noir que tachette</l>
           <l n="59">Le cercle ténébreux tracé par les douleurs</l>
-          <l n="60">De la mâle Sapho, l'amante et le poète!</l>
+          <l n="60">De la mâle Sapho, l'amante et le <app>
+              <lem wit="#U1857">poète</lem>
+              <rdg wit="#LE1866">poëte</rdg>
+            </app>!</l>
         </lg>
         <lg type="stanza" subtype="quintain" n="13">
-          <l n="61">--Plus belle que Vénus se dressant sur le monde</l>
+          <l n="61">—Plus belle que Vénus se dressant sur le monde</l>
           <l n="62">Et versant les trésors de sa sérénité</l>
           <l n="63">Et le rayonnement de sa jeunesse blonde</l>
           <l n="64">Sur le vieil Océan de sa fille enchanté;</l>
           <l n="65">Plus belle que Vénus se dressant sur le monde!</l>
         </lg>
         <lg type="stanza" subtype="quintain" n="14">
-          <l n="66">--De Sapho qui mourut le jour de son blasphème,</l>
+          <l n="66">—De Sapho qui mourut le jour de son blasphème,</l>
           <l n="67">Quand, insultant le rite et le culte inventé,</l>
           <l n="68">Elle fit son beau corps la pâture suprême</l>
           <l n="69">D'un brutal dont l'orgueil punit l'impiété</l>
-          <l n="70">De Sapho qui mourut le jour de son blasphème.</l>
+          <l n="70">De <app>
+              <lem wit="#U1857">Sapho</lem>
+              <rdg wit="#LE1866">celle</rdg>
+            </app> qui mourut le jour de son blasphème.</l>
         </lg>
         <lg type="stanza" subtype="quintain" n="15">
           <l n="71">Et c'est depuis ce temps que Lesbos se lamente,</l>
