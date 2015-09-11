@@ -86,6 +86,12 @@ declare function view:display-contents($title as xs:string?, $content as element
             <li><a href="/contents">Contents</a></li>
             <li><a href="/credits">Team</a></li>
           </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" name="q"  class="form-control" placeholder="Search"/>
+            </div>
+              <button type="submit" formaction="search" class="btn btn-default">Submit</button>
+            </form>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
