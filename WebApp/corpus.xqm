@@ -2,6 +2,8 @@ xquery version "3.1";
 
 module namespace corpus = "http://library.vanderbilt.edu/baudelaire";
 
+import module namespace view =  'http://www.library.vanderbilt.edu/baudelaire/view' at 'view.xqm';
+
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 declare variable $corpus:db := fn:collection("fleurs-du-mal"); 
@@ -34,33 +36,19 @@ declare
 
 declare function corpus:format($results as element(p)*) as element(html)
 {
-  <html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Corpus Baudelaire - Search Results</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
- </head>
-  <body>
-    <div class="container-fluid">
- 
-    <h1>Search Results</h1>
-    
-    {for $result in $results
-     return 
-       element p {
-         "Line " || $result/@line || ": " ,
-         $result/node(), 
-         element a {
-            attribute href {$result/@base-uri},
-            "...(read more)."
-             }
-           } 
-  } 
-   </div>
-  </body>
-</html> 
+  let $title := "Search Results"
+  let $content :=
+    element div {
+      for $result in $results
+       return 
+         element p {
+           "Line " || $result/@line || ": " ,
+           $result/node(), 
+           element a {
+              attribute href {fn:replace(fn:replace($result/@base-uri, "fleurs-du-mal", "contents"), ".xml","") },
+              " ... (read more)."
+               }
+         }  
+    }
+   return view:display-contents($title, $content)
 };
