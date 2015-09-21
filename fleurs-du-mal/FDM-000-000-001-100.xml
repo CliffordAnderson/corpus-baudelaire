@@ -1,0 +1,127 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
+        <title rend="LE COUCHER DU SOLEIL ROMANTIQUE">COUCHER DU SOLEIL ROMANTIQUE</title>
+        <author>Charles Baudelaire</author>
+        <respStmt>
+          <resp>Basic Markup</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name xml:id="TMF">Tim Foster</name>
+        </respStmt>
+        <sponsor>Jean and Alexander Heard Library</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Jean and Alexander Heard Library</publisher>
+        <pubPlace>Nashville</pubPlace>
+        <address>
+          <addrLine>Jean and Alexander Heard Library</addrLine>
+          <addrLine>419 21st Avenue South</addrLine>
+          <addrLine>Nashville, TN 37203</addrLine>
+          <addrLine>USA</addrLine>
+        </address>
+        <date>2014</date>
+        <idno>FDM-000-000-001-100</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                    this is a false imprint, the book actually being published in Brussels
+                    by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                    9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="FDM1868">
+            <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Oeuvres Complètes de Charles Baudelaire</title>
+                <author>Charles Baudelaire</author>
+                <editor>Théophile Gautier</editor>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Michel Lévy Frères</publisher>
+                  <date>1868-1873</date>
+                  <note>Volume 1 contains Les Fleurs du Mal</note>
+                </imprint>
+                <extent>7 volumes</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+        </listWit>
+        <!--
+<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+encoding: ISO-8859-1 </p>
+<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+Online Distributed Proofreading Team.</p>
+-->
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="poem" subtype="sonnet">
+        <head>
+          <title>LE COUCHER DU SOLEIL ROMANTIQUE</title>
+        </head>
+        <lg type="quatrain" n="1">
+          <l n="1">Que le Soleil est beau quand tout frais il se lève,</l>
+          <l n="2">Comme une explosion nous lançant son bonjour!</l>
+          <l n="3">—Bienheureux celui-là qui peut avec amour</l>
+          <l n="4">Saluer son coucher plus glorieux qu'un rêve!</l>
+        </lg>
+        <lg type="quatrain" n="2">
+          <l n="5">Je me souviens!... J'ai vu tout, fleur, source, sillon,</l>
+          <l n="6">Se pâmer sous son œil comme un cœur qui palpite...</l>
+          <l n="7">—Courons vers l'horizon, il est tard, courons vite,</l>
+          <l n="8">Pour attraper au moins un oblique rayon!</l>
+        </lg>
+        <lg type="tercet" n="3">
+          <l n="9">Mais je poursuis en vain le Dieu qui se retire;</l>
+          <l n="10">L'irrésistible Nuit établit son empire,</l>
+          <l n="11">Noire, humide, funeste et pleine de frissons;</l>
+        </lg>
+        <lg type="tercet" n="4">
+          <l n="12">Une odeur de tombeau dans les ténèbres nage,</l>
+          <l n="13">Et mon pied peureux froisse, au bord du marécage,</l>
+          <l n="14">Des crapauds imprévus et de froids limaçons<app>
+              <lem wit="#LE1866">
+                <note n="1" anchored="true" place="bottom">
+                  <p>Le mot:<emph style="italics">Genus irritabile vatum</emph>, date de bien des siècles avant les querelles des Classiques, des Romantiques, des Réalistes, des Euphuistes, etc... Il est évident que par<emph style="italics">l'irrésistible Nuit</emph>M. Charles Baudelaire a voulu caractériser l'état actuel de la litérature, et que les<emph style="italics">crapauds imprévus</emph>et les<emph style="italics">froids limaçons</emph>sont les écrivains qui ne sont pas de son école.</p>
+                  <p>Ce sonnet a été composé en 1862, pour servir d'épilogue à un livre de M. Charles Asselineau, qui n'a pas paru:<emph style="italics">Mélanges tires d'une petite bibliothèque romantique</emph>; lequel devait avoir pour prologue un sonnet de M. Théodore de Banville:<emph style="italics">Le lever du soleil romantique</emph>.</p>
+                  <p>(<emph style="italics">Note de l'éditeur</emph>.)</p>
+                </note>
+              </lem>
+              <rdg wit="#F1868"/>
+            </app>.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
