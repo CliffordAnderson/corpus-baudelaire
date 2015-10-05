@@ -5,11 +5,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="Le Poison">Poison</title>
+        <title rend="LE POISON">POISON</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -53,8 +57,8 @@
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                              portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
+                    author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
               </monogr>
@@ -70,11 +74,10 @@
                   <pubPlace>Amsterdam</pubPlace>
                   <publisher>À L'Enseigne du Coq</publisher>
                   <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre), this is a
+                    false imprint, the book actually being published in Brussels by
+                    Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p. 9-55</note>
                   <note>With a frontispeice etching by Félicien Rops</note>
                 </imprint>
                 <extent>163 p.</extent>
@@ -117,7 +120,7 @@
     <body>
       <div type="poem">
         <head>
-          <title>LE POISON</title>
+          <title type="main">LE POISON</title>
         </head>
         <lg type="stanza" subtype="quintain" n="1">
           <l n="1">Le vin sait revêtir le plus sordide bouge</l>
@@ -128,16 +131,28 @@
         </lg>
         <lg type="stanza" subtype="quintain" n="2">
           <l n="6">L'opium agrandit ce qui n'a pas de bornes,</l>
-          <l n="7">Allonge l'illimité,</l>
+          <l n="7"><app>
+              <lem wit="#U1857">Projette</lem>
+              <rdg wit="#FDM1861 #FDM1868">Allonge</rdg>
+            </app> l'illimité,</l>
           <l n="8">Approfondit le temps, creuse la volupté,</l>
           <l n="9">Et de plaisirs noirs et mornes</l>
-          <l n="10">Remplit l'âme au delà de sa capacité.</l>
+          <l n="10">Remplit l'âme <app>
+              <lem wit="#U1857">au-delà</lem>
+              <rdg wit="#FDM1861 #FDM1868">au delà</rdg>
+            </app> de sa capacité.</l>
         </lg>
         <lg type="stanza" subtype="quintain" n="3">
           <l n="11">Tout cela ne vaut pas le poison qui découle</l>
           <l n="12">De tes yeux, de tes yeux verts,</l>
-          <l n="13">Lacs où mon âme tremble et se voit à l'envers...</l>
-          <l n="14">Mes songes viennent en foule</l>
+          <l n="13">Lacs où mon âme tremble et se voit à l'envers<app>
+              <lem wit="#U1857">;</lem>
+              <rdg wit="#FDM1861 #FDM1868">...</rdg>
+            </app></l>
+          <l n="14"><app>
+              <lem wit="#U1857">· —</lem>
+              <rdg wit="#FDM1861 #FDM1868"/>
+            </app> Mes songes viennent en foule</l>
           <l n="15">Pour se désaltérer à ces gouffres amers.</l>
         </lg>
         <lg type="stanza" subtype="quintain" n="4">
