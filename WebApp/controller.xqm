@@ -65,6 +65,17 @@ declare
           return view:display-contents($title, $content)
         };
   
+  declare 
+    %rest:GET
+    %rest:path("/search")
+    %rest:query-param("q","{$term}")
+    %output:method("html")
+    %output:omit-xml-declaration("no")
+    %output:doctype-public("-//W3C//DTD XHTML 1.0 Transitional//EN")
+  function controller:search($term as xs:string*) as item()*{
+    model:search($term) => view:format()
+  };
+  
   declare
     %rest:path("/error404")
     %output:method("xhtml")
