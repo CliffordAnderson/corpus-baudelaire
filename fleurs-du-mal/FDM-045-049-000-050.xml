@@ -15,6 +15,10 @@
           <resp>Critical Apparatus</resp>
           <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="TFH">Todd F. Hughes</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
