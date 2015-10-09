@@ -147,10 +147,11 @@ Online Distributed Proofreading Team.</p>
           <l n="47">Je trouve encore sur ma route</l>
           <l n="48">Ce fléau, natif de Tournai.</l>
         </lg>
-        <dateline>
-          <placeName>Bruxelles,</placeName>
-          <date>1865</date>
-        </dateline>
+        <note anchored="true" place="bottom">
+          <app>
+            <lem wit="#LE1866">Bruxelles, 1865</lem>
+          </app>
+        </note>
       </div>
     </body>
   </text>
