@@ -47,3 +47,22 @@ declare function model:toc() as element(div) {
                 }
     return element div {view:format-list($list)}
 };
+
+declare function model:search($term as xs:string*) as item()*
+{(
+  let $results := $model:collection//tei:l[text() contains text {$term}]
+  for $result in $results
+  let $score := ft:score($result[text() contains text {$term}])
+  let $snippet := ft:extract($result/text()[. contains text {$term}], "b")
+  let $base-uri := fn:base-uri($result)
+  let $line := $result/@n
+  order by $score descending
+  where $base-uri != "fleurs-du-mal/fleurs-du-mal.xml"
+  return 
+    element p {
+      attribute score {$score},
+      attribute base-uri {$base-uri},
+      attribute line {$line},
+      $snippet
+    })
+};
