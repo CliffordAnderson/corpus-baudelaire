@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="OBSESSION">OBSESSION</title>
+        <title>OBSESSION</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Basic Markup</resp>
@@ -84,7 +84,7 @@
     <body>
       <div type="poem" subtype="sonnet">
         <head>
-          <title type="main">Obsession</title>
+          <title type="main">OBSESSION</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Grands bois, vous m'effrayez comme des cathédrales;</l>
@@ -98,17 +98,17 @@
             <lem wit="#FDM1861">;</lem>
             <rdg wit="#FDM1868">!</rdg>
           </app> <app>
-            <lem wit="#FDM1861">c</lem>
-            <rdg wit="#FDM1868">C</rdg>
-          </app>e rire amer</l>
+            <lem wit="#FDM1861">ce</lem>
+            <rdg wit="#FDM1868">Ce</rdg>
+          </app> rire amer</l>
           <l n="7">De l'homme vaincu, plein de sanglots et d'insultes,</l>
           <l n="8">Je l'entends dans le rire énorme de la mer.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
           <l n="9">Comme tu me plairais, ô <app>
-            <lem wit="#FDM1861">n</lem>
-            <rdg wit="#FDM1868">N</rdg>
-          </app>uit! sans ces étoiles</l>
+            <lem wit="#FDM1861">nuit</lem>
+            <rdg wit="#FDM1868">Nuit</rdg>
+          </app>! sans ces étoiles</l>
           <l n="10">Dont la lumière parle un langage connu!</l>
           <l n="11">Car je cherche le vide, et le noir, et le nu!</l>
         </lg>
