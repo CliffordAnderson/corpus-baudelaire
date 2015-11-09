@@ -15,6 +15,7 @@ and include the title with the article in a rend attribute. -->
                     <resp>Basic Markup by</resp>
                     <!-- Insert your name and XML ID - choose an XML ID for the project and stick with it! -->
                     <name xml:id="TG">Teresa Gray</name>
+                    <name xml:id="TH">Todd Hughes</name>
                 </respStmt>
                 <sponsor>Jean and Alexander Heard Library</sponsor>
             </titleStmt>
@@ -200,7 +201,7 @@ Add l elemnts with n attributes -->
                     <l n="12">L'autre mime, en boitant, l'infirme qui volait!</l>
                 </lg>
                 <lg type="stanza" subtype="quatrain" n="4">
-                    <l n="13">Le Poète est semblable au prince des nuées</l>
+                    <l n="13">Le Poëte est semblable au prince des nuées</l>
                     <l n="14">Qui hante la tempête et se rit de l'archer;</l>
                     <l n="15">Exilé sur le sol au milieu des huées,</l>
                     <l n="16">Ses ailes de géant l'empêchent de marcher.</l>
