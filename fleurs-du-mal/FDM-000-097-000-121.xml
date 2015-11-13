@@ -2,13 +2,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
         <title>DANSE MACABRE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
-          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <resp>Basic Markup</resp>
           <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="SS">Sara Sterkenburg</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -26,22 +28,6 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -56,27 +42,6 @@
                     portrait of the author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                    this is a false imprint, the book actually being published in Brussels
-                    by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                    9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -116,12 +81,13 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>DANSE MACABRE</title>
+          <title type="main">DANSE MACABRE</title>
+          <title type="sub">A ERNEST CHRISTOPHE</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Fière, autant qu'un vivant, de sa noble stature,</l>
           <l n="2">Avec son gros bouquet, son mouchoir et ses gants,</l>
-          <l n="3">Elle a la nonchalence et la désinvolture</l>
+          <l n="3">Elle a la nonchalance et la désinvolture</l>
           <l n="4">D'une coquette maigre aux airs extravagants.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
@@ -131,46 +97,50 @@ Online Distributed Proofreading Team.</p>
           <l n="8">Un soulier pomponné, joli comme une fleur.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="3">
-          <l n="9">La ruche que se joue au bord des clavicules,</l>
+          <l n="9">La ruche qui se joue au bord des clavicules,</l>
           <l n="10">Comme un ruisseau lascif qui se frotte au rocher,</l>
           <l n="11">Défend pudiquement des lazzi ridicules</l>
           <l n="12">Les funèbres appas qu'elle tient à cacher.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="4">
           <l n="13">Ses yeux profonds sont faits de vide et de ténèbres,</l>
-          <l n="14">Et son crane, de fleurs artistement coiffé</l>
-          <l n="15">Oscille mollement sur ses freles vertèbres</l>
-          <l n="16">O charme d'un néant follement attifé!</l>
+          <l n="14">Et son crâne, de fleurs artistement coiffé,</l>
+          <l n="15">Oscille mollement sur ses frêles vertèbres.</l>
+          <l n="16"><app>
+            <lem wit="#FDM1861">
+            </lem>
+            <rdg wit="#FDM1868">— </rdg>
+          </app>O charme d'un néant follement attifé!</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="5">
-          <l n="17">Aucuns t'appellerent une caricature,</l>
+          <l n="17">Aucuns t'appelleront une caricature,</l>
           <l n="18">Qui ne comprennent pas, amants ivres de chair,</l>
-          <l n="19">EL'élégance sans nom de l'humaine armature,</l>
-          <l n="20">Tu réponds, grand squelette, à mon gout le plus cher!</l>
+          <l n="19">L'élégance sans nom de l'humaine armature.</l>
+          <l n="20">Tu réponds, grand squelette, à mon goût le plus cher!</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="6">
           <l n="21">Viens-tu troubler, avec ta puissante grimace,</l>
-          <l n="22">La fête de la Vie?  ou quelque vieux désir,</l>
+          <l n="22">La fête de la Vie? ou quelque vieux désir,</l>
           <l n="23">Éperonnant encor ta vivante carcasse,</l>
           <l n="24">Te pousse-t-il crédule, au sabbat du Plaisir?</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="7">
-          <l n="25">Au chant des violins, aux flammes des bougles,</l>
+          <l n="25">Au chant des violons, aux flammes des bougies,</l>
           <l n="26">Espères-tu chasser ton cauchemar moqueur,</l>
           <l n="27">Et viens-tu demander au torrent des orgies</l>
-          <l n="28">De rafraîchir l'enfer allumé dans ton coeur?</l>
+          <l n="28">De rafraîchir l'enfer allumé dans ton cœur?</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="8">
           <l n="29">Inépuisable puits de sotisse et de fautes!</l>
           <l n="30">De l'antique douleur éternel alambic!</l>
-          <l n="31">À travers le trellis recourbé de tes côtes</l>
-          <l n="32">Je vois errant encor, l'insatiable aspic.</l>
+          <l n="31">A travers le treillis recourbé de tes côtes</l>
+          <l n="32">Je vois, errant encor, l'insatiable aspic.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="9">
           <l n="33">Pour dire vrai, je crains que ta coquetterie</l>
           <l n="34">Ne trouve pas un prix digne de ses efforts;</l>
-          <l n="35">Qui, de ces coeurs mortels, entend la raillerie?</l>
-          <l n="36">Les charmes de l'horreur n'envirent que les forts!</l>
+          <l n="35">Qui, de ces cœurs mortels, entend la raillerie?</l>
+          <l n="36">Les charmes de l'horreur n'enivrent que les forts!</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="10">
           <l n="37">Le gouffre de tes yeux, plein d'horribles pensées,</l>
@@ -180,7 +150,10 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="stanza" subtype="quatrain" n="11">
           <l n="41">Pourtant, qui n'a serré dans ses bras un squelette,</l>
-          <l n="42">Et qui ne s'est nourri des choses du tombeau?</l>
+          <l n="42">Et qui ne s'est nourri des choses <app>
+            <lem wit="#FDM1861">du</lem>
+            <rdg wit="#FDM1868">dù</rdg>
+          </app> tombeau?</l>
           <l n="43">Qu'importe le parfum, l'habit ou la toilette?</l>
           <l n="44">Qui fait le dégoûté montre qu'il se coit beau.</l>
         </lg>
@@ -188,10 +161,10 @@ Online Distributed Proofreading Team.</p>
           <l n="45">Bayadère sans nez, irrésistible gouge,</l>
           <l n="46">Dis donc à ces danseurs qui font les offusqués:</l>
           <l n="47">"Fiers mignons, malgré l'art des poudres et du rouge,</l>
-          <l n="48">Vous sentez tous la mort!  Ô squelettes musqués,</l>
+          <l n="48">Vous sentez tous la mort! O squelettes musqués,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="13">
-          <l n="49">Antinous flétris, dandys à face glabre,</l>
+          <l n="49">Antinoüs flétris, dandys à face glabre,</l>
           <l n="50">Cadavres vernissés, lovelaces chenus,</l>
           <l n="51">Le branle universel de la danse macabre</l>
           <l n="52">Vous entraîne en des lieux qui ne sont pas connus!</l>
@@ -206,7 +179,7 @@ Online Distributed Proofreading Team.</p>
           <l n="57">En tout climat, sous tout soleil, la Mort t'admire</l>
           <l n="58">Et tes contorsions, risible Humanité,</l>
           <l n="59">Et souvent, comme toi, se parfumant de myrrhe,</l>
-          <l n="60">Mêle son ironie à ton insanité!&gt;&gt;</l>
+          <l n="60">Mêle son ironie à ton insanité!"</l>
         </lg>
       </div>
     </body>
