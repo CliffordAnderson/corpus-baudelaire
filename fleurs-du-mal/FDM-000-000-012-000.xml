@@ -6,12 +6,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="LE MONSTRE, OU LE PARANYMPHE D'UNE NYMPHE MACABRE">MONSTRE, OU LE PARANYMPHE D'UNE NYMPHE MACABRE</title>
+        <title rend="LE MONSTRE OU LE PARANYMPHE D'UNE NYMPHE MACABRE">MONSTRE OU LE PARANYMPHE D'UNE NYMPHE MACABRE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="TMF">Tim Foster</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name xml:id="SYC">Sophia Clark</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -29,39 +34,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="FDM1861">
-            <desc>1861 2nd edition censored</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-portrait of the author drawn and engraved by Felix Bracquemond</note>
-                </imprint>
-                <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="LE1866">
             <desc>1866 Les Epaves xml:id="1866"</desc>
             <biblStruct>
@@ -80,23 +52,6 @@ by Poulet-Malassis.</note>
                   <note>With a frontispeice etching by Félicien Rops</note>
                 </imprint>
                 <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="FDM1868">
-            <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Oeuvres Complètes de Charles Baudelaire</title>
-                <author>Charles Baudelaire</author>
-                <editor>Théophile Gautier</editor>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Michel Lévy Frères</publisher>
-                  <date>1868-1873</date>
-                  <note>Volume 1 contains Les Fleurs du Mal</note>
-                </imprint>
-                <extent>7 volumes</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -119,7 +74,8 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem" subtype="composite">
         <head>
-          <title type="main">Le Monstre, ou le Paranymphe d'une nymphe macabre</title>
+          <title type="main">LE MONSTRE</title>
+          <title type="sub">OU LE PARANYMPHE D'UNE NYMPHE MACABRE</title>
         </head>
         <lg type="poem" n="1">
           <head>I</head>
@@ -127,7 +83,7 @@ Online Distributed Proofreading Team.</p>
             <l n="1">Tu n'es certes pas, ma très-chère,</l>
             <l n="2">Ce que Veuillot nomme un tendron.</l>
             <l n="3">Le jeu, l'amour, la bonne chère,</l>
-            <l n="4">Bouillonnent en toi, vieux chaudron!</l>
+            <l n="4">Bouillonnent en toi, vieux chaudron !</l>
             <l n="5">Tu n'es plus fraîche, ma très-chère,</l>
           </lg>
           <lg type="stanza" subtype="quintain" n="2">
@@ -139,30 +95,35 @@ Online Distributed Proofreading Team.</p>
           </lg>
           <lg type="stanza" subtype="quintain" n="3">
             <l n="11">Je ne trouve pas monotone</l>
-            <l n="12">La verdure de tes quarante ans;</l>
+            <l n="12">La verdeur de tes quarante ans;</l>
             <l n="13">Je préfère tes fruits, Automne,</l>
             <l n="14">Aux fleurs banales du Printemps!</l>
             <l n="15">Non! tu n'es jamais monotone!</l>
           </lg>
           <lg type="stanza" subtype="quintain" n="4">
-            <l n="16">Ta carcasse à des agréments</l>
+            <l n="16">Ta carcasse a des agréments</l>
             <l n="17">Et des grâces particulières;</l>
             <l n="18">Je trouve d'étranges piments</l>
             <l n="19">Dans le creux de tes deux salières;</l>
-            <l n="20">Ta carcasse à des agréments!</l>
+            <l n="20">Ta carcasse a des agréments!</l>
           </lg>
           <lg type="stanza" subtype="quintain" n="5">
             <l n="21">Nargue des amants ridicules</l>
             <l n="22">Du melon et du giraumont!</l>
             <l n="23">Je préfère tes clavicules</l>
-            <l n="24">A celles du roi Salomon,</l>
+            <l n="24">A celles du roi Salomon
+            	<note n="1" anchored="true" place="bottom">
+            		<p>Voilà un calembour <emph>salé!</emph> Nous ne <emph>cabalerons</emph> pas contre.</p>
+            		<p>(<emph>Note de l'éditeur</emph>.)</p>
+            	</note>
+            	,</l>
             <l n="25">Et je plains ces gens ridicules!</l>
           </lg>
           <lg type="stanza" subtype="quintain" n="6">
             <l n="26">Tes cheveux, comme un casque bleu,</l>
             <l n="27">Ombragent ton front de guerrière,</l>
             <l n="28">Qui ne pense et rougit que peu,</l>
-            <l n="29">Et puis se sauvent par derrière,</l>
+            <l n="29">Et puis se sauvent par derrière</l>
             <l n="30">Comme les crins d'un casque bleu.</l>
           </lg>
           <lg type="stanza" subtype="quintain" n="7">
@@ -183,7 +144,13 @@ Online Distributed Proofreading Team.</p>
             <l n="41">Ta jambe musculeuse et sèche</l>
             <l n="42">Sait gravir au haut des volcans,</l>
             <l n="43">Et malgré la neige et la dèche</l>
-            <l n="44">Danser les plus fougueux cancans.</l>
+            <l n="44">Danser les plus fougueux cancans
+            	<note n="2" anchored="true" place="bottom">
+            		<p>Sans doute une allusion à quelque particularité des <emph>caravanes</emph> de cette dame.</p>
+            		<p>M. Prévost-Paradol l'eût avertie qu'elle dansait le cancan sur un volcan.</p>
+            		<p>(</emph>Note de l'éditeur</emph>.)</p>
+            	</note>
+            	.</l>
             <l n="45">Ta jambe est musculeuse et sèche;</l>
           </lg>
           <lg type="stanza" subtype="quintain" n="10">
@@ -214,7 +181,12 @@ Online Distributed Proofreading Team.</p>
             <l n="61">Oh! très-sincèrement je souffre</l>
             <l n="62">De ne pas aller aux sabbats,</l>
             <l n="63">Pour voir, quand il pète du soufre,</l>
-            <l n="64">Comment tu lui baises son cas!</l>
+            <l n="64">Comment tu lui baises son cas
+            	<note n="3" anchored="true" place="bottom">
+            		<p>A la </emph>Messe noire</emph>. Comme ce poëtes ont superstitieux!</p>
+            		<p>(<emph>Note de l'éditeur</emph>.)</p>
+            	</note>
+            	!</l>
             <l n="65">Oh! très-sincèrement je souffre!</l>
           </lg>
           <lg type="stanza" subtype="quintain" n="14">
@@ -226,7 +198,7 @@ Online Distributed Proofreading Team.</p>
           </lg>
           <lg type="stanza" subtype="quintain" n="15">
             <l n="71">Puisque depuis longtemps je t'aime,</l>
-            <l n="72">Étant très-logique!  En effet,</l>
+            <l n="72">Etant très-logique!  En effet,</l>
             <l n="73">Voulant du Mal chercher la crème</l>
             <l n="74">Et n'aimer qu'un monstre parfait,</l>
             <l n="75">Vraiment oui! vieux monstre, je t'aime!</l>
