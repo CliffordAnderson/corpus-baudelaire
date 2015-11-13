@@ -52,22 +52,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </monogr>
 </biblStruct>
 </witness>
-<witness xml:id="E1857">
-<desc>1857 Expurgated</desc>
-<biblStruct>
-<monogr>
-<title>Les Fleurs du Mal</title>
-<author>Charles Baudelaire</author>
-<imprint>
-<pubPlace>Paris</pubPlace>
-<publisher>Poulet-Malassis et De Broise</publisher>
-<date>1857</date>
-<note>Original edition with condemned pieces removed</note>
-</imprint>
-<extent>248 p.</extent>
-</monogr>
-</biblStruct>
-</witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -105,10 +89,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </listWit>
 <!-- create witList in sourceDesc with the different editions and their bib data
 1. 1857 Unexpurgated xml:id="U1857"
-2. 1857 Expurgated xml:id="E1857"
-3. 1861 2nd edition censored xml:id="FDM1861"
-4. 1866 Les Epaves xml:id="1866"
-5. 1868 3rd edition - posthumous xml:id="1868"
+2. 1861 2nd edition censored xml:id="FDM1861"
+3. 1866 Les Epaves xml:id="1866"
+4. 1868 3rd edition - posthumous xml:id="1868"
 -->
 <!--
 <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
@@ -133,13 +116,13 @@ Online Distributed Proofreading Team.</p>
 <lg type="stanza" subtype="quatrain" n="1">
 <l n="1">On dirait ton regard d'une vapeur couvert;</l>
 <l n="2">Ton œil mystérieux, 
-<app><lem wit="#U1857 #E1857">—</lem>
+<app><lem wit="#U1857">—</lem>
 <rdg wit="#FDM1861 #FDM1868">(</rdg></app>
 est-il bleu, gris ou vert?
-<app><lem wit="#U1857 #E1857"> —</lem>
+<app><lem wit="#U1857"> —</lem>
 <rdg wit="#FDM1861 #FDM1868">)</rdg></app></l>
 <l n="3">Alternativement tendre, 
-<app><lem wit="#U1857 #E1857">doux et</lem>
+<app><lem wit="#U1857">doux et</lem>
 <rdg wit="#FDM1861 #FDM1868">rêveur,</rdg></app> cruel,</l>
 <l n="4">Réfléchit l'indolence et la pâleur du ciel.</l>
 </lg>
@@ -152,19 +135,19 @@ est-il bleu, gris ou vert?
 <lg type="stanza" subtype="quatrain" n="3">
 <l n="1">Tu ressembles parfois à ces beaux horizons</l>
 <l n="2">Qu'allument les soleils des brumeuses saisons
-<app><lem wit="#U1857 #E1857">;</lem>
+<app><lem wit="#U1857">;</lem>
 <rdg wit="#FDM1861">.....</rdg>
 <rdg wit="#FDM1868">...</rdg></app></l>
 <l n="3">
-<app><lem wit="#U1857 #E1857">— </lem>
+<app><lem wit="#U1857">— </lem>
 <rdg wit="#FDM1861 #FDM1868"/></app>Comme tu resplendis, paysage mouillé</l>
 <l n="4">Qu'enflamment les rayons tombant d'un ciel brouillé!</l>
 </lg>
 <lg type="stanza" subtype="quatrain" n="4">
 <l n="1">
-<app><lem wit="#U1857 #E1857">Ô</lem>
+<app><lem wit="#U1857">Ô</lem>
 <rdg wit="#FDM1861 #FDM1868">O</rdg></app> femme dangereuse
-<app><lem wit="#U1857 #E1857">!</lem>
+<app><lem wit="#U1857">!</lem>
 <rdg wit="#FDM1861 #FDM1868">,</rdg></app> ô séduisants climats!</l>
 <l n="2">Adorerai-je aussi ta neige et vos frimas,</l>
 <l n="3">Et saurai-je tirer de l'implacable hiver</l>
