@@ -140,7 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 				Add head and title element -->
 
 				<head>
-					<title type="main" rend="L'AUBE SPIRITUELLE">L'AUBE SPIRITUELLE</title>
+					<title type="main">L'AUBE SPIRITUELLE</title>
 				</head>
 
 				<!-- Add lg element with type, subtype, and n attributes
