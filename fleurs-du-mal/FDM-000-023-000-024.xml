@@ -5,11 +5,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="Le Chevelure">Chevelure</title>
+        <title rend="LA CHEVELURE">CHEVELURE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="SS">Sara Sterkenburg</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -27,22 +31,6 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -57,27 +45,6 @@
                               portrait of the author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -117,14 +84,17 @@
     <body>
       <div type="poem">
         <head>
-          <title>LA CHEVELURE</title>
+          <title type="main">LA CHEVELURE</title>
         </head>
         <lg type="cinquain" n="1">
           <l n="1">O toison, moutonnant jusque sur l'encolure!</l>
           <l n="2">O boucles! O parfum chargé de nonchaloir!</l>
           <l n="3">Extase! Pour peupler ce soir l'alcôve obscure</l>
-          <l n="4">Des souvenirs dormant dans cette chevelure,</l>
-          <l n="5">Je la veux agiter dans l'air comme un mouchoir.</l>
+          <l n="4">Des souvenirs dormant dans <app>
+            <lem wit="#FDM1861">cètte</lem>
+            <rdg wit="#FDM1868">cette</rdg>
+          </app> chevelure,</l>
+          <l n="5">Je la veux agiter dans l'air comme un mouchoir!</l>
         </lg>
         <lg type="cinquain" n="2">
           <l n="6">La langoureuse Asie et la brûlante Afrique,</l>
@@ -134,7 +104,7 @@
           <l n="10">Le mien, ô mon amour! nage sur ton parfum.</l>
         </lg>
         <lg type="cinquain" n="3">
-          <l n="11">J'ira là-bas où l'arbre et l'homme, pleins de sève,</l>
+          <l n="11">J'irai là-bas où l'arbre et l'homme, pleins de séve,</l>
           <l n="12">Se pâment longuement sous l'ardeur des climats;</l>
           <l n="13">Fortes tresses, soyez la houle qui m'enlève!</l>
           <l n="14">Tu contiens, mer d'ébène, un éblouissant rêve</l>
@@ -151,7 +121,7 @@
           <l n="21">Je plongerai ma tête amoureuse d'ivresse</l>
           <l n="22">Dans ce noir océan où l'autre est enfermé;</l>
           <l n="23">Et mon esprit subtil que le roulis caresse</l>
-          <l n="24">Saura vous retrouver, féconde paresse,</l>
+          <l n="24">Saura vous retrouver, ô féconde paresse,</l>
           <l n="25">Infinis bercements du loisir embaumé!</l>
         </lg>
         <lg type="cinquain" n="6">
