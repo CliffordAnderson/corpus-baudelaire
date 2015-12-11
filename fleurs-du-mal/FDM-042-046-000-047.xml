@@ -111,22 +111,6 @@
 	<text>
 		<body>
 
-			<!-- Here's what this poem looked like in the source before markup:
-			<div>
-			<p> LA PRIERE D'UN PAÏEN </p>
-			<p/>
-			<p> Ah! ne ralentis pas tes flammes; Réchauffe mon coeur engourdi, Volupté,
-			torture des âmes! _Diva! supplicem exaudi!_ </p>
-			<p> Déesse dans l'air répandue, Flamme dans notre souterrain! Exauce une âme
-			morfondue, Qui te consacre un chant d'airain. </p>
-			<p> Volupté, sois toujours ma reine! Prends le masque d'une sirène Faîte de
-			chair et de velours. </p>
-			<p> Ou verse-moi tes sommeils lourds Dans le vin informe et mystique, Volupté,
-			fantôme élastique! </p>
-			<p/>
-			</div>
-			-->
-
 			<!-- The div element is included in the source text. Retain this element and
 			add the type attribute. For the type attibute value use 'poem' unless the poem
 			is a specific type like 'sonnet'. -->
