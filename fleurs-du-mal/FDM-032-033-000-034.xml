@@ -117,8 +117,11 @@ Online Distributed Proofreading Team.</p>
         <lg type="stanza" subtype="tercet" n="3">
           <l n="9">Le tombeau, confident de mon rêve infini,</l>
           <l n="10"><app>
-              <lem wit="#U1857">— Car le tombeau toujours comprendra le poète, —</lem>
-              <rdg wit="#FDM1861 #FDM1868">(Car le tombeau tougours comprendra le poëte),</rdg>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#FDM1861 #FDM1868">(</rdg>
+            </app>Car le tombeau toujours comprendra le poète<app>
+              <lem wit="#U1857">, —</lem>
+              <rdg wit="#FDM1861 #FDM1868">),</rdg>
             </app></l>
           <l n="11">Durant ces <app>
               <lem wit="#U1857">grandes</lem>
