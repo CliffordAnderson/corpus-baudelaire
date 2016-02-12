@@ -107,12 +107,10 @@ Online Distributed Proofreading Team.</p>
           <l n="1">Les amoureux fervents et les savants austères</l>
           <l n="2">Aiment également<app>
             <lem wit="#U1857"/>
-            <rdg wit="#FDM1861">,</rdg>
-            <rdg wit="#FDM1868">,</rdg>
+            <rdg wit="#FDM1861 #FDM1868">,</rdg>
           </app> dans leur mûre saison<app>
             <rdg wit="#U1857"/>
-            <rdg wit="#FDM1861">,</rdg>
-            <rdg wit="#FDM1868">,</rdg>
+            <rdg wit="#FDM1861 #FDM1868">,</rdg>
           </app></l>
           <l n="3">Les chats puissants et doux, orgueil de la maison,</l>
           <l n="4">Qui comme eux sont frileux et comme eux sédentaires.</l>
@@ -122,8 +120,7 @@ Online Distributed Proofreading Team.</p>
           <l n="6">Ils cherchent le silence et l'horreur des ténèbres;</l>
           <l n="7"><app>
             <lem wit="#U1857">L'Erèbe</lem>
-            <rdg wit="#FDM1861">L'Érèbe</rdg>
-            <rdg wit="#FDM1868">L'Érèbe</rdg>
+            <rdg wit="#FDM1861 #FDM1868">L'Érèbe</rdg>
           </app> les eût pris pour ses coursiers funèbres,</l>
           <l n="8">S'ils pouvaient au servage incliner leur fierté.</l>
         </lg>
