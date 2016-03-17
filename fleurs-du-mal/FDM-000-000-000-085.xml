@@ -99,7 +99,7 @@
 				<lg type="poem" n="1">
 					<head>I</head>
 					<lg type="stanza" subtype="sextet" n="1">
-						<l n="1">Or Gitche Manito<node n="1" anchored="true" place="bottom">Prononcez: <emph style="italics">Guitchi Manitou</emph>.</note>, le Maître de la Vie,</l>
+						<l n="1">Or Gitche Manito<note n="1" anchored="true" place="bottom">Prononcez: <emph style="italics">Guitchi Manitou</emph>.</note>, le Maître de la Vie,</l>
 						<l n="2">Le Puissant, descendit dans la verte prairie,</l>
 						<l n="3">Dans l'immense prairie aux coteaux montueux;</l>
 						<l n="4">Et là, sur les rochers de la Rouge Carrière,</l>
