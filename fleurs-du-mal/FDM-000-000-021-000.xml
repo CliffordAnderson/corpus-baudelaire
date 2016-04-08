@@ -82,9 +82,10 @@ Online Distributed Proofreading Team.</p>
           <l n="2">Le Welche dit: «Tout ça, pour moi, c'est du prâcrit;</l>
           <l n="3">Je ne connais, en fait de nymphes bocagères,</l>
           <l n="4">Que celle de <hi rend="italic">Montagne-aux-Herbes-potagères</hi>.»</l>
+          <note anchored="true" place="bottom">13</note>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="1">Du bout de son pied fin et de son œil qui rit,</l>
+          <l n="1">Du bout de son pied fin et de son <choice><orig>œil</orig><reg>oeil</reg></choice> qui rit,</l>
           <l n="2">Amina verse à flots le délire et l'esprit;</l>
           <l n="3">Le Welche dit: «Fuyez, délices mensongères!</l>
           <l n="4">Mon épouse n'a pas ces allures légères.»</l>
@@ -98,6 +99,7 @@ Online Distributed Proofreading Team.</p>
           <l n="1">Que sur la grâce en feu le Welche dit: «Haro!»</l>
           <l n="2">Et que, le doux Bacchus lui versant du bourgogne,</l>
           <l n="3">Le monstre répondrait: «J'aime mieux le faro!»</l>
+          <note anchored="true" place="bottom">1864.</note>
         </lg>
       </div>
     </body>

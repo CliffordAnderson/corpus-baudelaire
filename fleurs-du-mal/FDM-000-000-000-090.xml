@@ -54,10 +54,14 @@
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="composite">
         <head>
           <title>MADRIGAL TRISTE</title>
         </head>
+        <lg type= "poem" n="1">
+          <head>
+            <title>I</title>
+          </head>
         <lg type="stanza" subtype="cinquain" n="1">
           <l n="1">Que m'importe que tu sois sage?</l>
           <l n="2">Sois belle! et sois triste! Les pleurs</l>
@@ -73,7 +77,7 @@
           <l n="10">Le nuage affreux du passé.</l>
         </lg>
         <lg type="stanza" subtype="cinquain" n="3">
-          <l n="11">Je t'aime quand ton grand oœil verse</l>
+          <l n="11">Je t'aime quand ton grand <choice><orig>œil</orig><reg>oeil</reg></choice> verse</l>
           <l n="12">Une eau chaude comme le sang;</l>
           <l n="13">Quand, malgré ma main qui te berce,</l>
           <l n="14">Ton angoisse, trop lourde, perce</l>
@@ -86,6 +90,11 @@
           <l n="19">Et crois que ton coeur s'illumine</l>
           <l n="20">Des perles que versent tes yeux!</l>
         </lg>
+        </lg>
+        <lg type= "poem" n="2">
+          <head>
+            <title>II</title>
+          </head>
         <lg type="stanza" subtype="cinquain" n="6">
           <l n="21">Je sais que ton coeur,qui regorge</l>
           <l n="22">De vieux amours déracinés,</l>
@@ -113,6 +122,7 @@
           <l n="38">Dans l'horreur de la nuit malsaine</l>
           <l n="39">Me dire, l'âme de cris pleine:</l>
           <l n="40">« Je suis ton égale, ô mon Roi! »</l>
+        </lg>
         </lg>
         <p/>
       </div>
