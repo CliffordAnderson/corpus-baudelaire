@@ -23,8 +23,7 @@
 			</titleStmt>
 			<publicationStmt>
 				<!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
-				<idno>FDM-042-046-000-047</idno>
-				<!--insert id no in above element account to established format-->
+				<idno>FDM-042-046-000-047</idno>				<!--insert id no in above element account to established format-->
 				<publisher>Jean and Alexander Heard Library</publisher>
 				<pubPlace>Nashville</pubPlace>
 				<address>

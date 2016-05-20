@@ -31,8 +31,7 @@ and include the title with the article in a rend attribute. -->
                 <!-- Insert identification number. See the Editions Table 
 (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) 
 to derive the numerical ID Code. -->
-                <idno>FDM-000-002-000-002</idno>
-                <!--insert id no in above element account to established format-->
+                <idno>FDM-000-002-000-002</idno>                <!--insert id no in above element account to established format-->
             </publicationStmt>
             <sourceDesc>
                 <listWit>

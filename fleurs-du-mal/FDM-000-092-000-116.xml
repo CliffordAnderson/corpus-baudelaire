@@ -14,8 +14,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
-        <idno>FDM-000-092-000-116</idno>
-        <publisher>Jean and Alexander Heard Library</publisher>
+        <idno>FDM-000-092-000-116</idno>        <publisher>Jean and Alexander Heard Library</publisher>
         <pubPlace>Nashville</pubPlace>
         <address>
           <addrLine>Jean and Alexander Heard Library</addrLine>
