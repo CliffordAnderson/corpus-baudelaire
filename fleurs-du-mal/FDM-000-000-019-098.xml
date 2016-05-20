@@ -90,7 +90,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>LA RANÇON</title>
+          <title type="main">LA RANÇON</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">L'homme a, pour payer sa rançon,</l>

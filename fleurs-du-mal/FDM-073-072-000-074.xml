@@ -102,7 +102,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>LE MORT JOYEUX</title>
+          <title type="main">LE MORT JOYEUX</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Dans une terre grasse et pleine d'escargots</l>

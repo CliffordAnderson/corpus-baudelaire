@@ -106,7 +106,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>L'AME DU VIN</title>
+          <title type="main">L'AME DU VIN</title>
         </head>
         <!-- Add lg element with type, subtype, and n attributes 
 Add l elemnts with n attributes -->
