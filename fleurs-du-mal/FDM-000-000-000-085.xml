@@ -1,4 +1,4 @@
-<!-- Requisite XML information. Encoding, namespace, and schema info.  -->
+<!-- Requisite XML information. Encoding, namespace, and schema info. -->
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -36,6 +36,12 @@
         <date>2015</date>
       </publicationStmt>
       <sourceDesc>
+        <!-- create listWit in sourceDesc with the different editions and their bib data
+        1. 1857 Unexpurgated xml:id="U1857"
+        2. 1861 2nd edition censored xml:id="FDM1861"
+        3. 1866 Les Epaves xml:id="1866"
+        4. 1868 3rd edition - posthumous xml:id="1868"
+        -->
         <listWit>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
@@ -55,14 +61,9 @@
             </biblStruct>
           </witness>
         </listWit>
-        <!-- create witList in sourceDesc with the different editions and their bib data
-        1. 1857 Unexpurgated xml:id="U1857"
-        2. 1861 2nd edition censored xml:id="FDM1861"
-        3. 1866 Les Epaves xml:id="1866"
-        4. 1868 3rd edition - posthumous xml:id="1868"
-        -->
         <!--
-        The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du Mal
+        The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org
+        Title: Les Fleurs du Mal
         Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099]
         Release Date: July, 2004 First Posted: November 5, 2002 Language: French Character set encoding: ISO-8859-1
         Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the Online Distributed Proofreading Team.
@@ -73,22 +74,16 @@
   <!-- TEI header ends, text section begins... -->
   <text>
     <body>
-
       <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attibute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
-
       <div type="poem" subtype="composite">
-
         <!-- Remove all p elements
         Add head and title element -->
-
         <head>
           <title type="main">LE CALUMET DE PAIX</title>
           <title type="sub">IMITÉ DE LONGFELLOW</title>
         </head>
-
         <!-- Add lg element with type, subtype, and n attributes
         Add l elemnts with n attributes -->
-
         <lg type="poem" n="1">
           <head>I</head>
           <lg type="stanza" subtype="sextet" n="1">

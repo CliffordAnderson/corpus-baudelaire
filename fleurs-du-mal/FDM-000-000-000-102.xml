@@ -25,7 +25,8 @@
                <addrLine>USA</addrLine>
             </address>
             <date>2014</date>
-            <idno>FDM-000-000-000-102</idno>            <!--insert id no in above element account to established format-->
+            <idno>FDM-000-000-000-102</idno>
+            <!--insert id no in above element account to established format-->
          </publicationStmt>
          <sourceDesc>
             <listWit>

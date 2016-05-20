@@ -32,7 +32,8 @@ and include the title with the article in a rend attribute. -->
                 <!-- Insert identification number. See the Editions Table 
 (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) 
 to derive the numerical ID Code. -->
-                <idno>FDM-025-027-000-028</idno>                <!--insert id no in above element account to established format-->
+                <idno>FDM-025-027-000-028</idno>
+                <!--insert id no in above element account to established format-->
             </publicationStmt>
             <sourceDesc>
                 <listWit>
@@ -211,4 +212,3 @@ Add l elemnts with n attributes -->
 as an individual file. Save the file using the numeric code based on the Editions Table.
 Add the TEI header from the template file. Replace values in header template
 as appropriate.-->
-
