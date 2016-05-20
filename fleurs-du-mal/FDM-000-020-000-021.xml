@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="Le Masque">MASQUE</title>
+        <title rend="LE MASQUE">MASQUE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Basic Markup</resp>
@@ -113,7 +113,11 @@
           <l n="29">—Mais pourquoi pleure-t-elle? Elle, beauté parfaite</l>
           <l n="30">Qui mettrait à ses pieds le genre humain vaincu,</l>
           <l n="31"><app>
-            <lem wit="#FDM1861">uel</lem>
+            <lem wit="#FDM1861"><sic>uel</sic>
+              <note type="editorial" resp="#ZB">
+                The initial letter "Q" has been left off of the beginning of the first word in the line, "quel". 
+                This is most likely a typesetting error, as there is no such word as "uel". 
+              </note></lem>
             <rdg wit="#FDM1868">Quel</rdg>
             <!--The pdf version of the 1961 lacks a beginning Q for this word. Perhaps a check of the 
                      print is needed to verify typographical error --> 
