@@ -3,12 +3,16 @@
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="Le Chat">Chat</title>
+        <title rend="LE CHAT">CHAT</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <name xml:id="TFH">Todd F. Hughes</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name ref="#TFH">Todd F. Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -52,31 +56,10 @@
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                    portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
+                    author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                    this is a false imprint, the book actually being published in Brussels
-                    by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                    9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -98,46 +81,47 @@
             </biblStruct>
           </witness>
         </listWit>
-        <!--
-<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
-for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
-You may copy it, give it away or re-use it under the terms of the Project Gutenberg
-License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
-Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
-Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
-encoding: ISO-8859-1 </p>
-<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
-Online Distributed Proofreading Team.</p>
--->
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-      <div type="sonnet">
+      <div type="poem" subtype="sonnet">
         <head>
           <title type="main">Le Chat</title>
         </head>
-        <lg type="stanza" subtype="quatrain">
-          <l n="1">Viens, mon beau chat, sur mon coeur amoureux:</l>
+        <lg type="stanza" subtype="quatrain" n="1">
+          <l n="1">Viens, mon beau chat, sur mon coeur amoureux;</l>
           <l n="2">Retiens les griffes de ta patte,</l>
-          <l n="3">Et laisse-moi plonger dans tes beaux yeux,</l>
+          <l n="3">Et laisse-moi plonger dans tes beaux <app>
+              <lem wit="#U1857">yeux</lem>
+              <rdg wit="#FDM1861 #FDM1868">yeux,</rdg>
+            </app></l>
           <l n="4">Mêlés de métal et d'agate.</l>
         </lg>
-        <lg type="stanza" subtype="quatrain">
+        <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Lorsque mes doigts caressent à loisir</l>
           <l n="6">Ta tête et ton dos élastique,</l>
           <l n="7">Et que ma main s'enivre du plaisir</l>
           <l n="8">De palper ton corps électrique,</l>
         </lg>
-        <lg type="stanza" subtype="tercet">
-          <l n="9">Je vois ma fenne en esprit. Son regard,</l>
+        <lg type="stanza" subtype="tercet" n="3">
+          <l n="9">Je vois ma femme en <app>
+              <lem wit="#U1857">esprit; son</lem>
+              <rdg wit="#FDM1861 #FDM1868">esprit.  Son</rdg>
+            </app> regard,</l>
           <l n="10">Comme le tien, aimable bête</l>
           <l n="11">Profond et froid, coupe et fend comme un dard,</l>
         </lg>
-        <lg type="stanza" subtype="tercet">
-          <l n="12" rhyme="d">Et ,des pieds jusques à la t^ete,</l>
-          <l n="13">Un air subtil, un dangereux parfum</l>
+        <lg type="stanza" subtype="tercet" n="4">
+          <l n="12" rhyme="d"><app>
+              <lem wit="#U1857">Et</lem>
+              <rdg wit="#FDM1861 #FDM1868">Et,</rdg>
+            </app> des pieds jusques à la tête,</l>
+          <l n="13">Un air subtil, un dangereux <app>
+              <lem wit="#U1857 #FDM1861">parfum</lem>
+              <rdg wit="#FDM1868">parfum,</rdg>
+            </app></l>
           <l n="14">Nagent autour de son corps brun.</l>
         </lg>
       </div>
