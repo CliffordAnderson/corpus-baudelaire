@@ -5,11 +5,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="La Prière d'un païen">Prière d'un païen</title>
+        <title rend="LA PRIÈRE D'UN PAÏEN">PRIÈRE D'UN PAIEN</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="TFH">Todd F. Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -27,60 +31,6 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="FDM1861">
-            <desc>1861 2nd edition censored</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                              portrait of the author drawn and engraved by Felix Bracquemond</note>
-                </imprint>
-                <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -115,15 +65,15 @@
   </teiHeader>
   <text>
     <body>
-      <div type="sonnet">
+      <div type="poem" subtype="sonnet">
         <head>
-          <title>LA PRIERE D'UN PAÏEN</title>
+          <title type="main">LA PRIÈRE D'UN PAIEN</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Ah! ne ralentis pas tes flammes;</l>
           <l n="2">Réchauffe mon coeur engourdi,</l>
           <l n="3">Volupté, torture des âmes!</l>
-          <l n="4">_Diva! supplicem exaudi!_</l>
+          <l n="4"><emph rend="italic"> Diva! supplicem exaudi!</emph></l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Déesse dans l'air répandue,</l>
