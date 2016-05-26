@@ -6,9 +6,14 @@
         <title rend="LA VOIX">VOIX</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <name xml:id="TFH">Todd F. Hughes</name>
+        </respStmt>
+        <respStmt>
+        <resp>Critical Apparatus</resp>
+        <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+        <name ref="#TFH">Todd F. Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -26,60 +31,6 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="FDM1861">
-            <desc>1861 2nd edition censored</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                    portrait of the author drawn and engraved by Felix Bracquemond</note>
-                </imprint>
-                <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                    this is a false imprint, the book actually being published in Brussels
-                    by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                    9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -118,7 +69,7 @@ Online Distributed Proofreading Team.</p>
         <head>
           <title>LA VOIX</title>
         </head>
-        <lg type="stanza">
+        <lg type="stanza" n="1">
           <l n="1">Mon berceau s'adossait à la bibliothèque,</l>
           <l n="2">Babel sombre, où roman, science, fabliau,</l>
           <l n="3">Tout, la cendre latine et la poussière grecque,</l>
@@ -127,7 +78,7 @@ Online Distributed Proofreading Team.</p>
           <l n="6">Disait: « La Terre est un gâteau plein de douceur;</l>
           <l n="7">Je puis (et ton plaisir serait alors sans terme!)</l>
           <l n="8">Te faire un appétit d'une égale grosseur.»</l>
-          <l n="9">Et l'autre: « Viens, oh! viens voyager dans les rêves</l>
+          <l n="9">Et l'autre: « Viens, oh! viens voyager dans les rêves,</l>
           <l n="10">Au delà du possible, au delà du connu! »</l>
           <l n="11">Et celle-là chantait comme le vent des grèves,</l>
           <l n="12">Fantôme vagissant, on ne sait d'où venu,</l>
@@ -143,7 +94,7 @@ Online Distributed Proofreading Team.</p>
           <l n="22">J'aime si tendrement le désert et la mer;</l>
           <l n="23">Que je ris dans les deuils et pleure dans les fêtes,</l>
           <l n="24">Et trouve un goût suave au vin le plus amer;</l>
-          <l n="25">Que je prends très souvent les faits pour des mensonges</l>
+          <l n="25">Que je prends très souvent les faits pour des mensonges,</l>
           <l n="26">Et que, les yeux au ciel, je tombe dans des trous.</l>
           <l n="27">Mais la Voix me console et dit: «Garde des songes;</l>
           <l n="28">Les sages n'en ont pas d'aussi beaux que les fous! ».</l>
