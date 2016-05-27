@@ -83,7 +83,7 @@
           <title type="sub">IMITÉ DE LONGFELLOW</title>
         </head>
         <!-- Add lg element with type, subtype, and n attributes
-        Add l elemnts with n attributes -->
+        Add l elements with n attributes -->
         <lg type="poem" n="1">
           <head>I</head>
           <lg type="stanza" subtype="sextet" n="1">
