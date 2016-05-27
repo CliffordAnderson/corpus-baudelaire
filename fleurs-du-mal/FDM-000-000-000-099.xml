@@ -9,9 +9,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <title rend="BIEN LOIN D'ICI">BIEN LOIN D'ICI</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
-          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <resp>Basic Markup</resp>
           <name xml:id="TMF">Timothy M. Foster</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name xml:id="TFH">Todd F. Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -124,13 +128,13 @@ Online Distributed Proofreading Team.</p>
         </head>
         <lg type="stanza" subtype="tercet" n="1">
           <l n="1">C'est ici la case sacrée</l>
-          <l n="2">Où cette fille très parée,</l>
+          <l n="2">Où cette fille très-parée,</l>
           <l n="3">Tranquille et toujours préparée,</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="2">
           <l n="4">D'une main éventant ses seins,</l>
           <l n="5">Et son coude dans les coussins,</l>
-          <l n="6">Écoute pleurer les bassins:</l>
+          <l n="6">Écoute pleurer les bassins :</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="3">
           <l n="7">C'est la chambre de Dorothée.</l>
@@ -139,7 +143,7 @@ Online Distributed Proofreading Team.</p>
           <l n="10">Pour bercer cette enfant gâtée.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="4">
-          <l n="11">Du haut en bas, avec grand soin.</l>
+          <l n="11">Du haut en bas, avec grand soin,</l>
           <l n="12">Sa peau délicate est frottée</l>
           <l n="13">D'huile odorante et de benjoin.</l>
           <l n="14">— Des fleurs se pâment dans un coin.</l>
