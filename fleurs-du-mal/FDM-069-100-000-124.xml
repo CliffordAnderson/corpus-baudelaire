@@ -105,35 +105,30 @@ Online Distributed Proofreading Team.</p>
           <l n="1">La servante au grand <choice><orig>cœur</orig><reg>coeur</reg></choice> dont vous étiez jalouse
           	<app>
           			<lem wit="U1857"></lem>
-          			<rdg wit="FDM1861">,</rdg>
-          			<rdg wit="FDM1868">,</rdg>
+          			<rdg wit="FDM1861 FDM1868">,</rdg>
           	</app>
           	</l>
           <l n="2"> 
           	<app>
           			<lem wit="U1857">— Dort-elle</lem>
-          			<rdg wit="FDM1861">Et qui dort</rdg>
-          			<rdg wit="FDM1868">Et qui dort</rdg>
+          			<rdg wit="FDM1861 FDM1868">Et qui dort</rdg>
           	</app>
           		son sommeil sous une humble pelouse
           	<app>
           			<lem wit="U1857">? —</lem>
-          			<rdg wit="FDM1861">,</rdg>
-          			<rdg wit="FDM1868">,</rdg>
+          			<rdg wit="FDM1861 FDM1868">,</rdg>
           	</app>
           </l>
           <l n="3">Nous 
           	<app>
           			<lem wit="U1857">aurions déjà dû</lem>
-          			<rdg wit="FDM1861">devrions pourtant</rdg>
-          			<rdg wit="FDM1868">devrions pourtant</rdg>
+          			<rdg wit="FDM1861 FDM1868">devrions pourtant</rdg>
           	</app>
           		lui porter quelques fleurs.</l>
           <l n="4">Les morts, les pauvres morts
             <app>
           			<lem wit="U1857"></lem>
-          			<rdg wit="FDM1861">,</rdg>
-          			<rdg wit="FDM1868">,</rdg>
+          			<rdg wit="FDM1861 FDM1868">,</rdg>
           	</app>
            		ont de grandes douleurs,</l>
           <l n="5">Et quand Octobre souffle, émondeur des vieux arbres,</l>
@@ -142,7 +137,6 @@ Online Distributed Proofreading Team.</p>
           <l n="8">
           	<app>
           			<lem wit="U1857">A</lem>
-          			<rdg wit="FDM1861">A</rdg>
           			<rdg wit="FDM1868">De</rdg>
           	</app>
           		dormir, comme ils font, chaudement dans leurs draps,</l>
@@ -152,15 +146,13 @@ Online Distributed Proofreading Team.</p>
           <l n="12">Ils sentent s'égoutter les neiges de l'hiver
             <app>
           			<lem wit="U1857">,</lem>
-          			<rdg wit="FDM1861"></rdg>
-          			<rdg wit="FDM1868"></rdg>
+          			<rdg wit="FDM1861 FDM1868"></rdg>
           	</app>
           </l>
           <l n="13">
           	<app>
           			<lem wit="U1857">Et l'éternité fuir</lem>
-          			<rdg wit="FDM1861">Et le siècle couler,</rdg>
-          			<rdg wit="FDM1868">Et le siècle couler,</rdg>
+          			<rdg wit="FDM1861 FDM1868">Et le siècle couler,</rdg>
           	</app>
           		sans qu'amis ni famille</l>
           <l n="14">Remplacent les lambeaux qui pendent à leur grille.</l>
@@ -170,14 +162,12 @@ Online Distributed Proofreading Team.</p>
           <l n="16">Calme, dans le fauteuil
           	<app>
           			<lem wit="U1857">elle venait</lem>
-          			<rdg wit="FDM1861">je la voyais</rdg>
-          			<rdg wit="FDM1868">je la voyais</rdg>
+          			<rdg wit="FDM1861 FDM1868">je la voyais</rdg>
           		s'asseoir,</l>
           <l n="17">Si, par une nuit bleue et froide de décembre,</l>
           <l n="18">Je la trouvais tapie en un coin de ma chambre
           	<app>
           			<lem wit="U1857">,</lem>
-          			<rdg wit="FDM1861">,</rdg>
           			<rdg wit="FDM1868"></rdg>
           	</app>
           </l>
@@ -186,14 +176,12 @@ Online Distributed Proofreading Team.</p>
           <l n="21">Que 
             <app>
           			<lem wit="U1857">pourais-je</lem>
-          			<rdg wit="FDM1861">pourrais-je</rdg>
-          			<rdg wit="FDM1868">pourrais-je</rdg>
+          			<rdg wit="FDM1861 FDM1868">pourrais-je</rdg>
           	</app>
           		répondre à cette âme pieuse
           	<app>
           			<lem wit="U1857"></lem>
-          			<rdg wit="FDM1861">,</rdg>
-          			<rdg wit="FDM1868">,</rdg>
+          			<rdg wit="FDM1861 FDM1868">,</rdg>
           	</app>
           </l>
           <l n="22">Voyant tomber des pleurs de sa paupière creuse?</l>
