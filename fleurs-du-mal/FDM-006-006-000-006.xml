@@ -5,11 +5,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="Les Phares">Phares</title>
+        <title rend="LES PHARES">PHARES</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="EW">Ed Warga</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+            <name xml:id="TFH">Todd Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -115,86 +119,120 @@
   </teiHeader>
   <text>
     <body>
-      <div type="poem" n="4" rhyme="abab">
+      <div type="poem">
         <head>
-          <title>LES PHARES</title>
+          <title type="main">LES PHARES</title>
         </head>
-        <lg type="quatrain" n="1" rhyme="abba">
-          <l n="1">Rubens, fleuve d'oubli, jardin de la<rhyme label="a">paresse</rhyme>,</l>
-          <l n="2">Oreiller de chair fraîche où l'on ne peut<rhyme label="b">aimer</rhyme>,</l>
-          <l n="3">Mais où la vie afflue et s'agite sans<rhyme label="a">cesse</rhyme>,</l>
-          <l n="4">Comme l'air dans le ciel et la mer dans la<rhyme label="b">mer</rhyme>;</l>
+        <lg type="stanza" subtype="quatrain" n="1">
+          <l n="1">Rubens, fleuve d'oubli, jardin de la paresse,</l>
+          <l n="2">Oreiller de chair fraîche où l'on ne peut aimer,</l>
+          <l n="3">Mais où la vie afflue et s'agite sans cesse,</l>
+          <l n="4">Comme l'air dans le ciel et la mer dans la mer;</l>
         </lg>
-        <lg type="quatrain" n="2" rhyme="abba">
-          <l n="5">Léonard de Vinci, miroir profond et<rhyme label="a">sombre</rhyme>,</l>
-          <l n="6">Où des anges charmants, avec un doux<rhyme label="b">souris</rhyme>
-          </l>
-          <l n="7">Tout chargé de mystère, apparaissent à<rhyme label="a">l'ombre</rhyme>
-          </l>
-          <l n="8">Des glaciers et des pins qui ferment leur<rhyme label="b">pays</rhyme>;</l>
+        <lg type="stanza" subtype="quatrain" n="2">
+          <l n="5">Léonard de Vinci, 
+            <app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit= "#FDM1861 #FDM1868"/>
+            </app> miroir profond et sombre,</l>
+          <l n="6">Où des anges charmants, avec un doux souris</l>
+          <l n="7">Tout chargé de mystère, apparaissent à l'ombre</l>
+          <l n="8">Des glaciers et des pins qui ferment leur pays;</l>
         </lg>
-        <lg type="quatrain" n="3" rhyme="abba">
-          <l n="9">Rembrandt, triste hôpital tout rempli de<rhyme label="a">murmures</rhyme>,</l>
-          <l n="10">Et d'un grand crucifix décoré<rhyme label="b">seulement</rhyme>,</l>
-          <l n="11">Où la prière en pleurs s'exhale des<rhyme label="a">ordures</rhyme>,</l>
-          <l n="12">Et d'un rayon d'hiver traversé<rhyme label="b">brusquement</rhyme>;</l>
+        <lg type="stanza" subtype="quatrain" n="3">
+          <l n="9">Rembrandt, 
+            <app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit= "#FDM1861 #FDM1868"/>
+            </app>
+            triste hôpital tout rempli de murmures,</l>
+          <l n="10">Et d'un grand crucifix décoré seulement,</l>
+          <l n="11">Où la prière en pleurs s'exhale des ordures,</l>
+          <l n="12">Et d'un rayon d'hiver traversé brusquement;</l>
         </lg>
-        <lg type="quatrain" n="4" rhyme="abba">
-          <l n="13">Michel-Ange, lieu vague où l'on voit des<rhyme label="a">Hercules</rhyme>
-          </l>
-          <l n="14">Se mêler à des Christ, et se lever tout<rhyme label="b">droits</rhyme>
-          </l>
-          <l n="15">Des fantômes puissants, qui dans les<rhyme label="a">crépuscules</rhyme>
-          </l>
-          <l n="16">Déchirent leur suaire en étirant leurs<rhyme label="b">doigts</rhyme>;</l>
+        <lg type="stanza" subtype="quatrain" n="4">
+          <l n="13">Michel-Ange, 
+            <app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit= "#FDM1861 #FDM1868"/>
+            </app>
+            lieu vague où l'on voit des Hercules</l>
+          <l n="14">Se mêler à des Christ, et se lever tout droits</l>
+          <l n="15">Des fantômes puissants, qui dans les crépuscules</l>
+          <l n="16">Déchirent leur suaire en étirant leurs doigts;</l>
         </lg>
-        <lg type="quatrain" n="5" rhyme="abba">
-          <l n="17">Colères de boxeur, impudences de<rhyme label="a">faune</rhyme>,</l>
-          <l n="18">Toi qui sus ramasser la beauté des<rhyme label="b">goujats</rhyme>,</l>
-          <l n="19">Grand coeur gonflé d'orgueil, homme débile et<rhyme label="a">jaune</rhyme>,</l>
-          <l n="20">Puget, mélancolique empereur des<rhyme label="b">forçats</rhyme>;</l>
+        <lg type="stanza" subtype="quatrain" n="5" >
+          <l n="17">Colères de boxeur, impudences de faune,</l>
+          <l n="18">Toi qui sus ramasser la beauté des goujats,</l>
+          <l n="19">Grand coeur gonflé d'orgueil, homme débile et jaune,</l>
+          <l n="20">Puget, mélancolique empereur des forçats;</l>
         </lg>
-        <lg type="quatrain" n="6" rhyme="abba">
-          <l n="21">Watteau, ce carnaval où bien des coeurs<rhyme label="a">illustres</rhyme>,</l>
-          <l n="22">Comme des papillons, errent en<rhyme label="b">flamboyant</rhyme>,</l>
-          <l n="23">Décors frais et légers éclairés par des<rhyme label="a">lustres</rhyme>
+        <lg type="stanza" subtype="quatrain" n="6">
+          <l n="21">Watteau, ce carnaval où bien des coeurs illustres,</l>
+          <l n="22">Comme des papillons, errent en flamboyant,</l>
+          <l n="23">Décors frais et légers éclairés par des lustres</l>
+          <l n="24">Qui versent la folie à ce bal tournoyant;</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="7">
+          <l n="25">Goya, 
+            <app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit= "#FDM1861 #FDM1868"/>
+            </app>
+            cauchemar plein de choses inconnues,</l>
+          <l n="26">De foetus qu'on fait cuire au milieu des sabbats,</l>
+          <l n="27">De vieilles au miroir et d'enfants toutes nues,</l>
+          <l n="28">Pour tenter les 
+            <app>
+              <lem wit="#U1857">Démons</lem>
+              <rdg wit= "#FDM1861 #FDM1868">démons</rdg>
+            </app>
+           ajustant bien leurs bas;</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="8">
+          <l n="29">Delacroix, 
+            <app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit= "#FDM1861 #FDM1868"/>
+            </app>
+            lac de sang hanté des mauvais anges,</l>
+          <l n="30">Ombragé par un bois de sapin toujours vert,</l>
+          <l n="31">Où, sous un ciel chagrin, des fanfares étranges
           </l>
-          <l n="24">Qui versent la folie à ce bal<rhyme label="b">tournoyant</rhyme>;</l>
+          <l n="32">Passent, comme un soupir étouffé de Weber;</l>
         </lg>
-        <lg type="quatrain" n="7" rhyme="abba">
-          <l n="25">Goya, cauchemar plein de choses<rhyme label="a">inconnues</rhyme>,</l>
-          <l n="26">De foetus qu'on fait cuire au milieu des<rhyme label="b">sabbats</rhyme>,</l>
-          <l n="27">De vieilles au miroir et d'enfants toutes<rhyme label="a">nues</rhyme>,</l>
-          <l n="28">Pour tenter les Démons ajustant bien leurs<rhyme label="b">bas</rhyme>;</l>
-        </lg>
-        <lg type="quatrain" n="8" rhyme="abba">
-          <l n="29">Delacroix, lac de sang hanté des mauvais<rhyme label="a">anges</rhyme>,</l>
-          <l n="30">Ombragé par un bois de sapin toujours<rhyme label="b">vert</rhyme>,</l>
-          <l n="31">Où, sous un ciel chagrin, des fanfares<rhyme label="a">étranges</rhyme>
+        <lg type="stanza" subtype="quatrain" n="9">
+          <l n="33">Ces malédictions, ces blasphèmes, ces plaintes,</l>
+          <l n="34">Ces extases, ces cris, ces pleurs, ces Te Deum,_</l>
+          <l n="35">Sont un écho redit par mille labyrinthes;</l>
+          <l n="36">C'est pour les coeurs mortels un divin opium
+            <app>
+              <lem wit="#U1857">.</lem>
+              <rdg wit= "#FDM1861 #FDM1868">!</rdg>
+            </app>
           </l>
-          <l n="32">Passent, comme un soupir étouffé de<rhyme label="b">Weber</rhyme>;</l>
         </lg>
-        <lg type="quatrain" n="9" rhyme="abba">
-          <l n="33">Ces malédictions, ces blasphèmes, ces<rhyme label="a">plaintes</rhyme>,</l>
-          <l n="34">Ces extases, ces cris, ces pleurs, ces _<rhyme label="b">Te
-                  Deum</rhyme>,_</l>
-          <l n="35">Sont un écho redit par mille<rhyme label="a">labyrinthes</rhyme>;</l>
-          <l n="36">C'est pour les coeurs mortels un divin<rhyme label="b">opium</rhyme>.</l>
+        <lg type="stanza" subtype="quatrain" n="10">
+          <l n="37">C'est un cri répété par mille sentinelles,</l>
+          <l n="38">Un ordre renvoyé par mille porte-voix;</l>
+          <l n="39">C'est un phare allumé sur mille citadelles,</l>
+          <l n="40">Un appel de chasseurs perdus dans les grands bois!</l>
         </lg>
-        <lg type="quatrain" n="10" rhyme="abba">
-          <l n="37">C'est un cri répété par mille<rhyme label="a">sentinelles</rhyme>,</l>
-          <l n="38">Un ordre renvoyé par mille<rhyme label="b">porte-voix</rhyme>;</l>
-          <l n="39">C'est un phare allumé sur mille<rhyme label="a">citadelles</rhyme>,</l>
-          <l n="40">Un appel de chasseurs perdus dans les grands<rhyme label="b">bois</rhyme>!</l>
-        </lg>
-        <lg type="quatrain" n="11" rhyme="abba">
-          <l n="41">Car c'est vraiment, Seigneur, le meilleur<rhyme label="a">témoignage</rhyme>
+        <lg type="stanza" subtype="quatrain" n="11">
+          <l n="41">Car c'est vraiment, Seigneur, le meilleur témoignage</l>
+          <l n="42">Que nous puissions donner de notre dignité</l>
+          <l n="43">Que 
+            <app>
+              <lem wit="#U1857">ce long hurlement</lem>
+              <rdg wit= "#FDM1861 #FDM1868">cet ardent sanglot</rdg>
+            </app>
+            cet ardent sanglot qui roule d'âge en âge
+            <app>
+              <lem wit="#U1857">,</lem>
+              <rdg wit= "#FDM1861 #FDM1868"/>
+            </app>
           </l>
-          <l n="42">Que nous puissions donner de notre<rhyme label="b">dignité</rhyme>
-          </l>
-          <l n="43">Que cet ardent sanglot qui roule d'âge<rhyme label="a">en âge</rhyme>
-          </l>
-          <l n="44">Et vient mourir au bord de votre<rhyme label="b">éternité</rhyme>!</l>
+          <l n="44">Et vient mourir au bord de votre éternité!</l>
         </lg>
       </div>
     </body>

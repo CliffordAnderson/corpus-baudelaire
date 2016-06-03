@@ -6,9 +6,14 @@
         <title rend="L'ENNEMI">ENNEMI</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <name xml:id="TFH">Todd F. Hughes</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name ref="#TFH">Todd F. Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -59,27 +64,6 @@
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                    this is a false imprint, the book actually being published in Brussels
-                    by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                    9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -114,28 +98,33 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem" n="6">
+      <div type="poem" subtype="sonnet" n="6">
         <head>
-          <title>L'ENNEMI</title>
+          <title type="main">L'ENNEMI</title>
         </head>
-        <lg type="stanza" n="1">
+        <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Ma jeunesse ne fut qu'un ténébreux orage,</l>
           <l n="2">Traversé ça et là par de brillants soleils;</l>
-          <l n="3">Le tonnerre et la pluie ont fait un tel ravage</l>
+          <l n="3">Le tonnerre et la pluie ont fait un tel ravage
+            <app>
+            <lem wit="#U1857"/>
+            <rdg wit= "#FDM1861 #FDM1868" >,</rdg>
+          </app>
+          </l>
           <l n="4">Qu'il reste en mon jardin bien peu de fruits vermeils.</l>
         </lg>
-        <lg type="stanza" n="2">
+        <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Voilà que j'ai touché l'automne des idées,</l>
           <l n="6">Et qu'il faut employer la pelle et les râteaux</l>
           <l n="7">Pour rassembler à neuf les terres inondées,</l>
           <l n="8">Où l'eau creuse des trous grands comme des tombeaux.</l>
         </lg>
-        <lg type="stanza" n="3">
+        <lg type="stanza" subtype="tercet" n="3">
           <l n="9">Et qui sait si les fleurs nouvelles que je rêve</l>
           <l n="10">Trouveront dans ce sol lavé</l>
           <l n="11">comme une grève Le mystique aliment qui ferait leur vigueur?</l>
         </lg>
-        <lg type="stanza" n="4">
+        <lg type="stanza" subtype="tercet" n="4">
           <l n="12">–O douleur! ô douleur! Le Temps mange la vie,</l>
           <l n="13">Et l'obscur Ennemi qui nous ronge le coeur</l>
           <l n="14">Du sang que nous perdons croît et se fortifie!</l>
