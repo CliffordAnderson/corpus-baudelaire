@@ -104,8 +104,8 @@ Online Distributed Proofreading Team.</p>
           </title>
           <title type="sub">
           	<app>
-          		<lem wit="LE1866"/>
-          		<rdg wit="FDM1868">INSCRIPTION POUR LE TABLEAU D'ÉDOUARD MANET</rdg>
+          		<lem wit="#LE1866"/>
+          		<rdg wit="#FDM1868">INSCRIPTION POUR LE TABLEAU D'ÉDOUARD MANET</rdg>
           	</app>
           </title>
         </head>

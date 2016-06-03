@@ -100,40 +100,40 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="sonnet">
         <head>
           <title type="main">LA DESTRUCTION</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Sans cesse à mes côtés s'agite le Démon
           	<app>
-          	<lem wit="U1857">;</lem>
-          	<rdg wit="FDM1868"></rdg>
+          	<lem wit="#U1857">;</lem>
+          	<rdg wit="#FDM1868"></rdg>
           </l>
           <l n="2">Il nage autour de moi comme un air impalpable;</l>
           <l n="3">Je l'avale et le sens qui brûle mon poumon
           	<app>
-          		<lem wit="U1857">,</lem>
-          		<rdg wit="FDM1861 FDM1868"></rdg>
+          		<lem wit="#U1857">,</lem>
+          		<rdg wit="#FDM1861 #FDM1868"></rdg>
           	</app>
           </l>
           <l n="4">Et l'emplit d'un désir éternel et coupable.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="1">Parfois il prend, sachant mon grand amour de l'Art,</l>
-          <l n="2">La forme de la plus séduisante des femmes,</l>
-          <l n="3">Et, sous de spécieux prétextes de cafard,</l>
-          <l n="4">Accoutume ma lèvre à des philtres infâmes.</l>
+          <l n="5">Parfois il prend, sachant mon grand amour de l'Art,</l>
+          <l n="6">La forme de la plus séduisante des femmes,</l>
+          <l n="7">Et, sous de spécieux prétextes de cafard,</l>
+          <l n="8">Accoutume ma lèvre à des philtres infâmes.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
-          <l n="1">Il me conduit ainsi, loin du regard de Dieu,</l>
-          <l n="2">Haletant et brisé de fatigue, au milieu</l>
-          <l n="3">Des plaines de l'Ennui, profondes et désertes,</l>
+          <l n="9">Il me conduit ainsi, loin du regard de Dieu,</l>
+          <l n="10">Haletant et brisé de fatigue, au milieu</l>
+          <l n="11">Des plaines de l'Ennui, profondes et désertes,</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
-          <l n="1">Et jette dans mes yeux pleins de confusion</l>
-          <l n="2">Des vêtements souillés, des blessures ouvertes,</l>
-          <l n="3">Et l'appareil sanglant de la Destruction!</l>
+          <l n="12">Et jette dans mes yeux pleins de confusion</l>
+          <l n="13">Des vêtements souillés, des blessures ouvertes,</l>
+          <l n="14">Et l'appareil sanglant de la Destruction!</l>
         </lg>
       </div>
     </body>

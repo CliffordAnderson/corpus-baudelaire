@@ -67,7 +67,7 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="sonnet">
         <head>
           <title type="main">ÉPIGRAPHE POUR UN LIVRE CONDAMNÉ</title>
         </head>
@@ -78,20 +78,20 @@ Online Distributed Proofreading Team.</p>
           <l n="4">Orgiaque et mélancolique.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="1">Si tu n'as fait ta rhétorique</l>
-          <l n="2">Chez Satan, le rusé doyen,</l>
-          <l n="3">Jette! tu n'y comprendrais rien,</l>
-          <l n="4">Ou tu me croirais hysthérique.</l>
+          <l n="5">Si tu n'as fait ta rhétorique</l>
+          <l n="6">Chez Satan, le rusé doyen,</l>
+          <l n="7">Jette! tu n'y comprendrais rien,</l>
+          <l n="8">Ou tu me croirais hysthérique.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
-          <l n="1">Mais si, sans se laisser charmer,</l>
-          <l n="2">Ton <choice><orig>œil</orig><reg>oeil</reg></choice> sait plonger dans les gouffres,</l>
-          <l n="3">Lis-moi, pour apprendre à m'aimer;</l>
+          <l n="9">Mais si, sans se laisser charmer,</l>
+          <l n="10">Ton <choice><orig>œil</orig><reg>oeil</reg></choice> sait plonger dans les gouffres,</l>
+          <l n="11">Lis-moi, pour apprendre à m'aimer;</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
-          <l n="1">Ame curieuse qui souffres</l>
-          <l n="2">Et vas cherchant ton paradis,</l>
-          <l n="3">Plains-moi!... Sinon, je te maudis!</l>
+          <l n="12">Ame curieuse qui souffres</l>
+          <l n="13">Et vas cherchant ton paradis,</l>
+          <l n="14">Plains-moi!... Sinon, je te maudis!</l>
         </lg>
       </div>
     </body>

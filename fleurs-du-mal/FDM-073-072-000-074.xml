@@ -100,7 +100,7 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="sonnet">
         <head>
           <title type="main">LE MORT JOYEUX</title>
         </head>
@@ -111,33 +111,33 @@ Online Distributed Proofreading Team.</p>
           <l n="4">Et dormir dans l'oubli comme un requin dans l'onde.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="1">Je hais les testaments et je hais les tombeaux ;</l>
-          <l n="2">Plutôt que d'implorer une larme du monde,</l>
-          <l n="3">Vivant, j'aimerais mieux inviter les corbeaux</l>
-          <l n="4">A saigner tous les bouts de ma carcasse immonde.</l>
+          <l n="5">Je hais les testaments et je hais les tombeaux ;</l>
+          <l n="6">Plutôt que d'implorer une larme du monde,</l>
+          <l n="7">Vivant, j'aimerais mieux inviter les corbeaux</l>
+          <l n="8">A saigner tous les bouts de ma carcasse immonde.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
-          <l n="1">
+          <l n="9">
           	<app>
-          		<lem wit="U1857">—</lem>
-          		<rdg wit="FDM1861 FDM1868"></rdg>
+          		<lem wit="#U1857">—</lem>
+          		<rdg wit="#FDM1861 #FDM1868"></rdg>
           	</app>
           		O vers! noirs compagnons sans oreille et sans yeux,</l>
-          <l n="2">Voyez venir à vous un mort libre et joyeux ;
+          <l n="10">Voyez venir à vous un mort libre et joyeux ;
           		<app>
-          			<lem wit="U1857">;</lem>
-          			<rdg wit="FDM1868">!</rdg>
+          			<lem wit="#U1857">;</lem>
+          			<rdg wit="#FDM1868">!</rdg>
           		</app>
           </l>
-          <l n="3">Philosophes viveurs, fils de la pourriture,</l>
+          <l n="11">Philosophes viveurs, fils de la pourriture,</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
-          <l n="1">A travers ma ruine allez donc sans remords,</l>
-          <l n="2">Et dites-moi s'il est encor quelque torture</l>
-          <l n="3">Pour ce vieux corps sans âme et mort parmi les morts
+          <l n="12">A travers ma ruine allez donc sans remords,</l>
+          <l n="13">Et dites-moi s'il est encor quelque torture</l>
+          <l n="14">Pour ce vieux corps sans âme et mort parmi les morts
           	<app>
-          		<lem wit="U1857">?</lem>
-          		<rdg wit="FDM1861 FDM1868">!</rdg>
+          		<lem wit="#U1857">?</lem>
+          		<rdg wit="#FDM1861 #FDM1868">!</rdg>
           	</app>
           </l>
         </lg>
