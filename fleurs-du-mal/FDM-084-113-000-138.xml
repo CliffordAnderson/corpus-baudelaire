@@ -120,7 +120,7 @@ Online Distributed Proofreading Team.</p>
         <lg type="stanza" subtype="tercet" n="3">
           <l n="9">J'ai demandé souvent à des vins captieux</l>
           <l n="10">D'endormir pour un jour la terreur qui me mine;</l>
-          <l n="11">Le vin rend l'oeil<choice>
+          <l n="11">Le vin rend <choice>
             <orig>l'œil</orig>
             <reg>l'oeil</reg>
           </choice>   
