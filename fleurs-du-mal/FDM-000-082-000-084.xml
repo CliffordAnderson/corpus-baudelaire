@@ -5,11 +5,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Horreur sympathique</title>
+        <title>HORREUR SYMPATHIQUE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="SS">Sara Sterkenburg</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="TFH">Todd Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -27,22 +31,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -53,31 +41,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                              portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
+                    author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -115,15 +82,27 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="sonnet">
         <head>
           <title>Horreur sympathique</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">De ce ciel bizarre et livide,</l>
+          <l n="1"><app>
+              <lem wit="#U1861"/>
+              <rdg wit="#FDM1868">&lt; &lt;</rdg>
+            </app>De ce ciel bizarre et livide,</l>
           <l n="2">Tourmenté comme ton destin,</l>
           <l n="3">Quels pensers dans ton âme vide</l>
-          <l n="4">Descendent? réponds, libertin.</l>
+          <l n="4">Descendent? <app>
+              <lem wit="#U1861"/>
+              <rdg wit="#FDM1868">-</rdg>
+            </app><app>
+              <lem wit="#U1861">réponds</lem>
+              <rdg wit="#FDM1868">Réponds</rdg>
+            </app>, libertin.<app>
+              <lem wit="#U1861"/>
+              <rdg wit="#FDM1868">&gt; &gt;</rdg>
+            </app></l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">--Insatiablement avide,</l>
@@ -133,13 +112,19 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
           <l n="9">Cieux déchirés comme des gréves</l>
-          <l n="10">En vous se mire mon orgueil;</l>
+          <l n="10">En vous se mire mon orgueil<app>
+            <lem wit="#U1861">;</lem>
+            <rdg wit= "#FDM1868">!</rdg>
+          </app></l>
           <l n="11">Vos vastes nuages en deuil</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
           <l n="12">Sont les corbillards de mes rêves,</l>
           <l n="13">Et vos lueurs sont le reflet</l>
-          <l n="14">De l'Enfer où mon cœur se plaît.</l>
+          <l n="14">De l'Enfer où mon cœur se plaît<app>
+            <lem wit="#U1861">.</lem>
+            <rdg wit= "#FDM1868">!</rdg>
+          </app></l>
         </lg>
       </div>
     </body>
