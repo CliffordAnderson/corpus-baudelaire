@@ -106,7 +106,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>LA GÉANTE</title>
+          <title type="main">LA GÉANTE</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Du temps que la Nature en sa verve puissante</l>
