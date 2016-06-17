@@ -116,29 +116,31 @@
         Add l elements with n attributes -->
         <lg type="stanza" n="1">
           <l n="1">J'ai plus de souvenirs que si j'avais mille ans.</l>
+        </lg>
+        <lg type="stanza" n="2">
           <l n="2">Un gros meuble à tiroirs encombré de bilans,</l>
           <l n="3">De vers, de billets doux, de procès, de romances,</l>
           <l n="4">Avec de lourds cheveux roulés dans des quittances,</l>
           <l n="5">Cache moins de secrets que mon triste cerveau.</l>
           <l n="6">C'est une pyramide, un immense caveau,</l>
           <l n="7">Qui contient plus de morts que la fosse commune.</l>
-          <l n="8">--Je suis un cimetière abhorré de la lune,</l>
+          <l n="8">— Je suis un cimetière abhorré de la lune,</l>
           <l n="9">Où comme des remords se traînent de longs vers</l>
           <l n="10">Qui s'acharnent toujours sur mes morts les plus chers.</l>
           <l n="11">Je suis un vieux boudoir plein de roses fanées,</l>
           <l n="12">Où gît tout un fouillis de modes surannées,</l>
-          <l n="13">Où les pastels plaintifs et les pâles Boucher,</l>
-          <l n="14">Seuls, respirent l'odeur d'un flacon débouché.</l>
+          <l n="13">Où les pastels plaintifs et les pâles Boucher</l>
+          <l n="14">Hument le vieux parfum d'un flacon débouché.</l>
         </lg>
-        <lg type="stanza" n="2">
+        <lg type="stanza" n="3">
           <l n="15">Rien n'égale en longueur les boiteuses journées,</l>
           <l n="16">Quand sous les lourds flocons des neigeuses années</l>
           <l n="17">L'ennui, fruit de la morne incuriosité,</l>
           <l n="18">Prend les proportions de l'immortalité.</l>
-          <l n="19">--Désormais tu n'es plus, ô matière vivante!</l>
+          <l n="19">— Désormais tu n'es plus, ô matière vivante,</l>
           <l n="20">Qu'un granit entouré d'une vague épouvante,</l>
-          <l n="21">Assoupi dans le fond d'un Saharah brumeux!</l>
-          <l n="22">Un vieux sphinx ignoré du monde insoucieux,</l>
+          <l n="21">Assoupi dans le fond d'un Saharah brumeux,</l>
+          <l n="22">— Un vieux sphinx ignoré du monde insoucieux,</l>
           <l n="23">Oublié sur la carte, et dont l'humeur farouche</l>
           <l n="24">Ne chante qu'aux rayons du soleil qui se couche.</l>
         </lg>

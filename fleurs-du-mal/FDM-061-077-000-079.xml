@@ -116,8 +116,8 @@
         Add l elements with n attributes -->
         <lg type="stanza" n="1">
           <l n="1">Je suis comme le roi d'un pays pluvieux,</l>
-          <l n="2">Riche, mais impuissant, jeune et pourtant très vieux,</l>
-          <l n="3">AQui, de ses précepteurs méprisant les courbettes,</l>
+          <l n="2">Riche, mais impuissant, jeune et pourtant très-vieux,</l>
+          <l n="3">Qui de ses précepteurs méprisant les courbettes,</l>
           <l n="4">S'ennuie avec ses chiens comme avec d'autres bêtes.</l>
           <l n="5">Rien ne peut l'égayer, ni gibier, ni faucon,</l>
           <l n="6">Ni son peuple mourant en face du balcon.</l>
@@ -131,7 +131,7 @@
           <l n="14">De son être extirper l'élément corrompu,</l>
           <l n="15">Et dans ces bains de sang qui des Romains nous viennent,</l>
           <l n="16">Et dont sur leurs vieux jours les puissants se souviennent,</l>
-          <l n="17">II n'a su réchauffer ce cadavre hébété</l>
+          <l n="17">II n'a pas réchauffer ce cadavre hébété</l>
           <l n="18">Où coule au lieu de sang l'eau verte du Léthé</l>
         </lg>
       </div>

@@ -115,25 +115,30 @@
         <!-- Add lg element with type, subtype, and n attributes
         Add l elements with n attributes -->
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">Pluviôse, irrité contre la vie entière,</l>
-          <l n="2">De son urne à grands flots vers un froid ténébreux</l>
+          <l n="1">Pluviôse irrité contre la ville entière</l>
+          <l n="2">De son urne à grand flots verse un froid ténébreux</l>
           <l n="3">Aux pâles habitants du voisin cimetière</l>
           <l n="4">Et la mortalité sur les faubourgs brumeux.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Mon chat sur le carreau cherchant une litière</l>
           <l n="6">Agite sans repos son corps maigre et galeux;</l>
-          <l n="7">L'âme d'un vieux poète erre dans la gouttière</l>
+          <l n="7">L'ombre d'un vieux poète erre dans la gouttière</l>
           <l n="8">Avec la triste voix d'un fantôme frileux.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
           <l n="9">Le bourdon se lamente, et la bûche enfumée</l>
-          <l n="10">Accompagne en fausset la pendule enrhumée</l>
+          <l n="10">Accompagne en fausset la pendule enrhumée,</l>
           <l n="11">Cependant qu'en un jeu plein de sales parfums,</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
           <l n="12">Héritage fatal d'une vieille hydropique,</l>
-          <l n="13">Le beau valet de coeur et la dame de pique</l>
+          <l n="13">Le beau valet de
+            <choice>
+              <orig>cœur</orig>
+              <reg>coeur</reg>
+            </choice>
+          et la dame de pique</l>
           <l n="14">Causent sinistrement de leurs amours défunts.</l>
         </lg>
       </div>
