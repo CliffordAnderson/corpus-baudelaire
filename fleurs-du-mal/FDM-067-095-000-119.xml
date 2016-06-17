@@ -116,6 +116,7 @@ Online Distributed Proofreading Team.</p>
           <l n="8">Les esprits que dévore une doleur sauvage,</l>
           <l n="9">Le savant obstiné dont le front s'alourdit,</l>
           <l n="10">Et l'ouvrier courbé que regagne son lit.</l>
+        </lg>
           <lg type="stanza" n="3"> 
           <l n="11">Cependant des démons malsains dans l'atmosphère</l>
           <l n="12">S'éveillent lourdement, comme des gens d'affaire,.</l>
@@ -131,7 +132,7 @@ Online Distributed Proofreading Team.</p>
           <l n="22">Les théatres glapir, les orchestres ronfler;</l>
           <l n="23">Les tables d'hôte, dont le jeu fait les délices,</l>
           <l n="24">S'emplissent de catins et d'escrocs, leurs complices,</l>
-          <l n="25">Et les voleurs, qui n'ont ni <app>,<lem wit="#U1857">trève</lem><rdg wit="#FDM1861 #FDM1868">trêve</rdg></app> ni merci,</l>
+          <l n="25">Et les voleurs, qui n'ont ni <app><lem wit="#U1857">trève</lem><rdg wit="#FDM1861 #FDM1868">trêve</rdg></app> ni merci,</l>
           <l n="26">Vont bientôt commencer leur travail, eux aussi,</l>
           <l n="27">Et forcer doucement les portes et les caisses</l>
           <l n="28">Pour vivre quelques jours et vêtir leurs maîtresses.</l>
