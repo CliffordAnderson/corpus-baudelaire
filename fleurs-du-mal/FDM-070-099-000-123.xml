@@ -105,40 +105,40 @@ Online Distributed Proofreading Team.</p>
           <l n="1">Je n'ai pas oublié, voisine de la ville,</l>
           <l n="2">Notre blanche maison, petite mais tranquille
           	<app>
-          			<lem wit="U1857">,</lem>
-          			<rdg wit="FDM1861 FDM1868">;</rdg>
+          			<lem wit="#U1857">,</lem>
+          			<rdg wit="#FDM1861 #FDM1868">;</rdg>
           	</app>
           </l>
           <l n="3">Sa Pomone de plâtre et sa vieille Vénus</l>
           <l n="4">Dans un bosquet chétif cachant leurs membres nus
           	<app>
-          			<lem wit="U1857">;</lem>
-          			<rdg wit="FDM1861 FDM1868">,</rdg>
+          			<lem wit="#U1857">;</lem>
+          			<rdg wit="#FDM1861 #FDM1868">,</rdg>
           	</app>
           </l>
           <l n="5">
           	<app>
-          			<lem wit="U1857">—</lem>
-          			<rdg wit="FDM1861 FDM1868"></rdg>
+          			<lem wit="#U1857">—</lem>
+          			<rdg wit="#FDM1861 #FDM1868"></rdg>
           	</app> 
           		Et le soleil, le soir, ruisselant et superbe,</l>
           <l n="6">Qui, derrière la vitre où se brisait sa gerbe
           	<app>
-          			<lem wit="U1857"></lem>
-          			<rdg wit="FDM1861 FDM1868">,</rdg>
+          			<lem wit="#U1857"></lem>
+          			<rdg wit="#FDM1861 #FDM1868">,</rdg>
           	</app>
           </l>
           <l n="7">Semblait, grand <choice><orig>œil</orig><reg>oeil</reg></choice> ouvert dans le ciel curieux
           	<app>
-          			<lem wit="U1857">,</lem>
-          			<rdg wit="FDM1868"></rdg>
+          			<lem wit="#U1857">,</lem>
+          			<rdg wit="#FDM1868"></rdg>
           	</app>
           </l>
           <l n="8">Contempler nos dîners longs et silencieux,</l>
           <l n="9">
           	<app>
-          			<lem wit="U1857">Et versait</lem>
-          			<rdg wit="FDM1861 FDM1868">Répandant</rdg>
+          			<lem wit="#U1857">Et versait</lem>
+          			<rdg wit="#FDM1861 #FDM1868">Répandant</rdg>
           	</app>
           		largement ses beaux reflets de cierge</l>
           <l n="10">Sur la nappe frugale et les rideaux de serge.</l>

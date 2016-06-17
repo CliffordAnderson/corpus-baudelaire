@@ -100,7 +100,7 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="sonnet">
         <head>
           <title type="main">BRUMES ET PLUIES</title>
         </head>
@@ -111,35 +111,35 @@ Online Distributed Proofreading Team.</p>
           <l n="4">D'un linceul vaporeux et d'un 
           <app>
           		<lem wit="#U1857">brumeux</lem>
-          		<rdg wit="#FDM1861 FDM1868">vague</rdg>
+          		<rdg wit="#FDM1861 #FDM1868">vague</rdg>
           </app>
         	 tombeau.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="1">Dans cette grande plaine où l'autan froid se joue,</l>
-          <l n="2">Où par les longues nuits la girouette s'enroue,</l>
-          <l n="3">Mon âme mieux qu'au temps du tiède renouveau</l>
-          <l n="4">Ouvrira largement ses ailes de corbeau.</l>
+          <l n="5">Dans cette grande plaine où l'autan froid se joue,</l>
+          <l n="6">Où par les longues nuits la girouette s'enroue,</l>
+          <l n="7">Mon âme mieux qu'au temps du tiède renouveau</l>
+          <l n="8">Ouvrira largement ses ailes de corbeau.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
-          <l n="1">Rien n'est plus doux au <choice><orig>cœur</orig><reg>coeur</reg></choice> plein de choses funèbres,</l>
-          <l n="2">Et sur qui dès 
+          <l n="9">Rien n'est plus doux au <choice><orig>cœur</orig><reg>coeur</reg></choice> plein de choses funèbres,</l>
+          <l n="10">Et sur qui dès 
           <app>
           		<lem wit="#U1857">long-temps</lem>
-          		<rdg wit="#FDM1861 FDM1868">longtemps</rdg>
+          		<rdg wit="#FDM1861 #FDM1868">longtemps</rdg>
           </app>
         	 descendent les frimas,</l>
-          <l n="3">O blafardes saisons, reines de nos climats
+          <l n="11">O blafardes saisons, reines de nos climats
           <app>
           		<lem wit="#U1857">!</lem>
-          		<rdg wit="#FDM1861 FDM1868">,</rdg>
+          		<rdg wit="#FDM1861 #FDM1868">,</rdg>
           </app>
           </l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
-          <l n="1">Que l'aspect permanent de vos pâles ténèbres,</l>
-          <l n="2">— Si ce n'est par un soir sans lune, deux à deux,</l>
-          <l n="3">D'endormir la douleur sur un lit hasardeux.</l>
+          <l n="12">Que l'aspect permanent de vos pâles ténèbres,</l>
+          <l n="13">— Si ce n'est par un soir sans lune, deux à deux,</l>
+          <l n="14">D'endormir la douleur sur un lit hasardeux.</l>
         </lg>
       </div>
     </body>
