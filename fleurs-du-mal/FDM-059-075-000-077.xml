@@ -38,8 +38,8 @@
         <!-- create listWit in sourceDesc with the different editions and their bib data
         1. 1857 Unexpurgated xml:id="U1857"
         2. 1861 2nd edition censored xml:id="FDM1861"
-        3. 1866 Les Epaves xml:id="1866"
-        4. 1868 3rd edition - posthumous xml:id="1868"
+        3. 1866 Les Epaves xml:id="LE1866"
+        4. 1868 3rd edition - posthumous xml:id="FDM1868"
         -->
         <listWit>
           <witness xml:id="U1857">
@@ -115,15 +115,44 @@
         <!-- Add lg element with type, subtype, and n attributes
         Add l elements with n attributes -->
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">Pluviôse irrité contre la ville entière</l>
-          <l n="2">De son urne à grand flots verse un froid ténébreux</l>
+          <l n="1">Pluviôse
+            <app>
+              <lem wit="#U1857" />
+              <rdg wit="#FDM1861 #FDM1868>,</rdg>
+            </app>
+            irrité contre la
+            <app>
+              <lem wit="#U1857 #FDM1861">ville</lem>
+              <rdg wit="#FDM1868">vie</rdg>
+            </app>
+            entière
+            <app>
+              <lem wit="#U1857" />
+              <rdg wit="#FDM1861 #FDM1868">,</rdg>
+            </app>
+          </l>
+          <l n="2">De son urne à
+            <app>
+              <lem wit="#U1857">grand</lem>
+              <rdg wit="#FDM1861 #FDM1868">grands</rdg>
+            </app>
+            flots verse un froid ténébreux</l>
           <l n="3">Aux pâles habitants du voisin cimetière</l>
           <l n="4">Et la mortalité sur les faubourgs brumeux.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Mon chat sur le carreau cherchant une litière</l>
           <l n="6">Agite sans repos son corps maigre et galeux;</l>
-          <l n="7">L'ombre d'un vieux poète erre dans la gouttière</l>
+          <l n="7">
+            <app>
+              <lem wit="#U1857">L'ombre</lem>
+              <rdg wit="#FDM1861 #FDM1868">L'âme</rdg>
+            </app>
+            d'un vieux
+              <lem wit="#U1857">poète</lem>
+              <rdg wit="#FDM1861 #FDM1868">poëte</rdg>
+            </app>
+            erre dans la gouttière</l>
           <l n="8">Avec la triste voix d'un fantôme frileux.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">

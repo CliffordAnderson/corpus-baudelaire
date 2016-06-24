@@ -38,8 +38,8 @@
         <!-- create listWit in sourceDesc with the different editions and their bib data
         1. 1857 Unexpurgated xml:id="U1857"
         2. 1861 2nd edition censored xml:id="FDM1861"
-        3. 1866 Les Epaves xml:id="1866"
-        4. 1868 3rd edition - posthumous xml:id="1868"
+        3. 1866 Les Epaves xml:id="LE1866"
+        4. 1868 3rd edition - posthumous xml:id="FDM1868"
         -->
         <listWit>
           <witness xml:id="U1857">
