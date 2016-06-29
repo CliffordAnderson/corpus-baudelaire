@@ -1,3 +1,4 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -6,9 +7,13 @@
         <title>CONFESSION</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -52,31 +57,10 @@
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                    portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
+                    author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                    this is a false imprint, the book actually being published in Brussels
-                    by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                    9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -121,8 +105,14 @@ Online Distributed Proofreading Team.</p>
         <lg type="stanza" subtype="quatrain">
           <l n="1">Une fois, une seule, aimable et douce femme,</l>
           <l n="2">A mon bras votre bras poli</l>
-          <l n="3">S'appuya (sur le fond ténébreux de mon âme</l>
-          <l n="4">Ce souvenir n'est point pâli).</l>
+          <l n="3"><app>
+              <lem wit="#U1857">S'appuya; —sur</lem>
+              <rdg wit="#FDM1861 #FDM1868">S'appuya (sur</rdg>
+            </app> le fond ténébreux de mon âme</l>
+          <l n="4">Ce souvenir n'est point <app>
+              <lem wit="#U1857">pâli.</lem>
+              <rdg wit="#FDM1861 #FDM1868">pâli);</rdg>
+            </app></l>
         </lg>
         <lg type="stanza" subtype="quatrain">
           <l n="5">Il était tard; ainsi qu'une médaille neuve</l>
@@ -133,19 +123,31 @@ Online Distributed Proofreading Team.</p>
         <lg type="stanza" subtype="quatrain">
           <l n="9">Et le long des maisons, sous les portes cochères,</l>
           <l n="10">Des chats passaient furtivement,</l>
-          <l n="11">L'oreille au guet, ou bien, comme des ombres chères,</l>
+          <l n="11">L'oreille au guet, <app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#FDM1861 #FDM1868"/>
+            </app>ou bien, comme des ombres chères,</l>
           <l n="12">Nous accompagnaient lentement.</l>
         </lg>
         <lg type="stanza" subtype="quatrain">
-          <l n="13">Tout à coup, au milieu de l'intimité libre</l>
+          <l n="13"><app>
+              <lem wit="#U1857">Tout-à-coup</lem>
+              <rdg wit="#FDM1861 #FDM1868">Tout à coup</rdg>
+            </app>, au milieu de l'intimité libre</l>
           <l n="14">Eclose à la pâle clarté,</l>
-          <l n="15">De vous, riche et sonore instrument où ne vibre</l>
-          <l n="16">Que la radieuse gaîté,</l>
+          <l n="15">De vous, <app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#FDM1861 #FDM1868"/>
+            </app>riche et sonore instrument où ne vibre</l>
+          <l n="16">Que la radieuse <app>
+              <lem wit="#U1857">gaîté</lem>
+              <rdg wit="#FDM1861">gaité</rdg>
+            </app>,</l>
         </lg>
         <lg type="stanza" subtype="quatrain">
           <l n="17">De vous, claire et joyeuse ainsi qu'une fanfare</l>
           <l n="18">Dans le matin étincelant,</l>
-          <l n="19">Une note plaintive, une note bizarre</l>
+          <l n="19"><app><lem wit="#U1857">—Une note plaintive;</lem><rdg wit="#FDM1861 #FDM1868">Une note plaintive,</rdg></app> une note bizarre</l>
           <l n="20">S'échappa, tout en chancelant.</l>
         </lg>
         <lg type="stanza" subtype="quatrain">
