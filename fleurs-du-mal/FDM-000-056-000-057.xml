@@ -6,7 +6,7 @@
         <title>CHANT D'AUTOMNE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="TFH">Todd Hughes</name>
         </respStmt>
