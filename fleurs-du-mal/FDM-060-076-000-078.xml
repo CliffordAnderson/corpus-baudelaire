@@ -106,6 +106,7 @@
   <text>
     <body>
       <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attibute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
+<!-- This is a problem poem due to structural changes. Remove this line once removed from problem poems. -->
       <div type="poem">
         <!-- Remove all p elements
         Add head and title element -->
