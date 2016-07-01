@@ -6,12 +6,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="Le Mauvais Moine">Mauvais Moine</title>
+        <title rend="LE MAUVAIS MONIE">MAUVAIS MONIE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="SW">Steven Wenz</name>
+        </respStmt>
+        <respStmt>
+        	<resp>Critical Apparatus</resp>
+        	<name xml:id="SYC">Sophia Clark</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -25,7 +29,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
-        <idno>FDM-008-009-000-009</idno>
+        <idno>FDM-009-009-000-009</idno>
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -59,27 +63,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 portrait of the author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-this is a false imprint, the book actually being published in Brussels
-by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -117,31 +100,51 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="sonnet">
         <head>
-          <title>Le Mauvais Moine</title>
+          <title type="main">LE MAUVAIS MONIE</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Les cloîtres anciens sur leurs grandes murailles</l>
-          <l n="2">Etalaient en tableaux la sainte Vérité,</l>
-          <l n="3">Dont l'effet réchauffant les pieuses entrailles,</l>
+          <l n="2">
+          	<app>
+          		<lem wit="#U1857">Etalaient</lem>
+          		<rdg wit="#FDM1861">Étalaient</rdg> 
+          	</app>
+          		en tableaux la sainte Vérité,</l>
+          <l n="3">Dont l'effet
+          	<app>
+          		<lem wit="#U1857"></lem>
+          		<rdg wit="#FDM1861 #FDM1868">,</rdg>
+          	</app>
+           réchauffant les pieuses entrailles
+          	<app>
+          		<lem wit="#U1857"></lem>
+          		<rdg wit="#FDM1861 #FDM1868">,</rdg>
+          	</app>
+          	</l>
           <l n="4">Tempérait la froideur de leur austérité.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="1">En ces temps où du Christ florissaient les semailles,</l>
-          <l n="2">Plus d'un illustre moine, aujourd'hui peu cité,</l>
-          <l n="3">Prenant pour atelier le champ des funérailles,</l>
-          <l n="4">Glorifiait la Mort avec simplicité.</l>
+          <l n="5">En ces temps où du Christ florissaient les semailles,</l>
+          <l n="6">Plus d'un illustre moine, aujourd'hui peu cité,</l>
+          <l n="7">Prenant pour atelier le champ des funérailles,</l>
+          <l n="8">Glorifiait la Mort avec simplicité.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
-          <l n="1">— Mon âme est un tombeau que, mauvais cénobite,</l>
-          <l n="2">Depuis l'éternité je parcours et j'habite;</l>
-          <l n="3">Rien n'embellit les murs de ce cloître odieux.</l>
+          <l n="9">— Mon âme est un tombeau que, mauvais cénobite,</l>
+          <l n="10">Depuis l'éternité je parcours et j'habite;</l>
+          <l n="11">Rien n'embellit les murs de ce cloître odieux.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
-          <l n="1">Ô moine fainéant! quand saurai-je donc faire</l>
-          <l n="2">Du spectacle vivant de ma triste misère</l>
-          <l n="3">Le travail de mes mains et l'amour de mes yeux?</l>
+          <l n="12">O moine fainéant! quand saurai-je donc faire</l>
+          <l n="13">Du spectacle vivant de ma triste misère</l>
+          <l n="14">Le travail de mes mains et l'amour de mes yeux
+          	<app>
+          		<lem wit="#U1857">!</lem>
+          		<rdg wit="#FDM1861 #FDM1868">?</rdg>
+          	</app>
+          </l>
         </lg>
       </div>
     </body>
