@@ -23,7 +23,6 @@
       </titleStmt>
       <publicationStmt>
         <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
-        <idno>FDM-062-078-000-080</idno>
         <publisher>Jean and Alexander Heard Library</publisher>
         <pubPlace>Nashville</pubPlace>
         <address>
@@ -33,6 +32,7 @@
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
+        <idno>FDM-062-078-000-080</idno>
       </publicationStmt>
       <sourceDesc>
         <!-- create listWit in sourceDesc with the different editions and their bib data
@@ -123,10 +123,10 @@
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Quand la terre est changée en un cachot humide,</l>
           <l n="6">Où l'Espérance, comme une chauve-souris,</l>
-          <l n="7">S'en va battant les murs de son aile timide<
+          <l n="7">S'en va battant les murs de son aile timide
             <app>
               <lem wit="#U1857">,</lem>
-              <rgb wit="#FDM1861 #FDM1868" />
+              <rdg wit="#FDM1861 #FDM1868" />
             </app>
           </l>
           <l n="8">Et se cognant la tête à des plafonds pourris;</l>
@@ -163,23 +163,23 @@
           <l n="18">Défilent lentement dans mon âme; l'Espoir
             <app>
               <lem wit="#U1857"></lem>
-              <rgb wit="#FDM1861 #FDM1868">,</rdg>
+              <rdg wit="#FDM1861 #FDM1868">,</rdg>
             </app>
           </l>
           <l n="19">
             <app>
               <lem wit="#U1857">Pleurant comme un vaincu,</lem>
-              <rgb wit="#FDM1861 #FDM1868">Vaincu, pleure, et</rdg>
+              <rdg wit="#FDM1861 #FDM1868">Vaincu, pleure, et</rdg>
             </app>
             l'Angoisse
             <app>
               <lem wit="#U1857" />
-              <rgb wit="#FDM1861 #FDM1868">atroce,</rdg>
+              <rdg wit="#FDM1861 #FDM1868">atroce,</rdg>
             </app>
             despotique</l>
             <app>
               <lem wit="#U1857"></lem>
-              <rgb wit="#FDM1861 #FDM1868">,</rdg>
+              <rdg wit="#FDM1861 #FDM1868">,</rdg>
             </app>
           <l n="20">Sur mon crâne incliné plante son drapeau noir.</l>
         </lg>
