@@ -22,7 +22,6 @@
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
-        <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
         <publisher>Jean and Alexander Heard Library</publisher>
         <pubPlace>Nashville</pubPlace>
         <address>
@@ -32,6 +31,7 @@
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
+        <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
         <idno>FDM-062-078-000-080</idno>
       </publicationStmt>
       <sourceDesc>
