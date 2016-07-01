@@ -22,8 +22,6 @@
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
-        <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
-        <idno>FDM-059-075-000-077</idno>
         <publisher>Jean and Alexander Heard Library</publisher>
         <pubPlace>Nashville</pubPlace>
         <address>
@@ -33,6 +31,8 @@
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
+        <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
+        <idno>FDM-059-075-000-077</idno>
       </publicationStmt>
       <sourceDesc>
         <!-- create listWit in sourceDesc with the different editions and their bib data
@@ -118,7 +118,7 @@
           <l n="1">Pluviôse
             <app>
               <lem wit="#U1857" />
-              <rdg wit="#FDM1861 #FDM1868>,</rdg>
+              <rdg wit="#FDM1861 #FDM1868">,</rdg>
             </app>
             irrité contre la
             <app>
