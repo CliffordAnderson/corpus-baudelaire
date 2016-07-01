@@ -22,8 +22,6 @@
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
-        <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
-        <idno>FDM-000-000-000-085</idno>
         <!--insert id no in above element account to established format-->
         <publisher>Jean and Alexander Heard Library</publisher>
         <pubPlace>Nashville</pubPlace>
@@ -34,6 +32,8 @@
           <addrLine>USA</addrLine>
         </address>
         <date>2015</date>
+        <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
+        <idno>FDM-000-000-000-085</idno>
       </publicationStmt>
       <sourceDesc>
         <!-- create listWit in sourceDesc with the different editions and their bib data
@@ -87,7 +87,7 @@
         <lg type="poem" n="1">
           <head>I</head>
           <lg type="stanza" subtype="sextet" n="1">
-            <l n="1">Or Gitche Manito<node n="1" anchored="true" place="bottom">Prononcez: <hi rend="italic">Guitchi Manitou</hi>.</note>, le Maître de la Vie,</l>
+            <l n="1">Or Gitche Manito<note n="1" anchored="true" place="bottom">Prononcez: <hi rend="italic">Guitchi Manitou</hi>.</note>, le Maître de la Vie,</l>
             <l n="2">Le Puissant, descendit dans la verte prairie,</l>
             <l n="3">Dans l'immense prairie aux coteaux montueux;</l>
             <l n="4">Et là, sur les rochers de la Rouge Carrière,</l>
