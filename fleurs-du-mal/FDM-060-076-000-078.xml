@@ -126,7 +126,6 @@
           <l n="7">Qui contient plus de morts que la fosse commune.</l>
             <app>
               <lem wit="#U1857" />
-              <rdg wit="#FDM1861" />
               <rdg wit="#FDM1868">
                 </lg>
                 <lg type="stanza" n="3">
@@ -136,7 +135,6 @@
           <l n="9">Où comme des remords
             <app>
               <lem wit="#U1857" />
-              <rdg wit="#FDM1861" />
               <rdg wit="#FDM1868">,</rdg>
             </app>
             se traînent de longs vers</l>
@@ -155,9 +153,6 @@
           <lem wit="#U1857">
             <lg type="stanza" n="3">
           </lem>
-          <rdg wit="#FDM1861">
-            <lg type="stanza" n="3">
-          </rdg>
           <rdg wit="#FDM1868">
             <lg type="stanza" n="4">
           </rdg>
@@ -167,14 +162,12 @@
           <l n="17">
             <app>
               <lem wit="#U1857">L'ennui</lem>
-              <rdg wit="#FDM1861">L'ennui</rdg>
               <rdg wit="#FDM1868">L'Ennui</rdg>
             </app>
             , fruit de la morne incuriosité,</l>
           <l n="18">Prend les proportions de l'immortalité.</l>
           <app>
             <lem wit="#U1857" />
-            <rdg wit="#FDM1861" />
             <rdg wit="#FDM1868">
               </lg>
               <lg type="stanza" n="5">
@@ -204,7 +197,6 @@
           <l n="24">Ne chante qu'aux rayons du soleil qui se couche
             <app>
               <lem wit="#U1857">.</lem>
-              <rdg wit="#FDM1861">.</rdg>
               <rdg wit="#FDM1868">!</rdg>
             </app>
           </l>
