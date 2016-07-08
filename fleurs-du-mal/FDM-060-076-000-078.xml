@@ -8,7 +8,7 @@
     <fileDesc>
       <titleStmt>
         <!-- Title element - insert name of poem. If tile starts with an article, leave it off in the title value and include the title with the article in a rend attribute. -->
-        <title rend="SPLEEN (J'AI PLUS DE SOUVENIRS…)">SPLEEN (J'AI PLUS DE SOUVENIRS…</title>
+        <title rend="SPLEEN (J'AI PLUS DE SOUVENIRS…)">SPLEEN (J'AI PLUS DE SOUVENIRS…)</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Basic Markup by</resp>
@@ -22,8 +22,6 @@
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
-        <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
-        <idno>FDM-060-076-000-078</idno>
         <publisher>Jean and Alexander Heard Library</publisher>
         <pubPlace>Nashville</pubPlace>
         <address>
@@ -33,13 +31,15 @@
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
+        <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
+        <idno>FDM-060-076-000-078</idno>
       </publicationStmt>
       <sourceDesc>
         <!-- create listWit in sourceDesc with the different editions and their bib data
         1. 1857 Unexpurgated xml:id="U1857"
         2. 1861 2nd edition censored xml:id="FDM1861"
-        3. 1866 Les Epaves xml:id="1866"
-        4. 1868 3rd edition - posthumous xml:id="1868"
+        3. 1866 Les Epaves xml:id="LE1866"
+        4. 1868 3rd edition - posthumous xml:id="FDM1868"
         -->
         <listWit>
           <witness xml:id="U1857">
@@ -105,7 +105,8 @@
   <!-- TEI header ends, text section begins... -->
   <text>
     <body>
-      <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attibute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
+      <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attribute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
+<!-- This is a problem poem due to structural changes. Remove this line once removed from problem poems. -->
       <div type="poem">
         <!-- Remove all p elements
         Add head and title element -->
@@ -116,31 +117,91 @@
         Add l elements with n attributes -->
         <lg type="stanza" n="1">
           <l n="1">J'ai plus de souvenirs que si j'avais mille ans.</l>
+        </lg>
+        <lg type="stanza" n="2">
           <l n="2">Un gros meuble à tiroirs encombré de bilans,</l>
           <l n="3">De vers, de billets doux, de procès, de romances,</l>
           <l n="4">Avec de lourds cheveux roulés dans des quittances,</l>
           <l n="5">Cache moins de secrets que mon triste cerveau.</l>
           <l n="6">C'est une pyramide, un immense caveau,</l>
           <l n="7">Qui contient plus de morts que la fosse commune.</l>
-          <l n="8">--Je suis un cimetière abhorré de la lune,</l>
-          <l n="9">Où comme des remords se traînent de longs vers</l>
+            <!--<app>
+              <lem wit="#U1857" />
+              <rdg wit="#FDM1868">
+                </lg>
+                <lg type="stanza" n="3">
+              </rdg>
+            </app>-->
+          <l n="8">— Je suis un cimetière abhorré de la lune,</l>
+          <l n="9">Où comme des remords
+            <!--<app>
+              <lem wit="#U1857" />
+              <rdg wit="#FDM1868">,</rdg>
+            </app>-->
+            se traînent de longs vers</l>
           <l n="10">Qui s'acharnent toujours sur mes morts les plus chers.</l>
           <l n="11">Je suis un vieux boudoir plein de roses fanées,</l>
           <l n="12">Où gît tout un fouillis de modes surannées,</l>
-          <l n="13">Où les pastels plaintifs et les pâles Boucher,</l>
-          <l n="14">Seuls, respirent l'odeur d'un flacon débouché.</l>
+          <l n="13">Où les pastels plaintifs et les pâles Boucher</l>
+          <l n="14">
+            <!--<app>
+              <lem wit="#U1857">Hument le vieux parfum</lem>
+              <rdg wit="#FDM1861 #FDM1868">Seuls, respirent l'odeur</rdg>
+            </app>-->
+            d'un flacon débouché.</l>
         </lg>
-        <lg type="stanza" n="2">
+        <lg><!--THIS IS A PLACEHOLDER-->
+        <!--<app>
+          <lem wit="#U1857">
+            <lg type="stanza" n="3">
+          </lem>
+          <rdg wit="#FDM1868">
+            <lg type="stanza" n="4">
+          </rdg>
+        </app>-->
           <l n="15">Rien n'égale en longueur les boiteuses journées,</l>
           <l n="16">Quand sous les lourds flocons des neigeuses années</l>
-          <l n="17">L'ennui, fruit de la morne incuriosité,</l>
+          <l n="17">
+            <!--<app>
+              <lem wit="#U1857">L'ennui</lem>
+              <rdg wit="#FDM1868">L'Ennui</rdg>
+            </app>-->
+            , fruit de la morne incuriosité,</l>
           <l n="18">Prend les proportions de l'immortalité.</l>
-          <l n="19">--Désormais tu n'es plus, ô matière vivante!</l>
+          <!--<app>
+            <lem wit="#U1857" />
+            <rdg wit="#FDM1868">
+              </lg>
+              <lg type="stanza" n="5">
+            </rdg>
+          </app>-->
+          <l n="19">— Désormais tu n'es plus, ô matière vivante
+            <!--<app>
+              <lem wit="#U1857">,</lem>
+              <rdg wit="#FDM1861 #FDM1868">!</rdg>
+            </app>-->
+          </l>
           <l n="20">Qu'un granit entouré d'une vague épouvante,</l>
-          <l n="21">Assoupi dans le fond d'un Saharah brumeux!</l>
-          <l n="22">Un vieux sphinx ignoré du monde insoucieux,</l>
+          <l n="21">Assoupi dans le fond d'un Saharah brumeux
+            <!--<app>
+              <lem wit="#U1857">,</lem>
+              <rdg wit="#FDM1861">;</rdg>
+              <rdg wit="#FDM1868">!</rdg>
+            </app>-->
+          </l>
+          <l n="22">
+            <!--<app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#FDM1861 #FDM1868" />
+            </app>-->
+            Un vieux sphinx ignoré du monde insoucieux,</l>
           <l n="23">Oublié sur la carte, et dont l'humeur farouche</l>
-          <l n="24">Ne chante qu'aux rayons du soleil qui se couche.</l>
+          <l n="24">Ne chante qu'aux rayons du soleil qui se couche
+            <!--<app>
+              <lem wit="#U1857">.</lem>
+              <rdg wit="#FDM1868">!</rdg>
+            </app>-->
+          </l>
         </lg>
       </div>
     </body>
