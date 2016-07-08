@@ -22,8 +22,6 @@
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
-        <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
-        <idno>FDM-062-078-000-080</idno>
         <publisher>Jean and Alexander Heard Library</publisher>
         <pubPlace>Nashville</pubPlace>
         <address>
@@ -33,13 +31,15 @@
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
+        <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
+        <idno>FDM-062-078-000-080</idno>
       </publicationStmt>
       <sourceDesc>
         <!-- create listWit in sourceDesc with the different editions and their bib data
         1. 1857 Unexpurgated xml:id="U1857"
         2. 1861 2nd edition censored xml:id="FDM1861"
-        3. 1866 Les Epaves xml:id="1866"
-        4. 1868 3rd edition - posthumous xml:id="1868"
+        3. 1866 Les Epaves xml:id="LE1866"
+        4. 1868 3rd edition - posthumous xml:id="FDM1868"
         -->
         <listWit>
           <witness xml:id="U1857">
@@ -105,7 +105,7 @@
   <!-- TEI header ends, text section begins... -->
   <text>
     <body>
-      <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attibute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
+      <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attribute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
       <div type="poem">
         <!-- Remove all p elements
         Add head and title element -->
@@ -118,30 +118,69 @@
           <l n="1">Quand le ciel bas et lourd pèse comme un couvercle</l>
           <l n="2">Sur l'esprit gémissant en proie aux longs ennuis,</l>
           <l n="3">Et que de l'horizon embrassant tout le cercle</l>
-          <l n="4">II nous verse un jour noir plus triste que les nuits;</l>
+          <l n="4">II nous fait un jour noir plus triste que les nuits;</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Quand la terre est changée en un cachot humide,</l>
           <l n="6">Où l'Espérance, comme une chauve-souris,</l>
-          <l n="7">S'en va battant les murs de son aile timide</l>
+          <l n="7">S'en va battant les murs de son aile timide
+            <app>
+              <lem wit="#U1857">,</lem>
+              <rdg wit="#FDM1861 #FDM1868" />
+            </app>
+          </l>
           <l n="8">Et se cognant la tête à des plafonds pourris;</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="3">
           <l n="9">Quand la pluie étalant ses immenses traînées</l>
           <l n="10">D'une vaste prison imite les barreaux,</l>
-          <l n="11">Et qu'un peuple muet d'infâmes araignées,</l>
+          <l n="11">Et qu'un peuple muet
+            <app>
+              <lem wit="#U1857">d'horribles</lem>
+              <rdg wit="#FDM1861 #FDM1868">d'infâmes</rdg>
+            </app>
+            araignées</l>
           <l n="12">Vient tendre ses filets au fond de nos cerveaux,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="4">
-          <l n="13">Des cloches tout à coup sautent avec furie</l>
+          <l n="13">Des cloches
+            <app>
+              <lem wit="#U1857">tout-à-coup</lem>
+              <rdg wit="#FDM1861 #FDM1868">tout à coup</rdg>
+            </app>
+            sautent avec furie</l>
           <l n="14">Et lancent vers le ciel un affreux hurlement,</l>
           <l n="15">Ainsi que des esprits errants et sans patrie</l>
-          <l n="16">Qui se mettent à geindre opiniâtrement.</l>
+          <l n="16">Qui se mettent à geindre opiniâtrément.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="5">
-          <l n="17">— Et de longs corbillards, sans tambours ni musique,</l>
-          <l n="18">Défilent lentement dans mon âme; l'Espoir,</l>
-          <l n="19">Vaincu, pleure, et l'Angoisse atroce, despotique,</l>
+          <l n="17">— Et
+            <app>
+              <lem wit="#U1857">d'anciens</lem>
+              <rdg wit="#FDM1861 #FDM1868">de longs</rdg>
+            </app>
+            corbillards, sans tambours ni musique,</l>
+          <l n="18">Défilent lentement dans mon âme; l'Espoir
+            <app>
+              <lem wit="#U1857"></lem>
+              <rdg wit="#FDM1861 #FDM1868">,</rdg>
+            </app>
+          </l>
+          <l n="19">
+            <app>
+              <lem wit="#U1857">Pleurant comme un vaincu,</lem>
+              <rdg wit="#FDM1861 #FDM1868">Vaincu, pleure, et</rdg>
+            </app>
+            l'Angoisse
+            <app>
+              <lem wit="#U1857" />
+              <rdg wit="#FDM1861 #FDM1868">atroce,</rdg>
+            </app>
+            despotique</l>
+            <app>
+              <lem wit="#U1857"></lem>
+              <rdg wit="#FDM1861 #FDM1868">,</rdg>
+            </app>
           <l n="20">Sur mon crâne incliné plante son drapeau noir.</l>
         </lg>
       </div>

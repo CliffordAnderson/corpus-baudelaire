@@ -5,11 +5,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="L'imprévu">Imprévu</title>
+        <title rend="L'IMPREVU">IMPREVU</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="TFH">Todd Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -27,39 +31,6 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="FDM1861">
-            <desc>1861 2nd edition censored</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                              portrait of the author drawn and engraved by Felix Bracquemond</note>
-                </imprint>
-                <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="LE1866">
             <desc>1866 Les Epaves xml:id="1866"</desc>
             <biblStruct>
@@ -70,11 +41,10 @@
                   <pubPlace>Amsterdam</pubPlace>
                   <publisher>À L'Enseigne du Coq</publisher>
                   <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre), this is a
+                    false imprint, the book actually being published in Brussels by
+                    Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p. 9-55</note>
                   <note>With a frontispeice etching by Félicien Rops</note>
                 </imprint>
                 <extent>163 p.</extent>
@@ -117,7 +87,13 @@
     <body>
       <div type="poem">
         <head>
-          <title>L'IMPREVU</title>
+          <title rend="L'IMPREVU">IMPREVU <app>
+              <lem wit="#LE1866"><note n="1" place="foot" type="editorial">Ici l'auteur des <hi
+                    rend="italic">Fleurs du Mal</hi> se torne vers la Vie Eternelle. Ça devait finir
+                  comme ça. Observons que, comme tous les nouveaux convrtis, il se montre
+                  très-fanatique (<hi rend="italic">Note de l'éditeur</hi>.) 11.</note></lem>
+              <rdg wit="#FDM1868"/>
+            </app></title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Harpagon, qui veillait son père agonisant,</l>
@@ -157,7 +133,14 @@
         </lg>
         <lg type="stanza" subtype="quatrain" n="7">
           <l n="25">Chacun de vous m'a fait un temple dans son coeur;</l>
-          <l n="26">Vous avez, en secret, baisé ma fesse immonde!</l>
+          <l n="26">Vous avez, en secret, baisé ma fesse immonde<app>
+              <lem wit="#LE1866"><note n="1" place="foot" type="editorial">Voir à propos de la <hi
+                    rend="italic">messe</hi> et de la <hi rend="italic">fesse</hi>, la <hi
+                    rend="italic">Sorcière</hi>, de Michelet, la <hi rend="italic">Monographie du
+                    Diable</hi>, de Charles Louandre, le <hi rend="italic">Rituel</hi>
+                </note></lem>
+              <rdg wit="#FDM1868"/>
+            </app>!</l>
           <l n="27">Reconnaissez Satan à son rire vainqueur,</l>
           <l n="28">Enorme et laid comme le monde!</l>
         </lg>

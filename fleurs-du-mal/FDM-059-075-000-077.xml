@@ -22,8 +22,6 @@
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
-        <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
-        <idno>FDM-059-075-000-077</idno>
         <publisher>Jean and Alexander Heard Library</publisher>
         <pubPlace>Nashville</pubPlace>
         <address>
@@ -33,13 +31,15 @@
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
+        <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
+        <idno>FDM-059-075-000-077</idno>
       </publicationStmt>
       <sourceDesc>
         <!-- create listWit in sourceDesc with the different editions and their bib data
         1. 1857 Unexpurgated xml:id="U1857"
         2. 1861 2nd edition censored xml:id="FDM1861"
-        3. 1866 Les Epaves xml:id="1866"
-        4. 1868 3rd edition - posthumous xml:id="1868"
+        3. 1866 Les Epaves xml:id="LE1866"
+        4. 1868 3rd edition - posthumous xml:id="FDM1868"
         -->
         <listWit>
           <witness xml:id="U1857">
@@ -105,7 +105,7 @@
   <!-- TEI header ends, text section begins... -->
   <text>
     <body>
-      <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attibute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
+      <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attribute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
       <div type="poem" subtype="sonnet">
         <!-- Remove all p elements
         Add head and title element -->
@@ -115,25 +115,60 @@
         <!-- Add lg element with type, subtype, and n attributes
         Add l elements with n attributes -->
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">Pluviôse, irrité contre la vie entière,</l>
-          <l n="2">De son urne à grands flots vers un froid ténébreux</l>
+          <l n="1">Pluviôse
+            <app>
+              <lem wit="#U1857" />
+              <rdg wit="#FDM1861 #FDM1868">,</rdg>
+            </app>
+            irrité contre la
+            <app>
+              <lem wit="#U1857">ville</lem>
+              <rdg wit="#FDM1868">vie</rdg>
+            </app>
+            entière
+            <app>
+              <lem wit="#U1857" />
+              <rdg wit="#FDM1861 #FDM1868">,</rdg>
+            </app>
+          </l>
+          <l n="2">De son urne à
+            <app>
+              <lem wit="#U1857">grand</lem>
+              <rdg wit="#FDM1861 #FDM1868">grands</rdg>
+            </app>
+            flots verse un froid ténébreux</l>
           <l n="3">Aux pâles habitants du voisin cimetière</l>
           <l n="4">Et la mortalité sur les faubourgs brumeux.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Mon chat sur le carreau cherchant une litière</l>
           <l n="6">Agite sans repos son corps maigre et galeux;</l>
-          <l n="7">L'âme d'un vieux poète erre dans la gouttière</l>
+          <l n="7">
+            <app>
+              <lem wit="#U1857">L'ombre</lem>
+              <rdg wit="#FDM1861 #FDM1868">L'âme</rdg>
+            </app>
+            d'un vieux
+            <app>
+              <lem wit="#U1857">poète</lem>
+              <rdg wit="#FDM1861 #FDM1868">poëte</rdg>
+            </app>
+            erre dans la gouttière</l>
           <l n="8">Avec la triste voix d'un fantôme frileux.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
           <l n="9">Le bourdon se lamente, et la bûche enfumée</l>
-          <l n="10">Accompagne en fausset la pendule enrhumée</l>
+          <l n="10">Accompagne en fausset la pendule enrhumée,</l>
           <l n="11">Cependant qu'en un jeu plein de sales parfums,</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
           <l n="12">Héritage fatal d'une vieille hydropique,</l>
-          <l n="13">Le beau valet de coeur et la dame de pique</l>
+          <l n="13">Le beau valet de
+            <choice>
+              <orig>cœur</orig>
+              <reg>coeur</reg>
+            </choice>
+          et la dame de pique</l>
           <l n="14">Causent sinistrement de leurs amours défunts.</l>
         </lg>
       </div>
