@@ -10,7 +10,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <respStmt>
           <resp>Basic Markup</resp>
           <name xml:id="TMF">Timothy Foster</name>
-        </respStmt><respStmt>
+        </respStmt>
+        <respStmt>
           <resp>Critical Apparatus</resp>
           <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
