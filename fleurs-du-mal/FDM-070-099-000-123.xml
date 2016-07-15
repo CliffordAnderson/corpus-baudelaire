@@ -101,6 +101,9 @@ Online Distributed Proofreading Team.</p>
   <text>
     <body>
       <div type="poem">
+        <head>
+          <title/>
+        </head>
         <lg type="stanza" n="1">
           <l n="1">Je n'ai pas oublié, voisine de la ville,</l>
           <l n="2">Notre blanche maison, petite mais tranquille
