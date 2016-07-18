@@ -104,9 +104,9 @@ Online Distributed Proofreading Team.</p>
   <!-- TEI header ends, text section begins... -->
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="sonnet">
         <head>
-          <title>LA GÉANTE</title>
+          <title type="main">LA GÉANTE</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Du temps que la Nature en sa verve puissante</l>
@@ -119,16 +119,14 @@ Online Distributed Proofreading Team.</p>
           <l n="6">Et grandir librement dans ses terribles jeux
           	<app>
           		<lem wit="#U1857">,</lem>
-          		<rdg wit="#FDM1861">;</rdg>
-          		<rdg wit="#FDM1868">;</rdg>
+          		<rdg wit="#FDM1861 #FDM1868">;</rdg>
           	</app>
           </l>
-          <l n="7">Deviner si son coeur couve une sombre flamme</l>
+          <l n="7">Deviner si son <choice><orig>cœur</orig><reg>coeur</reg></choice> couve une sombre flamme</l>
           <l n="8">Aux humides brouillards qui nagent dans ses yeux
           	<app>
           		<lem wit="#U1857">,</lem>
-          		<rdg wit="#FDM1861">;</rdg>
-          		<rdg wit="#FDM1868">;</rdg>
+          		<rdg wit="#FDM1861 #FDM1868">;</rdg>
           	</app>
           </l>
         </lg>

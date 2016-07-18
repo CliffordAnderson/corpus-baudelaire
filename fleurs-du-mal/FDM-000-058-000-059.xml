@@ -6,12 +6,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>Chanson D'Apres-Midi</title>
+        <title>CHANSON D'APRES-MIDI</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="RVR">Ramona V. Romero</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name xml:id="TFH">Todd Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -29,22 +34,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -59,27 +48,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               portrait of the author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -137,11 +105,21 @@ Online Distributed Proofreading Team.</p>
           <l n="9">Le désert et la forêt</l>
           <l n="10">Embaument tes tresses rudes,</l>
           <l n="11">Ta tête a les attitudes</l>
-          <l n="12">De l'énigme et du secret.</l>
+          <l n="12">De l'énigme et du secret
+            <app>
+              <lem wit="#FDM1861">.</lem>
+              <rdg wit="#FDM1868">;</rdg>
+            </app>
+          </l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="4">
           <l n="13">Sur ta chair le parfum rôde</l>
-          <l n="14">Comme autour d'un encensoir;</l>
+          <l n="14">Comme autour d'un encensoir
+            <app>
+              <lem wit="#FDM1861">:</lem>
+              <rdg wit="#FDM1868">;</rdg>
+            </app>
+            </l>
           <l n="15">Tu charmes comme le soir,</l>
           <l n="16">Nymphe ténébreuse et chaude.</l>
         </lg>
