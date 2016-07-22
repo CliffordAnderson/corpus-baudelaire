@@ -118,6 +118,50 @@
         <lg type="stanza" n="1">
           <l n="1">J'ai plus de souvenirs que si j'avais mille ans.</l>
         </lg>
+        <app>
+          <lem wit="#U1857">
+            <lg type="stanza" n="2">
+              <l n="2">Un gros meuble à tiroirs encombré de bilans,</l>
+              <l n="3">De vers, de billets doux, de procès, de romances,</l>
+              <l n="4">Avec de lourds cheveux roulés dans des quittances,</l>
+              <l n="5">Cache moins de secrets que mon triste cerveau.</l>
+              <l n="6">C'est une pyramide, un immense caveau,</l>
+              <l n="7">Qui contient plus de morts que la fosse commune.</l>
+              <l n="8">— Je suis un cimetière abhorré de la lune,</l>
+              <l n="9">Où comme des remords se traînent de longs vers</l>
+              <l n="10">Qui s'acharnent toujours sur mes morts les plus chers.</l>
+              <l n="11">Je suis un vieux boudoir plein de roses fanées,</l>
+              <l n="12">Où gît tout un fouillis de modes surannées,</l>
+              <l n="13">Où les pastels plaintifs et les pâles Boucher</l>
+              <l n="14">
+                <app>
+                  <lem wit="#U1857">Hument le vieux parfum</lem>
+                  <rdg wit="#FDM1861">Seuls, respirent l'odeur</rdg>
+                </app>
+                d'un flacon débouché.</l>
+            </lg>
+          </lem>
+          <rdg wit="#FDM1868">
+            <lg type="stanza" n="2">
+              <l n="2">Un gros meuble à tiroirs encombré de bilans,</l>
+              <l n="3">De vers, de billets doux, de procès, de romances,</l>
+              <l n="4">Avec de lourds cheveux roulés dans des quittances,</l>
+              <l n="5">Cache moins de secrets que mon triste cerveau.</l>
+              <l n="6">C'est une pyramide, un immense caveau,</l>
+              <l n="7">Qui contient plus de morts que la fosse commune.</l>
+            </lg>
+            <lg type="stanza" n="3">
+              <l n="8">— Je suis un cimetière abhorré de la lune,</l>
+              <l n="9">Où comme des remords, se traînent de longs vers</l>
+              <l n="10">Qui s'acharnent toujours sur mes morts les plus chers.</l>
+              <l n="11">Je suis un vieux boudoir plein de roses fanées,</l>
+              <l n="12">Où gît tout un fouillis de modes surannées,</l>
+              <l n="13">Où les pastels plaintifs et les pâles Boucher</l>
+              <l n="14">Seuls, respirent l'odeur d'un flacon débouché.</l>
+            </lg>
+          </rdg>
+        </app>
+<!-- This is a problem stanza that contains a minimal approach to the <app> above and does not validate
         <lg type="stanza" n="2">
           <l n="2">Un gros meuble à tiroirs encombré de bilans,</l>
           <l n="3">De vers, de billets doux, de procès, de romances,</l>
@@ -125,84 +169,137 @@
           <l n="5">Cache moins de secrets que mon triste cerveau.</l>
           <l n="6">C'est une pyramide, un immense caveau,</l>
           <l n="7">Qui contient plus de morts que la fosse commune.</l>
-            <!--<app>
-              <lem wit="#U1857" />
-              <rdg wit="#FDM1868">
-                </lg>
-                <lg type="stanza" n="3">
-              </rdg>
-            </app>-->
+# This would be a minimal approach to coding a structural change, but beginning <rdg> with </lg> results in a TEI parsing error
+        <app>
+          <lem wit="#U1857" />
+          <rdg wit="#FDM1868">
+            </lg>
+            <lg type="stanza" n="3">
+          </rdg>
+        </app>
+# end of minimal approach
           <l n="8">— Je suis un cimetière abhorré de la lune,</l>
           <l n="9">Où comme des remords
-            <!--<app>
+            <app>
               <lem wit="#U1857" />
               <rdg wit="#FDM1868">,</rdg>
-            </app>-->
+            </app>
             se traînent de longs vers</l>
           <l n="10">Qui s'acharnent toujours sur mes morts les plus chers.</l>
           <l n="11">Je suis un vieux boudoir plein de roses fanées,</l>
           <l n="12">Où gît tout un fouillis de modes surannées,</l>
           <l n="13">Où les pastels plaintifs et les pâles Boucher</l>
           <l n="14">
-            <!--<app>
+            <app>
               <lem wit="#U1857">Hument le vieux parfum</lem>
               <rdg wit="#FDM1861 #FDM1868">Seuls, respirent l'odeur</rdg>
-            </app>-->
+            </app>
             d'un flacon débouché.</l>
         </lg>
-        <lg><!--THIS IS A PLACEHOLDER-->
-        <!--<app>
+# End of problem stanza -->
+        <app>
+          <lem wit="#U1857">
+            <lg type="stanza" n="3">
+              <l n="15">Rien n'égale en longueur les boiteuses journées,</l>
+              <l n="16">Quand sous les lourds flocons des neigeuses années</l>
+              <l n="17">L'ennui, fruit de la morne incuriosité,</l>
+              <l n="18">Prend les proportions de l'immortalité.</l>
+              <l n="19">— Désormais tu n'es plus, ô matière vivante
+                <app>
+                  <lem wit="#U1857">,</lem>
+                  <rdg wit="#FDM1861">!</rdg>
+                </app>
+              </l>
+              <l n="20">Qu'un granit entouré d'une vague épouvante,</l>
+              <l n="21">Assoupi dans le fond d'un Saharah brumeux
+                <app>
+                  <lem wit="#U1857">,</lem>
+                  <rdg wit="#FDM1861">;</rdg>
+                </app>
+              </l>
+              <l n="22">
+                <app>
+                  <lem wit="#U1857">—</lem>
+                  <rdg wit="#FDM1861" />
+                </app>
+                Un vieux sphinx ignoré du monde insoucieux,</l>
+              <l n="23">Oublié sur la carte, et dont l'humeur farouche</l>
+              <l n="24">Ne chante qu'aux rayons du soleil qui se couche.</l>
+            </lg>
+          </lem>
+          <rdg wit="#FDM1868">
+            <lg type="stanza" n="4">
+              <l n="15">Rien n'égale en longueur les boiteuses journées,</l>
+              <l n="16">Quand sous les lourds flocons des neigeuses années</l>
+              <l n="17">L'Ennui, fruit de la morne incuriosité,</l>
+              <l n="18">Prend les proportions de l'immortalité.</l>
+            </lg>
+            <lg type="stanza" n="5">
+              <l n="19">— Désormais tu n'es plus, ô matière vivante!</l>
+              <l n="20">Qu'un granit entouré d'une vague épouvante,</l>
+              <l n="21">Assoupi dans le fond d'un Saharah brumeux!</l>
+              <l n="22">Un vieux sphinx ignoré du monde insoucieux,</l>
+              <l n="23">Oublié sur la carte, et dont l'humeur farouche</l>
+              <l n="24">Ne chante qu'aux rayons du soleil qui se couche!</l>
+            </lg>
+          </rdg>
+        </app>
+<!-- This is a problem stanza that contains a minimal approach to the <app> above and does not validate
+# This would be a minimal approach to coding a structural change, but opening two <lg> elements within an <app> and closing with just one </lg> results in a TEI parsing error
+        <app>
           <lem wit="#U1857">
             <lg type="stanza" n="3">
           </lem>
           <rdg wit="#FDM1868">
             <lg type="stanza" n="4">
           </rdg>
-        </app>-->
+        </app>
           <l n="15">Rien n'égale en longueur les boiteuses journées,</l>
           <l n="16">Quand sous les lourds flocons des neigeuses années</l>
           <l n="17">
-            <!--<app>
+            <app>
               <lem wit="#U1857">L'ennui</lem>
               <rdg wit="#FDM1868">L'Ennui</rdg>
-            </app>-->
+            </app>
             , fruit de la morne incuriosité,</l>
           <l n="18">Prend les proportions de l'immortalité.</l>
-          <!--<app>
+# This would be a minimal approach to coding a structural change, but it creates a mismatch in opened and closed <lg> / </lg> elements results in a TEI parsing error
+          <app>
             <lem wit="#U1857" />
             <rdg wit="#FDM1868">
               </lg>
               <lg type="stanza" n="5">
             </rdg>
-          </app>-->
+          </app>
           <l n="19">— Désormais tu n'es plus, ô matière vivante
-            <!--<app>
+            <app>
               <lem wit="#U1857">,</lem>
               <rdg wit="#FDM1861 #FDM1868">!</rdg>
-            </app>-->
+            </app>
           </l>
           <l n="20">Qu'un granit entouré d'une vague épouvante,</l>
           <l n="21">Assoupi dans le fond d'un Saharah brumeux
-            <!--<app>
+            <app>
               <lem wit="#U1857">,</lem>
               <rdg wit="#FDM1861">;</rdg>
               <rdg wit="#FDM1868">!</rdg>
-            </app>-->
+            </app>
           </l>
           <l n="22">
-            <!--<app>
+            <app>
               <lem wit="#U1857">—</lem>
               <rdg wit="#FDM1861 #FDM1868" />
-            </app>-->
+            </app>
             Un vieux sphinx ignoré du monde insoucieux,</l>
           <l n="23">Oublié sur la carte, et dont l'humeur farouche</l>
           <l n="24">Ne chante qu'aux rayons du soleil qui se couche
-            <!--<app>
+            <app>
               <lem wit="#U1857">.</lem>
               <rdg wit="#FDM1868">!</rdg>
-            </app>-->
+            </app>
           </l>
         </lg>
+# End of problem stanza -->
       </div>
     </body>
   </text>
