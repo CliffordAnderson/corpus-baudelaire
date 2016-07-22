@@ -1,8 +1,13 @@
+<!-- Requisite XML information. Encoding, namespace, and schema info. -->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- TEI Header begins here... -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
+        <!-- Title element - insert name of poem. If tile starts with an article, leave it off in the title value and include the title with the article in a rend attribute. -->
         <title rend="A UNE MENDIANTE ROUSSE">MENDIANTE ROUSSE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
