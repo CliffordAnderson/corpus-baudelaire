@@ -6,9 +6,14 @@
         <title rend="A UNE PASSANTE">PASSANTE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name xml:id="TFH">Todd Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -114,29 +119,32 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="sonnet">
         <head>
           <title>A UNE PASSANTE</title>
         </head>
-        <lg>
+        <lg type="stanza" subtype="quatrain" n="1">
           <l>La rue assourdissante autour de moi hurlait.</l>
           <l>Longue, mince, en grand deuil, douleur majestueuse,</l>
           <l>Une femme passa, d'une main fastueuse</l>
           <l>Soulevant, balançant le feston et l'ourlet;</l>
         </lg>
-        <lg>
+        <lg type="stanza" subtype="quatrain" n="2">
           <l>Agile et noble, avec sa jambe de statue.</l>
           <l>Moi, je buvais, crispé comme un extravagant,</l>
           <l>Dans son oeil, ciel livide où germe l'ouragan,</l>
           <l>La douceur qui fascine et le plaisir qui tue.</l>
         </lg>
-        <lg>
-          <l>Un éclair... puis la nuit!--Fugitive beauté</l>
+        <lg type="stanza" subtype="tercet" n="3">
+          <l>Un éclair... puis la nuit!—Fugitive beauté</l>
           <l>Dont le regard m'a fait soudainement renaître,</l>
           <l>Ne te verrai-je plus que dans l'éternité?</l>
         </lg>
-        <lg>
-          <l>Ailleurs, bien loin d'ici! trop tard!<emph rend="italics">jamais</emph>peut-être!</l>
+        <lg type="stanza" subtype="quatrain" n="4">
+          <l>Ailleurs, bien loin d'ici! trop tard!<emph rend="italics">jamais</emph>peut-être<app>
+            <lem wit="#FDM1861">!</lem>
+            <rdg wit="#FDM1868"/>
+          </app></l>
           <l>Car j'ignore où tu fuis, tu ne sais où je vais,</l>
           <l>O toi que j'eusse aimée, ô toi qui le savais!</l>
         </lg>

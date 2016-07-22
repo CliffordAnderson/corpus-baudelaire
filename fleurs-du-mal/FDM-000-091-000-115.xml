@@ -3,12 +3,18 @@
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="LES PETITES VIEILLES">PETITES VIEILLES</title>
+        <title type="main" rend="LES PETITES VIEILLES">PETITES VIEILLES</title>
+        <title type="sub">A VICTOR HUGO</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name xml:id="TFH">Todd Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -114,148 +120,173 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="composite">
         <head>
-          <title>LES PETITES VIEILLES</title>A VICTOR HUGO</head>
-        <div>
-          <head>I</head>
-          <lg>
+          <title type="main">LES PETITES VIEILLES</title>
+          <title type="sub">A VICTOR HUGO</title>
+        </head>
+        <lg type="poem" n="1">
+          <head type="main">I</head>
+          <lg type="stanza" subtype="quatrain" n="1">
             <l n="1">Dans les plis sinueux des vieilles capitales,</l>
             <l n="2">Où tout, même l'horreur, tourne aux enchantements,</l>
             <l n="3">Je guette, obéissant à mes humeurs fatales,</l>
             <l n="4">Des êtres singuliers, décrépits et charmants.</l>
           </lg>
-          <lg>
+          <lg type="stanza" subtype="quatrain" n="2">
             <l n="5">Ces monstres disloqués furent jadis des femmes,</l>
-            <l n="6">Eponine ou Laïs!--Monstres brisés, bossus</l>
+            <l n="6">Eponine ou Laïs!<app>
+              <lem wit="#FDM1861"/>
+              <rdg wit="#FDM1868">—</rdg>
+            </app>Monstres brisés, bossus</l>
             <l n="7">Ou tordus, aimons-les! ce sont encor des âmes.</l>
             <l n="8">Sous des jupons troués et sous de froids tissus</l>
           </lg>
-          <lg>
+          <lg type="stanza" subtype="quatrain" n="3">
             <l n="9">Ils rampent, flagellés par les bises iniques,</l>
             <l n="10">Frémissant au fracas roulant des omnibus,</l>
             <l n="11">Et serrant sur leur flanc, ainsi que des reliques,</l>
             <l n="12">Un petit sac brodé de fleurs ou de rébus;</l>
           </lg>
-          <lg>
+          <lg type="stanza" subtype="quatrain" n="4">
             <l n="13">Ils trottent, tout pareils à des marionnettes;</l>
             <l n="14">Se traînent, comme font les animaux blessés,</l>
             <l n="15">Ou dansent, sans vouloir danser, pauvres sonnettes</l>
             <l n="16">Où se pend un Démon sans pitié! Tout cassés</l>
           </lg>
-          <lg>
+          <lg type="stanza" subtype="quatrain" n="5">
             <l n="17">Qu'ils sont, ils ont des yeux perçants comme une vrille,</l>
             <l n="18">Luisants comme ces trous où l'eau dort dans la nuit;</l>
             <l n="19">Ils ont les yeux divins de la petite fille</l>
             <l n="20">Qui s'étonne et qui rit à tout ce qui reluit.</l>
           </lg>
-          <lg>
-            <l n="21">--Avez-vous observé que maints cercueils de vieilles</l>
+          <lg type="stanza" subtype="quatrain" n="6">
+            <l n="21">—Avez-vous observé que maints cercueils de vieilles</l>
             <l n="22">Sont presque aussi petits que celui d'un enfant?</l>
             <l n="23">La Mort savante met dans ces bières pareilles</l>
             <l n="24">Un symbole d'un goût bizarre et captivant,</l>
           </lg>
-          <lg>
+          <lg type="stanza" subtype="quatrain" n="7">
             <l n="25">Et lorsque j'entrevois un fantôme débile</l>
             <l n="26">Traversant de Paris le fourmillant tableau,</l>
             <l n="27">Il me semble toujours que cet être fragile</l>
             <l n="28">S'en va tout doucement vers un nouveau berceau;</l>
           </lg>
-          <lg>
+          <lg type="stanza" subtype="quatrain" n="8">
             <l n="29">A moins que, méditant sur la géométrie,</l>
             <l n="30">Je ne cherche, à l'aspect de ces membres discords,</l>
             <l n="31">Combien de fois il faut que l'ouvrier varie</l>
             <l n="32">La forme de la boîte où l'on met tous ces corps.</l>
           </lg>
-          <lg>
-            <l n="33">--Ces yeux sont des puits faits d'un million de larmes,</l>
-            <l n="34">Des creusets qu'un métal refroidi pailleta...</l>
+          <lg type="stanza" subtype="quatrain" n="9">
+            <l n="33">—Ces yeux sont des puits faits d'un million de larmes,</l>
+            <l n="34">Des creusets qu'un métal refroidi pailleta<app>
+              <lem wit="#FDM1861">..</lem>
+              <rdg wit="#FDM1868">...</rdg>
+            </app></l>
             <l n="35">Ces yeux mystérieux ont d'invincibles charmes</l>
-            <l n="36">Pour celui que l'austère !<foreign>Infortune
-                           allaita</foreign>!</l>
+            <l n="36">Pour celui que l'austère Infortune allaita!</l>
           </lg>
-        </div>
-        <div>
-          <head>II</head>
-          <lg>
-            <l n="1">De l'ancien Frascati Vestale énamourée;</l>
+        </lg>
+          <lg type="poem" n="2">
+            <head type="main">II</head>
+          <lg type="stanza" subtype="quatrain" n="10">
+            <l n="1"><app>
+              <lem wit="#FDM1861">De Frascati défunt</lem>
+              <rdg wit="#FDM1868">De l'ancien Frascati</rdg>
+            </app> Vestale énamourée;</l>
             <l n="2">Prêtresse de Thalie, hélas! dont le souffleur</l>
-            <l n="3">Défunt, seul, sait le nom; célèbre évaporée</l>
+            <l n="3"><app>
+              <lem wit="#FDM1861">Enterré</lem>
+              <rdg wit="#FDM1868">Défunt, seul,</rdg>
+            </app> sait le nom; célèbre évaporée</l>
             <l n="4">Que Tivoli jadis ombragea dans sa fleur,</l>
           </lg>
-          <lg>
+          <lg type="stanza" subtype="quatrain" n="11">
             <l n="5">Toutes m'enivrent! mais parmi ces êtres frêles</l>
-            <l n="6">Il en est qui, faisant de la douleur un miel,</l>
-            <l n="7">Ont dit au Dévouement qui leur prêtait ses ailes:</l>
-            <l n="8">« Hippogriffe puissant, mène-moi jusqu'au ciel! »</l>
+            <l n="6">Il en est qui, faisant de la douleur un miel<app>
+              <lem wit="#FDM1861">.</lem>
+              <rdg wit="#FDM1868">,</rdg>
+            </app></l>
+            <l n="7"><app>
+              <lem wit="#FDM1861"/>
+              <rdg wit="#FDM1868">&lt; &lt;</rdg>
+            </app>Ont dit au Dévouement qui leur prêtait ses ailes:</l>
+            <l n="8">Hippogriffe puissant, mène-moi jusqu'au ciel!<app>
+              <lem wit="#FDM1861"/>
+              <rdg wit="#FDM1868">&gt;&gt;</rdg>
+            </app></l>
           </lg>
-          <lg>
+          <lg type="stanza" subtype="quatrain" n="12">
             <l n="9">L'une, par sa patrie au malheur exercée,</l>
             <l n="10">L'autre, que son époux surchargea de douleurs,</l>
             <l n="11">L'autre, par son enfant Madone transpercée,</l>
             <l n="12">Toutes auraient pu faire un fleuve avec leurs pleurs!</l>
           </lg>
-        </div>
-        <div>
-          <head>III</head>
-          <lg>
-            <l n="1">Ah! que j'en ai suivi, de ces petites vieilles!</l>
+        </lg>
+        <lg type="poem" n="3">
+          <head type="main">III</head>
+          <lg type="stanza" subtype="quatrain" n="13">
+            <l n="1">Ah! que j'en ai suivi, de ces petites vieilles<app>
+              <lem wit="#FDM1861"/>
+              <rdg wit="#FDM1868">!</rdg>
+            </app></l>
             <l n="2">Une, entre autres, à l'heure où le soleil tombant</l>
             <l n="3">Ensanglante le ciel de blessures vermeilles,</l>
             <l n="4">Pensive, s'asseyait à l'écart sur un banc,</l>
           </lg>
-          <lg>
+          <lg type="stanza" subtype="quatrain" n="14">
             <l n="5">Pour entendre un de ces concerts, riches de cuivre,</l>
             <l n="6">Dont les soldats parfois inondent nos jardins,</l>
-            <l n="7">Et qui, dans ces soirs dor où l'on se sent revivre,</l>
+            <l n="7">Et qui, dans ces soirs d'or où l'on se sent revivre,</l>
             <l n="8">Versent quelque héroïsme au coeur des citadins.</l>
           </lg>
-          <lg>
+          <lg type="stanza" subtype="quatrain" n="15">
             <l n="9">Celle-là droite encor, fière et sentant la règle,</l>
             <l n="10">Humait avidement ce chant vif et guerrier;</l>
             <l n="11">Son oeil parfois s'ouvrait comme l'oeil d'un vieil aigle;</l>
             <l n="12">Son front de marbre avait l'air fait pour le laurier!</l>
           </lg>
-        </div>
-        <div>
-          <head>IV</head>
-          <lg>
+        </lg>
+        <lg type="poem" n="4">
+          <head type="main">IV</head>
+          <lg type="stanza" subtype="quatrain" n="16">
             <l n="1">Telles vous cheminez, stoïques et sans plaintes,</l>
             <l n="2">A travers le chaos des vivantes cités,</l>
             <l n="3">Mères au coeur saignant, courtisanes ou saintes,</l>
             <l n="4">Dont autrefois les noms par tous étaient cités.</l>
           </lg>
-          <lg>
+          <lg type="stanza" subtype="quatrain" n="17">
             <l n="5">Vous qui fûtes la grâce ou qui fûtes la gloire,</l>
             <l n="6">Nul ne vous reconnaît! un ivrogne incivil</l>
             <l n="7">Vous insulte en passant d'un amour dérisoire;</l>
             <l n="8">Sur vos talons gambade un enfant lâche et vil.</l>
           </lg>
-          <lg>
+          <lg type="stanza" subtype="quatrain" n="18">
             <l n="9">Honteuses d'exister, ombres ratatinées,</l>
             <l n="10">Peureuses, le dos bas, vous côtoyer les murs,</l>
             <l n="11">Et nul ne vous salue, étranges destinées!</l>
             <l n="12">Débris d'humanité pour l'éternité mûrs!</l>
           </lg>
-          <lg>
+          <lg type="stanza" subtype="quatrain" n="19">
             <l n="13">Mais moi, moi qui de loin tendrement vous surveille,</l>
             <l n="14">L'oeil inquiet, fixé sur vos pas incertains,</l>
             <l n="15">Tout comme si j'étais votre père, ô merveille!</l>
             <l n="16">Je goûte à votre insu des plaisirs clandestins:</l>
           </lg>
-          <lg>
+          <lg type="stanza" subtype="quatrain" n="20">
             <l n="17">Je vois s'épanouir vos passions novices;</l>
             <l n="18">Sombres ou lumineux, je vis vos jours perdus;</l>
             <l n="19">Mon coeur multiplié jouit de tous vos vices!</l>
             <l n="20">Mon âme resplendit de toutes vos vertus!</l>
           </lg>
-          <lg>
+          <lg type="stanza" subtype="quatrain" n="21">
             <l n="21">Ruines! ma famille! ô cerveaux congénères!</l>
             <l n="22">Je vous fais chaque soir un solennel adieu!</l>
             <l n="23">Où serez-vous demain, Eves octogénaires,</l>
             <l n="24">Sur qui pèse la griffe effroyable de Dieu?</l>
           </lg>
-        </div>
+        </lg>
       </div>
     </body>
   </text>
