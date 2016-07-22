@@ -8,7 +8,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <titleStmt>
         <!-- Title element - insert name of poem. If tile starts with an article, leave it off in the title value
 and include the title with the article in a rend attribute. -->
-        <title rend="LE VIN DES CHIFFONNIERS">LE VIN DES CHIFFONNIERS</title>
+        <title rend="LE VIN DES CHIFFONNIERS">VIN DES CHIFFONNIERS</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Basic Markup</resp>
