@@ -6,12 +6,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="Le Crépuscule du matin">Crépuscule du matin</title>
+        <title rend="LE CRÉPUSCLULE DU MATIN">CRÉPUSCULE DU MATIN</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="SW">Steven Wenz</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name xml:id="TMF">Timothy Foster</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -62,27 +67,6 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-this is a false imprint, the book actually being published in Brussels
-by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -119,7 +103,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>Le Crépuscule du matin</title>
+          <title>LE CRÉPUSCULE DU MATIN</title>
         </head>
         <lg type="stanza" n="1">
           <l n="1">La diane chantait dans les cours des casernes,</l>
@@ -128,7 +112,7 @@ Online Distributed Proofreading Team.</p>
         <lg type="stanza" n="2">
           <l n="1">C'était l'heure où l'essaim des rêves malfaisants</l>
           <l n="2">Tord sur leurs oreillers les bruns adolescents;</l>
-          <l n="3">Où, comme un oeil sanglant qui palpite et qui bouge,</l>
+          <l n="3">Où, comme un œil sanglant qui palpite et qui bouge,</l>
           <l n="4">La lampe sur le jour fait une tache rouge;</l>
           <l n="5">Où l'âme, sous le poids du corps revêche et lourd,</l>
           <l n="6">Imite les combats de la lampe et du jour.</l>
@@ -137,25 +121,36 @@ Online Distributed Proofreading Team.</p>
           <l n="9">Et l'homme est las d'écrire et la femme d'aimer.</l>
         </lg>
         <lg type="stanza" n="3">
-          <l n="1">Les maisons çà et là commençaient à fumer.</l>
-          <l n="2">Les femmes de plaisir, la paupière livide,</l>
-          <l n="3">Bouche ouverte, dormaient de leur sommeil stupide;</l>
-          <l n="4">Les pauvresses, traînant leurs seins maigres et froids,</l>
-          <l n="5">Soufflaient sur leurs tisons et soufflaient sur leurs doigts.</l>
-          <l n="6">C'était l'heure où parmi le froid et la lésine</l>
-          <l n="7">S'aggravent les douleurs des femmes en gésine;</l>
-          <l n="8">Comme un sanglot coupé par un sang écumeux</l>
-          <l n="9">Le chant du coq au loin déchirait l'air brumeux</l>
-          <l n="10">Une mer de brouillards baignait les édifices,</l>
-          <l n="11">Et les agonisants dans le fond des hospices</l>
-          <l n="12">Poussaient leur dernier râle en hoquets inégaux.</l>
-          <l n="13">Les débauchés rentraient, brisés par leurs travaux.</l>
+          <l n="10">Les maisons çà et là commençaient à fumer.</l>
+          <l n="11">Les femmes de plaisir, la paupière livide,</l>
+          <l n="12">Bouche ouverte, dormaient de leur sommeil stupide;</l>
+          <l n="13">Les pauvresses, traînant leurs seins maigres et froids,</l>
+          <l n="14">Soufflaient sur leurs tisons et soufflaient sur leurs doigts.</l>
+          <l n="15">C'était l'heure où parmi le froid et la lésine</l>
+          <l n="16">S'aggravent les douleurs des femmes en gésine;</l>
+          <l n="17">Comme un sanglot coupé par un sang écumeux</l>
+          <l n="18">Le chant du coq au loin déchirait l'air brumeux
+          <app>
+              <lem wit="#U1857">,</lem>
+              <rdg wit="#FDM1861 #FDM1868">;</rdg>
+            </app>
+          </l>
+          <l n="19">Une mer de brouillards baignait les édifices,</l>
+          <l n="20">Et les agonisants dans le fond des hospices</l>
+          <l n="21">Poussaient leur dernier râle en hoquets inégaux.</l>
+          <l n="22">Les débauchés rentraient, brisés par leurs travaux.</l>
         </lg>
         <lg type="stanza" n="4">
-          <l n="1">L'aurore grelottante en robe rose et verte</l>
-          <l n="2">S'avançait lentement sur la Seine déserte,</l>
-          <l n="3">Et le sombre Paris, en se frottant les yeux</l>
-          <l n="4">Empoignait ses outils, vieillard laborieux.</l>
+          <l n="23">L'aurore grelottante en robe rose et verte</l>
+          <l n="24">S'avançait lentement sur la Seine déserte,</l>
+          <l n="25">Et le sombre Paris, en se frottant les yeux,</l>
+          <l n="26">Empoignait ses outils,<app>
+              <lem wit="#U1857"> — </lem>
+              <rdg wit="#FDM1861 #FDM1868"> </rdg>
+            </app>vieillard laborieux<app>
+              <lem wit="#U1857">!</lem>
+              <rdg wit="#FDM1861 #FDM1868">.</rdg>
+            </app></l>
         </lg>
       </div>
     </body>
