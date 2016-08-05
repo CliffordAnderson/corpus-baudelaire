@@ -102,9 +102,13 @@
     <body>
       <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attribute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
       <div type="poem" n="10" rhyme="ababcdcdefefghghijij">
+        <!-- Remove all p elements
+        Add head and title element -->
         <head>
           <title>DON JUAN AUX ENFERS</title>
         </head>
+        <!-- Add lg element with type, subtype, and n attributes
+        Add l elements with n attributes -->
         <lg type="quatrain" n="1">
           <l n="1">Quand don Juan descendit vers l'onde souterraine,</l>
           <l n="2">Et lorsqu'il eut donné son obole à Charon,</l>

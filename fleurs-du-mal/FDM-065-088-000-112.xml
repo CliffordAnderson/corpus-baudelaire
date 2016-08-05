@@ -102,9 +102,13 @@
     <body>
       <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attribute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
       <div type="poem">
+        <!-- Remove all p elements
+        Add head and title element -->
         <head>
           <title>A UNE MENDIANTE ROUSSE</title>
         </head>
+        <!-- Add lg element with type, subtype, and n attributes
+        Add l elements with n attributes -->
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Ma blanchette aux cheveux roux,</l>
           <l n="2">Dont ta robe par ses trous</l>
