@@ -5,11 +5,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="Le Squelette laboureur">Squelette laboureur</title>
+        <title rend="Le Squelette laboureur">SQUELETTE LABOUREUR</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="TFH">Todd Hughes</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name ref="#TFH">Todd Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -27,22 +31,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -57,27 +45,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         portrait of the author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                                        this is a false imprint, the book actually being published in Brussels
-                                        by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                                        9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -115,12 +82,12 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem" subtype="sonnet">
+      <div type="poem" subtype="composite">
         <head>
-          <title>Le Squelette laboureur</title>
+          <title>LE SQUELETTE LABOUREUR</title>
         </head>
-        <div n="1">
-          <ab>I</ab>
+        <lg type="poem" n="1">
+        <head type="main">I</head>
           <lg type="stanza" subtype="quatrain" n="1">
             <l n="1">Dans les planches d'anatomie</l>
             <l n="2">Qui traînent sur ces quais poudreux</l>
@@ -139,9 +106,9 @@ Online Distributed Proofreading Team.</p>
             <l n="11">Bêchant comme des laboureurs,</l>
             <l n="12">Des Ecorchés et des Squelettes.</l>
           </lg>
-        </div>
-        <div n="2">
-          <ab>II</ab>
+        </lg>
+        <lg type="poem" n="2">
+          <head type="main">II</head>
           <lg type="stanza" subtype="quatrain" n="4">
             <l n="13">De ce terrain que vous fouillez,</l>
             <l n="14">Manants résignés et funèbres</l>
@@ -156,7 +123,11 @@ Online Distributed Proofreading Team.</p>
           </lg>
           <lg type="stanza" subtype="quatrain" n="6">
             <l n="21">Voulez-vous (d'un destin trop dur</l>
-            <l n="22">Epouvantable et clair emblème!)</l>
+            <l n="22">Epouvantable et clair emblème
+              <app>
+                <lem wit="#FDM1861"/>
+                <rdg wit="#FDM1868">!</rdg>
+              </app>)</l>
             <l n="23">Montrer que dans la fosse même</l>
             <l n="24">Le sommeil promis n'est pas sûr;</l>
           </lg>
@@ -172,7 +143,7 @@ Online Distributed Proofreading Team.</p>
             <l n="31">Et pousser une lourde bêche</l>
             <l n="32">Sous notre pied sanglant et nu?</l>
           </lg>
-        </div>
+        </lg>
       </div>
     </body>
   </text>
