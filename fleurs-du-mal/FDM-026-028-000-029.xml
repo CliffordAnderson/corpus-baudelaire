@@ -1,5 +1,5 @@
 <!-- Requisite XML information. Encoding, namespace, and schemaa info.  -->
-<?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -244,4 +244,3 @@ Add l elemnts with n attributes -->
 as an individual file. Save the file using the numeric code based on the Editions Table.
 Add the TEI header from the template file. Replace values in header template
 as appropriate.-->
-

@@ -2,11 +2,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="Le rêve d'un curieux">Rêve d'un curieux</title>
+        <title rend="LE RÉVE D'UN CURIEUX">RÉVE D'UN CURIEUX</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="RKB">Raquelle K. Bostow</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="TFH">Todd F. Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -24,22 +28,6 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -80,11 +68,11 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
   </teiHeader>
   <text>
     <body>
-      <div type="sonnet">
+      <div type="poem" subtype="sonnet">
         <head>
-          <title>Le rêve d'un curieux</title>
+          <title type="main">Le rêve d'un curieux</title>
+          <title type="sub">A.F.N.</title>
         </head>
-        <head type="dedication">À Félix Nadar</head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Connais-tu, comme moi, la douleur savoureuse</l>
           <l n="2">Et de toi fais-tu dire: «Oh! l'homme singulier!»</l>
@@ -99,12 +87,18 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
           <l n="1">J'étais comme l'enfant avide du spectacle,</l>
-          <l n="2">Haïssant le rideau comme on hait un obstacle...</l>
+          <l n="2">Haïssant le rideau comme on hait un obstacle<app>
+            <lem wit="#U1861">....</lem>
+            <rdg wit="#FDM1868">...</rdg>
+          </app></l>
           <l n="3">Enfin la vérité froide se révéla:</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
           <l n="1">J'étais mort sans surprise, et la terrible aurore</l>
-          <l n="2">M'enveloppait. — Eh quoi! n'est-ce donc que cela?</l>
+          <l n="2">M'enveloppait. <app>
+            <lem wit="#U1861">——</lem>
+            <rdg wit="#FDM1868">–</rdg>
+          </app>—— Eh quoi! n'est-ce donc que cela?</l>
           <l n="3">La toile était levée et j'attendais encore.</l>
         </lg>
       </div>

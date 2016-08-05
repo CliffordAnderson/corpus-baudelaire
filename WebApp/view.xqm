@@ -55,6 +55,25 @@ declare function view:format-list($list as item()*) as element(ul) {
      </ul>
 };
 
+declare function view:format($results as element(p)*) as element(html)
+{
+  let $title := "Search Results"
+  let $content :=
+    element div {
+      for $result in $results
+       return 
+         element p {
+           "Line " || $result/@line || ": " ,
+           $result/node(), 
+           element a {
+              attribute href {fn:replace(fn:replace($result/@base-uri, "fleurs-du-mal", "contents"), ".xml","") },
+              " ... (read more)."
+               }
+         }  
+    }
+   return view:display-contents($title, $content)
+};
+
 declare function view:display-contents($title as xs:string?, $content as element()*) {
     <html>
         <head>
@@ -86,6 +105,12 @@ declare function view:display-contents($title as xs:string?, $content as element
             <li><a href="/contents">Contents</a></li>
             <li><a href="/credits">Team</a></li>
           </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" name="q"  class="form-control" placeholder="Search"/>
+            </div>
+              <button type="submit" formaction="search" class="btn btn-default">Submit</button>
+            </form>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
