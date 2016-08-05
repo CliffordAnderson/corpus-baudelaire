@@ -6,9 +6,12 @@
         <title rend="LA VIE ANTERIEURE">VIE ANTERIEURE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
-          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <resp>Basic Markup</resp>
+          <name xml:id="TFH">Todd F. Hughes</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name ref="#TFH">Todd F. Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -59,27 +62,6 @@
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                    this is a false imprint, the book actually being published in Brussels
-                    by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                    9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -114,36 +96,38 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem" subtype="sonnet" n="7" rhyme="abbacddceffegg">
+      <div type="poem" subtype="sonnet">
         <head>
           <title>LA VIE ANTERIEURE</title>
         </head>
-        <lg type="quatrain" n="1" rhyme="abba">
-          <l n="1">J'ai longtemps habité sous de vastes<rhyme label="a">portiques</rhyme>
-          </l>
-          <l n="2">Que les soleils marins teignaient de mille<rhyme label="b">feux</rhyme>,</l>
-          <l n="3">Et que leurs grands piliers, droits et<rhyme label="b">majestueux</rhyme>,</l>
-          <l n="4">Rendaient pareils, le soir, aux grottes<rhyme label="a">basaltiques</rhyme>.</l>
+        <lg type="stanza" subtype="quatrain" n="1">
+          <l n="1">J'ai longtemps habité sous de vastes portiques</l>
+          <l n="2">Que les soleils marins teignaient de mille feux,</l>
+          <l n="3">Et que leurs grands piliers, droits et majestueux,</l>
+          <l n="4">Rendaient pareils, le soir, aux grottes basaltiques.</l>
         </lg>
-        <lg type="quatrain" n="2" rhyme="cddc">
-          <l n="5">Les houles, en roulant les images des<rhyme label="c">cieux</rhyme>,</l>
-          <l n="6">Mêlaient d'une façon solennelle et<rhyme label="d">mystique</rhyme>
-          </l>
-          <l n="7">Les tout-puissants accords de leur riche<rhyme label="d">musique</rhyme>
-          </l>
-          <l n="8">Aux couleurs du couchant reflété par mes<rhyme label="c">yeux</rhyme>.</l>
+        <lg type="stanza" subtype="quatrain" n="2">
+          <l n="5">Les houles, en roulant les images des cieux,</l>
+          <l n="6">Mêlaient d'une façon solennelle et mystique</l>
+          <l n="7">Les <app>
+                    <lem wit="#U1857">tout puissants</lem>
+                     <rdg wit="#FDM1861 #FDM1868">tout-puissants</rdg>
+                       </app> accords de leur riche musique</l>
+          <l n="8">Aux couleurs du couchant reflété par mes yeux.</l>
         </lg>
-        <lg type="tercet" n="3" rhyme="eff">
-          <l n="9">C'est là que j'ai vécu dans les voluptés<rhyme label="e">calmes</rhyme>,</l>
-          <l n="10">Au milieu de l'azur, des vagues, des<rhyme label="f">splendeurs</rhyme>
-          </l>
-          <l n="11">Et des esclaves nus, tout imprégnés<rhyme label="f">d'odeurs</rhyme>,</l>
+        <lg type="stanza" subtype="tercet" n="3">
+          <l n="9">C'est là que j'ai vécu dans les voluptés calmes,</l>
+          <l n="10">Au milieu de l'azur, <app>
+                                <lem wit="#U1857">des flots</lem>
+                                <rdg wit="#FDM1861 #FDM1868">des vagues</rdg>
+                                  </app>, des splendeurs</l>
+          <l n="11">Et des esclaves nus, tout imprégnés d'odeurs,</l>
         </lg>
-        <lg type="tercet" n="4" rhyme="egg">
-          <l n="12">Qui me rafraîchissaient le front avec des<rhyme label="e">palmes</rhyme>,</l>
-          <l n="13">Et dont l'unique soin était<rhyme label="g">d'approfondir</rhyme>
+        <lg type="stanza" subtype="tercet" n="4">
+          <l n="12">Qui me rafraîchissaient le front avec des palmes,</l>
+          <l n="13">Et dont l'unique soin était d'approfondir
           </l>
-          <l n="14">Le secret douloureux qui me faisait<rhyme label="g">languir</rhyme>.</l>
+          <l n="14">Le secret douloureux qui me faisait languir.</l>
         </lg>
       </div>
     </body>

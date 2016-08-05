@@ -2,11 +2,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="La fin de la journée">Fin de la journée</title>
+        <title rend="LA FIN DE LA JOURNÉE">FIN DE LA JOURNÉE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="RKB">Raquelle K. Bostow</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="TFH">Todd F. Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -24,22 +28,6 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -80,9 +68,9 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
   </teiHeader>
   <text>
     <body>
-      <div type="sonnet">
+      <div type="poem" subtype="sonnet">
         <head>
-          <title>La fin de la journée</title>
+          <title type="main">La fin de la journée</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Sous une lumière blafarde</l>
