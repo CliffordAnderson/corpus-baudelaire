@@ -8,7 +8,7 @@
         <respStmt>
           <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
         </respStmt>
         <respStmt>
           <resp>Critical Apparatus</resp>
@@ -105,11 +105,11 @@ Online Distributed Proofreading Team.</p>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Je suis belle, ô mortels! comme un rêve de pierre,</l>     
           <l n="2">Et mon sein, où chacun s'est meurtri tour à tour,</l>
-          <l n="3">Est fait pour inspirer au po<app>
-            <lem wit="#U1857">ë</lem>
-            <rdg wit="#FDM1861">è</rdg>
-            <rdg wit="#FDM1868">ë</rdg>
-          </app>te un amour</l>
+          <l n="3">Est fait pour inspirer au<app>
+            <lem wit="#U1857">poëte</lem>
+            <rdg wit="#FDM1861">poète</rdg>
+            <rdg wit="#FDM1868">poëte</rdg>
+          </app> un amour</l>
           <l n="4">Éternel et muet ainsi que la matière.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
@@ -126,11 +126,11 @@ Online Distributed Proofreading Team.</p>
           <l n="8">Et jamais je ne pleure et jamais je ne ris.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
-          <l n="9">Les po<app>
-            <lem wit="#U1857">ë</lem>
-            <rdg wit="#FDM1861">è</rdg>
-            <rdg wit="#FDM1868">ë</rdg>
-          </app>tes, devant mes grandes attitudes,</l>
+          <l n="9">Les <app>
+            <lem wit="#U1857">poëte</lem>
+            <rdg wit="#FDM1861">poète</rdg>
+            <rdg wit="#FDM1868">poëte</rdg>
+          </app>, devant mes grandes attitudes,</l>
           <l n="10"><app>
             <lem wit="#U1857">Que j'ai l'air d'emprunter</lem>
             <rdg wit="#FDM1861">Qu'on dirait que j'emprunte</rdg>
