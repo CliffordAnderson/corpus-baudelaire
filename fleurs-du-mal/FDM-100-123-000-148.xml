@@ -102,7 +102,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem" subtype="sonnet">
         <head>
-          <title>LA MORT DES ARTISTES</title>
+          <title type="main">LA MORT DES ARTISTES</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Combien faut-il de fois secouer mes grelots</l>
