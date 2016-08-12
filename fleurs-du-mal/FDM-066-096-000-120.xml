@@ -116,38 +116,48 @@
         Add l elements with n attributes -->
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Dans des fauteuils fanés des courtisanes vielles,</l>
-          <l n="2">Pales, le sourcil peint, l'oeil cálin et fatal,</l>
-          <l n="3">Minaudant, et faisant de leurs maigres oreilles</l>
-          <l n="4">Tomber n cliquetis de pierre et de métal;</l>
+          <l n="2">—Fronts poudrés, sourcils peints sur des regards d'acier,—</l>
+          <l n="3">Qui s'en vont brimbalant à leurs maigres oreilles</l>
+          <l n="4">Un cruel et blessant tic-tac de balancier;</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="5">Autour des verts tapis des visages sans lèvre</l>
-          <l n="6">Des lèvres sans couleur, des machoires sans dent,</l>
+          <l n="5">Autour des verts tapis des visages sans lèvre,</l>
+          <l n="6">Des lèvres sans couleur, des mâchoires sans dent,</l>
           <l n="7">Et des doigts convulsés d'une infernale fièvre,</l>
           <l n="8">Fouillant la pouche vide ou le sien palpitant;</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="3">
           <l n="9">Sous de sales plafonds un rang de pâles lustres</l>
           <l n="10">Et d'énormes quinquets projetant leurs lueurs</l>
-          <l n="11">Sur des fronts ténébreux de poëtes ilustres</l>
-          <l n="12">Qui viennent gaspiller leurs sanglantes sueurs;</l>
+          <l n="11">Sur des fronts ténébreux de poètes illustres</l>
+          <l n="12">Qui viennent gaspiller leurs sanglantes sueurs:</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="4">
-          <l n="13">Voilà le noir tableau qu'en un rêve nocturne</l>
-          <l n="14">Je vis se dérouler sous mon oeil clairvoyant.</l>
+          <l n="13">—Voilà le noir tableau qu'en un rêve nocturne</l>
+          <l n="14">Je vis se dérouler sous mon
+            <choice>
+              <orig>œil</orig>
+              <reg>oeil</reg>
+            </choice>
+            clairvoyant;</l>
           <l n="15">Moi-même, dans un coin de l'antre taciturne,</l>
           <l n="16">Je me vis accoudé, froid, muet, eviant,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="5">
           <l n="17">Enviant de ces gens la passion tenace,</l>
-          <l n="18">De ces vieilles putains la funèbre gaieté,</l>
+          <l n="18">De ces vieilles putains la funèbre gaîté,</l>
           <l n="19">Et tous gaillardement trafiquant à ma face,</l>
           <l n="20">L'un de son vieil honneur, l'autre de sa beauté!</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="6">
-          <l n="21">Et mon coeur s'effraya d'envier maint pauvre homme</l>
-          <l n="22">Courant avec ferveur à l'abîme béant,</l>
-          <l n="23">Et qui, soûl de son sang préférerait en somme</l>
+          <l n="21">Et mon
+            <choice>
+              <orig>cœur</orig>
+              <reg>coeur</reg>
+            </choice>
+            s'effraya d'envier le pauvre homme</l>
+          <l n="22">Qui court avec ferveur à l'abîme béant,</l>
+          <l n="23">Et, soûlé de son sang, préférerait en somme</l>
           <l n="24">La douleur à la mort et l'enfer au néant!</l>
         </lg>
       </div>

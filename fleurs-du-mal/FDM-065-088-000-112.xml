@@ -128,8 +128,8 @@
         </lg>
         <lg type="stanza" subtype="quatrain" n="3">
           <l n="9">Tu portes plus galamment</l>
-          <l n="10">Qu'une reine de roman</l>
-          <l n="11">Ses cothurnes de velours</l>
+          <l n="10">Qu'une pipeuse d'amant</l>
+          <l n="11">Ses brodequins de velours</l>
           <l n="12">Tes sabots lourds.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="4">
@@ -145,7 +145,12 @@
           <l n="20">Reluise encor;</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="6">
-          <l n="21">Que des noeuds mal attachés</l>
+          <l n="21">Que des
+            <choice>
+              <orig>nœuds</orig>
+              <reg>noeuds</reg>
+            </choice>
+            mal attachés</l>
           <l n="22">Dévoilent pour nos péchés</l>
           <l n="23">Ton sein plus blanc que du lait</l>
           <l n="24">Tout nouveiet;</l>
@@ -157,7 +162,7 @@
           <l n="28">Les doigts lutins;</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="8">
-          <l n="29">--Perles de la plus belle eau,</l>
+          <l n="29">—Perles de la plus belle eau,</l>
           <l n="30">Sonnets de maître Belleau</l>
           <l n="31">Par tes galants mis aux fers</l>
           <l n="32">Sans cesse offerts,</l>
@@ -176,12 +181,12 @@
         </lg>
         <lg type="stanza" subtype="quatrain" n="11">
           <l n="41">Tu compterais dans tes lits</l>
-          <l n="42">Plus de baisers que de lis</l>
+          <l n="42">Plus de baisers que de lis,</l>
           <l n="43">Et rangerais sous tes lois</l>
           <l n="44">Plus d'un Valois!</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="12">
-          <l n="45">--Cependant tu vas gueusant</l>
+          <l n="45">—Cependant tu vas gueusant</l>
           <l n="46">Quelque vieux débris gisant</l>
           <l n="47">Au seuil de quelque Véfour</l>
           <l n="48">De carrefour;</l>

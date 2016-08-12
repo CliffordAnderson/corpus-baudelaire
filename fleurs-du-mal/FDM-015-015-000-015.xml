@@ -115,26 +115,31 @@
         <!-- Add lg element with type, subtype, and n attributes
         Add l elements with n attributes -->
         <lg type="quatrain" n="1">
-          <l n="1">Quand don Juan descendit vers l'onde souterraine,</l>
+          <l n="1">Quand Don Juan descendit vers l'onde souterraine,</l>
           <l n="2">Et lorsqu'il eut donné son obole à Charon,</l>
-          <l n="3">Un sombre mendiant, l'oeil fier comme Antisthène,</l>
-          <l n="4">D'unbras vengeur et fort saisit chaque aviron.</l>
+          <l n="3">Un sombre mendiant,
+            <choice>
+              <orig>l'œil</orig>
+              <reg>l'oeil</reg>
+            </choice>
+            fier comme Antisthène,</l>
+          <l n="4">D'un bras vengeur et fort saisit chaque aviron.</l>
         </lg>
         <lg type="quatrain" n="2">
           <l n="5">Montrant leurs seins pendants et leurs robes ouvertes,</l>
-          <l n="6">Des femmes setordaient sous le noir firmament,</l>
+          <l n="6">Des femmes se tordaient sous le noir firmament,</l>
           <l n="7">Et, comme un grand troupeau de victimes offertes,</l>
           <l n="8">Derrière lui traînaient un long mugissement.</l>
         </lg>
         <lg type="quatrain" n="3">
           <l n="9">Sganarelle en riant lui réclamait ses gages,</l>
-          <l n="10">Tandis que don Luis avec un doigt tremblant</l>
-          <l n="11">Montrait à tous les morts errant sur les rivages</l>
+          <l n="10">Tandis que Don Luis avec un doigt tremblant.</l>
+          <l n="11">Montrait à tous les morts errants sur le rivage</l>
           <l n="12">Le fils audacieux qui railla son front blanc.</l>
         </lg>
         <lg type="quatrain" n="4">
           <l n="13">Frissonnant sous son deuil, la chaste et maigre Elvire,</l>
-          <l n="14">Près de l'époux perfide et qui fui son amant</l>
+          <l n="14">Près de l'époux perfide et qui fui son amant,</l>
           <l n="15">Semblait lui réclamer un suprême sourire</l>
           <l n="16">Où brillât la douceur de son premier serment.</l>
         </lg>
