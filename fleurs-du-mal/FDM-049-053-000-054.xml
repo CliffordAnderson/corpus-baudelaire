@@ -101,7 +101,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>L'INVITATION AU VOYAGE</title>
+          <title type="main">L'INVITATION AU VOYAGE</title>
         </head>
         <lg type="stanza" n="1">
           <l n="1">Mon enfant, ma <choice><orig>sœur</orig><reg>Soeur</reg></choice>,</l>
