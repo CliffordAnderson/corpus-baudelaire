@@ -1,14 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>Châtiment de l'Orgueil</title>
+        <title>CHATIMENT DE L'ORGUEIL</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -59,27 +67,7 @@
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                    this is a false imprint, the book actually being published in Brussels
-                    by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                    9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
+          
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -114,60 +102,65 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem" n="11">
-        <!-- Is there a type of poem that has 14 then 12 verses? -->
+      <div type="poem">
         <head>
-          <title type="main">Châtiment de l'Orgueil</title>
+          <title type="main">CHATIMENT DE L'ORGUEIL</title>
         </head>
-        <lg type="quatrain" rhyme="aabbccddeeffcc">
-          <!-- This is obviously NOT a quatrain, but what is a 14 verse estrofa? -->
-          <!-- I also think that there is a cesura in this -->
-          <l n="1" rhyme="a">En ces temps merveilleux où la Théologie</l>
-          <l n="2" rhyme="a" enjamb="yes">Fleurit avec le plus de sève et d'énergie,</l>
-          <l n="3" rhyme="b">On raconte qu'un jour un docteur des plus grands</l>
-          <l n="4" rhyme="b" enjamb="yes">--Après avoir forcé les coeurs
-                        indifférents,</l>
-          <l n="5" rhyme="c" enjamb="yes">Les avoir remués dans leurs profondeurs
-                        noires;</l>
-          <l n="6" rhyme="c">Après avoir franchi vers les célestes gloires</l>
-          <l n="7" rhyme="d" enjamb="yes">Des chemins singuliers à lui-même inconnus,</l>
-          <l n="8" rhyme="d" enjamb="yes">Où les purs Esprits seuls peut-être étaient
-                        venus,</l>
-          <l n="9" rhyme="e" enjamb="yes">--Comme un homme monté trop haut, pris de
+        <lg type="stanza" n="1">
+          <l n="1">En ces temps merveilleux où la Théologie</l>
+          <l n="2">Fleurit avec le plus de sève et d'énergie,</l>
+          <l n="3">On raconte qu'un jour un docteur des plus grands,</l>
+          <l n="4">—Après avoir forcé les <choice><orig>cœur</orig><reg>coeur</reg></choice>
+                        indifférents<app><lem wit="#U1857">,</lem><rdg wit="#FDM1861">;</rdg></app></l>
+          <l n="5">Les avoir remués dans leurs profondeurs noires<app><lem wit="#U1857">,</lem><rdg wit="#FDM1861 #FDM1868">;</rdg></app></l>
+          <l n="6">Après avoir franchi vers les célestes gloires</l>
+          <l n="7">Des chemins singuliers à lui-même inconnus,</l>
+          <l n="8">Où les purs Esprits seuls peut-être étaient venus,<app><lem wit="#U1857"/><rdg wit="#FDM1861">—</rdg></app></l>
+          <l n="9"><app><lem wit="#U1857">—</lem><rdg wit="#FDM1861"/></app>Comme un homme monté trop haut, pris de
                         panique,</l>
-          <l n="10" rhyme="e" enjamb="yes">S'écria, transporté d'un orgueil
-                        satanique:</l>
-          <l n="11" rhyme="f" enjamb="yes">«Jésus, petit Jésus! je t'ai poussé bien
+          <l n="10">S'écria, transporté d'un orgueil satanique:</l>
+          <l n="11">«Jésus, petit Jésus! je t'ai <app><lem wit="#U1857">porté</lem><rdg wit="#FDM1861 #FDM1868">poussé</rdg></app> bien
                         haut!</l>
-          <l n="12" rhyme="f">Mais, si j'avais voulu t'attaquer au défaut</l>
-          <l n="13" rhyme="c" enjamb="yes">De l'armure, ta honte égalerait ta gloire,</l>
-          <l n="14" rhyme="c" enjamb="yes">Et tu ne serais plus qu'un foetus
-                        dérisoire!»</l>
+          <l n="12">Mais, si j'avais voulu t'attaquer au défaut</l>
+          <l n="13">De l'armure, ta honte égalerait ta gloire,</l>
+          <l n="14">Et tu ne serais plus qu'un <choice><orig>fœtus</orig><reg>foetus</reg></choice> dérisoire!»</l>
         </lg>
-        <lg type="alexandrine" rhyme="aabbccddeeff">
-          <!-- I also think that there is a cesura in this -->
-          <l n="1" rhyme="a" enjamb="yes">Immédiatement sa raison s'en alla.</l>
-          <l n="2" rhyme="a">L'éclat de ce soleil d'un crêpe se voila</l>
-          <l n="3" rhyme="b" enjamb="yes">Tout le chaos roula dans cette
-                        intelligence,</l>
-          <l n="4" rhyme="b" enjamb="yes">Temple autrefois vivant, plein d'ordre et
-                        d'opulence.</l>
-          <l n="5" rhyme="c" enjamb="yes">Sous les plafonds duquel tant de pompe avait
-                        lui.</l>
-          <l n="6" rhyme="c" enjamb="yes">Le silence et la nuit s'installèrent en
-                        lui,</l>
-          <l n="7" rhyme="d" enjamb="yes">Comme dans un caveau dont la clef est
-                        perdue.</l>
-          <l n="8" rhyme="d" enjamb="yes">Dès lors il fut semblable aux bêtes de la
-                        rue,</l>
-          <l n="9" rhyme="e">Et, quand il s'en allait sans rien voir, à travers</l>
-          <l n="10" rhyme="e" enjamb="yes">Les champs, sans distinguer les étés des
-                        hivers,</l>
-          <l n="11" rhyme="f" enjamb="yes">Sale, inutile et laid comme une chose
-                        usée,</l>
-          <l n="12" rhyme="f" enjamb="yes">Il faisait des enfants la joie et la
-                        risée.</l>
-        </lg>
+     <app>
+        <lem wit="#U1857">
+          <lg type="stanza" n="2">
+              <l n="15">Immédiatement sa raison s'en alla.</l>
+              <l n="16">L'éclat de ce soleil d'un crêpe se voila;</l>
+              <l n="17">Tout le chaos roula dans cette intelligence,</l>
+              <l n="18">Temple autrefois vivant, plein d'ordre et d'opulence.</l>
+              <l n="19">Sous les plafonds duquel tant de pompe avait lui.</l>
+              <l n="20">Le silence et la nuit s'installèrent en lui,</l>
+              <l n="21">Comme dans un caveau dont la clef est perdue.</l>
+              <l n="22">Dès lors il fut semblable aux bêtes de la rue,</l>
+              <l n="23">Et<app><lem wit="#U1857"/><rdg wit="#FDM1861">,</rdg></app> quand il s'en allait sans rien voir, à travers</l>
+              <l n="24">Les champs, sans distinguer les étés des hivers,</l>
+              <l n="25">Sale, inutile et laid comme une chose usée,</l>
+              <l n="26">Il faisait des enfants la joie et la risée.</l>
+            </lg>
+          </lem>
+          <rdg wit="#FDM1868">
+            <lg type="stanza" n="2">
+              <l n="15">Immédiatement sa raison s'en alla.</l>
+              <l n="16">L'éclat de ce soleil d'un crêpe se voila;</l>
+              <l n="17">Tout le chaos roula dans cette intelligence,</l>
+              <l n="18">Temple autrefois vivant, plein d'ordre et d'opulence.</l>
+              <l n="19">Sous les plafonds duquel tant de pompe avait lui.</l>
+              <l n="20">Le silence et la nuit s'installèrent en lui,</l>
+            </lg>
+            <lg type="stanza" n="3">
+              <l n="21">Comme dans un caveau dont la clef est perdue.</l>
+              <l n="22">Dès lors il fut semblable aux bêtes de la rue,</l>
+              <l n="23">Et, quand il s'en allait sans rien voir, à travers</l>
+              <l n="24">Les champs, sans distinguer les étés des hivers,</l>
+              <l n="25">Sale, inutile et laid comme une chose usée,</l>
+              <l n="26">Il faisait des enfants la joie et la risée.</l>
+            </lg> 
+          </rdg>
+        </app>
       </div>
     </body>
   </text>
