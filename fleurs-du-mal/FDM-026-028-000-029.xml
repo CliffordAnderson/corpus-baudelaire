@@ -82,17 +82,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </biblStruct>
                     </witness>
                 </listWit>
-                <!--
-<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
-for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
-You may copy it, give it away or re-use it under the terms of the Project Gutenberg
-License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
-Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
-Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
-encoding: ISO-8859-1 </p>
-<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
-Online Distributed Proofreading Team.</p>
--->
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -170,7 +159,7 @@ Online Distributed Proofreading Team.</p>
                     </app>,</l>
                     <l n="34">Amer et vainqueur,</l>
                     <l n="35">Un ciel liquide qui parsème</l>
-                    <l n="36">D'étoiles mon cœur!</l>
+                    <l n="36">D'étoiles mon <choice><orig>cœur</orig><reg>coeur</reg></choice>!</l>
                 </lg>
             </div>
         </body>
