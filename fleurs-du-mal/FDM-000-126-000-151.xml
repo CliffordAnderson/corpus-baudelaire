@@ -186,7 +186,7 @@ Online Distributed Proofreading Team.</p>
             <l n="33">Notre âme est un trois-mâts cherchant son Icarie;</l>
             <l n="34">Une voix retentit sur le pont: «Ouvre l'oeil!»</l>
             <l n="35">Une voix de la hune, ardente et folle, crie:</l>
-            <l n="36">«Amour... gloire... bonheur!» Enfer! c'est un écueil<lem wit ="#FDM1861">!</lem><rdg wit="#FDM1868"></rdg></l>
+            <l n="36">«Amour... gloire... bonheur!» Enfer! c'est un écueil<app><lem wit ="#FDM1861">!</lem><rdg wit="#FDM1868"></rdg></app></l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="10">
             <l n="37">Pour n'être pas changés en bêtes, ils s'enivrent</l>
@@ -216,7 +216,7 @@ Online Distributed Proofreading Team.</p>
             <l n="53">Ô le pauvre amoureux des pays chimériques!</l>
             <l n="54">Faut-il le mettre aux fers, le jeter à la mer,</l>
             <l n="55">Ce matelot ivrogne, inventeur d'Amériques</l>
-            <l n="56">Dont le mirage rend le gouffre plus amer<lem wit ="#FDM1861"></lem><rdg wit="#FDM1868">?</rdg></l>
+            <l n="56">Dont le mirage rend le gouffre plus amer<app><lem wit ="#FDM1861"></lem><rdg wit="#FDM1868">?</rdg></app></l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="15">
             <l n="57">Tel le vieux vagabond, piétinant dans la boue,</l>
@@ -229,13 +229,13 @@ Online Distributed Proofreading Team.</p>
           <ab>III</ab>
           <lg type="stanza" subtype="quatrain" n="16">
             <l n="61">Etonnants voyageurs! quelles nobles histoires</l>
-            <l n="62">Nous lisons dans vos yeux profonds comme les mers<lem wit ="#FDM1861"></lem><rdg wit="#FDM1868">!</rdg></l>
+            <l n="62">Nous lisons dans vos yeux profonds comme les mers<app><lem wit ="#FDM1861"></lem><rdg wit="#FDM1868">!</rdg></app></l>
             <l n="63">Montrez-nous les écrins de vos riches mémoires,</l>
             <l n="64">Ces bijoux merveilleux, faits d'astres et d'éthers.</l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="17">
             <l n="65">Nous voulons voyager sans vapeur et sans voile!</l>
-            <l n="66">Faites<lem wit ="#FDM1861">.</lem><rdg wit="#FDM1868">,</rdg> pour égayer l'ennui de nos prisons,</l>
+            <l n="66">Faites<app><lem wit ="#FDM1861">.</lem><rdg wit="#FDM1868">,</rdg></app> pour égayer l'ennui de nos prisons,</l>
             <l n="67">Passer sur nos esprits, tendus comme une toile,</l>
             <l n="68">Vos souvenirs avec leurs cadres d'horizons.</l>
           </lg>
