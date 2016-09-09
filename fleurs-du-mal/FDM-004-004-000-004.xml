@@ -115,8 +115,8 @@ Online Distributed Proofreading Team.</p>
         <lg type="quatrain" rhyme="caac">
           <l n="5">Comme de longs échos qui de loin se <rhyme label="c">confondent</rhyme>
           	<app>
-          		<lem wit="#U1857>,</lem>
-          		<rdg wit="#FDM1861 #FDM1868"></rdg>
+          		<lem wit="#U1857">,</lem>
+          		<rdg wit="#FDM1861"></rdg>
           	</app>
           </l>
           <l n="6">Dans une ténébreuse et profonde <rhyme label="a">unité</rhyme>,</l>
