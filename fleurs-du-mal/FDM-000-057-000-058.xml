@@ -6,12 +6,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>À une Madone</title>
+        <title>À UNE MADONE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="RP">Rebecca Panter</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name xml:id="TFH">Todd Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -29,22 +34,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -59,27 +48,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               portrait of the author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -120,7 +88,7 @@ Online Distributed Proofreading Team.</p>
       <div type="poem">
         <head>
           <title type="main">À une Madone</title>
-          <title type="sub">Ex-voto dans le goût espagnol</title>
+          <title type="sub">EX-VOTO DANS LE GOUT ESPAGNOL</title>
         </head>
         <lg type="stanza" n="1">
           <l n="1">Je veux bâtir pour toi, Madone, ma maîtresse,</l>
@@ -130,12 +98,12 @@ Online Distributed Proofreading Team.</p>
           <l n="5">Une niche, d'azur et d'or tout émaillée,</l>
           <l n="6">Où tu te dresseras, Statue émerveillée.</l>
           <l n="7">Avec mes Vers polis, treillis d'un pur métal</l>
-          <l n="8">Savamment constellé de rimes de cristal</l>
+          <l n="8">Savamment constellé de rimes de cristal,</l>
           <l n="9">Je ferai pour ta tête une énorme Couronne;</l>
-          <l n="10">Et dans ma Jalousie, ô mortelle Madone</l>
+          <l n="10">Et dans ma Jalousie, ô mortelle Madone,</l>
           <l n="11">Je saurai te tailler un Manteau, de façon</l>
           <l n="12">Barbare, roide et lourd, et doublé de soupçon,</l>
-          <l n="13">Qui, comme une guérite, enfermera tes charmes,</l>
+          <l n="13">Qui, comme une guérite, enfermera tes charmes;</l>
           <l n="14">Non de Perles brodé, mais de toutes mes Larmes!</l>
           <l n="15">Ta Robe, ce sera mon Désir, frémissant,</l>
           <l n="16">Onduleux, mon Désir qui monte et qui descend,</l>
@@ -145,14 +113,14 @@ Online Distributed Proofreading Team.</p>
           <l n="20">De satin, par tes pieds divins humiliés,</l>
           <l n="21">Qui, les emprisonnant dans une molle étreinte</l>
           <l n="22">Comme un moule fidèle en garderont l'empreinte.</l>
-          <l n="23">Si je ne puis, malgré tout mon art diligent</l>
-          <l n="24">Pour Marchepied tailler une Lune d'argent</l>
+          <l n="23">Si je ne puis, malgré tout mon art diligent,</l>
+          <l n="24">Pour Marchepied tailler une Lune d'argent,</l>
           <l n="25">Je mettrai le Serpent qui me mord les entrailles</l>
-          <l n="26">Sous tes talons, afin que tu foules et railles</l>
-          <l n="27">Reine victorieuse et féconde en rachats</l>
+          <l n="26">Sous tes talons, afin que tu foules et railles,</l>
+          <l n="27">Reine victorieuse et féconde en rachats,</l>
           <l n="28">Ce monstre tout gonflé de haine et de crachats.</l>
           <l n="29">Tu verras mes Pensers, rangés comme les Cierges</l>
-          <l n="30">Devant l'autel fleuri de la Reine des Vierges</l>
+          <l n="30">Devant l'autel fleuri de la Reine des Vierges,</l>
           <l n="31">Etoilant de reflets le plafond peint en bleu,</l>
           <l n="32">Te regarder toujours avec des yeux de feu;</l>
           <l n="33">Et comme tout en moi te chérit et t'admire,</l>

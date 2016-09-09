@@ -5,11 +5,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Paysage</title>
+        <title>PAYSAGE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="SS">Sara Sterkenburg</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="TFH">Todd Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -27,22 +31,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -57,27 +45,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               portrait of the author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -117,9 +84,9 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>Paysage</title>
+          <title>PAYSAGE</title>
         </head>
-        <lg type="stanza" n="1">
+        <lg type="stanza" subtype="octave" n="1">
           <l n="1">Je veux, pour compòser chastement mes églogues,</l>
           <l n="2">Coucher auprès du ciel, comme les astrologues,</l>
           <l n="3">Et, voisin des clochers, écouter en rêvant</l>
@@ -135,7 +102,7 @@ Online Distributed Proofreading Team.</p>
           <l n="11">Les fleuves de charbon monter au firmament</l>
           <l n="12">Et la lune verser son pâle enchantement.</l>
           <l n="13">Je verrai les printemps, les étés, les automnes;</l>
-          <l n="14">Et quand viendra l'hiver aux neiges monotones;</l>
+          <l n="14">Et quand viendra l'hiver aux neiges monotones,</l>
           <l n="15">Je fermerai partout portières et volets</l>
           <l n="16">Pour bâtir dans la nuit mes féeriques palais.</l>
           <l n="17">Alors je rêverai des horizons bleuâtres,</l>

@@ -6,12 +6,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="Le Reniement de Saint Pierre">Reniement de Saint Pierre</title>
+        <title rend="Le Reniement de Saint Pierre">RENIEMENT DE SAINT PIERRE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="EJW">Ed Warga</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name xml:id="TFH">Todd Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -62,27 +67,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -119,7 +103,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>Le Reniement de Saint Pierre</title>
+          <title>LE RENIEMENT DE SAINT PIERRE</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Qu'est-ce que Dieu fait donc de ce flot d'anathèmes</l>
@@ -131,17 +115,29 @@ Online Distributed Proofreading Team.</p>
           <l n="5">Les sanglots des martyrs et des suppliciés</l>
           <l n="6">Sont une symphonie enivrante sans doute,</l>
           <l n="7">Puisque, malgré le sang que leur volupté coûte,</l>
-          <l n="8">Les cieux ne s'en sont point encore rassasiés!</l>
+          <l n="8">Les cieux ne s'en sont point encore rassasiés<app>
+            <lem wit="#U1857">.</lem>
+            <rdg wit="#FDM1861">!</rdg>
+          </app></l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="3">
-          <l n="9">— Ah! Jésus, souviens-toi du Jardin des Olives!</l>
+          <l n="9">— Ah! Jésus<app>
+            <lem wit="#U1857">!</lem>
+            <rdg wit="#FDM1861">,</rdg>
+          </app> souviens-toi du Jardin des Olives!</l>
           <l n="10">Dans ta simplicité tu priais à genoux</l>
           <l n="11">Celui qui dans son ciel riait au bruit des clous</l>
-          <l n="12">Que d'ignobles bourreaux plantaient dans tes chairs vives,</l>
+          <l n="12">Que d'ignobles bourreaux plantaient dans tes chairs vives<app>
+            <lem wit="#U1857"/>
+            <rdg wit="#FDM1861">,</rdg>
+          </app></l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="4">
           <l n="13">Lorsque tu vis cracher sur ta divinité</l>
-          <l n="14">La crapule du corps de garde et des cuisines,</l>
+          <l n="14">La crapule du <app>
+            <lem wit="#U1857">corps-dug-arde</lem>
+            <rdg wit="#FDM1861">corps du garde</rdg>
+          </app> et des cuisines,</l>
           <l n="15">Et lorsque tu sentis s'enfoncer les épines</l>
           <l n="16">Dans ton crâne où vivait l'immense Humanité;</l>
         </lg>
@@ -162,6 +158,19 @@ Online Distributed Proofreading Team.</p>
           <l n="26">Tu fouettais tous ces vils marchands à tour de bras,</l>
           <l n="27">Où tu fus maître enfin? Le remords n'a-t-il pas</l>
           <l n="28">Pénétré dans ton flanc plus avant que la lance?</l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="8">
+          <l n="29">—Certes, je sortirai, quant à moi, satisfait</l>
+          <l n="30">D'un monde où l'action n'est pas la 
+            <choice>
+              <orig>sœur</orig>
+            <reg>soeur</reg>
+          </choice> du rêve;</l>
+          <l n="31">Puisse-je user du glaive et périr pas la glaive!</l>
+          <l n="32"><app>
+            <lem wit="#U1857">—</lem>
+            <rdg wit="#FDM1861"/>
+          </app>Saint Pierre a renié Jésus... il a bien fait!</l>
         </lg>
       </div>
     </body>

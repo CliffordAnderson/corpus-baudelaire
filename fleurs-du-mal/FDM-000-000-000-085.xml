@@ -1,5 +1,5 @@
-<!-- Requisite XML information. Encoding, namespace, and schema info. -->
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Requisite XML information. Encoding, namespace, and schema info. -->
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!-- TEI Header begins here... -->
@@ -22,9 +22,6 @@
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
-        <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
-        <idno>FDM-000-000-000-085</idno>
-        <!--insert id no in above element account to established format-->
         <publisher>Jean and Alexander Heard Library</publisher>
         <pubPlace>Nashville</pubPlace>
         <address>
@@ -34,13 +31,15 @@
           <addrLine>USA</addrLine>
         </address>
         <date>2015</date>
+        <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
+        <idno>FDM-000-000-000-085</idno>
       </publicationStmt>
       <sourceDesc>
         <!-- create listWit in sourceDesc with the different editions and their bib data
         1. 1857 Unexpurgated xml:id="U1857"
         2. 1861 2nd edition censored xml:id="FDM1861"
-        3. 1866 Les Epaves xml:id="1866"
-        4. 1868 3rd edition - posthumous xml:id="1868"
+        3. 1866 Les Epaves xml:id="LE1866"
+        4. 1868 3rd edition - posthumous xml:id="FDM1868"
         -->
         <listWit>
           <witness xml:id="FDM1868">
@@ -74,7 +73,7 @@
   <!-- TEI header ends, text section begins... -->
   <text>
     <body>
-      <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attibute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
+      <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attribute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
       <div type="poem" subtype="composite">
         <!-- Remove all p elements
         Add head and title element -->
@@ -83,11 +82,11 @@
           <title type="sub">IMITÉ DE LONGFELLOW</title>
         </head>
         <!-- Add lg element with type, subtype, and n attributes
-        Add l elemnts with n attributes -->
+        Add l elements with n attributes -->
         <lg type="poem" n="1">
           <head>I</head>
           <lg type="stanza" subtype="sextet" n="1">
-            <l n="1">Or Gitche Manito<node n="1" anchored="true" place="bottom">Prononcez: <hi rend="italic">Guitchi Manitou</hi>.</note>, le Maître de la Vie,</l>
+            <l n="1">Or Gitche Manito<note n="1" anchored="true" place="bottom">Prononcez: <hi rend="italic">Guitchi Manitou</hi>.</note>, le Maître de la Vie,</l>
             <l n="2">Le Puissant, descendit dans la verte prairie,</l>
             <l n="3">Dans l'immense prairie aux coteaux montueux;</l>
             <l n="4">Et là, sur les rochers de la Rouge Carrière,</l>
