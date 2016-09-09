@@ -5,11 +5,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="Une Martyre">Martyre</title>
+        <title rend="UNE MARTYRE">MARTYRE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="TMF">Timothy Foster</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -60,27 +64,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
+          
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -118,15 +102,13 @@ Online Distributed Proofreading Team.</p>
       <div type="poem">
         <head>
           <title type="main">UNE MARTYRE</title>
-        </head>
-        <head>
           <title type="sub">DESSIN D'UN MAITRE INCONNU</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Au milieu des flacons, des étoffes lamées</l>
           <l n="2">Et des meubles voluptueux,</l>
           <l n="3">Des marbres, des tableaux, des robes parfumées</l>
-          <l n="4">Qui trament à plis sompteux,</l>
+          <l n="4">Qui traîment à plis <app><lem wit="#U1857">paresseux</lem><rdg wit="#FDM1861 #FDM1868">sompteux</rdg></app>,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Dans une chambre tiède où, comme en une serre,</l>
@@ -148,7 +130,7 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="stanza" subtype="quatrain" n="5">
           <l n="17">Sur la table de nuit, comme une renoncule,</l>
-          <l n="18">Repose, et, vide de pensers,</l>
+          <l n="18">Repose<app><lem wit="#U1857">,</lem><rdg wit="#FDM1861 #FDM1868">;</rdg></app> et, vide de pensers,</l>
           <l n="19">Un regard vague et blanc comme le crépuscule</l>
           <l n="20">S'échappe des yeux révulsés.</l>
         </lg>
@@ -159,10 +141,10 @@ Online Distributed Proofreading Team.</p>
           <l n="24">Dont la nature lui fit don;</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="7">
-          <l n="25">Un bas rosâtre, orné de coins d'or, à la jambe</l>
+          <l n="25">Un bas rosâtre, orné de coins d'or, à la jambe<app><lem wit="#U1857"/><rdg wit="#FDM1861 #FDM1868">,</rdg></app></l>
           <l n="26">Comme un souvenir est resté;</l>
-          <l n="27">La jarretière, ainsi qu'un oeil secret qui flambe,</l>
-          <l n="28">Darde un regard diamanté.</l>
+          <l n="27">La jarretière, ainsi qu'un <choice><orig>œil</orig><reg>oeil</reg></choice> <app><lem wit="#U1857">vigilant,</lem><rdg wit="#FDM1861 #FDM1868">secret qui</rdg></app> flambe<app><lem wit="#U1857"/><rdg wit="#FDM1861 #FDM1868">,</rdg></app></l>
+          <l n="28"><app><lem wit="#U1857">Et darde</lem><rdg wit="#FDM1861 #FDM1868">Darde</rdg></app> un regard diamanté.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="8">
           <l n="29">Le singulier aspect de cette solitude</l>
@@ -183,7 +165,7 @@ Online Distributed Proofreading Team.</p>
           <l n="40">Ainsi qu'an reptile irrité,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="11">
-          <l n="41">Elle est bien jeune encor!--Son âme exaspérée</l>
+          <l n="41">Elle est bien jeune encor!—Son âme exaspérée</l>
           <l n="42">Et ses sens par l'ennui mordus</l>
           <l n="43">S'étaient-ils entr'ouverts à la meute altérée</l>
           <l n="44">Des désirs errants et perdus?</l>
@@ -197,11 +179,11 @@ Online Distributed Proofreading Team.</p>
         <lg type="stanza" subtype="quatrain" n="13">
           <l n="49">Réponds, cadavre impur! et par tes tresses roides</l>
           <l n="50">Te soulevant d'un bras fiévreux,</l>
-          <l n="51">Dis-moi, tête effrayante, as-tu sur tes dents froides,</l>
+          <l n="51">Dis-moi, tête effrayante, a-t-il sur tes dents froides</l>
           <l n="52">Collé les suprêmes adieux?</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="14">
-          <l n="53">--Loin du monde railleur, loin de la foule impure,</l>
+          <l n="53">—Loin du monde railleur, loin de la foule impure,</l>
           <l n="54">Loin des magistrats curieux,</l>
           <l n="55">Dors en paix, dors en paix, étrange créature,</l>
           <l n="56">Dans ton tombeau mystérieux;</l>

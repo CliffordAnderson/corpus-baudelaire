@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="UNE NUIT QUE J'ETAIS PRES D'UNE AFFREUSE JUIVE">NUIT QUE J'ETAIS PRES D'UNE
+        <title rend="UNE NUIT QUE J'ETAIS PRES D'UNE AFFREUSE JUIVE">UNE NUIT QUE J'ETAIS PRES D'UNE
           AFFREUSE JUIVE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
@@ -99,11 +99,14 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem" subtype="sonnet">
         <head>
-          <title>Une nuit que j'étais près d'une affreuse Juive</title>
+          <title/>
         </head>
-        <!--Untitled poem. Used first line as head. Poem was incorrectly labeled as part of the poem abaove, Le Vampire-->
+        <!--Untitled poem.-->
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">Une nuit que j'étais près d'une affreuse Juive,</l>
+          <l n="1">Une nuit que j'étais près d'une affreuse <app>
+              <lem wit="#U1857">juive</lem>
+              <rdg wit="#FDM1861 #FDM1868">Juive</rdg>
+            </app>,</l>
           <l n="2">Comme au long d'un cadavre un cadavre étendu,</l>
           <l n="3">Je me pris à songer près de ce corps vendu</l>
           <l n="4">A la triste beauté dont mon désir se prive.</l>
@@ -121,8 +124,15 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
           <l n="12">Si, quelque soir, d'un pleur obtenu sans effort</l>
-          <l n="13">Tu pouvais seulement, ô reine des cruelles,</l>
+          <l n="13">Tu pouvais seulement, <app>
+              <lem>ò</lem>
+              <rdg wit="#FDM1861 #FDM1868">ô</rdg>
+            </app> reine des cruelles,</l>
           <l n="14">Obscurcir la splendeur de tes froides prunelles.</l>
+          <app>
+            <lem wit="#U1857"><note/></lem>
+            <rdg wit="#FDM1868"><note n="1" anchored="true" place="bottom">I. 8</note></rdg>
+          </app>
         </lg>
       </div>
     </body>

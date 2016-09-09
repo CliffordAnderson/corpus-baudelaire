@@ -5,13 +5,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="L'Irremediable">Irremediable</title>
+        <title rend="L'IRREMÉDIABLE">IRREMÉDIABLE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
-          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <resp>Basic Markup</resp>
           <name xml:id="RVR">Ramona V. Romero</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="SS">Sara Sterkenburg</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -55,32 +57,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with
-                                        a portrait of the author drawn and engraved by Felix
-                                        Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a
+                    portrait of the author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
-                <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A.
-                                        Lemerre), this is a false imprint, the book actually being
-                                        published in Brussels by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                                        9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
+                <extent> 319 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -102,17 +82,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </biblStruct>
           </witness>
         </listWit>
-        <!--
-<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
-for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
-You may copy it, give it away or re-use it under the terms of the Project Gutenberg
-License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
-Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
-Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
-encoding: ISO-8859-1 </p>
-<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
-Online Distributed Proofreading Team.</p>
--->
       </sourceDesc>
     </fileDesc>
   </teiHeader>
@@ -120,15 +89,15 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>L'IRREMEDIABLE</title>
+          <title>L'IRREMÉDIABLE</title>
         </head>
         <lg type="poem" n="1">
           <head>I</head>
           <lg type="stanza" subtype="quatrain" n="1">
-            <l n="1">Une Idée, une Forme, un Etre</l>
+            <l n="1">Une Idée, une Forme, un Être</l>
             <l n="2">Parti de l'azur et tombé</l>
             <l n="3">Dans un Styx bourbeux et plombé</l>
-            <l n="4">Où nul oeil du Ciel ne pénètre;</l>
+            <l n="4">Où nul <choice><orig>œil</orig><reg>oeil</reg></choice> du Ciel ne pénètre;</l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="2">
             <l n="5">Un Ange, imprudent voyageur</l>
@@ -162,13 +131,19 @@ Online Distributed Proofreading Team.</p>
           </lg>
           <lg type="stanza" subtype="quatrain" n="7">
             <l n="25">Un navire pris dans le pôle,</l>
-            <l n="26">Comme en un piège de cristal,</l>
+            <l n="26">Comme en un <app>
+              <lem wit="#U1857">piège</lem>
+              <rdg wit="#FDM1861 #FDM1868">piége</rdg>
+            </app> de cristal,</l>
             <l n="27">Cherchant par quel détroit fatal</l>
             <l n="28">Il est tombé dans cette geôle;</l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="8">
-            <l n="29">--Emblèmes nets, tableau parfait</l>
-            <l n="30">D'une fortune irrémédiable,</l>
+            <l n="29">—<app>
+              <lem wit="#U1857">Emblêmes</lem>
+              <rdg wit="#FDM1861 #FDM1868">Emblèmes</rdg>
+            </app> nets, tableau parfait</l>
+            <l n="30">D'une fortune irremédiable,</l>
             <l n="31">Qui donne à penser que le Diable</l>
             <l n="32">Fait toujours bien tout ce qu'il fait!</l>
           </lg>
@@ -177,7 +152,7 @@ Online Distributed Proofreading Team.</p>
           <head>II</head>
           <lg type="stanza" subtype="quatrain" n="1">
             <l n="1">Tête-à-tête sombre et limpide</l>
-            <l n="2">Qu'un coeur devenu son miroir!</l>
+            <l n="2">Qu'un <choice><orig>cœur</orig><reg>coeur</reg></choice> devenu son miroir!</l>
             <l n="3">Puits de Vérité, clair et noir,</l>
             <l n="4">Où tremble une étoile livide,</l>
           </lg>
@@ -185,7 +160,10 @@ Online Distributed Proofreading Team.</p>
             <l n="5">Un phare ironique, infernal,</l>
             <l n="6">Flambeau des grâces sataniques,</l>
             <l n="7">Soulagement et gloire uniques,</l>
-            <l n="8">--La conscience dans le Mal!</l>
+            <l n="8">—La conscience dans le Mal<app>
+              <lem wit="#U1857">!</lem>
+              <rdg wit="#FDM1861"/>
+            </app></l>
           </lg>
         </lg>
       </div>
