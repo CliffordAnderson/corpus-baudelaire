@@ -6,12 +6,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="L'Amour et le Crâne">Amour et le Crâne</title>
+        <title rend="L'AMOUR ET LE CRANE">AMOUR ET LE CRANE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
-          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <resp>Basic Markup</resp>
           <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name ref="#ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -62,27 +65,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
+          
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -119,40 +102,39 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>L'Amour et le Crâne</title>
+          <title type="main">L'AMOUR ET LE CRANE</title>
+          <title type="sub">VIEUX CUL-DE-LAMPE</title>
         </head>
-        <lg type="stanza" n="1">
-          <l n="1">Vieux cul-de-lampe</l>
-        </lg>
+        
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="2">L'Amour est assis sur le crâne</l>
-          <l n="3">De l'Humanité,</l>
-          <l n="4">Et sur ce trône le profane,</l>
-          <l n="5">Au rire effronté,</l>
+          <l n="1">L'Amour est assis sur le crâne</l>
+          <l n="2">De l'Humanité,</l>
+          <l n="3">Et sur ce trône le profane,</l>
+          <l n="4">Au rire effronté,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="6">Souffle gaiement des bulles rondes</l>
-          <l n="7">Qui montent dans l'air,</l>
-          <l n="8">Comme pour rejoindre les mondes</l>
-          <l n="9">Au fond de l'éther.</l>
+          <l n="5">Souffle <app><lem wit="#U1857">gaìment</lem><rdg wit="#FDM1861">gaiement</rdg><rdg wit="#FDM1868">gaîment</rdg></app> des bulles rondes</l>
+          <l n="6">Qui montent dans l'air,</l>
+          <l n="7">Comme pour rejoindre les mondes</l>
+          <l n="8">Au fond de l'éther.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="3">
-          <l n="10">Le globe lumineux et frêle</l>
-          <l n="11">Prend un grand essor,</l>
-          <l n="12">Crève et crache son âme grêle</l>
-          <l n="13">Comme un songe d'or.</l>
+          <l n="9">Le globe lumineux et frêle</l>
+          <l n="10">Prend un grand essor,</l>
+          <l n="11">Crève et crache son âme grêle</l>
+          <l n="12">Comme un songe d'or.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="4">
-          <l n="14">J'entends le crâne à chaque bulle</l>
-          <l n="15">Prier et gémir:</l>
-          <l n="16">— «Ce jeu féroce et ridicule,</l>
-          <l n="17">Quand doit-il finir?</l>
+          <l n="13">J'entends le crâne à chaque bulle</l>
+          <l n="14">Prier et gémir:</l>
+          <l n="15"><app><lem wit="#U1857">—</lem><rdg wit="#FDM1868"/></app> «Ce jeu féroce et ridicule,</l>
+          <l n="16">Quand doit-il finir?</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="5">
-          <l n="18">Car ce que ta bouche cruelle</l>
-          <l n="19">Eparpille en l'air,</l>
-          <l n="20">Monstre assassin, c'est ma cervelle,</l>
-          <l n="21">Mon sang et ma chair!»</l>
+          <l n="17">Car ce que ta bouche cruelle</l>
+          <l n="18"><app><lem wit="#U1857">Eparpille</lem><rdg wit="#FDM1861 #FDM1868">Éparpille</rdg></app> en l'air,</l>
+          <l n="19">Monstre assassin, c'est ma cervelle,</l>
+          <l n="20">Mon sang et ma chair!»</l>
         </lg>
       </div>
     </body>

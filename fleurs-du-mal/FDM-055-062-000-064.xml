@@ -6,12 +6,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>Moesta et errabunda</title>
+        <title>MOESTA ET ERRABUNDA</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="TFH">Todd F. Hughes</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name ref="#TFH">Todd F. Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -62,27 +67,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -117,9 +101,12 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div>
+      <div type="poem">
         <head>
-          <title>Moesta et errabunda</title>
+          <title>M<choice>
+            <orig>Œ</orig>
+            <reg>OE</reg>
+          </choice>OESTA ET ERRABUNDA</title>
         </head>
         <lg type="stanza" subtype="cinquain" n="1">
           <l n="1">Dis-moi ton coeur parfois s'envole-t-il, Agathe,</l>
@@ -130,14 +117,38 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="stanza" subtype="cinquain" n="2">
           <l n="6">La mer la vaste mer, console nos labeurs!</l>
-          <l n="7">Quel démon a doté la mer, rauque chanteuse</l>
-          <l n="8">Qu'accompagne l'immense orgue des vents grondeurs,</l>
+          <l n="7"><app>
+            <lem wit="#U1857">—</lem>
+            <rdg wit="#FDM1861"/>
+            <rdg wit="#FDM1868"/>
+          </app>Quel démon a doté la mer, <app>
+            <lem wit="#U1857">—</lem>
+            <rdg wit="#FDM1861"/>
+            <rdg wit="#FDM1868"/>
+          </app>rauque chanteuse</l>
+          <l n="8">Qu'accompagne l'immense orgue des vents grondeurs,<app>
+            <lem wit="#U1857">—</lem>
+            <rdg wit="#FDM1861"/>
+            <rdg wit="#FDM1868"/>
+          </app></l>
           <l n="9">De cette fonction sublime de berceuse?</l>
-          <l n="10">La mer, la vaste mer, console nos labeurs!</l>
+          <l n="10">La mer, la vaste mer<app>
+            <lem wit="#U1857"/>
+            <rdg wit="#FDM1861">,</rdg>
+            <rdg wit="#FDM1868">,</rdg>
+          </app> console nos labeurs!</l>
         </lg>
         <lg type="stanza" subtype="cinquain" n="3">
           <l n="11">Emporte-moi wagon! enlève-moi, frégate!</l>
-          <l n="12">Loin! loin! ici la boue est faite de nos pleurs!</l>
+          <l n="12">Loin! <app>
+            <lem wit="#U1857">—</lem>
+            <rdg wit="#FDM1861"/>
+            <rdg wit="#FDM1868"/>
+          </app>loin! <app>
+            <lem wit="#U1857">—</lem>
+            <rdg wit="#FDM1861"/>
+            <rdg wit="#FDM1868"/>
+          </app>ici la boue est faite de nos pleurs!</l>
           <l n="13">—Est-il vrai que parfois le triste coeur d'Agathe</l>
           <l n="14">Dise: Loin des remords, des crimes, des douleurs,</l>
           <l n="15">Emporte-moi, wagon, enlève-moi, frégate?</l>
@@ -152,14 +163,26 @@ Online Distributed Proofreading Team.</p>
         <lg type="stanza" subtype="cinquain" n="5">
           <l n="21">Mais le vert paradis des amours enfantines,</l>
           <l n="22">Les courses, les chansons, les baisers, les bouquets,</l>
-          <l n="23">Les violons vibrant derrière les collines,</l>
+          <l n="23">Les violons <app>
+            <lem wit="#U1857">mourant</lem>
+            <rdg wit="#FDM1861">vibrant</rdg>
+            <rdg wit="#FDM1868">vibrant</rdg>
+          </app> derrière les collines,</l>
           <l n="24">Avec les brocs de vin, le soir, dans les bosquets,</l>
           <l n="25">—Mais le vert paradis des amours enfantines,</l>
         </lg>
         <lg type="stanza" subtype="cinquain" n="6">
           <l n="26">L'innocent paradis, plein de plaisirs furtifs,</l>
           <l n="27">Est-il déjà plus loin que l'Inde et que la Chine?</l>
-          <l n="28">Peut-on le rappeler avec des cris plaintifs,</l>
+          <l n="28"><app>
+            <lem wit="#U1857">—</lem>
+            <rdg wit="#FDM1861"/>
+            <rdg wit="#FDM1868"/>
+          </app>Peut-on le rappeler avec des cris plaintifs,<app>
+            <lem wit="#U1857"/>
+            <rdg wit="#FDM1861">,</rdg>
+            <rdg wit="#FDM1868">,</rdg>
+          </app></l>
           <l n="29">Et l'animer encor d'une voix argentine,</l>
           <l n="30">L'innocent paradis plein de plaisirs furtifs?</l>
         </lg>
