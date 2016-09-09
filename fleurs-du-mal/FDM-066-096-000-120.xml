@@ -116,9 +116,30 @@
         Add l elements with n attributes -->
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Dans des fauteuils fanés des courtisanes vielles,</l>
-          <l n="2">—Fronts poudrés, sourcils peints sur des regards d'acier,—</l>
-          <l n="3">Qui s'en vont brimbalant à leurs maigres oreilles</l>
-          <l n="4">Un cruel et blessant tic-tac de balancier;</l>
+          <l n="2">
+            <app>
+              <lem wit="#U1857">—Fronts poudrés, sourcils peints sur des regards d'acier,—</lem>
+              <rdg wit="#FDM1861 #FDM1868">Pàles, le sourcil peint,
+                <choice>
+                  <orig>l'œil</orig>
+                  <reg>l'oeil</reg>
+                </choice>
+                câlin et fatal,</rdg>
+            </app>
+          </l>
+          <l n="3">
+          <l n="2">
+            <app>
+              <lem wit="#U1857">Qui s'en vont brimbalant à</lem>
+              <rdg wit="#FDM1861 #FDM1868">Minaudant, et faisant de</rdg>
+            </app>
+            leurs maigres oreilles</l>
+          <l n="4">
+            <app>
+              <lem wit="#U1857">Un cruel et blessant tic-tac de balancier</lem>
+              <rdg wit="#FDM1861 #FDM1868">Tomber un cliquetis de pierre et de métal</rdg>
+            </app>
+            ;</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Autour des verts tapis des visages sans lèvre,</l>
@@ -129,23 +150,48 @@
         <lg type="stanza" subtype="quatrain" n="3">
           <l n="9">Sous de sales plafonds un rang de pâles lustres</l>
           <l n="10">Et d'énormes quinquets projetant leurs lueurs</l>
-          <l n="11">Sur des fronts ténébreux de poètes illustres</l>
-          <l n="12">Qui viennent gaspiller leurs sanglantes sueurs:</l>
+          <l n="11">Sur des fronts ténébreux de
+            <app>
+              <lem wit="#U1857">poètes</lem>
+              <rdg wit="#FDM1861 #FDM1868">poëtes</rdg>
+            </app>
+            illustres</l>
+          <l n="12">Qui viennent gaspiller leurs sanglantes sueurs
+            <app>
+              <lem wit="#U1857">:</lem>
+              <rdg wit="#FDM1861 #FDM1868">;</rdg>
+            </app>
+          </l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="4">
-          <l n="13">—Voilà le noir tableau qu'en un rêve nocturne</l>
+          <l n="13">
+            <app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#FDM1861 #FDM1868" />
+            </app>
+            Voilà le noir tableau qu'en un rêve nocturne</l>
           <l n="14">Je vis se dérouler sous mon
             <choice>
               <orig>œil</orig>
               <reg>oeil</reg>
             </choice>
-            clairvoyant;</l>
+            clairvoyant
+            <app>
+              <lem wit="#U1857">;</lem>
+              <rdg wit="#FDM1861 #FDM1868">.</rdg>
+            </app>
+            </l>
           <l n="15">Moi-même, dans un coin de l'antre taciturne,</l>
           <l n="16">Je me vis accoudé, froid, muet, eviant,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="5">
           <l n="17">Enviant de ces gens la passion tenace,</l>
-          <l n="18">De ces vieilles putains la funèbre gaîté,</l>
+          <l n="18">De ces vieilles putains la funèbre
+            <app>
+              <lem wit="#U1857">gaîté</lem>
+              <rdg wit="#FDM1861">gaieté</rdg>
+            </app>
+            ,</l>
           <l n="19">Et tous gaillardement trafiquant à ma face,</l>
           <l n="20">L'un de son vieil honneur, l'autre de sa beauté!</l>
         </lg>
@@ -155,9 +201,29 @@
               <orig>cœur</orig>
               <reg>coeur</reg>
             </choice>
-            s'effraya d'envier le pauvre homme</l>
-          <l n="22">Qui court avec ferveur à l'abîme béant,</l>
-          <l n="23">Et, soûlé de son sang, préférerait en somme</l>
+            s'effraya d'envier
+            <app>
+              <lem wit="#U1857">le</lem>
+              <rdg wit="#FDM1861 #FDM1868">maint</rdg>
+            </app>
+            pauvre homme</l>
+          <l n="22">
+            <app>
+              <lem wit="#U1857">Qui court</lem>
+              <rdg wit="#FDM1861 #FDM1868">Courant</rdg>
+            </app>
+            avec ferveur à l'abîme béant,</l>
+          <l n="23">Et
+            <app>
+              <lem wit="#U1857" />
+              <rdg wit="#FDM1861 #FDM1868">qui</rdg>
+            </app>
+            ,
+            <app>
+              <lem wit="#U1857">soûlé</lem>
+              <rdg wit="#FDM1861 #FDM1868">soûl</rdg>
+            </app>
+            de son sang, préférerait en somme</l>
           <l n="24">La douleur à la mort et l'enfer au néant!</l>
         </lg>
       </div>
