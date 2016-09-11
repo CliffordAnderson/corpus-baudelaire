@@ -17,6 +17,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         	<resp>Critical Apparatus</resp>
         	<name xml:id="SYC">Sophia Clark</name>
         </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="ACS">Angela C. Sutton</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -109,7 +113,7 @@ Online Distributed Proofreading Team.</p>
           <l n="2">
           	<app>
           		<lem wit="#U1857">Etalaient</lem>
-          		<rdg wit="#FDM1861">Étalaient</rdg> 
+          		<rdg wit="#FDM1861">Étalaient</rdg>
           	</app>
           		en tableaux la sainte Vérité,</l>
           <l n="3">Dont l'effet
