@@ -12,6 +12,10 @@
           <resp>Critical Apparatus</resp>
           <name xml:id="SS">Sara Sterkenburg</name>
         </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="ACS">Angela C. Sutton</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -97,7 +101,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem" subtype="sonnet">
         <head>
-          <title>CAUSERIE</title>
+          <title type="main">CAUSERIE</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Vous <app>
