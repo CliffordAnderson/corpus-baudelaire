@@ -70,7 +70,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem" subtype="sonnet">
         <head>
-          <title>LE REBELLE</title>
+          <title type="main">LE REBELLE</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Un Ange furieux fond du ciel comme un aigle,</l>

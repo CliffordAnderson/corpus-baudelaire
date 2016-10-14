@@ -63,7 +63,7 @@
       <body>
          <div type="poem" subtype="sonnet">
             <head>
-               <title>LE GOUFFRE</title>
+               <title type="main">LE GOUFFRE</title>
             </head>
             <lg type="stanza" subtype="quatrain" n="1">
                <l n="1">Pascal avait son gouffre, avec lui se mouvant.</l>

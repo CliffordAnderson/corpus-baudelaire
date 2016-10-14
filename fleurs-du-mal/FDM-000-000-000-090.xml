@@ -11,9 +11,13 @@
           <name xml:id="TFH">Todd Hughes</name>
         </respStmt>
         <respStmt>
-        <resp>Critical Apparatus</resp>
-        <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-        <name ref="#TFH">Todd Hughes</name>
+          <resp>Critical Apparatus</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name ref="#TFH">Todd Hughes</name>
+        </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -56,75 +60,77 @@
     <body>
       <div type="poem" subtype="composite">
         <head>
-          <title>MADRIGAL TRISTE</title>
+          <title type="main">MADRIGAL TRISTE</title>
         </head>
-        <lg type= "poem" n="1">
+        <lg type="poem" n="1">
           <head>
-            <title>I</title>
+            <title type="sub">I</title>
           </head>
-        <lg type="stanza" subtype="cinquain" n="1">
-          <l n="1">Que m'importe que tu sois sage?</l>
-          <l n="2">Sois belle! et sois triste! Les pleurs</l>
-          <l n="3">Ajoutent un charme au visage,</l>
-          <l n="4">Comme le fleuve au paysage;</l>
-          <l n="5">L'orage rajeunit les fleurs.</l>
+          <lg type="stanza" subtype="cinquain" n="1">
+            <l n="1">Que m'importe que tu sois sage?</l>
+            <l n="2">Sois belle! et sois triste! Les pleurs</l>
+            <l n="3">Ajoutent un charme au visage,</l>
+            <l n="4">Comme le fleuve au paysage;</l>
+            <l n="5">L'orage rajeunit les fleurs.</l>
+          </lg>
+          <lg type="stanza" subtype="cinquain" n="2">
+            <l n="6">Je t'aime surtout quand la joie</l>
+            <l n="7">S'enfuit de ton front terrassé;</l>
+            <l n="8">Quand ton coeur dans l'horreur se noie;</l>
+            <l n="9">Quand sur ton présent se déploie</l>
+            <l n="10">Le nuage affreux du passé.</l>
+          </lg>
+          <lg type="stanza" subtype="cinquain" n="3">
+            <l n="11">Je t'aime quand ton grand <choice>
+                <orig>œil</orig>
+                <reg>oeil</reg>
+              </choice> verse</l>
+            <l n="12">Une eau chaude comme le sang;</l>
+            <l n="13">Quand, malgré ma main qui te berce,</l>
+            <l n="14">Ton angoisse, trop lourde, perce</l>
+            <l n="15">Comme un râle d'agonisant.</l>
+          </lg>
+          <lg type="stanza" subtype="cinquain" n="5">
+            <l n="16">J'aspire, volupté divine!</l>
+            <l n="17">Hymne profond, délicieux!</l>
+            <l n="18">Tous les sanglots de ta poitrine,</l>
+            <l n="19">Et crois que ton coeur s'illumine</l>
+            <l n="20">Des perles que versent tes yeux!</l>
+          </lg>
         </lg>
-        <lg type="stanza" subtype="cinquain" n="2">
-          <l n="6">Je t'aime surtout quand la joie</l>
-          <l n="7">S'enfuit de ton front terrassé;</l>
-          <l n="8">Quand ton coeur dans l'horreur se noie;</l>
-          <l n="9">Quand sur ton présent se déploie</l>
-          <l n="10">Le nuage affreux du passé.</l>
-        </lg>
-        <lg type="stanza" subtype="cinquain" n="3">
-          <l n="11">Je t'aime quand ton grand <choice><orig>œil</orig><reg>oeil</reg></choice> verse</l>
-          <l n="12">Une eau chaude comme le sang;</l>
-          <l n="13">Quand, malgré ma main qui te berce,</l>
-          <l n="14">Ton angoisse, trop lourde, perce</l>
-          <l n="15">Comme un râle d'agonisant.</l>
-        </lg>
-        <lg type="stanza" subtype="cinquain" n="5">
-          <l n="16">J'aspire, volupté divine!</l>
-          <l n="17">Hymne profond, délicieux!</l>
-          <l n="18">Tous les sanglots de ta poitrine,</l>
-          <l n="19">Et crois que ton coeur s'illumine</l>
-          <l n="20">Des perles que versent tes yeux!</l>
-        </lg>
-        </lg>
-        <lg type= "poem" n="2">
+        <lg type="poem" n="2">
           <head>
-            <title>II</title>
+            <title type="sub">II</title>
           </head>
-        <lg type="stanza" subtype="cinquain" n="6">
-          <l n="21">Je sais que ton coeur,qui regorge</l>
-          <l n="22">De vieux amours déracinés,</l>
-          <l n="23">Flamboie encor comme une forge,</l>
-          <l n="24">Et que tu couves sous ta gorge</l>
-          <l n="25">Un peu de l'orgueil des damnés;</l>
+          <lg type="stanza" subtype="cinquain" n="6">
+            <l n="21">Je sais que ton coeur,qui regorge</l>
+            <l n="22">De vieux amours déracinés,</l>
+            <l n="23">Flamboie encor comme une forge,</l>
+            <l n="24">Et que tu couves sous ta gorge</l>
+            <l n="25">Un peu de l'orgueil des damnés;</l>
+          </lg>
+          <lg type="stanza" subtype="cinquain" n="7">
+            <l n="26">Mais tant, ma chère, que tes rêves</l>
+            <l n="27">N'auront pas reflété l'Enfer,</l>
+            <l n="28">Et qu'en un cauchemar sans trêves,</l>
+            <l n="29">Songeant de poisons et de glaives,</l>
+            <l n="30">Éprise de poudre et de fer,</l>
+          </lg>
+          <lg type="stanza" subtype="cinquain" n="8">
+            <l n="31">N'ouvrant à chacun qu'avec crainte,</l>
+            <l n="32">Déchiffrant le malheur partout,</l>
+            <l n="33">Te convulsant quand l'heure tinte,</l>
+            <l n="34">Tu n'auras pas senti l'étreinte</l>
+            <l n="35">De l'irrésistible Dégoût,</l>
+          </lg>
+          <lg type="stanza" subtype="cinquain" n="9">
+            <l n="36">Tu ne pourras, esclave reine</l>
+            <l n="37">Qui ne m'aimes qu'avec effroi,</l>
+            <l n="38">Dans l'horreur de la nuit malsaine</l>
+            <l n="39">Me dire, l'âme de cris pleine:</l>
+            <l n="40">« Je suis ton égale, ô mon Roi! »</l>
+          </lg>
         </lg>
-        <lg type="stanza" subtype="cinquain" n="7">
-          <l n="26">Mais tant, ma chère, que tes rêves</l>
-          <l n="27">N'auront pas reflété l'Enfer,</l>
-          <l n="28">Et qu'en un cauchemar sans trêves,</l>
-          <l n="29">Songeant de poisons et de glaives,</l>
-          <l n="30">Éprise de poudre et de fer,</l>
-        </lg>
-        <lg type="stanza" subtype="cinquain" n="8">
-          <l n="31">N'ouvrant à chacun qu'avec crainte,</l>
-          <l n="32">Déchiffrant le malheur partout,</l>
-          <l n="33">Te convulsant quand l'heure tinte,</l>
-          <l n="34">Tu n'auras pas senti l'étreinte</l>
-          <l n="35">De l'irrésistible Dégoût,</l>
-        </lg>
-        <lg type="stanza" subtype="cinquain" n="9">
-          <l n="36">Tu ne pourras, esclave reine</l>
-          <l n="37">Qui ne m'aimes qu'avec effroi,</l>
-          <l n="38">Dans l'horreur de la nuit malsaine</l>
-          <l n="39">Me dire, l'âme de cris pleine:</l>
-          <l n="40">« Je suis ton égale, ô mon Roi! »</l>
-        </lg>
-        </lg>
-        <p/>
       </div>
     </body>
   </text>
