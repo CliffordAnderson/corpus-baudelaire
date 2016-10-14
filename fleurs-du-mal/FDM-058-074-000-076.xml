@@ -100,7 +100,7 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="sonnet">
         <head>
           <title type="main">LA CLOCHE FÊLÉE</title>
         </head>
@@ -108,40 +108,40 @@ Online Distributed Proofreading Team.</p>
           <l n="1">Il est amer et doux, pendant les nuits d'hiver,</l>
           <l n="2">D'écouter
           	<app>
-          		<lem wit="U1857"></lem>
-          		<rdg wit="FDM1861 FDM1868">,</rdg>
+          		<lem wit="#U1857"></lem>
+          		<rdg wit="#FDM1861 #FDM1868">,</rdg>
           	</app> près du feu qui palpite et qui fume
           	<app>
-          		<lem wit="U1857"></lem>
-          		<rdg wit="FDM1861 FDM1868">,</rdg>
+          		<lem wit="#U1857"></lem>
+          		<rdg wit="#FDM1861 #FDM1868">,</rdg>
           	</app>
           	</l>
           <l n="3">Les souvenirs lointains lentement s'élever</l>
           <l n="4">Au bruit des carillons qui chantent dans la brume.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="1">Bienheureuse la cloche au gosier vigoureux</l>
-          <l n="2">Qui, malgré sa vieillesse, alerte et bien portante,</l>
-          <l n="3">Jette fidèlement son cri religieux,</l>
-          <l n="4">Ainsi qu'un vieux soldat qui veille sous la tente!</l>
+          <l n="5">Bienheureuse la cloche au gosier vigoureux</l>
+          <l n="6">Qui, malgré sa vieillesse, alerte et bien portante,</l>
+          <l n="7">Jette fidèlement son cri religieux,</l>
+          <l n="8">Ainsi qu'un vieux soldat qui veille sous la tente!</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
-          <l n="1">Moi, mon âme est fêlée, et lorsqu'en ses ennuis</l>
-          <l n="2">Elle veut de ses chants peupler l'air froid des nuits,</l>
-          <l n="3">Il arrive souvent que sa voix affaiblie</l>
+          <l n="9">Moi, mon âme est fêlée, et lorsqu'en ses ennuis</l>
+          <l n="10">Elle veut de ses chants peupler l'air froid des nuits,</l>
+          <l n="11">Il arrive souvent que sa voix affaiblie</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
-          <l n="1">Semble le râle épais d'un blessé qu'on oublie</l>
-          <l n="2">Au bord d'un lac de sang, sous un grand tas de morts
+          <l n="12">Semble le râle épais d'un blessé qu'on oublie</l>
+          <l n="13">Au bord d'un lac de sang, sous un grand tas de morts
           	<app>
-          		<lem wit="U1857"></lem>
-          		<rdg wit="FDM1861 FDM1868">,</rdg>
+          		<lem wit="#U1857"></lem>
+          		<rdg wit="#FDM1861 #FDM1868">,</rdg>
           	</app>
           	</l>
-          <l n="3">Et qui meurt, sans bouger, dans d'immenses efforts
+          <l n="14">Et qui meurt, sans bouger, dans d'immenses efforts
           	<app>
-          		<lem wit="U1857">.</lem>
-          		<rdg wit="FDM1868">!</rdg>
+          		<lem wit="#U1857">.</lem>
+          		<rdg wit="#FDM1868">!</rdg>
           	</app>
           </l>
         </lg>
