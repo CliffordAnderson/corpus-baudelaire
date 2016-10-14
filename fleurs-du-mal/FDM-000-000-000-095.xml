@@ -14,6 +14,10 @@
           <resp>Critical Apparatus</resp>
           <name ref="#TFH">Todd F. Hughes</name>
         </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -81,9 +85,9 @@ Online Distributed Proofreading Team.</p>
           <l n="8">Un tapis triomphal avec ta charité.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
-          <l n="9">Tel est l'Amour! Avant que ton cœur ne se blase,</l>
+          <l n="9">Tel est l'Amour! Avant que ton <choice><orig>cœur</orig><reg>coeur</reg></choice>ne se blase,</l>
           <l n="10">A la gloire de Dieu rallume ton extase;</l>
-          <l n="10">C'est la Volupté vraie aux durables appas! »</l>
+          <l n="11">C'est la Volupté vraie aux durables appas! »</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
           <l n="12">Et l'Ange, châtiant autant, ma foi! qu'il aime,</l>
