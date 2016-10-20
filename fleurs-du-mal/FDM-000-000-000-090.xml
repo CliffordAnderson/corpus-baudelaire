@@ -76,7 +76,7 @@
           <lg type="stanza" subtype="cinquain" n="2">
             <l n="6">Je t'aime surtout quand la joie</l>
             <l n="7">S'enfuit de ton front terrassé;</l>
-            <l n="8">Quand ton coeur dans l'horreur se noie;</l>
+            <l n="8">Quand ton <choice><orig>cœur</orig><reg>coeur</reg></choice> dans l'horreur se noie;</l>
             <l n="9">Quand sur ton présent se déploie</l>
             <l n="10">Le nuage affreux du passé.</l>
           </lg>
@@ -94,7 +94,7 @@
             <l n="16">J'aspire, volupté divine!</l>
             <l n="17">Hymne profond, délicieux!</l>
             <l n="18">Tous les sanglots de ta poitrine,</l>
-            <l n="19">Et crois que ton coeur s'illumine</l>
+            <l n="19">Et crois que ton <choice><orig>cœur</orig><reg>coeur</reg></choice> s'illumine</l>
             <l n="20">Des perles que versent tes yeux!</l>
           </lg>
         </lg>
@@ -103,7 +103,7 @@
             <title type="sub">II</title>
           </head>
           <lg type="stanza" subtype="cinquain" n="6">
-            <l n="21">Je sais que ton coeur,qui regorge</l>
+            <l n="21">Je sais que ton <choice><orig>cœur</orig><reg>coeur</reg></choice>,qui regorge</l>
             <l n="22">De vieux amours déracinés,</l>
             <l n="23">Flamboie encor comme une forge,</l>
             <l n="24">Et que tu couves sous ta gorge</l>
