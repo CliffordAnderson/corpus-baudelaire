@@ -18,6 +18,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="TFH">Todd F. Hughes</name>
         </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="RVR">Ramona V. Romero</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -60,11 +64,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <pubPlace>Amsterdam</pubPlace>
                   <publisher>À L'Enseigne du Coq</publisher>
                   <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre), this is a
+                    false imprint, the book actually being published in Brussels by
+                    Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p. 9-55</note>
                   <note>With a frontispeice etching by Félicien Rops</note>
                 </imprint>
                 <extent>163 p.</extent>
@@ -90,10 +93,13 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>LE LETHE</title>
+          <title type="main">LE LETHE</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">Viens sur mon coeur, âme cruelle et sourde,</l>
+          <l n="1">Viens sur mon <choice>
+              <orig>cœur</orig>
+              <reg>coeur</reg>
+            </choice>, âme cruelle et sourde,</l>
           <l n="2">Tigre adoré, monstre aux airs indolents;</l>
           <l n="3">Je veux longtemps plonger mes doigts tremblants</l>
           <l n="4">Dans l'épaisseur de ta crinière lourde;</l>
@@ -106,18 +112,17 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="stanza" subtype="quatrain" n="3">
           <l n="9">Je veux dormir! dormir plutôt que vivre!</l>
-          <l n="10">Dans un sommeil, <app>
-            <lem wit="#U1857">douteux comme</lem>
-            <rdg wit="#FDM1861">doux que</rdg>
-          </app>la mort,</l>
+          <l n="10">Dans un <app>
+              <lem wit="#U1857">sommeil, douteux comme</lem>
+              <rdg wit="#FDM1861">sommeil aussi doux que</rdg>
+            </app>la mort,</l>
           <l n="11">J'étalerai mes baisers sans remord</l>
           <l n="12">Sur ton beau corps poli comme le cuivre.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="4">
           <l n="13">Pour engloutir mes sanglots apaisés</l>
-          <l n="14">Rien ne me vaut <app><lem wit="#U1857">l'abîme</lem>
-            <rdg wit="#FDM1861">l'abime</rdg>
-            </app> de ta couche;</l>
+          <!--regarding line 14. It looks like l'abîme in the 1866 edition does have a circumflex over the i.  It's smudgy, but I'd stake my life on it -->
+          <l n="14">Rien ne me vaut l'abîme de ta couche;</l>
           <l n="15">L'oubli puissant habite sur ta bouche,</l>
           <l n="16">Et le Léthé coule dans tes baisers.</l>
         </lg>
@@ -128,14 +133,19 @@ Online Distributed Proofreading Team.</p>
           <l n="20">Dont la ferveur attise le supplice,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="6">
-          <l n="21">Je sucerai, pour noyer ma rancoeur,</l>
-          <l n="22">Le népenthès et la bonne <app><lem wit="#U1857">cigüe</lem>
-            <rdg wit="#FDM1861">ciguë</rdg>
-          </app>c</l>
-          <l n="23">Aux bouts charmants de cette gorge <app><lem wit="#U1857">aigüe</lem>
-            <rdg wit="#FDM1861">ciguë</rdg>
-          </app>aiguë</l>
-          <l n="24">Qui n'a jamais emprisonné de cœur.</l>
+          <l n="21">Je sucerai, pour noyer ma <choice>
+              <orig>rancœur</orig>
+              <reg>rancoeur</reg>
+            </choice>,</l>
+          <l n="22">Le népenthès et la bonne cigüe</l>
+          <l n="23">Aux bouts charmants de cette gorge aigüe<app>
+              <lem wit="#U1857"/>
+              <rdg wit="#FDM1861">,</rdg>
+            </app></l>
+          <l n="24">Qui n'a jamais emprisonné de <choice>
+              <orig>cœur</orig>
+              <reg>coeur</reg>
+            </choice>.</l>
         </lg>
       </div>
     </body>
