@@ -14,6 +14,10 @@
           <resp>Critical Apparatus</resp>
           <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="TFH">Todd Hughes</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -105,7 +109,7 @@ Online Distributed Proofreading Team.</p>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Voice le soir charmant, ami du criminel;</l>
           <l n="2">Il vient comme un complice, à pas de loup;<app><lem wit="#U1857"> — </lem>
-          <rdg wit="#FDM1861 #FDM1868"></rdg></app>le ciel</l>
+          <rdg wit="#FDM1861 #FDM1868"/></app>le ciel</l>
           <l n="3">Se ferme lentement comme une grande alcôve,</l>
           <l n="4">Et l'homme impatient se change en bête fauve.</l>
         </lg>
@@ -142,7 +146,7 @@ Online Distributed Proofreading Team.</p>
           <l n="30">Et ferme ton oreille à ce rugissement.</l>
           <l n="31">C'est l'heure où les douleurs des malades s'aigrissent!</l>
           <l n="32">La sombre Nuit les prend a la gorge;<app><lem wit="#U1857"> — </lem>
-          <rdg /></app>ils finissent</l>
+            <rdg wit="#FDM1861 #FDM1868"/></app>ils finissent</l>
           <l n="33">Leur destinée et vont vers le gouffre commun;</l>
           <l n="34">L'hôpital se remplit de leurs soupirs. — Plus d'un</l>
           <l n="35">Ne viendra plus chercher la soupe parfumée,</l>

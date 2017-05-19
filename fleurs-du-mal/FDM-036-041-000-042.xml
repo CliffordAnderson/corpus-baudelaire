@@ -17,6 +17,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <resp>Critical Apparatus</resp>
           <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="TFH">Todd Hughes</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -129,7 +133,7 @@ Online Distributed Proofreading Team.</p>
           <l n="1">Le Démon, dans ma chambre haute,</l>
           <l n="2">Ce matin est venu me voir,</l>
           <l n="3">Et, tâchant à me prendre en faute,</l>
-          <l n="4">Me dit: « Je voudrais bien savoir,</l>
+          <l n="4"><app><lem wit="#U1857">M'a</lem><rdg wit="#FDM1861 #FDM1868">M'a</rdg></app> dit: « Je voudrais bien savoir,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Parmi toutes les belles choses</l>
@@ -138,7 +142,7 @@ Online Distributed Proofreading Team.</p>
           <l n="8">Qui composent son corps charmant,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="3">
-          <l n="9">Quel est le plus doux. »—O mon âme<app><lem wit="#U1857">,</lem><rdg wit="#FDM1861 #FDM1868">!</rdg></app></l>
+          <l n="9">Quel est le plus doux. >> —O mon âme<app><lem wit="#U1857">,</lem><rdg wit="#FDM1861 #FDM1868">!</rdg></app></l>
           <l n="10">Tu répondis à l'Abhorré:</l>
           <l n="11"><app><lem wit="#U1857"/><rdg wit="#FDM1861 #FDM1868">« </rdg></app>Puisqu'en Elle tout est dictame,</l>
           <l n="12">Rien ne peut être préféré.</l>

@@ -14,6 +14,10 @@
           <resp>Critical Apparatus</resp>
           <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
+		<respStmt>
+          <resp>Review</resp>
+          <name xml:id="TG">Teresa Gray</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -102,7 +106,7 @@ Online Distributed Proofreading Team.</p>
             <l n="5">Je suis comme un peintre qu'un Dieu moqueur</l>
             <l n="6">Condamne à peindre, hélas! sur les ténèbres;</l>
             <l n="7">Où, cuisinier aux appétits funèbres,</l>
-            <l n="8">Je fais bouillir et je mange mon cœur,</l>
+            <l n="8">Je fais bouillir et je mange mon <choice> <orig>cœur</orig> <reg>coeur</reg> </choice>,</l>
           </lg>
           <lg type="stanza" subtype="tercet" n="3">
             <l n="9">Par instants brille, et s'allonge, et s'étale</l>
@@ -199,7 +203,7 @@ Online Distributed Proofreading Team.</p>
             <l n="1">La Maladie et la Mort font des cendres</l>
             <l n="2">De tout le feu qui pour nous flamboya.</l>
             <l n="3">De ces grands yeux si fervents et si tendres,</l>
-            <l n="4">De cette bouche où mon coeur se noya,</l>
+            <l n="4">De cette bouche où mon coeur<choice> <orig>cœur</orig> <reg>coeur</reg> </choice> se noya,</l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="2">
             <l n="5">De ces baisers puissants comme un dictame,</l>
