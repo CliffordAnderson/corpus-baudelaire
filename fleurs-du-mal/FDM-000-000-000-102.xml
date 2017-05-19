@@ -7,7 +7,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title rend="LE GOUFFRE">Gouffre</title>
+            <title rend="LE GOUFFRE">GOUFFRE</title>
             <author>Charles Baudelaire</author>
             <respStmt>
                <resp>Basic Markup</resp>
@@ -16,6 +16,10 @@
             <respStmt>
                <resp>Critical Apparatus</resp>
                <name xml:id="TFH">Todd Hughes</name>
+            </respStmt>
+            <respStmt>
+               <resp>Review</resp>
+               <name xml:id="ZB">Zora Breeding</name>
             </respStmt>
             <sponsor>Jean and Alexander Heard Library</sponsor>
          </titleStmt>
@@ -59,7 +63,7 @@
       <body>
          <div type="poem" subtype="sonnet">
             <head>
-               <title>LE GOUFFRE</title>
+               <title type="main">LE GOUFFRE</title>
             </head>
             <lg type="stanza" subtype="quatrain" n="1">
                <l n="1">Pascal avait son gouffre, avec lui se mouvant.</l>
@@ -70,7 +74,7 @@
             <lg type="stanza" subtype="quatrain" n="2">
                <l n="5">En haut, en bas, partout, la profondeur, la grève,</l>
                <l n="6">Le silence, l'espace affreux et captivant...</l>
-               <l n="7">Sur le fond de mes nuits Dieu de sont doigt savant</l>
+               <l n="7">Sur le fond de mes nuits Dieu de son doigt savant</l>
                <l n="8">Dessine un cauchemar multiforme et sans trêve.</l>
             </lg>
             <lg type="stanza" subtype="tercet" n="3">
@@ -81,7 +85,7 @@
             <lg type="stanza" subtype="tercet" n="4">
                <l n="12">Et mon esprit, toujours du vertige hanté,</l>
                <l n="13">Jalouse du néant l'insensibilité.</l>
-               <l n="14">–Ah! ne jamais sortir des Nombres et des Êtres!</l>
+               <l n="14">— Ah! ne jamais sortir des Nombres et des Êtres!</l>
             </lg>
          </div>
       </body>
