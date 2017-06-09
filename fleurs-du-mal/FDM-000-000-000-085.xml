@@ -11,13 +11,17 @@
         <title rend="LE CALUMET DE PAIX, IMITÉ DE LONGFELLOW">CALUMET DE PAIX, IMITÉ DE LONGFELLOW</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic Markup by</resp>
+          <resp>Basic Markup</resp>
           <!-- Insert your name and XML ID - choose an XML ID for the project and stick with it! -->
           <name xml:id="EJW">Ed Warga</name>
         </respStmt>
         <respStmt>
           <resp>Critical Apparatus</resp>
           <name xml:id="AS">Adam Steffanick</name>
+        </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="ACS">Angela C. Sutton</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
