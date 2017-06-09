@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="Le parfum exotique">PAFUM EXOTIQUE</title>
+        <title rend="PARFUM EXOTIQUE">PARFUM EXOTIQUE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Basic Markup</resp>
@@ -11,6 +11,10 @@
         <respStmt>
           <resp>Critical Apparatus</resp>
           <name xml:id="TFH">Todd Hughes</name>
+        </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -54,8 +58,8 @@
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
+                    author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
               </monogr>
@@ -85,31 +89,37 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
   <text>
     <body>
       <div type="poem" subtype="sonnet">
-      <head>
-        <title>LE PARFUM EXOTIQUE</title>
-      </head>
-      <lg type="stanza" subtype="quatrain" n="1">
-        <l n="1">Quand, les deux yeux fermés, en un soir chaud d'automne,</l>
-        <l n="2">Je respire l'odeur de ton sein chaleureux,</l>
-        <l n="3">Je vois se dérouler des rivages heureux</l>
-        <l n="4">Qu'éblouissent les feux d'un soleil monotone;</l>
-      </lg>
-      <lg type="stanza" subtype="quatrain" n="2">
-        <l n="1">Une île paresseuse où la nature donne</l>
-        <l n="2">Des arbres singuliers et des fruits savoureux;</l>
-        <l n="3">Des hommes dont le corps est mince et vigoureux,</l>
-        <l n="4">Et des femmes dont l'oeil par sa franchise étonne.</l>
-      </lg>
-      <lg type="stanza" subtype="tercet" n="3">
-        <l n="1">Guidé par ton odeur vers de charmants climats,</l>
-        <l n="2">Je vois un port rempli de voiles et de mâts</l>
-        <l n="3">Encor tout fatigués par la vague marine,</l>
-      </lg>
-      <lg type="stanza" subtype="tercet" n="4">
-        <l n="1">Pendant que le parfum des verts tamariniers,</l>
-        <l n="2">Qui circule dans l'air et m'enfle la narine,</l>
-        <l n="3">Se mêle dans mon âme au chant des mariniers.</l>
-      </lg>
+        <head>
+          <title type="main">PARFUM EXOTIQUE</title>
+        </head>
+        <lg type="stanza" subtype="quatrain" n="1">
+          <l n="1">Quand, les deux yeux fermés, en un soir chaud d'automne,</l>
+          <l n="2">Je respire l'odeur de ton sein chaleureux,</l>
+          <l n="3">Je vois se dérouler des rivages heureux</l>
+          <l n="4">Qu'éblouissent les feux d'un soleil monotone<app>
+              <lem wit="#U1857">:</lem>
+              <rdg wit="#FDM1861 #FDM1868">;</rdg>
+            </app></l>
+        </lg>
+        <lg type="stanza" subtype="quatrain" n="2">
+          <l n="1">Une île paresseuse où la nature donne</l>
+          <l n="2">Des arbres singuliers et des fruits savoureux;</l>
+          <l n="3">Des hommes dont le corps est mince et vigoureux,</l>
+          <l n="4">Et des femmes dont l'<choice>
+              <orig>œil</orig>
+              <reg>oeil</reg>
+            </choice> par sa franchise étonne.</l>
+        </lg>
+        <lg type="stanza" subtype="tercet" n="3">
+          <l n="1">Guidé par ton odeur vers de charmants climats,</l>
+          <l n="2">Je vois un port rempli de voiles et de mâts</l>
+          <l n="3">Encor tout fatigués par la vague marine,</l>
+        </lg>
+        <lg type="stanza" subtype="tercet" n="4">
+          <l n="1">Pendant que le parfum des verts tamariniers,</l>
+          <l n="2">Qui circule dans l'air et m'enfle la narine,</l>
+          <l n="3">Se mêle dans mon âme au chant des mariniers.</l>
+        </lg>
       </div>
     </body>
   </text>

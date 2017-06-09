@@ -17,6 +17,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <resp>Critical Apparatus</resp>
           <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="RVR">Ramona V. Romero</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -59,8 +63,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                              portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
+                    author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
               </monogr>
@@ -106,8 +110,14 @@ Online Distributed Proofreading Team.</p>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Combien faut-il de fois secouer mes grelots</l>
-          <l n="2">Et baiser ton front bas, morne <app><lem wit="#U1857">caricature</lem><rdg wit="#FDM1868">Caricature</rdg></app>?</l>
-          <l n="3">Pour piquer dans le but, <app><lem/><rdg wit="#FDM1861 #FDM1868">de</rdg></app> mystique <app><lem wit="#U1857">quadrature</lem><rdg wit="#FDM1861 #FDM1868">nature</rdg></app>,</l>
+          <l n="2">Et baiser ton front bas, morne <app>
+              <lem wit="#U1857">caricature</lem>
+              <rdg wit="#FDM1868">Caricature</rdg>
+            </app>?</l>
+          <l n="3">Pour piquer dans le but, <app>
+              <lem wit="#U1857">mystique quadrature</lem>
+              <rdg wit="#FDM1861 #FDM1868">de mystique nature</rdg>
+            </app>,</l>
           <l n="4">Combien, ô mon carquois, perdre de javelots?</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
@@ -123,7 +133,10 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
           <l n="12">N'ont qu'un espoir, étrange et sombre Capitole!</l>
-          <l n="13">C'est que la Mort, planant comme un <app><lem wit="#U1857">Soleil</lem><rdg wit="#FDM1861 #FDM1868">soleil</rdg></app> nouveau,</l>
+          <l n="13">C'est que la Mort, planant comme un <app>
+              <lem wit="#U1857">Soleil</lem>
+              <rdg wit="#FDM1861 #FDM1868">soleil</rdg>
+            </app> nouveau,</l>
           <l n="14">Fera s'épanouir les fleurs de leur cerveau!</l>
         </lg>
       </div>
