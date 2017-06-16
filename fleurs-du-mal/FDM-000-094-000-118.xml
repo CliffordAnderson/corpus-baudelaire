@@ -15,6 +15,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <resp>Critical Apparatus</resp>
           <name ref="#TFH">Todd Hughes</name>
         </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="ACS">Angela C. Sutton</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -84,7 +88,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem" subtype="composite">
         <head>
-          <title>LE SQUELETTE LABOUREUR</title>
+          <title type="main">LE SQUELETTE LABOUREUR</title>
         </head>
         <lg type="poem" n="1">
         <head type="main">I</head>

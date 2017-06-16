@@ -15,6 +15,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <resp>Critical Apparatus</resp>
           <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="ACS">Angela C. Sutton</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -89,7 +93,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <body>
       <div type="poem">
         <head>
-          <title>FEMMES DAMNÉES</title>
+          <title type="main">FEMMES DAMNÉES</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Comme un bétail pensif sur le sable couchées,</l>

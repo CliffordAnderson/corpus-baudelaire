@@ -15,6 +15,10 @@
         <!--In the line below, Insert your initials as the XML id and your name between the tags-->
         <name ref="#TFH">Todd F. Hughes</name>
         </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="ACS">Angla C. Sutton </name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -87,7 +91,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>LA VOIX</title>
+          <title type="main">LA VOIX</title>
         </head>
         <lg type="stanza" n="1">
           <l n="1">Mon berceau s'adossait à la bibliothèque,</l>
