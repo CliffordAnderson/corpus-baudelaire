@@ -13,6 +13,10 @@
           <resp>Critical Apparatus</resp>
           <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="ACS">Angela C. Sutton</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -28,7 +32,7 @@
         <idno>FDM-000-000-000-111</idno>
       </publicationStmt>
       <sourceDesc>
-        <listWit> 
+        <listWit>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>

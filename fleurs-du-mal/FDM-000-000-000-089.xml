@@ -15,6 +15,10 @@
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name ref="#TFH">Todd Hughes</name>
         </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="ACS">Angela C. Sutton</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -67,7 +71,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>L'EXAMEN DE MINUIT</title>
+          <title type="main">L'EXAMEN DE MINUIT</title>
         </head>
         <lg type="stanza" subtype="octave" n="1">
           <l n="1">La pendule, sonnant minuit,</l>
