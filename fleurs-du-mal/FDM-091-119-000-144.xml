@@ -1,27 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Requisite XML information. Encoding, namespace, and schema info. -->
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- TEI Header begins here... -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
+        <!-- Title element - insert name of poem. If tile starts with an article, leave it off in the title value and include the title with the article in a rend attribute. -->
         <title>ABEL ET CAÏN</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Basic Markup</resp>
-          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <!-- Insert your name and XML ID - choose an XML ID for the project and stick with it! -->
           <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <respStmt>
           <resp>Critical Apparatus</resp>
-          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name ref="#ZB">Zora Breeding</name>
+          <name xml:id="AS">Adam Steffanick</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
-        <!--Below, insert the number of the poem, according to the established protocol-->
         <publisher>Jean and Alexander Heard Library</publisher>
         <pubPlace>Nashville</pubPlace>
         <address>
@@ -34,6 +35,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <idno>FDM-091-119-000-144</idno>
       </publicationStmt>
       <sourceDesc>
+        <!-- create listWit in sourceDesc with the different editions and their bib data
+        1. 1857 Unexpurgated xml:id="U1857"
+        2. 1861 2nd edition censored xml:id="FDM1861"
+        3. 1866 Les Epaves xml:id="LE1866"
+        4. 1868 3rd edition - posthumous xml:id="FDM1868"
+        -->
         <listWit>
           <witness xml:id="U1857">
             <desc>1857 Unexpurgated</desc>
@@ -61,8 +68,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                              portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
               </monogr>
@@ -87,137 +93,174 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </witness>
         </listWit>
         <!--
--<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
--for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
--You may copy it, give it away or re-use it under the terms of the Project Gutenberg
--License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
--Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
--Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
--encoding: ISO-8859-1 </p>
--<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
--Online Distributed Proofreading Team.</p>
--->
+        The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org
+        Title: Les Fleurs du Mal
+        Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099]
+        Release Date: July, 2004 First Posted: November 5, 2002 Language: French Character set encoding: ISO-8859-1
+        Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the Online Distributed Proofreading Team.
+        -->
       </sourceDesc>
     </fileDesc>
   </teiHeader>
+  <!-- TEI header ends, text section begins... -->
   <text>
     <body>
-      <div type="poem">
-        <head>
-          <title type="main">ABEL ET<app>
-              <lem wit="#U1857">CAIN</lem>
-              <rdg wit="#FDM1861 #FDM1868">CAÏN</rdg>
-            </app>
-          </title>
-        </head>
-        <!-- This is the encoding we were hoping to use, but it only works for the first <head> element and not the second.  <head><app><lem wit="#U1857"/><rdg wit="#FDM1861 #FDM1868">I</rdg></app></head> -->
-        <lg type="stanza" subtype="couplet" n="1">
-          <l n="1">Race d'Abel, dors, bois et mange<app>
-              <lem wit="#U1857">:</lem>
-              <rdg wit="#FDM1861 #FDM1868">;</rdg>
-            </app>
-          </l>
-          <l n="2">Dieu te sourit complaisamment<app>
-              <lem wit="#U1857">.</lem>
-              <rdg wit="#FDM1861 #FDM1868">,</rdg>
-            </app>
-          </l>
-        </lg>
-        <lg type="stanza" subtype="couplet" n="2">
-          <l n="3">Race de Caïn, dans la fange</l>
-          <l n="4">Rampe et meurs misérablement.</l>
-        </lg>
-        <lg type="stanza" subtype="couplet" n="3">
-          <l n="5">Race d'Abel, ton sacrifice</l>
-          <l n="6">Flatte le nez du Séraphin!</l>
-        </lg>
-        <lg type="stanza" subtype="couplet" n="4">
-          <l n="7">Race de Caïn, ton supplice</l>
-          <l n="8">Aura-t-il jamais une fin?</l>
-        </lg>
-        <lg type="stanza" subtype="couplet" n="5">
-          <l n="9">Race d'Abel, vois tes semailles</l>
-          <l n="10">Et ton bétail venir à bien;</l>
-        </lg>
-        <lg type="stanza" subtype="couplet" n="6">
-          <l n="11">Race de Caïn, tes entrailles</l>
-          <l n="12">Hurlent la faim comme un vieux chien.</l>
-        </lg>
-        <lg type="stanza" subtype="couplet" n="7">
-          <l n="13">Race d'Abel, chauffe ton ventre</l>
-          <l n="14">À ton foyer patriarcal;</l>
-        </lg>
-        <lg type="stanza" subtype="couplet" n="8">
-          <l n="15">Race de Caïn, dans ton antre</l>
-          <l n="16">Tremble de froid, pauvre chacal!</l>
-        </lg>
-        <lg type="stanza" subtype="couplet" n="9">
-          <l n="17">Race d'Abel,<app>
-              <lem wit="#U1857">sans peur</lem>
-              <rdg wit="#FDM1861 #FDM1868">aime et</rdg>
-            </app>pullule<app>
-              <lem wit="#U1857">:</lem>
-              <rdg wit="#FDM1861 #FDM1868">!</rdg>
-            </app>
-          </l>
-          <l n="18">
-            <app>
-              <lem wit="#U1857">L'argent fait aussi ses</lem>
-              <rdg wit="#FDM1861 #FDM1868">Ton or fait aussi des</rdg>
-            </app>petits<app>
-              <lem wit="U1857 ">;</lem>
-              <rdg wit="#FDM1861 #FDM1868">.</rdg>
-            </app>
-          </l>
-        </lg>
-        <lg type="stanza" subtype="couplet" n="10">
-          <l n="19">Race de Caïn,<app>
-              <lem wit="#U1857">ton</lem>
-              <rdg wit="#FDM1861 #FDM1868"/>
-            </app>coeur<app>
-              <lem wit="#U1857"/>
-              <rdg wit="#FDM1861 #FDM1868">qui</rdg>
-            </app>brûle<app>
-              <lem wit="#U1857">;</lem>
-              <rdg wit="#FDM1861 #FDM1868">,</rdg>
-            </app>
-          </l>
-          <l n="20">
-            <app>
-              <lem wit="#U1857">Eteins ces cruels</lem>
-              <rdg wit="#FDM1861 #FDM1868">Prends garde à ces grands</rdg>
-            </app>appétits.</l>
-        </lg>
-        <lg type="stanza" subtype="couplet" n="11">
-          <l n="21">Race d'Abel, tu croîs et broutes</l>
-          <l n="22">Comme les punaises des bois!</l>
-        </lg>
-        <lg type="stanza" subtype="couplet" n="12">
-          <l n="23">Race de Caïn, sur les routes</l>
-          <l n="24">Traîne ta famille aux abois.</l>
-        </lg>
-        <!-- The second heading, II, would appear here -->
-        <lg type="stanza" subtype="couplet" n="13">
-          <l n="25">
-            <app>
-              <lem wit="#U1857">—</lem>
-              <rdg wit="#FDM1861 #FDM1868"/>
-            </app>Ah! race d'Abel, ta charogne</l>
-          <l n="26">Engraissera le sol fumant!</l>
-        </lg>
-        <lg type="stanza" subtype="couplet" n="14">
-          <l n="27">Race de Caïn, ta besogne</l>
-          <l n="28">N'est pas faite suffisamment;</l>
-        </lg>
-        <lg type="stanza" subtype="couplet" n="15">
-          <l n="29">Race d'Abel, voici ta honte:</l>
-          <l n="30">Le fer est vaincu par l'épieu!</l>
-        </lg>
-        <lg type="stanza" subtype="couplet" n="16">
-          <l n="31">Race de Caïn, au ciel monte,</l>
-          <l n="32">Et sur la terre jette Dieu!</l>
-        </lg>
-      </div>
+      <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attribute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
+      <app>
+        <lem wit="#U1857">
+          <div type="poem">
+            <!-- Remove all p elements
+            Add head and title element -->
+            <head>
+              <title type="main">ABEL ET CAIN</lem></title>
+            </head>
+            <!-- Add lg element with type, subtype, and n attributes
+            Add l elements with n attributes -->
+            <lg type="stanza" subtype="couplet" n="1">
+              <l n="1">Race d'Abel, dors, bois et mange:</l>
+              <l n="2">Dieu te sourit complaisamment.</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="2">
+              <l n="3">Race de Caïn, dans la fange</l>
+              <l n="4">Rampe et meurs misérablement.</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="3">
+              <l n="5">Race d'Abel, ton sacrifice</l>
+              <l n="6">Flatte le nez du Séraphin!</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="4">
+              <l n="7">Race de Caïn, ton supplice</l>
+              <l n="8">Aura-t-il jamais une fin?</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="5">
+              <l n="9">Race d'Abel, vois tes semailles</l>
+              <l n="10">Et ton bétail venir à bien;</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="6">
+              <l n="11">Race de Caïn, tes entrailles</l>
+              <l n="12">Hurlent la faim comme un vieux chien.</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="7">
+              <l n="13">Race d'Abel, chauffe ton ventre</l>
+              <l n="14">À ton foyer patriarcal;</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="8">
+              <l n="15">Race de Caïn, dans ton antre</l>
+              <l n="16">Tremble de froid, pauvre chacal!</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="9">
+              <l n="17">Race d'Abel, sans peur pullule:</l>
+              <l n="18">L'argent fait aussi ses petits;</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="10">
+              <l n="19">Race de Caïn, ton coeur brûle;</l>
+              <l n="20">Eteins ces cruels appétits.</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="11">
+              <l n="21">Race d'Abel, tu croîs et broutes</l>
+              <l n="22">Comme les punaises des bois!</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="12">
+              <l n="23">Race de Caïn, sur les routes</l>
+              <l n="24">Traîne ta famille aux abois.</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="13">
+              <l n="25">—Ah! race d'Abel, ta charogne</l>
+              <l n="26">Engraissera le sol fumant!</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="14">
+              <l n="27">Race de Caïn, ta besogne</l>
+              <l n="28">N'est pas faite suffisamment;</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="15">
+              <l n="29">Race d'Abel, voici ta honte:</l>
+              <l n="30">Le fer est vaincu par l'épieu!</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="16">
+              <l n="31">Race de Caïn, au ciel monte,</l>
+              <l n="32">Et sur la terre jette Dieu!</l>
+            </lg>
+          </div>
+        </lem>
+        <rdg wit="#FDM1861 #FDM1868">
+          <div type="poem" subtype="composite">
+            <!-- Remove all p elements
+            Add head and title element -->
+            <head>
+              <title type="main">ABEL ET CAÏN</title>
+            </head>
+            <!-- Add lg element with type, subtype, and n attributes
+            Add l elements with n attributes -->
+            <lg type="stanza" subtype="couplet" n="1">
+              <head>I</head>
+              <l n="1">Race d'Abel, dors, bois et mange;</l>
+              <l n="2">Dieu te sourit complaisamment,</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="2">
+              <l n="3">Race de Caïn, dans la fange</l>
+              <l n="4">Rampe et meurs misérablement.</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="3">
+              <l n="5">Race d'Abel, ton sacrifice</l>
+              <l n="6">Flatte le nez du Séraphin!</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="4">
+              <l n="7">Race de Caïn, ton supplice</l>
+              <l n="8">Aura-t-il jamais une fin?</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="5">
+              <l n="9">Race d'Abel, vois tes semailles</l>
+              <l n="10">Et ton bétail venir à bien;</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="6">
+              <l n="11">Race de Caïn, tes entrailles</l>
+              <l n="12">Hurlent la faim comme un vieux chien.</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="7">
+              <l n="13">Race d'Abel, chauffe ton ventre</l>
+              <l n="14">À ton foyer patriarcal;</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="8">
+              <l n="15">Race de Caïn, dans ton antre</l>
+              <l n="16">Tremble de froid, pauvre chacal!</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="9">
+              <l n="17">Race d'Abel, aime et pullule!</l>
+              <l n="18">Ton or fait aussi des petits.</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="10">
+              <l n="19">Race de Caïn, coeur qui brûle,</l>
+              <l n="20">Prends garde à ces grands appétits.</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="11">
+              <l n="21">Race d'Abel, tu croîs et broutes</l>
+              <l n="22">Comme les punaises des bois!</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="12">
+              <l n="23">Race de Caïn, sur les routes</l>
+              <l n="24">Traîne ta famille aux abois.</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="1">
+              <head>II</head>
+              <l n="1">Ah! race d'Abel, ta charogne</l>
+              <l n="2">Engraissera le sol fumant!</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="2">
+              <l n="3">Race de Caïn, ta besogne</l>
+              <l n="4">N'est pas faite suffisamment;</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="3">
+              <l n="5">Race d'Abel, voici ta honte:</l>
+              <l n="6">Le fer est vaincu par l'épieu!</l>
+            </lg>
+            <lg type="stanza" subtype="couplet" n="4">
+              <l n="7">Race de Caïn, au ciel monte,</l>
+              <l n="8">Et sur la terre jette Dieu!</l>
+            </lg>
+          </div>
+        </rdg>
+      </app>
     </body>
   </text>
 </TEI>
+<!-- After making up the poem in the source text, save the poem as an individual file. Save the file using the numeric code based on the Editions Table. Add the TEI header from the template file. Replace values in header template as appropriate.-->
