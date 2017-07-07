@@ -125,20 +125,26 @@
           <l n="4">De grands seaux pleins du sang et des larmes des morts,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="5">Le Démon fait des trous secrets à ces <app>
-            <lem wit="#U1857">abìmes</lem>
-            <rdg wit="#FDM1861 #FDM1868">abîmes</rdg>
-          </app>,</l>
+          <l n="5">Le Démon fait des trous secrets à ces
+            <app>
+              <lem wit="#U1857">abìmes</lem>
+              <rdg wit="#FDM1861 #FDM1868">abîmes</rdg>
+            </app>
+            ,</l>
           <l n="6">Par où fuiraient mille ans de sueurs et d'efforts,</l>
-          <l n="7">Quand même elle saurait <app>
-            <lem wit="#U1857">allonger</lem>
-            <rdg wit="#FDM1861 #FDM1868">ranimer</rdg>
-          </app> ses victimes,</l>
-          <l n="8">Et pour les <app>
-            <lem wit="#U1857">resaigner galvaniser</lem>
-            <rdg wit="#FDM1861">pressurer ressusciter</rdg>
-            <rdg wit="#FDM1868">ressaigner ressusciter</rdg>
-          </app> leurs corps.</l>
+          <l n="7">Quand même elle saurait
+            <app>
+              <lem wit="#U1857">allonger</lem>
+              <rdg wit="#FDM1861 #FDM1868">ranimer</rdg>
+            </app>
+            ses victimes,</l>
+          <l n="8">Et pour les
+            <app>
+              <lem wit="#U1857">resaigner galvaniser</lem>
+              <rdg wit="#FDM1861">pressurer ressusciter</rdg>
+              <rdg wit="#FDM1868">ressaigner ressusciter</rdg>
+            </app>
+            leurs corps.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
           <l n="9">La Haine est un ivrogne au fond d'une taverne,</l>
