@@ -13,6 +13,10 @@
           <resp>Critical Apparatus</resp>
           <name ref="#TFH">Todd F. Hughes</name>
         </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -69,7 +73,7 @@ Online Distributed Proofreading Team.</p>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Tout homme digne de ce nom</l>
-          <l n="2">A dans le coeur un Serpent jaune,</l>
+          <l n="2">A dans le <choice><orig>cœur</orig><reg>coeur</reg></choice> un Serpent jaune,</l>
           <l n="3">Installé comme sur un trône,</l>
           <l n="4">Qui, s'il dit: « Je veux! » répond: «Non!»</l>
         </lg>
