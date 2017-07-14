@@ -88,7 +88,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem" subtype="sonnet">
         <head>
-          <title>A UNE PASSANTE</title>
+          <title type="main">A UNE PASSANTE</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">La rue assourdissante autour de moi hurlait.</l>
