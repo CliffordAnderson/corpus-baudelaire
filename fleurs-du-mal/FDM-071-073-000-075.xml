@@ -1,19 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Requisite XML information. Encoding, namespace, and schema info. -->
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- TEI Header begins here... -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
+        <!-- Title element - insert name of poem. If tile starts with an article, leave it off in the title value and include the title with the article in a rend attribute. -->
         <title rend="LE TONNEAU DE LA HAINE">TONNEAU DE LA HAINE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic Markup</resp>
+          <resp>Basic Markup by</resp>
+          <!-- Insert your name and XML ID - choose an XML ID for the project and stick with it! -->
           <name xml:id="SW">Steven Wenz</name>
         </respStmt>
         <respStmt>
           <resp>Critical Apparatus</resp>
           <name xml:id="SS">Sara Sterkenburg</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="AS">Adam Steffanick</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -27,9 +35,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
+        <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
         <idno>FDM-071-073-000-075</idno>
       </publicationStmt>
       <sourceDesc>
+        <!-- create listWit in sourceDesc with the different editions and their bib data
+        1. 1857 Unexpurgated xml:id="U1857"
+        2. 1861 2nd edition censored xml:id="FDM1861"
+        3. 1866 Les Epaves xml:id="LE1866"
+        4. 1868 3rd edition - posthumous xml:id="FDM1868"
+        -->
         <listWit>
           <witness xml:id="U1857">
             <desc>1857 Unexpurgated</desc>
@@ -57,8 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
               </monogr>
@@ -82,15 +96,28 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
             </biblStruct>
           </witness>
         </listWit>
+        <!--
+        The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org
+        Title: Les Fleurs du Mal
+        Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099]
+        Release Date: July, 2004 First Posted: November 5, 2002 Language: French Character set encoding: ISO-8859-1
+        Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the Online Distributed Proofreading Team.
+        -->
       </sourceDesc>
     </fileDesc>
   </teiHeader>
+  <!-- TEI header ends, text section begins... -->
   <text>
     <body>
+      <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attribute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
       <div type="poem">
+        <!-- Remove all p elements
+        Add head and title element -->
         <head>
           <title>LE TONNEAU DE LA HAINE</title>
         </head>
+        <!-- Add lg element with type, subtype, and n attributes
+        Add l elements with n attributes -->
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">La Haine est le tonneau des pâles Danaïdes;</l>
           <l n="2">La Vengeance éperdue aux bras rouges et forts</l>
@@ -98,20 +125,26 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
           <l n="4">De grands seaux pleins du sang et des larmes des morts,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="5">Le Démon fait des trous secrets à ces <app>
-            <lem wit="#U1857">abìmes</lem>
-            <rdg wit="#FDM1861 #FDM1868">abîmes</rdg>
-          </app>,</l>
+          <l n="5">Le Démon fait des trous secrets à ces
+            <app>
+              <lem wit="#U1857">abìmes</lem>
+              <rdg wit="#FDM1861 #FDM1868">abîmes</rdg>
+            </app>
+            ,</l>
           <l n="6">Par où fuiraient mille ans de sueurs et d'efforts,</l>
-          <l n="7">Quand même elle saurait <app>
-            <lem wit="#U1857">allonger</lem>
-            <rdg wit="#FDM1861 #FDM1868">ranimer</rdg>
-          </app> ses victimes,</l>
-          <l n="8">Et pour les <app>
-            <lem wit="#U1857">resaigner galvaniser</lem>
-            <rdg wit="#FDM1861">pressurer ressusciter</rdg>
-            <rdg wit="#FDM1868">ressaigner ressusciter</rdg>
-          </app> leurs corps.</l>
+          <l n="7">Quand même elle saurait
+            <app>
+              <lem wit="#U1857">allonger</lem>
+              <rdg wit="#FDM1861 #FDM1868">ranimer</rdg>
+            </app>
+            ses victimes,</l>
+          <l n="8">Et pour les
+            <app>
+              <lem wit="#U1857">resaigner galvaniser</lem>
+              <rdg wit="#FDM1861">pressurer ressusciter</rdg>
+              <rdg wit="#FDM1868">ressaigner ressusciter</rdg>
+            </app>
+            leurs corps.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
           <l n="9">La Haine est un ivrogne au fond d'une taverne,</l>
@@ -127,3 +160,4 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
     </body>
   </text>
 </TEI>
+<!-- After making up the poem in the source text, save the poem as an individual file. Save the file using the numeric code based on the Editions Table. Add the TEI header from the template file. Replace values in header template as appropriate.-->
