@@ -19,6 +19,10 @@
           <resp>Critical Apparatus</resp>
           <name xml:id="AS">Adam Steffanick</name>
         </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -106,11 +110,9 @@
   <text>
     <body>
       <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attribute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
-      <div type="poem" n="10" rhyme="ababcdcdefefghghijij">
-        <!-- Remove all p elements
-        Add head and title element -->
+      <div type="poem">
         <head>
-          <title>DON JUAN AUX ENFERS</title>
+          <title type="main">DON JUAN AUX ENFERS</title>
         </head>
         <!-- Add lg element with type, subtype, and n attributes
         Add l elements with n attributes -->
@@ -166,7 +168,11 @@
         <lg type="quatrain" n="5">
           <l n="17">Tout droit dans son armure, un grand homme de pierre</l>
           <l n="18">Se tenait à la barre et coupait le flot noir;</l>
-          <l n="19">Mais le calme héros, courbé sur sa rapière,</l>
+          <l n="19">Mais le calme héros, courbé sur sa rapière
+            <app>
+            <lem wit="#U1857"/>
+            <rdg wit="#FDM1861 #FDM1868">,</rdg>
+          </app></l>
           <l n="20">Regardait le sillage et ne daignait rien voir.</l>
         </lg>
       </div>
