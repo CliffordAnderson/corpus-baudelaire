@@ -112,7 +112,7 @@
             <!-- Remove all p elements
             Add head and title element -->
             <head>
-              <title type="main">ABEL ET CAIN</lem></title>
+              <title type="main">ABEL ET CAIN</title>
             </head>
             <!-- Add lg element with type, subtype, and n attributes
             Add l elements with n attributes -->
