@@ -9,12 +9,16 @@
         <respStmt>
           <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
         </respStmt>
         <respStmt>
           <resp>Critical Apparatus</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="TFH">Todd Hughes</name>
+        </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:base="RVR">Ramona V. Romero</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -32,22 +36,6 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -58,31 +46,10 @@
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                    portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
+                    author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                    this is a false imprint, the book actually being published in Brussels
-                    by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                    9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -135,12 +102,16 @@ Online Distributed Proofreading Team.</p>
           </lg>
           <lg type="stanza" subtype="quatrain" n="2">
             <l n="5">Ces monstres disloqués furent jadis des femmes,</l>
-            <l n="6">Eponine ou Laïs!<app>
-              <lem wit="#FDM1861"/>
-              <rdg wit="#FDM1868">—</rdg>
-            </app>Monstres brisés, bossus</l>
+            <l n="6">Éponine ou Laïs!<app>
+                <lem wit="#FDM1861"/>
+                <rdg wit="#FDM1868">—</rdg>
+              </app>Monstres brisés, bossus</l>
             <l n="7">Ou tordus, aimons-les! ce sont encor des âmes.</l>
             <l n="8">Sous des jupons troués et sous de froids tissus</l>
+            <app>
+              <lem wit="#FDM1861"><note place="bottom" anchored="true">18</note></lem>
+              <rdg wit="#FDM1868"/>
+            </app>
           </lg>
           <lg type="stanza" subtype="quatrain" n="3">
             <l n="9">Ils rampent, flagellés par les bises iniques,</l>
@@ -181,41 +152,41 @@ Online Distributed Proofreading Team.</p>
           <lg type="stanza" subtype="quatrain" n="9">
             <l n="33">—Ces yeux sont des puits faits d'un million de larmes,</l>
             <l n="34">Des creusets qu'un métal refroidi pailleta<app>
-              <lem wit="#FDM1861">..</lem>
-              <rdg wit="#FDM1868">...</rdg>
-            </app></l>
+                <lem wit="#FDM1861">..</lem>
+                <rdg wit="#FDM1868">...</rdg>
+              </app></l>
             <l n="35">Ces yeux mystérieux ont d'invincibles charmes</l>
             <l n="36">Pour celui que l'austère Infortune allaita!</l>
           </lg>
         </lg>
-          <lg type="poem" n="2">
-            <head type="main">II</head>
+        <lg type="poem" n="2">
+          <head type="main">II</head>
           <lg type="stanza" subtype="quatrain" n="10">
             <l n="1"><app>
-              <lem wit="#FDM1861">De Frascati défunt</lem>
-              <rdg wit="#FDM1868">De l'ancien Frascati</rdg>
-            </app> Vestale énamourée;</l>
+                <lem wit="#FDM1861">De Frascati défunt</lem>
+                <rdg wit="#FDM1868">De l'ancien Frascati</rdg>
+              </app> Vestale énamourée;</l>
             <l n="2">Prêtresse de Thalie, hélas! dont le souffleur</l>
             <l n="3"><app>
-              <lem wit="#FDM1861">Enterré</lem>
-              <rdg wit="#FDM1868">Défunt, seul,</rdg>
-            </app> sait le nom; célèbre évaporée</l>
+                <lem wit="#FDM1861">Enterré</lem>
+                <rdg wit="#FDM1868">Défunt, seul,</rdg>
+              </app> sait le nom; célèbre évaporée</l>
             <l n="4">Que Tivoli jadis ombragea dans sa fleur,</l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="11">
             <l n="5">Toutes m'enivrent! mais parmi ces êtres frêles</l>
             <l n="6">Il en est qui, faisant de la douleur un miel<app>
-              <lem wit="#FDM1861">.</lem>
-              <rdg wit="#FDM1868">,</rdg>
-            </app></l>
+                <lem wit="#FDM1861">.</lem>
+                <rdg wit="#FDM1868">,</rdg>
+              </app></l>
             <l n="7"><app>
-              <lem wit="#FDM1861"/>
-              <rdg wit="#FDM1868">&lt; &lt;</rdg>
-            </app>Ont dit au Dévouement qui leur prêtait ses ailes:</l>
+                <lem wit="#FDM1861"/>
+                <rdg wit="#FDM1868">&lt; &lt;</rdg>
+              </app>Ont dit au Dévouement qui leur prêtait ses ailes:</l>
             <l n="8">Hippogriffe puissant, mène-moi jusqu'au ciel!<app>
-              <lem wit="#FDM1861"/>
-              <rdg wit="#FDM1868">&gt;&gt;</rdg>
-            </app></l>
+                <lem wit="#FDM1861"/>
+                <rdg wit="#FDM1868">&gt;&gt;</rdg>
+              </app></l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="12">
             <l n="9">L'une, par sa patrie au malheur exercée,</l>
@@ -228,9 +199,9 @@ Online Distributed Proofreading Team.</p>
           <head type="main">III</head>
           <lg type="stanza" subtype="quatrain" n="13">
             <l n="1">Ah! que j'en ai suivi, de ces petites vieilles<app>
-              <lem wit="#FDM1861"/>
-              <rdg wit="#FDM1868">!</rdg>
-            </app></l>
+                <lem wit="#FDM1861"/>
+                <rdg wit="#FDM1868">!</rdg>
+              </app></l>
             <l n="2">Une, entre autres, à l'heure où le soleil tombant</l>
             <l n="3">Ensanglante le ciel de blessures vermeilles,</l>
             <l n="4">Pensive, s'asseyait à l'écart sur un banc,</l>

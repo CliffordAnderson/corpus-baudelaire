@@ -87,7 +87,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem"  subtype="sonnet">
         <head>
-          <title>Alchimie de la douleur</title>
+          <title type="main">Alchimie de la douleur</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">L'un t'éclaire avec son ardeur,</l>
