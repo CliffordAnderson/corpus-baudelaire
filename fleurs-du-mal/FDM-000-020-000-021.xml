@@ -169,7 +169,7 @@
             <app>
               <lem wit="#FDM1861">
                 <choice>
-                  <corr>Quel</orig>
+                  <corr>Quel</corr>
                   <sic>uel</sic>
                 </choice>
                 <note type="editorial" resp="#AS">Verified in the original 1861 print edition that the initial letter "Q" has been left off of the beginning of the first word in the line, "Quel". This is most likely a typesetting error, as there is no such word as "uel".</note>
