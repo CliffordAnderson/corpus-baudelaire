@@ -108,10 +108,6 @@ Online Distributed Proofreading Team.</p>
               </app>Monstres brisés, bossus</l>
             <l n="7">Ou tordus, aimons-les! ce sont encor des âmes.</l>
             <l n="8">Sous des jupons troués et sous de froids tissus</l>
-            <app>
-              <lem wit="#FDM1861"><note place="bottom" anchored="true">18</note></lem>
-              <rdg wit="#FDM1868"/>
-            </app>
           </lg>
           <lg type="stanza" subtype="quatrain" n="3">
             <l n="9">Ils rampent, flagellés par les bises iniques,</l>
@@ -161,7 +157,7 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="poem" n="2">
           <head type="main">II</head>
-          <lg type="stanza" subtype="quatrain" n="10">
+          <lg type="stanza" subtype="quatrain" n="1">
             <l n="1"><app>
                 <lem wit="#FDM1861">De Frascati défunt</lem>
                 <rdg wit="#FDM1868">De l'ancien Frascati</rdg>
@@ -173,22 +169,19 @@ Online Distributed Proofreading Team.</p>
               </app> sait le nom; célèbre évaporée</l>
             <l n="4">Que Tivoli jadis ombragea dans sa fleur,</l>
           </lg>
-          <lg type="stanza" subtype="quatrain" n="11">
+          <lg type="stanza" subtype="quatrain" n="2">
             <l n="5">Toutes m'enivrent! mais parmi ces êtres frêles</l>
-            <l n="6">Il en est qui, faisant de la douleur un miel<app>
-                <lem wit="#FDM1861">.</lem>
-                <rdg wit="#FDM1868">,</rdg>
-              </app></l>
-            <l n="7"><app>
+            <l n="6">Il en est qui, faisant de la douleur un miel,</l>
+            <l n="7">Ont dit au Dévouement qui leur prêtait ses ailes:</l>
+            <l n="8"><app>
                 <lem wit="#FDM1861"/>
-                <rdg wit="#FDM1868">&lt; &lt;</rdg>
-              </app>Ont dit au Dévouement qui leur prêtait ses ailes:</l>
-            <l n="8">Hippogriffe puissant, mène-moi jusqu'au ciel!<app>
+                <rdg wit="#FDM1868">«</rdg>
+              </app>Hippogriffe puissant, mène-moi jusqu'au ciel!<app>
                 <lem wit="#FDM1861"/>
-                <rdg wit="#FDM1868">&gt;&gt;</rdg>
+                <rdg wit="#FDM1868">»</rdg>
               </app></l>
           </lg>
-          <lg type="stanza" subtype="quatrain" n="12">
+          <lg type="stanza" subtype="quatrain" n="3">
             <l n="9">L'une, par sa patrie au malheur exercée,</l>
             <l n="10">L'autre, que son époux surchargea de douleurs,</l>
             <l n="11">L'autre, par son enfant Madone transpercée,</l>
@@ -197,7 +190,7 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="poem" n="3">
           <head type="main">III</head>
-          <lg type="stanza" subtype="quatrain" n="13">
+          <lg type="stanza" subtype="quatrain" n="1">
             <l n="1">Ah! que j'en ai suivi, de ces petites vieilles<app>
                 <lem wit="#FDM1861"/>
                 <rdg wit="#FDM1868">!</rdg>
@@ -206,55 +199,73 @@ Online Distributed Proofreading Team.</p>
             <l n="3">Ensanglante le ciel de blessures vermeilles,</l>
             <l n="4">Pensive, s'asseyait à l'écart sur un banc,</l>
           </lg>
-          <lg type="stanza" subtype="quatrain" n="14">
+          <lg type="stanza" subtype="quatrain" n="2">
             <l n="5">Pour entendre un de ces concerts, riches de cuivre,</l>
             <l n="6">Dont les soldats parfois inondent nos jardins,</l>
             <l n="7">Et qui, dans ces soirs d'or où l'on se sent revivre,</l>
-            <l n="8">Versent quelque héroïsme au coeur des citadins.</l>
+            <l n="8">Versent quelque héroïsme au <choice>
+                <reg>coeur</reg>
+                <orig>cœur</orig>
+              </choice> des citadins.</l>
           </lg>
-          <lg type="stanza" subtype="quatrain" n="15">
+          <lg type="stanza" subtype="quatrain" n="3">
             <l n="9">Celle-là droite encor, fière et sentant la règle,</l>
             <l n="10">Humait avidement ce chant vif et guerrier;</l>
-            <l n="11">Son oeil parfois s'ouvrait comme l'oeil d'un vieil aigle;</l>
+            <l n="11">Son <choice>
+                <orig>œil</orig>
+                <reg>oeil</reg>
+              </choice> parfois s'ouvrait comme <choice>
+                <orig>l'œil</orig>
+                <reg>l'oeil</reg>
+              </choice> d'un vieil aigle;</l>
             <l n="12">Son front de marbre avait l'air fait pour le laurier!</l>
           </lg>
         </lg>
         <lg type="poem" n="4">
           <head type="main">IV</head>
-          <lg type="stanza" subtype="quatrain" n="16">
+          <lg type="stanza" subtype="quatrain" n="1">
             <l n="1">Telles vous cheminez, stoïques et sans plaintes,</l>
             <l n="2">A travers le chaos des vivantes cités,</l>
-            <l n="3">Mères au coeur saignant, courtisanes ou saintes,</l>
+            <l n="3">Mères au <choice>
+                <orig>cœur</orig>
+                <reg>coeur</reg>
+              </choice> saignant, courtisanes ou saintes,</l>
             <l n="4">Dont autrefois les noms par tous étaient cités.</l>
           </lg>
-          <lg type="stanza" subtype="quatrain" n="17">
+          <lg type="stanza" subtype="quatrain" n="2">
             <l n="5">Vous qui fûtes la grâce ou qui fûtes la gloire,</l>
             <l n="6">Nul ne vous reconnaît! un ivrogne incivil</l>
             <l n="7">Vous insulte en passant d'un amour dérisoire;</l>
             <l n="8">Sur vos talons gambade un enfant lâche et vil.</l>
           </lg>
-          <lg type="stanza" subtype="quatrain" n="18">
+          <lg type="stanza" subtype="quatrain" n="3">
             <l n="9">Honteuses d'exister, ombres ratatinées,</l>
             <l n="10">Peureuses, le dos bas, vous côtoyer les murs,</l>
             <l n="11">Et nul ne vous salue, étranges destinées!</l>
             <l n="12">Débris d'humanité pour l'éternité mûrs!</l>
           </lg>
-          <lg type="stanza" subtype="quatrain" n="19">
+          <lg type="stanza" subtype="quatrain" n="4">
             <l n="13">Mais moi, moi qui de loin tendrement vous surveille,</l>
-            <l n="14">L'oeil inquiet, fixé sur vos pas incertains,</l>
+            <l n="14"><choice>
+                <orig>L'œil</orig>
+                <reg>L'oeil</reg>
+              </choice> inquiet, fixé sur vos pas incertains,</l>
             <l n="15">Tout comme si j'étais votre père, ô merveille!</l>
             <l n="16">Je goûte à votre insu des plaisirs clandestins:</l>
           </lg>
-          <lg type="stanza" subtype="quatrain" n="20">
+          <lg type="stanza" subtype="quatrain" n="5">
             <l n="17">Je vois s'épanouir vos passions novices;</l>
             <l n="18">Sombres ou lumineux, je vis vos jours perdus;</l>
-            <l n="19">Mon coeur multiplié jouit de tous vos vices!</l>
+            <l n="19">Mon <choice>
+                <orig>cœur</orig>
+                <reg>coeur</reg>
+              </choice> multiplié jouit de tous vos vices!</l>
             <l n="20">Mon âme resplendit de toutes vos vertus!</l>
           </lg>
-          <lg type="stanza" subtype="quatrain" n="21">
+          <lg type="stanza" subtype="quatrain" n="6">
             <l n="21">Ruines! ma famille! ô cerveaux congénères!</l>
             <l n="22">Je vous fais chaque soir un solennel adieu!</l>
-            <l n="23">Où serez-vous demain, Eves octogénaires,</l>
+            <l n="23">Où serez-vous demain, Èves octogénaires,</l>
             <l n="24">Sur qui pèse la griffe effroyable de Dieu?</l>
           </lg>
         </lg>
