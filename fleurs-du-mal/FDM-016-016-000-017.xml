@@ -117,10 +117,10 @@
           <l n="1">En ces temps merveilleux où la Théologie</l>
           <l n="2">Fleurit avec le plus de sève et d'énergie,</l>
           <l n="3">On raconte qu'un jour un docteur des plus grands,</l>
-          <l n="4">—Après avoir forcé les
+          <l n="4">— Après avoir forcé les
             <choice>
-              <orig>cœur</orig>
-              <reg>coeur</reg>
+              <orig>cœurs</orig>
+              <reg>coeurs</reg>
             </choice>
             indifférents
             <app>
@@ -147,7 +147,12 @@
               <lem wit="#U1857">—</lem>
               <rdg wit="#FDM1861"/>
             </app>
-            Comme un homme monté trop haut, pris de panique,</l>
+            Comme un homme monté trop haut, pris de panique,
+            <app>
+              <lem wit="#U1857"/>
+              <rdg wit="#FDM1868">—</rdg>
+            </app>
+            </l>
           <l n="10">S'écria, transporté d'un orgueil satanique:</l>
           <l n="11">«Jésus, petit Jésus! je t'ai
             <app>
@@ -170,22 +175,33 @@
               <l n="15">Immédiatement sa raison s'en alla.</l>
               <l n="16">L'éclat de ce soleil d'un crêpe se voila;</l>
               <l n="17">Tout le chaos roula dans cette intelligence,</l>
-              <l n="18">Temple autrefois vivant, plein d'ordre et d'opulence.</l>
+              <l n="18">Temple autrefois vivant, plein d'ordre et d'opulence,</l>
               <l n="19">Sous les plafonds duquel tant de pompe avait lui.</l>
               <l n="20">Le silence et la nuit s'installèrent en lui,</l>
               <l n="21">Comme dans un caveau dont la clef est perdue.</l>
               <l n="22">Dès lors il fut semblable aux bêtes de la rue,</l>
-              <l n="23">Et
-                <app>
-                  <lem wit="#U1857"/>
-                  <rdg wit="#FDM1861">,</rdg>
-                </app>
-                quand il s'en allait sans rien voir, à travers</l>
+              <l n="23">Et quand il s'en allait sans rien voir, à travers</l>
               <l n="24">Les champs, sans distinguer les étés des hivers,</l>
               <l n="25">Sale, inutile et laid comme une chose usée,</l>
               <l n="26">Il faisait des enfants la joie et la risée.</l>
             </lg>
           </lem>
+          <rdg wit="#FDM1861">
+            <lg type="stanza" n="2">
+              <l n="15">Immédiatement sa raison s'en alla.</l>
+              <l n="16">L'éclat de ce soleil d'un crêpe se voila;</l>
+              <l n="17">Tout le chaos roula dans cette intelligence,</l>
+              <l n="18">Temple autrefois vivant, plein d'ordre et d'opulence,</l>
+              <l n="19">Sous les plafonds duquel tant de pompe avait lui.</l>
+              <l n="20">Le silence et la nuit s'installèrent en lui,</l>
+              <l n="21">Comme dans un caveau dont la clef est perdue.</l>
+              <l n="22">Dès lors il fut semblable aux bêtes de la rue,</l>
+              <l n="23">Et, quand il s'en allait sans rien voir, à travers</l>
+              <l n="24">Les champs, sans distinguer les étés des hivers,</l>
+              <l n="25">Sale, inutile et laid comme une chose usée,</l>
+              <l n="26">Il faisait des enfants la joie et la risée.</l>
+            </lg>
+          </rdg>
           <rdg wit="#FDM1868">
             <lg type="stanza" n="2">
               <l n="15">Immédiatement sa raison s'en alla.</l>
@@ -194,9 +210,9 @@
               <l n="18">Temple autrefois vivant, plein d'ordre et d'opulence.</l>
               <l n="19">Sous les plafonds duquel tant de pompe avait lui.</l>
               <l n="20">Le silence et la nuit s'installèrent en lui,</l>
+              <l n="21">Comme dans un caveau dont la clef est perdue.</l>
             </lg>
             <lg type="stanza" n="3">
-              <l n="21">Comme dans un caveau dont la clef est perdue.</l>
               <l n="22">Dès lors il fut semblable aux bêtes de la rue,</l>
               <l n="23">Et, quand il s'en allait sans rien voir, à travers</l>
               <l n="24">Les champs, sans distinguer les étés des hivers,</l>
