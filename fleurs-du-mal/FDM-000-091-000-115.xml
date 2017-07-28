@@ -171,17 +171,14 @@ Online Distributed Proofreading Team.</p>
           </lg>
           <lg type="stanza" subtype="quatrain" n="2">
             <l n="5">Toutes m'enivrent! mais parmi ces êtres frêles</l>
-            <l n="6">Il en est qui, faisant de la douleur un miel<app>
-                <lem wit="#FDM1861">.</lem>
-                <rdg wit="#FDM1868">,</rdg>
-              </app></l>
-            <l n="7"><app>
+            <l n="6">Il en est qui, faisant de la douleur un miel,</l>
+            <l n="7">Ont dit au Dévouement qui leur prêtait ses ailes:</l>
+            <l n="8"><app>
                 <lem wit="#FDM1861"/>
-                <rdg wit="#FDM1868">&lt; &lt;</rdg>
-              </app>Ont dit au Dévouement qui leur prêtait ses ailes:</l>
-            <l n="8">Hippogriffe puissant, mène-moi jusqu'au ciel!<app>
+                <rdg wit="#FDM1868">«</rdg>
+              </app>Hippogriffe puissant, mène-moi jusqu'au ciel!<app>
                 <lem wit="#FDM1861"/>
-                <rdg wit="#FDM1868">&gt;&gt;</rdg>
+                <rdg wit="#FDM1868">»</rdg>
               </app></l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="3">
@@ -206,12 +203,21 @@ Online Distributed Proofreading Team.</p>
             <l n="5">Pour entendre un de ces concerts, riches de cuivre,</l>
             <l n="6">Dont les soldats parfois inondent nos jardins,</l>
             <l n="7">Et qui, dans ces soirs d'or où l'on se sent revivre,</l>
-            <l n="8">Versent quelque héroïsme au coeur des citadins.</l>
+            <l n="8">Versent quelque héroïsme au <choice>
+                <reg>coeur</reg>
+                <orig>cœur</orig>
+              </choice> des citadins.</l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="3">
             <l n="9">Celle-là droite encor, fière et sentant la règle,</l>
             <l n="10">Humait avidement ce chant vif et guerrier;</l>
-            <l n="11">Son oeil parfois s'ouvrait comme l'oeil d'un vieil aigle;</l>
+            <l n="11">Son <choice>
+                <orig>œil</orig>
+                <reg>oeil</reg>
+              </choice> parfois s'ouvrait comme <choice>
+                <orig>l'œil</orig>
+                <reg>l'oeil</reg>
+              </choice> d'un vieil aigle;</l>
             <l n="12">Son front de marbre avait l'air fait pour le laurier!</l>
           </lg>
         </lg>
@@ -220,7 +226,10 @@ Online Distributed Proofreading Team.</p>
           <lg type="stanza" subtype="quatrain" n="1">
             <l n="1">Telles vous cheminez, stoïques et sans plaintes,</l>
             <l n="2">A travers le chaos des vivantes cités,</l>
-            <l n="3">Mères au coeur saignant, courtisanes ou saintes,</l>
+            <l n="3">Mères au <choice>
+                <orig>cœur</orig>
+                <reg>coeur</reg>
+              </choice> saignant, courtisanes ou saintes,</l>
             <l n="4">Dont autrefois les noms par tous étaient cités.</l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="2">
@@ -237,20 +246,26 @@ Online Distributed Proofreading Team.</p>
           </lg>
           <lg type="stanza" subtype="quatrain" n="4">
             <l n="13">Mais moi, moi qui de loin tendrement vous surveille,</l>
-            <l n="14">L'oeil inquiet, fixé sur vos pas incertains,</l>
+            <l n="14"><choice>
+                <orig>L'œil</orig>
+                <reg>L'oeil</reg>
+              </choice> inquiet, fixé sur vos pas incertains,</l>
             <l n="15">Tout comme si j'étais votre père, ô merveille!</l>
             <l n="16">Je goûte à votre insu des plaisirs clandestins:</l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="5">
             <l n="17">Je vois s'épanouir vos passions novices;</l>
             <l n="18">Sombres ou lumineux, je vis vos jours perdus;</l>
-            <l n="19">Mon coeur multiplié jouit de tous vos vices!</l>
+            <l n="19">Mon <choice>
+                <orig>cœur</orig>
+                <reg>coeur</reg>
+              </choice> multiplié jouit de tous vos vices!</l>
             <l n="20">Mon âme resplendit de toutes vos vertus!</l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="6">
             <l n="21">Ruines! ma famille! ô cerveaux congénères!</l>
             <l n="22">Je vous fais chaque soir un solennel adieu!</l>
-            <l n="23">Où serez-vous demain, Eves octogénaires,</l>
+            <l n="23">Où serez-vous demain, Èves octogénaires,</l>
             <l n="24">Sur qui pèse la griffe effroyable de Dieu?</l>
           </lg>
         </lg>
