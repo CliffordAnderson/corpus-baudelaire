@@ -109,7 +109,10 @@ Online Distributed Proofreading Team.</p>
         <lg type="stanza" subtype="quatrain" n="3">
           <l n="9">Les retentissantes couleurs</l>
           <l n="10">Dont tu parsèmes tes toilettes</l>
-          <l n="11">Jettent dans l'esprit des poètes</l>
+          <l n="11">Jettent dans l'esprit des <app>
+              <lem wit="#U1857">poètes</lem>
+              <rdg wit="#LE1866">poëtes</rdg>
+            </app></l>
           <l n="12">L'image d'un ballet de fleurs.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="4">
@@ -121,20 +124,38 @@ Online Distributed Proofreading Team.</p>
         <lg type="stanza" subtype="quatrain" n="5">
           <l n="17">Quelquefois dans un beau jardin,</l>
           <l n="18">Où je traînais mon atonie,</l>
-          <l n="19">J'ai senti comme une ironie</l>
+          <l n="19">J'ai senti<app>
+              <lem wit="#U1857"/>
+              <rdg wit="#LE1866">,</rdg>
+            </app> comme une ironie</l>
           <l n="20">Le soleil déchirer mon sein;</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="6">
           <l n="21">Et le printemps et la verdure</l>
-          <l n="22">Ont tant humilié mon coeur</l>
+          <l n="22">Ont tant humilié mon <choice>
+              <orig>cœur</orig>
+              <reg>coeur</reg>
+            </choice><app>
+              <lem wit="#U1857"/>
+              <rdg wit="#LE1866">,</rdg>
+            </app></l>
           <l n="23">Que j'ai puni sur une fleur</l>
           <l n="24">L'insolence de la nature.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="7">
-          <l n="25">Ainsi, je voudrais, une nuit,</l>
+          <l n="25">Ainsi<app>
+              <lem wit="#U1857">,</lem>
+              <rdg wit="#LE1866"/>
+            </app> je voudrais, une nuit,</l>
           <l n="26">Quand l'heure des voluptés sonne,</l>
-          <l n="27">Vers les trésors de ta personne</l>
-          <l n="28">Comme un lâche ramper sans bruit,</l>
+          <l n="27">Vers les trésors de ta personne<app>
+              <lem wit="#U1857"/>
+              <rdg wit="#LE1866">,</rdg>
+            </app></l>
+          <l n="28">Comme un lâche<app>
+              <lem wit="#U1857"/>
+              <rdg wit="#LE1866">,</rdg>
+            </app> ramper sans bruit,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="8">
           <l n="29">Pour châtier ta chair joyeuse,</l>
@@ -151,13 +172,13 @@ Online Distributed Proofreading Team.</p>
               <rdg wit="#LE1866">!<note place="bottom" anchored="true" n="1"><p>(1) Les juges ont
                     cru découvrir un sens à la fois sanguinaire et obscène dans les deux dernières
                     stances. La gravité du Recueil excluait de pareilles <hi rend="italics">
-                      plaisanteries </hi> Mais venin significant spleen ou mélancolie, était une
-                    idée trop simple pour des criminalistes. Que leur interprétation syphilitique
-                    leur resté sur la conscience, </p>
-                  <p>(Note de l'<hi rend="italics">éditeur</hi><choice>
-                      <sic>,</sic>
-                      <corr>)</corr>
-                    </choice></p>
+                      plaisanteries</hi>. Mais <hi rend="italics">venin</hi> significant spleen ou
+                    mélancolie, était une idée trop simple pour des criminalistes.</p>
+                  <p>Que leur interprétation syphilitique leur resté sur la conscience, </p>
+                  <p><hi rend="italics">(Note de l'éditeur<choice>
+                        <sic>,</sic>
+                        <corr>)</corr>
+                      </choice></hi></p>
                 </note></rdg>
             </app></l>
         </lg>
