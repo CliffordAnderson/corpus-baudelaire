@@ -18,11 +18,9 @@
         <respStmt>
           <resp>Critical Apparatus</resp>
           <name ref="#ZB">Zora Breeding</name>
-        </respStmt>
-        <respStmt>
-          <resp>Critical Apparatus</resp>
           <name xml:id="AS">Adam Steffanick</name>
         </respStmt>
+        <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
         <publisher>Jean and Alexander Heard Library</publisher>
@@ -34,10 +32,15 @@
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
-        <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
         <idno>FDM-000-020-000-021</idno>
       </publicationStmt>
       <sourceDesc>
+        <!-- create listWit in sourceDesc with the different editions and their bib data
+        1. 1857 Unexpurgated xml:id="U1857"
+        2. 1861 2nd edition censored xml:id="FDM1861"
+        3. 1866 Les Epaves xml:id="LE1866"
+        4. 1868 3rd edition - posthumous xml:id="FDM1868"
+        -->
         <listWit>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
@@ -83,8 +86,8 @@
       </sourceDesc>
     </fileDesc>
   </teiHeader>
-  <text>
   <!-- TEI header ends, text section begins... -->
+  <text>
     <body>
       <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attribute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
       <div type="poem">
@@ -108,67 +111,79 @@
           <l n="7">Et charmer les loisirs d'un pontife ou d'un prince.</l>
         </lg>
         <lg type="stanza" n="2">
-          <l n="8">—Aussi, vois ce souris fin et voluptueux</l>
-          <l n="9">Où la <app>
-            <lem wit="#FDM1861">Fatuité</lem>
-            <rdg wit="#FDM1868">fatuité</rdg>
-          </app> promène son extase;</l>
+          <l n="8">— Aussi, vois ce souris fin et voluptueux</l>
+          <l n="9">Où la
+            <app>
+              <lem wit="#FDM1861">Fatuité</lem>
+              <rdg wit="#FDM1868">fatuité</rdg>
+            </app>
+            promène son extase;</l>
           <l n="10">Ce long regard sournois, langoureux et moqueur;</l>
           <l n="11">Ce visage mignard, tout encadré de gaze,</l>
           <l n="12">Dont chaque trait nous dit avec un air vainqueur:</l>
-          <l n="13">« La Volupté m'appelle et l'<app>
-            <lem wit="#FDM1861">amour</lem>
-            <rdg wit="#FDM1868">Amour</rdg>
-          </app> me couronne! »</l>
+          <l n="13">« La Volupté m'appelle et l'
+            <app>
+              <lem wit="#FDM1861">amour</lem>
+              <rdg wit="#FDM1868">Amour</rdg>
+            </app>
+            me couronne! »</l>
           <l n="14">A cet être doué de tant de majesté</l>
           <l n="15">Vois quel charme excitant la gentillesse donne!</l>
-          <l n="16">Approchons, et tournons autour de sa beauté. </l>
+          <l n="16">Approchons, et tournons autour de sa beauté.</l>
         </lg>
         <lg type="stanza" n="3">
           <l n="17">O blasphème de l'art! ô surprise fatale!</l>
           <l n="18">La femme au corps divin, promettant le bonheur,</l>
-          <l n="19">Par le haut se termine en monstre bicéphale! </l>
+          <l n="19">Par le haut se termine en monstre bicéphale!</l>
         </lg>
         <lg type="stanza" n="4">
-          <l n="20"><app>
-            <lem wit="#FDM1861">—</lem>
-            <rdg wit="#FDM1868"/>
-          </app>Mais non! <app>
-            <lem wit="#FDM1861">ce</lem>
-            <rdg wit="#FDM1868">Ce</rdg>
-          </app> n'est qu'un masque, un décor suborneur,</l>
+          <l n="20">
+            <app>
+              <lem wit="#FDM1861">—</lem>
+              <rdg wit="#FDM1868"/>
+            </app>
+            Mais non!
+            <app>
+              <lem wit="#FDM1861">ce</lem>
+              <rdg wit="#FDM1868">Ce</rdg>
+            </app>
+            n'est qu'un masque, un décor suborneur,</l>
           <l n="21">Ce visage éclairé d'une exquise grimace,</l>
           <l n="22">Et, regarde, voici, crispée atrocement,</l>
           <l n="23">La véritable tête, et la sincère face</l>
           <l n="24">Renversée à l'abri de la face qui ment.</l>
-          <l n="25"><app>
-            <lem wit="#FDM1861"/>
-            <rdg wit="#FDM1868">—</rdg>
-          </app>Pauvre grande beauté! le magnifique fleuve</l>
+          <l n="25">
+            <app>
+              <lem wit="#FDM1861"/>
+              <rdg wit="#FDM1868">—</rdg>
+            </app>
+            Pauvre grande beauté! le magnifique fleuve</l>
           <l n="26">De tes pleurs aboutit dans mon cœur soucieux;</l>
           <l n="27">Ton mensonge m'enivre, et mon âme s'abreuve</l>
-          <l n="28">Aux flots que la Douleur fait jaillir de tes yeux! </l>
+          <l n="28">Aux flots que la Douleur fait jaillir de tes yeux!</l>
         </lg>
         <lg type="stanza" n="5">
-          <l n="29">—Mais pourquoi pleure-t-elle? Elle, beauté parfaite</l>
+          <l n="29">— Mais pourquoi pleure-t-elle? Elle, beauté parfaite</l>
           <l n="30">Qui mettrait à ses pieds le genre humain vaincu,</l>
-          <l n="31"><app>
-            <lem wit="#FDM1861"><sic>uel</sic>
-              <note type="editorial" resp="#ZB">
-                The initial letter "Q" has been left off of the beginning of the first word in the line, "quel". 
-                This is most likely a typesetting error, as there is no such word as "uel". 
-              </note></lem>
-            <rdg wit="#FDM1868">Quel</rdg>
-            <!--The pdf version of the 1961 lacks a beginning Q for this word. Perhaps a check of the 
-                     print is needed to verify typographical error --> 
-          </app> mal mystérieux ronge son flanc d'athlète? </l>
+          <l n="31">
+            <app>
+              <lem wit="#FDM1861">
+                <choice>
+                  <corr>Quel</corr>
+                  <sic>uel</sic>
+                </choice>
+                <note type="editorial" resp="#AS">Verified in the original 1861 print edition that the initial letter "Q" has been left off of the beginning of the first word in the line, "Quel". This is most likely a typesetting error, as there is no such word as "uel".</note>
+              </lem>
+              <rdg wit="#FDM1868">Quel</rdg>
+            </app>
+            mal mystérieux ronge son flanc d'athlète?</l>
         </lg>
         <lg type="stanza" n="6">
-          <l n="32">--Elle pleure, insensé, parce qu'elle a vécu!</l>
+          <l n="32">— Elle pleure, insensé, parce qu'elle a vécu!</l>
           <l n="33">Et parce qu'elle vit! Mais ce qu'elle déplore</l>
           <l n="34">Surtout, ce qui la fait frémir jusqu'aux genoux,</l>
           <l n="35">C'est que demain, hélas! il faudra vivre encore!</l>
-          <l n="36">Demain, après-demain et toujours!--comme nous!</l>
+          <l n="36">Demain, après-demain et toujours! — comme nous!</l>
         </lg>
       </div>
     </body>
