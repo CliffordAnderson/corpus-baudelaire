@@ -12,8 +12,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <name xml:id="RP">Rebecca Panter</name>
         </respStmt>
         <respStmt>
-        <resp>Critical Apparatus</resp>
-        <name xml:id="SS">Sara Sterkenburg</name>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="SS">Sara Sterkenburg</name>
+        </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -41,11 +45,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <pubPlace>Amsterdam</pubPlace>
                   <publisher>À L'Enseigne du Coq</publisher>
                   <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                                        this is a false imprint, the book actually being published in Brussels
-                                        by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                                        9-55</note>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre), this is a
+                    false imprint, the book actually being published in Brussels by
+                    Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p. 9-55</note>
                   <note>With a frontispeice etching by Félicien Rops</note>
                 </imprint>
                 <extent>163 p.</extent>
@@ -81,10 +84,27 @@ Online Distributed Proofreading Team.</p>
           <l n="4">(Fût-ce de simples omelettes!)</l>
         </lg>
         <lg type="quatrain" n="2">
-          <l n="5">Vieux Pharaon, ô Monselet!</l>
+          <l n="5">Vieux Pharaon, ô Monselet!<note n="1" anchored="true" place="bottom">
+              <p>La malice est cousine de fil blanc; tout le monde sait que M. Monselet fait
+                profession d'aimer à la rage le rose et le gal. —Un jour M. Monselet reprochait à M.
+                Baudelaire d'avoir écrit ce vers abomnable, à propos d'un perdu dont les oiseaux ont
+                crevé le ventre :</p>
+              <p>Ses intestins pesants lui coulaient sur les cuisses.</p>
+              <!--the above paragraph is indented and in smaller text from the rest of the note, as if it were a block quote -->
+              <p>« Mais, dit le poëte impatienté, je ne pouvais pas faire autrement. Le sujet
+                voulait cela. Qu'auriez-vous préféré à cette image? — Une rose ! » répondit M.
+                Monselet.</p>
+              <p>Cependant il ne faudrait pas croire que l'indispensable mélancolie ne perce pas de
+                temps en temps sous ce vernis anacréontique. Nous avons vu récemment une petite
+                composition de lui, où, se reprochant d’avoir rebuté une pauvresse, le poëte se met
+                à sa recherche, et ne se couche que tout triste de ne l’avoir pu retrouver. Cette
+                pièce est d’un homme vraiment sensible, même à jeun.</p>
+              <p>Regrettons que M. Monselet ne cède pas plus souvent à son tempérament lyrique,
+                qu’une gaieté, tant soit peu artificielle, a trop souvent contrarié. </p>
+            </note></l>
           <l n="6">Devant cette enseigne imprévue,</l>
-          <l n="7">J'ai rêvé de vous: À la vue</l>
-          <l n="8">Du Cimetière, Estaminet!</l>
+          <l n="7">J'ai rêvé de vous: <emph rend="italics">À la vue</emph></l>
+          <l n="8"><emph rend="italics">Du Cimetière, Estaminet!</emph></l>
         </lg>
       </div>
     </body>
