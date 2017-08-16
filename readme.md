@@ -1,6 +1,6 @@
-##Digital Corpus Baudelaire
+## Digital Corpus Baudelaire
 
-###An experiment in collaborative text editing
+### An experiment in collaborative text editing
 
 Interested in learning to encode digital texts in [TEI](http://www.tei-c.org/index.xml)? Want to understand the latest collaboration tools for digital scholarship? Would you like to join a fun and light-hearted group of digital humanists and librarians? Then join us as we markup Charles Baudelaire's corpus in XML! 
 

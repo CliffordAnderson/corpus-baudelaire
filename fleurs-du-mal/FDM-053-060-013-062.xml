@@ -234,7 +234,10 @@
           <l n="25">Adde nunc<app>
               <lem wit="#U1857">vires</lem>
               <rdg wit="#LE1866">
-                <sic>viris</sic>
+               <choice> 
+                 <sic>viris</sic>
+                 <corr>vires</corr>
+                </choice>
                 <note type="editorial" resp="#RVR">The use of viris in the Les Epaves edition
                   appears to be a typographical error. In all other editions vires is used, which is
                   the nominative plural form of the third declension noun vis, meaning power or

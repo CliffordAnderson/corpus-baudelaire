@@ -12,6 +12,10 @@
           <resp>Critical Apparatus</resp>
           <name xml:id="SS">Sara Sterkenburg</name>
         </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -97,10 +101,10 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem" subtype="sonnet">
         <head>
-          <title>LE REVENANT</title>
-        </head>
+          <title type="main">LE REVENANT</title>
+        </head>        
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">Comme les anges à l'œil fauve,</l>
+          <l n="1">Comme les anges à l'<choice><orig>œil</orig><reg>oeil</reg></choice> fauve</l>
           <l n="2">Je reviendrai dans ton alcôve</l>
           <l n="3">Et vers toi glisserai sans bruit</l>
           <l n="4">Avec les ombres de la nuit;</l>

@@ -6,12 +6,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>A Une Dame Creole</title>
+        <title rend="A UNE DAME CREOLE">A UNE DAME CRÉOLE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="RVR">Ramona V. Romero</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name ref="#RVR"/>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -55,31 +59,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                              portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
+                    author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -117,19 +100,28 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="sonnet">
         <head>
-          <title>A UNE DAME CREOLE</title>
+          <title type="main">A UNE DAME CRÉOLE</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Au pays parfumé que le soleil caresse,</l>
-          <l n="2">J'ai connu sous un dais d'arbres tout empourprés</l>
+          <l n="2">J'ai connu<app>
+              <lem wit="#U1857"/>
+              <rdg wit="#FDM1861 #FDM1868">,</rdg>
+            </app> sous un dais d'arbres <app>
+              <lem wit="#U1857">verts et dorés</lem>
+              <rdg wit="#FDM1861 #FDM1868">tout empourprés</rdg>
+            </app></l>
           <l n="3">Et de palmiers, d'où pleut sur les yeux la paresse,</l>
           <l n="4">Une dame créole aux charmes ignorés.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Son teint est pâle et chaud; la brune enchanteresse</l>
-          <l n="6">A dans le col des airs noblement maniérés;</l>
+          <l n="6">A dans le <app>
+              <lem wit="#U1857">cou</lem>
+              <rdg wit="#FDM1868">col</rdg>
+            </app> des airs noblement maniérés;</l>
           <l n="7">Grande et svelte en marchant comme une chasseresse,</l>
           <l n="8">Son sourire est tranquille et ses yeux assurés.</l>
         </lg>
@@ -140,7 +132,13 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
           <l n="12">Vous feriez, à l'abri des ombreuses retraites,</l>
-          <l n="13">Germer mille sonnets dans le coeur des poètes,</l>
+          <l n="13">Germer mille sonnets dans le <choice>
+              <orig>cœur</orig>
+              <reg>coeur</reg>
+            </choice> des <app>
+              <lem wit="#U1857">poètes</lem>
+              <rdg wit="#FDM1861 #FDM1868">poëtes,</rdg>
+            </app>,</l>
           <l n="14">Que vos grands yeux rendraient plus soumis que vos noirs.</l>
         </lg>
       </div>

@@ -9,7 +9,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <title rend="LE CRÉPUSCLULE DU MATIN">CRÉPUSCULE DU MATIN</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic markup</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="SW">Steven Wenz</name>
         </respStmt>
@@ -17,6 +17,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <resp>Critical Apparatus</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="TMF">Timothy Foster</name>
+        </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -60,8 +64,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
+                    author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
               </monogr>
@@ -103,48 +107,50 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>LE CRÉPUSCULE DU MATIN</title>
+          <title type="main">LE CRÉPUSCULE DU MATIN</title>
         </head>
-        <lg type="stanza" n="1">
+        <lg type="stanza" subtype="couplet" n="1">
           <l n="1">La diane chantait dans les cours des casernes,</l>
           <l n="2">Et le vent du matin soufflait sur les lanternes.</l>
         </lg>
         <lg type="stanza" n="2">
-          <l n="1">C'était l'heure où l'essaim des rêves malfaisants</l>
-          <l n="2">Tord sur leurs oreillers les bruns adolescents;</l>
-          <l n="3">Où, comme un œil sanglant qui palpite et qui bouge,</l>
-          <l n="4">La lampe sur le jour fait une tache rouge;</l>
-          <l n="5">Où l'âme, sous le poids du corps revêche et lourd,</l>
-          <l n="6">Imite les combats de la lampe et du jour.</l>
-          <l n="7">Comme un visage en pleurs que les brises essuient,</l>
-          <l n="8">L'air est plein du frisson des choses qui s'enfuient,</l>
-          <l n="9">Et l'homme est las d'écrire et la femme d'aimer.</l>
+          <l n="3">C'était l'heure où l'essaim des rêves malfaisants</l>
+          <l n="4">Tord sur leurs oreillers les bruns adolescents;</l>
+          <l n="5">Où, comme un <choice>
+              <orig>œil</orig>
+              <reg>oeil</reg>
+            </choice> sanglant qui palpite et qui bouge,</l>
+          <l n="6">La lampe sur le jour fait une tache rouge;</l>
+          <l n="7">Où l'âme, sous le poids du corps revêche et lourd,</l>
+          <l n="8">Imite les combats de la lampe et du jour.</l>
+          <l n="9">Comme un visage en pleurs que les brises essuient,</l>
+          <l n="10">L'air est plein du frisson des choses qui s'enfuient,</l>
+          <l n="11">Et l'homme est las d'écrire et la femme d'aimer.</l>
         </lg>
         <lg type="stanza" n="3">
-          <l n="10">Les maisons çà et là commençaient à fumer.</l>
-          <l n="11">Les femmes de plaisir, la paupière livide,</l>
-          <l n="12">Bouche ouverte, dormaient de leur sommeil stupide;</l>
-          <l n="13">Les pauvresses, traînant leurs seins maigres et froids,</l>
-          <l n="14">Soufflaient sur leurs tisons et soufflaient sur leurs doigts.</l>
-          <l n="15">C'était l'heure où parmi le froid et la lésine</l>
-          <l n="16">S'aggravent les douleurs des femmes en gésine;</l>
-          <l n="17">Comme un sanglot coupé par un sang écumeux</l>
-          <l n="18">Le chant du coq au loin déchirait l'air brumeux
-          <app>
+          <l n="12">Les maisons çà et là commençaient à fumer.</l>
+          <l n="13">Les femmes de plaisir, la paupière livide,</l>
+          <l n="14">Bouche ouverte, dormaient de leur sommeil stupide;</l>
+          <l n="15">Les pauvresses, traînant leurs seins maigres et froids,</l>
+          <l n="16">Soufflaient sur leurs tisons et soufflaient sur leurs doigts.</l>
+          <l n="17">C'était l'heure où parmi le froid et la lésine</l>
+          <l n="18">S'aggravent les douleurs des femmes en gésine;</l>
+          <l n="19">Comme un sanglot coupé par un sang écumeux</l>
+          <l n="20">Le chant du coq au loin déchirait l'air brumeux <app>
               <lem wit="#U1857">,</lem>
               <rdg wit="#FDM1861 #FDM1868">;</rdg>
             </app>
           </l>
-          <l n="19">Une mer de brouillards baignait les édifices,</l>
-          <l n="20">Et les agonisants dans le fond des hospices</l>
-          <l n="21">Poussaient leur dernier râle en hoquets inégaux.</l>
-          <l n="22">Les débauchés rentraient, brisés par leurs travaux.</l>
+          <l n="21">Une mer de brouillards baignait les édifices,</l>
+          <l n="22">Et les agonisants dans le fond des hospices</l>
+          <l n="23">Poussaient leur dernier râle en hoquets inégaux.</l>
+          <l n="24">Les débauchés rentraient, brisés par leurs travaux.</l>
         </lg>
-        <lg type="stanza" n="4">
-          <l n="23">L'aurore grelottante en robe rose et verte</l>
-          <l n="24">S'avançait lentement sur la Seine déserte,</l>
-          <l n="25">Et le sombre Paris, en se frottant les yeux,</l>
-          <l n="26">Empoignait ses outils,<app>
+        <lg type="stanza" subtype="quatrain" n="4">
+          <l n="25">L'aurore grelottante en robe rose et verte</l>
+          <l n="26">S'avançait lentement sur la Seine déserte,</l>
+          <l n="27">Et le sombre Paris, en se frottant les yeux,</l>
+          <l n="28">Empoignait ses outils,<app>
               <lem wit="#U1857"> — </lem>
               <rdg wit="#FDM1861 #FDM1868"> </rdg>
             </app>vieillard laborieux<app>
