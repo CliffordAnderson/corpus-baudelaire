@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Requisite XML information. Encoding, namespace, and schema info. -->
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!-- TEI Header begins here... -->
@@ -18,6 +17,10 @@
         <respStmt>
           <resp>Critical Apparatus</resp>
           <name xml:id="AS">Adam Steffanick</name>
+        </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -68,7 +71,8 @@
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
+                    author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
               </monogr>
@@ -102,24 +106,17 @@
       </sourceDesc>
     </fileDesc>
   </teiHeader>
-  <!-- TEI header ends, text section begins... -->
   <text>
     <body>
-      <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attribute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
       <div type="poem" subtype="sonnet">
-        <!-- Remove all p elements
-        Add head and title element -->
         <head>
           <title type="main">L'AUBE SPIRITUELLE</title>
         </head>
-        <!-- Add lg element with type, subtype, and n attributes
-        Add l elements with n attributes -->
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Quand chez les débauchés l'aube blanche et vermeille</l>
           <l n="2">Entre en société de l'Idéal rongeur,</l>
           <l n="3">Par l'opération d'un mystère vengeur</l>
-          <l n="4">Dans la brute assoupie un ange se réveille
-            <app>
+          <l n="4">Dans la brute assoupie un ange se réveille <app>
               <lem wit="#U1857">;</lem>
               <rdg wit="#FDM1861 #FDM1868">.</rdg>
             </app>
@@ -129,40 +126,34 @@
           <l n="5">
             <app>
               <lem wit="#U1857">— </lem>
-              <rdg wit="#FDM1861 #FDM1868" />
-            </app>
-          Des Cieux Spirituels l'inaccessible azur,</l>
+              <rdg wit="#FDM1861 #FDM1868"/>
+            </app> Des Cieux Spirituels l'inaccessible azur,</l>
           <l n="6">Pour l'homme terrassé qui rêve encore et souffre,</l>
           <l n="7">S'ouvre et s'enfonce avec l'attirance du gouffre.</l>
           <l n="8">Ainsi, chère Déesse, Être lucide et pur,</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
-          <l n="9">Sur les débris fumeux des stupides orgies
-            <app>
+          <l n="9">Sur les débris fumeux des stupides orgies <app>
               <lem wit="#U1857">,</lem>
-              <rdg wit="#FDM1861 #FDM1868" />
+              <rdg wit="#FDM1861 #FDM1868"/>
             </app>
           </l>
           <l n="10">Ton souvenir plus clair, plus rose, plus charmant,</l>
           <l n="11">A mes yeux agrandis voltige incessamment.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
-          <l n="12">Le soleil a noirci 
-            <app>
+          <l n="12">Le soleil a noirci <app>
               <lem wit="#U1857">les flammes</lem>
               <rdg wit="#FDM1861 #FDM1868">la flamme</rdg>
-            </app>
-          des bougies;</l>
+            </app> des bougies;</l>
           <l n="13">
             <app>
               <lem wit="#U1857">— </lem>
-              <rdg wit="#FDM1861 #FDM1868" />
-            </app>
-          Ainsi, toujours vainqueur, ton fantôme est pareil,</l>
+              <rdg wit="#FDM1861 #FDM1868"/>
+            </app> Ainsi, toujours vainqueur, ton fantôme est pareil,</l>
           <l n="14">Ame resplendissante, à l'immortel soleil!</l>
         </lg>
       </div>
     </body>
   </text>
 </TEI>
-<!-- After making up the poem in the source text, save the poem as an individual file. Save the file using the numeric code based on the Editions Table. Add the TEI header from the template file. Replace values in header template as appropriate.-->
