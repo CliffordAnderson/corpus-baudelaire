@@ -106,7 +106,7 @@
   <text>
     <body>
       <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attribute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
-       <div>
+      <div>
         <app>
           <lem wit="#U1857">
             <div type="poem">
