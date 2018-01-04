@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
         <title type="main">SUR LES DÉBUTS D'AMINA BOSCHETTI</title>
-        <title type="sub">AU THEATRE DE LA MONNAIE, A BRUXELLES</title>
+        
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Basic Markup</resp>
@@ -17,6 +17,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <respStmt>
           <resp>Critical Apparatus</resp>
           <name xml:id="TFH">Todd Hughes</name>
+        </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -72,33 +76,33 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="sonnet">
         <head>
-          <title type="main">SUR LES DÉBUTS D'AMINA BOSCHETTI</title>
+          <title type="main">SUR LES DEBUTS D'AMINA BOSCHETTI</title>
           <title type="sub">AU THEATRE DE LA MONNAIE, A BRUXELLES</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Amina bondit, — fuit, — puis voltige et sourit;</l>
           <l n="2">Le Welche dit: «Tout ça, pour moi, c'est du prâcrit;</l>
           <l n="3">Je ne connais, en fait de nymphes bocagères,</l>
-          <l n="4">Que celle de <hi rend="italic">Montagne-aux-Herbes-potagères</hi>.»</l>
-          <note anchored="true" place="bottom">13</note>
+          <l n="4">Que celle de <emph rend="italics">Montagne-aux-Herbes-potagères</emph>.»</l>
+          
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="1">Du bout de son pied fin et de son <choice><orig>œil</orig><reg>oeil</reg></choice> qui rit,</l>
-          <l n="2">Amina verse à flots le délire et l'esprit;</l>
-          <l n="3">Le Welche dit: «Fuyez, délices mensongères!</l>
-          <l n="4">Mon épouse n'a pas ces allures légères.»</l>
+          <l n="5">Du bout de son pied fin et de son <choice><orig>œil</orig><reg>oeil</reg></choice> qui rit,</l>
+          <l n="6">Amina verse à flots le délire et l'esprit;</l>
+          <l n="7">Le Welche dit: «Fuyez, délices mensongères!</l>
+          <l n="8">Mon épouse n'a pas ces allures légères.»</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
-          <l n="1">Vous ignorez, sylphide au jarret triomphant,</l>
-          <l n="2">Qui voulez enseigner la walse à l'éléphant,</l>
-          <l n="3">Au hibou la gaité, le rire à la cigogne,</l>
+          <l n="9">Vous ignorez, sylphide au jarret triomphant,</l>
+          <l n="10">Qui voulez enseigner la walse à l'éléphant,</l>
+          <l n="11">Au hibou la gaité, le rire à la cigogne,</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
-          <l n="1">Que sur la grâce en feu le Welche dit: «Haro!»</l>
-          <l n="2">Et que, le doux Bacchus lui versant du bourgogne,</l>
-          <l n="3">Le monstre répondrait: «J'aime mieux le faro!»</l>
+          <l n="12">Que sur la grâce en feu le Welche dit: «Haro!»</l>
+          <l n="13">Et que, le doux Bacchus lui versant du bourgogne,</l>
+          <l n="14">Le monstre répondrait: «J'aime mieux le faro!»</l>
           <note anchored="true" place="bottom">1864.</note>
         </lg>
       </div>

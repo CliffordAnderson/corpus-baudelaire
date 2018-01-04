@@ -1,23 +1,23 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- TEI Header begins here... -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <!-- Title element - insert name of poem. If tile starts with an article, leave it off in the title value
-and include the title with the article in a rend attribute. -->
         <title rend="L'AME DU VIN">AME DU VIN</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
-          <!-- Insert your name and XML ID - choose an XML ID for the project and stick with it! -->
+          <resp>Basic Markup</resp>
           <name xml:id="TG">Teresa Gray</name>
         </respStmt>
         <respStmt>
-        	<resp>Critical Apparatus</resp>
-        	<name xml:id="SYC">Sophia Clark</name>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="SYC">Sophia Clark</name>
+        </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -61,9 +61,8 @@ and include the title with the article in a rend attribute. -->
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with
-                                        a portrait of the author drawn and engraved by Felix
-                                        Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
+                    author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
               </monogr>
@@ -101,30 +100,26 @@ Online Distributed Proofreading Team.</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
-  <!-- TEI header ends, text section begins... -->
   <text>
     <body>
       <div type="poem">
         <head>
           <title type="main">L'AME DU VIN</title>
         </head>
-        <!-- Add lg element with type, subtype, and n attributes 
-Add l elemnts with n attributes -->
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">Un soir, l'âme du vin chantait dans les bouteilles :</l>
+          <l n="1">Un soir, l'âme du vin chantait dans les bouteilles:</l>
           <l n="2">
-          	<app>
-          		<lem wit="#U1857">—</lem>
-          		<rdg wit="#FDM1861 #FDM1868"></rdg>
-          	</app>
-          	« Homme, vers toi je pousse, ô cher déshérité,</l>
+            <app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#FDM1861 #FDM1868"/>
+            </app> « Homme, vers toi je pousse, ô cher déshérité,</l>
           <l n="3">Sous ma prison de verre et mes cires vermeilles,</l>
           <l n="4">Un chant plein de lumière et de fraternité!</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Je sais combien il faut, sur la colline en flamme,</l>
           <l n="6">De peine, de sueur et de soleil cuisant</l>
-          <l n="7">Pour engendrer ma vie et pour me donner l'âme ;</l>
+          <l n="7">Pour engendrer ma vie et pour me donner l'âme<app><lem wit="#U1857">:</lem><rdg wit="#FDM1861 #FDM1868">;</rdg></app></l>
           <l n="8">Mais je ne serai point ingrat ni malfaisant,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="3">
@@ -137,11 +132,10 @@ Add l elemnts with n attributes -->
           <l n="13">Entends-tu retentir les refrains des dimanches</l>
           <l n="14">Et l'espoir qui gazouille en mon sein palpitant?</l>
           <l n="15">Les coudes sur la table et retroussant tes manches,</l>
-          <l n="16">Tu me glorifieras et tu seras content
-          	<app>
-          		<lem wit="#U1857">:</lem>
-          		<rdg wit="#FDM1861 #FDM1868">;</rdg>
-          	</app>
+          <l n="16">Tu me glorifieras et tu seras content<app>
+              <lem wit="#U1857">:</lem>
+              <rdg wit="#FDM1861 #FDM1868">;</rdg>
+            </app>
           </l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="5">

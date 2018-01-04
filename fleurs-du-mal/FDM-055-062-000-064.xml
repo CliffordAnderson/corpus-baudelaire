@@ -107,20 +107,32 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title><choice>
+          <title type="main"><choice>
               <orig>MŒSTA</orig>
               <reg>MOESTA</reg>
             </choice> ET ERRABUNDA</title>
         </head>
         <lg type="stanza" subtype="cinquain" n="1">
-          <l n="1">Dis-moi ton coeur parfois s'envole-t-il, Agathe,</l>
-          <l n="2">Loin du noir océan de l'immonde cité</l>
+          <l n="1">Dis-moi, ton <choice>
+              <orig>cœur</orig>
+              <reg>coeur</reg>
+            </choice> parfois s'envole-t-il, Agathe,</l>
+          <l n="2">Loin du noir océan de l'immonde cité,</l>
           <l n="3">Vers un autre océan où la splendeur éclate,</l>
           <l n="4">Bleu, clair, profond, ainsi que la virginité?</l>
-          <l n="5">Dis-moi, ton coeur parfois s'envole-t-il, Agathe?</l>
+          <l n="5">Dis-moi, ton <choice>
+              <orig>cœur</orig>
+              <reg>coeur</reg>
+            </choice> parfois<app>
+              <lem wit="#U1857"/>
+              <rdg wit="#FDM1868">,</rdg>
+            </app> s'envole-t-il, Agathe?</l>
         </lg>
         <lg type="stanza" subtype="cinquain" n="2">
-          <l n="6">La mer la vaste mer, console nos labeurs!</l>
+          <l n="6">La mer la vaste mer<app>
+              <lem wit="#U1857"/>
+              <rdg wit="#FDM1861 #FDM1868">,</rdg>
+            </app> console nos labeurs!</l>
           <l n="7"><app>
               <lem wit="#U1857">—</lem>
               <rdg wit="#FDM1861 #FDM1868"/>
@@ -139,7 +151,7 @@ Online Distributed Proofreading Team.</p>
             </app> console nos labeurs!</l>
         </lg>
         <lg type="stanza" subtype="cinquain" n="3">
-          <l n="11">Emporte-moi wagon! enlève-moi, frégate!</l>
+          <l n="11">Emporte-moi, wagon! enlève-moi, frégate!</l>
           <l n="12">Loin! <app>
               <lem wit="#U1857">—</lem>
               <rdg wit="#FDM1861 #FDM1868"/>
@@ -147,15 +159,24 @@ Online Distributed Proofreading Team.</p>
               <lem wit="#U1857">—</lem>
               <rdg wit="#FDM1861 #FDM1868"/>
             </app>ici la boue est faite de nos pleurs!</l>
-          <l n="13">—Est-il vrai que parfois le triste coeur d'Agathe</l>
+          <l n="13">—Est-il vrai que parfois le triste <choice>
+              <orig>cœur</orig>
+              <reg>coeur</reg>
+            </choice> d'Agathe</l>
           <l n="14">Dise: Loin des remords, des crimes, des douleurs,</l>
           <l n="15">Emporte-moi, wagon, enlève-moi, frégate?</l>
         </lg>
         <lg type="stanza" subtype="cinquain" n="4">
           <l n="16">Comme vous êtes loin, paradis parfumé,</l>
           <l n="17">Où sous un clair azur tout n'est qu'amour et joie,</l>
-          <l n="18">Où tout ce que l'on aime est digne d'être aimé,</l>
-          <l n="19">Où dans la volupté pure le coeur se noie!</l>
+          <l n="18">Où tout ce que l'on aime est digne d'être aimé<app>
+              <lem wit="#U1857">,</lem>
+              <rdg wit="#FDM1868">!</rdg>
+            </app></l>
+          <l n="19">Où dans la volupté pure le <choice>
+              <orig>cœur</orig>
+              <reg>coeur</reg>
+            </choice> se noie!</l>
           <l n="20">Comme vous êtes loin, paradis parfumé!</l>
         </lg>
         <lg type="stanza" subtype="cinquain" n="5">
@@ -178,7 +199,10 @@ Online Distributed Proofreading Team.</p>
               <lem wit="#U1857"/>
               <rdg wit="#FDM1861 #FDM1868">,</rdg>
             </app></l>
-          <l n="29">Et l'animer encor d'une voix argentine,</l>
+          <l n="29">Et l'animer <app>
+              <lem wit="#U1857">encore</lem>
+              <rdg wit="#FDM1861 #FDM1868">encor</rdg>
+            </app> d'une voix argentine,</l>
           <l n="30">L'innocent paradis plein de plaisirs furtifs?</l>
         </lg>
       </div>
